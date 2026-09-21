@@ -8,6 +8,10 @@ A read-only fan page for our ESPN league: daily title and playoff odds, charted 
 - `.github/workflows/update.yml` runs hourly and commits a timestamped prediction snapshot.
   It detects roster moves, trades, player availability/projection changes (including relevant
   non-rostered-player news), and live scoring changes before explaining material odds moves.
+- `python scripts/update.py --backfill` reconstructs hourly points from the post-draft seed through
+  the present using ESPN's retained transaction timestamps and completed scores. Those points are
+  labelled “Reconstructed”: ESPN does not publish an archive of historical hourly projections or
+  injury cards, so the site does not present those inputs as observed facts.
 - `docs/` is the static site served by GitHub Pages (`docs/data/history.json` is the time series).
 
 The league is private, so the Action needs two repo secrets from a logged-in ESPN browser session:

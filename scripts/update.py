@@ -5,7 +5,7 @@ Usage:
   python scripts/update.py                   # live fetch (needs ESPN_S2 + SWID env if league is private)
   python scripts/update.py --backfill        # rebuild the backfilled history points from data/seed/
 """
-import argparse, datetime as dt, json, math, os, random, sys, urllib.request
+import argparse, copy, datetime as dt, json, math, os, random, sys, urllib.request
 from pathlib import Path
 
 from prediction_events import explain_prediction_moves, state_from_league
@@ -133,7 +133,7 @@ def weekly_level(league, week):
     return sum(totals) / len(totals) if any(totals) else 120.0
 
 
-def simulate(league, week, week_started, seed):
+def simulate(league, week, week_started, seed, n_sims=N_SIMS):
     teams = {t["id"]: t for t in league["teams"]}
     sched = league["sched"]
     reg_weeks = max(m[0] for m in sched)
@@ -179,7 +179,7 @@ def simulate(league, week, week_started, seed):
             return banked + rem * (talent[i] / max(mu[i], 1)) + rng.gauss(0, WEEKLY_SD * math.sqrt(min(frac, 1)))
         return rng.gauss(talent[i], WEEKLY_SD)
 
-    for _ in range(N_SIMS):
+    for _ in range(n_sims):
         talent = {i: mu[i] + rng.gauss(0, TALENT_SD) for i in ids}
         w_ = dict(wins); p_ = dict(pf)
         for k, (w, h, a, *_r) in enumerate(todo):
@@ -210,9 +210,9 @@ def simulate(league, week, week_started, seed):
             "id": i, "name": t["name"], "abbrev": t["abbrev"], "logo": t["logo"],
             "wins": rec_w, "losses": rec_l, "pf": round(pf[i], 2),
             "projPerGame": round(proj[i], 1), "strength": round(mu[i], 1),
-            "projWins": round(tot_wins[i] / N_SIMS, 2),
-            "playoff": round(playoff[i] / N_SIMS, 4), "final": round(final_app[i] / N_SIMS, 4),
-            "champ": round(champ[i] / N_SIMS, 4), "topSeed": round(seed1[i] / N_SIMS, 4),
+            "projWins": round(tot_wins[i] / n_sims, 2),
+            "playoff": round(playoff[i] / n_sims, 4), "final": round(final_app[i] / n_sims, 4),
+            "champ": round(champ[i] / n_sims, 4), "topSeed": round(seed1[i] / n_sims, 4),
             "lineup": [{"name": n, "pos": p, "pts": round(v, 1)} for n, p, v in lineups[i]],
         })
     out_teams.sort(key=lambda x: -x["champ"])
@@ -221,7 +221,7 @@ def simulate(league, week, week_started, seed):
     for k, (w, h, a, *_r) in enumerate(todo):
         if w != week:
             continue
-        m = {"home": h, "away": a, "homeWin": round(this_week.get(k, 0) / N_SIMS, 4)}
+        m = {"home": h, "away": a, "homeWin": round(this_week.get(k, 0) / n_sims, 4)}
         if week_started:
             m.update(homePts=round(live[h][0], 2), awayPts=round(live[a][0], 2),
                      homeProj=round(live[h][0] + live[h][1], 1), awayProj=round(live[a][0] + live[a][1], 1))
@@ -266,17 +266,132 @@ def week_started(league, week):
                for t in league["teams"] for p in t["players"] if p[2] not in (BENCH, IR))
 
 
+POST_DRAFT_AT = dt.datetime(2026, 9, 9, 18, tzinfo=dt.timezone.utc)
+WEEK_ONE_CLOSE_AT = dt.datetime(2026, 9, 15, 6, tzinfo=dt.timezone.utc)
+
+
+def _hour(value):
+    return dt.datetime.fromtimestamp(value / 1000, tz=dt.timezone.utc).replace(minute=0, second=0, microsecond=0)
+
+
+def _compact_player(state_player, week):
+    """Create the compact simulator shape for a player added after the draft.
+
+    ESPN retains the activity timestamp and current player card, but not a historical
+    projection-card archive. This deliberately uses the current card and marks the
+    resulting snapshots as reconstructed.
+    """
+    stats = state_player.get("stats") or {}
+    injury = state_player.get("injury") or "ACTIVE"
+    return [state_player.get("name", f"Player {state_player['id']}"), state_player.get("position"), BENCH,
+            stats.get("season"), {str(week): [None, stats.get("projection")]},
+            0 if injury == "ACTIVE" else injury]
+
+
+def _transaction_text(event, players, teams):
+    parts = []
+    for item in event.get("items") or []:
+        player = players.get(str(item.get("playerId")), {})
+        name = player.get("name", f"player {item.get('playerId')}")
+        action = item.get("type", "move").lower()
+        if action == "lineup":
+            parts.append(f"{name}'s lineup was changed")
+        elif action == "add":
+            parts.append(f"{name} was added")
+        elif action == "drop":
+            parts.append(f"{name} was dropped")
+        else:
+            parts.append(f"{name} moved")
+    actor = teams.get(event.get("team"), "A league team")
+    return f"Historical ESPN activity: {actor} " + (", ".join(parts) if parts else event.get("type", "activity").lower()) + "."
+
+
+def _affected_teams(event):
+    affected = {event.get("team")} if event.get("team") else set()
+    for item in event.get("items") or []:
+        affected.update(x for x in (item.get("fromTeamId"), item.get("toTeamId")) if x)
+    return affected
+
+
+def _apply_transaction(league, event, players, week):
+    """Apply roster ownership changes; ESPN does not retain historical lineup slots."""
+    rosters = {team["id"]: team["players"] for team in league["teams"]}
+    for item in event.get("items") or []:
+        player_id = str(item.get("playerId"))
+        action, from_team, to_team = item.get("type"), item.get("fromTeamId"), item.get("toTeamId")
+        if action == "DROP" and from_team in rosters:
+            rosters[from_team][:] = [p for p in rosters[from_team] if p[0] != players.get(player_id, {}).get("name")]
+        elif action == "ADD" and to_team in rosters and player_id in players:
+            name = players[player_id].get("name")
+            if not any(p[0] == name for p in rosters[to_team]):
+                rosters[to_team].append(_compact_player(players[player_id], week))
+        elif action not in ("LINEUP", "ADD", "DROP") and from_team in rosters and to_team in rosters:
+            moving = [p for p in rosters[from_team] if p[0] == players.get(player_id, {}).get("name")]
+            rosters[from_team][:] = [p for p in rosters[from_team] if p not in moving]
+            rosters[to_team].extend(moving)
+
+
 def backfill():
+    """Reconstruct hourly points from the retained ESPN transaction timeline.
+
+    This is intentionally a reconstruction: roster activity and final scores are
+    historical facts, whereas ESPN does not expose archived hourly projections or
+    injury cards. The graph labels all such points accordingly.
+    """
     seed = json.loads((SEED_DIR / "2026-09-21.json").read_text())
-    cur, wk1 = seed["current"], seed["week1"]
+    current, initial = seed["current"], seed["week1"]
+    state = load_json(STATE_FILE)
+    if not state:
+        sys.exit("Cannot backfill without data/state/league-state.json. Run a live update first.")
+    players = state.get("players", {})
+    teams = {team["id"]: team["name"] for team in current["teams"]}
+    events = sorted((event for event in state.get("transactions", {}).values()
+                     if event.get("status") == "EXECUTED" and event.get("at")
+                     and event.get("type") != "TRADE_DECLINE"), key=lambda event: event["at"])
+    now = dt.datetime.now(dt.timezone.utc).replace(minute=0, second=0, microsecond=0)
     history = load_history()
-    undecided = [[*m[:3], 0, 0, "UNDECIDED", m[6]] for m in cur["sched"]]
-    pre = {**wk1, "sched": undecided}
-    record(history, "2026-09-09", "Preseason", simulate(pre, 1, False, 909), backfilled=True)
-    record(history, "2026-09-15", "After week 1", simulate(cur, 2, False, 915), backfilled=True)
-    result = simulate(cur, 2, week_started(cur, 2), 921)
-    record(history, "2026-09-21", "Week 2 (live)", result)
-    save(history, result)
+    # Preserve every live point; replace only our labelled historical reconstruction.
+    history["snapshots"] = [snapshot for snapshot in history["snapshots"] if not snapshot.get("backfilled")]
+
+    league = copy.deepcopy(initial)
+    # The Week 1 seed intentionally contains no completed scores. Keep the known
+    # schedule but remove outcomes for the post-draft forecast.
+    league["sched"] = [[*match[:3], 0, 0, "UNDECIDED", match[6]] for match in current["sched"]]
+    phase_week, phase_started = 1, False
+    by_hour = {}
+    for event in events:
+        at = _hour(event["at"])
+        if POST_DRAFT_AT <= at <= now:
+            by_hour.setdefault(at, []).append(event)
+
+    cursor = POST_DRAFT_AT
+    cached_result = None
+    while cursor <= now:
+        phase_changed = False
+        if cursor >= WEEK_ONE_CLOSE_AT and phase_week == 1:
+            league["sched"] = copy.deepcopy(current["sched"])
+            league["week"] = 2
+            phase_week, phase_started = 2, False
+            phase_changed = True
+        hourly_events = by_hour.get(cursor, [])
+        for event in hourly_events:
+            _apply_transaction(league, event, players, phase_week)
+        # The state is constant between retained activity timestamps, so reuse the
+        # exact result rather than needlessly re-running 20,000 simulations/hour.
+        if cached_result is None or phase_changed or hourly_events:
+            cached_result = simulate(league, phase_week, phase_started, int(cursor.strftime("%Y%m%d%H")), n_sims=5000)
+        changes = {}
+        for event in hourly_events:
+            text = _transaction_text(event, players, teams)
+            for team_id in _affected_teams(event):
+                changes[str(team_id)] = {"cause": "roster_move", "text": text}
+        label = "Post-draft reconstruction" if cursor == POST_DRAFT_AT else f"Reconstructed · {cursor:%d %b %H}:00 UTC"
+        record(history, cursor.date().isoformat(), label, cached_result, backfilled=True,
+               at=cursor.isoformat().replace("+00:00", "Z"), changes=changes)
+        cursor += dt.timedelta(hours=1)
+
+    latest = simulate(current, current["week"], week_started(current, current["week"]), int(now.strftime("%Y%m%d")))
+    save(history, latest)
 
 
 def main():
