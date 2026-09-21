@@ -59,7 +59,7 @@ h1 { font-size: 28px; line-height: 1.15; margin: 0; letter-spacing: -0.02em; }
 .chart { position: relative; }
 .chart svg { display: block; width: 100%; height: auto; overflow: visible; }
 .chart text { font-family: Inter, system-ui, sans-serif; }
-.tip { position: absolute; pointer-events: none; background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 8px 10px; font-size: 12px; box-shadow: 0 4px 16px rgba(0,0,0,.12); min-width: 180px; opacity: 0; transition: opacity .1s; }
+.tip { position: absolute; z-index: 2; pointer-events: none; background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 8px 10px; font-size: 12px; box-shadow: 0 4px 16px rgba(0,0,0,.12); min-width: 180px; opacity: 0; transition: opacity .1s; }
 .tip b { display: block; margin-bottom: 4px; font-size: 12px; }
 .tip .l { display: flex; justify-content: space-between; gap: 12px; color: var(--text-2); }
 .tip .l.on { color: var(--text); font-weight: 600; }
