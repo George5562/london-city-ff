@@ -9,6 +9,7 @@ import argparse, copy, datetime as dt, gzip, json, math, os, random, sys, urllib
 from pathlib import Path
 
 from prediction_events import explain_prediction_moves, state_from_league
+from audit_history import audit
 
 LEAGUE_ID = 227341815
 SEASON = 2026
@@ -483,6 +484,7 @@ def main():
     changes = explain_prediction_moves(previous_result, result, previous_state, state)
     at = now.isoformat().replace("+00:00", "Z")
     record(history, today, f"Week {week} · {now:%H}:00 UTC", result, at=at, changes=changes)
+    history = audit(history, state, load_json(SEED_DIR / "2026-09-21.json"))
     save(history, result)
     STATE_FILE.parent.mkdir(parents=True, exist_ok=True)
     STATE_FILE.write_text(json.dumps(state, separators=(",", ":")))
