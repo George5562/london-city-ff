@@ -189,7 +189,7 @@ def jev_cause(fallback, events):
 
 
 def template(cause, events, delta):
-    for event in events:
+    for event in sorted(events, key=lambda e: e['kind'] not in ('projection', 'actual')):
         player, kind = event.get('player', 'A player'), event['kind']
         before, after = event.get('from'), event.get('to')
         if kind == 'projection' and isinstance(before, (int, float)) and isinstance(after, (int, float)):
@@ -222,6 +222,14 @@ def explain(cause, events, delta):
     return raw.replace("\n", " "), "model"
 
 
+def has_concrete_football_change(events):
+    """Only score/projection evidence merits an odds story, not a coincident event."""
+    return any(e.get('kind') in ('actual', 'projection')
+               and isinstance(e.get('from'), (int, float))
+               and isinstance(e.get('to'), (int, float))
+               and abs(e['to'] - e['from']) >= .1 for e in events)
+
+
 def explain_prediction_moves(before_result, after_result, before_state, after_state):
     """Return one tooltip payload per material team-title-odds move."""
     if not before_result or not before_state:
@@ -238,6 +246,8 @@ def explain_prediction_moves(before_result, after_result, before_state, after_st
         if abs(delta) < 0.005:
             continue
         relevant = _team_events(team["id"], events, after_state)
+        if not has_concrete_football_change(relevant):
+            continue
         names = {t['id']: t.get('name', 'A team') for t in after_result.get('teams', [])}
         for event in relevant:
             if event['kind'] != 'transaction':
@@ -255,5 +265,5 @@ def explain_prediction_moves(before_result, after_result, before_state, after_st
         sentence, written_by = explain(cause, relevant, delta)
         explainers[str(team["id"])] = {"cause": cause, "classifiedBy": classified_by,
             "writtenBy": written_by, "delta": round(delta, 4), "text": sentence,
-            "facts": _fact_lines(relevant)}
+            "facts": _fact_lines(relevant), "showTooltip": True}
     return explainers

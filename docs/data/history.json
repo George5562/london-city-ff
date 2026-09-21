@@ -2134,14 +2134,16 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.017,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.006,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "9": {
@@ -2150,14 +2152,16 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.041,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.13,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "6": {
@@ -2166,7 +2170,8 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.016,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "13": {
@@ -2175,21 +2180,24 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.009,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.025,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.16,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "4": {
@@ -2198,7 +2206,8 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.006,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "1": {
@@ -2207,21 +2216,24 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.025,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.042,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.17,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "2": {
@@ -2230,14 +2242,16 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.044,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.19,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "5": {
@@ -2246,14 +2260,16 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.016,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.13,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "11": {
@@ -2262,14 +2278,16 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.007,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.012,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     }
    }
@@ -6221,14 +6239,16 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.008,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.019,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "9": {
@@ -6237,14 +6257,16 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.008,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.007,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "13": {
@@ -6253,21 +6275,24 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.012,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.037,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.11,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "6": {
@@ -6276,7 +6301,8 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.019,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "1": {
@@ -6285,21 +6311,24 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.019,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.049,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.14,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "4": {
@@ -6308,21 +6337,24 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.009,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.009,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.2,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "2": {
@@ -6331,7 +6363,8 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.008,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "5": {
@@ -6340,21 +6373,24 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.009,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.006,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.12,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "11": {
@@ -6363,14 +6399,16 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.007,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.11,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "12": {
@@ -6379,14 +6417,16 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.01,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.18,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     }
    }
@@ -6618,7 +6658,8 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.019,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "3": {
@@ -6627,21 +6668,24 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.015,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.055,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.21,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "4": {
@@ -6650,21 +6694,24 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.021,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.02,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.2,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "6": {
@@ -6673,14 +6720,16 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.034,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.14,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "13": {
@@ -6689,14 +6738,16 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.014,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.024,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "1": {
@@ -6705,14 +6756,16 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.011,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.009,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "2": {
@@ -6721,7 +6774,8 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.1,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "11": {
@@ -6730,14 +6784,16 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.013,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.005,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "5": {
@@ -6746,14 +6802,16 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.01,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.023,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "12": {
@@ -6762,14 +6820,16 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.009,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.12,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     }
    }
@@ -7049,7 +7109,8 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.005,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "3": {
@@ -7058,14 +7119,16 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.026,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.019,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "13": {
@@ -7074,14 +7137,16 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.019,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.009,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "6": {
@@ -7090,21 +7155,24 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.012,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.024,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.16,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "4": {
@@ -7113,14 +7181,16 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.005,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.005,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "1": {
@@ -7129,7 +7199,8 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.13,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "11": {
@@ -7138,14 +7209,16 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.006,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.012,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "5": {
@@ -7154,14 +7227,16 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.007,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.022,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     }
    }
@@ -8653,7 +8728,8 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.007,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "3": {
@@ -8662,14 +8738,16 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.017,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.009,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "13": {
@@ -8678,14 +8756,16 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.013,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.025,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "4": {
@@ -8694,14 +8774,16 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.026,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.18,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "6": {
@@ -8710,7 +8792,8 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.008,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "2": {
@@ -8719,14 +8802,16 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.014,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.011,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "11": {
@@ -8735,14 +8820,16 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.007,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.014,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "5": {
@@ -8751,14 +8838,16 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.006,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.009,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "12": {
@@ -8767,7 +8856,8 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.018,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     }
    }
@@ -8894,203 +8984,229 @@
     "9": {
      "champ": {
       "cause": "completed_week",
-      "text": "GiantPunt scored 198.7 against Sabre Raiders\u2019s 135.06 in Week 1. The result updates the playoff race, alongside next week\u2019s player forecasts.",
+      "text": "GiantPunt beat Sabre Raiders 198.7\u2013135.1 in Week 1. The win helps their playoff position; points scored also count towards seeding.",
       "confidence": "recorded results; combined model effect",
       "delta": 0.121,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": true
      },
      "playoff": {
       "cause": "completed_week",
-      "text": "GiantPunt scored 198.7 against Sabre Raiders\u2019s 135.06 in Week 1. The result updates the playoff race, alongside next week\u2019s player forecasts.",
+      "text": "GiantPunt beat Sabre Raiders 198.7\u2013135.1 in Week 1. The win helps their playoff position; points scored also count towards seeding.",
       "confidence": "recorded results; combined model effect",
       "delta": 0.256,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": true
      },
      "projWins": {
       "cause": "completed_week",
-      "text": "GiantPunt scored 198.7 against Sabre Raiders\u2019s 135.06 in Week 1. The result updates the playoff race, alongside next week\u2019s player forecasts.",
+      "text": "GiantPunt beat Sabre Raiders 198.7\u2013135.1 in Week 1. The win helps their playoff position; points scored also count towards seeding.",
       "confidence": "recorded results; combined model effect",
       "delta": 1.56,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": true
      }
     },
     "3": {
      "champ": {
       "cause": "completed_week",
-      "text": "Love hurts scored 101.16 against Goats\u2019s 125.56 in Week 1. The result updates the playoff race, alongside next week\u2019s player forecasts.",
+      "text": "Goats beat Love hurts 125.6\u2013101.2 in Week 1. The win helps their playoff position; points scored also count towards seeding.",
       "confidence": "recorded results; combined model effect",
       "delta": 0.022,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": true
      },
      "playoff": {
       "cause": "completed_week",
-      "text": "Love hurts scored 101.16 against Goats\u2019s 125.56 in Week 1. The result updates the playoff race, alongside next week\u2019s player forecasts.",
+      "text": "Goats beat Love hurts 125.6\u2013101.2 in Week 1. The win helps their playoff position; points scored also count towards seeding.",
       "confidence": "recorded results; combined model effect",
       "delta": 0.052,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": true
      },
      "projWins": {
       "cause": "completed_week",
-      "text": "Love hurts scored 101.16 against Goats\u2019s 125.56 in Week 1. The result updates the playoff race, alongside next week\u2019s player forecasts.",
+      "text": "Goats beat Love hurts 125.6\u2013101.2 in Week 1. The win helps their playoff position; points scored also count towards seeding.",
       "confidence": "recorded results; combined model effect",
       "delta": 0.35,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": true
      }
     },
     "13": {
      "champ": {
       "cause": "completed_week",
-      "text": "Salisbury Screamers scored 132.16 against Barnow Bills\u2019s 112.56 in Week 1. The result updates the playoff race, alongside next week\u2019s player forecasts.",
+      "text": "Salisbury Screamers beat Barnow Bills 132.2\u2013112.6 in Week 1. The win helps their playoff position; points scored also count towards seeding.",
       "confidence": "recorded results; combined model effect",
       "delta": -0.013,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": true
      },
      "playoff": {
       "cause": "completed_week",
-      "text": "Salisbury Screamers scored 132.16 against Barnow Bills\u2019s 112.56 in Week 1. The result updates the playoff race, alongside next week\u2019s player forecasts.",
+      "text": "Salisbury Screamers beat Barnow Bills 132.2\u2013112.6 in Week 1. The win helps their playoff position; points scored also count towards seeding.",
       "confidence": "recorded results; combined model effect",
       "delta": 0.048,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": true
      },
      "projWins": {
       "cause": "completed_week",
-      "text": "Salisbury Screamers scored 132.16 against Barnow Bills\u2019s 112.56 in Week 1. The result updates the playoff race, alongside next week\u2019s player forecasts.",
+      "text": "Salisbury Screamers beat Barnow Bills 132.2\u2013112.6 in Week 1. The win helps their playoff position; points scored also count towards seeding.",
       "confidence": "recorded results; combined model effect",
       "delta": 0.39,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": true
      }
     },
     "6": {
      "playoff": {
       "cause": "completed_week",
-      "text": "The Le Chable Dolphins scored 110.2 against Cardigan's Boys\u2019s 109.62 in Week 1. The result updates the playoff race, alongside next week\u2019s player forecasts.",
+      "text": "The Le Chable Dolphins beat Cardigan's Boys 110.2\u2013109.6 in Week 1. The win helps their playoff position; points scored also count towards seeding.",
       "confidence": "recorded results; combined model effect",
       "delta": 0.008,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": true
      }
     },
     "2": {
      "playoff": {
       "cause": "completed_week",
-      "text": "GiantPunt scored 198.7 against Sabre Raiders\u2019s 135.06 in Week 1. The result updates the playoff race, alongside next week\u2019s player forecasts.",
+      "text": "Sabre Raiders lost to GiantPunt 135.1\u2013198.7 in Week 1. The loss hurts their playoff position; points scored also count towards seeding.",
       "confidence": "recorded results; combined model effect",
       "delta": -0.022,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": true
      },
      "projWins": {
       "cause": "completed_week",
-      "text": "GiantPunt scored 198.7 against Sabre Raiders\u2019s 135.06 in Week 1. The result updates the playoff race, alongside next week\u2019s player forecasts.",
+      "text": "Sabre Raiders lost to GiantPunt 135.1\u2013198.7 in Week 1. The loss hurts their playoff position; points scored also count towards seeding.",
       "confidence": "recorded results; combined model effect",
       "delta": -0.23,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": true
      }
     },
     "1": {
      "champ": {
       "cause": "completed_week",
-      "text": "Wiltshire Warriors scored 102.32 against Knights who say Ni\u2019s 104.46 in Week 1. The result updates the playoff race, alongside next week\u2019s player forecasts.",
+      "text": "Knights who say Ni beat Wiltshire Warriors 104.5\u2013102.3 in Week 1. The win helps their playoff position; points scored also count towards seeding.",
       "confidence": "recorded results; combined model effect",
       "delta": -0.022,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": true
      },
      "playoff": {
       "cause": "completed_week",
-      "text": "Wiltshire Warriors scored 102.32 against Knights who say Ni\u2019s 104.46 in Week 1. The result updates the playoff race, alongside next week\u2019s player forecasts.",
+      "text": "Knights who say Ni beat Wiltshire Warriors 104.5\u2013102.3 in Week 1. The win helps their playoff position; points scored also count towards seeding.",
       "confidence": "recorded results; combined model effect",
       "delta": -0.014,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": true
      },
      "projWins": {
       "cause": "completed_week",
-      "text": "Wiltshire Warriors scored 102.32 against Knights who say Ni\u2019s 104.46 in Week 1. The result updates the playoff race, alongside next week\u2019s player forecasts.",
+      "text": "Knights who say Ni beat Wiltshire Warriors 104.5\u2013102.3 in Week 1. The win helps their playoff position; points scored also count towards seeding.",
       "confidence": "recorded results; combined model effect",
       "delta": 0.23,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": true
      }
     },
     "4": {
      "champ": {
       "cause": "completed_week",
-      "text": "Wiltshire Warriors scored 102.32 against Knights who say Ni\u2019s 104.46 in Week 1. The result updates the playoff race, alongside next week\u2019s player forecasts.",
+      "text": "Wiltshire Warriors lost to Knights who say Ni 102.3\u2013104.5 in Week 1. The loss hurts their playoff position; points scored also count towards seeding.",
       "confidence": "recorded results; combined model effect",
       "delta": -0.076,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": true
      },
      "playoff": {
       "cause": "completed_week",
-      "text": "Wiltshire Warriors scored 102.32 against Knights who say Ni\u2019s 104.46 in Week 1. The result updates the playoff race, alongside next week\u2019s player forecasts.",
+      "text": "Wiltshire Warriors lost to Knights who say Ni 102.3\u2013104.5 in Week 1. The loss hurts their playoff position; points scored also count towards seeding.",
       "confidence": "recorded results; combined model effect",
       "delta": -0.172,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": true
      },
      "projWins": {
       "cause": "completed_week",
-      "text": "Wiltshire Warriors scored 102.32 against Knights who say Ni\u2019s 104.46 in Week 1. The result updates the playoff race, alongside next week\u2019s player forecasts.",
+      "text": "Wiltshire Warriors lost to Knights who say Ni 102.3\u2013104.5 in Week 1. The loss hurts their playoff position; points scored also count towards seeding.",
       "confidence": "recorded results; combined model effect",
       "delta": -0.92,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": true
      }
     },
     "5": {
      "champ": {
       "cause": "completed_week",
-      "text": "Love hurts scored 101.16 against Goats\u2019s 125.56 in Week 1. The result updates the playoff race, alongside next week\u2019s player forecasts.",
+      "text": "Love hurts lost to Goats 101.2\u2013125.6 in Week 1. The loss hurts their playoff position; points scored also count towards seeding.",
       "confidence": "recorded results; combined model effect",
       "delta": -0.014,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": true
      },
      "playoff": {
       "cause": "completed_week",
-      "text": "Love hurts scored 101.16 against Goats\u2019s 125.56 in Week 1. The result updates the playoff race, alongside next week\u2019s player forecasts.",
+      "text": "Love hurts lost to Goats 101.2\u2013125.6 in Week 1. The loss hurts their playoff position; points scored also count towards seeding.",
       "confidence": "recorded results; combined model effect",
       "delta": -0.093,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": true
      },
      "projWins": {
       "cause": "completed_week",
-      "text": "Love hurts scored 101.16 against Goats\u2019s 125.56 in Week 1. The result updates the playoff race, alongside next week\u2019s player forecasts.",
+      "text": "Love hurts lost to Goats 101.2\u2013125.6 in Week 1. The loss hurts their playoff position; points scored also count towards seeding.",
       "confidence": "recorded results; combined model effect",
       "delta": -0.73,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": true
      }
     },
     "11": {
      "champ": {
       "cause": "completed_week",
-      "text": "Salisbury Screamers scored 132.16 against Barnow Bills\u2019s 112.56 in Week 1. The result updates the playoff race, alongside next week\u2019s player forecasts.",
+      "text": "Barnow Bills lost to Salisbury Screamers 112.6\u2013132.2 in Week 1. The loss hurts their playoff position; points scored also count towards seeding.",
       "confidence": "recorded results; combined model effect",
       "delta": -0.018,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": true
      },
      "playoff": {
       "cause": "completed_week",
-      "text": "Salisbury Screamers scored 132.16 against Barnow Bills\u2019s 112.56 in Week 1. The result updates the playoff race, alongside next week\u2019s player forecasts.",
+      "text": "Barnow Bills lost to Salisbury Screamers 112.6\u2013132.2 in Week 1. The loss hurts their playoff position; points scored also count towards seeding.",
       "confidence": "recorded results; combined model effect",
       "delta": -0.074,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": true
      },
      "projWins": {
       "cause": "completed_week",
-      "text": "Salisbury Screamers scored 132.16 against Barnow Bills\u2019s 112.56 in Week 1. The result updates the playoff race, alongside next week\u2019s player forecasts.",
+      "text": "Barnow Bills lost to Salisbury Screamers 112.6\u2013132.2 in Week 1. The loss hurts their playoff position; points scored also count towards seeding.",
       "confidence": "recorded results; combined model effect",
       "delta": -0.58,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": true
      }
     },
     "12": {
      "playoff": {
       "cause": "completed_week",
-      "text": "The Le Chable Dolphins scored 110.2 against Cardigan's Boys\u2019s 109.62 in Week 1. The result updates the playoff race, alongside next week\u2019s player forecasts.",
+      "text": "Cardigan's Boys lost to The Le Chable Dolphins 109.6\u2013110.2 in Week 1. The loss hurts their playoff position; points scored also count towards seeding.",
       "confidence": "recorded results; combined model effect",
       "delta": 0.011,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": true
      },
      "projWins": {
       "cause": "completed_week",
-      "text": "The Le Chable Dolphins scored 110.2 against Cardigan's Boys\u2019s 109.62 in Week 1. The result updates the playoff race, alongside next week\u2019s player forecasts.",
+      "text": "Cardigan's Boys lost to The Le Chable Dolphins 109.6\u2013110.2 in Week 1. The loss hurts their playoff position; points scored also count towards seeding.",
       "confidence": "recorded results; combined model effect",
       "delta": -0.13,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": true
      }
     }
    }
@@ -9166,21 +9282,24 @@
       "text": "Sabre Raiders added Deebo Samuel Sr.; Sabre Raiders dropped Tre Tucker. No direct effect on GiantPunt\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.06,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "roster_recalculation",
       "text": "Sabre Raiders added Deebo Samuel Sr.; Sabre Raiders dropped Tre Tucker. No direct effect on GiantPunt\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.074,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "roster_recalculation",
       "text": "Sabre Raiders added Deebo Samuel Sr.; Sabre Raiders dropped Tre Tucker. No direct effect on GiantPunt\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.77,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "13": {
@@ -9189,21 +9308,24 @@
       "text": "Sabre Raiders added Deebo Samuel Sr.; Sabre Raiders dropped Tre Tucker. No direct effect on Salisbury Screamers\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.011,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "roster_recalculation",
       "text": "Sabre Raiders added Deebo Samuel Sr.; Sabre Raiders dropped Tre Tucker. No direct effect on Salisbury Screamers\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.04,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "roster_recalculation",
       "text": "Sabre Raiders added Deebo Samuel Sr.; Sabre Raiders dropped Tre Tucker. No direct effect on Salisbury Screamers\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.36,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "6": {
@@ -9212,21 +9334,24 @@
       "text": "Sabre Raiders added Deebo Samuel Sr.; Sabre Raiders dropped Tre Tucker. No direct effect on The Le Chable Dolphins\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.009,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "roster_recalculation",
       "text": "Sabre Raiders added Deebo Samuel Sr.; Sabre Raiders dropped Tre Tucker. No direct effect on The Le Chable Dolphins\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.07,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "roster_recalculation",
       "text": "Sabre Raiders added Deebo Samuel Sr.; Sabre Raiders dropped Tre Tucker. No direct effect on The Le Chable Dolphins\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.33,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "3": {
@@ -9235,21 +9360,24 @@
       "text": "Sabre Raiders added Deebo Samuel Sr.; Sabre Raiders dropped Tre Tucker. No direct effect on Goats\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.086,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "roster_recalculation",
       "text": "Sabre Raiders added Deebo Samuel Sr.; Sabre Raiders dropped Tre Tucker. No direct effect on Goats\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.192,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "roster_recalculation",
       "text": "Sabre Raiders added Deebo Samuel Sr.; Sabre Raiders dropped Tre Tucker. No direct effect on Goats\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.96,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "1": {
@@ -9258,21 +9386,24 @@
       "text": "Sabre Raiders added Deebo Samuel Sr.; Sabre Raiders dropped Tre Tucker. No direct effect on Knights who say Ni\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.024,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "roster_recalculation",
       "text": "Sabre Raiders added Deebo Samuel Sr.; Sabre Raiders dropped Tre Tucker. No direct effect on Knights who say Ni\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.012,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "roster_recalculation",
       "text": "Sabre Raiders added Deebo Samuel Sr.; Sabre Raiders dropped Tre Tucker. No direct effect on Knights who say Ni\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.14,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "2": {
@@ -9281,14 +9412,16 @@
       "text": "Sabre Raiders added Deebo Samuel Sr.; Sabre Raiders dropped Tre Tucker. The roster options changed, but a stronger or weaker starting lineup is not confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.008,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "roster_recalculation",
       "text": "Sabre Raiders added Deebo Samuel Sr.; Sabre Raiders dropped Tre Tucker. The roster options changed, but a stronger or weaker starting lineup is not confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.041,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "5": {
@@ -9297,21 +9430,24 @@
       "text": "Sabre Raiders added Deebo Samuel Sr.; Sabre Raiders dropped Tre Tucker. No direct effect on Love hurts\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.034,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "roster_recalculation",
       "text": "Sabre Raiders added Deebo Samuel Sr.; Sabre Raiders dropped Tre Tucker. No direct effect on Love hurts\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.071,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "roster_recalculation",
       "text": "Sabre Raiders added Deebo Samuel Sr.; Sabre Raiders dropped Tre Tucker. No direct effect on Love hurts\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.39,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "11": {
@@ -9320,21 +9456,24 @@
       "text": "Sabre Raiders added Deebo Samuel Sr.; Sabre Raiders dropped Tre Tucker. No direct effect on Barnow Bills\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.033,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "roster_recalculation",
       "text": "Sabre Raiders added Deebo Samuel Sr.; Sabre Raiders dropped Tre Tucker. No direct effect on Barnow Bills\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.081,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "roster_recalculation",
       "text": "Sabre Raiders added Deebo Samuel Sr.; Sabre Raiders dropped Tre Tucker. No direct effect on Barnow Bills\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.42,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "4": {
@@ -9343,14 +9482,16 @@
       "text": "Sabre Raiders added Deebo Samuel Sr.; Sabre Raiders dropped Tre Tucker. No direct effect on Wiltshire Warriors\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.015,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "roster_recalculation",
       "text": "Sabre Raiders added Deebo Samuel Sr.; Sabre Raiders dropped Tre Tucker. No direct effect on Wiltshire Warriors\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.15,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "12": {
@@ -9359,21 +9500,24 @@
       "text": "Sabre Raiders added Deebo Samuel Sr.; Sabre Raiders dropped Tre Tucker. No direct effect on Cardigan's Boys\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.042,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "roster_recalculation",
       "text": "Sabre Raiders added Deebo Samuel Sr.; Sabre Raiders dropped Tre Tucker. No direct effect on Cardigan's Boys\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.186,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "roster_recalculation",
       "text": "Sabre Raiders added Deebo Samuel Sr.; Sabre Raiders dropped Tre Tucker. No direct effect on Cardigan's Boys\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 1.91,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     }
    }
@@ -10177,14 +10321,16 @@
       "text": "Goats added Jalen Coker; Goats dropped Jacory Croskey-Merritt. No direct effect on GiantPunt\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.04,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "roster_recalculation",
       "text": "Goats added Jalen Coker; Goats dropped Jacory Croskey-Merritt. No direct effect on GiantPunt\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.018,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "3": {
@@ -10193,21 +10339,24 @@
       "text": "Goats added Jalen Coker; Goats dropped Jacory Croskey-Merritt. The roster options changed, but a stronger or weaker starting lineup is not confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.021,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "roster_recalculation",
       "text": "Goats added Jalen Coker; Goats dropped Jacory Croskey-Merritt. The roster options changed, but a stronger or weaker starting lineup is not confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.047,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "roster_recalculation",
       "text": "Goats added Jalen Coker; Goats dropped Jacory Croskey-Merritt. The roster options changed, but a stronger or weaker starting lineup is not confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.2,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "13": {
@@ -10216,7 +10365,8 @@
       "text": "Goats added Jalen Coker; Goats dropped Jacory Croskey-Merritt. No direct effect on Salisbury Screamers\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.023,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "2": {
@@ -10225,14 +10375,16 @@
       "text": "Goats added Jalen Coker; Goats dropped Jacory Croskey-Merritt. No direct effect on Sabre Raiders\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.014,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "roster_recalculation",
       "text": "Goats added Jalen Coker; Goats dropped Jacory Croskey-Merritt. No direct effect on Sabre Raiders\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.011,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "6": {
@@ -10241,14 +10393,16 @@
       "text": "Goats added Jalen Coker; Goats dropped Jacory Croskey-Merritt. No direct effect on The Le Chable Dolphins\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.011,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "roster_recalculation",
       "text": "Goats added Jalen Coker; Goats dropped Jacory Croskey-Merritt. No direct effect on The Le Chable Dolphins\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.019,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "1": {
@@ -10257,14 +10411,16 @@
       "text": "Goats added Jalen Coker; Goats dropped Jacory Croskey-Merritt. No direct effect on Knights who say Ni\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.009,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "roster_recalculation",
       "text": "Goats added Jalen Coker; Goats dropped Jacory Croskey-Merritt. No direct effect on Knights who say Ni\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.014,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "4": {
@@ -10273,7 +10429,8 @@
       "text": "Goats added Jalen Coker; Goats dropped Jacory Croskey-Merritt. No direct effect on Wiltshire Warriors\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.01,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "11": {
@@ -10282,7 +10439,8 @@
       "text": "Goats added Jalen Coker; Goats dropped Jacory Croskey-Merritt. No direct effect on Barnow Bills\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.006,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "5": {
@@ -10291,14 +10449,16 @@
       "text": "Goats added Jalen Coker; Goats dropped Jacory Croskey-Merritt. No direct effect on Love hurts\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.02,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "roster_recalculation",
       "text": "Goats added Jalen Coker; Goats dropped Jacory Croskey-Merritt. No direct effect on Love hurts\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.023,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "12": {
@@ -10307,21 +10467,24 @@
       "text": "Goats added Jalen Coker; Goats dropped Jacory Croskey-Merritt. No direct effect on Cardigan's Boys\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.018,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "roster_recalculation",
       "text": "Goats added Jalen Coker; Goats dropped Jacory Croskey-Merritt. No direct effect on Cardigan's Boys\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.035,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "roster_recalculation",
       "text": "Goats added Jalen Coker; Goats dropped Jacory Croskey-Merritt. No direct effect on Cardigan's Boys\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.13,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     }
    }
@@ -10937,21 +11100,24 @@
       "text": "GiantPunt added Buccaneers D/ST; GiantPunt dropped Jaguars D/ST. The roster options changed, but a stronger or weaker starting lineup is not confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.03,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "roster_recalculation",
       "text": "GiantPunt added Buccaneers D/ST; GiantPunt dropped Jaguars D/ST. The roster options changed, but a stronger or weaker starting lineup is not confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.02,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "roster_recalculation",
       "text": "GiantPunt added Buccaneers D/ST; GiantPunt dropped Jaguars D/ST. The roster options changed, but a stronger or weaker starting lineup is not confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.12,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "3": {
@@ -10960,14 +11126,16 @@
       "text": "GiantPunt added Buccaneers D/ST; GiantPunt dropped Jaguars D/ST. No direct effect on Goats\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.025,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "roster_recalculation",
       "text": "GiantPunt added Buccaneers D/ST; GiantPunt dropped Jaguars D/ST. No direct effect on Goats\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.011,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "13": {
@@ -10976,14 +11144,16 @@
       "text": "GiantPunt added Buccaneers D/ST; GiantPunt dropped Jaguars D/ST. No direct effect on Salisbury Screamers\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.013,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "roster_recalculation",
       "text": "GiantPunt added Buccaneers D/ST; GiantPunt dropped Jaguars D/ST. No direct effect on Salisbury Screamers\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.015,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "1": {
@@ -10992,14 +11162,16 @@
       "text": "GiantPunt added Buccaneers D/ST; GiantPunt dropped Jaguars D/ST. No direct effect on Knights who say Ni\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.029,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "roster_recalculation",
       "text": "GiantPunt added Buccaneers D/ST; GiantPunt dropped Jaguars D/ST. No direct effect on Knights who say Ni\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.16,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "2": {
@@ -11008,14 +11180,16 @@
       "text": "GiantPunt added Buccaneers D/ST; GiantPunt dropped Jaguars D/ST. No direct effect on Sabre Raiders\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.008,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "roster_recalculation",
       "text": "GiantPunt added Buccaneers D/ST; GiantPunt dropped Jaguars D/ST. No direct effect on Sabre Raiders\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.015,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "6": {
@@ -11024,14 +11198,16 @@
       "text": "GiantPunt added Buccaneers D/ST; GiantPunt dropped Jaguars D/ST. No direct effect on The Le Chable Dolphins\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.024,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "roster_recalculation",
       "text": "GiantPunt added Buccaneers D/ST; GiantPunt dropped Jaguars D/ST. No direct effect on The Le Chable Dolphins\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.02,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "11": {
@@ -11040,21 +11216,24 @@
       "text": "GiantPunt added Buccaneers D/ST; GiantPunt dropped Jaguars D/ST. No direct effect on Barnow Bills\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.013,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "roster_recalculation",
       "text": "GiantPunt added Buccaneers D/ST; GiantPunt dropped Jaguars D/ST. No direct effect on Barnow Bills\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.017,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "roster_recalculation",
       "text": "GiantPunt added Buccaneers D/ST; GiantPunt dropped Jaguars D/ST. No direct effect on Barnow Bills\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.11,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "5": {
@@ -11063,14 +11242,16 @@
       "text": "GiantPunt added Buccaneers D/ST; GiantPunt dropped Jaguars D/ST. No direct effect on Love hurts\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.014,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "roster_recalculation",
       "text": "GiantPunt added Buccaneers D/ST; GiantPunt dropped Jaguars D/ST. No direct effect on Love hurts\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.019,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "4": {
@@ -11079,14 +11260,16 @@
       "text": "GiantPunt added Buccaneers D/ST; GiantPunt dropped Jaguars D/ST. No direct effect on Wiltshire Warriors\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.012,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "roster_recalculation",
       "text": "GiantPunt added Buccaneers D/ST; GiantPunt dropped Jaguars D/ST. No direct effect on Wiltshire Warriors\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.005,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "12": {
@@ -11095,21 +11278,24 @@
       "text": "GiantPunt added Buccaneers D/ST; GiantPunt dropped Jaguars D/ST. No direct effect on Cardigan's Boys\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.008,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "roster_recalculation",
       "text": "GiantPunt added Buccaneers D/ST; GiantPunt dropped Jaguars D/ST. No direct effect on Cardigan's Boys\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.017,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "roster_recalculation",
       "text": "GiantPunt added Buccaneers D/ST; GiantPunt dropped Jaguars D/ST. No direct effect on Cardigan's Boys\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.11,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     }
    }
@@ -11965,14 +12151,16 @@
       "text": "Knights who say Ni added Devaughn Vele; Knights who say Ni dropped Juwan Johnson; Knights who say Ni added Jacory Croskey-Merritt; Knights who say Ni added Chiefs D/ST. No direct effect on GiantPunt\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.032,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "roster_recalculation",
       "text": "Knights who say Ni added Devaughn Vele; Knights who say Ni dropped Juwan Johnson; Knights who say Ni added Jacory Croskey-Merritt; Knights who say Ni added Chiefs D/ST. No direct effect on GiantPunt\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.021,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "3": {
@@ -11981,14 +12169,16 @@
       "text": "Knights who say Ni added Devaughn Vele; Knights who say Ni dropped Juwan Johnson; Knights who say Ni added Jacory Croskey-Merritt; Knights who say Ni added Chiefs D/ST. No direct effect on Goats\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.025,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "roster_recalculation",
       "text": "Knights who say Ni added Devaughn Vele; Knights who say Ni dropped Juwan Johnson; Knights who say Ni added Jacory Croskey-Merritt; Knights who say Ni added Chiefs D/ST. No direct effect on Goats\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.01,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "13": {
@@ -11997,21 +12187,24 @@
       "text": "Knights who say Ni added Devaughn Vele; Knights who say Ni dropped Juwan Johnson; Knights who say Ni added Jacory Croskey-Merritt; Knights who say Ni added Chiefs D/ST. No direct effect on Salisbury Screamers\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.014,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "roster_recalculation",
       "text": "Knights who say Ni added Devaughn Vele; Knights who say Ni dropped Juwan Johnson; Knights who say Ni added Jacory Croskey-Merritt; Knights who say Ni added Chiefs D/ST. No direct effect on Salisbury Screamers\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.035,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "roster_recalculation",
       "text": "Knights who say Ni added Devaughn Vele; Knights who say Ni dropped Juwan Johnson; Knights who say Ni added Jacory Croskey-Merritt; Knights who say Ni added Chiefs D/ST. No direct effect on Salisbury Screamers\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.2,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "6": {
@@ -12020,21 +12213,24 @@
       "text": "Knights who say Ni added Devaughn Vele; Knights who say Ni dropped Juwan Johnson; Knights who say Ni added Jacory Croskey-Merritt; Knights who say Ni added Chiefs D/ST. No direct effect on The Le Chable Dolphins\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.024,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "roster_recalculation",
       "text": "Knights who say Ni added Devaughn Vele; Knights who say Ni dropped Juwan Johnson; Knights who say Ni added Jacory Croskey-Merritt; Knights who say Ni added Chiefs D/ST. No direct effect on The Le Chable Dolphins\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.021,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "roster_recalculation",
       "text": "Knights who say Ni added Devaughn Vele; Knights who say Ni dropped Juwan Johnson; Knights who say Ni added Jacory Croskey-Merritt; Knights who say Ni added Chiefs D/ST. No direct effect on The Le Chable Dolphins\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.1,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "1": {
@@ -12043,21 +12239,24 @@
       "text": "Knights who say Ni added Devaughn Vele; Knights who say Ni dropped Juwan Johnson; Knights who say Ni added Jacory Croskey-Merritt; Knights who say Ni added Chiefs D/ST. The roster options changed, but a stronger or weaker starting lineup is not confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.01,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "roster_recalculation",
       "text": "Knights who say Ni added Devaughn Vele; Knights who say Ni dropped Juwan Johnson; Knights who say Ni added Jacory Croskey-Merritt; Knights who say Ni added Chiefs D/ST. The roster options changed, but a stronger or weaker starting lineup is not confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.04,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "roster_recalculation",
       "text": "Knights who say Ni added Devaughn Vele; Knights who say Ni dropped Juwan Johnson; Knights who say Ni added Jacory Croskey-Merritt; Knights who say Ni added Chiefs D/ST. The roster options changed, but a stronger or weaker starting lineup is not confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.18,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "2": {
@@ -12066,21 +12265,24 @@
       "text": "Knights who say Ni added Devaughn Vele; Knights who say Ni dropped Juwan Johnson; Knights who say Ni added Jacory Croskey-Merritt; Knights who say Ni added Chiefs D/ST. No direct effect on Sabre Raiders\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.017,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "roster_recalculation",
       "text": "Knights who say Ni added Devaughn Vele; Knights who say Ni dropped Juwan Johnson; Knights who say Ni added Jacory Croskey-Merritt; Knights who say Ni added Chiefs D/ST. No direct effect on Sabre Raiders\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.035,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "roster_recalculation",
       "text": "Knights who say Ni added Devaughn Vele; Knights who say Ni dropped Juwan Johnson; Knights who say Ni added Jacory Croskey-Merritt; Knights who say Ni added Chiefs D/ST. No direct effect on Sabre Raiders\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.12,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "5": {
@@ -12089,7 +12291,8 @@
       "text": "Knights who say Ni added Devaughn Vele; Knights who say Ni dropped Juwan Johnson; Knights who say Ni added Jacory Croskey-Merritt; Knights who say Ni added Chiefs D/ST. No direct effect on Love hurts\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.025,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "4": {
@@ -12098,7 +12301,8 @@
       "text": "Knights who say Ni added Devaughn Vele; Knights who say Ni dropped Juwan Johnson; Knights who say Ni added Jacory Croskey-Merritt; Knights who say Ni added Chiefs D/ST. No direct effect on Wiltshire Warriors\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.015,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "12": {
@@ -12107,14 +12311,16 @@
       "text": "Knights who say Ni added Devaughn Vele; Knights who say Ni dropped Juwan Johnson; Knights who say Ni added Jacory Croskey-Merritt; Knights who say Ni added Chiefs D/ST. No direct effect on Cardigan's Boys\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.007,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "roster_recalculation",
       "text": "Knights who say Ni added Devaughn Vele; Knights who say Ni dropped Juwan Johnson; Knights who say Ni added Jacory Croskey-Merritt; Knights who say Ni added Chiefs D/ST. No direct effect on Cardigan's Boys\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.026,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     }
    }
@@ -12190,21 +12396,24 @@
       "text": "Wiltshire Warriors added 49ers D/ST; Wiltshire Warriors dropped Steelers D/ST. No direct effect on GiantPunt\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.021,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "roster_recalculation",
       "text": "Wiltshire Warriors added 49ers D/ST; Wiltshire Warriors dropped Steelers D/ST. No direct effect on GiantPunt\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.016,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "roster_recalculation",
       "text": "Wiltshire Warriors added 49ers D/ST; Wiltshire Warriors dropped Steelers D/ST. No direct effect on GiantPunt\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.1,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "3": {
@@ -12213,14 +12422,16 @@
       "text": "Wiltshire Warriors added 49ers D/ST; Wiltshire Warriors dropped Steelers D/ST. No direct effect on Goats\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.021,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "roster_recalculation",
       "text": "Wiltshire Warriors added 49ers D/ST; Wiltshire Warriors dropped Steelers D/ST. No direct effect on Goats\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.007,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "13": {
@@ -12229,21 +12440,24 @@
       "text": "Wiltshire Warriors added 49ers D/ST; Wiltshire Warriors dropped Steelers D/ST. No direct effect on Salisbury Screamers\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.012,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "roster_recalculation",
       "text": "Wiltshire Warriors added 49ers D/ST; Wiltshire Warriors dropped Steelers D/ST. No direct effect on Salisbury Screamers\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.038,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "roster_recalculation",
       "text": "Wiltshire Warriors added 49ers D/ST; Wiltshire Warriors dropped Steelers D/ST. No direct effect on Salisbury Screamers\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.24,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "6": {
@@ -12252,14 +12466,16 @@
       "text": "Wiltshire Warriors added 49ers D/ST; Wiltshire Warriors dropped Steelers D/ST. No direct effect on The Le Chable Dolphins\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.014,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "roster_recalculation",
       "text": "Wiltshire Warriors added 49ers D/ST; Wiltshire Warriors dropped Steelers D/ST. No direct effect on The Le Chable Dolphins\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.13,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "2": {
@@ -12268,21 +12484,24 @@
       "text": "Wiltshire Warriors added 49ers D/ST; Wiltshire Warriors dropped Steelers D/ST. No direct effect on Sabre Raiders\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.012,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "roster_recalculation",
       "text": "Wiltshire Warriors added 49ers D/ST; Wiltshire Warriors dropped Steelers D/ST. No direct effect on Sabre Raiders\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.024,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "roster_recalculation",
       "text": "Wiltshire Warriors added 49ers D/ST; Wiltshire Warriors dropped Steelers D/ST. No direct effect on Sabre Raiders\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.15,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "1": {
@@ -12291,7 +12510,8 @@
       "text": "Wiltshire Warriors added 49ers D/ST; Wiltshire Warriors dropped Steelers D/ST. No direct effect on Knights who say Ni\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.008,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "11": {
@@ -12300,7 +12520,8 @@
       "text": "Wiltshire Warriors added 49ers D/ST; Wiltshire Warriors dropped Steelers D/ST. No direct effect on Barnow Bills\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.01,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "4": {
@@ -12309,14 +12530,16 @@
       "text": "Wiltshire Warriors added 49ers D/ST; Wiltshire Warriors dropped Steelers D/ST. The roster options changed, but a stronger or weaker starting lineup is not confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.006,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "roster_recalculation",
       "text": "Wiltshire Warriors added 49ers D/ST; Wiltshire Warriors dropped Steelers D/ST. The roster options changed, but a stronger or weaker starting lineup is not confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.01,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "5": {
@@ -12325,21 +12548,24 @@
       "text": "Wiltshire Warriors added 49ers D/ST; Wiltshire Warriors dropped Steelers D/ST. No direct effect on Love hurts\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.01,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "roster_recalculation",
       "text": "Wiltshire Warriors added 49ers D/ST; Wiltshire Warriors dropped Steelers D/ST. No direct effect on Love hurts\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.018,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "roster_recalculation",
       "text": "Wiltshire Warriors added 49ers D/ST; Wiltshire Warriors dropped Steelers D/ST. No direct effect on Love hurts\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.12,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "12": {
@@ -12348,14 +12574,16 @@
       "text": "Wiltshire Warriors added 49ers D/ST; Wiltshire Warriors dropped Steelers D/ST. No direct effect on Cardigan's Boys\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.047,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "roster_recalculation",
       "text": "Wiltshire Warriors added 49ers D/ST; Wiltshire Warriors dropped Steelers D/ST. No direct effect on Cardigan's Boys\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.22,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     }
    }
@@ -13031,14 +13259,16 @@
       "text": "GiantPunt added Kaelon Black. The roster options changed, but a stronger or weaker starting lineup is not confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.012,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "roster_recalculation",
       "text": "GiantPunt added Kaelon Black. The roster options changed, but a stronger or weaker starting lineup is not confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.1,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "13": {
@@ -13047,14 +13277,16 @@
       "text": "GiantPunt added Kaelon Black. No direct effect on Salisbury Screamers\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.018,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "roster_recalculation",
       "text": "GiantPunt added Kaelon Black. No direct effect on Salisbury Screamers\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.007,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "3": {
@@ -13063,21 +13295,24 @@
       "text": "GiantPunt added Kaelon Black. No direct effect on Goats\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.005,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "roster_recalculation",
       "text": "GiantPunt added Kaelon Black. No direct effect on Goats\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.059,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "roster_recalculation",
       "text": "GiantPunt added Kaelon Black. No direct effect on Goats\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.15,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "1": {
@@ -13086,14 +13321,16 @@
       "text": "GiantPunt added Kaelon Black. No direct effect on Knights who say Ni\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.026,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "roster_recalculation",
       "text": "GiantPunt added Kaelon Black. No direct effect on Knights who say Ni\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.037,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "2": {
@@ -13102,14 +13339,16 @@
       "text": "GiantPunt added Kaelon Black. No direct effect on Sabre Raiders\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.01,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "roster_recalculation",
       "text": "GiantPunt added Kaelon Black. No direct effect on Sabre Raiders\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.1,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "6": {
@@ -13118,7 +13357,8 @@
       "text": "GiantPunt added Kaelon Black. No direct effect on The Le Chable Dolphins\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.019,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "11": {
@@ -13127,7 +13367,8 @@
       "text": "GiantPunt added Kaelon Black. No direct effect on Barnow Bills\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.007,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "5": {
@@ -13136,7 +13377,8 @@
       "text": "GiantPunt added Kaelon Black. No direct effect on Love hurts\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.01,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "4": {
@@ -13145,14 +13387,16 @@
       "text": "GiantPunt added Kaelon Black. No direct effect on Wiltshire Warriors\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.012,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "roster_recalculation",
       "text": "GiantPunt added Kaelon Black. No direct effect on Wiltshire Warriors\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.025,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "12": {
@@ -13161,7 +13405,8 @@
       "text": "GiantPunt added Kaelon Black. No direct effect on Cardigan's Boys\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.009,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     }
    }
@@ -14137,14 +14382,16 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.011,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.012,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "13": {
@@ -14153,14 +14400,16 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.018,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.009,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "3": {
@@ -14169,14 +14418,16 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.014,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.023,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "6": {
@@ -14185,14 +14436,16 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.028,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.012,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "2": {
@@ -14201,21 +14454,24 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.011,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.029,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.1,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "1": {
@@ -14224,14 +14480,16 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.035,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.16,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "11": {
@@ -14240,21 +14498,24 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.007,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.013,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.19,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "5": {
@@ -14263,14 +14524,16 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.005,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.015,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "4": {
@@ -14279,14 +14542,16 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.008,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.017,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     }
    }
@@ -14482,21 +14747,24 @@
       "text": "Barnow Bills added Dontayvion Wicks; Barnow Bills dropped Blake Corum. No direct effect on GiantPunt\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.022,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "roster_recalculation",
       "text": "Barnow Bills added Dontayvion Wicks; Barnow Bills dropped Blake Corum. No direct effect on GiantPunt\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.016,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "roster_recalculation",
       "text": "Barnow Bills added Dontayvion Wicks; Barnow Bills dropped Blake Corum. No direct effect on GiantPunt\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.1,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "3": {
@@ -14505,7 +14773,8 @@
       "text": "Barnow Bills added Dontayvion Wicks; Barnow Bills dropped Blake Corum. No direct effect on Goats\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.011,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "13": {
@@ -14514,14 +14783,16 @@
       "text": "Barnow Bills added Dontayvion Wicks; Barnow Bills dropped Blake Corum. No direct effect on Salisbury Screamers\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.006,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "roster_recalculation",
       "text": "Barnow Bills added Dontayvion Wicks; Barnow Bills dropped Blake Corum. No direct effect on Salisbury Screamers\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.1,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "2": {
@@ -14530,7 +14801,8 @@
       "text": "Barnow Bills added Dontayvion Wicks; Barnow Bills dropped Blake Corum. No direct effect on Sabre Raiders\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.017,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "6": {
@@ -14539,14 +14811,16 @@
       "text": "Barnow Bills added Dontayvion Wicks; Barnow Bills dropped Blake Corum. No direct effect on The Le Chable Dolphins\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.016,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "roster_recalculation",
       "text": "Barnow Bills added Dontayvion Wicks; Barnow Bills dropped Blake Corum. No direct effect on The Le Chable Dolphins\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.016,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "1": {
@@ -14555,21 +14829,24 @@
       "text": "Barnow Bills added Dontayvion Wicks; Barnow Bills dropped Blake Corum. No direct effect on Knights who say Ni\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.015,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "roster_recalculation",
       "text": "Barnow Bills added Dontayvion Wicks; Barnow Bills dropped Blake Corum. No direct effect on Knights who say Ni\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.018,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "roster_recalculation",
       "text": "Barnow Bills added Dontayvion Wicks; Barnow Bills dropped Blake Corum. No direct effect on Knights who say Ni\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.1,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "11": {
@@ -14578,14 +14855,16 @@
       "text": "Barnow Bills added Dontayvion Wicks; Barnow Bills dropped Blake Corum. The roster options changed, but a stronger or weaker starting lineup is not confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.007,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "roster_recalculation",
       "text": "Barnow Bills added Dontayvion Wicks; Barnow Bills dropped Blake Corum. The roster options changed, but a stronger or weaker starting lineup is not confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.015,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "4": {
@@ -14594,14 +14873,16 @@
       "text": "Barnow Bills added Dontayvion Wicks; Barnow Bills dropped Blake Corum. No direct effect on Wiltshire Warriors\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.01,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "roster_recalculation",
       "text": "Barnow Bills added Dontayvion Wicks; Barnow Bills dropped Blake Corum. No direct effect on Wiltshire Warriors\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.016,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "5": {
@@ -14610,14 +14891,16 @@
       "text": "Barnow Bills added Dontayvion Wicks; Barnow Bills dropped Blake Corum. No direct effect on Love hurts\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.008,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "roster_recalculation",
       "text": "Barnow Bills added Dontayvion Wicks; Barnow Bills dropped Blake Corum. No direct effect on Love hurts\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.017,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "12": {
@@ -14626,14 +14909,16 @@
       "text": "Barnow Bills added Dontayvion Wicks; Barnow Bills dropped Blake Corum. No direct effect on Cardigan's Boys\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.007,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "roster_recalculation",
       "text": "Barnow Bills added Dontayvion Wicks; Barnow Bills dropped Blake Corum. No direct effect on Cardigan's Boys\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.008,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     }
    }
@@ -14829,7 +15114,8 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.013,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "3": {
@@ -14838,14 +15124,16 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.018,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.005,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "1": {
@@ -14854,14 +15142,16 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.005,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.023,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "2": {
@@ -14870,14 +15160,16 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.016,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.006,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "11": {
@@ -14886,14 +15178,16 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.006,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.02,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "4": {
@@ -14902,14 +15196,16 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.024,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.11,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "5": {
@@ -14918,14 +15214,16 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.005,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.022,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "12": {
@@ -14934,14 +15232,16 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.011,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.1,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     }
    }
@@ -15017,14 +15317,16 @@
       "text": "Goats added Steelers D/ST; Goats dropped Rams D/ST; Goats added Jake Ferguson; Goats dropped Jakobi Meyers. No direct effect on GiantPunt\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.014,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "roster_recalculation",
       "text": "Goats added Steelers D/ST; Goats dropped Rams D/ST; Goats added Jake Ferguson; Goats dropped Jakobi Meyers. No direct effect on GiantPunt\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.007,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "3": {
@@ -15033,14 +15335,16 @@
       "text": "Goats added Steelers D/ST; Goats dropped Rams D/ST; Goats added Jake Ferguson; Goats dropped Jakobi Meyers. The roster options changed, but a stronger or weaker starting lineup is not confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.027,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "roster_recalculation",
       "text": "Goats added Steelers D/ST; Goats dropped Rams D/ST; Goats added Jake Ferguson; Goats dropped Jakobi Meyers. The roster options changed, but a stronger or weaker starting lineup is not confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.011,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "13": {
@@ -15049,14 +15353,16 @@
       "text": "Goats added Steelers D/ST; Goats dropped Rams D/ST; Goats added Jake Ferguson; Goats dropped Jakobi Meyers. No direct effect on Salisbury Screamers\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.018,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "roster_recalculation",
       "text": "Goats added Steelers D/ST; Goats dropped Rams D/ST; Goats added Jake Ferguson; Goats dropped Jakobi Meyers. No direct effect on Salisbury Screamers\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.13,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "6": {
@@ -15065,14 +15371,16 @@
       "text": "Goats added Steelers D/ST; Goats dropped Rams D/ST; Goats added Jake Ferguson; Goats dropped Jakobi Meyers. No direct effect on The Le Chable Dolphins\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.006,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "roster_recalculation",
       "text": "Goats added Steelers D/ST; Goats dropped Rams D/ST; Goats added Jake Ferguson; Goats dropped Jakobi Meyers. No direct effect on The Le Chable Dolphins\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.01,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "2": {
@@ -15081,21 +15389,24 @@
       "text": "Goats added Steelers D/ST; Goats dropped Rams D/ST; Goats added Jake Ferguson; Goats dropped Jakobi Meyers. No direct effect on Sabre Raiders\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.005,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "roster_recalculation",
       "text": "Goats added Steelers D/ST; Goats dropped Rams D/ST; Goats added Jake Ferguson; Goats dropped Jakobi Meyers. No direct effect on Sabre Raiders\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.009,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "roster_recalculation",
       "text": "Goats added Steelers D/ST; Goats dropped Rams D/ST; Goats added Jake Ferguson; Goats dropped Jakobi Meyers. No direct effect on Sabre Raiders\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.11,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "1": {
@@ -15104,14 +15415,16 @@
       "text": "Goats added Steelers D/ST; Goats dropped Rams D/ST; Goats added Jake Ferguson; Goats dropped Jakobi Meyers. No direct effect on Knights who say Ni\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.01,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "roster_recalculation",
       "text": "Goats added Steelers D/ST; Goats dropped Rams D/ST; Goats added Jake Ferguson; Goats dropped Jakobi Meyers. No direct effect on Knights who say Ni\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.1,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "4": {
@@ -15120,21 +15433,24 @@
       "text": "Goats added Steelers D/ST; Goats dropped Rams D/ST; Goats added Jake Ferguson; Goats dropped Jakobi Meyers. No direct effect on Wiltshire Warriors\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.017,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "roster_recalculation",
       "text": "Goats added Steelers D/ST; Goats dropped Rams D/ST; Goats added Jake Ferguson; Goats dropped Jakobi Meyers. No direct effect on Wiltshire Warriors\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.029,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "roster_recalculation",
       "text": "Goats added Steelers D/ST; Goats dropped Rams D/ST; Goats added Jake Ferguson; Goats dropped Jakobi Meyers. No direct effect on Wiltshire Warriors\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.11,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "11": {
@@ -15143,7 +15459,8 @@
       "text": "Goats added Steelers D/ST; Goats dropped Rams D/ST; Goats added Jake Ferguson; Goats dropped Jakobi Meyers. No direct effect on Barnow Bills\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.005,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "5": {
@@ -15152,14 +15469,16 @@
       "text": "Goats added Steelers D/ST; Goats dropped Rams D/ST; Goats added Jake Ferguson; Goats dropped Jakobi Meyers. No direct effect on Love hurts\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.016,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "roster_recalculation",
       "text": "Goats added Steelers D/ST; Goats dropped Rams D/ST; Goats added Jake Ferguson; Goats dropped Jakobi Meyers. No direct effect on Love hurts\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.008,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "12": {
@@ -15168,14 +15487,16 @@
       "text": "Goats added Steelers D/ST; Goats dropped Rams D/ST; Goats added Jake Ferguson; Goats dropped Jakobi Meyers. No direct effect on Cardigan's Boys\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.005,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "roster_recalculation",
       "text": "Goats added Steelers D/ST; Goats dropped Rams D/ST; Goats added Jake Ferguson; Goats dropped Jakobi Meyers. No direct effect on Cardigan's Boys\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.014,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     }
    }
@@ -15971,14 +16292,16 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.005,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.006,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "3": {
@@ -15987,21 +16310,24 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.017,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.015,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.13,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "2": {
@@ -16010,21 +16336,24 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.03,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.023,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.21,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "13": {
@@ -16033,14 +16362,16 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.02,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.11,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "6": {
@@ -16049,21 +16380,24 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.017,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.023,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.25,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "1": {
@@ -16072,14 +16406,16 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.022,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.11,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "11": {
@@ -16088,7 +16424,8 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.019,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "5": {
@@ -16097,14 +16434,16 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.009,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.11,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "4": {
@@ -16113,14 +16452,16 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.028,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.012,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "12": {
@@ -16129,14 +16470,16 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.017,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.1,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     }
    }
@@ -18792,7 +19135,8 @@
       "text": "Salisbury Screamers added Blake Corum; Salisbury Screamers added Juwan Johnson. No direct effect on GiantPunt\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.005,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "13": {
@@ -18801,14 +19145,16 @@
       "text": "Salisbury Screamers added Blake Corum; Salisbury Screamers added Juwan Johnson. The roster options changed, but a stronger or weaker starting lineup is not confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.012,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "roster_recalculation",
       "text": "Salisbury Screamers added Blake Corum; Salisbury Screamers added Juwan Johnson. The roster options changed, but a stronger or weaker starting lineup is not confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.018,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "3": {
@@ -18817,14 +19163,16 @@
       "text": "Salisbury Screamers added Blake Corum; Salisbury Screamers added Juwan Johnson. No direct effect on Goats\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.024,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "roster_recalculation",
       "text": "Salisbury Screamers added Blake Corum; Salisbury Screamers added Juwan Johnson. No direct effect on Goats\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.011,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "1": {
@@ -18833,21 +19181,24 @@
       "text": "Salisbury Screamers added Blake Corum; Salisbury Screamers added Juwan Johnson. No direct effect on Knights who say Ni\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.034,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "roster_recalculation",
       "text": "Salisbury Screamers added Blake Corum; Salisbury Screamers added Juwan Johnson. No direct effect on Knights who say Ni\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.027,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "roster_recalculation",
       "text": "Salisbury Screamers added Blake Corum; Salisbury Screamers added Juwan Johnson. No direct effect on Knights who say Ni\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.1,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "6": {
@@ -18856,21 +19207,24 @@
       "text": "Salisbury Screamers added Blake Corum; Salisbury Screamers added Juwan Johnson. No direct effect on The Le Chable Dolphins\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.01,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "roster_recalculation",
       "text": "Salisbury Screamers added Blake Corum; Salisbury Screamers added Juwan Johnson. No direct effect on The Le Chable Dolphins\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.017,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "roster_recalculation",
       "text": "Salisbury Screamers added Blake Corum; Salisbury Screamers added Juwan Johnson. No direct effect on The Le Chable Dolphins\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.23,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "2": {
@@ -18879,21 +19233,24 @@
       "text": "Salisbury Screamers added Blake Corum; Salisbury Screamers added Juwan Johnson. No direct effect on Sabre Raiders\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.028,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "roster_recalculation",
       "text": "Salisbury Screamers added Blake Corum; Salisbury Screamers added Juwan Johnson. No direct effect on Sabre Raiders\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.029,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "roster_recalculation",
       "text": "Salisbury Screamers added Blake Corum; Salisbury Screamers added Juwan Johnson. No direct effect on Sabre Raiders\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.18,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "4": {
@@ -18902,14 +19259,16 @@
       "text": "Salisbury Screamers added Blake Corum; Salisbury Screamers added Juwan Johnson. No direct effect on Wiltshire Warriors\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.014,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "roster_recalculation",
       "text": "Salisbury Screamers added Blake Corum; Salisbury Screamers added Juwan Johnson. No direct effect on Wiltshire Warriors\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.12,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "11": {
@@ -18918,21 +19277,24 @@
       "text": "Salisbury Screamers added Blake Corum; Salisbury Screamers added Juwan Johnson. No direct effect on Barnow Bills\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.011,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "roster_recalculation",
       "text": "Salisbury Screamers added Blake Corum; Salisbury Screamers added Juwan Johnson. No direct effect on Barnow Bills\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.022,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "roster_recalculation",
       "text": "Salisbury Screamers added Blake Corum; Salisbury Screamers added Juwan Johnson. No direct effect on Barnow Bills\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.11,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "5": {
@@ -18941,14 +19303,16 @@
       "text": "Salisbury Screamers added Blake Corum; Salisbury Screamers added Juwan Johnson. No direct effect on Love hurts\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": -0.008,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "roster_recalculation",
       "text": "Salisbury Screamers added Blake Corum; Salisbury Screamers added Juwan Johnson. No direct effect on Love hurts\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.009,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "12": {
@@ -18957,7 +19321,8 @@
       "text": "Salisbury Screamers added Blake Corum; Salisbury Screamers added Juwan Johnson. No direct effect on Cardigan's Boys\u2019s outlook is confirmed.",
       "confidence": "verified transactions; attribution uncertain",
       "delta": 0.014,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     }
    }
@@ -19309,21 +19674,24 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.016,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.073,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.49,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "3": {
@@ -19332,21 +19700,24 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.093,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.116,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.56,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "13": {
@@ -19355,21 +19726,24 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.015,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.056,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.26,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "6": {
@@ -19378,7 +19752,8 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.011,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "2": {
@@ -19387,7 +19762,8 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.007,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "1": {
@@ -19396,21 +19772,24 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.032,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.015,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.13,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "4": {
@@ -19419,7 +19798,8 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.02,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "11": {
@@ -19428,21 +19808,24 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.007,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.053,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.22,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "5": {
@@ -19451,21 +19834,24 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.018,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.069,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.32,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "12": {
@@ -19474,21 +19860,24 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.031,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.13,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -1.09,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     }
    }
@@ -19677,21 +20066,24 @@
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
       "delta": 0.0185,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "data_transition",
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
       "delta": 0.0407,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "data_transition",
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
       "delta": 0.35,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "3": {
@@ -19700,21 +20092,24 @@
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
       "delta": 0.0132,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "data_transition",
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
       "delta": 0.0843,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "data_transition",
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
       "delta": 0.45,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "13": {
@@ -19723,21 +20118,24 @@
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
       "delta": 0.011,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "data_transition",
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
       "delta": 0.0249,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "data_transition",
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
       "delta": 0.21,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "6": {
@@ -19746,14 +20144,16 @@
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
       "delta": 0.0618,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "data_transition",
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
       "delta": 0.3,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "2": {
@@ -19762,21 +20162,24 @@
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
       "delta": 0.024,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "data_transition",
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
       "delta": 0.0644,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "data_transition",
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
       "delta": 0.5,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "1": {
@@ -19785,21 +20188,24 @@
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
       "delta": -0.0339,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "data_transition",
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
       "delta": -0.093,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "data_transition",
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
       "delta": -0.42,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "4": {
@@ -19808,21 +20214,24 @@
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
       "delta": -0.016,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "data_transition",
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
       "delta": -0.0786,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "data_transition",
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
       "delta": -0.39,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "11": {
@@ -19831,21 +20240,24 @@
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
       "delta": -0.0083,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "data_transition",
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
       "delta": -0.0398,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "data_transition",
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
       "delta": -0.33,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "5": {
@@ -19854,21 +20266,24 @@
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
       "delta": -0.0052,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "data_transition",
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
       "delta": -0.0403,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "data_transition",
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
       "delta": -0.46,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "12": {
@@ -19877,14 +20292,16 @@
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
       "delta": -0.0244,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "data_transition",
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
       "delta": -0.21,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     }
    }
@@ -19996,7 +20413,8 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.007,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "3": {
@@ -20005,21 +20423,24 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.01,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.026,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.25,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "13": {
@@ -20028,21 +20449,24 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.014,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.016,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.11,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "1": {
@@ -20051,21 +20475,24 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.022,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.033,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.19,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "6": {
@@ -20074,7 +20501,8 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.009,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "2": {
@@ -20083,14 +20511,16 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.013,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.005,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "4": {
@@ -20099,14 +20529,16 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.015,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.022,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "11": {
@@ -20115,21 +20547,24 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.012,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.022,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.16,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "5": {
@@ -20138,14 +20573,16 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.007,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.008,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "12": {
@@ -20154,14 +20591,16 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.03,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.51,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     }
    }
@@ -20445,14 +20884,16 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.008,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.012,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "3": {
@@ -20461,14 +20902,16 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.018,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.009,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "13": {
@@ -20477,14 +20920,16 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.01,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.033,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "6": {
@@ -20493,21 +20938,24 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.018,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.041,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.17,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "1": {
@@ -20516,14 +20964,16 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.007,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.025,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "2": {
@@ -20532,14 +20982,16 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.011,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.013,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "4": {
@@ -20548,14 +21000,16 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.007,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.04,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "11": {
@@ -20564,7 +21018,8 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.009,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "5": {
@@ -20573,7 +21028,8 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.02,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "12": {
@@ -20582,14 +21038,16 @@
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": 0.016,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "simulation_variation",
       "text": "No confirmed roster move, injury update or scoring change explains this shift in the team\u2019s outlook.",
       "confidence": "verified replay-code limitation",
       "delta": -0.12,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     }
    }
@@ -21079,21 +21537,24 @@
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
       "delta": -0.0185,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "data_transition",
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
       "delta": -0.0407,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "data_transition",
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
       "delta": -0.35,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "3": {
@@ -21102,21 +21563,24 @@
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
       "delta": -0.0132,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "data_transition",
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
       "delta": -0.0843,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "data_transition",
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
       "delta": -0.45,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "13": {
@@ -21125,21 +21589,24 @@
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
       "delta": -0.011,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "data_transition",
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
       "delta": -0.0249,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "data_transition",
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
       "delta": -0.21,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "6": {
@@ -21148,14 +21615,16 @@
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
       "delta": -0.0618,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "data_transition",
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
       "delta": -0.3,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "1": {
@@ -21164,21 +21633,24 @@
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
       "delta": 0.0339,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "data_transition",
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
       "delta": 0.093,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "data_transition",
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
       "delta": 0.42,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "2": {
@@ -21187,21 +21659,24 @@
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
       "delta": -0.024,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "data_transition",
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
       "delta": -0.0644,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "data_transition",
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
       "delta": -0.5,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "4": {
@@ -21210,21 +21685,24 @@
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
       "delta": 0.016,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "data_transition",
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
       "delta": 0.0786,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "data_transition",
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
       "delta": 0.39,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "11": {
@@ -21233,21 +21711,24 @@
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
       "delta": 0.0083,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "data_transition",
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
       "delta": 0.0398,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "data_transition",
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
       "delta": 0.33,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "5": {
@@ -21256,21 +21737,24 @@
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
       "delta": 0.0052,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "playoff": {
       "cause": "data_transition",
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
       "delta": 0.0403,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "data_transition",
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
       "delta": 0.46,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     },
     "12": {
@@ -21279,14 +21763,16 @@
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
       "delta": 0.0244,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      },
      "projWins": {
       "cause": "data_transition",
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
       "delta": 0.21,
-      "auditVersion": 2
+      "auditVersion": 4,
+      "showTooltip": false
      }
     }
    }

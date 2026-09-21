@@ -4,7 +4,7 @@ import unittest
 from pathlib import Path
 
 from audit_history import audit
-from prediction_events import template
+from prediction_events import template, has_concrete_football_change
 
 ROOT = Path(__file__).resolve().parent.parent
 
@@ -19,7 +19,9 @@ class TooltipCopyTests(unittest.TestCase):
                    for metrics in s.get('explanations', {}).values() for entry in metrics.values()]
         self.assertTrue(entries)
         for entry in entries:
-            self.assertEqual(entry['auditVersion'], 2)
+            self.assertEqual(entry['auditVersion'], 4)
+            if entry['cause'] in ('simulation_variation', 'data_transition', 'roster_recalculation', 'unresolved'):
+                self.assertFalse(entry['showTooltip'])
             for jargon in ('sampling', 'replay', 'simulation', 'reconstruction', 'attribution'):
                 self.assertNotIn(jargon, entry['text'].lower())
 
@@ -36,6 +38,12 @@ class TooltipCopyTests(unittest.TestCase):
             'footballFacts': ['GiantPunt added Kaelon Black.']}], .02)
         self.assertIn('GiantPunt added Kaelon Black.', text)
         self.assertIn('not guaranteed', text)
+
+    def test_only_concrete_changes_get_stories(self):
+        self.assertFalse(has_concrete_football_change([]))
+        self.assertFalse(has_concrete_football_change([{'kind': 'injury', 'from': 'ACTIVE', 'to': 'OUT'}]))
+        self.assertFalse(has_concrete_football_change([{'kind': 'transaction'}]))
+        self.assertTrue(has_concrete_football_change([{'kind': 'projection', 'from': 10, 'to': 15}]))
 
 
 if __name__ == '__main__':

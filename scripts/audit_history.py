@@ -22,7 +22,7 @@ def audit(history, state, seed):
     for previous, current in zip(snapshots, snapshots[1:]):
         # Preserve previously audited history when the live transaction window rolls on.
         if current.get('explanations') and current.get('backfilled') and all(
-                entry.get('auditVersion', 0) >= 2
+                entry.get('auditVersion', 0) >= 4
                 for metrics in current['explanations'].values() for entry in metrics.values()):
             continue
         current['explanations'] = {}
@@ -39,6 +39,7 @@ def audit(history, state, seed):
                 if abs(delta) + 1e-9 < threshold:
                     continue
                 confidence = 'limited historical evidence'
+                show_tooltip = False
                 if bool(current.get('backfilled')) != bool(previous.get('backfilled')):
                     cause = 'data_transition'
                     text = 'Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.'
@@ -46,7 +47,15 @@ def audit(history, state, seed):
                     cause = 'completed_week'
                     match = next((m for m in seed['current']['sched'] if m[0] == previous['week'] and int(ident) in m[1:3]), None)
                     if match:
-                        text = f"{names[match[1]]} scored {match[3]:g} against {names[match[2]]}’s {match[4]:g} in Week {previous['week']}. The result updates the playoff race, alongside next week’s player forecasts."
+                        home = int(ident) == match[1]
+                        own, other = (match[3], match[4]) if home else (match[4], match[3])
+                        opponent = names[match[2] if home else match[1]]
+                        result = 'beat' if own > other else 'lost to' if own < other else 'tied'
+                        effect = ('The win helps their playoff position' if own > other else
+                                  'The loss hurts their playoff position' if own < other else
+                                  'The tie changes their playoff position')
+                        text = f"{names[int(ident)]} {result} {opponent} {own:.1f}–{other:.1f} in Week {previous['week']}. {effect}; points scored also count towards seeding."
+                        show_tooltip = True
                     else:
                         text = 'The week’s results changed the standings; next week’s player forecasts also changed the outlook for the playoff race.'
                     confidence = 'recorded results; combined model effect'
@@ -79,9 +88,11 @@ def audit(history, state, seed):
                     cause = existing.get('cause', 'unresolved')
                     text = existing.get('text', 'No confirmed roster move, injury update or result explains this change.')
                     confidence = 'recorded explanation' if existing else 'cause unverified'
+                    show_tooltip = existing.get('showTooltip', False)
                 current['explanations'].setdefault(ident, {})[metric] = {
                     'cause': cause, 'text': text, 'confidence': confidence,
-                    'delta': round(delta, 4), 'auditVersion': 2,
+                    'delta': round(delta, 4), 'auditVersion': 4,
+                    'showTooltip': show_tooltip,
                 }
     return history
 

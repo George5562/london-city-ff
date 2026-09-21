@@ -136,17 +136,13 @@ header{position:relative;min-height:210px;margin:24px 0 30px;padding-right:290px
     <div class="row">
       <div>
         <h2 id="chart-title">Championship odds over time</h2>
-        <p class="hint">All teams are in. Tap a badge to dim a rival. Hover a marked move to see its story.</p>
+        <p class="hint">One trophy. 100% of the chances. Teams stay in the same order throughout.</p>
       </div>
-      <div class="chart-toolbar"><div class="seg range" role="group" aria-label="Time range"><button data-range="all" aria-pressed="true">Season</button><button data-range="7" aria-pressed="false">7D</button><button data-range="2" aria-pressed="false">48H</button></div><div class="seg" role="group" aria-label="Metric">
-        <button data-m="champ" aria-pressed="true">Title</button>
-        <button data-m="playoff" aria-pressed="false">Playoffs</button>
-        <button data-m="projWins" aria-pressed="false">Proj. wins</button>
-      </div></div>
+      <div class="chart-toolbar"><div class="seg range" role="group" aria-label="Time range"><button data-range="all" aria-pressed="true">Season</button><button data-range="7" aria-pressed="false">7D</button><button data-range="2" aria-pressed="false">48H</button></div></div>
     </div>
     <div class="legend" id="legend"></div>
     <div class="chart" id="chart" tabindex="0" role="group" aria-label="Odds timeline. Use left and right arrow keys to explore hourly predictions."><svg id="svg" role="img" aria-label="Team prediction percentages over time"></svg><div class="tip" id="tip"></div></div>
-    <div class="chart-foot"><span class="period-key">Shaded columns · NFL game windows</span><span>Dashed history · reconstructed estimates</span><span>← → Explore timeline</span></div>
+    <div class="chart-foot"><span class="period-key">Shaded columns · NFL game windows</span><span>Tap a badge to focus · Hover a dot for the story</span></div>
   </section>
   <div class="ticker" id="ticker"></div>
 
@@ -162,8 +158,8 @@ header{position:relative;min-height:210px;margin:24px 0 30px;padding-right:290px
 
   <section class="card method">
     <h2 style="color:var(--text)">How the odds work</h2>
-    <p>Updated hourly from ESPN rosters, projections and scores. We simulate the remaining season and four-team playoffs 20,000 times to estimate each team's chances. Earlier dashed points are reconstructed estimates, not predictions recorded at the time; historical runs use fewer simulations.</p>
-    <p>Trades, waiver pickups and injuries change the projected lineup, so they move the lines even in weeks with no games. Seeding uses wins, then points for.</p>
+    <p>Updated hourly from ESPN. Each coloured band is a team's share of the championship chances; together they total 100%. Playoff odds and projected wins are in the table below.</p>
+    <p>Earlier history is reconstructed, not recorded live. Some historical movement reflects forecast uncertainty rather than a football event. Story dots appear only where there is concrete football information. Seeding uses wins, then points for.</p>
   </section>
   <aside class="commissioner"><img class="portrait" src="art/commissioner-ned.jpg" alt="Illustrated portrait of Ned holding a football"><div><small>THE COMMISSIONER'S CORNER</small><h2>Ned's league. Everyone's game.</h2><p>Welcome to Friday Night Lights. Pull up a chair, pick your team, and let the Sunday arguments begin.</p></div></aside>
   <footer><span class="footer-brand"><img src="art/ned-motif.png" alt="">FRIDAY NIGHT LIGHTS · LONDON CITY</span><span>Friendly rivalry. Unofficial ESPN fan project.</span></footer>
@@ -171,6 +167,8 @@ header{position:relative;min-height:210px;margin:24px 0 30px;padding-right:290px
 
 <script>
 const TEAM_COLORS = {};
+// Fixed top-to-bottom order, captured on 21 September. Never re-sort as odds change.
+const STACK_ORDER = [9, 3, 13, 6, 2, 1, 4, 11, 5, 12];
 const METRICS = {
   champ: { title: "Championship odds over time", fmt: v => (v * 100).toFixed(v < 0.1 ? 1 : 0) + "%", pct: true },
   playoff: { title: "Playoff odds over time", fmt: v => (v * 100).toFixed(0) + "%", pct: true },
@@ -203,8 +201,8 @@ async function sampleLogo(t) {
     }catch{}resolve();};img.onerror=resolve;img.src=logoOf(t.id);
   });
 }
-function eventFor(sn,id){return sn.explanations?.[id]?.[metric] || (metric==='champ'?sn.changes?.[id]:null);}
-function significant(sn,i,id){const prev=history[i-1]?.teams[id],cur=sn.teams[id];return !!prev&&!!cur&&Math.abs(cur[metric]-prev[metric]) >= (metric==='projWins'?.1:.005)-1e-9;}
+function eventFor(sn,id){const event=sn.explanations?.[id]?.[metric] || (metric==='champ'?sn.changes?.[id]:null);return event?.showTooltip===true&&event.text?event:null;}
+function significant(sn,i,id){const prev=history[i-1]?.teams[id],cur=sn.teams[id];return !!eventFor(sn,id)&&!!prev&&!!cur&&Math.abs(cur[metric]-prev[metric]) >= .005-1e-9;}
 
 async function load() {
   const [l, h] = await Promise.all([fetch("data/latest.json").then(r => r.json()), fetch("data/history.json").then(r => r.json())]);
@@ -221,9 +219,7 @@ async function load() {
 }
 
 function toggle(id) {
-  const k = selected.indexOf(id);
-  if (k >= 0) selected.splice(k, 1);
-  else selected.push(id);
+  selected = selected.length===1 && selected[0]===id ? [...STACK_ORDER] : [id];
   render();
 }
 
@@ -231,7 +227,7 @@ function render() { renderLegend(); renderChart(); renderTable(); renderMatchups
 
 function renderLegend() {
   const el = document.getElementById("legend");
-  el.innerHTML = latest.teams.map(t => {
+  el.innerHTML = STACK_ORDER.map(id => teams[id]).filter(Boolean).map(t => {
     const c = colorOf(t.id);
     return `<button class="chip" data-id="${t.id}" style="--team-color:${TEAM_COLORS[t.id]||'#ccc'}" aria-pressed="${!!c}"><img src="${logoOf(t.id)}" alt=""><span class="dot" style="${c ? `background:${c}` : ""}"></span>${esc(t.name)}</button>`;
   }).join("");
@@ -249,38 +245,30 @@ function renderChart() {
   const dates = history.map(s => new Date(s.at || s.date + "T12:00:00Z"));
   const t0 = +dates[0], t1 = Math.max(+dates[dates.length - 1], t0 + 3600e3 * 6);
   const x = d => m.l + (iw * (+d - t0)) / (t1 - t0);
-  const all = history.flatMap(s => Object.values(s.teams).map(v => v[metric]));
-  let ymax = Math.max(...all);
-  ymax = METRICS[metric].pct ? Math.min(1, Math.ceil(ymax * 10 + 0.5) / 10) : Math.ceil(ymax + 1);
-  const y = v => m.t + ih - (ih * v) / ymax;
-  const ticks = METRICS[metric].pct ? [0, .25, .5, .75, 1].map(f => f * ymax) : Array.from({ length: 5 }, (_, i) => (ymax * i) / 4);
+  const y = v => m.t + ih * v;
+  const ticks = [0, .25, .5, .75, 1];
+  const stacks = history.map(sn => {
+    const total=STACK_ORDER.reduce((sum,id)=>sum+Math.max(0,sn.teams[id]?.champ||0),0);
+    let top=0;
+    return Object.fromEntries(STACK_ORDER.map(id=>{const bottom=top+(total?Math.max(0,sn.teams[id]?.champ||0)/total:0);const band={top,bottom,mid:(top+bottom)/2};top=bottom;return [id,band];}));
+  });
   const grid = css("--grid"), t3 = css("--text-3"), muted = css("--muted-line"), surf = css("--surface");
   let s = "";
-  GAME_WINDOWS.forEach(([start,end,label])=>{const a=Math.max(t0,Date.parse(start)),b=Math.min(t1,Date.parse(end));if(b>a){s+=`<rect x="${x(a)}" y="${m.t}" width="${x(b)-x(a)}" height="${ih}" fill="#f5b72e" opacity=".055"/><line x1="${x(a)}" x2="${x(a)}" y1="${m.t}" y2="${m.t+ih}" stroke="#f5b72e" opacity=".18"/>`;if(x(b)-x(a)>35)s+=`<text x="${(x(a)+x(b))/2}" y="18" text-anchor="middle" font-size="9" fill="#9faad0">${label}</text>`;}});
-  ticks.forEach(v => { s += `<line x1="${m.l}" x2="${m.l + iw}" y1="${y(v)}" y2="${y(v)}" stroke="${grid}"/><text x="${m.l - 8}" y="${y(v) + 4}" text-anchor="end" font-size="11" fill="${t3}">${METRICS[metric].pct ? Math.round(v * 100) + "%" : v.toFixed(0)}</text>`; });
+  ticks.forEach(v => { s += `<text x="${m.l - 8}" y="${y(v) + 4}" text-anchor="end" font-size="11" fill="${t3}">${Math.round((1-v)*100)}%</text>`; });
   const showHour = t1 - t0 < 864e5 * 4;
   const fmtD = d => d.toLocaleString(undefined, showHour
     ? { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit", timeZone: "UTC", timeZoneName: "short" }
     : { day: "numeric", month: "short", timeZone: "UTC" });
   const nT = small ? 3 : 6;
   for (let i = 0; i <= nT; i++) { const d = new Date(t0 + ((t1 - t0) * i) / nT); s += `<text x="${x(d)}" y="${H - 8}" text-anchor="middle" font-size="11" fill="${t3}">${fmtD(d)}</text>`; }
-  const lastBack = history.map(h => h.backfilled).lastIndexOf(true);
-  const path = (id, a, b) => history.slice(a, b + 1).map((sn, i) => { const v = sn.teams[id]; return v ? `${i ? "L" : "M"}${x(dates[a + i]).toFixed(1)},${y(v[metric]).toFixed(1)}` : ""; }).join("");
-  const line = (id, color, w) => {
-    let out = "";
-    const split = Math.max(lastBack + 1, 0);
-    if (split > 0) out += `<path class="chart-line" d="${path(id, 0, Math.min(split, history.length - 1))}" fill="none" stroke="${color}" stroke-width="${w}" stroke-dasharray="4 4" stroke-linecap="round"/>`;
-    if (split < history.length - 1) out += `<path d="${path(id, split, history.length - 1)}" fill="none" stroke="${color}" stroke-width="${w}" stroke-linejoin="round" stroke-linecap="round"/>`;
-    return out;
-  };
-  const ids = latest.teams.map(t => t.id);
-  ids.filter(id => !selected.includes(id)).forEach(id => s += line(id, muted, 1.5));
-  selected.forEach(id => {
-    const c = colorOf(id); s += line(id, c, 2.5);
-    history.forEach((sn, i) => { const v = sn.teams[id], moved = significant(sn,i,id); if (v && moved) s += `<circle class="event-marker" cx="${x(dates[i])}" cy="${y(v[metric])}" r="3.5" fill="${c}" stroke="${surf}" stroke-width="1.5"/>`; });
+  STACK_ORDER.forEach(id => {
+    const edge=side=>stacks.map((bands,i)=>`${x(dates[i]).toFixed(2)},${y(bands[id][side]).toFixed(2)}`);
+    const outline=`M${edge('top').join(' L')} L${edge('bottom').reverse().join(' L')} Z`;
+    s+=`<path class="team-area" data-team="${id}" d="${outline}" fill="${TEAM_COLORS[id]||'#aaa'}" fill-opacity="${selected.includes(id)?'.83':'.16'}" stroke="#050507" stroke-width=".7"><title>${esc(teams[id].name)}</title></path>`;
   });
+  GAME_WINDOWS.forEach(([start,end,label])=>{const a=Math.max(t0,Date.parse(start)),b=Math.min(t1,Date.parse(end));if(b>a){s+=`<rect x="${x(a)}" y="${m.t}" width="${x(b)-x(a)}" height="${ih}" fill="#050507" opacity=".19"/><line x1="${x(a)}" x2="${x(a)}" y1="${m.t}" y2="${m.t+ih}" stroke="#fff" opacity=".22"/>`;if(x(b)-x(a)>35)s+=`<text x="${(x(a)+x(b))/2}" y="18" text-anchor="middle" font-size="9" fill="#9faad0">${label}</text>`;}});
+  selected.forEach(id => history.forEach((sn,i)=>{if(significant(sn,i,id))s+=`<circle class="event-marker" cx="${x(dates[i])}" cy="${y(stacks[i][id].mid)}" r="3.5" fill="#fff" stroke="#050507" stroke-width="1.5"/>`;}));
   s += `<line id="xh" y1="${m.t}" y2="${m.t + ih}" stroke="${t3}" stroke-dasharray="2 3" opacity="0"/>`;
-  s += `<line id="yh" x1="${m.l}" x2="${m.l+iw}" stroke="#f5b72e" stroke-dasharray="3 5" opacity="0"/><g id="hover-points"></g>`;
   s += `<rect id="hit" x="${m.l}" y="${m.t}" width="${iw}" height="${ih}" fill="transparent"/>`;
   svg.innerHTML = s;
 
@@ -291,17 +279,14 @@ function renderChart() {
     const sn = history[bi], cx = x(dates[bi]);
     box.dataset.index=bi;
     const py=Math.max(m.t,Math.min(m.t+ih,((ev.touches?ev.touches[0].clientY:ev.clientY)-r.top)*H/r.height));
-    const yh=svg.querySelector('#yh');yh.setAttribute('y1',py);yh.setAttribute('y2',py);yh.setAttribute('opacity','.45');
-    svg.querySelector('#hover-points').innerHTML=selected.filter(id=>sn.teams[id]).map(id=>`<circle cx="${cx}" cy="${y(sn.teams[id][metric])}" r="5" fill="${colorOf(id)}" stroke="#050507" stroke-width="2"/>`).join('');
     xh.setAttribute("x1", cx); xh.setAttribute("x2", cx); xh.setAttribute("opacity", 1);
     let candidates=[];
-    history.forEach((point,i)=>{if(Math.abs(x(dates[i])-px)>14)return;selected.forEach(id=>{if(significant(point,i,id))candidates.push({point,i,id,distance:Math.hypot(x(dates[i])-px,y(point.teams[id][metric])-py)});});});
+    history.forEach((point,i)=>{if(Math.abs(x(dates[i])-px)>14)return;selected.forEach(id=>{const band=stacks[i][id];if(significant(point,i,id)&&py>=y(band.top)-3&&py<=y(band.bottom)+3)candidates.push({point,i,id,distance:Math.hypot(x(dates[i])-px,y(band.mid)-py)});});});
     candidates.sort((a,b)=>a.distance-b.distance);
     const event=candidates[0];
     if(!event){tip.style.opacity=0;return;}
     const change=eventFor(event.point,event.id), previous=history[event.i-1].teams[event.id][metric],value=event.point.teams[event.id][metric];
-    const fallback='No confirmed roster move, injury update or result explains this change.';
-    tip.innerHTML=`<b>${dates[event.i].toLocaleString(undefined,{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'})}</b><div class="event-title"><span class="sw" style="background:${colorOf(event.id)}"></span>${esc(teams[event.id].name)} · ${METRICS[metric].fmt(previous)} → ${METRICS[metric].fmt(value)}</div><div class="event-copy">${esc(change?.text||fallback)}</div>`;
+    tip.innerHTML=`<b>${dates[event.i].toLocaleString(undefined,{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'})}</b><div class="event-title"><span class="sw" style="background:${colorOf(event.id)}"></span>${esc(teams[event.id].name)} · ${METRICS[metric].fmt(previous)} → ${METRICS[metric].fmt(value)}</div><div class="event-copy">${esc(change.text)}</div>`;
     const scale = r.width / W, left = cx * scale;
     tip.style.left = Math.min(Math.max(0, left + 12), r.width - tip.offsetWidth) + "px";
     if (left + 12 + tip.offsetWidth > r.width) tip.style.left = Math.max(0, left - tip.offsetWidth - 12) + "px";
@@ -309,7 +294,7 @@ function renderChart() {
   };
   const hit = svg.querySelector("#hit");
   hit.addEventListener("mousemove", move); hit.addEventListener("touchstart", move, { passive: true }); hit.addEventListener("touchmove", move, { passive: true });
-  hit.addEventListener("mouseleave", () => { tip.style.opacity = 0; xh.setAttribute("opacity", 0); svg.querySelector('#yh').setAttribute('opacity',0);svg.querySelector('#hover-points').innerHTML=''; });
+  hit.addEventListener("mouseleave", () => { tip.style.opacity = 0; xh.setAttribute("opacity", 0); });
   box.onkeydown=ev=>{if(!['ArrowLeft','ArrowRight','Escape'].includes(ev.key))return;ev.preventDefault();if(ev.key==='Escape'){tip.style.opacity=0;return;}const i=Math.max(0,Math.min(history.length-1,Number(box.dataset.index||history.length-1)+(ev.key==='ArrowLeft'?-1:1)));const r=svg.getBoundingClientRect();move({clientX:r.left+x(dates[i])*r.width/W,clientY:r.top+r.height/2});};
 }
 
@@ -336,11 +321,11 @@ function upgradeLogos() {
 function renderTable() {
   const pct = v => `<span class="bar"><span>${(v * 100).toFixed(v < 0.1 && v > 0 ? 1 : 0)}%</span><i style="--w:${Math.max(v * 100, v > 0 ? 2 : 0)}%"></i></span>`;
   const el = document.getElementById("table");
-  el.innerHTML = `<thead><tr><th>Team</th><th>W-L</th><th class="hide-sm">PF</th><th class="hide-sm">Strength</th><th class="hide-sm">Proj W</th><th>Playoffs</th><th>Title</th><th class="hide-sm">Δ today</th></tr></thead><tbody>` +
+  el.innerHTML = `<thead><tr><th>Team</th><th>W-L</th><th class="hide-sm">PF</th><th class="hide-sm">Strength</th><th class="hide-sm">Proj W</th><th>Playoffs</th><th>Title</th></tr></thead><tbody>` +
     latest.teams.map(t => {
       const c = colorOf(t.id);
       return `<tr class="team" data-id="${t.id}"><td><span class="tname"><span class="mark" style="${c ? `background:${c}` : ""}"></span><span class="ini">${esc(initials(t.name))}</span><span>${esc(t.name)}</span></span></td>
-      <td>${t.wins}-${t.losses}</td><td class="hide-sm">${t.pf.toFixed(1)}</td><td class="hide-sm">${t.strength.toFixed(1)}</td><td class="hide-sm">${t.projWins.toFixed(1)}</td><td>${pct(t.playoff)}</td><td>${pct(t.champ)}</td><td class="hide-sm">${trend(t.id)}</td></tr>`;
+      <td>${t.wins}-${t.losses}</td><td class="hide-sm">${t.pf.toFixed(1)}</td><td class="hide-sm">${t.strength.toFixed(1)}</td><td class="hide-sm">${t.projWins.toFixed(1)}</td><td>${pct(t.playoff)}</td><td>${pct(t.champ)}</td></tr>`;
     }).join("") + "</tbody>";
   el.querySelectorAll("tr.team").forEach(r => r.onclick = () => toggle(+r.dataset.id));
   upgradeLogos();
