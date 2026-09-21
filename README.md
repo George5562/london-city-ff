@@ -15,7 +15,8 @@ The league is private, so the Action needs two repo secrets from a logged-in ESP
 league viewable to the public, and no secrets are needed.
 
 For natural-language graph tooltips, add `OPENROUTER_API_KEY` as a repository secret. The workflow
-uses Jev (`typesafe/jev-1.13`) only to select a validated cause, then `openai/gpt-4.1-nano` to write
+uses Jev (`typesafe/jev-1.13`) only to select a validated cause, then OpenAI GPT-5.6 Luna at low reasoning
+effort (`openai/gpt-5.6-luna`) to write
 one constrained sentence. Without that optional secret, the same deterministic event tree produces
 a factual template tooltip instead.
 

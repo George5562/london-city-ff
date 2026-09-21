@@ -24,7 +24,8 @@ jobs:
           SWID: ${{ secrets.SWID }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           OPENROUTER_MODEL_CLASSIFIER: typesafe/jev-1.13
-          OPENROUTER_MODEL_EXPLAINER: openai/gpt-4.1-nano
+          OPENROUTER_MODEL_EXPLAINER: openai/gpt-5.6-luna
+          OPENROUTER_REASONING_EFFORT: low
         run: python scripts/update.py
       - name: Commit snapshot
         run: |

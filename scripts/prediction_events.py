@@ -15,7 +15,8 @@ CAUSES = {
     "external_opportunity", "projection_rerating", "standings_context",
 }
 JEV_MODEL = os.getenv("OPENROUTER_MODEL_CLASSIFIER", "typesafe/jev-1.13")
-EXPLAINER_MODEL = os.getenv("OPENROUTER_MODEL_EXPLAINER", "openai/gpt-4.1-nano")
+EXPLAINER_MODEL = os.getenv("OPENROUTER_MODEL_EXPLAINER", "openai/gpt-5.6-luna")
+EXPLAINER_REASONING = os.getenv("OPENROUTER_REASONING_EFFORT", "low")
 
 
 def _stat_signal(player, week):
@@ -141,11 +142,14 @@ def deterministic_cause(events):
     return "standings_context"
 
 
-def _chat(model, messages, max_tokens):
+def _chat(model, messages, max_tokens, reasoning_effort=None):
     key = os.getenv("OPENROUTER_API_KEY")
     if not key:
         return None
-    body = json.dumps({"model": model, "messages": messages, "temperature": 0, "max_tokens": max_tokens}).encode()
+    payload = {"model": model, "messages": messages, "temperature": 0, "max_tokens": max_tokens}
+    if reasoning_effort:
+        payload["reasoning_effort"] = reasoning_effort
+    body = json.dumps(payload).encode()
     request = urllib.request.Request("https://openrouter.ai/api/v1/chat/completions", data=body,
         headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json",
                  "HTTP-Referer": "https://github.com/George5562/london-city-ff",
@@ -196,7 +200,7 @@ def explain(cause, events, delta):
         {"role": "system", "content": "Write one factual tooltip sentence, 28 words maximum. Do not invent facts or claims."},
         {"role": "user", "content": json.dumps({"cause": cause, "title_odds_delta_points": round(delta * 100, 2),
              "facts": _fact_lines(events), "fallback": fallback})},
-    ], 60)
+    ], 60, EXPLAINER_REASONING)
     if not raw or len(raw.split()) > 32:
         return fallback, "template"
     return raw.replace("\n", " "), "model"
