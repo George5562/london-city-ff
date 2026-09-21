@@ -181,57 +181,161 @@
    "backfilled": false,
    "teams": {
     "9": {
-     "champ": 0.3154,
-     "playoff": 0.9111,
-     "projWins": 10.6
+     "champ": 0.3596,
+     "playoff": 0.9443,
+     "projWins": 11.06
     },
     "3": {
-     "champ": 0.2242,
-     "playoff": 0.7892,
-     "projWins": 9.78
-    },
-    "13": {
-     "champ": 0.1303,
-     "playoff": 0.5919,
-     "projWins": 8.82
+     "champ": 0.2127,
+     "playoff": 0.7916,
+     "projWins": 9.79
     },
     "6": {
-     "champ": 0.1153,
-     "playoff": 0.5809,
-     "projWins": 8.63
+     "champ": 0.1286,
+     "playoff": 0.6342,
+     "projWins": 8.89
+    },
+    "13": {
+     "champ": 0.1163,
+     "playoff": 0.5806,
+     "projWins": 8.78
     },
     "1": {
-     "champ": 0.077,
-     "playoff": 0.356,
-     "projWins": 7.56
-    },
-    "2": {
-     "champ": 0.0672,
-     "playoff": 0.3599,
+     "champ": 0.0707,
+     "playoff": 0.3533,
      "projWins": 7.54
     },
+    "2": {
+     "champ": 0.0557,
+     "playoff": 0.3361,
+     "projWins": 7.42
+    },
     "4": {
-     "champ": 0.0341,
-     "playoff": 0.1676,
-     "projWins": 6.21
+     "champ": 0.0284,
+     "playoff": 0.1518,
+     "projWins": 6.11
     },
     "11": {
-     "champ": 0.0203,
-     "playoff": 0.1305,
-     "projWins": 5.96
+     "champ": 0.0184,
+     "playoff": 0.1285,
+     "projWins": 5.97
     },
     "5": {
-     "champ": 0.014,
-     "playoff": 0.091,
-     "projWins": 5.6
+     "champ": 0.0076,
+     "playoff": 0.0597,
+     "projWins": 5.2
     },
     "12": {
-     "champ": 0.0024,
-     "playoff": 0.0219,
-     "projWins": 4.3
+     "champ": 0.0021,
+     "playoff": 0.0199,
+     "projWins": 4.24
     }
    },
-   "at": "2026-09-21T18:00:00Z"
+   "at": "2026-09-21T18:00:00Z",
+   "changes": {
+    "9": {
+     "cause": "external_opportunity",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.0442,
+     "text": "Title odds rose 4.4 points after injury: Kyler Murray OUT -> ACTIVE.",
+     "facts": [
+      "injury: Kyler Murray OUT -> ACTIVE",
+      "injury: Brevin Jordan OUT -> ACTIVE"
+     ]
+    },
+    "3": {
+     "cause": "external_opportunity",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0115,
+     "text": "Title odds fell 1.2 points after injury: Kyler Murray OUT -> ACTIVE.",
+     "facts": [
+      "injury: Kyler Murray OUT -> ACTIVE",
+      "injury: Drew Allar OUT -> ACTIVE",
+      "injury: Will Howard OUT -> ACTIVE",
+      "injury: Taylen Green OUT -> ACTIVE"
+     ]
+    },
+    "6": {
+     "cause": "external_opportunity",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.0133,
+     "text": "Title odds rose 1.3 points after injury: Blake Grupe OUT -> ACTIVE.",
+     "facts": [
+      "injury: Blake Grupe OUT -> ACTIVE",
+      "injury: Ke'Shawn Williams OUT -> ACTIVE",
+      "injury: Behren Morton OUT -> ACTIVE",
+      "injury: Tanner Arkin OUT -> ACTIVE",
+      "injury: Josh Johnson OUT -> ACTIVE"
+     ]
+    },
+    "13": {
+     "cause": "external_opportunity",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.014,
+     "text": "Title odds fell 1.4 points after injury: Drew Allar OUT -> ACTIVE.",
+     "facts": [
+      "injury: Drew Allar OUT -> ACTIVE",
+      "injury: Will Howard OUT -> ACTIVE",
+      "injury: Ke'Shawn Williams OUT -> ACTIVE",
+      "injury: Brevin Jordan OUT -> ACTIVE",
+      "injury: Josh Johnson OUT -> ACTIVE"
+     ]
+    },
+    "1": {
+     "cause": "external_opportunity",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0063,
+     "text": "Title odds fell 0.6 points after injury: Taylen Green OUT -> ACTIVE.",
+     "facts": [
+      "injury: Taylen Green OUT -> ACTIVE",
+      "injury: Ke'Shawn Williams OUT -> ACTIVE",
+      "injury: Behren Morton OUT -> ACTIVE",
+      "injury: Tanner Arkin OUT -> ACTIVE",
+      "injury: Josh Johnson OUT -> ACTIVE"
+     ]
+    },
+    "2": {
+     "cause": "external_opportunity",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0115,
+     "text": "Title odds fell 1.1 points after injury: Blake Grupe OUT -> ACTIVE.",
+     "facts": [
+      "injury: Blake Grupe OUT -> ACTIVE",
+      "injury: Drew Allar OUT -> ACTIVE",
+      "injury: Will Howard OUT -> ACTIVE"
+     ]
+    },
+    "4": {
+     "cause": "external_opportunity",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0057,
+     "text": "Title odds fell 0.6 points after injury: Ke'Shawn Williams OUT -> ACTIVE.",
+     "facts": [
+      "injury: Ke'Shawn Williams OUT -> ACTIVE",
+      "injury: Behren Morton OUT -> ACTIVE",
+      "injury: Tanner Arkin OUT -> ACTIVE",
+      "injury: Josh Johnson OUT -> ACTIVE"
+     ]
+    },
+    "5": {
+     "cause": "external_opportunity",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0064,
+     "text": "Title odds fell 0.6 points after injury: Kyler Murray OUT -> ACTIVE.",
+     "facts": [
+      "injury: Kyler Murray OUT -> ACTIVE",
+      "injury: Brevin Jordan OUT -> ACTIVE"
+     ]
+    }
+   }
   }
  ]
 }
