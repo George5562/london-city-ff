@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>London City Odds</title>
+<meta name="description" content="Daily title and playoff odds for the London City fantasy football league.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏈</text></svg>">
+<style>
+:root {
+  color-scheme: light;
+  --bg: #f4f3ef;
+  --surface: #fcfcfb;
+  --border: #e3e1db;
+  --grid: #ecebe6;
+  --text: #0b0b0b;
+  --text-2: #52514e;
+  --text-3: #7c7b76;
+  --muted-line: #cfcdc6;
+  --accent: #2a78d6;
+  --s1: #2a78d6; --s2: #eb6834; --s3: #1baf7a;
+  --track: #ecebe6;
+  --win: #1baf7a;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --bg: #111110; --surface: #1a1a19; --border: #2d2d2b; --grid: #262624;
+    --text: #ffffff; --text-2: #c3c2b7; --text-3: #8f8e87; --muted-line: #3d3d3a;
+    --accent: #3987e5; --s1: #3987e5; --s2: #d95926; --s3: #199e70; --track: #2a2a28; --win: #199e70;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #111110; --surface: #1a1a19; --border: #2d2d2b; --grid: #262624;
+  --text: #ffffff; --text-2: #c3c2b7; --text-3: #8f8e87; --muted-line: #3d3d3a;
+  --accent: #3987e5; --s1: #3987e5; --s2: #d95926; --s3: #199e70; --track: #2a2a28; --win: #199e70;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 15px/1.5 Inter, system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+.wrap { max-width: 1040px; margin: 0 auto; padding: 32px 16px 64px; }
+header { display: flex; justify-content: space-between; align-items: flex-end; gap: 16px; flex-wrap: wrap; margin-bottom: 24px; }
+h1 { font-size: 28px; line-height: 1.15; margin: 0; letter-spacing: -0.02em; }
+.sub { color: var(--text-2); margin: 4px 0 0; }
+.updated { color: var(--text-3); font-size: 13px; }
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 20px; margin-bottom: 20px; }
+.card h2 { font-size: 17px; margin: 0; letter-spacing: -0.01em; }
+.card .hint { color: var(--text-3); font-size: 13px; margin: 2px 0 0; }
+.row { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; flex-wrap: wrap; margin-bottom: 12px; }
+.seg { display: inline-flex; background: var(--track); border-radius: 8px; padding: 3px; }
+.seg button { font: inherit; font-size: 13px; font-weight: 500; border: 0; background: transparent; color: var(--text-2); padding: 5px 12px; border-radius: 6px; cursor: pointer; }
+.seg button[aria-pressed="true"] { background: var(--surface); color: var(--text); box-shadow: 0 1px 2px rgba(0,0,0,.12); }
+.legend { display: flex; flex-wrap: wrap; gap: 6px; margin: 4px 0 8px; }
+.chip { font: inherit; font-size: 13px; display: inline-flex; align-items: center; gap: 6px; padding: 3px 10px; border-radius: 999px; border: 1px solid var(--border); background: transparent; color: var(--text-2); cursor: pointer; }
+.chip .dot { width: 10px; height: 10px; border-radius: 50%; background: var(--muted-line); }
+.chip[aria-pressed="true"] { color: var(--text); border-color: var(--text-3); }
+.chart { position: relative; }
+.chart svg { display: block; width: 100%; height: auto; overflow: visible; }
+.chart text { font-family: Inter, system-ui, sans-serif; }
+.tip { position: absolute; pointer-events: none; background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 8px 10px; font-size: 12px; box-shadow: 0 4px 16px rgba(0,0,0,.12); min-width: 180px; opacity: 0; transition: opacity .1s; }
+.tip b { display: block; margin-bottom: 4px; font-size: 12px; }
+.tip .l { display: flex; justify-content: space-between; gap: 12px; color: var(--text-2); }
+.tip .l.on { color: var(--text); font-weight: 600; }
+.tip .sw { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 6px; }
+table { width: 100%; border-collapse: collapse; font-size: 14px; }
+th { text-align: right; font-size: 12px; font-weight: 500; color: var(--text-3); padding: 6px 8px; border-bottom: 1px solid var(--border); white-space: nowrap; }
+th:first-child, td:first-child { text-align: left; }
+td { text-align: right; padding: 8px; border-bottom: 1px solid var(--grid); font-variant-numeric: tabular-nums; white-space: nowrap; }
+tr.team { cursor: pointer; }
+tr.team:hover td { background: var(--bg); }
+.tname { display: flex; align-items: center; gap: 10px; }
+.tname img, .tname .ini { width: 26px; height: 26px; border-radius: 50%; object-fit: cover; background: var(--track); flex: none; }
+.tname .ini { display: inline-flex; align-items: center; justify-content: center; font-size: 11px; font-weight: 600; color: var(--text-2); }
+.tname .mark { width: 4px; height: 22px; border-radius: 2px; background: transparent; }
+.bar { display: inline-flex; align-items: center; gap: 8px; justify-content: flex-end; }
+.bar i { display: inline-block; width: 64px; height: 6px; border-radius: 3px; background: var(--track); position: relative; overflow: hidden; }
+.bar i::after { content: ""; position: absolute; inset: 0 auto 0 0; width: var(--w); background: var(--text-3); border-radius: 3px; }
+.scroll { overflow-x: auto; }
+.matchups { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 12px; }
+.mu { border: 1px solid var(--border); border-radius: 10px; padding: 12px 14px; }
+.mu .side { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+.mu .side span:first-child { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.mu .pts { font-variant-numeric: tabular-nums; font-weight: 600; }
+.mu .proj { color: var(--text-3); font-size: 12px; font-weight: 400; margin-left: 6px; }
+.prob { display: flex; height: 8px; border-radius: 4px; overflow: hidden; margin: 10px 0 4px; gap: 2px; }
+.prob div { background: var(--muted-line); }
+.prob div.fav { background: var(--text-2); }
+.prob div:first-child { border-radius: 4px 0 0 4px; }
+.prob div:last-child { border-radius: 0 4px 4px 0; }
+.prob-l { display: flex; justify-content: space-between; font-size: 12px; color: var(--text-2); font-variant-numeric: tabular-nums; }
+footer, .method { color: var(--text-3); font-size: 13px; }
+.method p { margin: 6px 0; }
+@media (max-width: 640px) { .hide-sm { display: none; } h1 { font-size: 24px; } .card { padding: 16px 14px; } .bar i { display: none; } td, th { padding: 8px 6px; } td:first-child { white-space: normal; } .tname { gap: 8px; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div>
+      <h1>London City Fantasy Football</h1>
+      <p class="sub">Who's actually going to win this thing? Recomputed every morning.</p>
+    </div>
+    <div class="updated" id="updated"></div>
+  </header>
+
+  <section class="card">
+    <div class="row">
+      <div>
+        <h2 id="chart-title">Championship odds over time</h2>
+        <p class="hint">Tap teams to highlight (up to 3). Dashed = reconstructed before daily tracking began.</p>
+      </div>
+      <div class="seg" role="group" aria-label="Metric">
+        <button data-m="champ" aria-pressed="true">Title</button>
+        <button data-m="playoff" aria-pressed="false">Playoffs</button>
+        <button data-m="projWins" aria-pressed="false">Proj. wins</button>
+      </div>
+    </div>
+    <div class="legend" id="legend"></div>
+    <div class="chart" id="chart"><svg id="svg"></svg><div class="tip" id="tip"></div></div>
+  </section>
+
+  <section class="card">
+    <div class="row"><div><h2>Standings &amp; odds</h2><p class="hint">Strength = expected points per week (projected best lineup, blended with real scores).</p></div></div>
+    <div class="scroll"><table id="table"></table></div>
+  </section>
+
+  <section class="card">
+    <div class="row"><div><h2 id="week-title">This week</h2><p class="hint">Win chance per matchup, updates with live scores.</p></div></div>
+    <div class="matchups" id="matchups"></div>
+  </section>
+
+  <section class="card method">
+    <h2 style="color:var(--text)">How the odds work</h2>
+    <p>Every day we pull each roster from ESPN, pick every team's best possible lineup using ESPN's player projections, and blend that with how many points the team has actually scored so far. Then we simulate the rest of the regular season and the 4-team playoff 20,000 times. A team's title odds are the share of those simulations it wins.</p>
+    <p>Trades, waiver pickups and injuries change the projected lineup, so they move the lines even in weeks with no games. Seeding uses wins, then points for.</p>
+  </section>
+  <footer>Read-only fan page. Data from ESPN Fantasy.</footer>
+</div>
+
+<script>
+const SLOTS = ["--s1", "--s2", "--s3"];
+const METRICS = {
+  champ: { title: "Championship odds over time", fmt: v => (v * 100).toFixed(v < 0.1 ? 1 : 0) + "%", pct: true },
+  playoff: { title: "Playoff odds over time", fmt: v => (v * 100).toFixed(0) + "%", pct: true },
+  projWins: { title: "Projected regular-season wins", fmt: v => v.toFixed(1), pct: false },
+};
+let latest, history, teams, metric = "champ", selected = [];
+
+const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const esc = s => String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const colorOf = id => { const k = selected.indexOf(id); return k < 0 ? null : css(SLOTS[k]); };
+
+async function load() {
+  const [l, h] = await Promise.all([fetch("data/latest.json").then(r => r.json()), fetch("data/history.json").then(r => r.json())]);
+  latest = l; history = h.snapshots;
+  teams = Object.fromEntries(latest.teams.map(t => [t.id, t]));
+  const saved = (() => { try { return JSON.parse(localStorage.getItem("sel")); } catch { return null; } })();
+  selected = Array.isArray(saved) && saved.every(id => teams[id]) ? saved.slice(0, 3) : latest.teams.slice(0, 2).map(t => t.id);
+  if (!saved && teams[3] && !selected.includes(3)) selected.push(3); // Goats
+  document.getElementById("updated").textContent = "Updated " + new Date(latest.generated).toLocaleString(undefined, { weekday: "short", day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" });
+  render();
+}
+
+function toggle(id) {
+  const k = selected.indexOf(id);
+  if (k >= 0) selected.splice(k, 1);
+  else { if (selected.length >= 3) selected.shift(); selected.push(id); }
+  try { localStorage.setItem("sel", JSON.stringify(selected)); } catch {}
+  render();
+}
+
+function render() { renderLegend(); renderChart(); renderTable(); renderMatchups(); }
+
+function renderLegend() {
+  const el = document.getElementById("legend");
+  el.innerHTML = latest.teams.map(t => {
+    const c = colorOf(t.id);
+    return `<button class="chip" data-id="${t.id}" aria-pressed="${!!c}"><span class="dot" style="${c ? `background:${c}` : ""}"></span>${esc(t.name)}</button>`;
+  }).join("");
+  el.querySelectorAll(".chip").forEach(b => b.onclick = () => toggle(+b.dataset.id));
+}
+
+function renderChart() {
+  document.getElementById("chart-title").textContent = METRICS[metric].title;
+  const svg = document.getElementById("svg"), box = document.getElementById("chart");
+  const W = Math.max(320, box.clientWidth), small = W < 560, H = small ? 280 : 360;
+  const m = { t: 12, r: small ? 12 : 150, b: 28, l: 40 };
+  const iw = W - m.l - m.r, ih = H - m.t - m.b;
+  svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
+  const dates = history.map(s => new Date(s.date + "T12:00:00Z"));
+  const t0 = +dates[0], t1 = Math.max(+dates[dates.length - 1], t0 + 864e5 * 7);
+  const x = d => m.l + (iw * (+d - t0)) / (t1 - t0);
+  const all = history.flatMap(s => Object.values(s.teams).map(v => v[metric]));
+  let ymax = Math.max(...all);
+  ymax = METRICS[metric].pct ? Math.min(1, Math.ceil(ymax * 10 + 0.5) / 10) : Math.ceil(ymax + 1);
+  const y = v => m.t + ih - (ih * v) / ymax;
+  const ticks = METRICS[metric].pct ? [0, .25, .5, .75, 1].map(f => f * ymax) : Array.from({ length: 5 }, (_, i) => (ymax * i) / 4);
+  const grid = css("--grid"), t3 = css("--text-3"), muted = css("--muted-line"), surf = css("--surface");
+  let s = "";
+  ticks.forEach(v => { s += `<line x1="${m.l}" x2="${m.l + iw}" y1="${y(v)}" y2="${y(v)}" stroke="${grid}"/><text x="${m.l - 8}" y="${y(v) + 4}" text-anchor="end" font-size="11" fill="${t3}">${METRICS[metric].pct ? Math.round(v * 100) + "%" : v.toFixed(0)}</text>`; });
+  const fmtD = d => d.toLocaleDateString(undefined, { day: "numeric", month: "short", timeZone: "UTC" });
+  const nT = small ? 3 : 6;
+  for (let i = 0; i <= nT; i++) { const d = new Date(t0 + ((t1 - t0) * i) / nT); s += `<text x="${x(d)}" y="${H - 8}" text-anchor="middle" font-size="11" fill="${t3}">${fmtD(d)}</text>`; }
+  const lastBack = history.map(h => h.backfilled).lastIndexOf(true);
+  const path = (id, a, b) => history.slice(a, b + 1).map((sn, i) => { const v = sn.teams[id]; return v ? `${i ? "L" : "M"}${x(dates[a + i]).toFixed(1)},${y(v[metric]).toFixed(1)}` : ""; }).join("");
+  const line = (id, color, w) => {
+    let out = "";
+    const split = Math.max(lastBack + 1, 0);
+    if (split > 0) out += `<path d="${path(id, 0, Math.min(split, history.length - 1))}" fill="none" stroke="${color}" stroke-width="${w}" stroke-dasharray="4 4" stroke-linecap="round"/>`;
+    if (split < history.length - 1) out += `<path d="${path(id, split, history.length - 1)}" fill="none" stroke="${color}" stroke-width="${w}" stroke-linejoin="round" stroke-linecap="round"/>`;
+    return out;
+  };
+  const ids = latest.teams.map(t => t.id);
+  ids.filter(id => !selected.includes(id)).forEach(id => s += line(id, muted, 1.5));
+  const labels = [];
+  selected.forEach(id => {
+    const c = colorOf(id); s += line(id, c, 2.5);
+    history.forEach((sn, i) => { const v = sn.teams[id]; if (v) s += `<circle cx="${x(dates[i])}" cy="${y(v[metric])}" r="4" fill="${c}" stroke="${surf}" stroke-width="2"/>`; });
+    const lv = history[history.length - 1].teams[id];
+    if (lv) labels.push({ id, c, y: y(lv[metric]), v: lv[metric] });
+  });
+  if (!small) {
+    labels.sort((a, b) => a.y - b.y);
+    for (let i = 1; i < labels.length; i++) labels[i].y = Math.max(labels[i].y, labels[i - 1].y + 16);
+    const lx = x(dates[dates.length - 1]) + 10;
+    labels.forEach(l => s += `<text x="${lx}" y="${l.y + 4}" font-size="12" font-weight="600" fill="${css("--text")}">${esc(teams[l.id].name.slice(0, 16))} <tspan fill="${css("--text-2")}" font-weight="400">${METRICS[metric].fmt(l.v)}</tspan></text>`);
+  }
+  s += `<line id="xh" y1="${m.t}" y2="${m.t + ih}" stroke="${t3}" stroke-dasharray="2 3" opacity="0"/>`;
+  s += `<rect id="hit" x="${m.l}" y="${m.t}" width="${iw}" height="${ih}" fill="transparent"/>`;
+  svg.innerHTML = s;
+
+  const tip = document.getElementById("tip"), xh = svg.querySelector("#xh");
+  const move = ev => {
+    const r = svg.getBoundingClientRect(), px = ((ev.touches ? ev.touches[0].clientX : ev.clientX) - r.left) * (W / r.width);
+    let bi = 0; dates.forEach((d, i) => { if (Math.abs(x(d) - px) < Math.abs(x(dates[bi]) - px)) bi = i; });
+    const sn = history[bi], cx = x(dates[bi]);
+    xh.setAttribute("x1", cx); xh.setAttribute("x2", cx); xh.setAttribute("opacity", 1);
+    const rows = Object.entries(sn.teams).sort((a, b) => b[1][metric] - a[1][metric]).map(([id, v]) => {
+      const c = colorOf(+id);
+      return `<div class="l ${c ? "on" : ""}"><span><span class="sw" style="background:${c || muted}"></span>${esc(teams[id]?.name || id)}</span><span>${METRICS[metric].fmt(v[metric])}</span></div>`;
+    }).join("");
+    tip.innerHTML = `<b>${fmtD(dates[bi])} · ${esc(sn.label)}${sn.backfilled ? " (reconstructed)" : ""}</b>${rows}`;
+    const scale = r.width / W, left = cx * scale;
+    tip.style.left = Math.min(Math.max(0, left + 12), r.width - tip.offsetWidth) + "px";
+    if (left + 12 + tip.offsetWidth > r.width) tip.style.left = Math.max(0, left - tip.offsetWidth - 12) + "px";
+    tip.style.top = "8px"; tip.style.opacity = 1;
+  };
+  const hit = svg.querySelector("#hit");
+  hit.addEventListener("mousemove", move); hit.addEventListener("touchstart", move, { passive: true }); hit.addEventListener("touchmove", move, { passive: true });
+  hit.addEventListener("mouseleave", () => { tip.style.opacity = 0; xh.setAttribute("opacity", 0); });
+}
+
+function trend(id) {
+  if (history.length < 2) return "";
+  const a = history[history.length - 2].teams[id], b = history[history.length - 1].teams[id];
+  if (!a || !b) return "";
+  const d = (b.champ - a.champ) * 100;
+  if (Math.abs(d) < 0.5) return `<span style="color:var(--text-3)">–</span>`;
+  return `<span style="color:var(--text-2)">${d > 0 ? "▲" : "▼"} ${Math.abs(d).toFixed(1)}</span>`;
+}
+
+const initials = n => n.replace(/^The /, "").split(/\s+/).map(w => w[0]).join("").slice(0, 2).toUpperCase();
+// ESPN's custom-uploaded logos need a login, so swap initials for the logo only once it actually loads.
+function upgradeLogos() {
+  document.querySelectorAll("tr.team").forEach(r => {
+    const t = teams[r.dataset.id]; if (!t.logo) return;
+    const img = new Image(); img.alt = ""; img.onload = () => r.querySelector(".ini")?.replaceWith(img); img.src = t.logo;
+  });
+}
+
+function renderTable() {
+  const pct = v => `<span class="bar"><span>${(v * 100).toFixed(v < 0.1 && v > 0 ? 1 : 0)}%</span><i style="--w:${Math.max(v * 100, v > 0 ? 2 : 0)}%"></i></span>`;
+  const el = document.getElementById("table");
+  el.innerHTML = `<thead><tr><th>Team</th><th>W-L</th><th class="hide-sm">PF</th><th class="hide-sm">Strength</th><th class="hide-sm">Proj W</th><th>Playoffs</th><th>Title</th><th class="hide-sm">Δ today</th></tr></thead><tbody>` +
+    latest.teams.map(t => {
+      const c = colorOf(t.id);
+      return `<tr class="team" data-id="${t.id}"><td><span class="tname"><span class="mark" style="${c ? `background:${c}` : ""}"></span><span class="ini">${esc(initials(t.name))}</span><span>${esc(t.name)}</span></span></td>
+      <td>${t.wins}-${t.losses}</td><td class="hide-sm">${t.pf.toFixed(1)}</td><td class="hide-sm">${t.strength.toFixed(1)}</td><td class="hide-sm">${t.projWins.toFixed(1)}</td><td>${pct(t.playoff)}</td><td>${pct(t.champ)}</td><td class="hide-sm">${trend(t.id)}</td></tr>`;
+    }).join("") + "</tbody>";
+  el.querySelectorAll("tr.team").forEach(r => r.onclick = () => toggle(+r.dataset.id));
+  upgradeLogos();
+}
+
+const pctW = p => p > 0.995 ? ">99%" : p < 0.005 ? "<1%" : (p * 100).toFixed(0) + "%";
+
+function renderMatchups() {
+  document.getElementById("week-title").textContent = `Week ${latest.week}`;
+  document.getElementById("matchups").innerHTML = latest.matchups.map(m => {
+    const h = teams[m.home], a = teams[m.away], p = m.homeWin, live = m.homePts !== undefined;
+    const side = (t, pts, proj) => `<div class="side"><span>${esc(t.name)}</span><span class="pts">${live ? pts.toFixed(1) : ""}${live ? `<span class="proj">proj ${proj.toFixed(0)}</span>` : ""}</span></div>`;
+    return `<div class="mu">${side(h, m.homePts, m.homeProj)}${side(a, m.awayPts, m.awayProj)}
+      <div class="prob"><div class="${p >= 0.5 ? "fav" : ""}" style="flex:${Math.max(p, 0.005)}"></div><div class="${p < 0.5 ? "fav" : ""}" style="flex:${Math.max(1 - p, 0.005)}"></div></div>
+      <div class="prob-l"><span>${pctW(p)}</span><span>${pctW(1 - p)}</span></div></div>`;
+  }).join("");
+}
+
+document.querySelectorAll(".seg button").forEach(b => b.onclick = () => {
+  metric = b.dataset.m;
+  document.querySelectorAll(".seg button").forEach(x => x.setAttribute("aria-pressed", x === b));
+  renderChart();
+});
+let rt; addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(renderChart, 100); });
+matchMedia("(prefers-color-scheme: dark)").addEventListener("change", render);
+load();
+</script>
+</body>
+</html>

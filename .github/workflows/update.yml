@@ -1,0 +1,32 @@
+name: Daily odds update
+
+on:
+  schedule:
+    - cron: "0 11 * * *"   # 11:00 UTC: after Monday night games finish and after ESPN waivers run
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency: update
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch league and simulate
+        env:
+          ESPN_S2: ${{ secrets.ESPN_S2 }}
+          SWID: ${{ secrets.SWID }}
+        run: python scripts/update.py
+      - name: Commit snapshot
+        run: |
+          git config user.name "odds-bot"
+          git config user.email "odds-bot@users.noreply.github.com"
+          git add docs/data
+          git diff --cached --quiet || git commit -m "Daily odds $(date -u +%F)"
+          git push
