@@ -2,7 +2,7 @@ name: Daily odds update
 
 on:
   schedule:
-    - cron: "0 11 * * *"   # 11:00 UTC: after Monday night games finish and after ESPN waivers run
+    - cron: "0 * * * *"    # hourly: captures roster, player-news, projection and live-score movements
   workflow_dispatch:
 
 permissions:
@@ -22,6 +22,9 @@ jobs:
         env:
           ESPN_S2: ${{ secrets.ESPN_S2 }}
           SWID: ${{ secrets.SWID }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          OPENROUTER_MODEL_CLASSIFIER: typesafe/jev-1.13
+          OPENROUTER_MODEL_EXPLAINER: openai/gpt-4.1-nano
         run: python scripts/update.py
       - name: Commit snapshot
         run: |

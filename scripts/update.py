@@ -8,11 +8,14 @@ Usage:
 import argparse, datetime as dt, json, math, os, random, sys, urllib.request
 from pathlib import Path
 
+from prediction_events import explain_prediction_moves, state_from_league
+
 LEAGUE_ID = 227341815
 SEASON = 2026
 ROOT = Path(__file__).resolve().parent.parent
 SITE_DATA = ROOT / "docs" / "data"
 SEED_DIR = ROOT / "data" / "seed"
+STATE_FILE = ROOT / "data" / "state" / "league-state.json"
 
 N_SIMS = 20000
 WEEKLY_SD = 26.0        # game-to-game noise in a team's weekly score
@@ -27,19 +30,49 @@ AVAIL = {"INJURY_RESERVE": 0.35, "OUT": 0.6, "DOUBTFUL": 0.85, "SUSPENSION": 0.5
 # ---------------------------------------------------------------- fetch
 def fetch_live():
     url = (f"https://lm-api-reads.fantasy.espn.com/apis/v3/games/ffl/seasons/{SEASON}"
-           f"/segments/0/leagues/{LEAGUE_ID}?view=mTeam&view=mMatchupScore&view=mRoster&view=mSettings")
+           f"/segments/0/leagues/{LEAGUE_ID}?view=mTeam&view=mMatchupScore&view=mRoster&view=mSettings&view=mTransactions2")
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
     s2, swid = os.environ.get("ESPN_S2"), os.environ.get("SWID")
     if s2 and swid:
         req.add_header("Cookie", f"espn_s2={s2}; SWID={swid}")
     try:
         with urllib.request.urlopen(req, timeout=30) as r:
-            return mini(json.load(r))
+            league = json.load(r)
     except urllib.error.HTTPError as e:
         if e.code == 401:
             sys.exit("ESPN returned 401: league is private. Set ESPN_S2 and SWID secrets, "
                      "or make the league viewable to the public.")
         raise
+    league["players"] = fetch_player_pool(s2, swid)
+    return league
+
+
+def fetch_player_pool(s2, swid):
+    """Fetch the full player pool, not only the league's rostered players.
+
+    ESPN's player endpoint pages at 500 records. Tracking this pool lets a
+    relevant injury or projection re-rate outside a roster explain a later
+    opportunity change for a rostered teammate.
+    """
+    url = (f"https://lm-api-reads.fantasy.espn.com/apis/v3/games/ffl/seasons/{SEASON}"
+           f"/segments/0/leagues/{LEAGUE_ID}?view=kona_player_info")
+    out, seen = [], set()
+    for offset in range(0, 2500, 500):
+        filter_ = {"players": {"limit": 500, "offset": offset,
+                   "filterStatus": {"value": ["FREEAGENT", "WAIVERS", "ONTEAM"]}}}
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0",
+                                     "x-fantasy-filter": json.dumps(filter_, separators=(",", ":"))})
+        if s2 and swid:
+            req.add_header("Cookie", f"espn_s2={s2}; SWID={swid}")
+        with urllib.request.urlopen(req, timeout=30) as response:
+            batch = json.load(response).get("players") or []
+        for entry in batch:
+            ident = str(entry.get("id", entry.get("player", {}).get("id", "")))
+            if ident and ident not in seen:
+                out.append(entry); seen.add(ident)
+        if len(batch) < 500:
+            break
+    return out
 
 
 def mini(j):
@@ -212,12 +245,17 @@ def load_history():
     return json.loads(f.read_text()) if f.exists() else {"snapshots": []}
 
 
-def record(history, date, label, result, backfilled=False):
+def record(history, date, label, result, backfilled=False, at=None, changes=None):
     snap = {"date": date, "label": label, "week": result["week"], "backfilled": backfilled,
             "teams": {str(t["id"]): {"champ": t["champ"], "playoff": t["playoff"], "projWins": t["projWins"]}
                       for t in result["teams"]}}
-    history["snapshots"] = [s for s in history["snapshots"] if s["date"] != date] + [snap]
-    history["snapshots"].sort(key=lambda s: s["date"])
+    if at:
+        snap["at"] = at
+    if changes:
+        snap["changes"] = changes
+    key = at or date
+    history["snapshots"] = [s for s in history["snapshots"] if s.get("at", s["date"]) != key] + [snap]
+    history["snapshots"].sort(key=lambda s: s.get("at", s["date"]))
 
 
 def save(history, result):
@@ -225,6 +263,10 @@ def save(history, result):
     (SITE_DATA / "history.json").write_text(json.dumps(history, indent=1))
     result["generated"] = dt.datetime.now(dt.timezone.utc).isoformat(timespec="minutes")
     (SITE_DATA / "latest.json").write_text(json.dumps(result, indent=1))
+
+
+def load_json(path):
+    return json.loads(path.read_text()) if path.exists() else None
 
 
 def week_started(league, week):
@@ -252,13 +294,22 @@ def main():
     args = ap.parse_args()
     if args.backfill:
         return backfill()
-    league = fetch_live()
+    raw_league = fetch_live()
+    league = mini(raw_league)
     week = league["week"]
-    today = dt.date.today().isoformat()
+    now = dt.datetime.now(dt.timezone.utc).replace(minute=0, second=0, microsecond=0)
+    today = now.date().isoformat()
     result = simulate(league, week, week_started(league, week), int(today.replace("-", "")))
     history = load_history()
-    record(history, today, f"Week {week}", result)
+    previous_result = load_json(SITE_DATA / "latest.json")
+    previous_state = load_json(STATE_FILE)
+    state = state_from_league(raw_league, week)
+    changes = explain_prediction_moves(previous_result, result, previous_state, state)
+    at = now.isoformat().replace("+00:00", "Z")
+    record(history, today, f"Week {week} · {now:%H}:00 UTC", result, at=at, changes=changes)
     save(history, result)
+    STATE_FILE.parent.mkdir(parents=True, exist_ok=True)
+    STATE_FILE.write_text(json.dumps(state, separators=(",", ":")))
     print(f"{today}: week {week}; top odds:",
           ", ".join(f"{t['name']} {t['champ']:.0%}" for t in result["teams"][:3]))
 
