@@ -5,7 +5,7 @@ Usage:
   python scripts/update.py                   # live fetch (needs ESPN_S2 + SWID env if league is private)
   python scripts/update.py --backfill        # rebuild the backfilled history points from data/seed/
 """
-import argparse, copy, datetime as dt, json, math, os, random, sys, urllib.request
+import argparse, copy, datetime as dt, gzip, json, math, os, random, sys, urllib.request
 from pathlib import Path
 
 from prediction_events import explain_prediction_moves, state_from_league
@@ -268,10 +268,40 @@ def week_started(league, week):
 
 POST_DRAFT_AT = dt.datetime(2026, 9, 9, 18, tzinfo=dt.timezone.utc)
 WEEK_ONE_CLOSE_AT = dt.datetime(2026, 9, 15, 6, tzinfo=dt.timezone.utc)
+SCOREBOARD_DATES = ("20260910", "20260911", "20260913", "20260914", "20260915",
+                    "20260918", "20260920", "20260921")
 
 
 def _hour(value):
     return dt.datetime.fromtimestamp(value / 1000, tz=dt.timezone.utc).replace(minute=0, second=0, microsecond=0)
+
+
+def _nfl_game_ends():
+    """Return final NFL games grouped by a conservative game-end hour.
+
+    The public scoreboard supplies completed-game facts; using kickoff plus four
+    hours avoids claiming a score before the game could have finished.
+    """
+    games = []
+    for date in SCOREBOARD_DATES:
+        url = "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=" + date + "&limit=100"
+        try:
+            request = urllib.request.Request(url, headers={"Accept-Encoding": "identity", "User-Agent": "curl/8.0"})
+            with urllib.request.urlopen(request, timeout=20) as response:
+                body = response.read()
+                if body[:2] == b"\x1f\x8b":
+                    body = gzip.decompress(body)
+                board = json.loads(body)
+        except (urllib.error.URLError, urllib.error.HTTPError, json.JSONDecodeError):
+            continue
+        week = (board.get("week") or {}).get("number")
+        for event in board.get("events") or []:
+            if event.get("status", {}).get("type", {}).get("name") != "STATUS_FINAL" or not week:
+                continue
+            kickoff = dt.datetime.fromisoformat(event["date"].replace("Z", "+00:00"))
+            clubs = {int(c["team"]["id"]) for c in event.get("competitions", [{}])[0].get("competitors", [])}
+            games.append((int(week), (kickoff + dt.timedelta(hours=4)).replace(minute=0, second=0, microsecond=0), clubs))
+    return games
 
 
 def _compact_player(state_player, week):
@@ -331,6 +361,24 @@ def _apply_transaction(league, event, players, week):
             rosters[to_team].extend(moving)
 
 
+def _apply_final_scores(league, week, clubs, player_state, current_scores):
+    """Reveal already-recorded ESPN fantasy points once the real NFL game ended."""
+    changed = []
+    pro_by_name = {p.get("name"): p.get("pro") for p in player_state.values()}
+    for team in league["teams"]:
+        for player in team["players"]:
+            if pro_by_name.get(player[0]) not in clubs:
+                continue
+            actual, projection = current_scores.get((week, player[0]), (None, None))
+            if actual is None:
+                continue
+            line = player[4].setdefault(str(week), [None, projection])
+            if line[0] != actual:
+                line[0] = actual
+                changed.append((team["id"], player[0], actual))
+    return changed
+
+
 def backfill():
     """Reconstruct hourly points from the retained ESPN transaction timeline.
 
@@ -345,6 +393,12 @@ def backfill():
         sys.exit("Cannot backfill without data/state/league-state.json. Run a live update first.")
     players = state.get("players", {})
     teams = {team["id"]: team["name"] for team in current["teams"]}
+    current_scores = {}
+    for source, week in ((initial, 1), (current, 2)):
+        for team in source["teams"]:
+            for player in team["players"]:
+                values = player[4].get(str(week), [None, None])
+                current_scores[(week, player[0])] = (values[0], values[1])
     events = sorted((event for event in state.get("transactions", {}).values()
                      if event.get("status") == "EXECUTED" and event.get("at")
                      and event.get("type") != "TRADE_DECLINE"), key=lambda event: event["at"])
@@ -363,6 +417,15 @@ def backfill():
         at = _hour(event["at"])
         if POST_DRAFT_AT <= at <= now:
             by_hour.setdefault(at, []).append(event)
+    games_by_hour = {}
+    for week, at, clubs in _nfl_game_ends():
+        if POST_DRAFT_AT <= at <= now:
+            games_by_hour.setdefault(at, []).append((week, clubs))
+    # Do not let final scores leak into the pre-game historical forecast.
+    for team in league["teams"]:
+        for player in team["players"]:
+            if "1" in player[4]:
+                player[4]["1"][0] = None
 
     cursor = POST_DRAFT_AT
     cached_result = None
@@ -376,15 +439,22 @@ def backfill():
         hourly_events = by_hour.get(cursor, [])
         for event in hourly_events:
             _apply_transaction(league, event, players, phase_week)
+        score_changes = []
+        for score_week, clubs in games_by_hour.get(cursor, []):
+            if score_week == phase_week:
+                score_changes.extend(_apply_final_scores(league, score_week, clubs, players, current_scores))
         # The state is constant between retained activity timestamps, so reuse the
         # exact result rather than needlessly re-running 20,000 simulations/hour.
-        if cached_result is None or phase_changed or hourly_events:
-            cached_result = simulate(league, phase_week, phase_started, int(cursor.strftime("%Y%m%d%H")), n_sims=5000)
+        if cached_result is None or phase_changed or hourly_events or score_changes:
+            cached_result = simulate(league, phase_week, phase_started, int(cursor.strftime("%Y%m%d%H")), n_sims=1000)
         changes = {}
         for event in hourly_events:
             text = _transaction_text(event, players, teams)
             for team_id in _affected_teams(event):
                 changes[str(team_id)] = {"cause": "roster_move", "text": text}
+        for team_id, name, score in score_changes:
+            changes[str(team_id)] = {"cause": "score_update",
+                                     "text": f"Historical final score: {name} recorded {score:.1f} fantasy points."}
         label = "Post-draft reconstruction" if cursor == POST_DRAFT_AT else f"Reconstructed · {cursor:%d %b %H}:00 UTC"
         record(history, cursor.date().isoformat(), label, cached_result, backfilled=True,
                at=cursor.isoformat().replace("+00:00", "Z"), changes=changes)
