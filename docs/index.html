@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>London City Odds</title>
+<title>The Clubhouse · London City Fantasy</title>
 <meta name="description" content="Daily title and playoff odds for the London City fantasy football league.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -95,32 +95,51 @@ footer, .method { color: var(--text-3); font-size: 13px; }
 .method p { margin: 6px 0; }
 @media (max-width: 640px) { .hide-sm { display: none; } h1 { font-size: 24px; } .card { padding: 16px 14px; } .bar i { display: none; } td, th { padding: 8px 6px; } td:first-child { white-space: normal; } .tname { gap: 8px; } }
 </style>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root,:root[data-theme="dark"],:root:not([data-theme="light"]) {color-scheme:dark;--bg:#101411;--surface:#171e19;--border:#344034;--grid:#2a342c;--text:#f5f1df;--text-2:#b5bdac;--text-3:#87917e;--muted-line:#465044;--accent:#d8f36a;--s1:#d8f36a;--s2:#ff9366;--s3:#82d6dc;--track:#283126;--win:#d8f36a}
+body{font-family:'DM Sans',sans-serif;background:radial-gradient(ellipse at 85% 0%,#34412855,transparent 45%),#101411}
+body:before{content:'';position:fixed;inset:0;pointer-events:none;opacity:.025;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 150 150' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.7' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' opacity='.6' filter='url(%23n)'/%3E%3C/svg%3E");z-index:9}
+.wrap{max-width:1500px;padding:0 40px 40px}.mast{display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--border);padding:22px 0;font-size:11px;letter-spacing:2px;text-transform:uppercase}.brand{font-weight:800;font-size:16px;letter-spacing:1px}.brand span{color:var(--accent);margin-right:10px}.mast a{color:var(--text-2);text-decoration:none;margin-left:24px}.mast a:hover{color:var(--accent)}
+header{margin:40px 0 26px;align-items:center}h1{font-family:'Barlow Condensed',Impact,sans-serif;font-size:clamp(54px,6vw,88px);text-transform:uppercase;line-height:.95;letter-spacing:-1px}.eyebrow{color:var(--accent);font-size:11px;letter-spacing:2px;font-weight:700;margin-bottom:14px}.sub{margin-top:14px;font-size:14px}.updated{font-size:11px;text-transform:uppercase;letter-spacing:1px}.live-dot{display:inline-block;background:var(--accent);width:7px;height:7px;border-radius:50%;margin-right:8px;box-shadow:0 0 14px #d8f36a88;animation:pulse 2.5s infinite}
+.card{border-radius:4px;background:linear-gradient(135deg,#1d261e,#151c17);padding:24px;margin-bottom:24px;box-shadow:0 12px 36px #0002}.card h2{font-family:'Barlow Condensed',sans-serif;font-size:26px;text-transform:uppercase;letter-spacing:.8px}.card .hint{font-size:12px;margin-top:5px}.hero-card{border-top:3px solid var(--accent);position:relative}.hero-card .row{margin-bottom:22px}.seg{border:1px solid var(--border);border-radius:4px;padding:4px;background:#101610}.seg button{padding:8px 16px;border-radius:2px;font-size:12px}.seg button[aria-pressed="true"]{background:var(--accent);color:#192211;font-weight:700;box-shadow:0 2px 12px #d8f36a22}
+button{transition:transform .15s,background .2s,border-color .2s}button:hover{transform:translateY(-2px)}button:active{transform:translateY(1px)}button:focus-visible,a:focus-visible,#chart:focus-visible{outline:2px solid var(--accent);outline-offset:4px}.legend{gap:8px;margin:0 0 18px}.chip{border-radius:3px;padding:7px 11px;font-size:11px;background:#111810}.chip[aria-pressed="true"]{border-color:var(--text-3);background:#2b3525}.chip .dot{width:7px;height:7px}.chart{min-height:350px;touch-action:pan-y}.chart svg{overflow:hidden}.chart text{font-family:'DM Sans',sans-serif}.tip{background:#101710f5;backdrop-filter:blur(18px);border-color:#5a684a;border-radius:5px;padding:15px;width:280px;max-width:calc(100% - 8px);max-height:410px;overflow:hidden;box-shadow:0 15px 45px #0008}.tip .l{padding:3px 0;font-size:11px}.tip .why{font-size:10px}.chart-foot{display:flex;justify-content:space-between;gap:16px;border-top:1px solid var(--border);padding-top:14px;color:var(--text-3);font-size:10px;letter-spacing:.6px;text-transform:uppercase}.period-key:before{content:'';display:inline-block;width:11px;height:11px;margin-right:7px;background:#d8f36a18;border:1px solid #d8f36a44;vertical-align:middle}
+.ticker{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--border);border:1px solid var(--border);margin-bottom:24px}.stat{padding:18px 24px;background:#141c16}.stat small{display:block;text-transform:uppercase;font-size:10px;letter-spacing:1.5px;color:var(--text-3)}.stat strong{font-family:'Barlow Condensed',sans-serif;font-size:30px;letter-spacing:.3px}.stat em{font-style:normal;color:var(--accent);margin-left:12px}.mu{background:#111912;border-radius:4px;padding:18px;border-color:var(--border);transition:transform .2s,border-color .2s}.mu:hover{transform:translateY(-3px);border-color:#87917e}.mu .side{padding:5px 0}.prob{height:4px;margin-top:18px}.prob div.fav{background:var(--accent)}td{padding:13px 8px}.bar i::after{background:var(--accent)}tr.team:hover td{background:#263323}.method{background:transparent;box-shadow:none}.method p{max-width:950px}footer{display:flex;justify-content:space-between;font-size:11px;padding:12px 0}.chart-line{animation:reveal .7s ease-out}.chart-toolbar{display:flex;gap:12px;align-items:center;flex-wrap:wrap}.range button{padding:8px 10px}.error{padding:30px;color:#ff9366}
+@keyframes reveal{from{opacity:0;transform:translateY(7px)}to{opacity:1;transform:translateY(0)}}@keyframes pulse{50%{box-shadow:0 0 0 5px #d8f36a08}}
+@media(max-width:700px){.wrap{padding:0 14px 24px}.mast{padding:18px 0}.mast nav{display:none}header{margin:30px 0 22px}h1{font-size:58px}.updated{margin-top:8px}.card{padding:16px 12px}.ticker{grid-template-columns:1fr 1fr 1fr}.stat{padding:12px 8px}.stat strong{font-size:21px}.stat small{font-size:8px;letter-spacing:.6px}.stat em{display:block;margin:0}.chip{font-size:10px;padding:6px 8px}.chart-foot{font-size:8px}.chart{min-height:320px}.tip{width:225px;max-height:320px;padding:10px}.tip .why{display:none}.seg button{padding:7px 10px}}
+@media(prefers-reduced-motion:reduce){*,*:before{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+.tip{max-height:none}.tip .why{display:block}.tip .l:not(.on)+.why{display:none}
+</style>
 </head>
 <body>
 <div class="wrap">
+  <div class="mast"><div class="brand"><span>◈</span> THE CLUBHOUSE</div><nav><a href="#chart">The race</a><a href="#table">Power table</a><a href="#matchups">Matchups</a></nav><span>LONDON CITY · 2026</span></div>
   <header>
     <div>
-      <h1>London City Fantasy Football</h1>
-      <p class="sub">Who's actually going to win this thing? Recomputed hourly.</p>
+      <div class="eyebrow">TEN TEAMS. ONE TROPHY. ALL THE BRAGGING RIGHTS.</div>
+      <h1>The race for <span style="color:var(--accent)">glory.</span></h1>
+      <p class="sub">Every roster move. Every Sunday swing. Your league, in the balance.</p>
     </div>
     <div class="updated" id="updated"></div>
   </header>
 
-  <section class="card">
+  <section class="card hero-card">
     <div class="row">
       <div>
         <h2 id="chart-title">Championship odds over time</h2>
-        <p class="hint">Tap teams to highlight (up to 3). Hover any point for the odds and the recorded cause of a material move.</p>
+        <p class="hint">Pick your rivals. Scrub the timeline. Find the moments that changed everything.</p>
       </div>
-      <div class="seg" role="group" aria-label="Metric">
+      <div class="chart-toolbar"><div class="seg range" role="group" aria-label="Time range"><button data-range="all" aria-pressed="true">Season</button><button data-range="7" aria-pressed="false">7D</button><button data-range="2" aria-pressed="false">48H</button></div><div class="seg" role="group" aria-label="Metric">
         <button data-m="champ" aria-pressed="true">Title</button>
         <button data-m="playoff" aria-pressed="false">Playoffs</button>
         <button data-m="projWins" aria-pressed="false">Proj. wins</button>
-      </div>
+      </div></div>
     </div>
     <div class="legend" id="legend"></div>
-    <div class="chart" id="chart"><svg id="svg"></svg><div class="tip" id="tip"></div></div>
+    <div class="chart" id="chart" tabindex="0" role="group" aria-label="Odds timeline. Use left and right arrow keys to explore hourly predictions."><svg id="svg" role="img" aria-label="Team prediction percentages over time"></svg><div class="tip" id="tip"></div></div>
+    <div class="chart-foot"><span class="period-key">Shaded columns · NFL game windows</span><span>Dashed history · reconstructed estimates</span><span>← → Explore timeline</span></div>
   </section>
+  <div class="ticker" id="ticker"></div>
 
   <section class="card">
     <div class="row"><div><h2>Standings &amp; odds</h2><p class="hint">Strength = expected points per week (projected best lineup, blended with real scores).</p></div></div>
@@ -134,10 +153,10 @@ footer, .method { color: var(--text-3); font-size: 13px; }
 
   <section class="card method">
     <h2 style="color:var(--text)">How the odds work</h2>
-    <p>Every day we pull each roster from ESPN, pick every team's best possible lineup using ESPN's player projections, and blend that with how many points the team has actually scored so far. Then we simulate the rest of the regular season and the 4-team playoff 20,000 times. A team's title odds are the share of those simulations it wins.</p>
+    <p>Updated hourly from ESPN rosters, projections and scores. We simulate the remaining season and four-team playoffs 20,000 times to estimate each team's chances. Earlier dashed points are reconstructed estimates, not predictions recorded at the time; historical runs use fewer simulations.</p>
     <p>Trades, waiver pickups and injuries change the projected lineup, so they move the lines even in weeks with no games. Seeding uses wins, then points for.</p>
   </section>
-  <footer>Read-only fan page. Data from ESPN Fantasy.</footer>
+  <footer><span>THE CLUBHOUSE · LONDON CITY</span><span>Friendly rivalry. Unofficial ESPN fan project.</span></footer>
 </div>
 
 <script>
@@ -148,6 +167,15 @@ const METRICS = {
   projWins: { title: "Projected regular-season wins", fmt: v => v.toFixed(1), pct: false },
 };
 let latest, history, teams, metric = "champ", selected = [];
+let range = 'all', allHistory = [];
+const GAME_WINDOWS = [
+ ['2026-09-11T00:00Z','2026-09-11T04:30Z','THU'],
+ ['2026-09-13T17:00Z','2026-09-14T04:30Z','WEEK 1'],
+ ['2026-09-15T00:00Z','2026-09-15T04:30Z','MON'],
+ ['2026-09-18T00:00Z','2026-09-18T04:30Z','THU'],
+ ['2026-09-20T17:00Z','2026-09-21T04:30Z','WEEK 2'],
+ ['2026-09-22T00:00Z','2026-09-22T04:30Z','MON']
+];
 
 const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
 const esc = s => String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -155,13 +183,16 @@ const colorOf = id => { const k = selected.indexOf(id); return k < 0 ? null : cs
 
 async function load() {
   const [l, h] = await Promise.all([fetch("data/latest.json").then(r => r.json()), fetch("data/history.json").then(r => r.json())]);
-  latest = l; history = h.snapshots;
+  latest = l; history = h.snapshots.sort((a,b)=>Date.parse(a.at || a.date+'T12:00Z')-Date.parse(b.at || b.date+'T12:00Z')); allHistory = history;
   teams = Object.fromEntries(latest.teams.map(t => [t.id, t]));
   const saved = (() => { try { return JSON.parse(localStorage.getItem("sel")); } catch { return null; } })();
   selected = Array.isArray(saved) && saved.every(id => teams[id]) ? saved.slice(0, 3) : latest.teams.slice(0, 2).map(t => t.id);
   if (!saved && teams[3] && !selected.includes(3)) selected.push(3); // Goats
   document.getElementById("updated").textContent = "Updated " + new Date(latest.generated).toLocaleString(undefined, { weekday: "short", day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" });
   render();
+  const leader=latest.teams.reduce((a,b)=>a.champ>b.champ?a:b);
+  const goat=teams[3] || leader;
+  document.getElementById('ticker').innerHTML=`<div class="stat"><small>The favourite</small><strong>${esc(leader.name)}<em>${(leader.champ*100).toFixed(1)}%</em></strong></div><div class="stat"><small>Your corner · ${esc(goat.name)}</small><strong>${(goat.playoff*100).toFixed(1)}% <em>playoffs</em></strong></div><div class="stat"><small>Season in progress</small><strong>Week ${latest.week}<em>${latest.teams.length} contenders</em></strong></div>`;
 }
 
 function toggle(id) {
@@ -186,8 +217,8 @@ function renderLegend() {
 function renderChart() {
   document.getElementById("chart-title").textContent = METRICS[metric].title;
   const svg = document.getElementById("svg"), box = document.getElementById("chart");
-  const W = Math.max(320, box.clientWidth), small = W < 560, H = small ? 280 : 360;
-  const m = { t: 12, r: small ? 12 : 150, b: 28, l: 40 };
+  const W = Math.max(280, box.clientWidth), small = W < 560, H = small ? 350 : 460;
+  const m = { t: 30, r: small ? 12 : 150, b: 35, l: 40 };
   const iw = W - m.l - m.r, ih = H - m.t - m.b;
   svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
   const dates = history.map(s => new Date(s.at || s.date + "T12:00:00Z"));
@@ -200,6 +231,7 @@ function renderChart() {
   const ticks = METRICS[metric].pct ? [0, .25, .5, .75, 1].map(f => f * ymax) : Array.from({ length: 5 }, (_, i) => (ymax * i) / 4);
   const grid = css("--grid"), t3 = css("--text-3"), muted = css("--muted-line"), surf = css("--surface");
   let s = "";
+  GAME_WINDOWS.forEach(([start,end,label])=>{const a=Math.max(t0,Date.parse(start)),b=Math.min(t1,Date.parse(end));if(b>a){s+=`<rect x="${x(a)}" y="${m.t}" width="${x(b)-x(a)}" height="${ih}" fill="#d8f36a" opacity=".055"/><line x1="${x(a)}" x2="${x(a)}" y1="${m.t}" y2="${m.t+ih}" stroke="#d8f36a" opacity=".18"/>`;if(x(b)-x(a)>35)s+=`<text x="${(x(a)+x(b))/2}" y="18" text-anchor="middle" font-size="9" fill="#a4b883">${label}</text>`;}});
   ticks.forEach(v => { s += `<line x1="${m.l}" x2="${m.l + iw}" y1="${y(v)}" y2="${y(v)}" stroke="${grid}"/><text x="${m.l - 8}" y="${y(v) + 4}" text-anchor="end" font-size="11" fill="${t3}">${METRICS[metric].pct ? Math.round(v * 100) + "%" : v.toFixed(0)}</text>`; });
   const showHour = t1 - t0 < 864e5 * 4;
   const fmtD = d => d.toLocaleString(undefined, showHour
@@ -212,7 +244,7 @@ function renderChart() {
   const line = (id, color, w) => {
     let out = "";
     const split = Math.max(lastBack + 1, 0);
-    if (split > 0) out += `<path d="${path(id, 0, Math.min(split, history.length - 1))}" fill="none" stroke="${color}" stroke-width="${w}" stroke-dasharray="4 4" stroke-linecap="round"/>`;
+    if (split > 0) out += `<path class="chart-line" d="${path(id, 0, Math.min(split, history.length - 1))}" fill="none" stroke="${color}" stroke-width="${w}" stroke-dasharray="4 4" stroke-linecap="round"/>`;
     if (split < history.length - 1) out += `<path d="${path(id, split, history.length - 1)}" fill="none" stroke="${color}" stroke-width="${w}" stroke-linejoin="round" stroke-linecap="round"/>`;
     return out;
   };
@@ -232,6 +264,7 @@ function renderChart() {
     labels.forEach(l => s += `<text x="${lx}" y="${l.y + 4}" font-size="12" font-weight="600" fill="${css("--text")}">${esc(teams[l.id].name.slice(0, 16))} <tspan fill="${css("--text-2")}" font-weight="400">${METRICS[metric].fmt(l.v)}</tspan></text>`);
   }
   s += `<line id="xh" y1="${m.t}" y2="${m.t + ih}" stroke="${t3}" stroke-dasharray="2 3" opacity="0"/>`;
+  s += `<line id="yh" x1="${m.l}" x2="${m.l+iw}" stroke="#d8f36a" stroke-dasharray="3 5" opacity="0"/><g id="hover-points"></g>`;
   s += `<rect id="hit" x="${m.l}" y="${m.t}" width="${iw}" height="${ih}" fill="transparent"/>`;
   svg.innerHTML = s;
 
@@ -240,13 +273,17 @@ function renderChart() {
     const r = svg.getBoundingClientRect(), px = ((ev.touches ? ev.touches[0].clientX : ev.clientX) - r.left) * (W / r.width);
     let bi = 0; dates.forEach((d, i) => { if (Math.abs(x(d) - px) < Math.abs(x(dates[bi]) - px)) bi = i; });
     const sn = history[bi], cx = x(dates[bi]);
+    box.dataset.index=bi;
+    const py=Math.max(m.t,Math.min(m.t+ih,((ev.touches?ev.touches[0].clientY:ev.clientY)-r.top)*H/r.height));
+    const yh=svg.querySelector('#yh');yh.setAttribute('y1',py);yh.setAttribute('y2',py);yh.setAttribute('opacity','.45');
+    svg.querySelector('#hover-points').innerHTML=selected.filter(id=>sn.teams[id]).map(id=>`<circle cx="${cx}" cy="${y(sn.teams[id][metric])}" r="5" fill="${colorOf(id)}" stroke="#111810" stroke-width="2"/>`).join('');
     xh.setAttribute("x1", cx); xh.setAttribute("x2", cx); xh.setAttribute("opacity", 1);
     const rows = Object.entries(sn.teams).sort((a, b) => b[1][metric] - a[1][metric]).map(([id, v]) => {
       const c = colorOf(+id);
       const change = sn.changes?.[id];
       return `<div class="l ${c ? "on" : ""}"><span><span class="sw" style="background:${c || muted}"></span>${esc(teams[id]?.name || id)}</span><span>${METRICS[metric].fmt(v[metric])}</span></div>${change ? `<div class="why">${esc(change.text)}</div>` : ""}`;
     }).join("");
-    tip.innerHTML = `<b>${fmtD(dates[bi])} · ${esc(sn.label)}${sn.backfilled ? " (reconstructed)" : ""}</b>${rows}`;
+    tip.innerHTML = `<b>${dates[bi].toLocaleString(undefined,{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'})}${sn.backfilled ? " · reconstructed" : ""}</b>${rows}`;
     const scale = r.width / W, left = cx * scale;
     tip.style.left = Math.min(Math.max(0, left + 12), r.width - tip.offsetWidth) + "px";
     if (left + 12 + tip.offsetWidth > r.width) tip.style.left = Math.max(0, left - tip.offsetWidth - 12) + "px";
@@ -254,7 +291,8 @@ function renderChart() {
   };
   const hit = svg.querySelector("#hit");
   hit.addEventListener("mousemove", move); hit.addEventListener("touchstart", move, { passive: true }); hit.addEventListener("touchmove", move, { passive: true });
-  hit.addEventListener("mouseleave", () => { tip.style.opacity = 0; xh.setAttribute("opacity", 0); });
+  hit.addEventListener("mouseleave", () => { tip.style.opacity = 0; xh.setAttribute("opacity", 0); svg.querySelector('#yh').setAttribute('opacity',0);svg.querySelector('#hover-points').innerHTML=''; });
+  box.onkeydown=ev=>{if(!['ArrowLeft','ArrowRight','Escape'].includes(ev.key))return;ev.preventDefault();if(ev.key==='Escape'){tip.style.opacity=0;return;}const i=Math.max(0,Math.min(history.length-1,Number(box.dataset.index||history.length-1)+(ev.key==='ArrowLeft'?-1:1)));const r=svg.getBoundingClientRect();move({clientX:r.left+x(dates[i])*r.width/W,clientY:r.top+r.height/2});};
 }
 
 function trend(id) {
@@ -303,14 +341,15 @@ function renderMatchups() {
   }).join("");
 }
 
-document.querySelectorAll(".seg button").forEach(b => b.onclick = () => {
+document.querySelectorAll("button[data-m]").forEach(b => b.onclick = () => {
   metric = b.dataset.m;
-  document.querySelectorAll(".seg button").forEach(x => x.setAttribute("aria-pressed", x === b));
+  document.querySelectorAll("button[data-m]").forEach(x => x.setAttribute("aria-pressed", x === b));
   renderChart();
 });
 let rt; addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(renderChart, 100); });
 matchMedia("(prefers-color-scheme: dark)").addEventListener("change", render);
-load();
+document.querySelectorAll('button[data-range]').forEach(b=>b.onclick=()=>{range=b.dataset.range;const end=Date.parse(allHistory.at(-1).at||allHistory.at(-1).date+'T12:00Z');history=range==='all'?allHistory:allHistory.filter(s=>Date.parse(s.at||s.date+'T12:00Z')>=end-Number(range)*864e5);document.querySelectorAll('button[data-range]').forEach(x=>x.setAttribute('aria-pressed',x===b));renderChart();});
+load().catch(()=>{document.getElementById('chart').innerHTML='<div class="error">The scoreboard is taking a breather. Please refresh to try again.</div>';});
 </script>
 </body>
 </html>
