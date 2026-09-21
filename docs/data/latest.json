@@ -12,11 +12,11 @@
    "pf": 198.7,
    "projPerGame": 128.7,
    "strength": 136.5,
-   "projWins": 10.58,
-   "playoff": 0.9077,
-   "final": 0.5482,
-   "champ": 0.3115,
-   "topSeed": 0.4617,
+   "projWins": 10.6,
+   "playoff": 0.9111,
+   "final": 0.5506,
+   "champ": 0.3154,
+   "topSeed": 0.465,
    "lineup": [
     {
      "name": "Amon-Ra St. Brown",
@@ -75,11 +75,11 @@
    "pf": 125.56,
    "projPerGame": 133.3,
    "strength": 132.4,
-   "projWins": 9.74,
-   "playoff": 0.7803,
-   "final": 0.4241,
-   "champ": 0.2202,
-   "topSeed": 0.2296,
+   "projWins": 9.78,
+   "playoff": 0.7892,
+   "final": 0.4309,
+   "champ": 0.2242,
+   "topSeed": 0.2338,
    "lineup": [
     {
      "name": "Jahmyr Gibbs",
@@ -138,11 +138,11 @@
    "pf": 132.16,
    "projPerGame": 126.1,
    "strength": 126.8,
-   "projWins": 8.8,
-   "playoff": 0.5829,
-   "final": 0.2771,
-   "champ": 0.128,
-   "topSeed": 0.1056,
+   "projWins": 8.82,
+   "playoff": 0.5919,
+   "final": 0.2812,
+   "champ": 0.1303,
+   "topSeed": 0.1071,
    "lineup": [
     {
      "name": "Bijan Robinson",
@@ -201,11 +201,11 @@
    "pf": 110.2,
    "projPerGame": 126.3,
    "strength": 124.5,
-   "projWins": 8.58,
-   "playoff": 0.5668,
-   "final": 0.2495,
-   "champ": 0.1114,
-   "topSeed": 0.0934,
+   "projWins": 8.63,
+   "playoff": 0.5809,
+   "final": 0.2601,
+   "champ": 0.1153,
+   "topSeed": 0.0956,
    "lineup": [
     {
      "name": "Jonathan Taylor",
@@ -255,69 +255,6 @@
    ]
   },
   {
-   "id": 2,
-   "name": "Sabre Raiders",
-   "abbrev": "TM2",
-   "logo": "https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/85dd1190-a69d-11f1-b3fa-cd9add676ca8",
-   "wins": 0,
-   "losses": 1,
-   "pf": 135.06,
-   "projPerGame": 123.2,
-   "strength": 124.5,
-   "projWins": 7.82,
-   "playoff": 0.4194,
-   "final": 0.1857,
-   "champ": 0.085,
-   "topSeed": 0.0499,
-   "lineup": [
-    {
-     "name": "De'Von Achane",
-     "pos": "RB",
-     "pts": 20.6
-    },
-    {
-     "name": "Jaxon Smith-Njigba",
-     "pos": "WR",
-     "pts": 20.2
-    },
-    {
-     "name": "Bucky Irving",
-     "pos": "RB",
-     "pts": 16.6
-    },
-    {
-     "name": "Caleb Williams",
-     "pos": "QB",
-     "pts": 16.1
-    },
-    {
-     "name": "Garrett Wilson",
-     "pos": "WR",
-     "pts": 14.4
-    },
-    {
-     "name": "Jason Myers",
-     "pos": "K",
-     "pts": 9.4
-    },
-    {
-     "name": "Brock Bowers",
-     "pos": "TE",
-     "pts": 8.1
-    },
-    {
-     "name": "Lions D/ST",
-     "pos": "D/ST",
-     "pts": 4.4
-    },
-    {
-     "name": "Davante Adams",
-     "pos": "FLEX",
-     "pts": 13.5
-    }
-   ]
-  },
-  {
    "id": 1,
    "name": "Knights who say Ni",
    "abbrev": "TM1",
@@ -326,12 +263,12 @@
    "losses": 0,
    "pf": 104.46,
    "projPerGame": 128.0,
-   "strength": 125.4,
-   "projWins": 7.54,
-   "playoff": 0.347,
-   "final": 0.157,
-   "champ": 0.0751,
-   "topSeed": 0.0403,
+   "strength": 125.3,
+   "projWins": 7.56,
+   "playoff": 0.356,
+   "final": 0.1608,
+   "champ": 0.077,
+   "topSeed": 0.041,
    "lineup": [
     {
      "name": "Puka Nacua",
@@ -381,6 +318,69 @@
    ]
   },
   {
+   "id": 2,
+   "name": "Sabre Raiders",
+   "abbrev": "TM2",
+   "logo": "https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/85dd1190-a69d-11f1-b3fa-cd9add676ca8",
+   "wins": 0,
+   "losses": 1,
+   "pf": 135.06,
+   "projPerGame": 120.8,
+   "strength": 122.4,
+   "projWins": 7.54,
+   "playoff": 0.3599,
+   "final": 0.1525,
+   "champ": 0.0672,
+   "topSeed": 0.0377,
+   "lineup": [
+    {
+     "name": "De'Von Achane",
+     "pos": "RB",
+     "pts": 20.6
+    },
+    {
+     "name": "Jaxon Smith-Njigba",
+     "pos": "WR",
+     "pts": 20.2
+    },
+    {
+     "name": "Bucky Irving",
+     "pos": "RB",
+     "pts": 16.6
+    },
+    {
+     "name": "Garrett Wilson",
+     "pos": "WR",
+     "pts": 14.4
+    },
+    {
+     "name": "Caleb Williams",
+     "pos": "QB",
+     "pts": 13.7
+    },
+    {
+     "name": "Jason Myers",
+     "pos": "K",
+     "pts": 9.4
+    },
+    {
+     "name": "Brock Bowers",
+     "pos": "TE",
+     "pts": 8.1
+    },
+    {
+     "name": "Lions D/ST",
+     "pos": "D/ST",
+     "pts": 4.4
+    },
+    {
+     "name": "Davante Adams",
+     "pos": "FLEX",
+     "pts": 13.5
+    }
+   ]
+  },
+  {
    "id": 4,
    "name": "Wiltshire Warriors",
    "abbrev": "TM4",
@@ -388,13 +388,13 @@
    "wins": 0,
    "losses": 1,
    "pf": 102.32,
-   "projPerGame": 124.4,
+   "projPerGame": 124.3,
    "strength": 121.9,
-   "projWins": 6.19,
-   "playoff": 0.1624,
-   "final": 0.0701,
-   "champ": 0.033,
-   "topSeed": 0.0107,
+   "projWins": 6.21,
+   "playoff": 0.1676,
+   "final": 0.072,
+   "champ": 0.0341,
+   "topSeed": 0.0106,
    "lineup": [
     {
      "name": "Ja'Marr Chase",
@@ -451,13 +451,13 @@
    "wins": 0,
    "losses": 1,
    "pf": 112.56,
-   "projPerGame": 117.8,
+   "projPerGame": 117.7,
    "strength": 117.2,
-   "projWins": 5.91,
-   "playoff": 0.1252,
-   "final": 0.0474,
-   "champ": 0.0197,
-   "topSeed": 0.005,
+   "projWins": 5.96,
+   "playoff": 0.1305,
+   "final": 0.0493,
+   "champ": 0.0203,
+   "topSeed": 0.0054,
    "lineup": [
     {
      "name": "Josh Allen",
@@ -516,11 +516,11 @@
    "pf": 101.16,
    "projPerGame": 118.1,
    "strength": 116.2,
-   "projWins": 5.58,
-   "playoff": 0.0877,
-   "final": 0.0344,
-   "champ": 0.0138,
-   "topSeed": 0.0033,
+   "projWins": 5.6,
+   "playoff": 0.091,
+   "final": 0.0355,
+   "champ": 0.014,
+   "topSeed": 0.0034,
    "lineup": [
     {
      "name": "Christian McCaffrey",
@@ -579,11 +579,11 @@
    "pf": 109.62,
    "projPerGame": 104.8,
    "strength": 105.4,
-   "projWins": 4.26,
-   "playoff": 0.0206,
-   "final": 0.0066,
-   "champ": 0.0022,
-   "topSeed": 0.0005,
+   "projWins": 4.3,
+   "playoff": 0.0219,
+   "final": 0.0072,
+   "champ": 0.0024,
+   "topSeed": 0.0006,
    "lineup": [
     {
      "name": "Jalen Hurts",
@@ -637,7 +637,7 @@
   {
    "home": 2,
    "away": 1,
-   "homeWin": 0.9932,
+   "homeWin": 0.9927,
    "homePts": 100.5,
    "awayPts": 93.0,
    "homeProj": 116.0,
@@ -680,5 +680,5 @@
    "awayProj": 87.8
   }
  ],
- "generated": "2026-09-21T16:20+00:00"
+ "generated": "2026-09-21T18:25+00:00"
 }
