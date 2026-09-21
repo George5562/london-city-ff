@@ -262,11 +262,13 @@ function trend(id) {
 }
 
 const initials = n => n.replace(/^The /, "").split(/\s+/).map(w => w[0]).join("").slice(0, 2).toUpperCase();
-// ESPN's custom-uploaded logos need a login, so swap initials for the logo only once it actually loads.
+// ESPN's custom-uploaded logos need a login, so those teams' logos are hosted here instead.
+const LOCAL_LOGOS = { 2: "logos/sabre-raiders.png", 3: "logos/goats.png" };
+// Swap initials for the logo only once it actually loads.
 function upgradeLogos() {
   document.querySelectorAll("tr.team").forEach(r => {
-    const t = teams[r.dataset.id]; if (!t.logo) return;
-    const img = new Image(); img.alt = ""; img.onload = () => r.querySelector(".ini")?.replaceWith(img); img.src = t.logo;
+    const t = teams[r.dataset.id], src = LOCAL_LOGOS[t.id] || t.logo; if (!src) return;
+    const img = new Image(); img.alt = ""; img.onload = () => r.querySelector(".ini")?.replaceWith(img); img.src = src;
   });
 }
 
