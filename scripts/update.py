@@ -50,29 +50,20 @@ def fetch_live():
 def fetch_player_pool(s2, swid):
     """Fetch the full player pool, not only the league's rostered players.
 
-    ESPN's player endpoint pages at 500 records. Tracking this pool lets a
-    relevant injury or projection re-rate outside a roster explain a later
-    opportunity change for a rostered teammate.
+    ESPN requires a sort whenever a player limit is requested. A single sorted
+    3,000-player response covers the active NFL pool and avoids silently
+    watching only the endpoint's default first 50 players.
     """
     url = (f"https://lm-api-reads.fantasy.espn.com/apis/v3/games/ffl/seasons/{SEASON}"
            f"/segments/0/leagues/{LEAGUE_ID}?view=kona_player_info")
-    out, seen = [], set()
-    for offset in range(0, 2500, 500):
-        filter_ = {"players": {"limit": 500, "offset": offset,
-                   "filterStatus": {"value": ["FREEAGENT", "WAIVERS", "ONTEAM"]}}}
-        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0",
-                                     "x-fantasy-filter": json.dumps(filter_, separators=(",", ":"))})
-        if s2 and swid:
-            req.add_header("Cookie", f"espn_s2={s2}; SWID={swid}")
-        with urllib.request.urlopen(req, timeout=30) as response:
-            batch = json.load(response).get("players") or []
-        for entry in batch:
-            ident = str(entry.get("id", entry.get("player", {}).get("id", "")))
-            if ident and ident not in seen:
-                out.append(entry); seen.add(ident)
-        if len(batch) < 500:
-            break
-    return out
+    filter_ = {"players": {"limit": 3000,
+               "sortPercOwned": {"sortPriority": 1, "sortAsc": False}}}
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0",
+                                 "x-fantasy-filter": json.dumps(filter_, separators=(",", ":"))})
+    if s2 and swid:
+        req.add_header("Cookie", f"espn_s2={s2}; SWID={swid}")
+    with urllib.request.urlopen(req, timeout=30) as response:
+        return json.load(response).get("players") or []
 
 
 def mini(j):
