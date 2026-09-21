@@ -12,11 +12,11 @@
    "pf": 198.7,
    "projPerGame": 128.7,
    "strength": 136.5,
-   "projWins": 10.6,
-   "playoff": 0.9095,
-   "final": 0.5444,
-   "champ": 0.3134,
-   "topSeed": 0.4651,
+   "projWins": 10.58,
+   "playoff": 0.9077,
+   "final": 0.5482,
+   "champ": 0.3115,
+   "topSeed": 0.4617,
    "lineup": [
     {
      "name": "Amon-Ra St. Brown",
@@ -75,11 +75,11 @@
    "pf": 125.56,
    "projPerGame": 133.3,
    "strength": 132.4,
-   "projWins": 9.73,
-   "playoff": 0.779,
-   "final": 0.4232,
-   "champ": 0.2193,
-   "topSeed": 0.2278,
+   "projWins": 9.74,
+   "playoff": 0.7803,
+   "final": 0.4241,
+   "champ": 0.2202,
+   "topSeed": 0.2296,
    "lineup": [
     {
      "name": "Jahmyr Gibbs",
@@ -138,11 +138,11 @@
    "pf": 132.16,
    "projPerGame": 126.1,
    "strength": 126.8,
-   "projWins": 8.79,
-   "playoff": 0.5814,
-   "final": 0.2727,
-   "champ": 0.1267,
-   "topSeed": 0.103,
+   "projWins": 8.8,
+   "playoff": 0.5829,
+   "final": 0.2771,
+   "champ": 0.128,
+   "topSeed": 0.1056,
    "lineup": [
     {
      "name": "Bijan Robinson",
@@ -201,10 +201,10 @@
    "pf": 110.2,
    "projPerGame": 126.3,
    "strength": 124.5,
-   "projWins": 8.59,
-   "playoff": 0.5682,
-   "final": 0.254,
-   "champ": 0.1127,
+   "projWins": 8.58,
+   "playoff": 0.5668,
+   "final": 0.2495,
+   "champ": 0.1114,
    "topSeed": 0.0934,
    "lineup": [
     {
@@ -264,11 +264,11 @@
    "pf": 135.06,
    "projPerGame": 123.2,
    "strength": 124.5,
-   "projWins": 7.84,
-   "playoff": 0.42,
-   "final": 0.187,
-   "champ": 0.0858,
-   "topSeed": 0.0503,
+   "projWins": 7.82,
+   "playoff": 0.4194,
+   "final": 0.1857,
+   "champ": 0.085,
+   "topSeed": 0.0499,
    "lineup": [
     {
      "name": "De'Von Achane",
@@ -327,11 +327,11 @@
    "pf": 104.46,
    "projPerGame": 128.0,
    "strength": 125.4,
-   "projWins": 7.55,
-   "playoff": 0.3518,
-   "final": 0.1626,
-   "champ": 0.0764,
-   "topSeed": 0.0411,
+   "projWins": 7.54,
+   "playoff": 0.347,
+   "final": 0.157,
+   "champ": 0.0751,
+   "topSeed": 0.0403,
    "lineup": [
     {
      "name": "Puka Nacua",
@@ -390,11 +390,11 @@
    "pf": 102.32,
    "projPerGame": 124.4,
    "strength": 121.9,
-   "projWins": 6.17,
-   "playoff": 0.1605,
-   "final": 0.0688,
-   "champ": 0.0306,
-   "topSeed": 0.0092,
+   "projWins": 6.19,
+   "playoff": 0.1624,
+   "final": 0.0701,
+   "champ": 0.033,
+   "topSeed": 0.0107,
    "lineup": [
     {
      "name": "Ja'Marr Chase",
@@ -453,11 +453,11 @@
    "pf": 112.56,
    "projPerGame": 117.8,
    "strength": 117.2,
-   "projWins": 5.9,
-   "playoff": 0.1234,
-   "final": 0.0488,
-   "champ": 0.0198,
-   "topSeed": 0.0056,
+   "projWins": 5.91,
+   "playoff": 0.1252,
+   "final": 0.0474,
+   "champ": 0.0197,
+   "topSeed": 0.005,
    "lineup": [
     {
      "name": "Josh Allen",
@@ -516,11 +516,11 @@
    "pf": 101.16,
    "projPerGame": 118.1,
    "strength": 116.2,
-   "projWins": 5.61,
-   "playoff": 0.0855,
-   "final": 0.0324,
-   "champ": 0.0135,
-   "topSeed": 0.0038,
+   "projWins": 5.58,
+   "playoff": 0.0877,
+   "final": 0.0344,
+   "champ": 0.0138,
+   "topSeed": 0.0033,
    "lineup": [
     {
      "name": "Christian McCaffrey",
@@ -579,11 +579,11 @@
    "pf": 109.62,
    "projPerGame": 104.8,
    "strength": 105.4,
-   "projWins": 4.22,
-   "playoff": 0.0207,
-   "final": 0.0062,
-   "champ": 0.0018,
-   "topSeed": 0.0006,
+   "projWins": 4.26,
+   "playoff": 0.0206,
+   "final": 0.0066,
+   "champ": 0.0022,
+   "topSeed": 0.0005,
    "lineup": [
     {
      "name": "Jalen Hurts",
@@ -637,7 +637,7 @@
   {
    "home": 2,
    "away": 1,
-   "homeWin": 0.9936,
+   "homeWin": 0.9932,
    "homePts": 100.5,
    "awayPts": 93.0,
    "homeProj": 116.0,
@@ -664,7 +664,7 @@
   {
    "home": 12,
    "away": 13,
-   "homeWin": 0.198,
+   "homeWin": 0.2024,
    "homePts": 67.2,
    "awayPts": 75.8,
    "homeProj": 80.0,
@@ -680,5 +680,5 @@
    "awayProj": 87.8
   }
  ],
- "generated": "2026-09-21T13:31+00:00"
+ "generated": "2026-09-21T16:20+00:00"
 }
