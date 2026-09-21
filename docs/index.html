@@ -300,8 +300,8 @@ function renderChart() {
     const event=candidates[0];
     if(!event){tip.style.opacity=0;return;}
     const change=eventFor(event.point,event.id), previous=history[event.i-1].teams[event.id][metric],value=event.point.teams[event.id][metric];
-    const fallback='The forecast changed between these snapshots, but the retained history does not identify a verified cause.';
-    tip.innerHTML=`<b>${dates[event.i].toLocaleString(undefined,{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'})}</b><div class="event-title"><span class="sw" style="background:${colorOf(event.id)}"></span>${esc(teams[event.id].name)} · ${METRICS[metric].fmt(previous)} → ${METRICS[metric].fmt(value)}</div><div class="event-copy">${esc(change?.text||fallback)}</div><div class="event-meta">${event.point.backfilled?'Reconstructed history':'Recorded update'} · ${esc(change?.confidence||'cause unverified')}</div>`;
+    const fallback='No confirmed roster move, injury update or result explains this change.';
+    tip.innerHTML=`<b>${dates[event.i].toLocaleString(undefined,{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'})}</b><div class="event-title"><span class="sw" style="background:${colorOf(event.id)}"></span>${esc(teams[event.id].name)} · ${METRICS[metric].fmt(previous)} → ${METRICS[metric].fmt(value)}</div><div class="event-copy">${esc(change?.text||fallback)}</div>`;
     const scale = r.width / W, left = cx * scale;
     tip.style.left = Math.min(Math.max(0, left + 12), r.width - tip.offsetWidth) + "px";
     if (left + 12 + tip.offsetWidth > r.width) tip.style.left = Math.max(0, left - tip.offsetWidth - 12) + "px";

@@ -38,7 +38,8 @@ class PredictionEventTests(unittest.TestCase):
         payload = explain_prediction_moves(before_result, after_result, state, changed)
         self.assertEqual(payload["1"]["cause"], "projection_rerating")
         self.assertEqual(payload["1"]["writtenBy"], "template")
-        self.assertIn("Title odds rose", payload["1"]["text"])
+        self.assertIn("10 to 13 fantasy points", payload["1"]["text"])
+        self.assertIn("raising their expected scoring contribution", payload["1"]["text"])
 
 
 if __name__ == "__main__":

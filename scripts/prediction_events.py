@@ -93,7 +93,8 @@ def diff_states(before, after):
             continue
         if old.get("team") != now.get("team") or old.get("slot") != now.get("slot"):
             events.append({"kind": "roster_move", "player": now["name"], "playerId": ident,
-                           "from": old.get("team"), "to": now.get("team"), "pro": now.get("pro")})
+                           "from": old.get("team"), "to": now.get("team"), "pro": now.get("pro"),
+                           "fromSlot": old.get("slot"), "toSlot": now.get("slot")})
         if _changed(old.get("injury"), now.get("injury")):
             events.append({"kind": "injury", "player": now["name"], "playerId": ident,
                            "team": now.get("team"), "pro": now.get("pro"),
@@ -165,7 +166,7 @@ def _fact_lines(events):
     lines = []
     for event in events[:8]:
         if event["kind"] == "transaction":
-            lines.append(f"transaction {event.get('type')} involving team {event.get('team')}")
+            lines.extend(event.get('footballFacts') or [f"A roster transaction was recorded ({event.get('type')})."])
         elif event["kind"] in ("projection", "actual", "injury", "roster_move"):
             lines.append(f"{event['kind']}: {event['player']} {event.get('from')} -> {event.get('to')}")
     return lines
@@ -188,20 +189,35 @@ def jev_cause(fallback, events):
 
 
 def template(cause, events, delta):
-    fact = _fact_lines(events)
-    subject = fact[0] if fact else "updated league standings and projections"
-    direction = "rose" if delta > 0 else "fell"
-    return f"Title odds {direction} {abs(delta) * 100:.1f} points after {subject}."
+    for event in events:
+        player, kind = event.get('player', 'A player'), event['kind']
+        before, after = event.get('from'), event.get('to')
+        if kind == 'projection' and isinstance(before, (int, float)) and isinstance(after, (int, float)):
+            return (f"{player}’s forecast moved from {before:g} to {after:g} fantasy points, "
+                    f"{'raising' if after > before else 'lowering'} their expected scoring contribution.")
+        if kind == 'actual' and isinstance(after, (int, float)):
+            return f"{player} now has {after:g} fantasy points; scoring on the field updates the matchup outlook and playoff race."
+        if kind == 'injury':
+            status = str(after).replace('_', ' ').lower()
+            return (f"{player} is now listed as {status}. " +
+                    ('Any extra touches for teammates depend on their roles and updated projections.' if event.get('external')
+                     else 'Their availability matters to the lineup; the effect depends on their replacement and updated projection.'))
+    for event in events:
+        if event.get('footballFacts'):
+            return ' '.join(event['footballFacts'][:2]) + ' This changes the available lineup options; a scoring boost is not guaranteed.'
+        if event['kind'] == 'roster_move':
+            return f"{event['player']} changed roster or lineup position, changing the available scoring options."
+    return 'No confirmed roster move, injury update or result explains this change.'
 
 
 def explain(cause, events, delta):
     fallback = template(cause, events, delta)
     raw = _chat(EXPLAINER_MODEL, [
-        {"role": "system", "content": "Write one factual tooltip sentence, 28 words maximum. Do not invent facts or claims."},
+        {"role": "system", "content": "Write a natural fantasy-NFL tooltip in at most 40 words: who did what, then the supported football implication. Use player and fantasy-team names. Never mention sampling, simulations, replay, reconstruction or attribution. Do not repeat the odds shown in the heading. Co-occurrence is not causation: do not claim a pickup improves a lineup, an injury gives a teammate more touches, or an event caused the odds move without supporting evidence. If the link is unknown, say so briefly. Do not invent NFL news, roles or facts."},
         {"role": "user", "content": json.dumps({"cause": cause, "title_odds_delta_points": round(delta * 100, 2),
              "facts": _fact_lines(events), "fallback": fallback})},
-    ], 60, EXPLAINER_REASONING)
-    if not raw or len(raw.split()) > 32:
+    ], 110, EXPLAINER_REASONING)
+    if not raw or len(raw.split()) > 45:
         return fallback, "template"
     return raw.replace("\n", " "), "model"
 
@@ -222,6 +238,19 @@ def explain_prediction_moves(before_result, after_result, before_state, after_st
         if abs(delta) < 0.005:
             continue
         relevant = _team_events(team["id"], events, after_state)
+        names = {t['id']: t.get('name', 'A team') for t in after_result.get('teams', [])}
+        for event in relevant:
+            if event['kind'] != 'transaction':
+                continue
+            event['footballFacts'] = []
+            for item in event.get('items', []):
+                action = item.get('type')
+                if action not in ('ADD', 'DROP', 'TRADE') or event.get('status') != 'EXECUTED':
+                    continue
+                player = after_state.get('players', {}).get(str(item.get('playerId')), {}).get('name', 'a player')
+                owner = item.get('toTeamId') if action == 'ADD' else item.get('fromTeamId')
+                verb = {'ADD': 'added', 'DROP': 'dropped', 'TRADE': 'traded'}[action]
+                event['footballFacts'].append(f"{names.get(owner, 'A team')} {verb} {player}.")
         cause, classified_by = jev_cause(deterministic_cause(relevant), relevant)
         sentence, written_by = explain(cause, relevant, delta)
         explainers[str(team["id"])] = {"cause": cause, "classifiedBy": classified_by,

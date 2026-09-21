@@ -2,7 +2,7 @@
 
 Legacy backfill ran with phase_started=False and a new random seed per event.
 Its score-only/lineup-only updates therefore changed sampling, not model inputs.
-Keep the original snapshots and evidence, but expose this distinction on hover.
+Keep audit evidence in metadata; use plain football language on hover.
 """
 import json
 from datetime import datetime, timezone
@@ -21,7 +21,9 @@ def audit(history, state, seed):
     transactions = list(state.get('transactions', {}).values())
     for previous, current in zip(snapshots, snapshots[1:]):
         # Preserve previously audited history when the live transaction window rolls on.
-        if current.get('explanations') and current.get('backfilled'):
+        if current.get('explanations') and current.get('backfilled') and all(
+                entry.get('auditVersion', 0) >= 2
+                for metrics in current['explanations'].values() for entry in metrics.values()):
             continue
         current['explanations'] = {}
         hour = timestamp(current)
@@ -39,18 +41,22 @@ def audit(history, state, seed):
                 confidence = 'limited historical evidence'
                 if bool(current.get('backfilled')) != bool(previous.get('backfilled')):
                     cause = 'data_transition'
-                    text = 'The graph switches between a reconstructed estimate and a recorded forecast. Different roster, projection and scoring inputs can create this jump; it is not evidence of a single event.'
+                    text = 'Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.'
                 elif current.get('backfilled') and current['week'] != previous['week']:
                     cause = 'completed_week'
                     match = next((m for m in seed['current']['sched'] if m[0] == previous['week'] and int(ident) in m[1:3]), None)
                     if match:
-                        text = f"Week {previous['week']} results entered the simulation: {names[match[1]]} scored {match[3]:g} and {names[match[2]]} scored {match[4]:g}. Updated standings and the new week's projections changed the forecast."
+                        text = f"{names[match[1]]} scored {match[3]:g} against {names[match[2]]}’s {match[4]:g} in Week {previous['week']}. The result updates the playoff race, alongside next week’s player forecasts."
                     else:
-                        text = 'Completed-week results, standings and the next week’s projections entered this reconstruction.'
+                        text = 'The week’s results changed the standings; next week’s player forecasts also changed the outlook for the playoff race.'
                     confidence = 'recorded results; combined model effect'
                 elif current.get('backfilled') and events:
                     cause = 'roster_recalculation'
                     facts = []
+                    # Put this team's moves before league-wide context.
+                    events = sorted(events, key=lambda e: not any(int(ident) in
+                        (i.get('fromTeamId'), i.get('toTeamId')) for i in e.get('items', [])))
+                    direct = False
                     for event in events:
                         for item in event.get('items', []):
                             action = item.get('type')
@@ -58,21 +64,24 @@ def audit(history, state, seed):
                                 continue
                             player = state['players'].get(str(item.get('playerId')), {}).get('name', 'a player')
                             owner = item.get('toTeamId') if action == 'ADD' else item.get('fromTeamId')
+                            direct = direct or int(ident) in (item.get('fromTeamId'), item.get('toTeamId'))
                             facts.append(f"{names.get(owner, 'A team')} {'added' if action == 'ADD' else 'dropped' if action == 'DROP' else 'traded'} {player}")
-                    text = '; '.join(facts[:4]) + '. The league was recalculated after these moves; the old 1,000-run replay also adds sampling variation, so an exact causal split is unavailable.'
+                    text = '; '.join(facts[:4]) + '. '
+                    text += ('The roster options changed, but a stronger or weaker starting lineup is not confirmed.' if direct
+                             else f"No direct effect on {names.get(int(ident), 'this team')}’s outlook is confirmed.")
                     confidence = 'verified transactions; attribution uncertain'
                 elif current.get('backfilled'):
                     cause = 'simulation_variation'
-                    text = 'This historical replay used a new random sample while its scoring input remained unchanged. The movement is simulation variation, not a verified change in team strength.'
+                    text = 'No confirmed roster move, injury update or scoring change explains this shift in the team’s outlook.'
                     confidence = 'verified replay-code limitation'
                 else:
                     existing = current.get('changes', {}).get(ident, {})
                     cause = existing.get('cause', 'unresolved')
-                    text = existing.get('text', 'The stored forecasts changed, but no sufficient input history was retained to establish why.')
+                    text = existing.get('text', 'No confirmed roster move, injury update or result explains this change.')
                     confidence = 'recorded explanation' if existing else 'cause unverified'
                 current['explanations'].setdefault(ident, {})[metric] = {
                     'cause': cause, 'text': text, 'confidence': confidence,
-                    'delta': round(delta, 4), 'auditVersion': 1,
+                    'delta': round(delta, 4), 'auditVersion': 2,
                 }
     return history
 
