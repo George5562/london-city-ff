@@ -360,5 +360,33 @@
     "after": 0.1317
    }
   ]
+ },
+ {
+  "id": "trade-f10462b0-8bd1-43f9-9396-1a3a36950875",
+  "kind": "T",
+  "at": "2026-09-22T07:47:23.757000+00:00",
+  "teams": [
+   3
+  ],
+  "text": "Claimed TE Dalton Schultz off waivers; dropped QB Matthew Stafford.",
+  "moves": [
+   {
+    "player": "Dalton Schultz",
+    "position": "TE",
+    "action": "claim"
+   },
+   {
+    "player": "Matthew Stafford",
+    "position": "QB",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.122,
+    "after": 0.122
+   }
+  ]
  }
 ]

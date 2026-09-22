@@ -26561,63 +26561,452 @@
   },
   {
    "date": "2026-09-22",
-   "label": "Reconstructed \u00b7 22 Sep 13:00 UTC",
-   "week": 2,
-   "backfilled": true,
+   "label": "Week 3 \u00b7 13:00 UTC",
+   "week": 3,
+   "backfilled": false,
    "teams": {
     "9": {
-     "champ": 0.268,
-     "playoff": 0.784,
-     "projWins": 9.46
-    },
-    "13": {
-     "champ": 0.135,
-     "playoff": 0.545,
-     "projWins": 8.41
+     "champ": 0.3813,
+     "playoff": 0.9645,
+     "projWins": 11.46
     },
     "3": {
-     "champ": 0.122,
-     "playoff": 0.541,
-     "projWins": 8.29
+     "champ": 0.2137,
+     "playoff": 0.818,
+     "projWins": 10.0
     },
     "6": {
-     "champ": 0.108,
-     "playoff": 0.445,
-     "projWins": 7.93
+     "champ": 0.1736,
+     "playoff": 0.7632,
+     "projWins": 9.6
     },
     "2": {
-     "champ": 0.091,
-     "playoff": 0.364,
-     "projWins": 7.24
+     "champ": 0.0839,
+     "playoff": 0.447,
+     "projWins": 7.89
     },
-    "1": {
-     "champ": 0.078,
-     "playoff": 0.396,
-     "projWins": 7.68
-    },
-    "11": {
-     "champ": 0.057,
-     "playoff": 0.256,
-     "projWins": 6.69
-    },
-    "5": {
-     "champ": 0.052,
-     "playoff": 0.229,
-     "projWins": 6.4
+    "13": {
+     "champ": 0.0759,
+     "playoff": 0.5088,
+     "projWins": 8.55
     },
     "4": {
-     "champ": 0.048,
-     "playoff": 0.233,
-     "projWins": 6.56
+     "champ": 0.0254,
+     "playoff": 0.1492,
+     "projWins": 6.12
+    },
+    "11": {
+     "champ": 0.0228,
+     "playoff": 0.1592,
+     "projWins": 6.24
+    },
+    "1": {
+     "champ": 0.0169,
+     "playoff": 0.132,
+     "projWins": 6.2
+    },
+    "5": {
+     "champ": 0.0057,
+     "playoff": 0.0464,
+     "projWins": 5.01
     },
     "12": {
-     "champ": 0.041,
-     "playoff": 0.207,
-     "projWins": 6.33
+     "champ": 0.0008,
+     "playoff": 0.0118,
+     "projWins": 3.93
     }
    },
    "at": "2026-09-22T13:00:00Z",
-   "explanations": {}
+   "changes": {
+    "9": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.0711,
+     "text": "Amon-Ra St. Brown\u2019s forecast moved from 20.3937 to 19.8703 fantasy points, lowering their expected scoring contribution.",
+     "facts": [
+      "projection: Amon-Ra St. Brown 20.39367413 -> 19.87033796",
+      "actual: Amon-Ra St. Brown 35.2 -> None",
+      "projection: CeeDee Lamb 17.99875061 -> 17.32113091",
+      "actual: CeeDee Lamb 35.3 -> None",
+      "projection: Kenneth Walker III 17.84214858 -> 21.00225738",
+      "actual: Kenneth Walker III 23.8 -> None",
+      "projection: Chris Olave 15.91590897 -> 17.76302878",
+      "actual: Chris Olave 22.6 -> None"
+     ],
+     "showTooltip": true
+    },
+    "3": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.007,
+     "text": "Jahmyr Gibbs\u2019s forecast moved from 24.1565 to 25.3477 fantasy points, raising their expected scoring contribution.",
+     "facts": [
+      "projection: Jahmyr Gibbs 24.1565459 -> 25.34772928",
+      "actual: Jahmyr Gibbs 23.3 -> None",
+      "projection: Lamar Jackson 21.66281505 -> 21.04320982",
+      "actual: Lamar Jackson 14.8 -> None",
+      "actual: Saquon Barkley 3.0 -> None",
+      "roster_move: Ashton Jeanty 3 -> 3",
+      "projection: Ashton Jeanty 18.33499986 -> 18.86922886",
+      "actual: Ashton Jeanty 10.3 -> None"
+     ],
+     "showTooltip": true
+    },
+    "6": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "model",
+     "delta": 0.0631,
+     "text": "Jonathan Taylor\u2019s projection rose to 20.6 fantasy points, while Trey McBride\u2019s reached 16.5. The updated forecasts support stronger expected scoring for the fantasy team; the link to the odds movement is unclear.",
+     "facts": [
+      "projection: Jonathan Taylor 18.44269237 -> 20.61530233",
+      "actual: Jonathan Taylor 29.2 -> None",
+      "projection: Trey McBride 14.46990367 -> 16.52036897",
+      "actual: Trey McBride 18.1 -> None",
+      "projection: Omarion Hampton 15.84450111 -> 15.02035001",
+      "actual: Omarion Hampton 17.5 -> None",
+      "projection: Breece Hall 15.79237533 -> 16.19558553",
+      "actual: Breece Hall 14.2 -> None"
+     ],
+     "showTooltip": true
+    },
+    "13": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "model",
+     "delta": -0.0465,
+     "text": "Bijan Robinson\u2019s projection fell from 22.9 to 19.5 fantasy points, while Derrick Henry\u2019s held steady and Drake London\u2019s rose. The update lowers the expected output of the roster\u2019s featured running back; the cause of these changes is unclear.",
+     "facts": [
+      "projection: Bijan Robinson 22.9303032 -> 19.54648123",
+      "actual: Bijan Robinson 11.1 -> None",
+      "projection: Derrick Henry 17.60849572 -> 17.72464782",
+      "actual: Derrick Henry 17.7 -> None",
+      "projection: Drake London 12.85133439 -> 15.3920286",
+      "actual: Drake London 8.9 -> None",
+      "projection: Malik Nabers 14.92657998 -> 15.22425684",
+      "actual: Malik Nabers 1.1 -> None"
+     ],
+     "showTooltip": true
+    },
+    "4": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0138,
+     "text": "Ja'Marr Chase\u2019s forecast moved from 19.0095 to 19.034 fantasy points, raising their expected scoring contribution.",
+     "facts": [
+      "projection: Ja'Marr Chase 19.00946565 -> 19.03395215",
+      "actual: Ja'Marr Chase 26.5 -> None",
+      "projection: Saquon Barkley 17.61534886 -> 17.36524165",
+      "actual: Saquon Barkley 3.0 -> None",
+      "projection: Drake Maye 18.22985288 -> 18.63197232",
+      "actual: Drake Maye 8.02 -> None",
+      "projection: Jeremiyah Love 12.87668641 -> 12.78836358",
+      "actual: Jeremiyah Love 7.5 -> None"
+     ],
+     "showTooltip": true
+    },
+    "1": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0591,
+     "text": "Puka Nacua\u2019s forecast moved from 0 to 20.0162 fantasy points, raising their expected scoring contribution.",
+     "facts": [
+      "projection: Puka Nacua 0.0 -> 20.01623431",
+      "actual: Puka Nacua 0.0 -> None",
+      "projection: Chase Brown 15.4466417 -> 16.60830374",
+      "actual: Chase Brown 11.2 -> None",
+      "projection: Javonte Williams 16.69697442 -> 15.00680208",
+      "actual: Javonte Williams 8.0 -> None",
+      "projection: Jayden Daniels 19.79421746 -> 0.0",
+      "actual: Jayden Daniels 14.74 -> None"
+     ],
+     "showTooltip": true
+    },
+    "5": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0081,
+     "text": "Christian McCaffrey\u2019s forecast moved from 21.4839 to 20.8948 fantasy points, lowering their expected scoring contribution.",
+     "facts": [
+      "projection: Christian McCaffrey 21.48391582 -> 20.89475246",
+      "actual: Christian McCaffrey 22.6 -> None",
+      "projection: Justin Jefferson 18.35804621 -> 18.25810392",
+      "actual: Justin Jefferson 8.5 -> None",
+      "projection: Brandon Aubrey 10.60438997 -> 9.72667032",
+      "actual: Brandon Aubrey 17.0 -> None",
+      "projection: Rashee Rice 15.03562789 -> 12.72799768",
+      "actual: Rashee Rice 12.3 -> None"
+     ],
+     "showTooltip": true
+    }
+   },
+   "explanations": {
+    "9": {
+     "champ": {
+      "cause": "data_transition",
+      "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
+      "confidence": "limited historical evidence",
+      "delta": 0.1133,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "playoff": {
+      "cause": "data_transition",
+      "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
+      "confidence": "limited historical evidence",
+      "delta": 0.1805,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "data_transition",
+      "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
+      "confidence": "limited historical evidence",
+      "delta": 2.0,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "3": {
+     "champ": {
+      "cause": "data_transition",
+      "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
+      "confidence": "limited historical evidence",
+      "delta": 0.0917,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "playoff": {
+      "cause": "data_transition",
+      "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
+      "confidence": "limited historical evidence",
+      "delta": 0.277,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "data_transition",
+      "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
+      "confidence": "limited historical evidence",
+      "delta": 1.71,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "6": {
+     "champ": {
+      "cause": "data_transition",
+      "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
+      "confidence": "limited historical evidence",
+      "delta": 0.0656,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "playoff": {
+      "cause": "data_transition",
+      "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
+      "confidence": "limited historical evidence",
+      "delta": 0.3182,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "data_transition",
+      "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
+      "confidence": "limited historical evidence",
+      "delta": 1.67,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "2": {
+     "champ": {
+      "cause": "data_transition",
+      "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
+      "confidence": "limited historical evidence",
+      "delta": -0.0071,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "playoff": {
+      "cause": "data_transition",
+      "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
+      "confidence": "limited historical evidence",
+      "delta": 0.083,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "data_transition",
+      "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
+      "confidence": "limited historical evidence",
+      "delta": 0.65,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "13": {
+     "champ": {
+      "cause": "data_transition",
+      "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
+      "confidence": "limited historical evidence",
+      "delta": -0.0591,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "playoff": {
+      "cause": "data_transition",
+      "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
+      "confidence": "limited historical evidence",
+      "delta": -0.0362,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "data_transition",
+      "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
+      "confidence": "limited historical evidence",
+      "delta": 0.14,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "4": {
+     "champ": {
+      "cause": "data_transition",
+      "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
+      "confidence": "limited historical evidence",
+      "delta": -0.0226,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "playoff": {
+      "cause": "data_transition",
+      "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
+      "confidence": "limited historical evidence",
+      "delta": -0.0838,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "data_transition",
+      "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
+      "confidence": "limited historical evidence",
+      "delta": -0.44,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "11": {
+     "champ": {
+      "cause": "data_transition",
+      "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
+      "confidence": "limited historical evidence",
+      "delta": -0.0342,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "playoff": {
+      "cause": "data_transition",
+      "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
+      "confidence": "limited historical evidence",
+      "delta": -0.0968,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "data_transition",
+      "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
+      "confidence": "limited historical evidence",
+      "delta": -0.45,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "1": {
+     "champ": {
+      "cause": "data_transition",
+      "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
+      "confidence": "limited historical evidence",
+      "delta": -0.0611,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "playoff": {
+      "cause": "data_transition",
+      "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
+      "confidence": "limited historical evidence",
+      "delta": -0.264,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "data_transition",
+      "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
+      "confidence": "limited historical evidence",
+      "delta": -1.48,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "5": {
+     "champ": {
+      "cause": "data_transition",
+      "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
+      "confidence": "limited historical evidence",
+      "delta": -0.0463,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "playoff": {
+      "cause": "data_transition",
+      "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
+      "confidence": "limited historical evidence",
+      "delta": -0.1826,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "data_transition",
+      "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
+      "confidence": "limited historical evidence",
+      "delta": -1.39,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "12": {
+     "champ": {
+      "cause": "data_transition",
+      "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
+      "confidence": "limited historical evidence",
+      "delta": -0.0402,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "playoff": {
+      "cause": "data_transition",
+      "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
+      "confidence": "limited historical evidence",
+      "delta": -0.1952,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "data_transition",
+      "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
+      "confidence": "limited historical evidence",
+      "delta": -2.4,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    }
+   }
   }
  ]
 }
