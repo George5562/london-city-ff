@@ -26566,54 +26566,54 @@
    "backfilled": false,
    "teams": {
     "9": {
-     "champ": 0.3813,
-     "playoff": 0.9645,
-     "projWins": 11.46
-    },
-    "3": {
-     "champ": 0.2137,
-     "playoff": 0.818,
-     "projWins": 10.0
+     "champ": 0.4104,
+     "playoff": 0.9846,
+     "projWins": 11.84
     },
     "6": {
-     "champ": 0.1736,
-     "playoff": 0.7632,
-     "projWins": 9.6
+     "champ": 0.2375,
+     "playoff": 0.9238,
+     "projWins": 10.82
+    },
+    "3": {
+     "champ": 0.2173,
+     "playoff": 0.8844,
+     "projWins": 10.46
     },
     "2": {
-     "champ": 0.0839,
-     "playoff": 0.447,
-     "projWins": 7.89
-    },
-    "13": {
-     "champ": 0.0759,
-     "playoff": 0.5088,
-     "projWins": 8.55
-    },
-    "4": {
-     "champ": 0.0254,
-     "playoff": 0.1492,
-     "projWins": 6.12
+     "champ": 0.0746,
+     "playoff": 0.5373,
+     "projWins": 8.21
     },
     "11": {
-     "champ": 0.0228,
-     "playoff": 0.1592,
-     "projWins": 6.24
+     "champ": 0.0226,
+     "playoff": 0.2025,
+     "projWins": 6.62
+    },
+    "4": {
+     "champ": 0.0156,
+     "playoff": 0.1365,
+     "projWins": 6.06
+    },
+    "13": {
+     "champ": 0.0147,
+     "playoff": 0.2149,
+     "projWins": 7.13
     },
     "1": {
-     "champ": 0.0169,
-     "playoff": 0.132,
-     "projWins": 6.2
+     "champ": 0.0062,
+     "playoff": 0.0929,
+     "projWins": 6.08
     },
     "5": {
-     "champ": 0.0057,
-     "playoff": 0.0464,
-     "projWins": 5.01
+     "champ": 0.0009,
+     "playoff": 0.0181,
+     "projWins": 4.38
     },
     "12": {
-     "champ": 0.0008,
-     "playoff": 0.0118,
-     "projWins": 3.93
+     "champ": 0.0001,
+     "playoff": 0.005,
+     "projWins": 3.4
     }
    },
    "at": "2026-09-22T13:00:00Z",
@@ -26623,7 +26623,7 @@
       "cause": "data_transition",
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
-      "delta": 0.1133,
+      "delta": 0.1424,
       "auditVersion": 4,
       "showTooltip": false
      },
@@ -26631,7 +26631,7 @@
       "cause": "data_transition",
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
-      "delta": 0.1805,
+      "delta": 0.2006,
       "auditVersion": 4,
       "showTooltip": false
      },
@@ -26639,33 +26639,7 @@
       "cause": "data_transition",
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
-      "delta": 2.0,
-      "auditVersion": 4,
-      "showTooltip": false
-     }
-    },
-    "3": {
-     "champ": {
-      "cause": "data_transition",
-      "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
-      "confidence": "limited historical evidence",
-      "delta": 0.0917,
-      "auditVersion": 4,
-      "showTooltip": false
-     },
-     "playoff": {
-      "cause": "data_transition",
-      "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
-      "confidence": "limited historical evidence",
-      "delta": 0.277,
-      "auditVersion": 4,
-      "showTooltip": false
-     },
-     "projWins": {
-      "cause": "data_transition",
-      "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
-      "confidence": "limited historical evidence",
-      "delta": 1.71,
+      "delta": 2.38,
       "auditVersion": 4,
       "showTooltip": false
      }
@@ -26675,7 +26649,7 @@
       "cause": "data_transition",
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
-      "delta": 0.0656,
+      "delta": 0.1295,
       "auditVersion": 4,
       "showTooltip": false
      },
@@ -26683,7 +26657,7 @@
       "cause": "data_transition",
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
-      "delta": 0.3182,
+      "delta": 0.4788,
       "auditVersion": 4,
       "showTooltip": false
      },
@@ -26691,7 +26665,33 @@
       "cause": "data_transition",
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
-      "delta": 1.67,
+      "delta": 2.89,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "3": {
+     "champ": {
+      "cause": "data_transition",
+      "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
+      "confidence": "limited historical evidence",
+      "delta": 0.0953,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "playoff": {
+      "cause": "data_transition",
+      "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
+      "confidence": "limited historical evidence",
+      "delta": 0.3434,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "data_transition",
+      "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
+      "confidence": "limited historical evidence",
+      "delta": 2.17,
       "auditVersion": 4,
       "showTooltip": false
      }
@@ -26701,7 +26701,7 @@
       "cause": "data_transition",
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
-      "delta": -0.0071,
+      "delta": -0.0164,
       "auditVersion": 4,
       "showTooltip": false
      },
@@ -26709,7 +26709,7 @@
       "cause": "data_transition",
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
-      "delta": 0.083,
+      "delta": 0.1733,
       "auditVersion": 4,
       "showTooltip": false
      },
@@ -26717,59 +26717,7 @@
       "cause": "data_transition",
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
-      "delta": 0.65,
-      "auditVersion": 4,
-      "showTooltip": false
-     }
-    },
-    "13": {
-     "champ": {
-      "cause": "data_transition",
-      "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
-      "confidence": "limited historical evidence",
-      "delta": -0.0591,
-      "auditVersion": 4,
-      "showTooltip": false
-     },
-     "playoff": {
-      "cause": "data_transition",
-      "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
-      "confidence": "limited historical evidence",
-      "delta": -0.0362,
-      "auditVersion": 4,
-      "showTooltip": false
-     },
-     "projWins": {
-      "cause": "data_transition",
-      "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
-      "confidence": "limited historical evidence",
-      "delta": 0.14,
-      "auditVersion": 4,
-      "showTooltip": false
-     }
-    },
-    "4": {
-     "champ": {
-      "cause": "data_transition",
-      "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
-      "confidence": "limited historical evidence",
-      "delta": -0.0226,
-      "auditVersion": 4,
-      "showTooltip": false
-     },
-     "playoff": {
-      "cause": "data_transition",
-      "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
-      "confidence": "limited historical evidence",
-      "delta": -0.0838,
-      "auditVersion": 4,
-      "showTooltip": false
-     },
-     "projWins": {
-      "cause": "data_transition",
-      "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
-      "confidence": "limited historical evidence",
-      "delta": -0.44,
+      "delta": 0.97,
       "auditVersion": 4,
       "showTooltip": false
      }
@@ -26779,7 +26727,7 @@
       "cause": "data_transition",
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
-      "delta": -0.0342,
+      "delta": -0.0344,
       "auditVersion": 4,
       "showTooltip": false
      },
@@ -26787,7 +26735,25 @@
       "cause": "data_transition",
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
-      "delta": -0.0968,
+      "delta": -0.0535,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "4": {
+     "champ": {
+      "cause": "data_transition",
+      "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
+      "confidence": "limited historical evidence",
+      "delta": -0.0324,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "playoff": {
+      "cause": "data_transition",
+      "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
+      "confidence": "limited historical evidence",
+      "delta": -0.0965,
       "auditVersion": 4,
       "showTooltip": false
      },
@@ -26795,7 +26761,33 @@
       "cause": "data_transition",
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
-      "delta": -0.45,
+      "delta": -0.5,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "13": {
+     "champ": {
+      "cause": "data_transition",
+      "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
+      "confidence": "limited historical evidence",
+      "delta": -0.1203,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "playoff": {
+      "cause": "data_transition",
+      "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
+      "confidence": "limited historical evidence",
+      "delta": -0.3301,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "data_transition",
+      "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
+      "confidence": "limited historical evidence",
+      "delta": -1.28,
       "auditVersion": 4,
       "showTooltip": false
      }
@@ -26805,7 +26797,7 @@
       "cause": "data_transition",
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
-      "delta": -0.0611,
+      "delta": -0.0718,
       "auditVersion": 4,
       "showTooltip": false
      },
@@ -26813,7 +26805,7 @@
       "cause": "data_transition",
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
-      "delta": -0.264,
+      "delta": -0.3031,
       "auditVersion": 4,
       "showTooltip": false
      },
@@ -26821,7 +26813,7 @@
       "cause": "data_transition",
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
-      "delta": -1.48,
+      "delta": -1.6,
       "auditVersion": 4,
       "showTooltip": false
      }
@@ -26831,7 +26823,7 @@
       "cause": "data_transition",
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
-      "delta": -0.0463,
+      "delta": -0.0511,
       "auditVersion": 4,
       "showTooltip": false
      },
@@ -26839,7 +26831,7 @@
       "cause": "data_transition",
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
-      "delta": -0.1826,
+      "delta": -0.2109,
       "auditVersion": 4,
       "showTooltip": false
      },
@@ -26847,7 +26839,7 @@
       "cause": "data_transition",
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
-      "delta": -1.39,
+      "delta": -2.02,
       "auditVersion": 4,
       "showTooltip": false
      }
@@ -26857,7 +26849,7 @@
       "cause": "data_transition",
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
-      "delta": -0.0402,
+      "delta": -0.0409,
       "auditVersion": 4,
       "showTooltip": false
      },
@@ -26865,7 +26857,7 @@
       "cause": "data_transition",
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
-      "delta": -0.1952,
+      "delta": -0.202,
       "auditVersion": 4,
       "showTooltip": false
      },
@@ -26873,7 +26865,7 @@
       "cause": "data_transition",
       "text": "Rosters, scores and player forecasts differ at this point; no single confirmed football event explains the change.",
       "confidence": "limited historical evidence",
-      "delta": -2.4,
+      "delta": -2.93,
       "auditVersion": 4,
       "showTooltip": false
      }
