@@ -160,7 +160,7 @@ header{position:relative;min-height:210px;margin:24px 0 30px;padding-right:290px
 
   <section class="card method">
     <h2 style="color:var(--text)">How the odds work</h2>
-    <p>Updated hourly from ESPN. Lines show championship chances. Curves between calculations are visual interpolation, not extra predictions. Playoff odds and projected wins are in the table below.</p>
+    <p>Lines use a centred three-point moving average (two points at the ends). Live percentages interpolate between the original calculations, not the smoothed line. Playoff odds and projected wins are in the table below.</p>
     <p>Earlier history is reconstructed, not recorded live. Some historical movement reflects forecast uncertainty rather than a football event. Story dots appear only where there is concrete football information. Seeding uses wins, then points for.</p>
   </section>
   <aside class="commissioner"><img class="portrait" src="art/commissioner-ned.jpg" alt="Illustrated portrait of Ned holding a football"><div><small>THE COMMISSIONER'S CORNER</small><h2>Ned's league. Everyone's game.</h2><p>Welcome to Friday Night Lights. Pull up a chair, pick your team, and let the Sunday arguments begin.</p></div></aside>
@@ -245,7 +245,7 @@ function renderChart() {
   document.getElementById("chart-title").textContent = METRICS[metric].title;
   const svg = document.getElementById("svg"), box = document.getElementById("chart");
   const W = Math.max(280, box.clientWidth), small = W < 560, H = small ? 350 : 460;
-  const m = { t: 30, r: 25, b: 35, l: 40 };
+  const m = { t: 30, r: 78, b: 35, l: 40 };
   const iw = W - m.l - m.r, ih = H - m.t - m.b;
   svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
   const dates = history.map(s => new Date(s.at || s.date + "T12:00:00Z"));
@@ -253,6 +253,11 @@ function renderChart() {
   const x = d => m.l + (iw * (+d - t0)) / (t1 - t0);
   const ymax=Math.max(.1,Math.ceil(Math.max(...history.flatMap(sn=>Object.values(sn.teams).map(t=>t.champ)))*10)/10);
   const y = v => m.t + ih * (1-v/ymax);
+  // Smooth across the full season so changing the visible range doesn't change values.
+  const smoothed = Object.fromEntries(STACK_ORDER.map(id=>[id,history.map(sn=>{
+    const i=allHistory.indexOf(sn),window=allHistory.slice(Math.max(0,i-1),i+2);
+    return window.reduce((sum,p)=>sum+(p.teams[id]?.champ||0),0)/window.length;
+  })]));
   const ticks = [0,.25,.5,.75,1].map(v=>v*ymax);
   const grid = css("--grid"), t3 = css("--text-3"), muted = css("--muted-line"), surf = css("--surface");
   let s = `<defs><clipPath id="race-reveal"><rect id="race-clip" x="${m.l}" y="0" width="0" height="${H}"/></clipPath><clipPath id="round-logo"><circle r="12"/></clipPath></defs>`;
@@ -265,14 +270,14 @@ function renderChart() {
   for (let i = 0; i <= nT; i++) { const d = new Date(t0 + ((t1 - t0) * i) / nT); s += `<text x="${x(d)}" y="${H - 8}" text-anchor="middle" font-size="11" fill="${t3}">${fmtD(d)}</text>`; }
   STACK_ORDER.forEach(id => {
     // Horizontal endpoint tangents keep every curve inside its two real values.
-    const pts=history.map((sn,i)=>[x(dates[i]),y(sn.teams[id]?.champ||0)]);
+    const pts=history.map((sn,i)=>[x(dates[i]),y(smoothed[id][i])]);
     const path=pts.reduce((d,p,i)=>{if(!i)return `M${p[0]},${p[1]}`;const a=pts[i-1],mid=(a[0]+p[0])/2;return d+` C${mid},${a[1]} ${mid},${p[1]} ${p[0]},${p[1]}`;},'');
     s+=`<path id="race-line-${id}" d="${path}" clip-path="url(#race-reveal)" fill="none" stroke="${TEAM_COLORS[id]||'#aaa'}" opacity="${selected.includes(id)?1:.14}" stroke-width="${selected.includes(id)?2.6:1.2}" stroke-linecap="round"/>`;
   });
   GAME_WINDOWS.forEach(([start,end,label])=>{const a=Math.max(t0,Date.parse(start)),b=Math.min(t1,Date.parse(end));if(b>a){s+=`<rect x="${x(a)}" y="${m.t}" width="${x(b)-x(a)}" height="${ih}" fill="#050507" opacity=".19"/><line x1="${x(a)}" x2="${x(a)}" y1="${m.t}" y2="${m.t+ih}" stroke="#fff" opacity=".22"/>`;if(x(b)-x(a)>35)s+=`<text x="${(x(a)+x(b))/2}" y="18" text-anchor="middle" font-size="9" fill="#9faad0">${label}</text>`;}});
-  selected.forEach(id => history.forEach((sn,i)=>{if(significant(sn,i,id))s+=`<circle clip-path="url(#race-reveal)" class="event-marker" cx="${x(dates[i])}" cy="${y(sn.teams[id].champ)}" r="3.5" fill="#fff" stroke="#050507" stroke-width="1.5"/>`;}));
+  selected.forEach(id => history.forEach((sn,i)=>{if(significant(sn,i,id))s+=`<circle clip-path="url(#race-reveal)" class="event-marker" cx="${x(dates[i])}" cy="${y(smoothed[id][i])}" r="3.5" fill="#fff" stroke="#050507" stroke-width="1.5"/>`;}));
   s += `<line id="xh" y1="${m.t}" y2="${m.t + ih}" stroke="${t3}" stroke-dasharray="3 4"/>`;
-  selected.forEach(id=>{s+=`<g class="race-head" id="race-head-${id}"><circle r="14" fill="#08080b" stroke="${TEAM_COLORS[id]}" stroke-width="2"/><image href="${logoOf(id)}" x="-12" y="-12" width="24" height="24" clip-path="url(#round-logo)"/><title>${esc(teams[id].name)}</title></g>`;});
+  selected.forEach(id=>{s+=`<g class="race-head" id="race-head-${id}"><circle r="14" fill="#08080b" stroke="${TEAM_COLORS[id]}" stroke-width="2"/><image href="${logoOf(id)}" x="-12" y="-12" width="24" height="24" clip-path="url(#round-logo)"/><text id="race-value-${id}" x="20" y="4" fill="${TEAM_COLORS[id]}" font-size="12" font-weight="700" stroke="#08080b" stroke-width="4" paint-order="stroke" style="font-variant-numeric:tabular-nums"></text><title>${esc(teams[id].name)}</title></g>`;});
   s += `<rect id="hit" x="${m.l}" y="${m.t}" width="${iw}" height="${ih}" fill="transparent"/>`;
   svg.innerHTML = s;
 
@@ -287,7 +292,12 @@ function renderChart() {
     const fraction=span?Math.max(0,Math.min(1,(time-dates[left])/span)):1;
     let lo=0,hi=1;for(let n=0;n<18;n++){const u=(lo+hi)/2;if(1.5*u-1.5*u*u+u*u*u<fraction)lo=u;else hi=u;}
     const u=(lo+hi)/2,ease=3*u*u-2*u*u*u;
-    selected.forEach(id=>{const a=history[left].teams[id]?.champ||0,b=history[right].teams[id]?.champ||0;svg.querySelector(`#race-head-${id}`).setAttribute('transform',`translate(${cx},${y(a+(b-a)*ease)})`);});
+    selected.forEach(id=>{
+      const a=smoothed[id][left],b=smoothed[id][right];
+      svg.querySelector(`#race-head-${id}`).setAttribute('transform',`translate(${cx},${y(a+(b-a)*ease)})`);
+      const rawA=history[left].teams[id]?.champ||0,rawB=history[right].teams[id]?.champ||0;
+      svg.querySelector(`#race-value-${id}`).textContent=((rawA+(rawB-rawA)*fraction)*100).toFixed(1)+'%';
+    });
     const date=new Date(t0+(t1-t0)*raceProgress);
     document.getElementById('race-time').value=Math.round(raceProgress*1000);
     document.getElementById('race-date').textContent=date.toLocaleString(undefined,{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'});
@@ -307,7 +317,7 @@ function renderChart() {
     box.dataset.index=bi;
     const py=Math.max(m.t,Math.min(m.t+ih,((ev.touches?ev.touches[0].clientY:ev.clientY)-r.top)*H/r.height));
     let candidates=[];
-    history.forEach((point,i)=>{if(Math.abs(x(dates[i])-px)>14||x(dates[i])>m.l+iw*raceProgress)return;selected.forEach(id=>{const distance=Math.hypot(x(dates[i])-px,y(point.teams[id].champ)-py);if(significant(point,i,id)&&distance<24)candidates.push({point,i,id,distance});});});
+    history.forEach((point,i)=>{if(Math.abs(x(dates[i])-px)>14||x(dates[i])>m.l+iw*raceProgress)return;selected.forEach(id=>{const distance=Math.hypot(x(dates[i])-px,y(smoothed[id][i])-py);if(significant(point,i,id)&&distance<24)candidates.push({point,i,id,distance});});});
     candidates.sort((a,b)=>a.distance-b.distance);
     const event=candidates[0];
     if(!event){tip.style.opacity=0;return;}
