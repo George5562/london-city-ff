@@ -6,7 +6,7 @@
   "teams": [
    2
   ],
-  "text": "Claimed Deebo Samuel Sr. off waivers; Dropped Tre Tucker.",
+  "text": "Claimed Deebo Samuel Sr. (WR) off waivers; dropped Tre Tucker (WR).",
   "moves": [
    {
     "player": "Deebo Samuel Sr.",
@@ -34,7 +34,7 @@
   "teams": [
    9
   ],
-  "text": "Added Kaelon Black.",
+  "text": "Added Kaelon Black (RB).",
   "moves": [
    {
     "player": "Kaelon Black",
@@ -57,7 +57,7 @@
   "teams": [
    1
   ],
-  "text": "Added Devaughn Vele.",
+  "text": "Added WR Devaughn Vele.",
   "moves": [
    {
     "player": "Devaughn Vele",
@@ -80,7 +80,7 @@
   "teams": [
    3
   ],
-  "text": "Added Jalen Coker; Dropped Jacory Croskey-Merritt.",
+  "text": "Added Jalen Coker (WR); dropped Jacory Croskey-Merritt (RB).",
   "moves": [
    {
     "player": "Jalen Coker",
@@ -131,7 +131,7 @@
   "teams": [
    1
   ],
-  "text": "Added Jacory Croskey-Merritt.",
+  "text": "Added RB Jacory Croskey-Merritt.",
   "moves": [
    {
     "player": "Jacory Croskey-Merritt",
@@ -154,7 +154,7 @@
   "teams": [
    4
   ],
-  "text": "Added 49ers D/ST; Dropped Steelers D/ST.",
+  "text": "Added 49ers D/ST; dropped Steelers D/ST.",
   "moves": [
    {
     "player": "49ers D/ST",
@@ -182,7 +182,7 @@
   "teams": [
    1
   ],
-  "text": "Added Chiefs D/ST; Dropped Titans D/ST.",
+  "text": "Added Chiefs D/ST; dropped Titans D/ST.",
   "moves": [
    {
     "player": "Chiefs D/ST",
@@ -210,7 +210,7 @@
   "teams": [
    11
   ],
-  "text": "Added Dontayvion Wicks; Dropped Blake Corum.",
+  "text": "Added WR Dontayvion Wicks; dropped RB Blake Corum.",
   "moves": [
    {
     "player": "Dontayvion Wicks",
@@ -261,7 +261,7 @@
   "teams": [
    3
   ],
-  "text": "Added Steelers D/ST; Dropped Rams D/ST.",
+  "text": "Added Steelers D/ST; dropped Rams D/ST.",
   "moves": [
    {
     "player": "Steelers D/ST",
@@ -289,7 +289,7 @@
   "teams": [
    13
   ],
-  "text": "Added Juwan Johnson.",
+  "text": "Added Juwan Johnson, TE.",
   "moves": [
    {
     "player": "Juwan Johnson",
@@ -340,7 +340,7 @@
   "teams": [
    3
   ],
-  "text": "Added Jake Ferguson; Dropped Jakobi Meyers.",
+  "text": "Added Jake Ferguson; dropped Jakobi Meyers.",
   "moves": [
    {
     "player": "Jake Ferguson",
