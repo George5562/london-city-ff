@@ -40,11 +40,11 @@ jobs:
           OPENROUTER_REASONING_EFFORT: low
         run: |
           if [ "${{ inputs.tooltip_only }}" = "true" ]; then
-            python scripts/timeline_events.py
+            python scripts/timeline_events.py --rewrite-existing
           else
             python scripts/update.py
             if [ "${{ inputs.rebuild_tooltips }}" = "true" ]; then
-              python scripts/timeline_events.py
+              python scripts/timeline_events.py --rewrite-existing
             fi
           fi
       - name: Commit snapshot

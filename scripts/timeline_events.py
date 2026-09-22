@@ -89,10 +89,25 @@ def save_events(path, events):
     path.write_text(json.dumps(list(known.values()), indent=1))
 
 
+def rewrite_existing(path):
+    """Rewrite only the spectator caption, using facts retained with each event."""
+    events = json.loads(path.read_text()) if path.exists() else []
+    rewritten = 0
+    for event in events:
+        if event.get('kind') == 'T' and event.get('moves'):
+            event['text'] = event_copy(event['moves'])
+            rewritten += 1
+    path.write_text(json.dumps(events, indent=1))
+    print(f'Rewrote {rewritten} retained transaction captions')
+
+
 if __name__ == '__main__':
     from pathlib import Path
     from datetime import datetime, timezone
     root = Path(__file__).resolve().parent.parent
+    if '--rewrite-existing' in __import__('sys').argv:
+        rewrite_existing(root / 'docs/data/events.json')
+        raise SystemExit
     state = json.loads((root / 'data/state/league-state.json').read_text())
     latest = json.loads((root / 'docs/data/latest.json').read_text())
     history = json.loads((root / 'docs/data/history.json').read_text())['snapshots']
