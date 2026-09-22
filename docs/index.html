@@ -94,7 +94,7 @@ tr.team:hover td { background: var(--bg); }
 footer, .method { color: var(--text-3); font-size: 13px; }
 .method p { margin: 6px 0; }
 @media (max-width: 640px) { .hide-sm { display: none; } h1 { font-size: 24px; } .card { padding: 16px 14px; } .bar i { display: none; } td, th { padding: 8px 6px; } td:first-child { white-space: normal; } .tname { gap: 8px; } }
-header[hidden]{display:none}.hero-card{margin-top:18px}.race-controls{display:flex;align-items:center;gap:12px;margin-top:14px}.race-controls button{background:#16121f;border:1px solid #8773a4;color:#fff;border-radius:7px;padding:10px 14px;cursor:pointer}.race-controls input{flex:1;min-width:50px;accent-color:#b7a0dd}.race-controls output{font-size:12px;color:var(--text-2);min-width:150px}.chart{touch-action:pan-y}.race-head{pointer-events:none}@media(max-width:560px){.race-controls{flex-wrap:wrap}.race-controls output{width:100%;text-align:right}.mast{margin-bottom:12px}}
+header[hidden]{display:none}.hero-card{margin-top:18px}.race-controls{display:flex;align-items:center;gap:12px;margin-top:14px}.race-controls button,.zoom-controls button{background:#16121f;border:1px solid #8773a4;color:#fff;border-radius:7px;padding:10px 14px;cursor:pointer}.race-controls input{flex:1;min-width:50px;accent-color:#b7a0dd}.race-controls output{font-size:12px;color:var(--text-2);min-width:150px}.zoom-controls{display:inline-flex;align-items:center;gap:4px;margin-left:8px}.zoom-controls button{padding:6px 10px;font-weight:800}.zoom-controls output{min-width:32px;text-align:center;color:var(--text-2);font-size:11px;font-variant-numeric:tabular-nums}.chart{touch-action:pan-y}.race-head{pointer-events:none}@media(max-width:560px){.race-controls{flex-wrap:wrap}.race-controls output{width:100%;text-align:right}.mast{margin-bottom:12px}.zoom-controls{margin-left:0}}
 .result-badge{cursor:pointer;transform-box:fill-box;transform-origin:center}.result-badge.pop{animation:result-pop .45s cubic-bezier(.2,1.7,.4,1)}@keyframes result-pop{from{scale:.15;opacity:0}to{scale:1;opacity:1}}.match-report{position:absolute;z-index:20;width:310px;max-width:calc(100% - 8px);padding:18px;background:#101016;border:1px solid #8d79af;border-radius:12px;box-shadow:0 16px 50px #000b}.match-report h3{margin:0 25px 16px 0;font-size:13px;color:#bca8dc;text-transform:uppercase}.match-report button{position:absolute;right:8px;top:6px;background:none;border:0;color:#fff;font-size:24px;cursor:pointer}.match-report .report-side{display:flex;gap:9px;align-items:center;margin:12px 0}.report-side img{width:30px;height:30px;border-radius:50%}.report-side strong{margin-left:auto;font-size:22px}.match-report p{color:#b9b6c2;font-size:12px;margin-bottom:0}@media(prefers-reduced-motion:reduce){.result-badge.pop{animation:none}}
 .match-report{width:390px;box-sizing:border-box}.report-scoreboard{display:grid;grid-template-columns:1fr 1fr;gap:16px;padding:18px 0;border-block:1px dashed #4d4657}.report-score{display:flex;align-items:center;gap:9px}.report-score img{width:38px;height:38px;object-fit:contain;border-radius:50%}.report-score strong{font:800 34px/1 'Barlow Condensed',sans-serif}.report-team:last-child{text-align:right}.report-team:last-child .report-score{flex-direction:row-reverse}.report-name{font-size:12px;font-weight:700;margin-top:18px}.report-outcome{font-size:10px;font-weight:800;letter-spacing:1px}.report-outcome.won{color:#36d887}.report-outcome.lost{color:#f25c72}@media(max-width:560px){.report-score strong{font-size:28px}.report-score img{width:30px;height:30px}.report-scoreboard{gap:10px}}
 .result-badge.pop{animation-delay:var(--ripple,0ms);animation-fill-mode:backwards}.hero-card>.row{transition:min-height .15s}.match-report{max-height:360px;overflow:auto}.move-line{display:flex;align-items:center;gap:7px;margin:9px 0;font-size:13px;color:var(--text)}.pos-icon{display:inline-grid;place-items:center;min-width:26px;height:18px;padding:0 4px;border:1px solid #579df0;border-radius:10px;color:#77b7ff;font-size:9px;font-weight:800;letter-spacing:.3px}.odds-shift{color:#77b7ff;font-weight:800;margin-left:auto;font-variant-numeric:tabular-nums}.involved-teams{display:flex;flex-wrap:wrap;gap:7px;margin:-7px 0 13px}.involved-team{display:inline-flex;align-items:center;gap:6px;padding:5px 8px 5px 5px;border:1px solid #45405a;border-radius:99px;background:#15131d;color:#ece7f4;font-size:11px;font-weight:700}.involved-team img{width:22px;height:22px;object-fit:contain;border-radius:50%;background:#09090d}
@@ -142,7 +142,7 @@ header{position:relative;min-height:210px;margin:24px 0 30px;padding-right:290px
         <h2 id="chart-title">Championship odds over time</h2>
         <p class="hint">From draft night to now. Use the slider below to explore; tap graph icons for their stories.</p>
       </div>
-      <div class="chart-toolbar"><div class="seg range" role="group" aria-label="Time range"><button data-range="all" aria-pressed="true">Season</button><button data-range="7" aria-pressed="false">7D</button><button data-range="2" aria-pressed="false">48H</button></div></div>
+      <div class="chart-toolbar"><div class="seg range" role="group" aria-label="Time range"><button data-range="all" aria-pressed="true">Season</button><button data-range="7" aria-pressed="false">7D</button><button data-range="2" aria-pressed="false">48H</button></div><div class="zoom-controls" role="group" aria-label="Graph zoom"><button id="zoom-out" type="button" aria-label="Zoom out">−</button><output id="zoom-level" aria-live="polite">1×</output><button id="zoom-in" type="button" aria-label="Zoom in">+</button></div></div>
     </div>
     <div class="chart" id="chart" tabindex="0" role="group" aria-label="Odds timeline. Use left and right arrow keys to explore hourly predictions."><svg id="svg" role="img" aria-label="Team prediction percentages over time"></svg><div class="tip" id="tip"></div></div>
     <div class="race-controls"><button id="replay" type="button">↻ Replay</button><button id="race-pause" type="button">Pause</button><input id="race-time" type="range" min="0" max="1000" value="0" aria-label="Race timeline"><output id="race-date"></output></div>
@@ -180,7 +180,7 @@ const METRICS = {
   projWins: { title: "Projected regular-season wins", fmt: v => v.toFixed(1), pct: false },
 };
 let latest, history, teams, metric = "champ", selected = [];
-let range = 'all', allHistory = [];
+let range = 'all', allHistory = [], graphZoom = 1;
 let raceProgress=0, raceFrame=0, racePlaying=true, raceLast=0;
 let matchResults=[],timelineEvents=[],openMatch=null;
 const reducedMotion=matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -220,7 +220,7 @@ async function load() {
   latest = l;
   const uniqueTimes=new Map();
   h.snapshots.forEach(sn=>{const time=Date.parse(sn.at||sn.date+'T12:00Z'),prior=uniqueTimes.get(time);if(!prior||!sn.backfilled)uniqueTimes.set(time,sn);});
-  history=[...uniqueTimes.values()].sort((a,b)=>Date.parse(a.at||a.date+'T12:00Z')-Date.parse(b.at||b.date+'T12:00Z'));allHistory=history;
+  history=[...uniqueTimes.values()].sort((a,b)=>Date.parse(a.at||a.date+'T12:00Z')-Date.parse(b.at||b.date+'T12:00Z'));allHistory=history;applyTimeView();
   teams = Object.fromEntries(latest.teams.map(t => [t.id, t]));
   selected = latest.teams.map(t=>t.id);
   await Promise.all(latest.teams.map(sampleLogo));
@@ -237,6 +237,16 @@ function toggle(id) {
   render();
 }
 
+function applyTimeView() {
+  const end=Date.parse(allHistory.at(-1).at||allHistory.at(-1).date+'T12:00Z');
+  const first=Date.parse(allHistory[0].at||allHistory[0].date+'T12:00Z');
+  const rangeStart=range==='all'?first:Math.max(first,end-Number(range)*864e5);
+  const start=Math.max(rangeStart,end-(end-rangeStart)/graphZoom);
+  history=allHistory.filter(s=>Date.parse(s.at||s.date+'T12:00Z')>=start);
+  document.getElementById('zoom-level').textContent=`${graphZoom}×`;
+  document.getElementById('zoom-out').disabled=graphZoom===1;
+}
+function changeZoom(direction) { graphZoom=Math.max(1,Math.min(64,graphZoom*(direction>0?2:.5)));applyTimeView();renderChart(); }
 function render() { renderLegend(); renderChart(); renderTable(); renderMatchups(); }
 
 function renderLegend() {
@@ -405,6 +415,7 @@ function renderChart() {
   const hit = svg.querySelector("#hit");
   hit.addEventListener("mousemove", move); hit.addEventListener("touchstart", move, { passive: true }); hit.addEventListener("touchmove", move, { passive: true });
   hit.addEventListener("mouseleave", () => { tip.style.opacity = 0; });
+  box.onwheel=ev=>{ev.preventDefault();changeZoom(ev.deltaY<0?1:-1);};
   box.onkeydown=ev=>{if(!['ArrowLeft','ArrowRight','Escape'].includes(ev.key))return;ev.preventDefault();if(ev.key==='Escape'){tip.style.opacity=0;return;}seek(raceProgress+(ev.key==='ArrowLeft'?-1:1)/Math.max(1,history.length-1));};
 }
 
@@ -461,7 +472,9 @@ document.querySelectorAll("button[data-m]").forEach(b => b.onclick = () => {
 });
 let rt; addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(renderChart, 100); });
 matchMedia("(prefers-color-scheme: dark)").addEventListener("change", render);
-document.querySelectorAll('button[data-range]').forEach(b=>b.onclick=()=>{range=b.dataset.range;const end=Date.parse(allHistory.at(-1).at||allHistory.at(-1).date+'T12:00Z');history=range==='all'?allHistory:allHistory.filter(s=>Date.parse(s.at||s.date+'T12:00Z')>=end-Number(range)*864e5);document.querySelectorAll('button[data-range]').forEach(x=>x.setAttribute('aria-pressed',x===b));renderChart();});
+document.getElementById('zoom-in').onclick=()=>changeZoom(1);
+document.getElementById('zoom-out').onclick=()=>changeZoom(-1);
+document.querySelectorAll('button[data-range]').forEach(b=>b.onclick=()=>{range=b.dataset.range;graphZoom=1;applyTimeView();document.querySelectorAll('button[data-range]').forEach(x=>x.setAttribute('aria-pressed',x===b));renderChart();});
 load().catch(()=>{document.getElementById('chart').innerHTML='<div class="error">The scoreboard is taking a breather. Please refresh to try again.</div>';});
 </script>
 </body>
