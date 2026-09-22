@@ -405,5 +405,107 @@
     "after": 0.3746
    }
   ]
+ },
+ {
+  "id": "injury-4426515-2026-09-22T21:30:00Z",
+  "kind": "I",
+  "at": "2026-09-22T21:30:00Z",
+  "teams": [
+   1
+  ],
+  "text": "Knights who say Ni: Puka Nacua is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.0069,
+    "after": 0.0132
+   }
+  ]
+ },
+ {
+  "id": "injury-4432665-2026-09-22T21:30:00Z",
+  "kind": "I",
+  "at": "2026-09-22T21:30:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Sabre Raiders: Brock Bowers is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.0863,
+    "after": 0.1081
+   }
+  ]
+ },
+ {
+  "id": "injury-4258173-2026-09-22T21:30:00Z",
+  "kind": "I",
+  "at": "2026-09-22T21:30:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Love hurts: Nico Collins is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0013,
+    "after": 0.0015
+   }
+  ]
+ },
+ {
+  "id": "injury-4429615-2026-09-22T21:30:00Z",
+  "kind": "I",
+  "at": "2026-09-22T21:30:00Z",
+  "teams": [
+   13
+  ],
+  "text": "Salisbury Screamers: Zay Flowers is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 13,
+    "before": 0.0157,
+    "after": 0.0147
+   }
+  ]
+ },
+ {
+  "id": "injury-4035687-2026-09-22T21:30:00Z",
+  "kind": "I",
+  "at": "2026-09-22T21:30:00Z",
+  "teams": [
+   13
+  ],
+  "text": "Salisbury Screamers: Michael Pittman Jr. is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 13,
+    "before": 0.0157,
+    "after": 0.0147
+   }
+  ]
+ },
+ {
+  "id": "injury-4568490-2026-09-22T21:30:00Z",
+  "kind": "I",
+  "at": "2026-09-22T21:30:00Z",
+  "teams": [
+   1
+  ],
+  "text": "Knights who say Ni: RJ Harvey is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.0069,
+    "after": 0.0132
+   }
+  ]
  }
 ]
