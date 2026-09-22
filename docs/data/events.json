@@ -388,5 +388,22 @@
     "after": 0.122
    }
   ]
+ },
+ {
+  "id": "injury-4689114-2026-09-22T18:00:00Z",
+  "kind": "I",
+  "at": "2026-09-22T18:00:00Z",
+  "teams": [
+   9
+  ],
+  "text": "GiantPunt: Jaxson Dart is now listed as doubtful.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.4104,
+    "after": 0.3746
+   }
+  ]
  }
 ]

@@ -26931,6 +26931,243 @@
    },
    "at": "2026-09-22T13:30:00Z",
    "explanations": {}
+  },
+  {
+   "date": "2026-09-22",
+   "label": "Week 3 \u00b7 18:00 UTC",
+   "week": 3,
+   "backfilled": false,
+   "teams": {
+    "9": {
+     "champ": 0.3746,
+     "playoff": 0.976,
+     "projWins": 11.6
+    },
+    "6": {
+     "champ": 0.2464,
+     "playoff": 0.9201,
+     "projWins": 10.8
+    },
+    "3": {
+     "champ": 0.2268,
+     "playoff": 0.883,
+     "projWins": 10.47
+    },
+    "2": {
+     "champ": 0.0863,
+     "playoff": 0.5587,
+     "projWins": 8.32
+    },
+    "11": {
+     "champ": 0.0238,
+     "playoff": 0.1968,
+     "projWins": 6.63
+    },
+    "4": {
+     "champ": 0.0181,
+     "playoff": 0.1396,
+     "projWins": 6.12
+    },
+    "13": {
+     "champ": 0.0157,
+     "playoff": 0.2056,
+     "projWins": 7.1
+    },
+    "1": {
+     "champ": 0.0069,
+     "playoff": 0.0948,
+     "projWins": 6.12
+    },
+    "5": {
+     "champ": 0.0013,
+     "playoff": 0.0215,
+     "projWins": 4.52
+    },
+    "12": {
+     "champ": 0.0001,
+     "playoff": 0.004,
+     "projWins": 3.33
+    }
+   },
+   "at": "2026-09-22T18:00:00Z",
+   "changes": {
+    "9": {
+     "cause": "roster_availability",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0358,
+     "text": "Amon-Ra St. Brown\u2019s forecast moved from 19.8703 to 19.8612 fantasy points, lowering their expected scoring contribution.",
+     "facts": [
+      "projection: Amon-Ra St. Brown 19.87033796 -> 19.86120371",
+      "projection: CeeDee Lamb 17.32113091 -> 17.32310854",
+      "projection: Kenneth Walker III 21.00225738 -> 21.0017916",
+      "projection: Chris Olave 17.76302878 -> 17.76111372",
+      "projection: Tyler Warren 12.30012174 -> 12.30095082",
+      "projection: D'Andre Swift 12.68464067 -> 12.68285397",
+      "projection: Ka'imi Fairbairn 9.29831904 -> 9.28054234",
+      "injury: Jaxson Dart QUESTIONABLE -> DOUBTFUL"
+     ],
+     "showTooltip": true
+    },
+    "6": {
+     "cause": "external_opportunity",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.0089,
+     "text": "Jonathan Taylor\u2019s forecast moved from 20.6153 to 20.6138 fantasy points, lowering their expected scoring contribution.",
+     "facts": [
+      "projection: Jonathan Taylor 20.61530233 -> 20.61381033",
+      "projection: Trey McBride 16.52036897 -> 16.46447296",
+      "projection: Omarion Hampton 15.02035001 -> 15.01758788",
+      "projection: Breece Hall 16.19558553 -> 16.20370225",
+      "projection: Tee Higgins 12.74204858 -> 12.74379601",
+      "projection: Jaylen Waddle 13.42438743 -> 13.07598804",
+      "projection: Dak Prescott 17.11743902 -> 17.11230613",
+      "projection: Carnell Tate 11.56825844 -> 11.7775808"
+     ],
+     "showTooltip": true
+    },
+    "3": {
+     "cause": "projection_rerating",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.0095,
+     "text": "Jahmyr Gibbs\u2019s forecast moved from 25.3477 to 25.3404 fantasy points, lowering their expected scoring contribution.",
+     "facts": [
+      "projection: Jahmyr Gibbs 25.34772928 -> 25.34035835",
+      "projection: Lamar Jackson 21.04320982 -> 21.07244552",
+      "projection: Ashton Jeanty 18.86922886 -> 18.87066831",
+      "projection: DeVonta Smith 15.62608929 -> 15.62500858",
+      "projection: Tetairoa McMillan 14.29392745 -> 14.24836656",
+      "projection: Terry McLaurin 11.89549922 -> 11.89123949",
+      "projection: Steelers D/ST 6.53428995 -> 6.28057536",
+      "projection: Harold Fannin Jr. 9.79277907 -> 9.79159439"
+     ],
+     "showTooltip": true
+    },
+    "2": {
+     "cause": "external_opportunity",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.0117,
+     "text": "Jaxon Smith-Njigba\u2019s forecast moved from 20.7973 to 20.8044 fantasy points, raising their expected scoring contribution.",
+     "facts": [
+      "projection: Jaxon Smith-Njigba 20.79729828 -> 20.80437485",
+      "projection: De'Von Achane 19.4035903 -> 19.40009212",
+      "projection: Brock Bowers 14.17556942 -> 14.17523036",
+      "projection: Garrett Wilson 14.81054641 -> 14.80854727",
+      "projection: Davante Adams 12.79484934 -> 13.81940077",
+      "projection: Jason Myers 9.45551848 -> 9.43570312",
+      "projection: Bucky Irving 15.78346077 -> 15.77775821",
+      "projection: Rome Odunze 10.30095621 -> 10.30190833"
+     ],
+     "showTooltip": true
+    }
+   },
+   "explanations": {
+    "9": {
+     "champ": {
+      "cause": "roster_availability",
+      "text": "Amon-Ra St. Brown\u2019s forecast moved from 19.8703 to 19.8612 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.0358,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "roster_availability",
+      "text": "Amon-Ra St. Brown\u2019s forecast moved from 19.8703 to 19.8612 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.0086,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "roster_availability",
+      "text": "Amon-Ra St. Brown\u2019s forecast moved from 19.8703 to 19.8612 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.24,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "6": {
+     "champ": {
+      "cause": "external_opportunity",
+      "text": "Jonathan Taylor\u2019s forecast moved from 20.6153 to 20.6138 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.0089,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "3": {
+     "champ": {
+      "cause": "projection_rerating",
+      "text": "Jahmyr Gibbs\u2019s forecast moved from 25.3477 to 25.3404 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.0095,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "2": {
+     "champ": {
+      "cause": "external_opportunity",
+      "text": "Jaxon Smith-Njigba\u2019s forecast moved from 20.7973 to 20.8044 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.0117,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "external_opportunity",
+      "text": "Jaxon Smith-Njigba\u2019s forecast moved from 20.7973 to 20.8044 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.0214,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "external_opportunity",
+      "text": "Jaxon Smith-Njigba\u2019s forecast moved from 20.7973 to 20.8044 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.11,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "11": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.0057,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "13": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.0093,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "5": {
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.14,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    }
+   }
   }
  ]
 }
