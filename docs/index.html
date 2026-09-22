@@ -140,7 +140,7 @@ header{position:relative;min-height:210px;margin:24px 0 30px;padding-right:290px
     <div class="row">
       <div>
         <h2 id="chart-title">Championship odds over time</h2>
-        <p class="hint">From draft night to now. Watch the race, or drag the tracker to any moment.</p>
+        <p class="hint">From draft night to now. Use the slider below to explore; tap graph icons for their stories.</p>
       </div>
       <div class="chart-toolbar"><div class="seg range" role="group" aria-label="Time range"><button data-range="all" aria-pressed="true">Season</button><button data-range="7" aria-pressed="false">7D</button><button data-range="2" aria-pressed="false">48H</button></div></div>
     </div>
@@ -388,11 +388,6 @@ function renderChart() {
   const hit = svg.querySelector("#hit");
   hit.addEventListener("mousemove", move); hit.addEventListener("touchstart", move, { passive: true }); hit.addEventListener("touchmove", move, { passive: true });
   hit.addEventListener("mouseleave", () => { tip.style.opacity = 0; });
-  let dragging=false;
-  const scrub=e=>{const r=svg.getBoundingClientRect();seek(((e.clientX-r.left)*W/r.width-m.l)/iw);};
-  hit.addEventListener('pointerdown',e=>{if(openMatch)return;dragging=true;hit.setPointerCapture(e.pointerId);scrub(e);});
-  hit.addEventListener('pointermove',e=>{if(dragging)scrub(e);});
-  hit.addEventListener('pointerup',()=>dragging=false);hit.addEventListener('pointercancel',()=>dragging=false);
   box.onkeydown=ev=>{if(!['ArrowLeft','ArrowRight','Escape'].includes(ev.key))return;ev.preventDefault();if(ev.key==='Escape'){tip.style.opacity=0;return;}seek(raceProgress+(ev.key==='ArrowLeft'?-1:1)/Math.max(1,history.length-1));};
 }
 
