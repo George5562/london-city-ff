@@ -320,9 +320,9 @@ function renderChart() {
       const event=visibleEvents.find(e=>e.id===badge.dataset.event);if(!event)return;
       racePlaying=false;cancelAnimationFrame(raceFrame);openMatch=event.id;tip.style.opacity=0;document.getElementById('race-pause').textContent='Play';
       STACK_ORDER.forEach(id=>{const active=event.teams.includes(id),line=svg.querySelector(`#race-line-${id}`);line.setAttribute('stroke',active?TEAM_COLORS[id]:'#777780');line.setAttribute('opacity',active?'1':'.25');const head=svg.querySelector(`#race-head-${id}`);if(head)head.style.opacity=active?'1':'.2';});
-      box.querySelector('.match-report')?.remove();const panel=document.createElement('div');panel.className='match-report';panel.setAttribute('role','dialog');panel.setAttribute('aria-label',event.kind==='T'?'Trade report':'Injury report');
+      box.querySelector('.match-report')?.remove();const panel=document.createElement('div');panel.className='match-report';panel.setAttribute('role','dialog');panel.setAttribute('aria-label',event.kind==='T'?'Roster transaction':'Injury report');
       const changes=(event.changes||[]).map(c=>`<p><strong>${esc(teams[c.team]?.name||'Team')}</strong> · ${(c.before*100).toFixed(1)}% → ${(c.after*100).toFixed(1)}% <strong>(${c.after>=c.before?'+':''}${((c.after-c.before)*100).toFixed(1)} pp)</strong></p>`).join('');
-      panel.innerHTML=`<button aria-label="Close event report">×</button><h3>${event.kind==='T'?'Trade':'Injury update'}</h3><p>${esc(event.text)}</p>${changes?'<h3 style="margin-top:16px">Title odds at this update</h3>'+changes:''}`;dockReport(panel,badge);return;
+      panel.innerHTML=`<button aria-label="Close event report">×</button><h3>${event.kind==='T'?'Roster transaction':'Injury update'}</h3><p>${esc(event.text)}</p>${changes?'<h3 style="margin-top:16px">Title odds around this move</h3>'+changes:''}`;dockReport(panel,badge);return;
     }
     const match=results.find(r=>r.id===badge.dataset.result);if(!match)return;
     racePlaying=false;cancelAnimationFrame(raceFrame);openMatch=match.id;tip.style.opacity=0;

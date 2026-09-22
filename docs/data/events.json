@@ -1,1 +1,226 @@
-[]
+[
+ {
+  "id": "trade-53ef9e19-7273-4023-b9c4-34f7e94ed9ac",
+  "kind": "T",
+  "at": "2026-09-15T07:13:19.498000+00:00",
+  "teams": [
+   2
+  ],
+  "text": "Sabre Raiders claimed Deebo Samuel Sr. off waivers. Sabre Raiders dropped Tre Tucker.",
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.086,
+    "after": 0.086
+   }
+  ]
+ },
+ {
+  "id": "trade-b1cc8ebe-4189-4008-854e-0bc67e7c7f0d",
+  "kind": "T",
+  "at": "2026-09-17T08:39:15.002000+00:00",
+  "teams": [
+   9
+  ],
+  "text": "GiantPunt added Kaelon Black from free agency.",
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.256,
+    "after": 0.256
+   }
+  ]
+ },
+ {
+  "id": "trade-6a780ab1-e90b-4f0e-b70c-581a7c412ce5",
+  "kind": "T",
+  "at": "2026-09-16T20:39:37.308000+00:00",
+  "teams": [
+   1
+  ],
+  "text": "Knights who say Ni added Devaughn Vele from free agency.",
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.083,
+    "after": 0.075
+   }
+  ]
+ },
+ {
+  "id": "trade-925d3f87-4587-4f9a-94d1-522a0b89e56e",
+  "kind": "T",
+  "at": "2026-09-15T20:42:32.549000+00:00",
+  "teams": [
+   3
+  ],
+  "text": "Goats added Jalen Coker from free agency. Goats dropped Jacory Croskey-Merritt.",
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.125,
+    "after": 0.125
+   }
+  ]
+ },
+ {
+  "id": "trade-6cc0e4c0-a536-431e-bf5d-152afaaa6e2d",
+  "kind": "T",
+  "at": "2026-09-16T20:36:42.007000+00:00",
+  "teams": [
+   1
+  ],
+  "text": "Knights who say Ni dropped Juwan Johnson.",
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.083,
+    "after": 0.075
+   }
+  ]
+ },
+ {
+  "id": "trade-caff8038-86d2-4b81-9f8a-c6ee92ccec9d",
+  "kind": "T",
+  "at": "2026-09-16T20:36:27.358000+00:00",
+  "teams": [
+   1
+  ],
+  "text": "Knights who say Ni added Jacory Croskey-Merritt from free agency.",
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.083,
+    "after": 0.075
+   }
+  ]
+ },
+ {
+  "id": "trade-2d203ccd-2016-403c-b9ae-78b0391a4a63",
+  "kind": "T",
+  "at": "2026-09-16T21:28:59.759000+00:00",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors added 49ers D/ST from free agency. Wiltshire Warriors dropped Steelers D/ST.",
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.052,
+    "after": 0.052
+   }
+  ]
+ },
+ {
+  "id": "trade-4bb72e1c-c85e-4556-8b14-7fcc6c4cc474",
+  "kind": "T",
+  "at": "2026-09-16T20:31:46.677000+00:00",
+  "teams": [
+   1
+  ],
+  "text": "Knights who say Ni added Chiefs D/ST from free agency. Knights who say Ni dropped Titans D/ST.",
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.083,
+    "after": 0.075
+   }
+  ]
+ },
+ {
+  "id": "trade-a862c7f2-523b-49fe-829e-a7276129e42f",
+  "kind": "T",
+  "at": "2026-09-18T03:17:13.341000+00:00",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills added Dontayvion Wicks from free agency. Barnow Bills dropped Blake Corum.",
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.061,
+    "after": 0.061
+   }
+  ]
+ },
+ {
+  "id": "trade-6b5b5425-52f8-4e7d-b865-ec934f35fe16",
+  "kind": "T",
+  "at": "2026-09-20T16:50:26.153000+00:00",
+  "teams": [
+   13
+  ],
+  "text": "Salisbury Screamers added Blake Corum from free agency.",
+  "changes": [
+   {
+    "team": 13,
+    "before": 0.128,
+    "after": 0.128
+   }
+  ]
+ },
+ {
+  "id": "trade-5e7de1fa-bb5a-4237-82da-ac3655f15d08",
+  "kind": "T",
+  "at": "2026-09-18T07:13:40.163000+00:00",
+  "teams": [
+   3
+  ],
+  "text": "Goats added Steelers D/ST from free agency. Goats dropped Rams D/ST.",
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.129,
+    "after": 0.129
+   }
+  ]
+ },
+ {
+  "id": "trade-773ed0d9-8b7d-44f7-8d4d-2c07994db99b",
+  "kind": "T",
+  "at": "2026-09-20T16:50:46.511000+00:00",
+  "teams": [
+   13
+  ],
+  "text": "Salisbury Screamers added Juwan Johnson from free agency.",
+  "changes": [
+   {
+    "team": 13,
+    "before": 0.128,
+    "after": 0.128
+   }
+  ]
+ },
+ {
+  "id": "trade-94417bb6-fc6a-4e1d-9073-b7c76c64023a",
+  "kind": "T",
+  "at": "2026-09-16T06:58:49.982000+00:00",
+  "teams": [
+   9
+  ],
+  "text": "GiantPunt added Buccaneers D/ST from free agency. GiantPunt dropped Jaguars D/ST.",
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.257,
+    "after": 0.257
+   }
+  ]
+ },
+ {
+  "id": "trade-edea1ba0-bcac-4ddd-aac9-689aa056dcd5",
+  "kind": "T",
+  "at": "2026-09-18T07:15:06.547000+00:00",
+  "teams": [
+   3
+  ],
+  "text": "Goats added Jake Ferguson from free agency. Goats dropped Jakobi Meyers.",
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.129,
+    "after": 0.129
+   }
+  ]
+ }
+]
