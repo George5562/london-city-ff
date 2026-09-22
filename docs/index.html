@@ -95,6 +95,8 @@ footer, .method { color: var(--text-3); font-size: 13px; }
 .method p { margin: 6px 0; }
 @media (max-width: 640px) { .hide-sm { display: none; } h1 { font-size: 24px; } .card { padding: 16px 14px; } .bar i { display: none; } td, th { padding: 8px 6px; } td:first-child { white-space: normal; } .tname { gap: 8px; } }
 header[hidden]{display:none}.hero-card{margin-top:18px}.race-controls{display:flex;align-items:center;gap:12px;margin-top:14px}.race-controls button{background:#16121f;border:1px solid #8773a4;color:#fff;border-radius:7px;padding:10px 14px;cursor:pointer}.race-controls input{flex:1;min-width:50px;accent-color:#b7a0dd}.race-controls output{font-size:12px;color:var(--text-2);min-width:150px}.chart{touch-action:pan-y}.race-head{pointer-events:none}@media(max-width:560px){.race-controls{flex-wrap:wrap}.race-controls output{width:100%;text-align:right}.mast{margin-bottom:12px}}
+.result-badge{cursor:pointer;transform-box:fill-box;transform-origin:center}.result-badge.pop{animation:result-pop .45s cubic-bezier(.2,1.7,.4,1)}@keyframes result-pop{from{scale:.15;opacity:0}to{scale:1;opacity:1}}.match-report{position:absolute;z-index:20;width:310px;max-width:calc(100% - 8px);padding:18px;background:#101016;border:1px solid #8d79af;border-radius:12px;box-shadow:0 16px 50px #000b}.match-report h3{margin:0 25px 16px 0;font-size:13px;color:#bca8dc;text-transform:uppercase}.match-report button{position:absolute;right:8px;top:6px;background:none;border:0;color:#fff;font-size:24px;cursor:pointer}.match-report .report-side{display:flex;gap:9px;align-items:center;margin:12px 0}.report-side img{width:30px;height:30px;border-radius:50%}.report-side strong{margin-left:auto;font-size:22px}.match-report p{color:#b9b6c2;font-size:12px;margin-bottom:0}@media(prefers-reduced-motion:reduce){.result-badge.pop{animation:none}}
+.match-report{width:390px;box-sizing:border-box}.report-scoreboard{display:grid;grid-template-columns:1fr 1fr;gap:16px;padding:18px 0;border-block:1px dashed #4d4657}.report-score{display:flex;align-items:center;gap:9px}.report-score img{width:38px;height:38px;object-fit:contain;border-radius:50%}.report-score strong{font:800 34px/1 'Barlow Condensed',sans-serif}.report-team:last-child{text-align:right}.report-team:last-child .report-score{flex-direction:row-reverse}.report-name{font-size:12px;font-weight:700;margin-top:18px}.report-outcome{font-size:10px;font-weight:800;letter-spacing:1px}.report-outcome.won{color:#36d887}.report-outcome.lost{color:#f25c72}@media(max-width:560px){.report-score strong{font-size:28px}.report-score img{width:30px;height:30px}.report-scoreboard{gap:10px}}
 </style>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
@@ -130,7 +132,7 @@ header{position:relative;min-height:210px;margin:24px 0 30px;padding-right:290px
       <p class="sub">Every roster move. Every Sunday swing. Your league, in the balance.</p>
     </div>
     <div class="updated" id="updated"></div>
-    <img class="hero-ned" src="art/ned-motif.png" alt="Ned, the league commissioner, in a cowboy hat holding out a football">
+    <img class="hero-ned" src="art/ned-motif.png" alt="The league commissioner in a cowboy hat holding out a football">
   </header>
 
   <section class="card hero-card">
@@ -141,9 +143,9 @@ header{position:relative;min-height:210px;margin:24px 0 30px;padding-right:290px
       </div>
       <div class="chart-toolbar"><div class="seg range" role="group" aria-label="Time range"><button data-range="all" aria-pressed="true">Season</button><button data-range="7" aria-pressed="false">7D</button><button data-range="2" aria-pressed="false">48H</button></div></div>
     </div>
-    <div class="legend" id="legend"></div>
     <div class="chart" id="chart" tabindex="0" role="group" aria-label="Odds timeline. Use left and right arrow keys to explore hourly predictions."><svg id="svg" role="img" aria-label="Team prediction percentages over time"></svg><div class="tip" id="tip"></div></div>
     <div class="race-controls"><button id="replay" type="button">↻ Replay</button><button id="race-pause" type="button">Pause</button><input id="race-time" type="range" min="0" max="1000" value="0" aria-label="Race timeline"><output id="race-date"></output></div>
+    <div class="legend" id="legend" style="margin-top:20px"></div>
     <div class="chart-foot"><span class="period-key">Shaded columns · NFL game windows</span><span>Tap a badge to focus · Hover a dot for the story</span></div>
   </section>
   <div class="ticker" id="ticker"></div>
@@ -160,10 +162,10 @@ header{position:relative;min-height:210px;margin:24px 0 30px;padding-right:290px
 
   <section class="card method">
     <h2 style="color:var(--text)">How the odds work</h2>
-    <p>Lines use a centred three-point moving average (two points at the ends). Live percentages interpolate between the original calculations, not the smoothed line. Playoff odds and projected wins are in the table below.</p>
+    <p>Lines use a centred three-point moving average of distinct forecast changes, ignoring repeated held values (two points at the ends). Live percentages interpolate between the original calculations, not the smoothed line. Result markers use the first recorded final update; older results use the historical week-close point.</p>
     <p>Earlier history is reconstructed, not recorded live. Some historical movement reflects forecast uncertainty rather than a football event. Story dots appear only where there is concrete football information. Seeding uses wins, then points for.</p>
   </section>
-  <aside class="commissioner"><img class="portrait" src="art/commissioner-ned.jpg" alt="Illustrated portrait of Ned holding a football"><div><small>THE COMMISSIONER'S CORNER</small><h2>Ned's league. Everyone's game.</h2><p>Welcome to Friday Night Lights. Pull up a chair, pick your team, and let the Sunday arguments begin.</p></div></aside>
+  <aside class="commissioner"><img class="portrait" src="art/commissioner-ned.jpg" alt="Illustrated league commissioner holding a football"><div><small>THE COMMISSIONER'S CORNER</small><h2>Your league. Everyone's game.</h2><p>Welcome to Friday Night Lights. Pull up a chair, pick your team, and let the Sunday arguments begin.</p></div></aside>
   <footer><span class="footer-brand"><img src="art/ned-motif.png" alt="">FRIDAY NIGHT LIGHTS · LONDON CITY</span><span>Friendly rivalry. Unofficial ESPN fan project.</span></footer>
 </div>
 
@@ -179,6 +181,7 @@ const METRICS = {
 let latest, history, teams, metric = "champ", selected = [];
 let range = 'all', allHistory = [];
 let raceProgress=0, raceFrame=0, racePlaying=true, raceLast=0;
+let matchResults=[],openMatch=null;
 const reducedMotion=matchMedia('(prefers-reduced-motion: reduce)').matches;
 if(reducedMotion){raceProgress=1;racePlaying=false;}
 const GAME_WINDOWS = [
@@ -210,8 +213,12 @@ function eventFor(sn,id){const event=sn.explanations?.[id]?.[metric] || (metric=
 function significant(sn,i,id){const prev=history[i-1]?.teams[id],cur=sn.teams[id];return !!eventFor(sn,id)&&!!prev&&!!cur&&Math.abs(cur[metric]-prev[metric]) >= .005-1e-9;}
 
 async function load() {
-  const [l, h] = await Promise.all([fetch("data/latest.json").then(r => r.json()), fetch("data/history.json").then(r => r.json())]);
-  latest = l; history = h.snapshots.sort((a,b)=>Date.parse(a.at || a.date+'T12:00Z')-Date.parse(b.at || b.date+'T12:00Z')); allHistory = history;
+  const [l, h, results] = await Promise.all([fetch("data/latest.json").then(r => r.json()), fetch("data/history.json").then(r => r.json()),fetch('data/results.json').then(r=>r.ok?r.json():[])]);
+  matchResults=results;
+  latest = l;
+  const uniqueTimes=new Map();
+  h.snapshots.forEach(sn=>{const time=Date.parse(sn.at||sn.date+'T12:00Z'),prior=uniqueTimes.get(time);if(!prior||!sn.backfilled)uniqueTimes.set(time,sn);});
+  history=[...uniqueTimes.values()].sort((a,b)=>Date.parse(a.at||a.date+'T12:00Z')-Date.parse(b.at||b.date+'T12:00Z'));allHistory=history;
   teams = Object.fromEntries(latest.teams.map(t => [t.id, t]));
   selected = latest.teams.map(t=>t.id);
   await Promise.all(latest.teams.map(sampleLogo));
@@ -244,7 +251,7 @@ function renderChart() {
   document.getElementById('tip').style.opacity=0;
   document.getElementById("chart-title").textContent = METRICS[metric].title;
   const svg = document.getElementById("svg"), box = document.getElementById("chart");
-  const W = Math.max(280, box.clientWidth), small = W < 560, H = small ? 350 : 460;
+  const W = Math.max(280, box.clientWidth), small = W < 560, H = small ? 525 : 460;
   const m = { t: 30, r: 78, b: 35, l: 40 };
   const iw = W - m.l - m.r, ih = H - m.t - m.b;
   svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
@@ -254,10 +261,13 @@ function renderChart() {
   const ymax=Math.max(.1,Math.ceil(Math.max(...history.flatMap(sn=>Object.values(sn.teams).map(t=>t.champ)))*10)/10);
   const y = v => m.t + ih * (1-v/ymax);
   // Smooth across the full season so changing the visible range doesn't change values.
-  const smoothed = Object.fromEntries(STACK_ORDER.map(id=>[id,history.map(sn=>{
-    const i=allHistory.indexOf(sn),window=allHistory.slice(Math.max(0,i-1),i+2);
-    return window.reduce((sum,p)=>sum+(p.teams[id]?.champ||0),0)/window.length;
-  })]));
+  const curves=Object.fromEntries(STACK_ORDER.map(id=>{
+    const distinct=allHistory.filter((sn,i)=>!i||sn.teams[id]?.champ!==allHistory[i-1].teams[id]?.champ);
+    const points=distinct.map((sn,i)=>{const window=distinct.slice(Math.max(0,i-1),i+2);return {t:Date.parse(sn.at||sn.date+'T12:00Z'),v:window.reduce((sum,p)=>sum+(p.teams[id]?.champ||0),0)/window.length};});
+    return [id,points];
+  }));
+  const smoothAt=(id,time)=>{const pts=curves[id];let r=pts.findIndex(p=>p.t>=time);if(r<0)return pts.at(-1).v;if(r===0)return pts[0].v;const a=pts[r-1],b=pts[r],f=(time-a.t)/(b.t-a.t);return a.v+(b.v-a.v)*f*f*(3-2*f);};
+  const smoothed=Object.fromEntries(STACK_ORDER.map(id=>[id,dates.map(d=>smoothAt(id,+d))]));
   const ticks = [0,.25,.5,.75,1].map(v=>v*ymax);
   const grid = css("--grid"), t3 = css("--text-3"), muted = css("--muted-line"), surf = css("--surface");
   let s = `<defs><clipPath id="race-reveal"><rect id="race-clip" x="${m.l}" y="0" width="0" height="${H}"/></clipPath><clipPath id="round-logo"><circle r="12"/></clipPath></defs>`;
@@ -270,8 +280,8 @@ function renderChart() {
   for (let i = 0; i <= nT; i++) { const d = new Date(t0 + ((t1 - t0) * i) / nT); s += `<text x="${x(d)}" y="${H - 8}" text-anchor="middle" font-size="11" fill="${t3}">${fmtD(d)}</text>`; }
   STACK_ORDER.forEach(id => {
     // Horizontal endpoint tangents keep every curve inside its two real values.
-    const pts=history.map((sn,i)=>[x(dates[i]),y(smoothed[id][i])]);
-    const path=pts.reduce((d,p,i)=>{if(!i)return `M${p[0]},${p[1]}`;const a=pts[i-1],mid=(a[0]+p[0])/2;return d+` C${mid},${a[1]} ${mid},${p[1]} ${p[0]},${p[1]}`;},'');
+    const pts=Array.from({length:Math.ceil(iw)+1},(_,i)=>{const time=t0+(t1-t0)*i/Math.ceil(iw);return [x(time),y(smoothAt(id,time))];});
+    const path=pts.map((p,i)=>`${i?'L':'M'}${p[0]},${p[1]}`).join(' ');
     s+=`<path id="race-line-${id}" d="${path}" clip-path="url(#race-reveal)" fill="none" stroke="${TEAM_COLORS[id]||'#aaa'}" opacity="${selected.includes(id)?1:.14}" stroke-width="${selected.includes(id)?2.6:1.2}" stroke-linecap="round"/>`;
   });
   GAME_WINDOWS.forEach(([start,end,label])=>{const a=Math.max(t0,Date.parse(start)),b=Math.min(t1,Date.parse(end));if(b>a){s+=`<rect x="${x(a)}" y="${m.t}" width="${x(b)-x(a)}" height="${ih}" fill="#050507" opacity=".19"/><line x1="${x(a)}" x2="${x(a)}" y1="${m.t}" y2="${m.t+ih}" stroke="#fff" opacity=".22"/>`;if(x(b)-x(a)>35)s+=`<text x="${(x(a)+x(b))/2}" y="18" text-anchor="middle" font-size="9" fill="#9faad0">${label}</text>`;}});
@@ -279,7 +289,37 @@ function renderChart() {
   s += `<line id="xh" y1="${m.t}" y2="${m.t + ih}" stroke="${t3}" stroke-dasharray="3 4"/>`;
   selected.forEach(id=>{s+=`<g class="race-head" id="race-head-${id}"><circle r="14" fill="#08080b" stroke="${TEAM_COLORS[id]}" stroke-width="2"/><image href="${logoOf(id)}" x="-12" y="-12" width="24" height="24" clip-path="url(#round-logo)"/><text id="race-value-${id}" x="20" y="4" fill="${TEAM_COLORS[id]}" font-size="12" font-weight="700" stroke="#08080b" stroke-width="4" paint-order="stroke" style="font-variant-numeric:tabular-nums"></text><title>${esc(teams[id].name)}</title></g>`;});
   s += `<rect id="hit" x="${m.l}" y="${m.t}" width="${iw}" height="${ih}" fill="transparent"/>`;
+  const results=matchResults.filter(r=>Date.parse(r.at)>=t0&&Date.parse(r.at)<=t1);
+  const columns=Object.groupBy(results,r=>r.at);
+  Object.entries(columns).forEach(([at,matches])=>{
+    const time=Date.parse(at),cx=x(time);
+    s+=`<line class="result-column" data-time="${time}" x1="${cx}" x2="${cx}" y1="${m.t}" y2="${m.t+ih}" stroke="#b5a5cf" stroke-dasharray="2 6" opacity=".4"/>`;
+    const badges=matches.flatMap(match=>[match.home,match.away].map(id=>({match,id,cy:y(smoothAt(id,time))}))).sort((a,b)=>a.cy-b.cy);
+    badges.forEach((b,i)=>b.cy=Math.max(b.cy,i?badges[i-1].cy+23:m.t+11));
+    for(let i=badges.length-1;i>=0;i--)badges[i].cy=Math.min(badges[i].cy,i<badges.length-1?badges[i+1].cy-23:m.t+ih-11);
+    badges.forEach(({match,id,cy})=>{const win=match.winner===(id===match.home?'HOME':'AWAY'),letter=match.winner==='TIE'?'T':win?'W':'L',color=letter==='T'?'#a99cbf':win?'#36d887':'#f25c72';
+      s+=`<g class="result-badge" data-result="${match.id}" data-team="${id}" data-time="${time}" data-x="${cx}" data-y="${cy}" role="button" tabindex="0" aria-label="${esc(teams[id].name)} ${letter}, Week ${match.week} match report"><circle cx="${cx}" cy="${cy}" r="10" fill="#09090d" stroke="${color}" stroke-width="2"/><text x="${cx}" y="${cy+4}" text-anchor="middle" font-size="10" font-weight="800" fill="${color}">${letter}</text></g>`;
+    });
+  });
   svg.innerHTML = s;
+  box.querySelector('.match-report')?.remove();
+  const closeReport=()=>{openMatch=null;selected=[...STACK_ORDER];render();};
+  const showReport=(badge)=>{
+    const match=results.find(r=>r.id===badge.dataset.result);if(!match)return;
+    racePlaying=false;cancelAnimationFrame(raceFrame);openMatch=match.id;tip.style.opacity=0;
+    document.getElementById('race-pause').textContent='Play';
+    STACK_ORDER.forEach(id=>{const active=[match.home,match.away].includes(id),line=svg.querySelector(`#race-line-${id}`);line.setAttribute('stroke',active?TEAM_COLORS[id]:'#777780');line.setAttribute('opacity',active?'1':'.25');const head=svg.querySelector(`#race-head-${id}`);if(head)head.style.opacity=active?'1':'.2';});
+    box.querySelector('.match-report')?.remove();const panel=document.createElement('div');panel.className='match-report';panel.setAttribute('role','dialog');panel.setAttribute('aria-label',`Week ${match.week} match report`);
+    const side=(id,score)=>{const outcome=match.winner==='TIE'?'T':match.winner===(id===match.home?'HOME':'AWAY')?'W':'L';return `<div class="report-team"><div class="report-score"><img src="${logoOf(id)}" alt=""><strong>${Number(score.toFixed(2))}</strong></div><div class="report-name">${esc(teams[id].name)}</div><span class="report-outcome ${outcome==='W'?'won':'lost'}">${outcome==='W'?'WIN':outcome==='L'?'LOSS':'TIE'}</span></div>`;};
+    const winner=match.winner==='TIE'?null:teams[match.winner==='HOME'?match.home:match.away];
+    panel.innerHTML=`<button aria-label="Close match report">×</button><h3>Week ${match.week} · Final</h3><div class="report-scoreboard">${side(match.home,match.homePts)}${side(match.away,match.awayPts)}</div><p>${winner?esc(winner.name)+' won by '+Number(Math.abs(match.homePts-match.awayPts).toFixed(2))+' points.':'The matchup ended in a tie.'}</p><p>${match.historical?'Historical week-close checkpoint':'First recorded final update'} · ${new Date(match.at).toLocaleString()}</p>`;
+    box.append(panel);const scale=svg.getBoundingClientRect().width/W;
+    panel.style.left=Math.max(4,Math.min(Number(badge.dataset.x)*scale+16,box.clientWidth-panel.offsetWidth-4))+'px';
+    panel.style.top=Math.max(4,Number(badge.dataset.y)*scale-panel.offsetHeight-16)+'px';
+    panel.querySelector('button').onclick=closeReport;panel.onkeydown=e=>{if(e.key==='Escape')closeReport();};panel.querySelector('button').focus({preventScroll:true});
+  };
+  svg.querySelectorAll('.result-badge').forEach(b=>{b.onclick=e=>{e.stopPropagation();showReport(b);};b.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();showReport(b);}};});
+  document.onpointerdown=e=>{if(openMatch&&!e.target.closest('.match-report,.result-badge'))closeReport();};
 
   const tip = document.getElementById("tip"), xh = svg.querySelector("#xh");
   const paint=()=>{
@@ -287,14 +327,14 @@ function renderChart() {
     svg.querySelector('#race-clip').setAttribute('width',iw*raceProgress);
     xh.setAttribute('x1',cx);xh.setAttribute('x2',cx);
     const time=t0+(t1-t0)*raceProgress;
+    svg.querySelectorAll('.result-badge,.result-column').forEach(el=>{const visible=Number(el.dataset.time)<=time;el.style.visibility=visible?'visible':'hidden';el.style.pointerEvents=visible?'auto':'none';if(visible&&el.dataset.revealed!=='yes')el.classList.add('pop');if(!visible)el.classList.remove('pop');el.dataset.revealed=visible?'yes':'no';});
     let right=dates.findIndex(d=>+d>=time);if(right<0)right=dates.length-1;
     const left=Math.max(0,right-1),span=+dates[right]-dates[left];
     const fraction=span?Math.max(0,Math.min(1,(time-dates[left])/span)):1;
     let lo=0,hi=1;for(let n=0;n<18;n++){const u=(lo+hi)/2;if(1.5*u-1.5*u*u+u*u*u<fraction)lo=u;else hi=u;}
     const u=(lo+hi)/2,ease=3*u*u-2*u*u*u;
     selected.forEach(id=>{
-      const a=smoothed[id][left],b=smoothed[id][right];
-      svg.querySelector(`#race-head-${id}`).setAttribute('transform',`translate(${cx},${y(a+(b-a)*ease)})`);
+      svg.querySelector(`#race-head-${id}`).setAttribute('transform',`translate(${cx},${y(smoothAt(id,time))})`);
       const rawA=history[left].teams[id]?.champ||0,rawB=history[right].teams[id]?.champ||0;
       svg.querySelector(`#race-value-${id}`).textContent=((rawA+(rawB-rawA)*fraction)*100).toFixed(1)+'%';
     });
@@ -311,6 +351,7 @@ function renderChart() {
   document.getElementById('race-pause').onclick=()=>{racePlaying=!racePlaying;if(racePlaying&&raceProgress===1)raceProgress=0;raceLast=0;cancelAnimationFrame(raceFrame);paint();if(racePlaying)raceFrame=requestAnimationFrame(frame);};
   paint();if(racePlaying)raceFrame=requestAnimationFrame(frame);
   const move = ev => {
+    if(openMatch)return;
     const r = svg.getBoundingClientRect(), px = ((ev.touches ? ev.touches[0].clientX : ev.clientX) - r.left) * (W / r.width);
     let bi = 0; dates.forEach((d, i) => { if (Math.abs(x(d) - px) < Math.abs(x(dates[bi]) - px)) bi = i; });
     const sn = history[bi], cx = x(dates[bi]);
@@ -333,7 +374,7 @@ function renderChart() {
   hit.addEventListener("mouseleave", () => { tip.style.opacity = 0; });
   let dragging=false;
   const scrub=e=>{const r=svg.getBoundingClientRect();seek(((e.clientX-r.left)*W/r.width-m.l)/iw);};
-  hit.addEventListener('pointerdown',e=>{dragging=true;hit.setPointerCapture(e.pointerId);scrub(e);});
+  hit.addEventListener('pointerdown',e=>{if(openMatch)return;dragging=true;hit.setPointerCapture(e.pointerId);scrub(e);});
   hit.addEventListener('pointermove',e=>{if(dragging)scrub(e);});
   hit.addEventListener('pointerup',()=>dragging=false);hit.addEventListener('pointercancel',()=>dragging=false);
   box.onkeydown=ev=>{if(!['ArrowLeft','ArrowRight','Escape'].includes(ev.key))return;ev.preventDefault();if(ev.key==='Escape'){tip.style.opacity=0;return;}seek(raceProgress+(ev.key==='ArrowLeft'?-1:1)/Math.max(1,history.length-1));};

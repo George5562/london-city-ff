@@ -473,6 +473,8 @@ def main():
         return backfill()
     raw_league = fetch_live()
     league = mini(raw_league)
+    from results import save_results
+    save_results(league['sched'], dt.datetime.now(dt.timezone.utc).isoformat(timespec='minutes'))
     week = league["week"]
     now = dt.datetime.now(dt.timezone.utc).replace(minute=0, second=0, microsecond=0)
     today = now.date().isoformat()
