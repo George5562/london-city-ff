@@ -1,5 +1,6 @@
 """Persist observed injuries and executed trades, never inferred news."""
 import json
+import time
 from prediction_events import EXPLAINER_MODEL, EXPLAINER_REASONING, _chat, diff_states
 
 POSITIONS = {1: 'QB', 2: 'RB', 3: 'WR', 4: 'TE', 5: 'K', 16: 'D/ST'}
@@ -25,7 +26,9 @@ def event_copy(moves):
         # 24-word display sentence.  The visible result remains capped below.
         raw = _chat(EVENT_COPY_MODEL, messages, 180, reasoning)
         if raw and len(raw.split()) <= 28:
+            time.sleep(.35)
             return raw.replace('\n', ' ')
+        time.sleep(.4)
     return fallback
 
 

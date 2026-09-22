@@ -10,6 +10,11 @@ on:
         required: false
         default: false
         type: boolean
+      tooltip_only:
+        description: Run only the retained transaction-caption worker
+        required: false
+        default: false
+        type: boolean
 
 permissions:
   contents: write
@@ -34,9 +39,13 @@ jobs:
           OPENROUTER_MODEL_EVENT_COPY: openai/gpt-5.6-luna
           OPENROUTER_REASONING_EFFORT: low
         run: |
-          python scripts/update.py
-          if [ "${{ inputs.rebuild_tooltips }}" = "true" ]; then
+          if [ "${{ inputs.tooltip_only }}" = "true" ]; then
             python scripts/timeline_events.py
+          else
+            python scripts/update.py
+            if [ "${{ inputs.rebuild_tooltips }}" = "true" ]; then
+              python scripts/timeline_events.py
+            fi
           fi
       - name: Commit snapshot
         run: |
