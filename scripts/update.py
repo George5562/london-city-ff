@@ -485,6 +485,8 @@ def main():
     state = state_from_league(raw_league, week)
     changes = explain_prediction_moves(previous_result, result, previous_state, state)
     at = now.isoformat().replace("+00:00", "Z")
+    from timeline_events import collect, save_events
+    save_events(SITE_DATA / 'events.json', collect(previous_state, state, previous_result, result, at))
     record(history, today, f"Week {week} · {now:%H}:00 UTC", result, at=at, changes=changes)
     history = audit(history, state, load_json(SEED_DIR / "2026-09-21.json"))
     save(history, result)
