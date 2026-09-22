@@ -1,6 +1,23 @@
 """Persist observed injuries and executed trades, never inferred news."""
 import json
-from prediction_events import diff_states
+from prediction_events import EXPLAINER_MODEL, EXPLAINER_REASONING, _chat, diff_states
+
+POSITIONS = {1: 'QB', 2: 'RB', 3: 'WR', 4: 'TE', 5: 'K', 16: 'D/ST'}
+EVENT_COPY_MODEL = __import__('os').environ.get('OPENROUTER_MODEL_EVENT_COPY', EXPLAINER_MODEL)
+
+
+def event_copy(moves):
+    """A tiny model turns only retained transaction facts into spectator copy."""
+    fallback = '; '.join(
+        (f"Claimed {m['player']} off waivers" if m['action'] == 'claim' else
+         f"Added {m['player']}" if m['action'] == 'add' else
+         f"Dropped {m['player']}" if m['action'] == 'drop' else
+         f"Traded for {m['player']}") for m in moves) + '.'
+    raw = _chat(EVENT_COPY_MODEL, [
+        {'role': 'system', 'content': 'Write one concise fantasy-football transaction tooltip, 24 words maximum. Use only the supplied facts. Do not name a fantasy team, speculate about impact, or mention models.'},
+        {'role': 'user', 'content': json.dumps({'moves': moves, 'fallback': fallback})},
+    ], 70, EXPLAINER_REASONING)
+    return raw.replace('\n', ' ') if raw and len(raw.split()) <= 28 else fallback
 
 
 def collect(before, after, old_result, result, at):
@@ -9,14 +26,14 @@ def collect(before, after, old_result, result, at):
     old = {t['id']: t for t in (old_result or {}).get('teams', [])}
     current = {t['id']: t for t in result['teams']}
     events = []
-    def add(key, kind, ids, text):
+    def add(key, kind, ids, text, moves=None):
         ids = sorted(i for i in set(ids) if i in current)
         if not ids:
             return
         changes = [{'team': i, 'before': old[i]['champ'], 'after': current[i]['champ']}
                    for i in ids if i in old]
         events.append({'id': key, 'kind': kind, 'at': at, 'teams': ids,
-                       'text': text, 'changes': changes})
+                       'text': text, 'moves': moves or [], 'changes': changes})
     for event in diff_states(before, after):
         if event['kind'] == 'injury':
             team = event.get('team')
@@ -30,23 +47,26 @@ def collect(before, after, old_result, result, at):
         # Declined/proposed trades are not roster changes.
         if tx.get('type') not in ('TRADE', 'WAIVER', 'FREEAGENT', 'ROSTER') or tx.get('status') != 'EXECUTED' or prior.get('status') == 'EXECUTED':
             continue
-        ids, facts = [], []
+        ids, moves = [], []
         for item in tx.get('items', []):
             source, target = item.get('fromTeamId'), item.get('toTeamId')
-            name = after.get('players', {}).get(str(item.get('playerId')), {}).get('name', 'a player')
+            player = after.get('players', {}).get(str(item.get('playerId')), {})
+            name = player.get('name', 'a player')
+            move = {'player': name, 'position': POSITIONS.get(player.get('position'), 'FLEX')}
             action = item.get('type')
             if action == 'ADD' and target in current:
                 ids.append(target)
                 verb = 'claimed' if tx.get('type') == 'WAIVER' else 'added'
                 suffix = ' off waivers' if tx.get('type') == 'WAIVER' else ' from free agency'
-                facts.append(f"{current[target]['name']} {verb} {name}{suffix}.")
+                moves.append({**move, 'action': 'claim' if tx.get('type') == 'WAIVER' else 'add'})
             elif action == 'DROP' and source in current:
                 ids.append(source)
-                facts.append(f"{current[source]['name']} dropped {name}.")
+                moves.append({**move, 'action': 'drop'})
             elif tx.get('type') == 'TRADE' and source in current and target in current and source != target:
                 ids.extend([source, target])
-                facts.append(f"{current[target]['name']} acquired {name} from {current[source]['name']}.")
-        add(f'trade-{key}', 'T', ids, ' '.join(facts))
+                moves.append({**move, 'action': 'trade'})
+        if moves:
+            add(f'trade-{key}', 'T', ids, event_copy(moves), moves)
     return events
 
 

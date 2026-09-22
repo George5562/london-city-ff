@@ -4,6 +4,12 @@ on:
   schedule:
     - cron: "0 * * * *"    # hourly: captures roster, player-news, projection and live-score movements
   workflow_dispatch:
+    inputs:
+      rebuild_tooltips:
+        description: Rewrite retained transaction captions with the event-copy worker
+        required: false
+        default: false
+        type: boolean
 
 permissions:
   contents: write
@@ -25,8 +31,13 @@ jobs:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           OPENROUTER_MODEL_CLASSIFIER: typesafe/jev-1.13
           OPENROUTER_MODEL_EXPLAINER: openai/gpt-5.6-luna
+          OPENROUTER_MODEL_EVENT_COPY: openai/gpt-5.6-luna
           OPENROUTER_REASONING_EFFORT: low
-        run: python scripts/update.py
+        run: |
+          python scripts/update.py
+          if [ "${{ inputs.rebuild_tooltips }}" = "true" ]; then
+            python scripts/timeline_events.py
+          fi
       - name: Commit snapshot
         run: |
           git config user.name "odds-bot"

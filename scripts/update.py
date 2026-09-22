@@ -22,6 +22,7 @@ N_SIMS = 20000
 WEEKLY_SD = 26.0        # game-to-game noise in a team's weekly score
 TALENT_SD = 7.0         # per-simulation uncertainty in a team's true strength
 PRIOR_GAMES = 8         # how many games of projection the actual scoring average is weighed against
+DEPTH_WEIGHT = 0.12     # modest replacement-value prior for the best three non-starters
 BENCH, IR = 20, 21
 # lineup: QB, RB x2, WR x2, RB/WR flex, TE, D/ST, K
 POS = {1: "QB", 2: "RB", 3: "WR", 4: "TE", 5: "K", 16: "D/ST"}
@@ -110,6 +111,25 @@ def best_lineup(players):
     return sum(x[2] for x in picked), picked
 
 
+def roster_depth(players, lineup):
+    """Small resilience prior for useful replacements behind the optimal lineup.
+
+    ESPN's historical activity does not preserve the starting slot selected at
+    the instant of a waiver.  Valuing only the nine starters would therefore
+    make a genuine add/drop invisible whenever it did not immediately displace
+    a starter.  The best three eligible reserves carry a deliberately modest
+    share of their projection into team strength.
+    """
+    starters = {name for name, _pos, _points in lineup}
+    reserves = [per_game(p) for p in players
+                if p[0] not in starters and POS.get(p[1]) in ("QB", "RB", "WR", "TE", "K", "D/ST")]
+    reserves.sort(reverse=True)
+    # The leading reserves matter most, but retaining a light tail means a
+    # real roster removal still changes the resilience prior even when it is
+    # not one of the first three names off the bench.
+    return DEPTH_WEIGHT * sum(reserves[:3]) + 0.04 * sum(reserves[3:])
+
+
 def live_week(team, week):
     """Points banked this week by starters, plus projection for starters yet to play."""
     banked = remaining = 0.0
@@ -149,6 +169,7 @@ def simulate(league, week, week_started, seed, n_sims=N_SIMS):
     proj, lineups, mu = {}, {}, {}
     for i, t in teams.items():
         proj[i], lineups[i] = best_lineup(t["players"])
+        proj[i] += roster_depth(t["players"], lineups[i])
     # Season projections run low vs what this league actually scores; rescale them to the
     # league's scoring level (ESPN's weekly projections, then real results as they come in).
     mean_proj = sum(proj.values()) / len(proj)
@@ -429,7 +450,6 @@ def backfill():
                 player[4]["1"][0] = None
 
     cursor = POST_DRAFT_AT
-    cached_result = None
     while cursor <= now:
         phase_changed = False
         if cursor >= WEEK_ONE_CLOSE_AT and phase_week == 1:
@@ -439,15 +459,32 @@ def backfill():
             phase_changed = True
         hourly_events = by_hour.get(cursor, [])
         for event in hourly_events:
+            transaction_at = dt.datetime.fromtimestamp(event['at'] / 1000, dt.timezone.utc)
+            # Pair a common-random-number simulation immediately before and
+            # after each completed move.  This measures the roster effect at
+            # the transaction timestamp rather than comparing two arbitrary
+            # hourly samples with unrelated Monte Carlo noise.
+            before_move = simulate(league, phase_week, phase_started,
+                                   phase_week * 10_000, n_sims=N_SIMS)
+            record(history, transaction_at.date().isoformat(), 'Pre-move calculation',
+                   before_move, backfilled=True,
+                   at=(transaction_at - dt.timedelta(microseconds=1)).isoformat().replace('+00:00', 'Z'))
             _apply_transaction(league, event, players, phase_week)
+            # Every completed roster move receives a full post-move Monte Carlo
+            # calculation at its precise ESPN timestamp.
+            transaction_result = simulate(league, phase_week, phase_started,
+                                          phase_week * 10_000, n_sims=N_SIMS)
+            record(history, transaction_at.date().isoformat(), 'Reconstructed roster move',
+                   transaction_result, backfilled=True,
+                   at=transaction_at.isoformat().replace('+00:00', 'Z'))
         score_changes = []
         for score_week, clubs in games_by_hour.get(cursor, []):
             if score_week == phase_week:
                 score_changes.extend(_apply_final_scores(league, score_week, clubs, players, current_scores))
-        # The state is constant between retained activity timestamps, so reuse the
-        # exact result rather than needlessly re-running 20,000 simulations/hour.
-        if cached_result is None or phase_changed or hourly_events or score_changes:
-            cached_result = simulate(league, phase_week, phase_started, int(cursor.strftime("%Y%m%d%H")), n_sims=1000)
+        # Every point is a fresh calculation. A common random seed controls
+        # Monte Carlo variance, so equal inputs yield equal estimates while a
+        # waiver, injury or score update has a directly comparable effect.
+        current_result = simulate(league, phase_week, phase_started, phase_week * 10_000, n_sims=1000)
         changes = {}
         for event in hourly_events:
             text = _transaction_text(event, players, teams)
@@ -457,7 +494,7 @@ def backfill():
             changes[str(team_id)] = {"cause": "score_update",
                                      "text": f"Historical final score: {name} recorded {score:.1f} fantasy points."}
         label = "Post-draft reconstruction" if cursor == POST_DRAFT_AT else f"Reconstructed · {cursor:%d %b %H}:00 UTC"
-        record(history, cursor.date().isoformat(), label, cached_result, backfilled=True,
+        record(history, cursor.date().isoformat(), label, current_result, backfilled=True,
                at=cursor.isoformat().replace("+00:00", "Z"), changes=changes)
         cursor += dt.timedelta(hours=1)
 

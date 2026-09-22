@@ -35,8 +35,8 @@ class TimelineTests(unittest.TestCase):
         events = collect(self.state, after, self.old, self.new, 'now')
         self.assertEqual(len(events), 1)
         self.assertEqual(events[0]['teams'], [1])
-        self.assertIn('off waivers', events[0]['text'])
-        self.assertIn('dropped', events[0]['text'])
+        self.assertIn('off waivers', events[0]['text'].lower())
+        self.assertIn('dropped', events[0]['text'].lower())
         after['transactions']['w']['status'] = 'PENDING'
         self.assertEqual(collect(self.state, after, self.old, self.new, 'now'), [])
         after['transactions']['w'] = {'type': 'ROSTER', 'status': 'EXECUTED',

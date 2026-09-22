@@ -6,12 +6,24 @@
   "teams": [
    2
   ],
-  "text": "Sabre Raiders claimed Deebo Samuel Sr. off waivers. Sabre Raiders dropped Tre Tucker.",
+  "text": "Claimed Deebo Samuel Sr. off waivers; Dropped Tre Tucker.",
+  "moves": [
+   {
+    "player": "Deebo Samuel Sr.",
+    "position": "WR",
+    "action": "claim"
+   },
+   {
+    "player": "Tre Tucker",
+    "position": "WR",
+    "action": "drop"
+   }
+  ],
   "changes": [
    {
     "team": 2,
-    "before": 0.086,
-    "after": 0.086
+    "before": 0.0805,
+    "after": 0.0954
    }
   ]
  },
@@ -22,12 +34,19 @@
   "teams": [
    9
   ],
-  "text": "GiantPunt added Kaelon Black from free agency.",
+  "text": "Added Kaelon Black.",
+  "moves": [
+   {
+    "player": "Kaelon Black",
+    "position": "RB",
+    "action": "add"
+   }
+  ],
   "changes": [
    {
     "team": 9,
-    "before": 0.256,
-    "after": 0.256
+    "before": 0.2655,
+    "after": 0.2657
    }
   ]
  },
@@ -38,12 +57,19 @@
   "teams": [
    1
   ],
-  "text": "Knights who say Ni added Devaughn Vele from free agency.",
+  "text": "Added Devaughn Vele.",
+  "moves": [
+   {
+    "player": "Devaughn Vele",
+    "position": "WR",
+    "action": "add"
+   }
+  ],
   "changes": [
    {
     "team": 1,
-    "before": 0.083,
-    "after": 0.075
+    "before": 0.0845,
+    "after": 0.0842
    }
   ]
  },
@@ -54,12 +80,24 @@
   "teams": [
    3
   ],
-  "text": "Goats added Jalen Coker from free agency. Goats dropped Jacory Croskey-Merritt.",
+  "text": "Added Jalen Coker; Dropped Jacory Croskey-Merritt.",
+  "moves": [
+   {
+    "player": "Jalen Coker",
+    "position": "WR",
+    "action": "add"
+   },
+   {
+    "player": "Jacory Croskey-Merritt",
+    "position": "RB",
+    "action": "drop"
+   }
+  ],
   "changes": [
    {
     "team": 3,
-    "before": 0.125,
-    "after": 0.125
+    "before": 0.1201,
+    "after": 0.1247
    }
   ]
  },
@@ -70,12 +108,19 @@
   "teams": [
    1
   ],
-  "text": "Knights who say Ni dropped Juwan Johnson.",
+  "text": "Dropped Juwan Johnson.",
+  "moves": [
+   {
+    "player": "Juwan Johnson",
+    "position": "TE",
+    "action": "drop"
+   }
+  ],
   "changes": [
    {
     "team": 1,
-    "before": 0.083,
-    "after": 0.075
+    "before": 0.0845,
+    "after": 0.0845
    }
   ]
  },
@@ -86,12 +131,19 @@
   "teams": [
    1
   ],
-  "text": "Knights who say Ni added Jacory Croskey-Merritt from free agency.",
+  "text": "Added Jacory Croskey-Merritt.",
+  "moves": [
+   {
+    "player": "Jacory Croskey-Merritt",
+    "position": "RB",
+    "action": "add"
+   }
+  ],
   "changes": [
    {
     "team": 1,
-    "before": 0.083,
-    "after": 0.075
+    "before": 0.0844,
+    "after": 0.0845
    }
   ]
  },
@@ -102,12 +154,24 @@
   "teams": [
    4
   ],
-  "text": "Wiltshire Warriors added 49ers D/ST from free agency. Wiltshire Warriors dropped Steelers D/ST.",
+  "text": "Added 49ers D/ST; Dropped Steelers D/ST.",
+  "moves": [
+   {
+    "player": "49ers D/ST",
+    "position": "D/ST",
+    "action": "add"
+   },
+   {
+    "player": "Steelers D/ST",
+    "position": "D/ST",
+    "action": "drop"
+   }
+  ],
   "changes": [
    {
     "team": 4,
-    "before": 0.052,
-    "after": 0.052
+    "before": 0.057,
+    "after": 0.0556
    }
   ]
  },
@@ -118,12 +182,24 @@
   "teams": [
    1
   ],
-  "text": "Knights who say Ni added Chiefs D/ST from free agency. Knights who say Ni dropped Titans D/ST.",
+  "text": "Added Chiefs D/ST; Dropped Titans D/ST.",
+  "moves": [
+   {
+    "player": "Chiefs D/ST",
+    "position": "D/ST",
+    "action": "add"
+   },
+   {
+    "player": "Titans D/ST",
+    "position": "D/ST",
+    "action": "drop"
+   }
+  ],
   "changes": [
    {
     "team": 1,
-    "before": 0.083,
-    "after": 0.075
+    "before": 0.0813,
+    "after": 0.0844
    }
   ]
  },
@@ -134,12 +210,24 @@
   "teams": [
    11
   ],
-  "text": "Barnow Bills added Dontayvion Wicks from free agency. Barnow Bills dropped Blake Corum.",
+  "text": "Added Dontayvion Wicks; Dropped Blake Corum.",
+  "moves": [
+   {
+    "player": "Dontayvion Wicks",
+    "position": "WR",
+    "action": "add"
+   },
+   {
+    "player": "Blake Corum",
+    "position": "RB",
+    "action": "drop"
+   }
+  ],
   "changes": [
    {
     "team": 11,
-    "before": 0.061,
-    "after": 0.061
+    "before": 0.0577,
+    "after": 0.0579
    }
   ]
  },
@@ -150,12 +238,19 @@
   "teams": [
    13
   ],
-  "text": "Salisbury Screamers added Blake Corum from free agency.",
+  "text": "Added Blake Corum.",
+  "moves": [
+   {
+    "player": "Blake Corum",
+    "position": "RB",
+    "action": "add"
+   }
+  ],
   "changes": [
    {
     "team": 13,
-    "before": 0.128,
-    "after": 0.128
+    "before": 0.1242,
+    "after": 0.1244
    }
   ]
  },
@@ -166,12 +261,24 @@
   "teams": [
    3
   ],
-  "text": "Goats added Steelers D/ST from free agency. Goats dropped Rams D/ST.",
+  "text": "Added Steelers D/ST; Dropped Rams D/ST.",
+  "moves": [
+   {
+    "player": "Steelers D/ST",
+    "position": "D/ST",
+    "action": "add"
+   },
+   {
+    "player": "Rams D/ST",
+    "position": "D/ST",
+    "action": "drop"
+   }
+  ],
   "changes": [
    {
     "team": 3,
-    "before": 0.129,
-    "after": 0.129
+    "before": 0.1304,
+    "after": 0.1311
    }
   ]
  },
@@ -182,12 +289,19 @@
   "teams": [
    13
   ],
-  "text": "Salisbury Screamers added Juwan Johnson from free agency.",
+  "text": "Added Juwan Johnson.",
+  "moves": [
+   {
+    "player": "Juwan Johnson",
+    "position": "TE",
+    "action": "add"
+   }
+  ],
   "changes": [
    {
     "team": 13,
-    "before": 0.128,
-    "after": 0.128
+    "before": 0.1244,
+    "after": 0.1248
    }
   ]
  },
@@ -198,12 +312,24 @@
   "teams": [
    9
   ],
-  "text": "GiantPunt added Buccaneers D/ST from free agency. GiantPunt dropped Jaguars D/ST.",
+  "text": "Added Buccaneers D/ST; Dropped Jaguars D/ST.",
+  "moves": [
+   {
+    "player": "Buccaneers D/ST",
+    "position": "D/ST",
+    "action": "add"
+   },
+   {
+    "player": "Jaguars D/ST",
+    "position": "D/ST",
+    "action": "drop"
+   }
+  ],
   "changes": [
    {
     "team": 9,
-    "before": 0.257,
-    "after": 0.257
+    "before": 0.2648,
+    "after": 0.2642
    }
   ]
  },
@@ -214,12 +340,24 @@
   "teams": [
    3
   ],
-  "text": "Goats added Jake Ferguson from free agency. Goats dropped Jakobi Meyers.",
+  "text": "Added Jake Ferguson; Dropped Jakobi Meyers.",
+  "moves": [
+   {
+    "player": "Jake Ferguson",
+    "position": "TE",
+    "action": "add"
+   },
+   {
+    "player": "Jakobi Meyers",
+    "position": "WR",
+    "action": "drop"
+   }
+  ],
   "changes": [
    {
     "team": 3,
-    "before": 0.129,
-    "after": 0.129
+    "before": 0.1311,
+    "after": 0.1317
    }
   ]
  }
