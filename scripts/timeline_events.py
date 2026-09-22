@@ -21,7 +21,9 @@ def event_copy(moves):
     # content. Retry once without a reasoning budget before retaining factual
     # fallback copy; this one-off rebuild is deliberately bounded per event.
     for reasoning in (EXPLAINER_REASONING, None):
-        raw = _chat(EVENT_COPY_MODEL, messages, 70, reasoning)
+        # Leave enough room for Luna's low-reasoning trace *and* the requested
+        # 24-word display sentence.  The visible result remains capped below.
+        raw = _chat(EVENT_COPY_MODEL, messages, 180, reasoning)
         if raw and len(raw.split()) <= 28:
             return raw.replace('\n', ' ')
     return fallback
