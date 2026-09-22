@@ -13,11 +13,18 @@ def event_copy(moves):
          f"Added {m['player']}" if m['action'] == 'add' else
          f"Dropped {m['player']}" if m['action'] == 'drop' else
          f"Traded for {m['player']}") for m in moves) + '.'
-    raw = _chat(EVENT_COPY_MODEL, [
+    messages = [
         {'role': 'system', 'content': 'Write one concise fantasy-football transaction tooltip, 24 words maximum. Use only the supplied facts. Do not name a fantasy team, speculate about impact, or mention models.'},
         {'role': 'user', 'content': json.dumps({'moves': moves, 'fallback': fallback})},
-    ], 70, EXPLAINER_REASONING)
-    return raw.replace('\n', ' ') if raw and len(raw.split()) <= 28 else fallback
+    ]
+    # Luna can occasionally return a reasoning-only response with no display
+    # content. Retry once without a reasoning budget before retaining factual
+    # fallback copy; this one-off rebuild is deliberately bounded per event.
+    for reasoning in (EXPLAINER_REASONING, None):
+        raw = _chat(EVENT_COPY_MODEL, messages, 70, reasoning)
+        if raw and len(raw.split()) <= 28:
+            return raw.replace('\n', ' ')
+    return fallback
 
 
 def collect(before, after, old_result, result, at):
