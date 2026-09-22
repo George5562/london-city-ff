@@ -157,8 +157,12 @@ def _chat(model, messages, max_tokens, reasoning_effort=None):
                  "X-Title": "London City Fantasy Football"})
     try:
         with urllib.request.urlopen(request, timeout=20) as response:
-            return json.load(response)["choices"][0]["message"]["content"].strip()
-    except (urllib.error.URLError, urllib.error.HTTPError, KeyError, IndexError, json.JSONDecodeError):
+            content = json.load(response)["choices"][0]["message"].get("content")
+            # Some reasoning responses legitimately contain no display text.
+            # Treat that as an unavailable completion and use the factual
+            # template; never let one empty caption abort the hourly update.
+            return content.strip() if isinstance(content, str) else None
+    except (urllib.error.URLError, urllib.error.HTTPError, KeyError, IndexError, TypeError, json.JSONDecodeError):
         return None
 
 
