@@ -46,6 +46,7 @@ def fetch_live():
                      "or make the league viewable to the public.")
         raise
     league["players"] = fetch_player_pool(s2, swid)
+    league["byeWeeks"] = fetch_nfl_bye_weeks()
     return league
 
 
@@ -68,6 +69,36 @@ def fetch_player_pool(s2, swid):
         return json.load(response).get("players") or []
 
 
+def fetch_nfl_bye_weeks():
+    """Derive NFL byes from ESPN's season scoreboard, keyed by scoring week.
+
+    The fantasy API exposes each player's NFL `proTeamId`; the public NFL
+    scoreboard provides the clubs playing in each week.  Any known club absent
+    from a populated week is on bye.  A failed or incomplete schedule fetch is
+    harmless: projections retain their usual full-roster baseline until ESPN
+    supplies the schedule.
+    """
+    url = ("https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard"
+           f"?dates={SEASON}&limit=1000")
+    try:
+        request = urllib.request.Request(url, headers={"Accept-Encoding": "identity", "User-Agent": "curl/8.0"})
+        with urllib.request.urlopen(request, timeout=20) as response:
+            board = json.load(response)
+    except (urllib.error.URLError, urllib.error.HTTPError, json.JSONDecodeError):
+        return {}
+    playing, clubs = {}, set()
+    for event in board.get("events") or []:
+        week = (event.get("week") or {}).get("number")
+        competitors = event.get("competitions", [{}])[0].get("competitors") or []
+        team_ids = {int(c["team"]["id"]) for c in competitors if c.get("team", {}).get("id")}
+        if not week or len(team_ids) != 2:
+            continue
+        clubs.update(team_ids)
+        playing.setdefault(int(week), set()).update(team_ids)
+    return {str(week): sorted(clubs - team_ids) for week, team_ids in playing.items()
+            if len(team_ids) >= 28}
+
+
 def mini(j):
     """Shrink a raw ESPN league response to the compact shape the model uses (same as the seed files)."""
     def player(e):
@@ -80,25 +111,43 @@ def mini(j):
             if s["statSplitTypeId"] == 1:
                 wk.setdefault(str(s["scoringPeriodId"]), [None, None])[s["statSourceId"]] = round(s["appliedTotal"], 1)
         inj = p.get("injuryStatus")
-        return [p["fullName"], p["defaultPositionId"], e["lineupSlotId"], season, wk, 0 if inj == "ACTIVE" else inj]
+        return [p["fullName"], p["defaultPositionId"], e["lineupSlotId"], season, wk,
+                0 if inj == "ACTIVE" else inj, p.get("proTeamId")]
 
     sched = [[m["matchupPeriodId"], m.get("home", {}).get("teamId"), m.get("away", {}).get("teamId"),
               m.get("home", {}).get("totalPoints"), m.get("away", {}).get("totalPoints"),
               m.get("winner"), m.get("playoffTierType")] for m in j.get("schedule", [])]
     teams = [{"id": t["id"], "name": t["name"], "abbrev": t["abbrev"], "logo": t.get("logo"),
               "players": [player(e) for e in t.get("roster", {}).get("entries", [])]} for t in j["teams"]]
-    return {"week": j["scoringPeriodId"], "sched": sched, "teams": teams}
+    return {"week": j["scoringPeriodId"], "sched": sched, "teams": teams,
+            "byeWeeks": j.get("byeWeeks") or {}}
 
 
 # ---------------------------------------------------------------- model
 def per_game(p):
-    name, pos, slot, season, wk, inj = p
-    return (season or 0) / 17.0 * AVAIL.get(inj or "", 1.0)
+    projected = (p[3] or 0) / 17.0
+    # Season projection remains the stabilising prior, while recorded player
+    # scores progressively pull the weekly baseline toward what has happened
+    # on the field.  Three prior-games' weight avoids declaring a breakout or
+    # a bad single game to be the player's new permanent level.
+    actuals = [values[0] for values in (p[4] or {}).values()
+               if values and values[0] is not None]
+    if actuals:
+        observed = sum(actuals) / len(actuals)
+        weight = min(len(actuals), 3)
+        projected = (3 * projected + weight * observed) / (3 + weight)
+    return projected * AVAIL.get(p[5] or "", 1.0)
 
 
-def best_lineup(players):
+def pro_team(p):
+    """Compact seed files predate NFL-team IDs; keep them backward compatible."""
+    return p[6] if len(p) > 6 else None
+
+
+def best_lineup(players, bye_teams=()):
     """Greedy optimal lineup by per-game projection. Returns (total, [(name, pos, pts)])."""
-    pool = sorted(((per_game(p), p) for p in players), key=lambda x: -x[0])
+    byes = set(bye_teams)
+    pool = sorted(((per_game(p), p) for p in players if pro_team(p) not in byes), key=lambda x: -x[0])
     need = {"QB": 1, "RB": 2, "WR": 2, "TE": 1, "K": 1, "D/ST": 1}
     picked, used = [], set()
     for v, p in pool:
@@ -133,7 +182,7 @@ def roster_depth(players, lineup):
 def live_week(team, week):
     """Points banked this week by starters, plus projection for starters yet to play."""
     banked = remaining = 0.0
-    for name, pos, slot, season, wk, inj in team["players"]:
+    for name, pos, slot, season, wk, inj, *_ in team["players"]:
         if slot in (BENCH, IR):
             continue
         act, proj = (wk.get(str(week)) or [None, None])
@@ -144,13 +193,14 @@ def live_week(team, week):
     return banked, remaining
 
 
-def weekly_level(league, week):
+def weekly_level(league, week, bye_teams=()):
     """Average ESPN weekly projection for each team's best lineup this week."""
     totals = []
     for t in league["teams"]:
-        ps = [[p[0], p[1], p[2], ((p[4].get(str(week)) or [None, None])[1] or 0) * 17, p[4], p[5]]
+        ps = [[p[0], p[1], p[2], ((p[4].get(str(week)) or [None, None])[1] or 0) * 17,
+               p[4], p[5], pro_team(p)]
               for p in t["players"]]
-        totals.append(best_lineup(ps)[0])
+        totals.append(best_lineup(ps, bye_teams)[0])
     return sum(totals) / len(totals) if any(totals) else 120.0
 
 
@@ -166,14 +216,15 @@ def simulate(league, week, week_started, seed, n_sims=N_SIMS):
         wins[h] += 1 if win == "HOME" else 0.5 if win == "TIE" else 0
         wins[a] += 1 if win == "AWAY" else 0.5 if win == "TIE" else 0
 
+    bye_weeks = {int(w): set(clubs) for w, clubs in (league.get("byeWeeks") or {}).items()}
     proj, lineups, mu = {}, {}, {}
     for i, t in teams.items():
-        proj[i], lineups[i] = best_lineup(t["players"])
+        proj[i], lineups[i] = best_lineup(t["players"], bye_weeks.get(week, ()))
         proj[i] += roster_depth(t["players"], lineups[i])
     # Season projections run low vs what this league actually scores; rescale them to the
     # league's scoring level (ESPN's weekly projections, then real results as they come in).
     mean_proj = sum(proj.values()) / len(proj)
-    level = weekly_level(league, week)
+    level = weekly_level(league, week, bye_weeks.get(week, ()))
     n_games = sum(games.values())
     target = (PRIOR_GAMES * len(teams) * level + sum(pf.values())) / (PRIOR_GAMES * len(teams) + n_games)
     scale = target / mean_proj
@@ -181,6 +232,18 @@ def simulate(league, week, week_started, seed, n_sims=N_SIMS):
         proj[i] *= scale
         lineups[i] = [(n, p, v * scale) for n, p, v in lineups[i]]
         mu[i] = (PRIOR_GAMES * proj[i] + pf[i]) / (PRIOR_GAMES + games[i])
+
+    # Project each remaining fantasy week with the roster that would actually
+    # be available then.  A player whose NFL club is on bye is excluded before
+    # the positional and flex slots are filled, so the bench supplies the
+    # replacement where possible.  The current, availability-adjusted roster
+    # remains the strength baseline; individual weeks add only the lineup delta.
+    weekly_proj = {}
+    for future_week in {m[0] for m in sched if m[0] >= week}:
+        weekly_proj[future_week] = {}
+        for i, team in teams.items():
+            projected, _lineup = best_lineup(team["players"], bye_weeks.get(future_week, ()))
+            weekly_proj[future_week][i] = projected * scale
 
     live = {}
     if week_started:
@@ -199,7 +262,11 @@ def simulate(league, week, week_started, seed, n_sims=N_SIMS):
             banked, rem = live[i]
             frac = rem / max(proj[i], 1)
             return banked + rem * (talent[i] / max(mu[i], 1)) + rng.gauss(0, WEEKLY_SD * math.sqrt(min(frac, 1)))
-        return rng.gauss(talent[i], WEEKLY_SD)
+        # Apply the forecast-week's bye/replacement adjustment around the
+        # sampled team strength.  We do not invent future injuries; ESPN's
+        # current injury status is already reflected in per_game().
+        matchup_mean = talent[i] + weekly_proj.get(w, {}).get(i, proj[i]) - proj[i]
+        return rng.gauss(matchup_mean, WEEKLY_SD)
 
     for _ in range(n_sims):
         talent = {i: mu[i] + rng.gauss(0, TALENT_SD) for i in ids}
@@ -337,7 +404,7 @@ def _compact_player(state_player, week):
     injury = state_player.get("injury") or "ACTIVE"
     return [state_player.get("name", f"Player {state_player['id']}"), state_player.get("position"), BENCH,
             stats.get("season"), {str(week): [None, stats.get("projection")]},
-            0 if injury == "ACTIVE" else injury]
+            0 if injury == "ACTIVE" else injury, state_player.get("pro")]
 
 
 def _transaction_text(event, players, teams):
