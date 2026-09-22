@@ -17,6 +17,7 @@ ROOT = Path(__file__).resolve().parent.parent
 SITE_DATA = ROOT / "docs" / "data"
 SEED_DIR = ROOT / "data" / "seed"
 STATE_FILE = ROOT / "data" / "state" / "league-state.json"
+OBSERVATION_FILE = ROOT / "data" / "observations" / "espn-input-deltas.jsonl"
 
 N_SIMS = 20000
 WEEKLY_SD = 26.0        # game-to-game noise in a team's weekly score
@@ -349,6 +350,26 @@ def load_json(path):
     return json.loads(path.read_text()) if path.exists() else None
 
 
+def append_observation(previous, current, at):
+    """Persist model inputs without committing a complete ESPN payload each run.
+
+    The first line is a compact baseline.  Later lines contain only inputs that
+    changed: player scoring/projections, injuries, roster movement, completed
+    transactions and the NFL bye map.  Together they are sufficient to
+    reconstruct the model state while remaining suitable for GitHub storage.
+    """
+    from prediction_events import diff_states
+    OBSERVATION_FILE.parent.mkdir(parents=True, exist_ok=True)
+    if not OBSERVATION_FILE.exists():
+        observation = {"schema": 1, "at": at, "kind": "baseline", "state": current}
+    else:
+        observation = {"schema": 1, "at": at, "kind": "delta", "week": current["week"],
+                       "changes": diff_states(previous or {}, current),
+                       "byeWeeks": current.get("byeWeeks") or {}}
+    with OBSERVATION_FILE.open("a") as archive:
+        archive.write(json.dumps(observation, separators=(",", ":")) + "\n")
+
+
 def week_started(league, week):
     """True once any rostered player has an actual score for this week."""
     return any((p[4].get(str(week)) or [None])[0] is not None
@@ -580,7 +601,8 @@ def main():
     from results import save_results
     save_results(league['sched'], dt.datetime.now(dt.timezone.utc).isoformat(timespec='minutes'))
     week = league["week"]
-    now = dt.datetime.now(dt.timezone.utc).replace(minute=0, second=0, microsecond=0)
+    now = dt.datetime.now(dt.timezone.utc).replace(
+        minute=(dt.datetime.now(dt.timezone.utc).minute // 30) * 30, second=0, microsecond=0)
     today = now.date().isoformat()
     result = simulate(league, week, week_started(league, week), int(today.replace("-", "")))
     history = load_history()
@@ -591,11 +613,12 @@ def main():
     at = now.isoformat().replace("+00:00", "Z")
     from timeline_events import collect, save_events
     save_events(SITE_DATA / 'events.json', collect(previous_state, state, previous_result, result, at))
-    record(history, today, f"Week {week} · {now:%H}:00 UTC", result, at=at, changes=changes)
+    record(history, today, f"Week {week} · {now:%H:%M} UTC", result, at=at, changes=changes)
     history = audit(history, state, load_json(SEED_DIR / "2026-09-21.json"))
     save(history, result)
     STATE_FILE.parent.mkdir(parents=True, exist_ok=True)
     STATE_FILE.write_text(json.dumps(state, separators=(",", ":")))
+    append_observation(previous_state, state, at)
     print(f"{today}: week {week}; top odds:",
           ", ".join(f"{t['name']} {t['champ']:.0%}" for t in result["teams"][:3]))
 

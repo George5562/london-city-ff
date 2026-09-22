@@ -74,7 +74,8 @@ def state_from_league(league, week):
             "items": [{k: item.get(k) for k in ("playerId", "fromTeamId", "toTeamId", "type")}
                       for item in transaction.get("items") or []],
         }
-    return {"week": week, "players": players, "transactions": transactions}
+    return {"week": week, "players": players, "transactions": transactions,
+            "byeWeeks": league.get("byeWeeks") or {}}
 
 
 def _changed(a, b):
