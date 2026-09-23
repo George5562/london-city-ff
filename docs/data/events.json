@@ -524,5 +524,22 @@
     "after": 0.0014
    }
   ]
+ },
+ {
+  "id": "injury-4678008-2026-09-23T15:00:00Z",
+  "kind": "I",
+  "at": "2026-09-23T15:00:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: Jonathon Brooks is now listed as injury reserve.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0231,
+    "after": 0.0227
+   }
+  ]
  }
 ]

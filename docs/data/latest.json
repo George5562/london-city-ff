@@ -15,8 +15,8 @@
    "projWins": 11.47,
    "playoff": 0.9704,
    "final": 0.6209,
-   "champ": 0.3671,
-   "topSeed": 0.505,
+   "champ": 0.3674,
+   "topSeed": 0.5054,
    "lineup": [
     {
      "name": "Amon-Ra St. Brown",
@@ -76,9 +76,9 @@
    "projPerGame": 135.9,
    "strength": 136.6,
    "projWins": 10.65,
-   "playoff": 0.9042,
-   "final": 0.4846,
-   "champ": 0.2409,
+   "playoff": 0.9038,
+   "final": 0.4848,
+   "champ": 0.2414,
    "topSeed": 0.247,
    "lineup": [
     {
@@ -94,7 +94,7 @@
     {
      "name": "Trey McBride",
      "pos": "TE",
-     "pts": 16.1
+     "pts": 16.0
     },
     {
      "name": "Jaylen Waddle",
@@ -138,11 +138,11 @@
    "pf": 261.66,
    "projPerGame": 136.9,
    "strength": 135.7,
-   "projWins": 10.37,
-   "playoff": 0.8711,
-   "final": 0.4462,
-   "champ": 0.2175,
-   "topSeed": 0.1892,
+   "projWins": 10.36,
+   "playoff": 0.8695,
+   "final": 0.445,
+   "champ": 0.2165,
+   "topSeed": 0.1885,
    "lineup": [
     {
      "name": "Jahmyr Gibbs",
@@ -202,10 +202,10 @@
    "projPerGame": 126.5,
    "strength": 128.7,
    "projWins": 8.56,
-   "playoff": 0.6041,
-   "final": 0.249,
-   "champ": 0.1046,
-   "topSeed": 0.0414,
+   "playoff": 0.6036,
+   "final": 0.2489,
+   "champ": 0.1043,
+   "topSeed": 0.0415,
    "lineup": [
     {
      "name": "Jaxon Smith-Njigba",
@@ -262,13 +262,13 @@
    "wins": 0,
    "losses": 2,
    "pf": 240.78,
-   "projPerGame": 120.3,
-   "strength": 120.3,
-   "projWins": 6.5,
-   "playoff": 0.1673,
-   "final": 0.0585,
-   "champ": 0.0231,
-   "topSeed": 0.0034,
+   "projPerGame": 120.2,
+   "strength": 120.2,
+   "projWins": 6.49,
+   "playoff": 0.1648,
+   "final": 0.0578,
+   "champ": 0.0227,
+   "topSeed": 0.0032,
    "lineup": [
     {
      "name": "Josh Allen",
@@ -328,10 +328,10 @@
    "projPerGame": 124.7,
    "strength": 119.7,
    "projWins": 6.03,
-   "playoff": 0.1192,
+   "playoff": 0.1196,
    "final": 0.0446,
    "champ": 0.0173,
-   "topSeed": 0.0031,
+   "topSeed": 0.0032,
    "lineup": [
     {
      "name": "Ja'Marr Chase",
@@ -356,7 +356,7 @@
     {
      "name": "Christian Watson",
      "pos": "WR",
-     "pts": 13.0
+     "pts": 13.1
     },
     {
      "name": "Saquon Barkley",
@@ -388,13 +388,13 @@
    "wins": 2,
    "losses": 0,
    "pf": 209.04,
-   "projPerGame": 112.6,
-   "strength": 111.0,
-   "projWins": 7.02,
-   "playoff": 0.19,
-   "final": 0.0481,
-   "champ": 0.0141,
-   "topSeed": 0.006,
+   "projPerGame": 112.9,
+   "strength": 111.2,
+   "projWins": 7.04,
+   "playoff": 0.1941,
+   "final": 0.0496,
+   "champ": 0.0149,
+   "topSeed": 0.0063,
    "lineup": [
     {
      "name": "Derrick Henry",
@@ -404,7 +404,7 @@
     {
      "name": "Joe Burrow",
      "pos": "QB",
-     "pts": 16.8
+     "pts": 16.7
     },
     {
      "name": "Bijan Robinson",
@@ -439,7 +439,7 @@
     {
      "name": "Chuba Hubbard",
      "pos": "FLEX",
-     "pts": 13.1
+     "pts": 13.4
     }
    ]
   },
@@ -451,13 +451,13 @@
    "wins": 1,
    "losses": 1,
    "pf": 197.44,
-   "projPerGame": 117.7,
+   "projPerGame": 117.6,
    "strength": 113.9,
-   "projWins": 6.61,
-   "playoff": 0.1476,
-   "final": 0.0425,
-   "champ": 0.0138,
-   "topSeed": 0.0047,
+   "projWins": 6.63,
+   "playoff": 0.1479,
+   "final": 0.0426,
+   "champ": 0.014,
+   "topSeed": 0.0046,
    "lineup": [
     {
      "name": "Brock Purdy",
@@ -514,10 +514,10 @@
    "wins": 0,
    "losses": 2,
    "pf": 188.94,
-   "projPerGame": 110.7,
-   "strength": 107.5,
+   "projPerGame": 110.6,
+   "strength": 107.4,
    "projWins": 4.61,
-   "playoff": 0.0231,
+   "playoff": 0.0232,
    "final": 0.0052,
    "champ": 0.0014,
    "topSeed": 0.0003,
@@ -579,8 +579,8 @@
    "pf": 186.28,
    "projPerGame": 96.1,
    "strength": 95.5,
-   "projWins": 3.18,
-   "playoff": 0.0031,
+   "projWins": 3.17,
+   "playoff": 0.0032,
    "final": 0.0006,
    "champ": 0.0001,
    "topSeed": 0.0,
@@ -637,12 +637,12 @@
   {
    "home": 11,
    "away": 2,
-   "homeWin": 0.4204
+   "homeWin": 0.4207
   },
   {
    "home": 1,
    "away": 3,
-   "homeWin": 0.2885
+   "homeWin": 0.2888
   },
   {
    "home": 9,
@@ -652,13 +652,13 @@
   {
    "home": 4,
    "away": 6,
-   "homeWin": 0.3096
+   "homeWin": 0.3097
   },
   {
    "home": 13,
    "away": 5,
-   "homeWin": 0.5273
+   "homeWin": 0.5294
   }
  ],
- "generated": "2026-09-23T10:14+00:00"
+ "generated": "2026-09-23T15:09+00:00"
 }
