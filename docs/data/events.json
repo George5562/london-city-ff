@@ -541,5 +541,264 @@
     "after": 0.0227
    }
   ]
+ },
+ {
+  "id": "injury-4426348-2026-09-23T19:00:00Z",
+  "kind": "I",
+  "at": "2026-09-23T19:00:00Z",
+  "teams": [
+   1
+  ],
+  "text": "Knights who say Ni: Jayden Daniels is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.014,
+    "after": 0.0094
+   }
+  ]
+ },
+ {
+  "id": "injury-4569987-2026-09-23T19:00:00Z",
+  "kind": "I",
+  "at": "2026-09-23T19:00:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Cardigan's Boys: Jaylen Warren is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0001,
+    "after": 0.0001
+   }
+  ]
+ },
+ {
+  "id": "injury-3916148-2026-09-23T19:00:00Z",
+  "kind": "I",
+  "at": "2026-09-23T19:00:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Goats: Tony Pollard is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.2165,
+    "after": 0.1743
+   }
+  ]
+ },
+ {
+  "id": "injury-3042519-2026-09-23T19:00:00Z",
+  "kind": "I",
+  "at": "2026-09-23T19:00:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Goats: Aaron Jones Sr. is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.2165,
+    "after": 0.1743
+   }
+  ]
+ },
+ {
+  "id": "injury-4360078-2026-09-23T19:00:00Z",
+  "kind": "I",
+  "at": "2026-09-23T19:00:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: Alec Pierce is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0227,
+    "after": 0.0143
+   }
+  ]
+ },
+ {
+  "id": "injury-4689114-2026-09-23T19:00:00Z",
+  "kind": "I",
+  "at": "2026-09-23T19:00:00Z",
+  "teams": [
+   9
+  ],
+  "text": "GiantPunt: Jaxson Dart is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.3674,
+    "after": 0.4032
+   }
+  ]
+ },
+ {
+  "id": "injury-4428557-2026-09-23T19:00:00Z",
+  "kind": "I",
+  "at": "2026-09-23T19:00:00Z",
+  "teams": [
+   1
+  ],
+  "text": "Knights who say Ni: Tyjae Spears is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.014,
+    "after": 0.0094
+   }
+  ]
+ },
+ {
+  "id": "trade-45f1e733-2356-44f1-8b33-31a8e8d8dce3",
+  "kind": "T",
+  "at": "2026-09-23T19:00:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Added TE Kenyon Sadiq; dropped TE Michael Mayer.",
+  "moves": [
+   {
+    "player": "Kenyon Sadiq",
+    "position": "TE",
+    "action": "add"
+   },
+   {
+    "player": "Michael Mayer",
+    "position": "TE",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.1043,
+    "after": 0.1792
+   }
+  ]
+ },
+ {
+  "id": "trade-24f4ada9-3994-456c-a6ff-d4c40eff337f",
+  "kind": "T",
+  "at": "2026-09-23T19:00:00Z",
+  "teams": [
+   9
+  ],
+  "text": "Added Panthers D/ST; dropped Buccaneers D/ST.",
+  "moves": [
+   {
+    "player": "Panthers D/ST",
+    "position": "D/ST",
+    "action": "add"
+   },
+   {
+    "player": "Buccaneers D/ST",
+    "position": "D/ST",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.3674,
+    "after": 0.4032
+   }
+  ]
+ },
+ {
+  "id": "trade-f5b841e9-e48a-4569-82b7-1255ccaaf6f1",
+  "kind": "T",
+  "at": "2026-09-23T19:00:00Z",
+  "teams": [
+   9
+  ],
+  "text": "Added Kyler Murray (QB); dropped Wan'Dale Robinson (WR).",
+  "moves": [
+   {
+    "player": "Kyler Murray",
+    "position": "QB",
+    "action": "add"
+   },
+   {
+    "player": "Wan'Dale Robinson",
+    "position": "WR",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.3674,
+    "after": 0.4032
+   }
+  ]
+ },
+ {
+  "id": "trade-0765a894-fbf8-4cb7-9523-d2b6c4670e59",
+  "kind": "T",
+  "at": "2026-09-23T19:00:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Added Bengals D/ST; dropped Lions D/ST.",
+  "moves": [
+   {
+    "player": "Bengals D/ST",
+    "position": "D/ST",
+    "action": "add"
+   },
+   {
+    "player": "Lions D/ST",
+    "position": "D/ST",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.1043,
+    "after": 0.1792
+   }
+  ]
+ },
+ {
+  "id": "trade-51d6b41f-ea5d-4575-8b87-5cb3853209f2",
+  "kind": "T",
+  "at": "2026-09-23T19:00:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Added Bryce Young; dropped Josh Downs.",
+  "moves": [
+   {
+    "player": "Bryce Young",
+    "position": "QB",
+    "action": "add"
+   },
+   {
+    "player": "Josh Downs",
+    "position": "WR",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.1043,
+    "after": 0.1792
+   }
+  ]
  }
 ]
