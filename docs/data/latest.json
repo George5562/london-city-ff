@@ -12,11 +12,11 @@
    "pf": 353.7,
    "projPerGame": 134.9,
    "strength": 143.3,
-   "projWins": 11.49,
-   "playoff": 0.9709,
-   "final": 0.617,
-   "champ": 0.3649,
-   "topSeed": 0.5063,
+   "projWins": 11.47,
+   "playoff": 0.9704,
+   "final": 0.6209,
+   "champ": 0.3671,
+   "topSeed": 0.505,
    "lineup": [
     {
      "name": "Amon-Ra St. Brown",
@@ -76,10 +76,10 @@
    "projPerGame": 135.9,
    "strength": 136.6,
    "projWins": 10.65,
-   "playoff": 0.9061,
-   "final": 0.4824,
-   "champ": 0.2396,
-   "topSeed": 0.2472,
+   "playoff": 0.9042,
+   "final": 0.4846,
+   "champ": 0.2409,
+   "topSeed": 0.247,
    "lineup": [
     {
      "name": "Jonathan Taylor",
@@ -94,7 +94,7 @@
     {
      "name": "Trey McBride",
      "pos": "TE",
-     "pts": 16.0
+     "pts": 16.1
     },
     {
      "name": "Jaylen Waddle",
@@ -139,10 +139,10 @@
    "projPerGame": 136.9,
    "strength": 135.7,
    "projWins": 10.37,
-   "playoff": 0.8655,
-   "final": 0.4515,
-   "champ": 0.2196,
-   "topSeed": 0.1865,
+   "playoff": 0.8711,
+   "final": 0.4462,
+   "champ": 0.2175,
+   "topSeed": 0.1892,
    "lineup": [
     {
      "name": "Jahmyr Gibbs",
@@ -202,10 +202,10 @@
    "projPerGame": 126.5,
    "strength": 128.7,
    "projWins": 8.56,
-   "playoff": 0.6053,
-   "final": 0.2502,
-   "champ": 0.1081,
-   "topSeed": 0.0454,
+   "playoff": 0.6041,
+   "final": 0.249,
+   "champ": 0.1046,
+   "topSeed": 0.0414,
    "lineup": [
     {
      "name": "Jaxon Smith-Njigba",
@@ -264,11 +264,11 @@
    "pf": 240.78,
    "projPerGame": 120.3,
    "strength": 120.3,
-   "projWins": 6.51,
-   "playoff": 0.1709,
-   "final": 0.0587,
-   "champ": 0.0212,
-   "topSeed": 0.0024,
+   "projWins": 6.5,
+   "playoff": 0.1673,
+   "final": 0.0585,
+   "champ": 0.0231,
+   "topSeed": 0.0034,
    "lineup": [
     {
      "name": "Josh Allen",
@@ -327,11 +327,11 @@
    "pf": 199.84,
    "projPerGame": 124.7,
    "strength": 119.7,
-   "projWins": 6.04,
-   "playoff": 0.1245,
-   "final": 0.0421,
-   "champ": 0.017,
-   "topSeed": 0.0027,
+   "projWins": 6.03,
+   "playoff": 0.1192,
+   "final": 0.0446,
+   "champ": 0.0173,
+   "topSeed": 0.0031,
    "lineup": [
     {
      "name": "Ja'Marr Chase",
@@ -390,11 +390,11 @@
    "pf": 209.04,
    "projPerGame": 112.6,
    "strength": 111.0,
-   "projWins": 7.01,
-   "playoff": 0.1881,
-   "final": 0.0486,
-   "champ": 0.0147,
-   "topSeed": 0.0054,
+   "projWins": 7.02,
+   "playoff": 0.19,
+   "final": 0.0481,
+   "champ": 0.0141,
+   "topSeed": 0.006,
    "lineup": [
     {
      "name": "Derrick Henry",
@@ -453,11 +453,11 @@
    "pf": 197.44,
    "projPerGame": 117.7,
    "strength": 113.9,
-   "projWins": 6.57,
-   "playoff": 0.1427,
-   "final": 0.0432,
-   "champ": 0.0132,
-   "topSeed": 0.0039,
+   "projWins": 6.61,
+   "playoff": 0.1476,
+   "final": 0.0425,
+   "champ": 0.0138,
+   "topSeed": 0.0047,
    "lineup": [
     {
      "name": "Brock Purdy",
@@ -517,10 +517,10 @@
    "projPerGame": 110.7,
    "strength": 107.5,
    "projWins": 4.61,
-   "playoff": 0.0229,
-   "final": 0.0057,
-   "champ": 0.0015,
-   "topSeed": 0.0001,
+   "playoff": 0.0231,
+   "final": 0.0052,
+   "champ": 0.0014,
+   "topSeed": 0.0003,
    "lineup": [
     {
      "name": "Christian McCaffrey",
@@ -579,10 +579,10 @@
    "pf": 186.28,
    "projPerGame": 96.1,
    "strength": 95.5,
-   "projWins": 3.2,
-   "playoff": 0.0032,
-   "final": 0.0004,
-   "champ": 0.0002,
+   "projWins": 3.18,
+   "playoff": 0.0031,
+   "final": 0.0006,
+   "champ": 0.0001,
    "topSeed": 0.0,
    "lineup": [
     {
@@ -637,28 +637,28 @@
   {
    "home": 11,
    "away": 2,
-   "homeWin": 0.4227
+   "homeWin": 0.4204
   },
   {
    "home": 1,
    "away": 3,
-   "homeWin": 0.2828
+   "homeWin": 0.2885
   },
   {
    "home": 9,
    "away": 12,
-   "homeWin": 0.8973
+   "homeWin": 0.8952
   },
   {
    "home": 4,
    "away": 6,
-   "homeWin": 0.3093
+   "homeWin": 0.3096
   },
   {
    "home": 13,
    "away": 5,
-   "homeWin": 0.5209
+   "homeWin": 0.5273
   }
  ],
- "generated": "2026-09-22T21:36+00:00"
+ "generated": "2026-09-23T00:14+00:00"
 }

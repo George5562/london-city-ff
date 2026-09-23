@@ -507,5 +507,22 @@
     "after": 0.0132
    }
   ]
+ },
+ {
+  "id": "injury-4362249-2026-09-23T00:00:00Z",
+  "kind": "I",
+  "at": "2026-09-23T00:00:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Love hurts: Jayden Reed is now listed as doubtful.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0015,
+    "after": 0.0014
+   }
+  ]
  }
 ]
