@@ -800,5 +800,73 @@
     "after": 0.1792
    }
   ]
+ },
+ {
+  "id": "injury-4239996-2026-09-23T22:00:00Z",
+  "kind": "I",
+  "at": "2026-09-23T22:00:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Cardigan's Boys: Travis Etienne Jr. is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0001,
+    "after": 0.0002
+   }
+  ]
+ },
+ {
+  "id": "injury-4695883-2026-09-23T22:00:00Z",
+  "kind": "I",
+  "at": "2026-09-23T22:00:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Goats: Jalen Coker is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.1743,
+    "after": 0.1755
+   }
+  ]
+ },
+ {
+  "id": "injury-4608686-2026-09-23T22:00:00Z",
+  "kind": "I",
+  "at": "2026-09-23T22:00:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Love hurts: Kyle Monangai is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0008,
+    "after": 0.0007
+   }
+  ]
+ },
+ {
+  "id": "injury-4362249-2026-09-23T22:00:00Z",
+  "kind": "I",
+  "at": "2026-09-23T22:00:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Love hurts: Jayden Reed is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0008,
+    "after": 0.0007
+   }
+  ]
  }
 ]
