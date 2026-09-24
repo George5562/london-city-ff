@@ -925,5 +925,56 @@
     "after": 0.4073
    }
   ]
+ },
+ {
+  "id": "injury-4241478-2026-09-24T23:30:00Z",
+  "kind": "I",
+  "at": "2026-09-24T23:30:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Goats: DeVonta Smith is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.1726,
+    "after": 0.1726
+   }
+  ]
+ },
+ {
+  "id": "injury-4241985-2026-09-24T23:30:00Z",
+  "kind": "I",
+  "at": "2026-09-24T23:30:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Sabre Raiders: J.K. Dobbins is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.184,
+    "after": 0.1839
+   }
+  ]
+ },
+ {
+  "id": "injury-4568490-2026-09-24T23:30:00Z",
+  "kind": "I",
+  "at": "2026-09-24T23:30:00Z",
+  "teams": [
+   1
+  ],
+  "text": "Knights who say Ni: RJ Harvey is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.0073,
+    "after": 0.0073
+   }
+  ]
  }
 ]

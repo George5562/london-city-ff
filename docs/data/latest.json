@@ -16,7 +16,7 @@
    "playoff": 0.9817,
    "final": 0.6562,
    "champ": 0.4073,
-   "topSeed": 0.6,
+   "topSeed": 0.6002,
    "lineup": [
     {
      "name": "Amon-Ra St. Brown",
@@ -79,7 +79,7 @@
    "playoff": 0.8778,
    "final": 0.4289,
    "champ": 0.1939,
-   "topSeed": 0.1702,
+   "topSeed": 0.1701,
    "lineup": [
     {
      "name": "Jonathan Taylor",
@@ -139,10 +139,10 @@
    "projPerGame": 139.1,
    "strength": 138.8,
    "projWins": 9.46,
-   "playoff": 0.7826,
-   "final": 0.3826,
-   "champ": 0.184,
-   "topSeed": 0.0869,
+   "playoff": 0.7825,
+   "final": 0.3825,
+   "champ": 0.1839,
+   "topSeed": 0.0867,
    "lineup": [
     {
      "name": "Jaxon Smith-Njigba",
@@ -202,7 +202,7 @@
    "projPerGame": 138.6,
    "strength": 137.1,
    "projWins": 10.18,
-   "playoff": 0.8408,
+   "playoff": 0.8409,
    "final": 0.3918,
    "champ": 0.1726,
    "topSeed": 0.1328,
@@ -462,7 +462,7 @@
     {
      "name": "Brock Purdy",
      "pos": "QB",
-     "pts": 20.6
+     "pts": 20.7
     },
     {
      "name": "Chase Brown",
@@ -660,5 +660,5 @@
    "homeWin": 0.5482
   }
  ],
- "generated": "2026-09-24T20:44+00:00"
+ "generated": "2026-09-24T23:49+00:00"
 }
