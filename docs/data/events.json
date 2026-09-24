@@ -868,5 +868,62 @@
     "after": 0.0007
    }
   ]
+ },
+ {
+  "id": "injury-4595348-2026-09-24T20:30:00Z",
+  "kind": "I",
+  "at": "2026-09-24T20:30:00Z",
+  "teams": [
+   13
+  ],
+  "text": "Salisbury Screamers: Malik Nabers is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 13,
+    "before": 0.0115,
+    "after": 0.0112
+   }
+  ]
+ },
+ {
+  "id": "injury-4689114-2026-09-24T20:30:00Z",
+  "kind": "I",
+  "at": "2026-09-24T20:30:00Z",
+  "teams": [
+   9
+  ],
+  "text": "GiantPunt: Jaxson Dart is now listed as injury reserve.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.4021,
+    "after": 0.4073
+   }
+  ]
+ },
+ {
+  "id": "trade-99518651-b157-459e-90da-7231c2459002",
+  "kind": "T",
+  "at": "2026-09-24T20:30:00Z",
+  "teams": [
+   9
+  ],
+  "text": "Added Rachaad White.",
+  "moves": [
+   {
+    "player": "Rachaad White",
+    "position": "RB",
+    "action": "add"
+   }
+  ],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.4021,
+    "after": 0.4073
+   }
+  ]
  }
 ]
