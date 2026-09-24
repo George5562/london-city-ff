@@ -13,10 +13,10 @@
    "projPerGame": 143.1,
    "strength": 149.9,
    "projWins": 11.81,
-   "playoff": 0.9797,
-   "final": 0.6518,
-   "champ": 0.4018,
-   "topSeed": 0.5878,
+   "playoff": 0.9799,
+   "final": 0.6509,
+   "champ": 0.4021,
+   "topSeed": 0.5857,
    "lineup": [
     {
      "name": "Amon-Ra St. Brown",
@@ -76,10 +76,10 @@
    "projPerGame": 137.7,
    "strength": 137.9,
    "projWins": 10.37,
-   "playoff": 0.8739,
-   "final": 0.4248,
-   "champ": 0.1973,
-   "topSeed": 0.1768,
+   "playoff": 0.8775,
+   "final": 0.4312,
+   "champ": 0.1965,
+   "topSeed": 0.1766,
    "lineup": [
     {
      "name": "Jonathan Taylor",
@@ -138,11 +138,11 @@
    "pf": 275.08,
    "projPerGame": 139.0,
    "strength": 138.7,
-   "projWins": 9.46,
-   "playoff": 0.7879,
-   "final": 0.3826,
-   "champ": 0.1781,
-   "topSeed": 0.087,
+   "projWins": 9.45,
+   "playoff": 0.7796,
+   "final": 0.3814,
+   "champ": 0.1835,
+   "topSeed": 0.0906,
    "lineup": [
     {
      "name": "Jaxon Smith-Njigba",
@@ -201,11 +201,11 @@
    "pf": 261.66,
    "projPerGame": 138.6,
    "strength": 137.0,
-   "projWins": 10.14,
+   "projWins": 10.16,
    "playoff": 0.8388,
-   "final": 0.3933,
-   "champ": 0.1755,
-   "topSeed": 0.1366,
+   "final": 0.392,
+   "champ": 0.1734,
+   "topSeed": 0.1359,
    "lineup": [
     {
      "name": "Jahmyr Gibbs",
@@ -264,11 +264,11 @@
    "pf": 240.78,
    "projPerGame": 121.6,
    "strength": 121.4,
-   "projWins": 6.27,
-   "playoff": 0.1202,
-   "final": 0.0389,
-   "champ": 0.0136,
-   "topSeed": 0.0016,
+   "projWins": 6.3,
+   "playoff": 0.1211,
+   "final": 0.0382,
+   "champ": 0.0127,
+   "topSeed": 0.0018,
    "lineup": [
     {
      "name": "Josh Allen",
@@ -318,69 +318,6 @@
    ]
   },
   {
-   "id": 4,
-   "name": "Wiltshire Warriors",
-   "abbrev": "TM4",
-   "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/12.svg",
-   "wins": 0,
-   "losses": 2,
-   "pf": 199.84,
-   "projPerGame": 126.3,
-   "strength": 121.0,
-   "projWins": 5.91,
-   "playoff": 0.0967,
-   "final": 0.0333,
-   "champ": 0.012,
-   "topSeed": 0.0023,
-   "lineup": [
-    {
-     "name": "Ja'Marr Chase",
-     "pos": "WR",
-     "pts": 20.9
-    },
-    {
-     "name": "Patrick Mahomes",
-     "pos": "QB",
-     "pts": 20.4
-    },
-    {
-     "name": "Kyren Williams",
-     "pos": "RB",
-     "pts": 13.6
-    },
-    {
-     "name": "George Kittle",
-     "pos": "TE",
-     "pts": 13.3
-    },
-    {
-     "name": "Christian Watson",
-     "pos": "WR",
-     "pts": 13.2
-    },
-    {
-     "name": "Saquon Barkley",
-     "pos": "RB",
-     "pts": 12.5
-    },
-    {
-     "name": "Cam Little",
-     "pos": "K",
-     "pts": 7.8
-    },
-    {
-     "name": "49ers D/ST",
-     "pos": "D/ST",
-     "pts": 6.7
-    },
-    {
-     "name": "Emeka Egbuka",
-     "pos": "FLEX",
-     "pts": 11.7
-    }
-   ]
-  },
-  {
    "id": 13,
    "name": "Salisbury Screamers",
    "abbrev": "SS",
@@ -390,11 +327,11 @@
    "pf": 209.04,
    "projPerGame": 114.7,
    "strength": 112.7,
-   "projWins": 6.95,
-   "playoff": 0.1638,
-   "final": 0.0399,
-   "champ": 0.0116,
-   "topSeed": 0.0042,
+   "projWins": 6.96,
+   "playoff": 0.1674,
+   "final": 0.0406,
+   "champ": 0.0115,
+   "topSeed": 0.0043,
    "lineup": [
     {
      "name": "Derrick Henry",
@@ -444,6 +381,69 @@
    ]
   },
   {
+   "id": 4,
+   "name": "Wiltshire Warriors",
+   "abbrev": "TM4",
+   "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/12.svg",
+   "wins": 0,
+   "losses": 2,
+   "pf": 199.84,
+   "projPerGame": 126.3,
+   "strength": 121.0,
+   "projWins": 5.92,
+   "playoff": 0.1009,
+   "final": 0.0318,
+   "champ": 0.0109,
+   "topSeed": 0.0019,
+   "lineup": [
+    {
+     "name": "Ja'Marr Chase",
+     "pos": "WR",
+     "pts": 20.9
+    },
+    {
+     "name": "Patrick Mahomes",
+     "pos": "QB",
+     "pts": 20.4
+    },
+    {
+     "name": "Kyren Williams",
+     "pos": "RB",
+     "pts": 13.6
+    },
+    {
+     "name": "George Kittle",
+     "pos": "TE",
+     "pts": 13.3
+    },
+    {
+     "name": "Christian Watson",
+     "pos": "WR",
+     "pts": 13.2
+    },
+    {
+     "name": "Saquon Barkley",
+     "pos": "RB",
+     "pts": 12.5
+    },
+    {
+     "name": "Cam Little",
+     "pos": "K",
+     "pts": 7.8
+    },
+    {
+     "name": "49ers D/ST",
+     "pos": "D/ST",
+     "pts": 6.7
+    },
+    {
+     "name": "Emeka Egbuka",
+     "pos": "FLEX",
+     "pts": 11.7
+    }
+   ]
+  },
+  {
    "id": 1,
    "name": "Knights who say Ni",
    "abbrev": "TM1",
@@ -453,11 +453,11 @@
    "pf": 197.44,
    "projPerGame": 118.7,
    "strength": 114.7,
-   "projWins": 6.53,
-   "playoff": 0.1216,
-   "final": 0.0316,
-   "champ": 0.0092,
-   "topSeed": 0.0034,
+   "projWins": 6.47,
+   "playoff": 0.1182,
+   "final": 0.0308,
+   "champ": 0.0088,
+   "topSeed": 0.0031,
    "lineup": [
     {
      "name": "Brock Purdy",
@@ -516,10 +516,10 @@
    "pf": 188.94,
    "projPerGame": 111.6,
    "strength": 108.2,
-   "projWins": 4.43,
-   "playoff": 0.0154,
-   "final": 0.0034,
-   "champ": 0.0007,
+   "projWins": 4.41,
+   "playoff": 0.0146,
+   "final": 0.0027,
+   "champ": 0.0006,
    "topSeed": 0.0001,
    "lineup": [
     {
@@ -579,10 +579,10 @@
    "pf": 186.28,
    "projPerGame": 98.0,
    "strength": 97.1,
-   "projWins": 3.13,
-   "playoff": 0.0021,
-   "final": 0.0004,
-   "champ": 0.0002,
+   "projWins": 3.14,
+   "playoff": 0.0019,
+   "final": 0.0003,
+   "champ": 0.0001,
    "topSeed": 0.0,
    "lineup": [
     {
@@ -637,28 +637,28 @@
   {
    "home": 11,
    "away": 2,
-   "homeWin": 0.3355
+   "homeWin": 0.3347
   },
   {
    "home": 1,
    "away": 3,
-   "homeWin": 0.2875
+   "homeWin": 0.2787
   },
   {
    "home": 9,
    "away": 12,
-   "homeWin": 0.9173
+   "homeWin": 0.921
   },
   {
    "home": 4,
    "away": 6,
-   "homeWin": 0.3088
+   "homeWin": 0.3121
   },
   {
    "home": 13,
    "away": 5,
-   "homeWin": 0.5354
+   "homeWin": 0.541
   }
  ],
- "generated": "2026-09-23T22:25+00:00"
+ "generated": "2026-09-24T00:49+00:00"
 }
