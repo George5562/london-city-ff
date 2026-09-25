@@ -14,9 +14,9 @@
    "strength": 149.8,
    "projWins": 11.66,
    "playoff": 0.9697,
-   "final": 0.6467,
-   "champ": 0.4062,
-   "topSeed": 0.5876,
+   "final": 0.6463,
+   "champ": 0.406,
+   "topSeed": 0.5871,
    "lineup": [
     {
      "name": "Amon-Ra St. Brown",
@@ -76,10 +76,10 @@
    "projPerGame": 137.1,
    "strength": 137.5,
    "projWins": 9.98,
-   "playoff": 0.8159,
-   "final": 0.3993,
-   "champ": 0.1854,
-   "topSeed": 0.1488,
+   "playoff": 0.8157,
+   "final": 0.3992,
+   "champ": 0.1855,
+   "topSeed": 0.1485,
    "lineup": [
     {
      "name": "Jonathan Taylor",
@@ -138,11 +138,11 @@
    "pf": 261.66,
    "projPerGame": 138.2,
    "strength": 136.7,
-   "projWins": 10.07,
-   "playoff": 0.8127,
-   "final": 0.388,
-   "champ": 0.1713,
-   "topSeed": 0.1429,
+   "projWins": 10.08,
+   "playoff": 0.814,
+   "final": 0.3891,
+   "champ": 0.1716,
+   "topSeed": 0.1437,
    "lineup": [
     {
      "name": "Jahmyr Gibbs",
@@ -202,9 +202,9 @@
    "projPerGame": 138.6,
    "strength": 138.4,
    "projWins": 9.34,
-   "playoff": 0.7366,
-   "final": 0.3648,
-   "champ": 0.1704,
+   "playoff": 0.7365,
+   "final": 0.3645,
+   "champ": 0.1703,
    "topSeed": 0.0946,
    "lineup": [
     {
@@ -266,7 +266,7 @@
    "strength": 118.2,
    "projWins": 7.93,
    "playoff": 0.3095,
-   "final": 0.0882,
+   "final": 0.0879,
    "champ": 0.0268,
    "topSeed": 0.0159,
    "lineup": [
@@ -328,8 +328,8 @@
    "projPerGame": 128.0,
    "strength": 122.3,
    "projWins": 6.22,
-   "playoff": 0.1272,
-   "final": 0.044,
+   "playoff": 0.1271,
+   "final": 0.0439,
    "champ": 0.0166,
    "topSeed": 0.0043,
    "lineup": [
@@ -391,9 +391,9 @@
    "projPerGame": 123.2,
    "strength": 122.7,
    "projWins": 6.42,
-   "playoff": 0.1321,
+   "playoff": 0.1319,
    "final": 0.0447,
-   "champ": 0.0163,
+   "champ": 0.0162,
    "topSeed": 0.0028,
    "lineup": [
     {
@@ -453,11 +453,11 @@
    "pf": 197.44,
    "projPerGame": 117.3,
    "strength": 113.6,
-   "projWins": 6.21,
-   "playoff": 0.0878,
+   "projWins": 6.2,
+   "playoff": 0.0872,
    "final": 0.0229,
    "champ": 0.0066,
-   "topSeed": 0.003,
+   "topSeed": 0.0029,
    "lineup": [
     {
      "name": "Brock Purdy",
@@ -646,11 +646,11 @@
   {
    "home": 1,
    "away": 3,
-   "homeWin": 0.2207,
+   "homeWin": 0.2118,
    "homePts": 0.0,
    "awayPts": 0.0,
    "homeProj": 105.8,
-   "awayProj": 133.9
+   "awayProj": 135.1
   },
   {
    "home": 9,
@@ -680,5 +680,5 @@
    "awayProj": 102.2
   }
  ],
- "generated": "2026-09-25T04:38+00:00"
+ "generated": "2026-09-25T10:06+00:00"
 }
