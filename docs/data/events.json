@@ -1181,5 +1181,135 @@
     "after": 0.1524
    }
   ]
+ },
+ {
+  "id": "injury-3929630-2026-09-25T22:30:00Z",
+  "kind": "I",
+  "at": "2026-09-25T22:30:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Saquon Barkley is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0134,
+    "after": 0.0132
+   }
+  ]
+ },
+ {
+  "id": "injury-4258173-2026-09-25T22:30:00Z",
+  "kind": "I",
+  "at": "2026-09-25T22:30:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Love hurts: Nico Collins is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0002,
+    "after": 0.0003
+   }
+  ]
+ },
+ {
+  "id": "injury-4685512-2026-09-25T22:30:00Z",
+  "kind": "I",
+  "at": "2026-09-25T22:30:00Z",
+  "teams": [
+   9
+  ],
+  "text": "GiantPunt: Jadarian Price is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.4691,
+    "after": 0.4707
+   }
+  ]
+ },
+ {
+  "id": "injury-3916148-2026-09-25T22:30:00Z",
+  "kind": "I",
+  "at": "2026-09-25T22:30:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Goats: Tony Pollard is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.1524,
+    "after": 0.1533
+   }
+  ]
+ },
+ {
+  "id": "injury-4608686-2026-09-25T22:30:00Z",
+  "kind": "I",
+  "at": "2026-09-25T22:30:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Love hurts: Kyle Monangai is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0002,
+    "after": 0.0003
+   }
+  ]
+ },
+ {
+  "id": "injury-4038815-2026-09-25T22:30:00Z",
+  "kind": "I",
+  "at": "2026-09-25T22:30:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Sabre Raiders: Rico Dowdle is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.1556,
+    "after": 0.1522
+   }
+  ]
+ },
+ {
+  "id": "trade-88eb1200-fca9-4f8c-b3af-6c4b7d4f69f9",
+  "kind": "T",
+  "at": "2026-09-25T22:30:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Added WR Denzel Boston; dropped Broncos D/ST.",
+  "moves": [
+   {
+    "player": "Denzel Boston",
+    "position": "WR",
+    "action": "add"
+   },
+   {
+    "player": "Broncos D/ST",
+    "position": "D/ST",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0001,
+    "after": 0.0002
+   }
+  ]
  }
 ]

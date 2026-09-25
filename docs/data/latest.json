@@ -10,13 +10,13 @@
    "wins": 2,
    "losses": 0,
    "pf": 353.7,
-   "projPerGame": 149.1,
+   "projPerGame": 149.0,
    "strength": 154.6,
-   "projWins": 11.99,
-   "playoff": 0.9832,
-   "final": 0.6987,
-   "champ": 0.4691,
-   "topSeed": 0.661,
+   "projWins": 12.01,
+   "playoff": 0.9845,
+   "final": 0.7014,
+   "champ": 0.4707,
+   "topSeed": 0.6706,
    "lineup": [
     {
      "name": "Amon-Ra St. Brown",
@@ -61,7 +61,7 @@
     {
      "name": "Chris Olave",
      "pos": "FLEX",
-     "pts": 17.1
+     "pts": 17.0
     }
    ]
   },
@@ -74,12 +74,12 @@
    "losses": 0,
    "pf": 278.26,
    "projPerGame": 137.3,
-   "strength": 137.7,
-   "projWins": 10.16,
-   "playoff": 0.8395,
-   "final": 0.3991,
-   "champ": 0.1666,
-   "topSeed": 0.1376,
+   "strength": 137.6,
+   "projWins": 10.14,
+   "playoff": 0.8414,
+   "final": 0.4,
+   "champ": 0.1671,
+   "topSeed": 0.1359,
    "lineup": [
     {
      "name": "Jonathan Taylor",
@@ -129,69 +129,6 @@
    ]
   },
   {
-   "id": 2,
-   "name": "Sabre Raiders",
-   "abbrev": "TM2",
-   "logo": "https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/85dd1190-a69d-11f1-b3fa-cd9add676ca8",
-   "wins": 1,
-   "losses": 1,
-   "pf": 275.08,
-   "projPerGame": 139.0,
-   "strength": 138.7,
-   "projWins": 9.32,
-   "playoff": 0.7385,
-   "final": 0.353,
-   "champ": 0.1556,
-   "topSeed": 0.0751,
-   "lineup": [
-    {
-     "name": "Jaxon Smith-Njigba",
-     "pos": "WR",
-     "pts": 25.3
-    },
-    {
-     "name": "Davante Adams",
-     "pos": "WR",
-     "pts": 20.7
-    },
-    {
-     "name": "Bryce Young",
-     "pos": "QB",
-     "pts": 18.1
-    },
-    {
-     "name": "De'Von Achane",
-     "pos": "RB",
-     "pts": 16.8
-    },
-    {
-     "name": "Bucky Irving",
-     "pos": "RB",
-     "pts": 14.8
-    },
-    {
-     "name": "Brock Bowers",
-     "pos": "TE",
-     "pts": 9.4
-    },
-    {
-     "name": "Jason Myers",
-     "pos": "K",
-     "pts": 8.3
-    },
-    {
-     "name": "Bengals D/ST",
-     "pos": "D/ST",
-     "pts": 6.2
-    },
-    {
-     "name": "Garrett Wilson",
-     "pos": "FLEX",
-     "pts": 14.4
-    }
-   ]
-  },
-  {
    "id": 3,
    "name": "Goats",
    "abbrev": "GOAT",
@@ -200,12 +137,12 @@
    "losses": 0,
    "pf": 261.66,
    "projPerGame": 138.5,
-   "strength": 137.0,
-   "projWins": 9.92,
-   "playoff": 0.7987,
-   "final": 0.3695,
-   "champ": 0.1524,
-   "topSeed": 0.1078,
+   "strength": 136.9,
+   "projWins": 9.9,
+   "playoff": 0.8014,
+   "final": 0.3728,
+   "champ": 0.1533,
+   "topSeed": 0.1069,
    "lineup": [
     {
      "name": "Jahmyr Gibbs",
@@ -255,6 +192,69 @@
    ]
   },
   {
+   "id": 2,
+   "name": "Sabre Raiders",
+   "abbrev": "TM2",
+   "logo": "https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/85dd1190-a69d-11f1-b3fa-cd9add676ca8",
+   "wins": 1,
+   "losses": 1,
+   "pf": 275.08,
+   "projPerGame": 138.8,
+   "strength": 138.6,
+   "projWins": 9.2,
+   "playoff": 0.7268,
+   "final": 0.3451,
+   "champ": 0.1522,
+   "topSeed": 0.0685,
+   "lineup": [
+    {
+     "name": "Jaxon Smith-Njigba",
+     "pos": "WR",
+     "pts": 25.3
+    },
+    {
+     "name": "Davante Adams",
+     "pos": "WR",
+     "pts": 20.7
+    },
+    {
+     "name": "Bryce Young",
+     "pos": "QB",
+     "pts": 18.1
+    },
+    {
+     "name": "De'Von Achane",
+     "pos": "RB",
+     "pts": 16.8
+    },
+    {
+     "name": "Bucky Irving",
+     "pos": "RB",
+     "pts": 14.8
+    },
+    {
+     "name": "Brock Bowers",
+     "pos": "TE",
+     "pts": 9.4
+    },
+    {
+     "name": "Jason Myers",
+     "pos": "K",
+     "pts": 8.3
+    },
+    {
+     "name": "Bengals D/ST",
+     "pos": "D/ST",
+     "pts": 6.2
+    },
+    {
+     "name": "Garrett Wilson",
+     "pos": "FLEX",
+     "pts": 14.4
+    }
+   ]
+  },
+  {
    "id": 13,
    "name": "Salisbury Screamers",
    "abbrev": "SS",
@@ -264,11 +264,11 @@
    "pf": 209.04,
    "projPerGame": 121.9,
    "strength": 118.4,
-   "projWins": 7.92,
-   "playoff": 0.3106,
-   "final": 0.0837,
-   "champ": 0.0243,
-   "topSeed": 0.0119,
+   "projWins": 7.89,
+   "playoff": 0.314,
+   "final": 0.0845,
+   "champ": 0.0245,
+   "topSeed": 0.0115,
    "lineup": [
     {
      "name": "Bijan Robinson",
@@ -327,10 +327,10 @@
    "pf": 240.78,
    "projPerGame": 123.5,
    "strength": 122.9,
-   "projWins": 6.4,
-   "playoff": 0.1309,
-   "final": 0.0407,
-   "champ": 0.014,
+   "projWins": 6.35,
+   "playoff": 0.1322,
+   "final": 0.0406,
+   "champ": 0.0144,
    "topSeed": 0.0019,
    "lineup": [
     {
@@ -341,7 +341,7 @@
     {
      "name": "James Cook III",
      "pos": "RB",
-     "pts": 17.2
+     "pts": 17.1
     },
     {
      "name": "Dalton Kincaid",
@@ -388,12 +388,12 @@
    "wins": 0,
    "losses": 2,
    "pf": 199.84,
-   "projPerGame": 128.2,
+   "projPerGame": 128.1,
    "strength": 122.5,
-   "projWins": 6.14,
-   "playoff": 0.1177,
-   "final": 0.0376,
-   "champ": 0.0134,
+   "projWins": 6.11,
+   "playoff": 0.1199,
+   "final": 0.038,
+   "champ": 0.0132,
    "topSeed": 0.0035,
    "lineup": [
     {
@@ -453,11 +453,11 @@
    "pf": 197.44,
    "projPerGame": 115.8,
    "strength": 112.4,
-   "projWins": 5.98,
-   "playoff": 0.0726,
-   "final": 0.0167,
-   "champ": 0.0043,
-   "topSeed": 0.0013,
+   "projWins": 5.85,
+   "playoff": 0.0683,
+   "final": 0.0162,
+   "champ": 0.004,
+   "topSeed": 0.0011,
    "lineup": [
     {
      "name": "Brock Purdy",
@@ -514,12 +514,12 @@
    "wins": 0,
    "losses": 2,
    "pf": 188.94,
-   "projPerGame": 109.9,
-   "strength": 106.8,
-   "projWins": 3.77,
-   "playoff": 0.0055,
+   "projPerGame": 109.6,
+   "strength": 106.6,
+   "projWins": 3.68,
+   "playoff": 0.0054,
    "final": 0.0008,
-   "champ": 0.0002,
+   "champ": 0.0003,
    "topSeed": 0.0,
    "lineup": [
     {
@@ -577,18 +577,23 @@
    "wins": 0,
    "losses": 2,
    "pf": 186.28,
-   "projPerGame": 99.0,
-   "strength": 97.9,
-   "projWins": 3.39,
-   "playoff": 0.0027,
-   "final": 0.0003,
-   "champ": 0.0001,
-   "topSeed": 0.0,
+   "projPerGame": 103.2,
+   "strength": 101.2,
+   "projWins": 3.87,
+   "playoff": 0.006,
+   "final": 0.0007,
+   "champ": 0.0002,
+   "topSeed": 0.0001,
    "lineup": [
     {
      "name": "Jalen Hurts",
      "pos": "QB",
      "pts": 17.6
+    },
+    {
+     "name": "Denzel Boston",
+     "pos": "WR",
+     "pts": 13.0
     },
     {
      "name": "Cam Skattebo",
@@ -609,11 +614,6 @@
      "name": "Romeo Doubs",
      "pos": "WR",
      "pts": 9.5
-    },
-    {
-     "name": "Michael Wilson",
-     "pos": "WR",
-     "pts": 8.9
     },
     {
      "name": "Seahawks D/ST",
@@ -655,7 +655,7 @@
   {
    "home": 9,
    "away": 12,
-   "homeWin": 0.7765,
+   "homeWin": 0.7788,
    "homePts": 0.0,
    "awayPts": 10.0,
    "homeProj": 136.3,
@@ -673,12 +673,12 @@
   {
    "home": 13,
    "away": 5,
-   "homeWin": 0.8993,
+   "homeWin": 0.8991,
    "homePts": 65.2,
    "awayPts": 0.0,
    "homeProj": 145.3,
    "awayProj": 102.2
   }
  ],
- "generated": "2026-09-25T19:29+00:00"
+ "generated": "2026-09-25T22:46+00:00"
 }
