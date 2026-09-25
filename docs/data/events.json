@@ -976,5 +976,142 @@
     "after": 0.0073
    }
   ]
+ },
+ {
+  "id": "injury-4869645-2026-09-25T15:00:00Z",
+  "kind": "I",
+  "at": "2026-09-25T15:00:00Z",
+  "teams": [
+   6
+  ],
+  "text": "The Le Chable Dolphins: Caleb Douglas is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.1855,
+    "after": 0.1661
+   }
+  ]
+ },
+ {
+  "id": "trade-a2220ec3-a260-4b05-bd93-1e787b593ecd",
+  "kind": "T",
+  "at": "2026-09-25T15:00:00Z",
+  "teams": [
+   1
+  ],
+  "text": "Dropped Tyjae Spears.",
+  "moves": [
+   {
+    "player": "Tyjae Spears",
+    "position": "RB",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.0066,
+    "after": 0.0057
+   }
+  ]
+ },
+ {
+  "id": "trade-cd4ea217-3157-48f0-a896-f9d51b0e96d9",
+  "kind": "T",
+  "at": "2026-09-25T15:00:00Z",
+  "teams": [
+   1
+  ],
+  "text": "Added Josh Downs.",
+  "moves": [
+   {
+    "player": "Josh Downs",
+    "position": "WR",
+    "action": "add"
+   }
+  ],
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.0066,
+    "after": 0.0057
+   }
+  ]
+ },
+ {
+  "id": "trade-157dcb3a-2b13-4f8e-a5e0-6ae7de474685",
+  "kind": "T",
+  "at": "2026-09-25T15:00:00Z",
+  "teams": [
+   9
+  ],
+  "text": "Added Tyler Shough; Dropped Kyler Murray.",
+  "moves": [
+   {
+    "player": "Tyler Shough",
+    "position": "QB",
+    "action": "add"
+   },
+   {
+    "player": "Kyler Murray",
+    "position": "QB",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.406,
+    "after": 0.4694
+   }
+  ]
+ },
+ {
+  "id": "trade-c9ab4d5f-0850-45c1-987a-122681858ae0",
+  "kind": "T",
+  "at": "2026-09-25T15:00:00Z",
+  "teams": [
+   1
+  ],
+  "text": "Dropped Jayden Daniels.",
+  "moves": [
+   {
+    "player": "Jayden Daniels",
+    "position": "QB",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.0066,
+    "after": 0.0057
+   }
+  ]
+ },
+ {
+  "id": "trade-d11976c6-c205-45db-a8a0-4497f97e4809",
+  "kind": "T",
+  "at": "2026-09-25T15:00:00Z",
+  "teams": [
+   1
+  ],
+  "text": "Added Alvin Kamara (RB).",
+  "moves": [
+   {
+    "player": "Alvin Kamara",
+    "position": "RB",
+    "action": "add"
+   }
+  ],
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.0066,
+    "after": 0.0057
+   }
+  ]
  }
 ]
