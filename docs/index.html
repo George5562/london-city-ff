@@ -312,9 +312,10 @@ function renderChart() {
   Object.entries(columns).forEach(([at,matches])=>{
     const time=Date.parse(at),cx=x(time);
     s+=`<line class="result-column" data-time="${time}" x1="${cx}" x2="${cx}" y1="${m.t}" y2="${m.t+ih}" stroke="#b5a5cf" stroke-dasharray="2 6" opacity=".4"/>`;
+    // Keep each result badge centred on its own team's curve. The stagger is
+    // animation timing only; moving badges apart vertically breaks the visual
+    // link between a result and the prediction it changed.
     const badges=matches.flatMap(match=>[match.home,match.away].map(id=>({match,id,cy:y(smoothAt(id,time))}))).sort((a,b)=>a.cy-b.cy);
-    badges.forEach((b,i)=>b.cy=Math.max(b.cy,i?badges[i-1].cy+23:m.t+11));
-    for(let i=badges.length-1;i>=0;i--)badges[i].cy=Math.min(badges[i].cy,i<badges.length-1?badges[i+1].cy-23:m.t+ih-11);
     badges.forEach(({match,id,cy},index)=>{const win=match.winner===(id===match.home?'HOME':'AWAY'),letter=match.winner==='TIE'?'D':win?'W':'L',color=letter==='D'?'#a99cbf':win?'#36d887':'#f25c72';
       s+=`<g class="result-badge" style="--ripple:${(badges.length-1-index)*35}ms" data-result="${match.id}" data-team="${id}" data-time="${time}" data-x="${cx}" data-y="${cy}" role="button" tabindex="0" aria-label="${esc(teams[id].name)} ${letter}, Week ${match.week} match report"><circle cx="${cx}" cy="${cy}" r="8" fill="#09090d" stroke="${color}" stroke-width="1.5"/><text x="${cx}" y="${cy+3}" text-anchor="middle" font-size="9" font-weight="800" fill="${color}">${letter}</text></g>`;
     });
