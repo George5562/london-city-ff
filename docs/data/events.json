@@ -1391,5 +1391,39 @@
     "after": 0.1785
    }
   ]
+ },
+ {
+  "id": "injury-4241478-2026-09-26T22:30:00Z",
+  "kind": "I",
+  "at": "2026-09-26T22:30:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Goats: DeVonta Smith is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.1498,
+    "after": 0.1506
+   }
+  ]
+ },
+ {
+  "id": "injury-3121023-2026-09-26T22:30:00Z",
+  "kind": "I",
+  "at": "2026-09-26T22:30:00Z",
+  "teams": [
+   6
+  ],
+  "text": "The Le Chable Dolphins: Dallas Goedert is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.1785,
+    "after": 0.1774
+   }
+  ]
  }
 ]
