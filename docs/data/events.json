@@ -1328,5 +1328,68 @@
     "after": 0.0149
    }
   ]
+ },
+ {
+  "id": "injury-4431611-2026-09-26T19:30:00Z",
+  "kind": "I",
+  "at": "2026-09-26T19:30:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Sabre Raiders: Caleb Williams is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.1552,
+    "after": 0.1506
+   }
+  ]
+ },
+ {
+  "id": "trade-c5dcbd90-6909-49ee-9888-8c46de469fb3",
+  "kind": "T",
+  "at": "2026-09-26T19:30:00Z",
+  "teams": [
+   6
+  ],
+  "text": "Added KC Concepcion, WR.",
+  "moves": [
+   {
+    "player": "KC Concepcion",
+    "position": "WR",
+    "action": "add"
+   }
+  ],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.1658,
+    "after": 0.1785
+   }
+  ]
+ },
+ {
+  "id": "trade-2239bab6-dc54-48a3-9c50-ba68a826e102",
+  "kind": "T",
+  "at": "2026-09-26T19:30:00Z",
+  "teams": [
+   6
+  ],
+  "text": "Added Trevor Lawrence.",
+  "moves": [
+   {
+    "player": "Trevor Lawrence",
+    "position": "QB",
+    "action": "add"
+   }
+  ],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.1658,
+    "after": 0.1785
+   }
+  ]
  }
 ]
