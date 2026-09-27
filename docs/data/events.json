@@ -1629,5 +1629,56 @@
     "after": 0.1585
    }
   ]
+ },
+ {
+  "id": "injury-4426515-2026-09-27T23:30:00Z",
+  "kind": "I",
+  "at": "2026-09-27T23:30:00Z",
+  "teams": [
+   1
+  ],
+  "text": "Knights who say Ni: Puka Nacua is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.0049,
+    "after": 0.0046
+   }
+  ]
+ },
+ {
+  "id": "injury-4239996-2026-09-27T23:30:00Z",
+  "kind": "I",
+  "at": "2026-09-27T23:30:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Cardigan's Boys: Travis Etienne Jr. is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0003,
+    "after": 0.0001
+   }
+  ]
+ },
+ {
+  "id": "injury-16737-2026-09-27T23:30:00Z",
+  "kind": "I",
+  "at": "2026-09-27T23:30:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Mike Evans is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0226,
+    "after": 0.0233
+   }
+  ]
  }
 ]

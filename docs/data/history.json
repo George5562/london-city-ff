@@ -30367,6 +30367,277 @@
      }
     }
    }
+  },
+  {
+   "date": "2026-09-27",
+   "label": "Week 3 \u00b7 23:30 UTC",
+   "week": 3,
+   "backfilled": false,
+   "teams": {
+    "9": {
+     "champ": 0.4652,
+     "playoff": 0.9863,
+     "projWins": 12.09
+    },
+    "2": {
+     "champ": 0.1873,
+     "playoff": 0.8075,
+     "projWins": 9.74
+    },
+    "3": {
+     "champ": 0.1429,
+     "playoff": 0.73,
+     "projWins": 9.62
+    },
+    "6": {
+     "champ": 0.117,
+     "playoff": 0.6682,
+     "projWins": 9.1
+    },
+    "13": {
+     "champ": 0.0534,
+     "playoff": 0.4919,
+     "projWins": 8.65
+    },
+    "4": {
+     "champ": 0.0233,
+     "playoff": 0.1856,
+     "projWins": 6.73
+    },
+    "11": {
+     "champ": 0.006,
+     "playoff": 0.0554,
+     "projWins": 5.51
+    },
+    "1": {
+     "champ": 0.0046,
+     "playoff": 0.0643,
+     "projWins": 5.89
+    },
+    "5": {
+     "champ": 0.0001,
+     "playoff": 0.0054,
+     "projWins": 3.82
+    },
+    "12": {
+     "champ": 0.0001,
+     "playoff": 0.0053,
+     "projWins": 3.85
+    }
+   },
+   "at": "2026-09-27T23:30:00Z",
+   "changes": {
+    "9": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.0586,
+     "text": "CeeDee Lamb now has 20.2 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "actual: CeeDee Lamb 2.1 -> 20.2",
+      "actual: Chris Olave 2.2 -> 19.7",
+      "injury: Travis Etienne Jr. ACTIVE -> QUESTIONABLE",
+      "actual: Travis Etienne Jr. 1.4 -> 9.0",
+      "injury: Mike Evans ACTIVE -> QUESTIONABLE",
+      "actual: Tyler Shough 9.04 -> 23.8",
+      "actual: Ravens D/ST 9.0 -> 1.0",
+      "actual: Chris Godwin Jr. 2.3 -> 5.5"
+     ],
+     "showTooltip": true
+    },
+    "2": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0327,
+     "text": "Brock Bowers now has 27.6 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "injury: Puka Nacua DOUBTFUL -> OUT",
+      "actual: Brock Bowers 8.2 -> 27.6",
+      "actual: Bucky Irving 4.2 -> 7.8",
+      "injury: Mike Evans ACTIVE -> QUESTIONABLE",
+      "actual: Deebo Samuel Sr. 14.3 -> 15.4",
+      "actual: Eddy Pineiro 2.0 -> 8.0",
+      "actual: Tyler Loop 2.0 -> 12.0",
+      "injury: Baker Mayfield ACTIVE -> QUESTIONABLE"
+     ],
+     "showTooltip": true
+    },
+    "3": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0156,
+     "text": "Lamar Jackson now has 20.44 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "actual: Lamar Jackson 3.62 -> 20.44",
+      "actual: Ashton Jeanty 2.8 -> 12.3",
+      "actual: Aaron Jones Sr. 2.5 -> 14.2",
+      "actual: Jake Ferguson 0.0 -> 9.3",
+      "actual: Kenny Gainwell 0.0 -> 3.0",
+      "injury: Tyjae Spears QUESTIONABLE -> ACTIVE",
+      "actual: Daniel Carlson 0.0 -> 3.0",
+      "injury: Jack Bech ACTIVE -> OUT"
+     ],
+     "showTooltip": true
+    }
+   },
+   "explanations": {
+    "9": {
+     "champ": {
+      "cause": "score_update",
+      "text": "CeeDee Lamb now has 20.2 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.0586,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "CeeDee Lamb now has 20.2 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.0175,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "CeeDee Lamb now has 20.2 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.49,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "2": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Brock Bowers now has 27.6 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.0327,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Brock Bowers now has 27.6 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.0164,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Brock Bowers now has 27.6 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.1,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "3": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Lamar Jackson now has 20.44 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.0156,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Lamar Jackson now has 20.44 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.0319,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Lamar Jackson now has 20.44 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.25,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "6": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.025,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "4": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.02,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "11": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.0215,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.34,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "1": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0065,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.1,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "5": {
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.14,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "12": {
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.18,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    }
+   }
   }
  ]
 }
