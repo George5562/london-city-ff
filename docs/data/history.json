@@ -29960,6 +29960,413 @@
      }
     }
    }
+  },
+  {
+   "date": "2026-09-27",
+   "label": "Week 3 \u00b7 21:00 UTC",
+   "week": 3,
+   "backfilled": false,
+   "teams": {
+    "9": {
+     "champ": 0.4066,
+     "playoff": 0.9688,
+     "projWins": 11.6
+    },
+    "2": {
+     "champ": 0.22,
+     "playoff": 0.8239,
+     "projWins": 9.84
+    },
+    "3": {
+     "champ": 0.1585,
+     "playoff": 0.7619,
+     "projWins": 9.87
+    },
+    "6": {
+     "champ": 0.1207,
+     "playoff": 0.6432,
+     "projWins": 9.05
+    },
+    "13": {
+     "champ": 0.0568,
+     "playoff": 0.4905,
+     "projWins": 8.65
+    },
+    "4": {
+     "champ": 0.0226,
+     "playoff": 0.1656,
+     "projWins": 6.65
+    },
+    "11": {
+     "champ": 0.0095,
+     "playoff": 0.0769,
+     "projWins": 5.85
+    },
+    "1": {
+     "champ": 0.0049,
+     "playoff": 0.0578,
+     "projWins": 5.79
+    },
+    "12": {
+     "champ": 0.0003,
+     "playoff": 0.0074,
+     "projWins": 4.03
+    },
+    "5": {
+     "champ": 0.0001,
+     "playoff": 0.004,
+     "projWins": 3.68
+    }
+   },
+   "at": "2026-09-27T21:00:00Z",
+   "changes": {
+    "9": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "model",
+     "delta": -0.0974,
+     "text": "Amon-Ra St. Brown scored, reaching 11.9 fantasy points; the updated production changes the matchup outlook and playoff-race implications for his fantasy team.",
+     "facts": [
+      "actual: Amon-Ra St. Brown 3.6 -> 11.9",
+      "projection: CeeDee Lamb 17.32310854 -> 17.31398297",
+      "actual: CeeDee Lamb None -> 2.1",
+      "injury: Justin Jefferson ACTIVE -> QUESTIONABLE",
+      "actual: Kenneth Walker III 16.3 -> 21.3",
+      "actual: Chris Olave None -> 2.2",
+      "actual: Tyler Warren 9.2 -> 14.7",
+      "actual: Jason Myers 1.0 -> 9.0"
+     ],
+     "showTooltip": true
+    },
+    "2": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "model",
+     "delta": 0.0859,
+     "text": "Jaxon Smith-Njig",
+     "facts": [
+      "actual: Jaxon Smith-Njigba 12.2 -> 35.36",
+      "injury: De'Von Achane QUESTIONABLE -> DOUBTFUL",
+      "injury: Brock Bowers QUESTIONABLE -> ACTIVE",
+      "projection: Brock Bowers 14.17532316 -> 14.17501341",
+      "actual: Brock Bowers None -> 8.2",
+      "injury: Breece Hall ACTIVE -> QUESTIONABLE",
+      "actual: Garrett Wilson 3.9 -> 26.7",
+      "projection: Bucky Irving 15.77775821 -> 15.7774627"
+     ],
+     "showTooltip": true
+    },
+    "3": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.0295,
+     "text": "Jahmyr Gibbs now has 41.4 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "actual: Jahmyr Gibbs 8.4 -> 41.4",
+      "injury: Justin Jefferson ACTIVE -> QUESTIONABLE",
+      "actual: Jonathan Taylor 3.0 -> 9.2",
+      "actual: Lamar Jackson None -> 3.62",
+      "injury: Brock Bowers QUESTIONABLE -> ACTIVE",
+      "projection: Ashton Jeanty 18.87073491 -> 18.87051293",
+      "actual: Ashton Jeanty None -> 2.8",
+      "injury: Zay Flowers QUESTIONABLE -> ACTIVE"
+     ],
+     "showTooltip": true
+    },
+    "6": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0377,
+     "text": "Jonathan Taylor now has 9.2 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "actual: Jonathan Taylor 3.0 -> 9.2",
+      "actual: Trey McBride None -> 4.6",
+      "injury: De'Von Achane QUESTIONABLE -> DOUBTFUL",
+      "actual: Omarion Hampton 2.1 -> 5.6",
+      "injury: Breece Hall ACTIVE -> QUESTIONABLE",
+      "actual: Breece Hall 5.2 -> 8.5",
+      "actual: Tee Higgins 2.0 -> 21.0",
+      "projection: Dak Prescott 17.11230424 -> 17.12347065"
+     ],
+     "showTooltip": true
+    },
+    "13": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.0223,
+     "text": "Derrick Henry now has 16.6 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "actual: Derrick Henry None -> 16.6",
+      "actual: Malik Nabers 2.5 -> 7.6",
+      "injury: Zay Flowers QUESTIONABLE -> ACTIVE",
+      "actual: Zay Flowers None -> 4.9",
+      "actual: Cam Skattebo 4.5 -> 13.0",
+      "actual: Joe Burrow 7.68 -> 22.58",
+      "actual: Parker Washington 2.8 -> 13.0",
+      "actual: Chuba Hubbard 0.9 -> 15.0"
+     ],
+     "showTooltip": true
+    },
+    "4": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.006,
+     "text": "Ja'Marr Chase now has 24.8 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "actual: Ja'Marr Chase 14.8 -> 24.8",
+      "actual: Brandon Aubrey None -> 4.0",
+      "actual: Drake Maye 0.76 -> 3.76",
+      "actual: Seahawks D/ST 8.0 -> 4.0",
+      "actual: Jeremiyah Love None -> 8.9",
+      "projection: Emeka Egbuka 12.37468765 -> 12.37497646",
+      "actual: Emeka Egbuka None -> 3.7",
+      "actual: George Kittle None -> 2.2"
+     ],
+     "showTooltip": true
+    },
+    "11": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.0054,
+     "text": "Josh Allen now has 17.46 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "actual: Josh Allen -1.88 -> 17.46",
+      "actual: James Cook III 2.4 -> 19.4",
+      "projection: George Pickens 13.80767606 -> 13.79956769",
+      "actual: George Pickens None -> 3.7",
+      "actual: Ladd McConkey 1.7 -> 10.6",
+      "actual: DJ Moore 1.8 -> 12.7",
+      "actual: Texans D/ST 9.0 -> 10.0",
+      "actual: Dalton Kincaid 2.4 -> 3.8"
+     ],
+     "showTooltip": true
+    }
+   },
+   "explanations": {
+    "9": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Amon-Ra St. Brown scored, reaching 11.9 fantasy points; the updated production changes the matchup outlook and playoff-race implications for his fantasy team.",
+      "confidence": "recorded explanation",
+      "delta": -0.0974,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Amon-Ra St. Brown scored, reaching 11.9 fantasy points; the updated production changes the matchup outlook and playoff-race implications for his fantasy team.",
+      "confidence": "recorded explanation",
+      "delta": -0.0207,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Amon-Ra St. Brown scored, reaching 11.9 fantasy points; the updated production changes the matchup outlook and playoff-race implications for his fantasy team.",
+      "confidence": "recorded explanation",
+      "delta": -0.57,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "2": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Jaxon Smith-Njig",
+      "confidence": "recorded explanation",
+      "delta": 0.0859,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Jaxon Smith-Njig",
+      "confidence": "recorded explanation",
+      "delta": 0.0885,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Jaxon Smith-Njig",
+      "confidence": "recorded explanation",
+      "delta": 0.54,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "3": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Jahmyr Gibbs now has 41.4 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.0295,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Jahmyr Gibbs now has 41.4 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.0386,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Jahmyr Gibbs now has 41.4 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.4,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "6": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Jonathan Taylor now has 9.2 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.0377,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Jonathan Taylor now has 9.2 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.1542,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Jonathan Taylor now has 9.2 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.65,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "13": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Derrick Henry now has 16.6 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.0223,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Derrick Henry now has 16.6 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.1061,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Derrick Henry now has 16.6 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.6,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "4": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Ja'Marr Chase now has 24.8 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.006,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Ja'Marr Chase now has 24.8 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.0544,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Ja'Marr Chase now has 24.8 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.18,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "11": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Josh Allen now has 17.46 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.0054,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Josh Allen now has 17.46 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.0282,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Josh Allen now has 17.46 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.54,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "1": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.0186,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.11,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "5": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.013,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.65,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    }
+   }
   }
  ]
 }
