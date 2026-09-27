@@ -1425,5 +1425,90 @@
     "after": 0.1774
    }
   ]
+ },
+ {
+  "id": "injury-4429160-2026-09-27T17:30:00Z",
+  "kind": "I",
+  "at": "2026-09-27T17:30:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Sabre Raiders: De'Von Achane is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.1504,
+    "after": 0.1341
+   }
+  ]
+ },
+ {
+  "id": "injury-3915416-2026-09-27T17:30:00Z",
+  "kind": "I",
+  "at": "2026-09-27T17:30:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: DJ Moore is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0147,
+    "after": 0.0041
+   }
+  ]
+ },
+ {
+  "id": "injury-4569987-2026-09-27T17:30:00Z",
+  "kind": "I",
+  "at": "2026-09-27T17:30:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Cardigan's Boys: Jaylen Warren is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0004,
+    "after": 0.0004
+   }
+  ]
+ },
+ {
+  "id": "injury-4695883-2026-09-27T17:30:00Z",
+  "kind": "I",
+  "at": "2026-09-27T17:30:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Goats: Jalen Coker is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.1505,
+    "after": 0.129
+   }
+  ]
+ },
+ {
+  "id": "injury-4035687-2026-09-27T17:30:00Z",
+  "kind": "I",
+  "at": "2026-09-27T17:30:00Z",
+  "teams": [
+   13
+  ],
+  "text": "Salisbury Screamers: Michael Pittman Jr. is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 13,
+    "before": 0.0232,
+    "after": 0.0345
+   }
+  ]
  }
 ]
