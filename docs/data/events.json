@@ -1680,5 +1680,39 @@
     "after": 0.0233
    }
   ]
+ },
+ {
+  "id": "injury-4429160-2026-09-28T19:30:00Z",
+  "kind": "I",
+  "at": "2026-09-28T19:30:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Sabre Raiders: De'Von Achane is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.1842,
+    "after": 0.1605
+   }
+  ]
+ },
+ {
+  "id": "injury-4239996-2026-09-28T19:30:00Z",
+  "kind": "I",
+  "at": "2026-09-28T19:30:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Cardigan's Boys: Travis Etienne Jr. is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0001,
+    "after": 0.0001
+   }
+  ]
  }
 ]
