@@ -1748,5 +1748,124 @@
     "after": 0.1768
    }
   ]
+ },
+ {
+  "id": "injury-4426515-2026-09-29T16:30:00Z",
+  "kind": "I",
+  "at": "2026-09-29T16:30:00Z",
+  "teams": [
+   1
+  ],
+  "text": "Knights who say Ni: Puka Nacua is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.0123,
+    "after": 0.0187
+   }
+  ]
+ },
+ {
+  "id": "injury-4258173-2026-09-29T16:30:00Z",
+  "kind": "I",
+  "at": "2026-09-29T16:30:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Love hurts: Nico Collins is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0015,
+    "after": 0.0014
+   }
+  ]
+ },
+ {
+  "id": "injury-4431611-2026-09-29T16:30:00Z",
+  "kind": "I",
+  "at": "2026-09-29T16:30:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Sabre Raiders: Caleb Williams is now listed as doubtful.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.1813,
+    "after": 0.1837
+   }
+  ]
+ },
+ {
+  "id": "injury-3121023-2026-09-29T16:30:00Z",
+  "kind": "I",
+  "at": "2026-09-29T16:30:00Z",
+  "teams": [
+   6
+  ],
+  "text": "The Le Chable Dolphins: Dallas Goedert is now listed as doubtful.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.0587,
+    "after": 0.058
+   }
+  ]
+ },
+ {
+  "id": "injury-4038815-2026-09-29T16:30:00Z",
+  "kind": "I",
+  "at": "2026-09-29T16:30:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Sabre Raiders: Rico Dowdle is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.1813,
+    "after": 0.1837
+   }
+  ]
+ },
+ {
+  "id": "injury-4362249-2026-09-29T16:30:00Z",
+  "kind": "I",
+  "at": "2026-09-29T16:30:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Love hurts: Jayden Reed is now listed as doubtful.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0015,
+    "after": 0.0014
+   }
+  ]
+ },
+ {
+  "id": "injury-4869645-2026-09-29T16:30:00Z",
+  "kind": "I",
+  "at": "2026-09-29T16:30:00Z",
+  "teams": [
+   6
+  ],
+  "text": "The Le Chable Dolphins: Caleb Douglas is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.0587,
+    "after": 0.058
+   }
+  ]
  }
 ]

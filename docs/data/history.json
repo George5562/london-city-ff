@@ -31834,6 +31834,243 @@
      }
     }
    }
+  },
+  {
+   "date": "2026-09-29",
+   "label": "Week 4 \u00b7 16:30 UTC",
+   "week": 4,
+   "backfilled": false,
+   "teams": {
+    "9": {
+     "champ": 0.3105,
+     "playoff": 0.9296,
+     "projWins": 10.9
+    },
+    "13": {
+     "champ": 0.1918,
+     "playoff": 0.7738,
+     "projWins": 9.97
+    },
+    "2": {
+     "champ": 0.1837,
+     "playoff": 0.7422,
+     "projWins": 9.46
+    },
+    "3": {
+     "champ": 0.1613,
+     "playoff": 0.6532,
+     "projWins": 9.12
+    },
+    "4": {
+     "champ": 0.0705,
+     "playoff": 0.3422,
+     "projWins": 7.61
+    },
+    "6": {
+     "champ": 0.058,
+     "playoff": 0.3569,
+     "projWins": 7.85
+    },
+    "1": {
+     "champ": 0.0187,
+     "playoff": 0.1551,
+     "projWins": 6.95
+    },
+    "11": {
+     "champ": 0.0035,
+     "playoff": 0.0294,
+     "projWins": 4.94
+    },
+    "5": {
+     "champ": 0.0014,
+     "playoff": 0.0122,
+     "projWins": 4.34
+    },
+    "12": {
+     "champ": 0.0004,
+     "playoff": 0.0054,
+     "projWins": 3.86
+    }
+   },
+   "at": "2026-09-29T16:30:00Z",
+   "changes": {
+    "9": {
+     "cause": "external_opportunity",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.0087,
+     "text": "CeeDee Lamb\u2019s forecast moved from 16.8915 to 16.8909 fantasy points, lowering their expected scoring contribution.",
+     "facts": [
+      "projection: CeeDee Lamb 16.89147585 -> 16.89093955",
+      "projection: Amon-Ra St. Brown 20.14946804 -> 20.13601353",
+      "projection: Kenneth Walker III 20.47542797 -> 20.48680129",
+      "projection: Chris Olave 18.26496051 -> 18.26121165",
+      "projection: Tyler Warren 13.02241895 -> 13.03764071",
+      "injury: Nico Collins OUT -> QUESTIONABLE",
+      "projection: D'Andre Swift 13.69547541 -> 14.89345835",
+      "projection: Travis Kelce 11.79091482 -> 11.78927629"
+     ],
+     "showTooltip": true
+    },
+    "13": {
+     "cause": "external_opportunity",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0075,
+     "text": "Bijan Robinson\u2019s forecast moved from 21.4948 to 21.5083 fantasy points, raising their expected scoring contribution.",
+     "facts": [
+      "projection: Bijan Robinson 21.49483147 -> 21.50825799",
+      "projection: Derrick Henry 20.25812127 -> 20.23832499",
+      "injury: Puka Nacua OUT -> QUESTIONABLE",
+      "projection: Drake London 16.71372969 -> 16.7134772",
+      "injury: Nico Collins OUT -> QUESTIONABLE",
+      "projection: Malik Nabers 13.60566617 -> 13.60776537",
+      "projection: Zay Flowers 15.34766587 -> 15.35368731",
+      "projection: Joe Burrow 18.17109197 -> 18.17503394"
+     ],
+     "showTooltip": true
+    },
+    "4": {
+     "cause": "external_opportunity",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0056,
+     "text": "Ja'Marr Chase\u2019s forecast moved from 20.4562 to 20.4597 fantasy points, raising their expected scoring contribution.",
+     "facts": [
+      "projection: Ja'Marr Chase 20.45617827 -> 20.45966422",
+      "injury: Puka Nacua OUT -> QUESTIONABLE",
+      "projection: Saquon Barkley 15.71596298 -> 14.19527302",
+      "projection: Jeremiyah Love 15.51449216 -> 15.51892276",
+      "projection: Kyren Williams 12.91968778 -> 13.0297018",
+      "projection: Drake Maye 17.50760103 -> 17.50970009",
+      "projection: Emeka Egbuka 11.24668505 -> 11.19587506",
+      "projection: George Kittle 13.71573134 -> 13.71144358"
+     ],
+     "showTooltip": true
+    },
+    "1": {
+     "cause": "roster_availability",
+     "classifiedBy": "deterministic",
+     "writtenBy": "model",
+     "delta": 0.0064,
+     "text": "Puka Nacua was upgraded from OUT to QUESTIONABLE, and his projection rose to",
+     "facts": [
+      "injury: Puka Nacua OUT -> QUESTIONABLE",
+      "projection: Puka Nacua 20.35022564 -> 20.51310833",
+      "projection: Chase Brown 16.1727764 -> 16.17398797",
+      "projection: Javonte Williams 14.59465235 -> 14.59241899",
+      "projection: Sam LaPorta 11.19295799 -> 11.18521628",
+      "projection: Brock Purdy 18.64884389 -> 18.6461169",
+      "projection: Quinshon Judkins 12.45954521 -> 12.46398187",
+      "projection: Parker Washington 15.33503298 -> 15.33493025"
+     ],
+     "showTooltip": true
+    }
+   },
+   "explanations": {
+    "9": {
+     "champ": {
+      "cause": "external_opportunity",
+      "text": "CeeDee Lamb\u2019s forecast moved from 16.8915 to 16.8909 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.0087,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "13": {
+     "champ": {
+      "cause": "external_opportunity",
+      "text": "Bijan Robinson\u2019s forecast moved from 21.4948 to 21.5083 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.0075,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "external_opportunity",
+      "text": "Bijan Robinson\u2019s forecast moved from 21.4948 to 21.5083 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.0107,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "2": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0086,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "3": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.0079,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "4": {
+     "champ": {
+      "cause": "external_opportunity",
+      "text": "Ja'Marr Chase\u2019s forecast moved from 20.4562 to 20.4597 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.0056,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "external_opportunity",
+      "text": "Ja'Marr Chase\u2019s forecast moved from 20.4562 to 20.4597 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.019,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "6": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.0065,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "1": {
+     "champ": {
+      "cause": "roster_availability",
+      "text": "Puka Nacua was upgraded from OUT to QUESTIONABLE, and his projection rose to",
+      "confidence": "recorded explanation",
+      "delta": 0.0064,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "roster_availability",
+      "text": "Puka Nacua was upgraded from OUT to QUESTIONABLE, and his projection rose to",
+      "confidence": "recorded explanation",
+      "delta": 0.0365,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "roster_availability",
+      "text": "Puka Nacua was upgraded from OUT to QUESTIONABLE, and his projection rose to",
+      "confidence": "recorded explanation",
+      "delta": 0.28,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    }
+   }
   }
  ]
 }
