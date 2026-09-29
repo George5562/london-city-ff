@@ -209,7 +209,14 @@ def simulate(league, week, week_started, seed, n_sims=N_SIMS):
     teams = {t["id"]: t for t in league["teams"]}
     sched = league["sched"]
     reg_weeks = max(m[0] for m in sched)
-    final = [m for m in sched if m[5] in ("HOME", "AWAY", "TIE") and m[0] < week]
+    # ESPN can confirm a winner before advancing scoringPeriodId. Once it does,
+    # count that result immediately and never simulate the same matchup again.
+    def confirmed(m):
+        return (m[0] <= week and m[5] in ("HOME", "AWAY", "TIE")
+                and m[1] is not None and m[2] is not None
+                and m[3] is not None and m[4] is not None)
+
+    final = [m for m in sched if confirmed(m)]
 
     wins = {i: 0.0 for i in teams}; pf = {i: 0.0 for i in teams}; games = {i: 0 for i in teams}
     for w, h, a, hs, as_, win, _ in final:
@@ -251,7 +258,7 @@ def simulate(league, week, week_started, seed, n_sims=N_SIMS):
         for i, t in teams.items():
             live[i] = live_week(t, week)
 
-    todo = [m for m in sched if m[0] >= week]
+    todo = [(k, m) for k, m in enumerate(sched) if m[0] >= week and not confirmed(m)]
     rng = random.Random(seed)
     champ = {i: 0 for i in teams}; playoff = {i: 0 for i in teams}; final_app = {i: 0 for i in teams}
     tot_wins = {i: 0.0 for i in teams}; seed1 = {i: 0 for i in teams}
@@ -272,7 +279,7 @@ def simulate(league, week, week_started, seed, n_sims=N_SIMS):
     for _ in range(n_sims):
         talent = {i: mu[i] + rng.gauss(0, TALENT_SD) for i in ids}
         w_ = dict(wins); p_ = dict(pf)
-        for k, (w, h, a, *_r) in enumerate(todo):
+        for k, (w, h, a, *_r) in todo:
             sh, sa = score(h, talent, w), score(a, talent, w)
             p_[h] += sh; p_[a] += sa
             if sh > sa: w_[h] += 1
@@ -308,13 +315,19 @@ def simulate(league, week, week_started, seed, n_sims=N_SIMS):
     out_teams.sort(key=lambda x: -x["champ"])
 
     matchups = []
-    for k, (w, h, a, *_r) in enumerate(todo):
+    for k, (w, h, a, hs, as_, winner, *_r) in enumerate(sched):
         if w != week:
             continue
-        m = {"home": h, "away": a, "homeWin": round(this_week.get(k, 0) / n_sims, 4)}
-        if week_started:
-            m.update(homePts=round(live[h][0], 2), awayPts=round(live[a][0], 2),
-                     homeProj=round(live[h][0] + live[h][1], 1), awayProj=round(live[a][0] + live[a][1], 1))
+        if confirmed(sched[k]):
+            probability = 0.5 if winner == "TIE" else 1.0 if winner == "HOME" else 0.0
+            m = {"home": h, "away": a, "homeWin": probability,
+                 "homePts": round(hs, 2), "awayPts": round(as_, 2),
+                 "homeProj": round(hs, 1), "awayProj": round(as_, 1)}
+        else:
+            m = {"home": h, "away": a, "homeWin": round(this_week.get(k, 0) / n_sims, 4)}
+            if week_started:
+                m.update(homePts=round(live[h][0], 2), awayPts=round(live[a][0], 2),
+                         homeProj=round(live[h][0] + live[h][1], 1), awayProj=round(live[a][0] + live[a][1], 1))
         matchups.append(m)
 
     return {"week": week, "regularSeasonWeeks": reg_weeks, "teams": out_teams, "matchups": matchups}
