@@ -31233,6 +31233,224 @@
      }
     }
    }
+  },
+  {
+   "date": "2026-09-29",
+   "label": "Week 3 \u00b7 06:00 UTC",
+   "week": 3,
+   "backfilled": false,
+   "teams": {
+    "9": {
+     "champ": 0.4827,
+     "playoff": 0.9883,
+     "projWins": 12.13
+    },
+    "2": {
+     "champ": 0.1712,
+     "playoff": 0.7784,
+     "projWins": 9.54
+    },
+    "3": {
+     "champ": 0.1329,
+     "playoff": 0.6694,
+     "projWins": 9.09
+    },
+    "6": {
+     "champ": 0.1049,
+     "playoff": 0.6335,
+     "projWins": 8.9
+    },
+    "13": {
+     "champ": 0.0551,
+     "playoff": 0.4975,
+     "projWins": 8.63
+    },
+    "4": {
+     "champ": 0.0391,
+     "playoff": 0.2615,
+     "projWins": 7.13
+    },
+    "1": {
+     "champ": 0.0074,
+     "playoff": 0.1022,
+     "projWins": 6.43
+    },
+    "11": {
+     "champ": 0.0062,
+     "playoff": 0.0573,
+     "projWins": 5.45
+    },
+    "5": {
+     "champ": 0.0003,
+     "playoff": 0.0063,
+     "projWins": 3.87
+    },
+    "12": {
+     "champ": 0.0003,
+     "playoff": 0.0056,
+     "projWins": 3.83
+    }
+   },
+   "at": "2026-09-29T06:00:00Z",
+   "changes": {
+    "9": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.0161,
+     "text": "Saquon Barkley now has 9 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "actual: Saquon Barkley 0.0 -> 9.0",
+      "actual: D'Andre Swift 0.0 -> 10.8"
+     ],
+     "showTooltip": true
+    },
+    "2": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0056,
+     "text": "Rome Odunze now has 7.4 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "actual: Rome Odunze 0.0 -> 7.4",
+      "actual: Luther Burden III 1.7 -> 19.8"
+     ],
+     "showTooltip": true
+    },
+    "3": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "model",
+     "delta": 0.0184,
+     "text": "DeVonta Smith scored 12.5 fantasy points for the fantasy team rostering him, updating the matchup outlook and playoff race.",
+     "facts": [
+      "actual: DeVonta Smith 0.0 -> 12.5"
+     ],
+     "showTooltip": true
+    },
+    "13": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0204,
+     "text": "Eagles D/ST now has -1 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "actual: Eagles D/ST 10.0 -> -1.0",
+      "actual: Bears D/ST 10.0 -> 13.0"
+     ],
+     "showTooltip": true
+    }
+   },
+   "explanations": {
+    "9": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Saquon Barkley now has 9 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.0161,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Saquon Barkley now has 9 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.11,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "2": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Rome Odunze now has 7.4 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.0056,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "3": {
+     "champ": {
+      "cause": "score_update",
+      "text": "DeVonta Smith scored 12.5 fantasy points for the fantasy team rostering him, updating the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.0184,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "DeVonta Smith scored 12.5 fantasy points for the fantasy team rostering him, updating the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.0634,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "DeVonta Smith scored 12.5 fantasy points for the fantasy team rostering him, updating the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.23,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "6": {
+     "champ": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.0084,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.0055,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "13": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Eagles D/ST now has -1 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.0204,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Eagles D/ST now has -1 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.0663,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Eagles D/ST now has -1 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.26,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "4": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.009,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    }
+   }
   }
  ]
 }
