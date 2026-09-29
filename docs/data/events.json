@@ -1714,5 +1714,39 @@
     "after": 0.0001
    }
   ]
+ },
+ {
+  "id": "injury-3918298-2026-09-29T00:00:00Z",
+  "kind": "I",
+  "at": "2026-09-29T00:00:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: Josh Allen is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0043,
+    "after": 0.0066
+   }
+  ]
+ },
+ {
+  "id": "injury-4429160-2026-09-29T00:00:00Z",
+  "kind": "I",
+  "at": "2026-09-29T00:00:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Sabre Raiders: De'Von Achane is now listed as injury reserve.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.1605,
+    "after": 0.1768
+   }
+  ]
  }
 ]
