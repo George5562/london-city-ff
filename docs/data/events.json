@@ -1867,5 +1867,140 @@
     "after": 0.058
    }
   ]
+ },
+ {
+  "id": "trade-eb2ebbd0-4ec7-4b35-88bb-8f19000ec00b",
+  "kind": "T",
+  "at": "2026-09-29T21:00:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Dropped Kenyon Sadiq.",
+  "moves": [
+   {
+    "player": "Kenyon Sadiq",
+    "position": "TE",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.1837,
+    "after": 0.2422
+   }
+  ]
+ },
+ {
+  "id": "trade-cf1b825c-0142-4d9b-8b1d-cdcf40c88232",
+  "kind": "T",
+  "at": "2026-09-29T21:00:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Added Jakobi Meyers (WR); dropped De'Von Achane (RB).",
+  "moves": [
+   {
+    "player": "Jakobi Meyers",
+    "position": "WR",
+    "action": "add"
+   },
+   {
+    "player": "De'Von Achane",
+    "position": "RB",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.1837,
+    "after": 0.2422
+   }
+  ]
+ },
+ {
+  "id": "trade-2bbaaaf4-2786-43d2-91b5-68c632055345",
+  "kind": "T",
+  "at": "2026-09-29T21:00:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Added Vikings D/ST; dropped Bengals D/ST.",
+  "moves": [
+   {
+    "player": "Vikings D/ST",
+    "position": "D/ST",
+    "action": "add"
+   },
+   {
+    "player": "Bengals D/ST",
+    "position": "D/ST",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.1837,
+    "after": 0.2422
+   }
+  ]
+ },
+ {
+  "id": "trade-9576b9ed-d2c2-48d8-a0b5-96f4ee0198b5",
+  "kind": "T",
+  "at": "2026-09-29T21:00:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Added Keenan Allen; Dropped Brian Thomas Jr.",
+  "moves": [
+   {
+    "player": "Keenan Allen",
+    "position": "WR",
+    "action": "add"
+   },
+   {
+    "player": "Brian Thomas Jr.",
+    "position": "WR",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0705,
+    "after": 0.0631
+   }
+  ]
+ },
+ {
+  "id": "trade-5510cefa-6e1a-4f36-8866-fc6f38372f88",
+  "kind": "T",
+  "at": "2026-09-29T21:00:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Added Braelon Allen; Dropped Rico Dowdle.",
+  "moves": [
+   {
+    "player": "Braelon Allen",
+    "position": "RB",
+    "action": "add"
+   },
+   {
+    "player": "Rico Dowdle",
+    "position": "RB",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.1837,
+    "after": 0.2422
+   }
+  ]
  }
 ]
