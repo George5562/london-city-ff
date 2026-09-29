@@ -303,7 +303,7 @@ function renderChart() {
     s+=`<path id="race-line-${id}" d="${path}" clip-path="url(#race-reveal)" fill="none" stroke="${TEAM_COLORS[id]||'#aaa'}" opacity="${selected.includes(id)?1:.14}" stroke-width="${selected.includes(id)?2.6:1.2}" stroke-linecap="round"/>`;
   });
   GAME_WINDOWS.forEach(([start,end,label])=>{const a=Math.max(t0,Date.parse(start)),b=Math.min(t1,Date.parse(end));if(b>a){s+=`<rect x="${x(a)}" y="${m.t}" width="${x(b)-x(a)}" height="${ih}" fill="#050507" opacity=".19"/><line x1="${x(a)}" x2="${x(a)}" y1="${m.t}" y2="${m.t+ih}" stroke="#fff" opacity=".22"/>`;if(x(b)-x(a)>35)s+=`<text x="${(x(a)+x(b))/2}" y="18" text-anchor="middle" font-size="9" fill="#9faad0">${label}</text>`;}});
-  selected.forEach(id => history.forEach((sn,i)=>{if(significant(sn,i,id))s+=`<circle clip-path="url(#race-reveal)" class="event-marker" cx="${x(dates[i])}" cy="${y(smoothed[id][i])}" r="3.5" fill="#fff" stroke="#050507" stroke-width="1.5"/>`;}));
+  selected.forEach(id => history.forEach((sn,i)=>{if(significant(sn,i,id))s+=`<circle clip-path="url(#race-reveal)" class="event-marker" data-team="${id}" cx="${x(dates[i])}" cy="${y(smoothed[id][i])}" r="3.5" fill="#fff" stroke="#050507" stroke-width="1.5"/>`;}));
   s += `<line id="xh" y1="${m.t}" y2="${m.t + ih}" stroke="${t3}" stroke-dasharray="3 4"/>`;
   selected.forEach(id=>{s+=`<g class="race-head" id="race-head-${id}"><circle r="14" fill="#08080b" stroke="${TEAM_COLORS[id]}" stroke-width="2"/><image href="${logoOf(id)}" x="-12" y="-12" width="24" height="24" clip-path="url(#round-logo)"/><text id="race-value-${id}" x="20" y="4" fill="${TEAM_COLORS[id]}" font-size="12" font-weight="700" stroke="#08080b" stroke-width="4" paint-order="stroke" style="font-variant-numeric:tabular-nums"></text><title>${esc(teams[id].name)}</title></g>`;});
   s += `<rect id="hit" x="${m.l}" y="${m.t}" width="${iw}" height="${ih}" fill="transparent"/>`;
@@ -321,15 +321,21 @@ function renderChart() {
     });
   });
   const visibleEvents=timelineEvents.filter(e=>Date.parse(e.at)>=t0&&Date.parse(e.at)<=t1);
-  visibleEvents.forEach(e=>e.teams.forEach(id=>{if(!teams[id])return;const time=Date.parse(e.at),cx=x(time),cy=y(smoothAt(id,time)),color=e.kind==='T'?'#579df0':'#c3a0ff';s+=`<g class="result-badge" data-event="${esc(e.id)}" data-team="${id}" data-time="${time}" data-x="${cx}" data-y="${cy}" role="button" tabindex="0" aria-label="${esc(teams[id].name)} ${e.kind==='T'?'roster transaction':'injury'}"><circle cx="${cx}" cy="${cy}" r="8" fill="#09090d" stroke="${color}" stroke-width="1.5"/><text x="${cx}" y="${cy+3}" text-anchor="middle" font-size="9" font-weight="800" fill="${color}">${e.kind}</text></g>`;}));
+  visibleEvents.forEach(e=>e.teams.forEach(id=>{if(!teams[id])return;const time=Date.parse(e.at),cx=x(time),cy=y(smoothAt(id,time)),color=e.kind==='T'?'#579df0':'#c3a0ff';s+=`<g class="result-badge" data-event="${esc(e.id)}" data-team="${id}" data-time="${time}" data-x="${cx}" data-y="${cy}" role="button" tabindex="0" aria-label="${esc(teams[id].name)} ${e.kind==='T'?'roster transaction':'injury'}"><circle cx="${cx}" cy="${cy}" r="8" fill="transparent" pointer-events="all"/><circle cx="${cx}" cy="${cy}" r="3" fill="${color}" stroke="#09090d" stroke-width=".7" pointer-events="none"/></g>`;}));
   svg.innerHTML = s;
   box.querySelector('.match-report')?.remove();
-  const closeReport=()=>{openMatch=null;selected=[...STACK_ORDER];render();};
-  const focusMarkers=predicate=>svg.querySelectorAll('.result-badge').forEach(marker=>{
-    const active=predicate(marker);
-    marker.style.opacity=active?'1':'.17';
-    marker.style.filter=active?'none':'grayscale(1)';
-  });
+  let focusedTeams=null;
+  const closeReport=()=>{openMatch=null;render();};
+  const focusMarkers=(teamIds,predicate)=>{
+    focusedTeams=teamIds;
+    svg.querySelectorAll('.result-badge').forEach(marker=>{
+      const active=predicate(marker);
+      marker.style.opacity=active?'1':'.17';
+      marker.style.filter=active?'none':'grayscale(1)';
+    });
+    svg.querySelectorAll('.race-head').forEach(head=>{head.style.visibility=teamIds.includes(Number(head.id.replace('race-head-','')))?'visible':'hidden';});
+    paint();
+  };
   const dockReport=(panel,badge)=>{
     box.append(panel);const scale=svg.getBoundingClientRect().width/W;
     // Anchor beside and above the selected icon, never over the plot's event itself.
@@ -341,8 +347,8 @@ function renderChart() {
     if(badge.dataset.event){
       const event=visibleEvents.find(e=>e.id===badge.dataset.event);if(!event)return;
       racePlaying=false;cancelAnimationFrame(raceFrame);openMatch=event.id;tip.style.opacity=0;document.getElementById('race-pause').textContent='Play';
-      focusMarkers(marker=>marker.dataset.event===event.id);
-      STACK_ORDER.forEach(id=>{const active=event.teams.includes(id),line=svg.querySelector(`#race-line-${id}`);line.setAttribute('stroke',active?TEAM_COLORS[id]:'#777780');line.setAttribute('opacity',active?'1':'.25');const head=svg.querySelector(`#race-head-${id}`);if(head)head.style.opacity=active?'1':'.2';});
+      focusMarkers(event.teams,marker=>marker.dataset.event===event.id);
+      STACK_ORDER.forEach(id=>{const active=event.teams.includes(id),line=svg.querySelector(`#race-line-${id}`);line.setAttribute('stroke',active?TEAM_COLORS[id]:'#777780');line.setAttribute('opacity',active?'1':'.25');});
       box.querySelector('.match-report')?.remove();const panel=document.createElement('div');panel.className='match-report';panel.setAttribute('role','dialog');panel.setAttribute('aria-label',event.kind==='T'?'Roster transaction':'Injury report');
       const teamId=Number(badge.dataset.team),change=(event.changes||[]).find(c=>c.team===teamId);
       const involvedTeams=event.teams.filter(id=>teams[id]).map(id=>`<span class="involved-team"><img src="${esc(logoOf(id))}" alt="${esc(teams[id].name)}"><span>${esc(teams[id].name)}</span></span>`).join('');
@@ -354,8 +360,8 @@ function renderChart() {
     const match=results.find(r=>r.id===badge.dataset.result);if(!match)return;
     racePlaying=false;cancelAnimationFrame(raceFrame);openMatch=match.id;tip.style.opacity=0;
     document.getElementById('race-pause').textContent='Play';
-    focusMarkers(marker=>marker.dataset.result===match.id);
-    STACK_ORDER.forEach(id=>{const active=[match.home,match.away].includes(id),line=svg.querySelector(`#race-line-${id}`);line.setAttribute('stroke',active?TEAM_COLORS[id]:'#777780');line.setAttribute('opacity',active?'1':'.25');const head=svg.querySelector(`#race-head-${id}`);if(head)head.style.opacity=active?'1':'.2';});
+    focusMarkers([match.home,match.away],marker=>marker.dataset.result===match.id);
+    STACK_ORDER.forEach(id=>{const active=[match.home,match.away].includes(id),line=svg.querySelector(`#race-line-${id}`);line.setAttribute('stroke',active?TEAM_COLORS[id]:'#777780');line.setAttribute('opacity',active?'1':'.25');});
     box.querySelector('.match-report')?.remove();const panel=document.createElement('div');panel.className='match-report';panel.setAttribute('role','dialog');panel.setAttribute('aria-label',`Week ${match.week} match report`);
     const side=(id,score)=>{const outcome=match.winner==='TIE'?'T':match.winner===(id===match.home?'HOME':'AWAY')?'W':'L';return `<div class="report-team"><div class="report-score"><img src="${logoOf(id)}" alt=""><strong>${Number(score.toFixed(2))}</strong></div><div class="report-name">${esc(teams[id].name)}</div><span class="report-outcome ${outcome==='W'?'won':'lost'}">${outcome==='W'?'WIN':outcome==='L'?'LOSS':'TIE'}</span></div>`;};
     const winner=match.winner==='TIE'?null:teams[match.winner==='HOME'?match.home:match.away];
@@ -363,7 +369,7 @@ function renderChart() {
     dockReport(panel,badge);
   };
   svg.querySelectorAll('.result-badge').forEach(b=>{b.onclick=e=>{e.stopPropagation();showReport(b);};b.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();showReport(b);}};});
-  document.onpointerdown=e=>{if(openMatch&&!e.target.closest('.match-report,.result-badge'))closeReport();};
+  document.onpointerdown=e=>{if(openMatch&&!e.target.closest('.match-report,.result-badge'))requestAnimationFrame(closeReport);};
 
   const tip = document.getElementById("tip"), xh = svg.querySelector("#xh");
   const paint=()=>{
@@ -371,7 +377,9 @@ function renderChart() {
     svg.querySelector('#race-clip').setAttribute('width',iw*raceProgress);
     xh.setAttribute('x1',cx);xh.setAttribute('x2',cx);
     const time=t0+(t1-t0)*raceProgress;
-    svg.querySelectorAll('.result-badge,.result-column').forEach(el=>{const visible=Number(el.dataset.time)<=time;el.style.visibility=visible?'visible':'hidden';el.style.pointerEvents=visible?'auto':'none';if(visible&&el.dataset.revealed!=='yes')el.classList.add('pop');if(!visible)el.classList.remove('pop');el.dataset.revealed=visible?'yes':'no';});
+    const activeTeams=focusedTeams||selected;
+    svg.querySelectorAll('.result-badge,.result-column').forEach(el=>{const visible=Number(el.dataset.time)<=time&&(!el.classList.contains('result-badge')||activeTeams.includes(Number(el.dataset.team)));el.style.visibility=visible?'visible':'hidden';el.style.pointerEvents=visible?'auto':'none';if(visible&&el.dataset.revealed!=='yes')el.classList.add('pop');if(!visible)el.classList.remove('pop');el.dataset.revealed=visible?'yes':'no';});
+    svg.querySelectorAll('.event-marker').forEach(el=>{el.style.visibility=activeTeams.includes(Number(el.dataset.team))?'visible':'hidden';});
     let right=dates.findIndex(d=>+d>=time);if(right<0)right=dates.length-1;
     const left=Math.max(0,right-1),span=+dates[right]-dates[left];
     const fraction=span?Math.max(0,Math.min(1,(time-dates[left])/span)):1;
