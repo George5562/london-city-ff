@@ -2047,5 +2047,33 @@
     "after": 0.0003
    }
   ]
+ },
+ {
+  "id": "trade-93999cab-5fa1-4f3c-b1fc-c285091e343f",
+  "kind": "T",
+  "at": "2026-09-30T12:30:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Claimed RB Rico Dowdle off waivers; dropped QB Bo Nix.",
+  "moves": [
+   {
+    "player": "Rico Dowdle",
+    "position": "RB",
+    "action": "claim"
+   },
+   {
+    "player": "Bo Nix",
+    "position": "QB",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0646,
+    "after": 0.0583
+   }
+  ]
  }
 ]
