@@ -2143,5 +2143,266 @@
     "after": 0.0009
    }
   ]
+ },
+ {
+  "id": "injury-3918298-2026-09-30T22:30:00Z",
+  "kind": "I",
+  "at": "2026-09-30T22:30:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: Josh Allen is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0028,
+    "after": 0.0029
+   }
+  ]
+ },
+ {
+  "id": "injury-3916387-2026-09-30T22:30:00Z",
+  "kind": "I",
+  "at": "2026-09-30T22:30:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Goats: Lamar Jackson is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.1502,
+    "after": 0.1505
+   }
+  ]
+ },
+ {
+  "id": "injury-4429615-2026-09-30T22:30:00Z",
+  "kind": "I",
+  "at": "2026-09-30T22:30:00Z",
+  "teams": [
+   13
+  ],
+  "text": "Salisbury Screamers: Zay Flowers is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 13,
+    "before": 0.1842,
+    "after": 0.1829
+   }
+  ]
+ },
+ {
+  "id": "injury-4596448-2026-09-30T22:30:00Z",
+  "kind": "I",
+  "at": "2026-09-30T22:30:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Sabre Raiders: Bucky Irving is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.245,
+    "after": 0.2442
+   }
+  ]
+ },
+ {
+  "id": "injury-4612826-2026-09-30T22:30:00Z",
+  "kind": "I",
+  "at": "2026-09-30T22:30:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: Ladd McConkey is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0028,
+    "after": 0.0029
+   }
+  ]
+ },
+ {
+  "id": "injury-3915416-2026-09-30T22:30:00Z",
+  "kind": "I",
+  "at": "2026-09-30T22:30:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: DJ Moore is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0028,
+    "after": 0.0029
+   }
+  ]
+ },
+ {
+  "id": "injury-4372016-2026-09-30T22:30:00Z",
+  "kind": "I",
+  "at": "2026-09-30T22:30:00Z",
+  "teams": [
+   6
+  ],
+  "text": "The Le Chable Dolphins: Jaylen Waddle is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.0425,
+    "after": 0.0423
+   }
+  ]
+ },
+ {
+  "id": "injury-4038815-2026-09-30T22:30:00Z",
+  "kind": "I",
+  "at": "2026-09-30T22:30:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Rico Dowdle is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.06,
+    "after": 0.0598
+   }
+  ]
+ },
+ {
+  "id": "injury-3916433-2026-09-30T22:30:00Z",
+  "kind": "I",
+  "at": "2026-09-30T22:30:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Sabre Raiders: Jakobi Meyers is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.245,
+    "after": 0.2442
+   }
+  ]
+ },
+ {
+  "id": "injury-3116165-2026-09-30T22:30:00Z",
+  "kind": "I",
+  "at": "2026-09-30T22:30:00Z",
+  "teams": [
+   9
+  ],
+  "text": "GiantPunt: Chris Godwin Jr. is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.2967,
+    "after": 0.2969
+   }
+  ]
+ },
+ {
+  "id": "injury-4362249-2026-09-30T22:30:00Z",
+  "kind": "I",
+  "at": "2026-09-30T22:30:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Love hurts: Jayden Reed is now listed as injury reserve.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0009,
+    "after": 0.0008
+   }
+  ]
+ },
+ {
+  "id": "trade-dea4c739-19d7-48f1-9493-b3ec3919a092",
+  "kind": "T",
+  "at": "2026-09-30T22:30:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Added Jets D/ST; dropped 49ers D/ST.",
+  "moves": [
+   {
+    "player": "Jets D/ST",
+    "position": "D/ST",
+    "action": "add"
+   },
+   {
+    "player": "49ers D/ST",
+    "position": "D/ST",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.06,
+    "after": 0.0598
+   }
+  ]
+ },
+ {
+  "id": "trade-c26db27d-575e-4e21-b93b-fdeb77c3c1ca",
+  "kind": "T",
+  "at": "2026-09-30T22:30:00Z",
+  "teams": [
+   1
+  ],
+  "text": "Dropped Jacory Croskey-Merritt.",
+  "moves": [
+   {
+    "player": "Jacory Croskey-Merritt",
+    "position": "RB",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.0175,
+    "after": 0.0193
+   }
+  ]
+ },
+ {
+  "id": "trade-8cb044ff-69c0-424a-a289-c6bc2c7b62a1",
+  "kind": "T",
+  "at": "2026-09-30T22:30:00Z",
+  "teams": [
+   1
+  ],
+  "text": "Added Kalif Raymond.",
+  "moves": [
+   {
+    "player": "Kalif Raymond",
+    "position": "WR",
+    "action": "add"
+   }
+  ],
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.0175,
+    "after": 0.0193
+   }
+  ]
  }
 ]
