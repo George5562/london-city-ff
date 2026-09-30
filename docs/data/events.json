@@ -2002,5 +2002,22 @@
     "after": 0.2422
    }
   ]
+ },
+ {
+  "id": "injury-4372016-2026-09-30T00:30:00Z",
+  "kind": "I",
+  "at": "2026-09-30T00:30:00Z",
+  "teams": [
+   6
+  ],
+  "text": "The Le Chable Dolphins: Jaylen Waddle is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.0513,
+    "after": 0.0497
+   }
+  ]
  }
 ]

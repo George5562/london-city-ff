@@ -12,11 +12,11 @@
    "pf": 487.1,
    "projPerGame": 129.2,
    "strength": 138.3,
-   "projWins": 10.86,
-   "playoff": 0.9254,
-   "final": 0.5364,
-   "champ": 0.2932,
-   "topSeed": 0.447,
+   "projWins": 10.84,
+   "playoff": 0.9242,
+   "final": 0.5324,
+   "champ": 0.2955,
+   "topSeed": 0.4508,
    "lineup": [
     {
      "name": "Kenneth Walker III",
@@ -75,11 +75,11 @@
    "pf": 413.48,
    "projPerGame": 136.7,
    "strength": 137.0,
-   "projWins": 9.95,
-   "playoff": 0.8264,
-   "final": 0.4536,
-   "champ": 0.2422,
-   "topSeed": 0.2172,
+   "projWins": 9.94,
+   "playoff": 0.8235,
+   "final": 0.4583,
+   "champ": 0.241,
+   "topSeed": 0.2132,
    "lineup": [
     {
      "name": "Jaxon Smith-Njigba",
@@ -139,10 +139,10 @@
    "projPerGame": 138.1,
    "strength": 132.2,
    "projWins": 9.92,
-   "playoff": 0.7635,
-   "final": 0.3685,
-   "champ": 0.1794,
-   "topSeed": 0.1792,
+   "playoff": 0.7646,
+   "final": 0.3714,
+   "champ": 0.1817,
+   "topSeed": 0.1765,
    "lineup": [
     {
      "name": "Bijan Robinson",
@@ -202,10 +202,10 @@
    "projPerGame": 135.1,
    "strength": 132.0,
    "projWins": 9.01,
-   "playoff": 0.6299,
-   "final": 0.3099,
-   "champ": 0.1498,
-   "topSeed": 0.0956,
+   "playoff": 0.628,
+   "final": 0.3029,
+   "champ": 0.1464,
+   "topSeed": 0.0985,
    "lineup": [
     {
      "name": "Jahmyr Gibbs",
@@ -264,11 +264,11 @@
    "pf": 346.08,
    "projPerGame": 132.1,
    "strength": 127.5,
-   "projWins": 7.55,
-   "playoff": 0.3231,
-   "final": 0.1426,
-   "champ": 0.0631,
-   "topSeed": 0.0261,
+   "projWins": 7.52,
+   "playoff": 0.3169,
+   "final": 0.1411,
+   "champ": 0.0644,
+   "topSeed": 0.0252,
    "lineup": [
     {
      "name": "Ja'Marr Chase",
@@ -328,10 +328,10 @@
    "projPerGame": 118.4,
    "strength": 120.7,
    "projWins": 7.82,
-   "playoff": 0.3449,
-   "final": 0.1294,
-   "champ": 0.0513,
-   "topSeed": 0.0266,
+   "playoff": 0.3507,
+   "final": 0.1316,
+   "champ": 0.0497,
+   "topSeed": 0.0271,
    "lineup": [
     {
      "name": "Trevor Lawrence",
@@ -390,11 +390,11 @@
    "pf": 308.12,
    "projPerGame": 119.1,
    "strength": 114.6,
-   "projWins": 6.9,
-   "playoff": 0.1442,
-   "final": 0.0469,
-   "champ": 0.0164,
-   "topSeed": 0.0076,
+   "projWins": 6.91,
+   "playoff": 0.1498,
+   "final": 0.0498,
+   "champ": 0.0175,
+   "topSeed": 0.0081,
    "lineup": [
     {
      "name": "Brock Purdy",
@@ -454,9 +454,9 @@
    "projPerGame": 112.2,
    "strength": 112.6,
    "projWins": 4.89,
-   "playoff": 0.0271,
-   "final": 0.0083,
-   "champ": 0.0029,
+   "playoff": 0.0255,
+   "final": 0.0076,
+   "champ": 0.0024,
    "topSeed": 0.0003,
    "lineup": [
     {
@@ -516,11 +516,11 @@
    "pf": 291.38,
    "projPerGame": 114.7,
    "strength": 109.9,
-   "projWins": 4.32,
-   "playoff": 0.0109,
-   "final": 0.0032,
-   "champ": 0.0014,
-   "topSeed": 0.0002,
+   "projWins": 4.33,
+   "playoff": 0.0123,
+   "final": 0.0037,
+   "champ": 0.001,
+   "topSeed": 0.0001,
    "lineup": [
     {
      "name": "Christian McCaffrey",
@@ -579,9 +579,9 @@
    "pf": 263.1,
    "projPerGame": 106.3,
    "strength": 101.2,
-   "projWins": 3.78,
-   "playoff": 0.0045,
-   "final": 0.0011,
+   "projWins": 3.81,
+   "playoff": 0.0046,
+   "final": 0.0012,
    "champ": 0.0003,
    "topSeed": 0.0001,
    "lineup": [
@@ -637,28 +637,28 @@
   {
    "home": 2,
    "away": 3,
-   "homeWin": 0.5466
+   "homeWin": 0.546
   },
   {
    "home": 12,
    "away": 11,
-   "homeWin": 0.3715
+   "homeWin": 0.3779
   },
   {
    "home": 6,
    "away": 1,
-   "homeWin": 0.554
+   "homeWin": 0.5517
   },
   {
    "home": 5,
    "away": 9,
-   "homeWin": 0.2238
+   "homeWin": 0.2338
   },
   {
    "home": 13,
    "away": 4,
-   "homeWin": 0.5609
+   "homeWin": 0.5641
   }
  ],
- "generated": "2026-09-29T21:21+00:00"
+ "generated": "2026-09-30T00:44+00:00"
 }
