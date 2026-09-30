@@ -2075,5 +2075,73 @@
     "after": 0.0583
    }
   ]
+ },
+ {
+  "id": "injury-4427366-2026-09-30T18:00:00Z",
+  "kind": "I",
+  "at": "2026-09-30T18:00:00Z",
+  "teams": [
+   6
+  ],
+  "text": "The Le Chable Dolphins: Breece Hall is now listed as doubtful.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.05,
+    "after": 0.0425
+   }
+  ]
+ },
+ {
+  "id": "injury-3916148-2026-09-30T18:00:00Z",
+  "kind": "I",
+  "at": "2026-09-30T18:00:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Goats: Tony Pollard is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.1479,
+    "after": 0.1502
+   }
+  ]
+ },
+ {
+  "id": "injury-4697815-2026-09-30T18:00:00Z",
+  "kind": "I",
+  "at": "2026-09-30T18:00:00Z",
+  "teams": [
+   9
+  ],
+  "text": "GiantPunt: Rachaad White is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.2959,
+    "after": 0.2967
+   }
+  ]
+ },
+ {
+  "id": "injury-4362249-2026-09-30T18:00:00Z",
+  "kind": "I",
+  "at": "2026-09-30T18:00:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Love hurts: Jayden Reed is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0009,
+    "after": 0.0009
+   }
+  ]
  }
 ]
