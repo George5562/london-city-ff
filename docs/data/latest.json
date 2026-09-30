@@ -12,11 +12,11 @@
    "pf": 487.1,
    "projPerGame": 129.2,
    "strength": 138.3,
-   "projWins": 10.84,
-   "playoff": 0.9242,
-   "final": 0.5324,
-   "champ": 0.2955,
-   "topSeed": 0.4508,
+   "projWins": 10.83,
+   "playoff": 0.924,
+   "final": 0.5323,
+   "champ": 0.2952,
+   "topSeed": 0.4512,
    "lineup": [
     {
      "name": "Kenneth Walker III",
@@ -75,11 +75,11 @@
    "pf": 413.48,
    "projPerGame": 136.7,
    "strength": 137.0,
-   "projWins": 9.94,
-   "playoff": 0.8235,
-   "final": 0.4583,
+   "projWins": 9.93,
+   "playoff": 0.8225,
+   "final": 0.458,
    "champ": 0.241,
-   "topSeed": 0.2132,
+   "topSeed": 0.213,
    "lineup": [
     {
      "name": "Jaxon Smith-Njigba",
@@ -139,10 +139,10 @@
    "projPerGame": 138.1,
    "strength": 132.2,
    "projWins": 9.92,
-   "playoff": 0.7646,
-   "final": 0.3714,
+   "playoff": 0.7645,
+   "final": 0.3715,
    "champ": 0.1817,
-   "topSeed": 0.1765,
+   "topSeed": 0.1767,
    "lineup": [
     {
      "name": "Bijan Robinson",
@@ -202,10 +202,10 @@
    "projPerGame": 135.1,
    "strength": 132.0,
    "projWins": 9.01,
-   "playoff": 0.628,
+   "playoff": 0.6279,
    "final": 0.3029,
-   "champ": 0.1464,
-   "topSeed": 0.0985,
+   "champ": 0.1466,
+   "topSeed": 0.0983,
    "lineup": [
     {
      "name": "Jahmyr Gibbs",
@@ -265,10 +265,10 @@
    "projPerGame": 132.1,
    "strength": 127.5,
    "projWins": 7.52,
-   "playoff": 0.3169,
-   "final": 0.1411,
-   "champ": 0.0644,
-   "topSeed": 0.0252,
+   "playoff": 0.3172,
+   "final": 0.1409,
+   "champ": 0.0646,
+   "topSeed": 0.0251,
    "lineup": [
     {
      "name": "Ja'Marr Chase",
@@ -327,10 +327,10 @@
    "pf": 380.4,
    "projPerGame": 118.4,
    "strength": 120.7,
-   "projWins": 7.82,
-   "playoff": 0.3507,
+   "projWins": 7.81,
+   "playoff": 0.35,
    "final": 0.1316,
-   "champ": 0.0497,
+   "champ": 0.0495,
    "topSeed": 0.0271,
    "lineup": [
     {
@@ -390,9 +390,9 @@
    "pf": 308.12,
    "projPerGame": 119.1,
    "strength": 114.6,
-   "projWins": 6.91,
-   "playoff": 0.1498,
-   "final": 0.0498,
+   "projWins": 6.9,
+   "playoff": 0.1499,
+   "final": 0.0499,
    "champ": 0.0175,
    "topSeed": 0.0081,
    "lineup": [
@@ -453,10 +453,10 @@
    "pf": 340.84,
    "projPerGame": 112.2,
    "strength": 112.6,
-   "projWins": 4.89,
-   "playoff": 0.0255,
-   "final": 0.0076,
-   "champ": 0.0024,
+   "projWins": 4.97,
+   "playoff": 0.0272,
+   "final": 0.0081,
+   "champ": 0.0027,
    "topSeed": 0.0003,
    "lineup": [
     {
@@ -516,8 +516,8 @@
    "pf": 291.38,
    "projPerGame": 114.7,
    "strength": 109.9,
-   "projWins": 4.33,
-   "playoff": 0.0123,
+   "projWins": 4.32,
+   "playoff": 0.0121,
    "final": 0.0037,
    "champ": 0.001,
    "topSeed": 0.0001,
@@ -577,11 +577,11 @@
    "wins": 0,
    "losses": 3,
    "pf": 263.1,
-   "projPerGame": 106.3,
-   "strength": 101.2,
-   "projWins": 3.81,
-   "playoff": 0.0046,
-   "final": 0.0012,
+   "projPerGame": 107.2,
+   "strength": 101.9,
+   "projWins": 3.8,
+   "playoff": 0.0048,
+   "final": 0.0011,
    "champ": 0.0003,
    "topSeed": 0.0001,
    "lineup": [
@@ -611,9 +611,9 @@
      "pts": 9.5
     },
     {
-     "name": "Nick Folk",
+     "name": "Tyler Loop",
      "pos": "K",
-     "pts": 8.3
+     "pts": 9.2
     },
     {
      "name": "Mark Andrews",
@@ -642,7 +642,7 @@
   {
    "home": 12,
    "away": 11,
-   "homeWin": 0.3779
+   "homeWin": 0.3849
   },
   {
    "home": 6,
@@ -660,5 +660,5 @@
    "homeWin": 0.5641
   }
  ],
- "generated": "2026-09-30T00:44+00:00"
+ "generated": "2026-09-30T06:36+00:00"
 }

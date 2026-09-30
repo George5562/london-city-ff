@@ -2019,5 +2019,33 @@
     "after": 0.0497
    }
   ]
+ },
+ {
+  "id": "trade-dc3e97d3-ece2-44fc-b1ee-b1d4f48d0f95",
+  "kind": "T",
+  "at": "2026-09-30T06:30:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Added Tyler Loop; dropped Nick Folk.",
+  "moves": [
+   {
+    "player": "Tyler Loop",
+    "position": "K",
+    "action": "add"
+   },
+   {
+    "player": "Nick Folk",
+    "position": "K",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0003,
+    "after": 0.0003
+   }
+  ]
  }
 ]
