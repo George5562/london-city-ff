@@ -2438,5 +2438,73 @@
     "after": 0.2962
    }
   ]
+ },
+ {
+  "id": "injury-4259545-2026-10-01T20:00:00Z",
+  "kind": "I",
+  "at": "2026-10-01T20:00:00Z",
+  "teams": [
+   9
+  ],
+  "text": "GiantPunt: D'Andre Swift is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.2962,
+    "after": 0.2962
+   }
+  ]
+ },
+ {
+  "id": "injury-3916148-2026-10-01T20:00:00Z",
+  "kind": "I",
+  "at": "2026-10-01T20:00:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Goats: Tony Pollard is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.1486,
+    "after": 0.1486
+   }
+  ]
+ },
+ {
+  "id": "injury-3116165-2026-10-01T20:00:00Z",
+  "kind": "I",
+  "at": "2026-10-01T20:00:00Z",
+  "teams": [
+   9
+  ],
+  "text": "GiantPunt: Chris Godwin Jr. is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.2962,
+    "after": 0.2962
+   }
+  ]
+ },
+ {
+  "id": "injury-15818-2026-10-01T20:00:00Z",
+  "kind": "I",
+  "at": "2026-10-01T20:00:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Keenan Allen is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0612,
+    "after": 0.0612
+   }
+  ]
  }
 ]
