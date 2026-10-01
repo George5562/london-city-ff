@@ -2404,5 +2404,39 @@
     "after": 0.0193
    }
   ]
+ },
+ {
+  "id": "injury-4241478-2026-10-01T01:00:00Z",
+  "kind": "I",
+  "at": "2026-10-01T01:00:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Goats: DeVonta Smith is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.1505,
+    "after": 0.1486
+   }
+  ]
+ },
+ {
+  "id": "injury-4685512-2026-10-01T01:00:00Z",
+  "kind": "I",
+  "at": "2026-10-01T01:00:00Z",
+  "teams": [
+   9
+  ],
+  "text": "GiantPunt: Jadarian Price is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.2969,
+    "after": 0.2962
+   }
+  ]
  }
 ]

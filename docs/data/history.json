@@ -32676,6 +32676,87 @@
      }
     }
    }
+  },
+  {
+   "date": "2026-10-01",
+   "label": "Week 4 \u00b7 01:00 UTC",
+   "week": 4,
+   "backfilled": false,
+   "teams": {
+    "9": {
+     "champ": 0.2962,
+     "playoff": 0.926,
+     "projWins": 10.88
+    },
+    "2": {
+     "champ": 0.2434,
+     "playoff": 0.8313,
+     "projWins": 9.96
+    },
+    "13": {
+     "champ": 0.1852,
+     "playoff": 0.7792,
+     "projWins": 9.98
+    },
+    "3": {
+     "champ": 0.1486,
+     "playoff": 0.6337,
+     "projWins": 9.0
+    },
+    "4": {
+     "champ": 0.0612,
+     "playoff": 0.3104,
+     "projWins": 7.46
+    },
+    "6": {
+     "champ": 0.042,
+     "playoff": 0.3127,
+     "projWins": 7.65
+    },
+    "1": {
+     "champ": 0.0186,
+     "playoff": 0.1592,
+     "projWins": 6.99
+    },
+    "11": {
+     "champ": 0.0034,
+     "playoff": 0.0305,
+     "projWins": 5.0
+    },
+    "5": {
+     "champ": 0.0011,
+     "playoff": 0.0124,
+     "projWins": 4.29
+    },
+    "12": {
+     "champ": 0.0003,
+     "playoff": 0.0047,
+     "projWins": 3.79
+    }
+   },
+   "at": "2026-10-01T01:00:00Z",
+   "explanations": {
+    "13": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0059,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "6": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.0062,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    }
+   }
   }
  ]
 }
