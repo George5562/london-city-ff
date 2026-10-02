@@ -32937,6 +32937,127 @@
    },
    "at": "2026-10-01T20:00:00Z",
    "explanations": {}
+  },
+  {
+   "date": "2026-10-02",
+   "label": "Week 4 \u00b7 00:00 UTC",
+   "week": 4,
+   "backfilled": false,
+   "teams": {
+    "9": {
+     "champ": 0.2906,
+     "playoff": 0.9288,
+     "projWins": 10.9
+    },
+    "2": {
+     "champ": 0.2488,
+     "playoff": 0.8296,
+     "projWins": 9.96
+    },
+    "13": {
+     "champ": 0.1827,
+     "playoff": 0.7705,
+     "projWins": 9.95
+    },
+    "3": {
+     "champ": 0.1519,
+     "playoff": 0.636,
+     "projWins": 9.01
+    },
+    "4": {
+     "champ": 0.0616,
+     "playoff": 0.3099,
+     "projWins": 7.46
+    },
+    "6": {
+     "champ": 0.0425,
+     "playoff": 0.3226,
+     "projWins": 7.68
+    },
+    "1": {
+     "champ": 0.0179,
+     "playoff": 0.1592,
+     "projWins": 7.0
+    },
+    "11": {
+     "champ": 0.0027,
+     "playoff": 0.0268,
+     "projWins": 4.96
+    },
+    "5": {
+     "champ": 0.0012,
+     "playoff": 0.0118,
+     "projWins": 4.28
+    },
+    "12": {
+     "champ": 0.0002,
+     "playoff": 0.0048,
+     "projWins": 3.79
+    }
+   },
+   "at": "2026-10-02T00:00:00Z",
+   "changes": {
+    "9": {
+     "cause": "external_opportunity",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0056,
+     "text": "Amon-Ra St. Brown\u2019s forecast moved from 20.1324 to 20.1451 fantasy points, raising their expected scoring contribution.",
+     "facts": [
+      "projection: Amon-Ra St. Brown 20.13241507 -> 20.14505248",
+      "projection: CeeDee Lamb 16.89190041 -> 16.88544031",
+      "projection: Kenneth Walker III 20.48672827 -> 20.50011418",
+      "projection: Chris Olave 18.26094778 -> 18.23697151",
+      "projection: Tyler Warren 13.03803995 -> 13.04275121",
+      "projection: D'Andre Swift 14.89572599 -> 14.86427043",
+      "projection: Travis Kelce 11.78927629 -> 11.78935825",
+      "injury: Travis Etienne Jr. OUT -> INJURY_RESERVE"
+     ],
+     "showTooltip": true
+    }
+   },
+   "explanations": {
+    "9": {
+     "champ": {
+      "cause": "external_opportunity",
+      "text": "Amon-Ra St. Brown\u2019s forecast moved from 20.1324 to 20.1451 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.0056,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "2": {
+     "champ": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0054,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "13": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.0087,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "6": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0099,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    }
+   }
   }
  ]
 }

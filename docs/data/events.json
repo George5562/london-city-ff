@@ -2506,5 +2506,56 @@
     "after": 0.0612
    }
   ]
+ },
+ {
+  "id": "injury-3916387-2026-10-02T00:00:00Z",
+  "kind": "I",
+  "at": "2026-10-02T00:00:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Goats: Lamar Jackson is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.1486,
+    "after": 0.1519
+   }
+  ]
+ },
+ {
+  "id": "injury-4429615-2026-10-02T00:00:00Z",
+  "kind": "I",
+  "at": "2026-10-02T00:00:00Z",
+  "teams": [
+   13
+  ],
+  "text": "Salisbury Screamers: Zay Flowers is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 13,
+    "before": 0.1852,
+    "after": 0.1827
+   }
+  ]
+ },
+ {
+  "id": "injury-4239996-2026-10-02T00:00:00Z",
+  "kind": "I",
+  "at": "2026-10-02T00:00:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Cardigan's Boys: Travis Etienne Jr. is now listed as injury reserve.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0003,
+    "after": 0.0002
+   }
+  ]
  }
 ]
