@@ -2642,5 +2642,192 @@
     "after": 0.0386
    }
   ]
+ },
+ {
+  "id": "injury-4426515-2026-10-02T22:00:00Z",
+  "kind": "I",
+  "at": "2026-10-02T22:00:00Z",
+  "teams": [
+   1
+  ],
+  "text": "Knights who say Ni: Puka Nacua is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.0248,
+    "after": 0.0255
+   }
+  ]
+ },
+ {
+  "id": "injury-4262921-2026-10-02T22:00:00Z",
+  "kind": "I",
+  "at": "2026-10-02T22:00:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Love hurts: Justin Jefferson is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0013,
+    "after": 0.0008
+   }
+  ]
+ },
+ {
+  "id": "injury-4241478-2026-10-02T22:00:00Z",
+  "kind": "I",
+  "at": "2026-10-02T22:00:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Goats: DeVonta Smith is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.1456,
+    "after": 0.1342
+   }
+  ]
+ },
+ {
+  "id": "injury-4258173-2026-10-02T22:00:00Z",
+  "kind": "I",
+  "at": "2026-10-02T22:00:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Love hurts: Nico Collins is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0013,
+    "after": 0.0008
+   }
+  ]
+ },
+ {
+  "id": "injury-4429615-2026-10-02T22:00:00Z",
+  "kind": "I",
+  "at": "2026-10-02T22:00:00Z",
+  "teams": [
+   13
+  ],
+  "text": "Salisbury Screamers: Zay Flowers is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 13,
+    "before": 0.1819,
+    "after": 0.1837
+   }
+  ]
+ },
+ {
+  "id": "injury-4596448-2026-10-02T22:00:00Z",
+  "kind": "I",
+  "at": "2026-10-02T22:00:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Sabre Raiders: Bucky Irving is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.2535,
+    "after": 0.2608
+   }
+  ]
+ },
+ {
+  "id": "injury-4259545-2026-10-02T22:00:00Z",
+  "kind": "I",
+  "at": "2026-10-02T22:00:00Z",
+  "teams": [
+   9
+  ],
+  "text": "GiantPunt: D'Andre Swift is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.2883,
+    "after": 0.2882
+   }
+  ]
+ },
+ {
+  "id": "injury-3915416-2026-10-02T22:00:00Z",
+  "kind": "I",
+  "at": "2026-10-02T22:00:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: DJ Moore is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0024,
+    "after": 0.0027
+   }
+  ]
+ },
+ {
+  "id": "injury-4685512-2026-10-02T22:00:00Z",
+  "kind": "I",
+  "at": "2026-10-02T22:00:00Z",
+  "teams": [
+   9
+  ],
+  "text": "GiantPunt: Jadarian Price is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.2883,
+    "after": 0.2882
+   }
+  ]
+ },
+ {
+  "id": "injury-3121023-2026-10-02T22:00:00Z",
+  "kind": "I",
+  "at": "2026-10-02T22:00:00Z",
+  "teams": [
+   6
+  ],
+  "text": "The Le Chable Dolphins: Dallas Goedert is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.0386,
+    "after": 0.0385
+   }
+  ]
+ },
+ {
+  "id": "injury-3916433-2026-10-02T22:00:00Z",
+  "kind": "I",
+  "at": "2026-10-02T22:00:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Sabre Raiders: Jakobi Meyers is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.2535,
+    "after": 0.2608
+   }
+  ]
  }
 ]

@@ -33503,6 +33503,197 @@
      }
     }
    }
+  },
+  {
+   "date": "2026-10-02",
+   "label": "Week 4 \u00b7 22:00 UTC",
+   "week": 4,
+   "backfilled": false,
+   "teams": {
+    "9": {
+     "champ": 0.2882,
+     "playoff": 0.9303,
+     "projWins": 10.89
+    },
+    "2": {
+     "champ": 0.2608,
+     "playoff": 0.8412,
+     "projWins": 10.07
+    },
+    "13": {
+     "champ": 0.1837,
+     "playoff": 0.7723,
+     "projWins": 9.97
+    },
+    "3": {
+     "champ": 0.1342,
+     "playoff": 0.5962,
+     "projWins": 8.84
+    },
+    "4": {
+     "champ": 0.0654,
+     "playoff": 0.3305,
+     "projWins": 7.55
+    },
+    "6": {
+     "champ": 0.0385,
+     "playoff": 0.2848,
+     "projWins": 7.48
+    },
+    "1": {
+     "champ": 0.0255,
+     "playoff": 0.2052,
+     "projWins": 7.3
+    },
+    "11": {
+     "champ": 0.0027,
+     "playoff": 0.0251,
+     "projWins": 4.89
+    },
+    "5": {
+     "champ": 0.0008,
+     "playoff": 0.0071,
+     "projWins": 3.95
+    },
+    "12": {
+     "champ": 0.0004,
+     "playoff": 0.0073,
+     "projWins": 4.05
+    }
+   },
+   "at": "2026-10-02T22:00:00Z",
+   "changes": {
+    "2": {
+     "cause": "roster_availability",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.0073,
+     "text": "Jaxon Smith-Njigba\u2019s forecast moved from 20.9819 to 21.8654 fantasy points, raising their expected scoring contribution.",
+     "facts": [
+      "projection: Jaxon Smith-Njigba 20.98193584 -> 21.86537493",
+      "injury: Puka Nacua QUESTIONABLE -> ACTIVE",
+      "injury: Justin Jefferson QUESTIONABLE -> OUT",
+      "projection: Garrett Wilson 16.47745069 -> 16.486337",
+      "projection: Davante Adams 14.6554453 -> 14.85099975",
+      "injury: Bucky Irving QUESTIONABLE -> ACTIVE",
+      "projection: Bucky Irving 16.64342441 -> 15.92947138",
+      "injury: D'Andre Swift QUESTIONABLE -> ACTIVE"
+     ],
+     "showTooltip": true
+    },
+    "3": {
+     "cause": "roster_availability",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0114,
+     "text": "Jahmyr Gibbs\u2019s forecast moved from 26.1492 to 26.1493 fantasy points, raising their expected scoring contribution.",
+     "facts": [
+      "projection: Jahmyr Gibbs 26.1492117 -> 26.14928568",
+      "injury: Justin Jefferson QUESTIONABLE -> OUT",
+      "projection: Lamar Jackson 21.17638459 -> 21.17648851",
+      "projection: Ashton Jeanty 18.87370168 -> 18.87363542",
+      "injury: DeVonta Smith QUESTIONABLE -> OUT",
+      "injury: Nico Collins QUESTIONABLE -> ACTIVE",
+      "injury: Zay Flowers ACTIVE -> QUESTIONABLE",
+      "projection: Terry McLaurin 12.93896163 -> 13.03346973"
+     ],
+     "showTooltip": true
+    }
+   },
+   "explanations": {
+    "9": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0137,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.15,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "2": {
+     "champ": {
+      "cause": "roster_availability",
+      "text": "Jaxon Smith-Njigba\u2019s forecast moved from 20.9819 to 21.8654 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.0073,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "roster_availability",
+      "text": "Jaxon Smith-Njigba\u2019s forecast moved from 20.9819 to 21.8654 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.0063,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "13": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0057,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "3": {
+     "champ": {
+      "cause": "roster_availability",
+      "text": "Jahmyr Gibbs\u2019s forecast moved from 26.1492 to 26.1493 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.0114,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "roster_availability",
+      "text": "Jahmyr Gibbs\u2019s forecast moved from 26.1492 to 26.1493 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.0257,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "4": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.008,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "5": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.0062,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.38,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    }
+   }
   }
  ]
 }
