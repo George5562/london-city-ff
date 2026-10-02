@@ -2557,5 +2557,90 @@
     "after": 0.0002
    }
   ]
+ },
+ {
+  "id": "injury-4427366-2026-10-02T18:00:00Z",
+  "kind": "I",
+  "at": "2026-10-02T18:00:00Z",
+  "teams": [
+   6
+  ],
+  "text": "The Le Chable Dolphins: Breece Hall is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.0413,
+    "after": 0.0386
+   }
+  ]
+ },
+ {
+  "id": "injury-3121422-2026-10-02T18:00:00Z",
+  "kind": "I",
+  "at": "2026-10-02T18:00:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Goats: Terry McLaurin is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.1442,
+    "after": 0.1456
+   }
+  ]
+ },
+ {
+  "id": "injury-4431611-2026-10-02T18:00:00Z",
+  "kind": "I",
+  "at": "2026-10-02T18:00:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Sabre Raiders: Caleb Williams is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.2532,
+    "after": 0.2535
+   }
+  ]
+ },
+ {
+  "id": "injury-4697815-2026-10-02T18:00:00Z",
+  "kind": "I",
+  "at": "2026-10-02T18:00:00Z",
+  "teams": [
+   9
+  ],
+  "text": "GiantPunt: Rachaad White is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.2909,
+    "after": 0.2883
+   }
+  ]
+ },
+ {
+  "id": "injury-4869645-2026-10-02T18:00:00Z",
+  "kind": "I",
+  "at": "2026-10-02T18:00:00Z",
+  "teams": [
+   6
+  ],
+  "text": "The Le Chable Dolphins: Caleb Douglas is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.0413,
+    "after": 0.0386
+   }
+  ]
  }
 ]
