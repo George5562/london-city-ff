@@ -2891,5 +2891,22 @@
     "after": 0.0326
    }
   ]
+ },
+ {
+  "id": "injury-4685512-2026-10-03T22:30:00Z",
+  "kind": "I",
+  "at": "2026-10-03T22:30:00Z",
+  "teams": [
+   9
+  ],
+  "text": "GiantPunt: Jadarian Price is now listed as injury reserve.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.2977,
+    "after": 0.2979
+   }
+  ]
  }
 ]

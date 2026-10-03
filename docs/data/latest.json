@@ -10,13 +10,13 @@
    "wins": 3,
    "losses": 0,
    "pf": 487.1,
-   "projPerGame": 129.4,
-   "strength": 138.4,
+   "projPerGame": 129.3,
+   "strength": 138.3,
    "projWins": 10.88,
-   "playoff": 0.9292,
-   "final": 0.541,
-   "champ": 0.2977,
-   "topSeed": 0.4437,
+   "playoff": 0.9286,
+   "final": 0.5412,
+   "champ": 0.2979,
+   "topSeed": 0.4487,
    "lineup": [
     {
      "name": "Kenneth Walker III",
@@ -75,11 +75,11 @@
    "pf": 413.48,
    "projPerGame": 138.0,
    "strength": 138.0,
-   "projWins": 10.11,
-   "playoff": 0.8546,
-   "final": 0.4889,
-   "champ": 0.2657,
-   "topSeed": 0.241,
+   "projWins": 9.96,
+   "playoff": 0.837,
+   "final": 0.4755,
+   "champ": 0.26,
+   "topSeed": 0.2205,
    "lineup": [
     {
      "name": "Jaxon Smith-Njigba",
@@ -139,10 +139,10 @@
    "projPerGame": 138.9,
    "strength": 132.8,
    "projWins": 10.04,
-   "playoff": 0.7878,
-   "final": 0.3915,
-   "champ": 0.1895,
-   "topSeed": 0.1889,
+   "playoff": 0.7851,
+   "final": 0.3912,
+   "champ": 0.1897,
+   "topSeed": 0.1916,
    "lineup": [
     {
      "name": "Bijan Robinson",
@@ -177,7 +177,7 @@
     {
      "name": "Cameron Dicker",
      "pos": "K",
-     "pts": 8.2
+     "pts": 8.3
     },
     {
      "name": "Eagles D/ST",
@@ -201,11 +201,11 @@
    "pf": 370.8,
    "projPerGame": 131.0,
    "strength": 129.0,
-   "projWins": 8.8,
-   "playoff": 0.5847,
-   "final": 0.2564,
-   "champ": 0.1158,
-   "topSeed": 0.0738,
+   "projWins": 8.95,
+   "playoff": 0.6152,
+   "final": 0.2721,
+   "champ": 0.1223,
+   "topSeed": 0.0862,
    "lineup": [
     {
      "name": "Jahmyr Gibbs",
@@ -265,10 +265,10 @@
    "projPerGame": 130.8,
    "strength": 126.6,
    "projWins": 7.57,
-   "playoff": 0.3306,
-   "final": 0.1444,
-   "champ": 0.067,
-   "topSeed": 0.026,
+   "playoff": 0.3267,
+   "final": 0.1437,
+   "champ": 0.0666,
+   "topSeed": 0.0261,
    "lineup": [
     {
      "name": "Ja'Marr Chase",
@@ -283,7 +283,7 @@
     {
      "name": "George Kittle",
      "pos": "TE",
-     "pts": 16.7
+     "pts": 16.8
     },
     {
      "name": "Christian Watson",
@@ -327,10 +327,10 @@
    "pf": 380.4,
    "projPerGame": 114.4,
    "strength": 117.8,
-   "projWins": 7.38,
-   "playoff": 0.2601,
-   "final": 0.0921,
-   "champ": 0.0326,
+   "projWins": 7.37,
+   "playoff": 0.2576,
+   "final": 0.0919,
+   "champ": 0.0327,
    "topSeed": 0.0135,
    "lineup": [
     {
@@ -391,10 +391,10 @@
    "projPerGame": 122.6,
    "strength": 117.2,
    "projWins": 7.31,
-   "playoff": 0.2105,
-   "final": 0.0732,
-   "champ": 0.0276,
-   "topSeed": 0.0123,
+   "playoff": 0.208,
+   "final": 0.0725,
+   "champ": 0.0271,
+   "topSeed": 0.0128,
    "lineup": [
     {
      "name": "Brock Purdy",
@@ -454,10 +454,10 @@
    "projPerGame": 112.9,
    "strength": 113.1,
    "projWins": 4.9,
-   "playoff": 0.0283,
-   "final": 0.0088,
-   "champ": 0.0029,
-   "topSeed": 0.0005,
+   "playoff": 0.0278,
+   "final": 0.0084,
+   "champ": 0.0028,
+   "topSeed": 0.0004,
    "lineup": [
     {
      "name": "Josh Allen",
@@ -507,69 +507,6 @@
    ]
   },
   {
-   "id": 5,
-   "name": "Love hurts",
-   "abbrev": "TM5",
-   "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/1.svg",
-   "wins": 0,
-   "losses": 3,
-   "pf": 291.38,
-   "projPerGame": 111.7,
-   "strength": 107.7,
-   "projWins": 3.95,
-   "playoff": 0.0073,
-   "final": 0.0019,
-   "champ": 0.0006,
-   "topSeed": 0.0,
-   "lineup": [
-    {
-     "name": "Christian McCaffrey",
-     "pos": "RB",
-     "pts": 19.7
-    },
-    {
-     "name": "Rashee Rice",
-     "pos": "WR",
-     "pts": 14.4
-    },
-    {
-     "name": "Bhayshul Tuten",
-     "pos": "RB",
-     "pts": 13.3
-    },
-    {
-     "name": "Jordan Addison",
-     "pos": "WR",
-     "pts": 13.2
-    },
-    {
-     "name": "Justin Herbert",
-     "pos": "QB",
-     "pts": 13.1
-    },
-    {
-     "name": "Brandon Aubrey",
-     "pos": "K",
-     "pts": 9.5
-    },
-    {
-     "name": "Isaiah Likely",
-     "pos": "TE",
-     "pts": 8.5
-    },
-    {
-     "name": "Chargers D/ST",
-     "pos": "D/ST",
-     "pts": 6.3
-    },
-    {
-     "name": "David Montgomery",
-     "pos": "FLEX",
-     "pts": 10.3
-    }
-   ]
-  },
-  {
    "id": 12,
    "name": "Cardigan's Boys",
    "abbrev": "CB",
@@ -577,12 +514,12 @@
    "wins": 0,
    "losses": 3,
    "pf": 263.1,
-   "projPerGame": 109.0,
+   "projPerGame": 109.1,
    "strength": 103.2,
    "projWins": 4.06,
-   "playoff": 0.0069,
-   "final": 0.0017,
-   "champ": 0.0006,
+   "playoff": 0.0067,
+   "final": 0.0016,
+   "champ": 0.0005,
    "topSeed": 0.0001,
    "lineup": [
     {
@@ -631,17 +568,80 @@
      "pts": 9.7
     }
    ]
+  },
+  {
+   "id": 5,
+   "name": "Love hurts",
+   "abbrev": "TM5",
+   "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/1.svg",
+   "wins": 0,
+   "losses": 3,
+   "pf": 291.38,
+   "projPerGame": 111.7,
+   "strength": 107.7,
+   "projWins": 3.95,
+   "playoff": 0.0072,
+   "final": 0.0019,
+   "champ": 0.0004,
+   "topSeed": 0.0,
+   "lineup": [
+    {
+     "name": "Christian McCaffrey",
+     "pos": "RB",
+     "pts": 19.7
+    },
+    {
+     "name": "Rashee Rice",
+     "pos": "WR",
+     "pts": 14.4
+    },
+    {
+     "name": "Bhayshul Tuten",
+     "pos": "RB",
+     "pts": 13.3
+    },
+    {
+     "name": "Jordan Addison",
+     "pos": "WR",
+     "pts": 13.2
+    },
+    {
+     "name": "Justin Herbert",
+     "pos": "QB",
+     "pts": 13.1
+    },
+    {
+     "name": "Brandon Aubrey",
+     "pos": "K",
+     "pts": 9.5
+    },
+    {
+     "name": "Isaiah Likely",
+     "pos": "TE",
+     "pts": 8.5
+    },
+    {
+     "name": "Chargers D/ST",
+     "pos": "D/ST",
+     "pts": 6.3
+    },
+    {
+     "name": "David Montgomery",
+     "pos": "FLEX",
+     "pts": 10.3
+    }
+   ]
   }
  ],
  "matchups": [
   {
    "home": 2,
    "away": 3,
-   "homeWin": 0.6109,
+   "homeWin": 0.4684,
    "homePts": 0.0,
    "awayPts": 16.7,
    "homeProj": 134.4,
-   "awayProj": 124.6
+   "awayProj": 137.7
   },
   {
    "home": 12,
@@ -680,5 +680,5 @@
    "awayProj": 124.8
   }
  ],
- "generated": "2026-10-03T19:46+00:00"
+ "generated": "2026-10-03T22:49+00:00"
 }
