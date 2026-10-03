@@ -33915,6 +33915,174 @@
    },
    "at": "2026-10-03T12:00:00Z",
    "explanations": {}
+  },
+  {
+   "date": "2026-10-03",
+   "label": "Week 4 \u00b7 16:30 UTC",
+   "week": 4,
+   "backfilled": false,
+   "teams": {
+    "9": {
+     "champ": 0.2975,
+     "playoff": 0.9291,
+     "projWins": 10.88
+    },
+    "2": {
+     "champ": 0.2661,
+     "playoff": 0.8538,
+     "projWins": 10.11
+    },
+    "13": {
+     "champ": 0.1886,
+     "playoff": 0.7869,
+     "projWins": 10.05
+    },
+    "3": {
+     "champ": 0.113,
+     "playoff": 0.5574,
+     "projWins": 8.67
+    },
+    "4": {
+     "champ": 0.0664,
+     "playoff": 0.3291,
+     "projWins": 7.57
+    },
+    "6": {
+     "champ": 0.0368,
+     "playoff": 0.2908,
+     "projWins": 7.5
+    },
+    "1": {
+     "champ": 0.0274,
+     "playoff": 0.2105,
+     "projWins": 7.31
+    },
+    "11": {
+     "champ": 0.0029,
+     "playoff": 0.0281,
+     "projWins": 4.9
+    },
+    "5": {
+     "champ": 0.0006,
+     "playoff": 0.0072,
+     "projWins": 3.95
+    },
+    "12": {
+     "champ": 0.0006,
+     "playoff": 0.007,
+     "projWins": 4.06
+    }
+   },
+   "at": "2026-10-03T16:30:00Z",
+   "changes": {
+    "2": {
+     "cause": "projection_rerating",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.0082,
+     "text": "Jaxon Smith-Njigba\u2019s forecast moved from 21.8654 to 21.8555 fantasy points, lowering their expected scoring contribution.",
+     "facts": [
+      "projection: Jaxon Smith-Njigba 21.86537493 -> 21.85546192",
+      "projection: Davante Adams 14.85099975 -> 15.6273373",
+      "projection: Bucky Irving 15.92947138 -> 15.92951726",
+      "projection: Deebo Samuel Sr. 10.75228539 -> 10.75555785",
+      "projection: Bryce Young 20.21192915 -> 20.21202609",
+      "projection: J.K. Dobbins 10.08291185 -> 10.08264125",
+      "projection: Jakobi Meyers 10.78663511 -> 10.78718492"
+     ],
+     "showTooltip": true
+    },
+    "3": {
+     "cause": "roster_availability",
+     "classifiedBy": "deterministic",
+     "writtenBy": "model",
+     "delta": -0.0201,
+     "text": "Terry McLaurin was downgrad",
+     "facts": [
+      "injury: Terry McLaurin QUESTIONABLE -> DOUBTFUL",
+      "projection: Terry McLaurin 13.03346973 -> 0.0",
+      "projection: Harold Fannin Jr. 11.22364671 -> 11.22364768",
+      "projection: DK Metcalf 10.08974975 -> 10.09044963"
+     ],
+     "showTooltip": true
+    }
+   },
+   "explanations": {
+    "2": {
+     "champ": {
+      "cause": "projection_rerating",
+      "text": "Jaxon Smith-Njigba\u2019s forecast moved from 21.8654 to 21.8555 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.0082,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "projection_rerating",
+      "text": "Jaxon Smith-Njigba\u2019s forecast moved from 21.8654 to 21.8555 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.0074,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "13": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0071,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "3": {
+     "champ": {
+      "cause": "roster_availability",
+      "text": "Terry McLaurin was downgrad",
+      "confidence": "recorded explanation",
+      "delta": -0.0201,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "roster_availability",
+      "text": "Terry McLaurin was downgrad",
+      "confidence": "recorded explanation",
+      "delta": -0.0414,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "roster_availability",
+      "text": "Terry McLaurin was downgrad",
+      "confidence": "recorded explanation",
+      "delta": -0.19,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "4": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0095,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "6": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0119,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    }
+   }
   }
  ]
 }

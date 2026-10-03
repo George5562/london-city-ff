@@ -2829,5 +2829,39 @@
     "after": 0.2608
    }
   ]
+ },
+ {
+  "id": "injury-3121422-2026-10-03T16:30:00Z",
+  "kind": "I",
+  "at": "2026-10-03T16:30:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Goats: Terry McLaurin is now listed as doubtful.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.1331,
+    "after": 0.113
+   }
+  ]
+ },
+ {
+  "id": "injury-15818-2026-10-03T16:30:00Z",
+  "kind": "I",
+  "at": "2026-10-03T16:30:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Keenan Allen is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0646,
+    "after": 0.0664
+   }
+  ]
  }
 ]
