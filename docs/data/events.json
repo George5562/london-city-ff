@@ -2925,5 +2925,22 @@
     "after": 0.132
    }
   ]
+ },
+ {
+  "id": "injury-3121422-2026-10-04T14:30:00Z",
+  "kind": "I",
+  "at": "2026-10-04T14:30:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Goats: Terry McLaurin is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.132,
+    "after": 0.1139
+   }
+  ]
  }
 ]
