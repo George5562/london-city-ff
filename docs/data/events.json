@@ -3089,5 +3089,124 @@
     "after": 0.0365
    }
   ]
+ },
+ {
+  "id": "injury-3916387-2026-10-04T21:30:00Z",
+  "kind": "I",
+  "at": "2026-10-04T21:30:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Goats: Lamar Jackson is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.1454,
+    "after": 0.1149
+   }
+  ]
+ },
+ {
+  "id": "injury-3929630-2026-10-04T21:30:00Z",
+  "kind": "I",
+  "at": "2026-10-04T21:30:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Saquon Barkley is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0365,
+    "after": 0.0503
+   }
+  ]
+ },
+ {
+  "id": "injury-4428331-2026-10-04T21:30:00Z",
+  "kind": "I",
+  "at": "2026-10-04T21:30:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Love hurts: Rashee Rice is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0006,
+    "after": 0.0006
+   }
+  ]
+ },
+ {
+  "id": "injury-4239993-2026-10-04T21:30:00Z",
+  "kind": "I",
+  "at": "2026-10-04T21:30:00Z",
+  "teams": [
+   6
+  ],
+  "text": "The Le Chable Dolphins: Tee Higgins is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.0271,
+    "after": 0.0449
+   }
+  ]
+ },
+ {
+  "id": "injury-4612826-2026-10-04T21:30:00Z",
+  "kind": "I",
+  "at": "2026-10-04T21:30:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: Ladd McConkey is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0003,
+    "after": 0.0004
+   }
+  ]
+ },
+ {
+  "id": "injury-16737-2026-10-04T21:30:00Z",
+  "kind": "I",
+  "at": "2026-10-04T21:30:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Mike Evans is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0365,
+    "after": 0.0503
+   }
+  ]
+ },
+ {
+  "id": "injury-4608686-2026-10-04T21:30:00Z",
+  "kind": "I",
+  "at": "2026-10-04T21:30:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Love hurts: Kyle Monangai is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0006,
+    "after": 0.0006
+   }
+  ]
  }
 ]
