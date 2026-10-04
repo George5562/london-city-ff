@@ -34748,6 +34748,307 @@
      }
     }
    }
+  },
+  {
+   "date": "2026-10-04",
+   "label": "Week 4 \u00b7 18:30 UTC",
+   "week": 4,
+   "backfilled": false,
+   "teams": {
+    "9": {
+     "champ": 0.3371,
+     "playoff": 0.9614,
+     "projWins": 11.29
+    },
+    "13": {
+     "champ": 0.2318,
+     "playoff": 0.8908,
+     "projWins": 10.69
+    },
+    "2": {
+     "champ": 0.2003,
+     "playoff": 0.7715,
+     "projWins": 9.48
+    },
+    "3": {
+     "champ": 0.1454,
+     "playoff": 0.7167,
+     "projWins": 9.35
+    },
+    "4": {
+     "champ": 0.0365,
+     "playoff": 0.208,
+     "projWins": 6.95
+    },
+    "6": {
+     "champ": 0.0271,
+     "playoff": 0.2409,
+     "projWins": 7.3
+    },
+    "1": {
+     "champ": 0.0202,
+     "playoff": 0.1856,
+     "projWins": 7.21
+    },
+    "12": {
+     "champ": 0.0008,
+     "playoff": 0.0129,
+     "projWins": 4.71
+    },
+    "5": {
+     "champ": 0.0006,
+     "playoff": 0.0072,
+     "projWins": 4.05
+    },
+    "11": {
+     "champ": 0.0003,
+     "playoff": 0.005,
+     "projWins": 3.96
+    }
+   },
+   "at": "2026-10-04T18:30:00Z",
+   "changes": {
+    "9": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.0514,
+     "text": "CeeDee Lamb\u2019s forecast moved from 16.8854 to 16.8854 fantasy points, raising their expected scoring contribution.",
+     "facts": [
+      "projection: CeeDee Lamb 16.88544031 -> 16.88544052",
+      "actual: CeeDee Lamb None -> 10.3",
+      "projection: Tyler Warren 13.03846411 -> 13.05555866",
+      "actual: Tyler Warren 2.2 -> 9.1",
+      "projection: D'Andre Swift 14.640118 -> 14.64490699",
+      "actual: D'Andre Swift None -> 9.0",
+      "injury: DJ Moore ACTIVE -> QUESTIONABLE",
+      "actual: Ka'imi Fairbairn None -> 14.0"
+     ],
+     "showTooltip": true
+    },
+    "1": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0102,
+     "text": "Puka Nacua now has 10 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "injury: Ja'Marr Chase ACTIVE -> QUESTIONABLE",
+      "actual: Puka Nacua None -> 10.0",
+      "projection: Chase Brown 16.19558458 -> 16.19497992",
+      "actual: Chase Brown None -> 9.6",
+      "projection: Javonte Williams 14.54752678 -> 14.54760235",
+      "actual: Javonte Williams None -> 8.1",
+      "actual: A.J. Brown None -> 0.0",
+      "projection: Parker Washington 15.33379682 -> 15.33807032"
+     ],
+     "showTooltip": true
+    }
+   },
+   "explanations": {
+    "9": {
+     "champ": {
+      "cause": "score_update",
+      "text": "CeeDee Lamb\u2019s forecast moved from 16.8854 to 16.8854 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.0514,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "CeeDee Lamb\u2019s forecast moved from 16.8854 to 16.8854 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.0445,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "CeeDee Lamb\u2019s forecast moved from 16.8854 to 16.8854 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.55,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "13": {
+     "champ": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0332,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0956,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.63,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "2": {
+     "champ": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.0693,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.0864,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.65,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "3": {
+     "champ": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0315,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.1472,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.62,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "4": {
+     "champ": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.0349,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.1516,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.69,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "6": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0334,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.22,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "1": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Puka Nacua now has 10 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.0102,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Puka Nacua now has 10 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.0616,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Puka Nacua now has 10 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.34,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "12": {
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.61,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "11": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.024,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.97,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    }
+   }
   }
  ]
 }

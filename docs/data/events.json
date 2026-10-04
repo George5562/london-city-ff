@@ -2942,5 +2942,152 @@
     "after": 0.1139
    }
   ]
+ },
+ {
+  "id": "injury-4362628-2026-10-04T18:30:00Z",
+  "kind": "I",
+  "at": "2026-10-04T18:30:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Ja'Marr Chase is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0714,
+    "after": 0.0365
+   }
+  ]
+ },
+ {
+  "id": "injury-3929630-2026-10-04T18:30:00Z",
+  "kind": "I",
+  "at": "2026-10-04T18:30:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Saquon Barkley is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0714,
+    "after": 0.0365
+   }
+  ]
+ },
+ {
+  "id": "injury-4429615-2026-10-04T18:30:00Z",
+  "kind": "I",
+  "at": "2026-10-04T18:30:00Z",
+  "teams": [
+   13
+  ],
+  "text": "Salisbury Screamers: Zay Flowers is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 13,
+    "before": 0.1986,
+    "after": 0.2318
+   }
+  ]
+ },
+ {
+  "id": "injury-3915416-2026-10-04T18:30:00Z",
+  "kind": "I",
+  "at": "2026-10-04T18:30:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: DJ Moore is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0039,
+    "after": 0.0003
+   }
+  ]
+ },
+ {
+  "id": "trade-adf18a12-82a4-4682-934b-5f603e0bca96",
+  "kind": "T",
+  "at": "2026-10-04T18:30:00Z",
+  "teams": [
+   9
+  ],
+  "text": "Added Bills D/ST; Dropped Panthers D/ST.",
+  "moves": [
+   {
+    "player": "Bills D/ST",
+    "position": "D/ST",
+    "action": "add"
+   },
+   {
+    "player": "Panthers D/ST",
+    "position": "D/ST",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.2857,
+    "after": 0.3371
+   }
+  ]
+ },
+ {
+  "id": "trade-a09eaa38-8499-430c-a1c0-1f897790a36f",
+  "kind": "T",
+  "at": "2026-10-04T18:30:00Z",
+  "teams": [
+   9
+  ],
+  "text": "Added Emanuel Wilson.",
+  "moves": [
+   {
+    "player": "Emanuel Wilson",
+    "position": "RB",
+    "action": "add"
+   }
+  ],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.2857,
+    "after": 0.3371
+   }
+  ]
+ },
+ {
+  "id": "trade-a0e5f468-c581-4587-981b-c91e4c16526f",
+  "kind": "T",
+  "at": "2026-10-04T18:30:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Added Bears D/ST; Dropped Jets D/ST.",
+  "moves": [
+   {
+    "player": "Bears D/ST",
+    "position": "D/ST",
+    "action": "add"
+   },
+   {
+    "player": "Jets D/ST",
+    "position": "D/ST",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0714,
+    "after": 0.0365
+   }
+  ]
  }
 ]
