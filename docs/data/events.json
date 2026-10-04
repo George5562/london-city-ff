@@ -2908,5 +2908,22 @@
     "after": 0.2979
    }
   ]
+ },
+ {
+  "id": "injury-3121422-2026-10-04T08:30:00Z",
+  "kind": "I",
+  "at": "2026-10-04T08:30:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Goats: Terry McLaurin is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.1197,
+    "after": 0.132
+   }
+  ]
  }
 ]
