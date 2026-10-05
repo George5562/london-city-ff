@@ -35775,6 +35775,317 @@
      }
     }
    }
+  },
+  {
+   "date": "2026-10-05",
+   "label": "Week 4 \u00b7 06:30 UTC",
+   "week": 4,
+   "backfilled": false,
+   "teams": {
+    "9": {
+     "champ": 0.3492,
+     "playoff": 0.9583,
+     "projWins": 11.24
+    },
+    "13": {
+     "champ": 0.246,
+     "playoff": 0.8872,
+     "projWins": 10.68
+    },
+    "3": {
+     "champ": 0.1489,
+     "playoff": 0.7178,
+     "projWins": 9.44
+    },
+    "2": {
+     "champ": 0.1153,
+     "playoff": 0.5516,
+     "projWins": 8.5
+    },
+    "4": {
+     "champ": 0.0524,
+     "playoff": 0.2675,
+     "projWins": 7.23
+    },
+    "1": {
+     "champ": 0.0444,
+     "playoff": 0.3099,
+     "projWins": 7.89
+    },
+    "6": {
+     "champ": 0.0411,
+     "playoff": 0.2781,
+     "projWins": 7.4
+    },
+    "12": {
+     "champ": 0.0017,
+     "playoff": 0.0209,
+     "projWins": 5.05
+    },
+    "11": {
+     "champ": 0.0006,
+     "playoff": 0.0047,
+     "projWins": 3.77
+    },
+    "5": {
+     "champ": 0.0005,
+     "playoff": 0.004,
+     "projWins": 3.8
+    }
+   },
+   "at": "2026-10-05T06:30:00Z",
+   "changes": {
+    "9": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0228,
+     "text": "Amon-Ra St. Brown now has 15.5 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "actual: Amon-Ra St. Brown 4.3 -> 15.5",
+      "actual: Panthers D/ST 9.0 -> -4.0",
+      "actual: Ryan Fitzgerald 0.0 -> 9.0",
+      "injury: Tyquan Thornton DOUBTFUL -> OUT"
+     ],
+     "showTooltip": true
+    },
+    "13": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "model",
+     "delta": 0.0083,
+     "text": "Chuba Hubbard scored 25.9 fantasy points, updating his fantasy team\u2019s matchup outlook and playoff race. Durham Smythe\u2019s status changed from out to questionable, but its impact on fantasy lineups is unclear.",
+     "facts": [
+      "actual: Chuba Hubbard -0.3 -> 25.9",
+      "injury: Durham Smythe OUT -> QUESTIONABLE"
+     ],
+     "showTooltip": true
+    },
+    "3": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.0629,
+     "text": "Jahmyr Gibbs now has 17.7 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "actual: Jahmyr Gibbs 2.4 -> 17.7",
+      "actual: Tetairoa McMillan 4.2 -> 45.2",
+      "injury: Tyquan Thornton DOUBTFUL -> OUT",
+      "injury: Durham Smythe OUT -> QUESTIONABLE"
+     ],
+     "showTooltip": true
+    },
+    "2": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "model",
+     "delta": -0.0119,
+     "text": "Bryce Young climbed",
+     "facts": [
+      "actual: Bryce Young 1.08 -> 21.46"
+     ],
+     "showTooltip": true
+    },
+    "1": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.0061,
+     "text": "Sam LaPorta now has 22.4 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "actual: Sam LaPorta 0.0 -> 22.4",
+      "actual: Jameson Williams 1.6 -> 16.2",
+      "injury: Tyquan Thornton DOUBTFUL -> OUT"
+     ],
+     "showTooltip": true
+    }
+   },
+   "explanations": {
+    "9": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Amon-Ra St. Brown now has 15.5 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.0228,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Amon-Ra St. Brown now has 15.5 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.0064,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "13": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Chuba Hubbard scored 25.9 fantasy points, updating his fantasy team\u2019s matchup outlook and playoff race. Durham Smythe\u2019s status changed from out to questionable, but its impact on fantasy lineups is unclear.",
+      "confidence": "recorded explanation",
+      "delta": 0.0083,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Chuba Hubbard scored 25.9 fantasy points, updating his fantasy team\u2019s matchup outlook and playoff race. Durham Smythe\u2019s status changed from out to questionable, but its impact on fantasy lineups is unclear.",
+      "confidence": "recorded explanation",
+      "delta": 0.0335,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Chuba Hubbard scored 25.9 fantasy points, updating his fantasy team\u2019s matchup outlook and playoff race. Durham Smythe\u2019s status changed from out to questionable, but its impact on fantasy lineups is unclear.",
+      "confidence": "recorded explanation",
+      "delta": 0.26,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "3": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Jahmyr Gibbs now has 17.7 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.0629,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Jahmyr Gibbs now has 17.7 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.1616,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Jahmyr Gibbs now has 17.7 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.61,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "2": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Bryce Young climbed",
+      "confidence": "recorded explanation",
+      "delta": -0.0119,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Bryce Young climbed",
+      "confidence": "recorded explanation",
+      "delta": -0.0282,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Bryce Young climbed",
+      "confidence": "recorded explanation",
+      "delta": -0.1,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "4": {
+     "champ": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.0261,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.1089,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.44,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "1": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Sam LaPorta now has 22.4 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.0061,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Sam LaPorta now has 22.4 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.0272,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Sam LaPorta now has 22.4 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.17,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "6": {
+     "champ": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.0155,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.0727,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.22,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "5": {
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.12,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    }
+   }
   }
  ]
 }
