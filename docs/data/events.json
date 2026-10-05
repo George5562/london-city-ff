@@ -3208,5 +3208,39 @@
     "after": 0.0006
    }
   ]
+ },
+ {
+  "id": "injury-4612826-2026-10-05T00:30:00Z",
+  "kind": "I",
+  "at": "2026-10-05T00:30:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: Ladd McConkey is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0004,
+    "after": 0.0006
+   }
+  ]
+ },
+ {
+  "id": "injury-4695883-2026-10-05T00:30:00Z",
+  "kind": "I",
+  "at": "2026-10-05T00:30:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Goats: Jalen Coker is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.1149,
+    "after": 0.086
+   }
+  ]
  }
 ]
