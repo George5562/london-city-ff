@@ -163,5 +163,60 @@
   "winner": "HOME",
   "at": "2026-09-29T11:27+00:00",
   "historical": false
+ },
+ {
+  "id": "4-2-3",
+  "week": 4,
+  "home": 2,
+  "away": 3,
+  "homePts": 96.86,
+  "awayPts": 139.88,
+  "winner": "AWAY",
+  "at": "2026-10-06T09:20+00:00",
+  "historical": false
+ },
+ {
+  "id": "4-12-11",
+  "week": 4,
+  "home": 12,
+  "away": 11,
+  "homePts": 118.22,
+  "awayPts": 85.62,
+  "winner": "HOME",
+  "at": "2026-10-06T09:20+00:00",
+  "historical": false
+ },
+ {
+  "id": "4-6-1",
+  "week": 4,
+  "home": 6,
+  "away": 1,
+  "homePts": 124.9,
+  "awayPts": 149.72,
+  "winner": "AWAY",
+  "at": "2026-10-06T09:20+00:00",
+  "historical": false
+ },
+ {
+  "id": "4-5-9",
+  "week": 4,
+  "home": 5,
+  "away": 9,
+  "homePts": 95.16,
+  "awayPts": 156.74,
+  "winner": "AWAY",
+  "at": "2026-10-06T09:20+00:00",
+  "historical": false
+ },
+ {
+  "id": "4-13-4",
+  "week": 4,
+  "home": 13,
+  "away": 4,
+  "homePts": 156.92,
+  "awayPts": 115.6,
+  "winner": "HOME",
+  "at": "2026-10-06T09:20+00:00",
+  "historical": false
  }
 ]
