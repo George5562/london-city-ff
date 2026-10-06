@@ -37114,6 +37114,171 @@
      }
     }
    }
+  },
+  {
+   "date": "2026-10-06",
+   "label": "Week 5 \u00b7 21:00 UTC",
+   "week": 5,
+   "backfilled": false,
+   "teams": {
+    "9": {
+     "champ": 0.4132,
+     "playoff": 0.9872,
+     "projWins": 12.1
+    },
+    "13": {
+     "champ": 0.2421,
+     "playoff": 0.8376,
+     "projWins": 10.21
+    },
+    "1": {
+     "champ": 0.1161,
+     "playoff": 0.5458,
+     "projWins": 8.73
+    },
+    "3": {
+     "champ": 0.1008,
+     "playoff": 0.8387,
+     "projWins": 9.99
+    },
+    "6": {
+     "champ": 0.0561,
+     "playoff": 0.2858,
+     "projWins": 7.38
+    },
+    "2": {
+     "champ": 0.0393,
+     "playoff": 0.3265,
+     "projWins": 7.62
+    },
+    "4": {
+     "champ": 0.0286,
+     "playoff": 0.1447,
+     "projWins": 6.48
+    },
+    "12": {
+     "champ": 0.0029,
+     "playoff": 0.0271,
+     "projWins": 5.21
+    },
+    "5": {
+     "champ": 0.0008,
+     "playoff": 0.0049,
+     "projWins": 3.94
+    },
+    "11": {
+     "champ": 0.0001,
+     "playoff": 0.0016,
+     "projWins": 3.34
+    }
+   },
+   "at": "2026-10-06T21:00:00Z",
+   "changes": {
+    "13": {
+     "cause": "external_opportunity",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.01,
+     "text": "Bijan Robinson\u2019s forecast moved from 21.9739 to 22.1849 fantasy points, raising their expected scoring contribution.",
+     "facts": [
+      "projection: Bijan Robinson 21.97391717 -> 22.18485687",
+      "projection: Derrick Henry 18.15850823 -> 16.7719563",
+      "projection: Drake London 16.37910164 -> 15.96894647",
+      "projection: Zay Flowers 16.20434581 -> 13.9884199",
+      "injury: DeVonta Smith OUT -> QUESTIONABLE",
+      "injury: Jalen Coker OUT -> QUESTIONABLE",
+      "injury: Dallas Goedert OUT -> DOUBTFUL",
+      "projection: Michael Pittman Jr. 8.43006458 -> 8.43802436"
+     ],
+     "showTooltip": true
+    },
+    "3": {
+     "cause": "roster_availability",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.009,
+     "text": "Lamar Jackson\u2019s forecast moved from 19.0757 to 0 fantasy points, lowering their expected scoring contribution.",
+     "facts": [
+      "projection: Lamar Jackson 19.07568423 -> 0.0",
+      "injury: Justin Jefferson OUT -> QUESTIONABLE",
+      "projection: Ashton Jeanty 17.83348921 -> 17.83207715",
+      "injury: DeVonta Smith OUT -> QUESTIONABLE",
+      "projection: Steelers D/ST 6.90794234 -> 6.76323564",
+      "injury: Terry McLaurin OUT -> QUESTIONABLE",
+      "projection: DK Metcalf 11.99815121 -> 12.00812969",
+      "injury: Jalen Coker OUT -> QUESTIONABLE"
+     ],
+     "showTooltip": true
+    }
+   },
+   "explanations": {
+    "13": {
+     "champ": {
+      "cause": "external_opportunity",
+      "text": "Bijan Robinson\u2019s forecast moved from 21.9739 to 22.1849 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.01,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "1": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0074,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "3": {
+     "champ": {
+      "cause": "roster_availability",
+      "text": "Lamar Jackson\u2019s forecast moved from 19.0757 to 0 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.009,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "roster_availability",
+      "text": "Lamar Jackson\u2019s forecast moved from 19.0757 to 0 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.0152,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "roster_availability",
+      "text": "Lamar Jackson\u2019s forecast moved from 19.0757 to 0 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.11,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "2": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0079,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "5": {
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.16,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    }
+   }
   }
  ]
 }

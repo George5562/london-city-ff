@@ -3343,5 +3343,175 @@
     "after": 0.411
    }
   ]
+ },
+ {
+  "id": "injury-4262921-2026-10-06T21:00:00Z",
+  "kind": "I",
+  "at": "2026-10-06T21:00:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Love hurts: Justin Jefferson is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0005,
+    "after": 0.0008
+   }
+  ]
+ },
+ {
+  "id": "injury-4241478-2026-10-06T21:00:00Z",
+  "kind": "I",
+  "at": "2026-10-06T21:00:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Goats: DeVonta Smith is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.0918,
+    "after": 0.1008
+   }
+  ]
+ },
+ {
+  "id": "injury-4427366-2026-10-06T21:00:00Z",
+  "kind": "I",
+  "at": "2026-10-06T21:00:00Z",
+  "teams": [
+   6
+  ],
+  "text": "The Le Chable Dolphins: Breece Hall is now listed as doubtful.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.0569,
+    "after": 0.0561
+   }
+  ]
+ },
+ {
+  "id": "injury-3121422-2026-10-06T21:00:00Z",
+  "kind": "I",
+  "at": "2026-10-06T21:00:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Goats: Terry McLaurin is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.0918,
+    "after": 0.1008
+   }
+  ]
+ },
+ {
+  "id": "injury-4695883-2026-10-06T21:00:00Z",
+  "kind": "I",
+  "at": "2026-10-06T21:00:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Goats: Jalen Coker is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.0918,
+    "after": 0.1008
+   }
+  ]
+ },
+ {
+  "id": "injury-4426348-2026-10-06T21:00:00Z",
+  "kind": "I",
+  "at": "2026-10-06T21:00:00Z",
+  "teams": [
+   9
+  ],
+  "text": "GiantPunt: Jayden Daniels is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.411,
+    "after": 0.4132
+   }
+  ]
+ },
+ {
+  "id": "injury-3121023-2026-10-06T21:00:00Z",
+  "kind": "I",
+  "at": "2026-10-06T21:00:00Z",
+  "teams": [
+   6
+  ],
+  "text": "The Le Chable Dolphins: Dallas Goedert is now listed as doubtful.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.0569,
+    "after": 0.0561
+   }
+  ]
+ },
+ {
+  "id": "injury-4038815-2026-10-06T21:00:00Z",
+  "kind": "I",
+  "at": "2026-10-06T21:00:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Rico Dowdle is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0287,
+    "after": 0.0286
+   }
+  ]
+ },
+ {
+  "id": "injury-15818-2026-10-06T21:00:00Z",
+  "kind": "I",
+  "at": "2026-10-06T21:00:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Keenan Allen is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0287,
+    "after": 0.0286
+   }
+  ]
+ },
+ {
+  "id": "injury-4869645-2026-10-06T21:00:00Z",
+  "kind": "I",
+  "at": "2026-10-06T21:00:00Z",
+  "teams": [
+   6
+  ],
+  "text": "The Le Chable Dolphins: Caleb Douglas is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.0569,
+    "after": 0.0561
+   }
+  ]
  }
 ]
