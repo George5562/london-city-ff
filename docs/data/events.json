@@ -3513,5 +3513,84 @@
     "after": 0.0561
    }
   ]
+ },
+ {
+  "id": "trade-497f4300-b5d0-4908-a9bb-1b6719aa2e5a",
+  "kind": "T",
+  "at": "2026-10-07T14:30:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Added Will Reichard; dropped Dalton Schultz.",
+  "moves": [
+   {
+    "player": "Will Reichard",
+    "position": "K",
+    "action": "add"
+   },
+   {
+    "player": "Dalton Schultz",
+    "position": "TE",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.1013,
+    "after": 0.1626
+   }
+  ]
+ },
+ {
+  "id": "trade-9ad2b3b4-727e-4b9e-a3e8-447f19ecf61a",
+  "kind": "T",
+  "at": "2026-10-07T14:30:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Added Jared Goff; Dropped Jalen Coker.",
+  "moves": [
+   {
+    "player": "Jared Goff",
+    "position": "QB",
+    "action": "add"
+   },
+   {
+    "player": "Jalen Coker",
+    "position": "WR",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.1013,
+    "after": 0.1626
+   }
+  ]
+ },
+ {
+  "id": "trade-d659d065-11fe-448f-afba-4a4a5af43330",
+  "kind": "T",
+  "at": "2026-10-07T14:30:00Z",
+  "teams": [
+   13
+  ],
+  "text": "Dropped Quentin Johnston.",
+  "moves": [
+   {
+    "player": "Quentin Johnston",
+    "position": "WR",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 13,
+    "before": 0.2442,
+    "after": 0.2268
+   }
+  ]
  }
 ]
