@@ -3592,5 +3592,255 @@
     "after": 0.2268
    }
   ]
+ },
+ {
+  "id": "injury-4429615-2026-10-07T20:30:00Z",
+  "kind": "I",
+  "at": "2026-10-07T20:30:00Z",
+  "teams": [
+   13
+  ],
+  "text": "Salisbury Screamers: Zay Flowers is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 13,
+    "before": 0.2268,
+    "after": 0.2268
+   }
+  ]
+ },
+ {
+  "id": "injury-4595348-2026-10-07T20:30:00Z",
+  "kind": "I",
+  "at": "2026-10-07T20:30:00Z",
+  "teams": [
+   13
+  ],
+  "text": "Salisbury Screamers: Malik Nabers is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 13,
+    "before": 0.2268,
+    "after": 0.2268
+   }
+  ]
+ },
+ {
+  "id": "injury-4696981-2026-10-07T20:30:00Z",
+  "kind": "I",
+  "at": "2026-10-07T20:30:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Cardigan's Boys: Cam Skattebo is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0026,
+    "after": 0.0026
+   }
+  ]
+ },
+ {
+  "id": "injury-4259545-2026-10-07T20:30:00Z",
+  "kind": "I",
+  "at": "2026-10-07T20:30:00Z",
+  "teams": [
+   9
+  ],
+  "text": "GiantPunt: D'Andre Swift is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.3921,
+    "after": 0.3918
+   }
+  ]
+ },
+ {
+  "id": "injury-16737-2026-10-07T20:30:00Z",
+  "kind": "I",
+  "at": "2026-10-07T20:30:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Mike Evans is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0272,
+    "after": 0.0273
+   }
+  ]
+ },
+ {
+  "id": "injury-4569173-2026-10-07T20:30:00Z",
+  "kind": "I",
+  "at": "2026-10-07T20:30:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Cardigan's Boys: Rhamondre Stevenson is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0026,
+    "after": 0.0026
+   }
+  ]
+ },
+ {
+  "id": "injury-4426348-2026-10-07T20:30:00Z",
+  "kind": "I",
+  "at": "2026-10-07T20:30:00Z",
+  "teams": [
+   9
+  ],
+  "text": "GiantPunt: Jayden Daniels is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.3921,
+    "after": 0.3918
+   }
+  ]
+ },
+ {
+  "id": "injury-2976212-2026-10-07T20:30:00Z",
+  "kind": "I",
+  "at": "2026-10-07T20:30:00Z",
+  "teams": [
+   6
+  ],
+  "text": "The Le Chable Dolphins: Stefon Diggs is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.0518,
+    "after": 0.0517
+   }
+  ]
+ },
+ {
+  "id": "injury-4429205-2026-10-07T20:30:00Z",
+  "kind": "I",
+  "at": "2026-10-07T20:30:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Love hurts: Jordan Addison is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0008,
+    "after": 0.0007
+   }
+  ]
+ },
+ {
+  "id": "injury-3121023-2026-10-07T20:30:00Z",
+  "kind": "I",
+  "at": "2026-10-07T20:30:00Z",
+  "teams": [
+   6
+  ],
+  "text": "The Le Chable Dolphins: Dallas Goedert is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.0518,
+    "after": 0.0517
+   }
+  ]
+ },
+ {
+  "id": "injury-4035687-2026-10-07T20:30:00Z",
+  "kind": "I",
+  "at": "2026-10-07T20:30:00Z",
+  "teams": [
+   13
+  ],
+  "text": "Salisbury Screamers: Michael Pittman Jr. is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 13,
+    "before": 0.2268,
+    "after": 0.2268
+   }
+  ]
+ },
+ {
+  "id": "injury-3054850-2026-10-07T20:30:00Z",
+  "kind": "I",
+  "at": "2026-10-07T20:30:00Z",
+  "teams": [
+   1
+  ],
+  "text": "Knights who say Ni: Alvin Kamara is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.1052,
+    "after": 0.1057
+   }
+  ]
+ },
+ {
+  "id": "trade-e36ddef3-e774-4da9-baff-c7f7582dc594",
+  "kind": "T",
+  "at": "2026-10-07T20:30:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Added Will Shipley.",
+  "moves": [
+   {
+    "player": "Will Shipley",
+    "position": "RB",
+    "action": "add"
+   }
+  ],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0002,
+    "after": 0.0004
+   }
+  ]
+ },
+ {
+  "id": "trade-c811f97f-dcf4-4851-bfd2-214781c6db22",
+  "kind": "T",
+  "at": "2026-10-07T20:30:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Added WR Keon Coleman.",
+  "moves": [
+   {
+    "player": "Keon Coleman",
+    "position": "WR",
+    "action": "add"
+   }
+  ],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0002,
+    "after": 0.0004
+   }
+  ]
  }
 ]

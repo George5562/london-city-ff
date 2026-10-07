@@ -12,11 +12,11 @@
    "pf": 643.84,
    "projPerGame": 130.7,
    "strength": 140.8,
-   "projWins": 12.12,
-   "playoff": 0.9876,
-   "final": 0.6395,
-   "champ": 0.3921,
-   "topSeed": 0.703,
+   "projWins": 12.11,
+   "playoff": 0.9877,
+   "final": 0.6394,
+   "champ": 0.3918,
+   "topSeed": 0.7023,
    "lineup": [
     {
      "name": "CeeDee Lamb",
@@ -31,7 +31,7 @@
     {
      "name": "Tyler Shough",
      "pos": "QB",
-     "pts": 16.7
+     "pts": 16.8
     },
     {
      "name": "Ollie Gordon II",
@@ -51,7 +51,7 @@
     {
      "name": "Tyler Warren",
      "pos": "TE",
-     "pts": 10.3
+     "pts": 10.4
     },
     {
      "name": "Bengals D/ST",
@@ -76,10 +76,10 @@
    "projPerGame": 135.9,
    "strength": 132.8,
    "projWins": 10.24,
-   "playoff": 0.8414,
-   "final": 0.4604,
+   "playoff": 0.8422,
+   "final": 0.4609,
    "champ": 0.2268,
-   "topSeed": 0.1311,
+   "topSeed": 0.1316,
    "lineup": [
     {
      "name": "Bijan Robinson",
@@ -104,7 +104,7 @@
     {
      "name": "Malik Nabers",
      "pos": "WR",
-     "pts": 15.3
+     "pts": 15.4
     },
     {
      "name": "Juwan Johnson",
@@ -136,13 +136,13 @@
    "wins": 3,
    "losses": 1,
    "pf": 510.68,
-   "projPerGame": 125.8,
-   "strength": 126.4,
-   "projWins": 10.18,
-   "playoff": 0.8667,
-   "final": 0.383,
-   "champ": 0.1626,
-   "topSeed": 0.1251,
+   "projPerGame": 125.9,
+   "strength": 126.5,
+   "projWins": 10.17,
+   "playoff": 0.8662,
+   "final": 0.3826,
+   "champ": 0.1621,
+   "topSeed": 0.1255,
    "lineup": [
     {
      "name": "Jahmyr Gibbs",
@@ -200,12 +200,12 @@
    "losses": 1,
    "pf": 457.84,
    "projPerGame": 132.3,
-   "strength": 126.3,
-   "projWins": 8.72,
-   "playoff": 0.5487,
-   "final": 0.2369,
-   "champ": 0.1052,
-   "topSeed": 0.0296,
+   "strength": 126.4,
+   "projWins": 8.71,
+   "playoff": 0.5491,
+   "final": 0.2371,
+   "champ": 0.1057,
+   "topSeed": 0.0297,
    "lineup": [
     {
      "name": "Puka Nacua",
@@ -259,11 +259,11 @@
    "pf": 505.3,
    "projPerGame": 122.7,
    "strength": 123.9,
-   "projWins": 7.34,
-   "playoff": 0.2794,
-   "final": 0.1177,
-   "champ": 0.0518,
-   "topSeed": 0.0043,
+   "projWins": 7.33,
+   "playoff": 0.2787,
+   "final": 0.1174,
+   "champ": 0.0517,
+   "topSeed": 0.0042,
    "lineup": [
     {
      "name": "Jonathan Taylor",
@@ -298,7 +298,7 @@
     {
      "name": "Harrison Mevis",
      "pos": "K",
-     "pts": 7.6
+     "pts": 7.7
     },
     {
      "name": "Patriots D/ST",
@@ -322,9 +322,9 @@
    "pf": 510.34,
    "projPerGame": 106.3,
    "strength": 113.4,
-   "projWins": 7.46,
-   "playoff": 0.297,
-   "final": 0.0924,
+   "projWins": 7.45,
+   "playoff": 0.2969,
+   "final": 0.0921,
    "champ": 0.0307,
    "topSeed": 0.0044,
    "lineup": [
@@ -385,10 +385,10 @@
    "pf": 461.68,
    "projPerGame": 127.1,
    "strength": 123.2,
-   "projWins": 6.49,
-   "playoff": 0.146,
-   "final": 0.0602,
-   "champ": 0.0272,
+   "projWins": 6.46,
+   "playoff": 0.1452,
+   "final": 0.0601,
+   "champ": 0.0273,
    "topSeed": 0.0021,
    "lineup": [
     {
@@ -446,18 +446,18 @@
    "wins": 1,
    "losses": 3,
    "pf": 381.32,
-   "projPerGame": 116.8,
-   "strength": 109.6,
-   "projWins": 5.19,
-   "playoff": 0.0257,
-   "final": 0.0075,
+   "projPerGame": 116.9,
+   "strength": 109.7,
+   "projWins": 5.18,
+   "playoff": 0.0259,
+   "final": 0.0076,
    "champ": 0.0026,
    "topSeed": 0.0003,
    "lineup": [
     {
      "name": "Jalen Hurts",
      "pos": "QB",
-     "pts": 15.6
+     "pts": 15.7
     },
     {
      "name": "Michael Wilson",
@@ -482,7 +482,7 @@
     {
      "name": "Romeo Doubs",
      "pos": "WR",
-     "pts": 12.7
+     "pts": 12.8
     },
     {
      "name": "Seahawks D/ST",
@@ -511,10 +511,10 @@
    "pf": 386.54,
    "projPerGame": 118.9,
    "strength": 111.5,
-   "projWins": 3.91,
-   "playoff": 0.006,
+   "projWins": 3.88,
+   "playoff": 0.0058,
    "final": 0.0021,
-   "champ": 0.0008,
+   "champ": 0.0007,
    "topSeed": 0.0,
    "lineup": [
     {
@@ -550,12 +550,12 @@
     {
      "name": "Brandon Aubrey",
      "pos": "K",
-     "pts": 9.9
+     "pts": 10.0
     },
     {
      "name": "Chargers D/ST",
      "pos": "D/ST",
-     "pts": 4.3
+     "pts": 4.4
     },
     {
      "name": "Bhayshul Tuten",
@@ -572,12 +572,12 @@
    "wins": 0,
    "losses": 4,
    "pf": 426.46,
-   "projPerGame": 102.7,
-   "strength": 104.0,
-   "projWins": 3.34,
-   "playoff": 0.0015,
-   "final": 0.0004,
-   "champ": 0.0002,
+   "projPerGame": 106.1,
+   "strength": 106.3,
+   "projWins": 3.47,
+   "playoff": 0.0024,
+   "final": 0.0007,
+   "champ": 0.0004,
    "topSeed": 0.0,
    "lineup": [
     {
@@ -591,14 +591,14 @@
      "pts": 16.2
     },
     {
-     "name": "Matthew Golden",
+     "name": "Keon Coleman",
      "pos": "WR",
-     "pts": 12.0
+     "pts": 12.1
     },
     {
-     "name": "George Pickens",
+     "name": "Matthew Golden",
      "pos": "WR",
-     "pts": 11.6
+     "pts": 12.1
     },
     {
      "name": "Jake Bates",
@@ -621,9 +621,9 @@
      "pts": 5.3
     },
     {
-     "name": "DJ Moore",
+     "name": "George Pickens",
      "pos": "FLEX",
-     "pts": 9.4
+     "pts": 11.6
     }
    ]
   }
@@ -632,28 +632,28 @@
   {
    "home": 12,
    "away": 2,
-   "homeWin": 0.4665
+   "homeWin": 0.4668
   },
   {
    "home": 3,
    "away": 6,
-   "homeWin": 0.4929
+   "homeWin": 0.4927
   },
   {
    "home": 11,
    "away": 5,
-   "homeWin": 0.4256
+   "homeWin": 0.4419
   },
   {
    "home": 1,
    "away": 13,
-   "homeWin": 0.4263
+   "homeWin": 0.4264
   },
   {
    "home": 9,
    "away": 4,
-   "homeWin": 0.6641
+   "homeWin": 0.6642
   }
  ],
- "generated": "2026-10-07T14:42+00:00"
+ "generated": "2026-10-07T20:34+00:00"
 }
