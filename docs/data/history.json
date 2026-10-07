@@ -37279,6 +37279,77 @@
      }
     }
    }
+  },
+  {
+   "date": "2026-10-07",
+   "label": "Week 5 \u00b7 00:30 UTC",
+   "week": 5,
+   "backfilled": false,
+   "teams": {
+    "9": {
+     "champ": 0.4149,
+     "playoff": 0.9877,
+     "projWins": 12.11
+    },
+    "13": {
+     "champ": 0.2442,
+     "playoff": 0.8339,
+     "projWins": 10.18
+    },
+    "1": {
+     "champ": 0.1133,
+     "playoff": 0.5451,
+     "projWins": 8.72
+    },
+    "3": {
+     "champ": 0.1013,
+     "playoff": 0.8353,
+     "projWins": 9.99
+    },
+    "6": {
+     "champ": 0.0566,
+     "playoff": 0.2914,
+     "projWins": 7.42
+    },
+    "2": {
+     "champ": 0.037,
+     "playoff": 0.3289,
+     "projWins": 7.63
+    },
+    "4": {
+     "champ": 0.029,
+     "playoff": 0.1442,
+     "projWins": 6.49
+    },
+    "12": {
+     "champ": 0.0026,
+     "playoff": 0.0262,
+     "projWins": 5.19
+    },
+    "5": {
+     "champ": 0.0009,
+     "playoff": 0.0059,
+     "projWins": 3.91
+    },
+    "11": {
+     "champ": 0.0003,
+     "playoff": 0.0015,
+     "projWins": 3.35
+    }
+   },
+   "at": "2026-10-07T00:30:00Z",
+   "explanations": {
+    "6": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0056,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    }
+   }
   }
  ]
 }
