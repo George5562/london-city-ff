@@ -3927,5 +3927,45 @@
     "after": 0.0498
    }
   ]
+ },
+ {
+  "id": "injury-4035687-2026-10-08T19:30:00Z",
+  "kind": "I",
+  "at": "2026-10-08T19:30:00Z",
+  "teams": [
+   13
+  ],
+  "text": "Salisbury Screamers: Michael Pittman Jr. is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 13,
+    "before": 0.2296,
+    "after": 0.2283
+   }
+  ]
+ },
+ {
+  "id": "trade-76b2f59c-7189-49c5-9524-15f3c1d96a53",
+  "kind": "T",
+  "at": "2026-10-08T19:30:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Added Brian Robinson Jr.",
+  "moves": [
+   {
+    "player": "Brian Robinson Jr.",
+    "position": "RB",
+    "action": "add"
+   }
+  ],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0026,
+    "after": 0.003
+   }
+  ]
  }
 ]
