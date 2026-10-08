@@ -12,11 +12,11 @@
    "pf": 643.84,
    "projPerGame": 130.7,
    "strength": 140.8,
-   "projWins": 12.11,
-   "playoff": 0.9877,
-   "final": 0.6394,
-   "champ": 0.3918,
-   "topSeed": 0.7023,
+   "projWins": 12.1,
+   "playoff": 0.9876,
+   "final": 0.6411,
+   "champ": 0.3897,
+   "topSeed": 0.7004,
    "lineup": [
     {
      "name": "CeeDee Lamb",
@@ -75,11 +75,11 @@
    "pf": 506.24,
    "projPerGame": 135.9,
    "strength": 132.8,
-   "projWins": 10.24,
-   "playoff": 0.8422,
-   "final": 0.4609,
-   "champ": 0.2268,
-   "topSeed": 0.1316,
+   "projWins": 10.26,
+   "playoff": 0.846,
+   "final": 0.4563,
+   "champ": 0.2296,
+   "topSeed": 0.1341,
    "lineup": [
     {
      "name": "Bijan Robinson",
@@ -138,11 +138,11 @@
    "pf": 510.68,
    "projPerGame": 125.9,
    "strength": 126.5,
-   "projWins": 10.17,
+   "projWins": 10.15,
    "playoff": 0.8662,
-   "final": 0.3826,
-   "champ": 0.1621,
-   "topSeed": 0.1255,
+   "final": 0.3874,
+   "champ": 0.1598,
+   "topSeed": 0.1235,
    "lineup": [
     {
      "name": "Jahmyr Gibbs",
@@ -201,11 +201,11 @@
    "pf": 457.84,
    "projPerGame": 132.3,
    "strength": 126.4,
-   "projWins": 8.71,
-   "playoff": 0.5491,
-   "final": 0.2371,
-   "champ": 0.1057,
-   "topSeed": 0.0297,
+   "projWins": 8.69,
+   "playoff": 0.5453,
+   "final": 0.2409,
+   "champ": 0.1087,
+   "topSeed": 0.0295,
    "lineup": [
     {
      "name": "Puka Nacua",
@@ -259,11 +259,11 @@
    "pf": 505.3,
    "projPerGame": 122.7,
    "strength": 123.9,
-   "projWins": 7.33,
-   "playoff": 0.2787,
-   "final": 0.1174,
-   "champ": 0.0517,
-   "topSeed": 0.0042,
+   "projWins": 7.32,
+   "playoff": 0.2798,
+   "final": 0.1142,
+   "champ": 0.0498,
+   "topSeed": 0.0056,
    "lineup": [
     {
      "name": "Jonathan Taylor",
@@ -298,7 +298,7 @@
     {
      "name": "Harrison Mevis",
      "pos": "K",
-     "pts": 7.7
+     "pts": 7.6
     },
     {
      "name": "Patriots D/ST",
@@ -322,11 +322,11 @@
    "pf": 510.34,
    "projPerGame": 106.3,
    "strength": 113.4,
-   "projWins": 7.45,
-   "playoff": 0.2969,
-   "final": 0.0921,
-   "champ": 0.0307,
-   "topSeed": 0.0044,
+   "projWins": 7.43,
+   "playoff": 0.2958,
+   "final": 0.0882,
+   "champ": 0.0303,
+   "topSeed": 0.0046,
    "lineup": [
     {
      "name": "Jaxon Smith-Njigba",
@@ -385,11 +385,11 @@
    "pf": 461.68,
    "projPerGame": 127.1,
    "strength": 123.2,
-   "projWins": 6.46,
-   "playoff": 0.1452,
-   "final": 0.0601,
-   "champ": 0.0273,
-   "topSeed": 0.0021,
+   "projWins": 6.49,
+   "playoff": 0.1466,
+   "final": 0.0615,
+   "champ": 0.0288,
+   "topSeed": 0.0024,
    "lineup": [
     {
      "name": "Kyren Williams",
@@ -449,10 +449,10 @@
    "projPerGame": 116.9,
    "strength": 109.7,
    "projWins": 5.18,
-   "playoff": 0.0259,
-   "final": 0.0076,
+   "playoff": 0.0249,
+   "final": 0.0083,
    "champ": 0.0026,
-   "topSeed": 0.0003,
+   "topSeed": 0.0001,
    "lineup": [
     {
      "name": "Jalen Hurts",
@@ -511,10 +511,10 @@
    "pf": 386.54,
    "projPerGame": 118.9,
    "strength": 111.5,
-   "projWins": 3.88,
-   "playoff": 0.0058,
-   "final": 0.0021,
-   "champ": 0.0007,
+   "projWins": 3.89,
+   "playoff": 0.0053,
+   "final": 0.0014,
+   "champ": 0.0006,
    "topSeed": 0.0,
    "lineup": [
     {
@@ -574,10 +574,10 @@
    "pf": 426.46,
    "projPerGame": 106.1,
    "strength": 106.3,
-   "projWins": 3.47,
+   "projWins": 3.49,
    "playoff": 0.0024,
    "final": 0.0007,
-   "champ": 0.0004,
+   "champ": 0.0001,
    "topSeed": 0.0,
    "lineup": [
     {
@@ -632,28 +632,28 @@
   {
    "home": 12,
    "away": 2,
-   "homeWin": 0.4668
+   "homeWin": 0.4691
   },
   {
    "home": 3,
    "away": 6,
-   "homeWin": 0.4927
+   "homeWin": 0.4968
   },
   {
    "home": 11,
    "away": 5,
-   "homeWin": 0.4419
+   "homeWin": 0.443
   },
   {
    "home": 1,
    "away": 13,
-   "homeWin": 0.4264
+   "homeWin": 0.4285
   },
   {
    "home": 9,
    "away": 4,
-   "homeWin": 0.6642
+   "homeWin": 0.6667
   }
  ],
- "generated": "2026-10-07T20:34+00:00"
+ "generated": "2026-10-08T00:22+00:00"
 }

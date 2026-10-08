@@ -3842,5 +3842,90 @@
     "after": 0.0004
    }
   ]
+ },
+ {
+  "id": "injury-4432665-2026-10-08T00:00:00Z",
+  "kind": "I",
+  "at": "2026-10-08T00:00:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Sabre Raiders: Brock Bowers is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.0307,
+    "after": 0.0303
+   }
+  ]
+ },
+ {
+  "id": "injury-4361050-2026-10-08T00:00:00Z",
+  "kind": "I",
+  "at": "2026-10-08T00:00:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Love hurts: Isaiah Likely is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0007,
+    "after": 0.0006
+   }
+  ]
+ },
+ {
+  "id": "injury-3916148-2026-10-08T00:00:00Z",
+  "kind": "I",
+  "at": "2026-10-08T00:00:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Goats: Tony Pollard is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.1621,
+    "after": 0.1598
+   }
+  ]
+ },
+ {
+  "id": "injury-4360689-2026-10-08T00:00:00Z",
+  "kind": "I",
+  "at": "2026-10-08T00:00:00Z",
+  "teams": [
+   9
+  ],
+  "text": "GiantPunt: Tyler Shough is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.3918,
+    "after": 0.3897
+   }
+  ]
+ },
+ {
+  "id": "injury-4869961-2026-10-08T00:00:00Z",
+  "kind": "I",
+  "at": "2026-10-08T00:00:00Z",
+  "teams": [
+   6
+  ],
+  "text": "The Le Chable Dolphins: Chris Bell is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.0517,
+    "after": 0.0498
+   }
+  ]
  }
 ]
