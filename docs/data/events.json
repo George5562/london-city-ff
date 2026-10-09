@@ -4114,5 +4114,50 @@
     "after": 0.0215
    }
   ]
+ },
+ {
+  "id": "injury-4241389-2026-10-09T06:30:00Z",
+  "kind": "I",
+  "at": "2026-10-09T06:30:00Z",
+  "teams": [
+   9
+  ],
+  "text": "GiantPunt: CeeDee Lamb is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.4018,
+    "after": 0.3631
+   }
+  ]
+ },
+ {
+  "id": "trade-e8c87c34-44e3-403a-8df6-a185d872326e",
+  "kind": "T",
+  "at": "2026-10-09T06:30:00Z",
+  "teams": [
+   6
+  ],
+  "text": "Added Malik Washington (WR); dropped Chris Bell (WR).",
+  "moves": [
+   {
+    "player": "Malik Washington",
+    "position": "WR",
+    "action": "add"
+   },
+   {
+    "player": "Chris Bell",
+    "position": "WR",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.0495,
+    "after": 0.0396
+   }
+  ]
  }
 ]
