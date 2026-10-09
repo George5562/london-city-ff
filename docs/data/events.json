@@ -4295,5 +4295,192 @@
     "after": 0.0003
    }
   ]
+ },
+ {
+  "id": "injury-3929630-2026-10-09T23:00:00Z",
+  "kind": "I",
+  "at": "2026-10-09T23:00:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Saquon Barkley is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0261,
+    "after": 0.0249
+   }
+  ]
+ },
+ {
+  "id": "injury-4870808-2026-10-09T23:00:00Z",
+  "kind": "I",
+  "at": "2026-10-09T23:00:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Jeremiyah Love is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0261,
+    "after": 0.0249
+   }
+  ]
+ },
+ {
+  "id": "injury-4595348-2026-10-09T23:00:00Z",
+  "kind": "I",
+  "at": "2026-10-09T23:00:00Z",
+  "teams": [
+   13
+  ],
+  "text": "Salisbury Screamers: Malik Nabers is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 13,
+    "before": 0.2386,
+    "after": 0.2397
+   }
+  ]
+ },
+ {
+  "id": "injury-4241478-2026-10-09T23:00:00Z",
+  "kind": "I",
+  "at": "2026-10-09T23:00:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Goats: DeVonta Smith is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.1663,
+    "after": 0.1636
+   }
+  ]
+ },
+ {
+  "id": "injury-4696981-2026-10-09T23:00:00Z",
+  "kind": "I",
+  "at": "2026-10-09T23:00:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Cardigan's Boys: Cam Skattebo is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0027,
+    "after": 0.0027
+   }
+  ]
+ },
+ {
+  "id": "injury-16737-2026-10-09T23:00:00Z",
+  "kind": "I",
+  "at": "2026-10-09T23:00:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Mike Evans is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0261,
+    "after": 0.0249
+   }
+  ]
+ },
+ {
+  "id": "injury-4361050-2026-10-09T23:00:00Z",
+  "kind": "I",
+  "at": "2026-10-09T23:00:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Love hurts: Isaiah Likely is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0003,
+    "after": 0.0003
+   }
+  ]
+ },
+ {
+  "id": "injury-4871023-2026-10-09T23:00:00Z",
+  "kind": "I",
+  "at": "2026-10-09T23:00:00Z",
+  "teams": [
+   6
+  ],
+  "text": "The Le Chable Dolphins: Carnell Tate is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.0423,
+    "after": 0.0422
+   }
+  ]
+ },
+ {
+  "id": "injury-3121023-2026-10-09T23:00:00Z",
+  "kind": "I",
+  "at": "2026-10-09T23:00:00Z",
+  "teams": [
+   6
+  ],
+  "text": "The Le Chable Dolphins: Dallas Goedert is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.0423,
+    "after": 0.0422
+   }
+  ]
+ },
+ {
+  "id": "injury-4428850-2026-10-09T23:00:00Z",
+  "kind": "I",
+  "at": "2026-10-09T23:00:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: Dontayvion Wicks is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0005,
+    "after": 0.0004
+   }
+  ]
+ },
+ {
+  "id": "injury-4869645-2026-10-09T23:00:00Z",
+  "kind": "I",
+  "at": "2026-10-09T23:00:00Z",
+  "teams": [
+   6
+  ],
+  "text": "The Le Chable Dolphins: Caleb Douglas is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.0423,
+    "after": 0.0422
+   }
+  ]
  }
 ]
