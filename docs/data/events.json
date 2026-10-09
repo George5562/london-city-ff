@@ -3967,5 +3967,152 @@
     "after": 0.003
    }
   ]
+ },
+ {
+  "id": "injury-4432665-2026-10-09T00:00:00Z",
+  "kind": "I",
+  "at": "2026-10-09T00:00:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Sabre Raiders: Brock Bowers is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.0305,
+    "after": 0.0297
+   }
+  ]
+ },
+ {
+  "id": "injury-4890973-2026-10-09T00:00:00Z",
+  "kind": "I",
+  "at": "2026-10-09T00:00:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Goats: Ashton Jeanty is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.16,
+    "after": 0.1598
+   }
+  ]
+ },
+ {
+  "id": "injury-4361370-2026-10-09T00:00:00Z",
+  "kind": "I",
+  "at": "2026-10-09T00:00:00Z",
+  "teams": [
+   9
+  ],
+  "text": "GiantPunt: Chris Olave is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.3901,
+    "after": 0.4018
+   }
+  ]
+ },
+ {
+  "id": "injury-4871023-2026-10-09T00:00:00Z",
+  "kind": "I",
+  "at": "2026-10-09T00:00:00Z",
+  "teams": [
+   6
+  ],
+  "text": "The Le Chable Dolphins: Carnell Tate is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.0503,
+    "after": 0.0495
+   }
+  ]
+ },
+ {
+  "id": "injury-3916148-2026-10-09T00:00:00Z",
+  "kind": "I",
+  "at": "2026-10-09T00:00:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Goats: Tony Pollard is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.16,
+    "after": 0.1598
+   }
+  ]
+ },
+ {
+  "id": "injury-4360689-2026-10-09T00:00:00Z",
+  "kind": "I",
+  "at": "2026-10-09T00:00:00Z",
+  "teams": [
+   9
+  ],
+  "text": "GiantPunt: Tyler Shough is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.3901,
+    "after": 0.4018
+   }
+  ]
+ },
+ {
+  "id": "injury-4428850-2026-10-09T00:00:00Z",
+  "kind": "I",
+  "at": "2026-10-09T00:00:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: Dontayvion Wicks is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0001,
+    "after": 0.0002
+   }
+  ]
+ },
+ {
+  "id": "trade-a9811623-ffeb-4c20-9a73-f809c331c38e",
+  "kind": "T",
+  "at": "2026-10-09T00:00:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Added Jets D/ST; dropped Bears D/ST.",
+  "moves": [
+   {
+    "player": "Jets D/ST",
+    "position": "D/ST",
+    "action": "add"
+   },
+   {
+    "player": "Bears D/ST",
+    "position": "D/ST",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.029,
+    "after": 0.0215
+   }
+  ]
  }
 ]
