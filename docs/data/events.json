@@ -4159,5 +4159,141 @@
     "after": 0.0396
    }
   ]
+ },
+ {
+  "id": "injury-4361370-2026-10-09T19:00:00Z",
+  "kind": "I",
+  "at": "2026-10-09T19:00:00Z",
+  "teams": [
+   9
+  ],
+  "text": "GiantPunt: Chris Olave is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.3631,
+    "after": 0.3638
+   }
+  ]
+ },
+ {
+  "id": "injury-3916387-2026-10-09T19:00:00Z",
+  "kind": "I",
+  "at": "2026-10-09T19:00:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Goats: Lamar Jackson is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.1756,
+    "after": 0.1663
+   }
+  ]
+ },
+ {
+  "id": "injury-4427366-2026-10-09T19:00:00Z",
+  "kind": "I",
+  "at": "2026-10-09T19:00:00Z",
+  "teams": [
+   6
+  ],
+  "text": "The Le Chable Dolphins: Breece Hall is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.0396,
+    "after": 0.0423
+   }
+  ]
+ },
+ {
+  "id": "injury-4259545-2026-10-09T19:00:00Z",
+  "kind": "I",
+  "at": "2026-10-09T19:00:00Z",
+  "teams": [
+   9
+  ],
+  "text": "GiantPunt: D'Andre Swift is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.3631,
+    "after": 0.3638
+   }
+  ]
+ },
+ {
+  "id": "injury-4871023-2026-10-09T19:00:00Z",
+  "kind": "I",
+  "at": "2026-10-09T19:00:00Z",
+  "teams": [
+   6
+  ],
+  "text": "The Le Chable Dolphins: Carnell Tate is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.0396,
+    "after": 0.0423
+   }
+  ]
+ },
+ {
+  "id": "injury-4431611-2026-10-09T19:00:00Z",
+  "kind": "I",
+  "at": "2026-10-09T19:00:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Sabre Raiders: Caleb Williams is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.0509,
+    "after": 0.0553
+   }
+  ]
+ },
+ {
+  "id": "injury-2976212-2026-10-09T19:00:00Z",
+  "kind": "I",
+  "at": "2026-10-09T19:00:00Z",
+  "teams": [
+   6
+  ],
+  "text": "The Le Chable Dolphins: Stefon Diggs is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.0396,
+    "after": 0.0423
+   }
+  ]
+ },
+ {
+  "id": "injury-4608686-2026-10-09T19:00:00Z",
+  "kind": "I",
+  "at": "2026-10-09T19:00:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Love hurts: Kyle Monangai is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0005,
+    "after": 0.0003
+   }
+  ]
  }
 ]

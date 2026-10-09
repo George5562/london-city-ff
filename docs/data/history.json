@@ -38318,6 +38318,179 @@
    },
    "at": "2026-10-09T13:30:00Z",
    "explanations": {}
+  },
+  {
+   "date": "2026-10-09",
+   "label": "Week 5 \u00b7 19:00 UTC",
+   "week": 5,
+   "backfilled": false,
+   "teams": {
+    "9": {
+     "champ": 0.3638,
+     "playoff": 0.981,
+     "projWins": 11.67
+    },
+    "13": {
+     "champ": 0.2386,
+     "playoff": 0.849,
+     "projWins": 10.36
+    },
+    "3": {
+     "champ": 0.1663,
+     "playoff": 0.8795,
+     "projWins": 10.35
+    },
+    "1": {
+     "champ": 0.1041,
+     "playoff": 0.5268,
+     "projWins": 8.69
+    },
+    "2": {
+     "champ": 0.0553,
+     "playoff": 0.3671,
+     "projWins": 7.82
+    },
+    "6": {
+     "champ": 0.0423,
+     "playoff": 0.2173,
+     "projWins": 7.02
+    },
+    "4": {
+     "champ": 0.0261,
+     "playoff": 0.1485,
+     "projWins": 6.59
+    },
+    "12": {
+     "champ": 0.0027,
+     "playoff": 0.023,
+     "projWins": 5.14
+    },
+    "11": {
+     "champ": 0.0005,
+     "playoff": 0.0052,
+     "projWins": 4.03
+    },
+    "5": {
+     "champ": 0.0003,
+     "playoff": 0.0026,
+     "projWins": 3.31
+    }
+   },
+   "at": "2026-10-09T19:00:00Z",
+   "changes": {
+    "3": {
+     "cause": "roster_availability",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0093,
+     "text": "Jahmyr Gibbs\u2019s forecast moved from 26.9992 to 26.9991 fantasy points, lowering their expected scoring contribution.",
+     "facts": [
+      "projection: Jahmyr Gibbs 26.99919186 -> 26.99909264",
+      "projection: Ashton Jeanty 17.83144738 -> 17.84105709",
+      "injury: Lamar Jackson QUESTIONABLE -> OUT",
+      "projection: Aaron Jones Sr. 17.80831338 -> 17.80826908",
+      "projection: Terry McLaurin 13.17461939 -> 12.78991597",
+      "injury: Carnell Tate QUESTIONABLE -> ACTIVE",
+      "injury: Stefon Diggs QUESTIONABLE -> OUT",
+      "injury: Jalen Nailor QUESTIONABLE -> OUT"
+     ],
+     "showTooltip": true
+    }
+   },
+   "explanations": {
+    "13": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0112,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.11,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "3": {
+     "champ": {
+      "cause": "roster_availability",
+      "text": "Jahmyr Gibbs\u2019s forecast moved from 26.9992 to 26.9991 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.0093,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "roster_availability",
+      "text": "Jahmyr Gibbs\u2019s forecast moved from 26.9992 to 26.9991 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.0064,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "1": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0076,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "2": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.0332,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.11,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "6": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0166,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.1,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "5": {
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.26,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    }
+   }
   }
  ]
 }
