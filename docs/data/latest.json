@@ -12,11 +12,11 @@
    "pf": 643.84,
    "projPerGame": 126.5,
    "strength": 138.0,
-   "projWins": 11.72,
-   "playoff": 0.9821,
-   "final": 0.6125,
-   "champ": 0.3662,
-   "topSeed": 0.6099,
+   "projWins": 11.69,
+   "playoff": 0.9795,
+   "final": 0.6071,
+   "champ": 0.3577,
+   "topSeed": 0.607,
    "lineup": [
     {
      "name": "CeeDee Lamb",
@@ -75,11 +75,11 @@
    "pf": 506.24,
    "projPerGame": 135.7,
    "strength": 132.6,
-   "projWins": 10.36,
-   "playoff": 0.85,
-   "final": 0.4652,
-   "champ": 0.2397,
-   "topSeed": 0.1676,
+   "projWins": 10.37,
+   "playoff": 0.8486,
+   "final": 0.4636,
+   "champ": 0.2399,
+   "topSeed": 0.1695,
    "lineup": [
     {
      "name": "Bijan Robinson",
@@ -138,11 +138,11 @@
    "pf": 510.68,
    "projPerGame": 124.4,
    "strength": 125.5,
-   "projWins": 10.36,
-   "playoff": 0.8808,
-   "final": 0.3908,
-   "champ": 0.1636,
-   "topSeed": 0.174,
+   "projWins": 10.33,
+   "playoff": 0.8798,
+   "final": 0.3876,
+   "champ": 0.1651,
+   "topSeed": 0.1734,
    "lineup": [
     {
      "name": "Jahmyr Gibbs",
@@ -201,11 +201,11 @@
    "pf": 457.84,
    "projPerGame": 131.3,
    "strength": 125.7,
-   "projWins": 8.69,
-   "playoff": 0.5281,
-   "final": 0.2336,
-   "champ": 0.104,
-   "topSeed": 0.0341,
+   "projWins": 8.7,
+   "playoff": 0.5261,
+   "final": 0.2386,
+   "champ": 0.1085,
+   "topSeed": 0.0353,
    "lineup": [
     {
      "name": "Puka Nacua",
@@ -259,11 +259,11 @@
    "pf": 510.34,
    "projPerGame": 115.2,
    "strength": 119.3,
-   "projWins": 7.82,
-   "playoff": 0.3681,
-   "final": 0.1396,
-   "champ": 0.0558,
-   "topSeed": 0.0088,
+   "projWins": 7.84,
+   "playoff": 0.3772,
+   "final": 0.1422,
+   "champ": 0.0571,
+   "topSeed": 0.0086,
    "lineup": [
     {
      "name": "Jaxon Smith-Njigba",
@@ -323,9 +323,9 @@
    "projPerGame": 121.8,
    "strength": 123.3,
    "projWins": 7.02,
-   "playoff": 0.2182,
-   "final": 0.092,
-   "champ": 0.0422,
+   "playoff": 0.214,
+   "final": 0.0936,
+   "champ": 0.0423,
    "topSeed": 0.0038,
    "lineup": [
     {
@@ -385,11 +385,11 @@
    "pf": 461.68,
    "projPerGame": 124.7,
    "strength": 121.6,
-   "projWins": 6.55,
-   "playoff": 0.1421,
-   "final": 0.0566,
-   "champ": 0.0249,
-   "topSeed": 0.0018,
+   "projWins": 6.54,
+   "playoff": 0.1429,
+   "final": 0.058,
+   "champ": 0.0257,
+   "topSeed": 0.0022,
    "lineup": [
     {
      "name": "Kyren Williams",
@@ -448,10 +448,10 @@
    "pf": 381.32,
    "projPerGame": 118.4,
    "strength": 110.7,
-   "projWins": 5.14,
-   "playoff": 0.0235,
-   "final": 0.0076,
-   "champ": 0.0027,
+   "projWins": 5.11,
+   "playoff": 0.0256,
+   "final": 0.0073,
+   "champ": 0.0028,
    "topSeed": 0.0002,
    "lineup": [
     {
@@ -511,10 +511,10 @@
    "pf": 426.46,
    "projPerGame": 110.2,
    "strength": 109.0,
-   "projWins": 3.93,
-   "playoff": 0.0045,
+   "projWins": 3.94,
+   "playoff": 0.0041,
    "final": 0.0013,
-   "champ": 0.0004,
+   "champ": 0.0006,
    "topSeed": 0.0,
    "lineup": [
     {
@@ -574,9 +574,9 @@
    "pf": 386.54,
    "projPerGame": 113.1,
    "strength": 107.6,
-   "projWins": 3.41,
-   "playoff": 0.0027,
-   "final": 0.0008,
+   "projWins": 3.43,
+   "playoff": 0.0024,
+   "final": 0.0005,
    "champ": 0.0003,
    "topSeed": 0.0,
    "lineup": [
@@ -632,7 +632,7 @@
   {
    "home": 12,
    "away": 2,
-   "homeWin": 0.2464,
+   "homeWin": 0.2425,
    "homePts": 0.0,
    "awayPts": 31.5,
    "homeProj": 100.8,
@@ -641,7 +641,7 @@
   {
    "home": 3,
    "away": 6,
-   "homeWin": 0.7532,
+   "homeWin": 0.7493,
    "homePts": 0.0,
    "awayPts": 12.6,
    "homeProj": 135.0,
@@ -650,7 +650,7 @@
   {
    "home": 11,
    "away": 5,
-   "homeWin": 0.6377,
+   "homeWin": 0.6384,
    "homePts": 28.0,
    "awayPts": 5.0,
    "homeProj": 112.6,
@@ -659,7 +659,7 @@
   {
    "home": 1,
    "away": 13,
-   "homeWin": 0.4568,
+   "homeWin": 0.4538,
    "homePts": 14.2,
    "awayPts": 0.0,
    "homeProj": 121.6,
@@ -668,12 +668,12 @@
   {
    "home": 9,
    "away": 4,
-   "homeWin": 0.3796,
+   "homeWin": 0.377,
    "homePts": 2.9,
    "awayPts": 0.0,
    "homeProj": 118.2,
    "awayProj": 130.0
   }
  ],
- "generated": "2026-10-09T23:26+00:00"
+ "generated": "2026-10-10T02:39+00:00"
 }
