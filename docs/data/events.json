@@ -4482,5 +4482,22 @@
     "after": 0.0422
    }
   ]
+ },
+ {
+  "id": "injury-4432708-2026-10-10T15:30:00Z",
+  "kind": "I",
+  "at": "2026-10-10T15:30:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: Marvin Harrison Jr. is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0006,
+    "after": 0.0006
+   }
+  ]
  }
 ]

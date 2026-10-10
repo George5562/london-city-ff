@@ -13,10 +13,10 @@
    "projPerGame": 126.5,
    "strength": 138.0,
    "projWins": 11.69,
-   "playoff": 0.9795,
+   "playoff": 0.9796,
    "final": 0.6071,
-   "champ": 0.3577,
-   "topSeed": 0.607,
+   "champ": 0.3578,
+   "topSeed": 0.6071,
    "lineup": [
     {
      "name": "CeeDee Lamb",
@@ -74,12 +74,12 @@
    "losses": 0,
    "pf": 506.24,
    "projPerGame": 135.7,
-   "strength": 132.6,
-   "projWins": 10.37,
-   "playoff": 0.8486,
-   "final": 0.4636,
+   "strength": 132.7,
+   "projWins": 10.38,
+   "playoff": 0.8489,
+   "final": 0.4637,
    "champ": 0.2399,
-   "topSeed": 0.1695,
+   "topSeed": 0.1696,
    "lineup": [
     {
      "name": "Bijan Robinson",
@@ -140,8 +140,8 @@
    "strength": 125.5,
    "projWins": 10.33,
    "playoff": 0.8798,
-   "final": 0.3876,
-   "champ": 0.1651,
+   "final": 0.3877,
+   "champ": 0.1652,
    "topSeed": 0.1734,
    "lineup": [
     {
@@ -199,11 +199,11 @@
    "wins": 3,
    "losses": 1,
    "pf": 457.84,
-   "projPerGame": 131.3,
+   "projPerGame": 131.4,
    "strength": 125.7,
    "projWins": 8.7,
    "playoff": 0.5261,
-   "final": 0.2386,
+   "final": 0.2385,
    "champ": 0.1085,
    "topSeed": 0.0353,
    "lineup": [
@@ -260,10 +260,10 @@
    "projPerGame": 115.2,
    "strength": 119.3,
    "projWins": 7.84,
-   "playoff": 0.3772,
+   "playoff": 0.377,
    "final": 0.1422,
-   "champ": 0.0571,
-   "topSeed": 0.0086,
+   "champ": 0.057,
+   "topSeed": 0.0085,
    "lineup": [
     {
      "name": "Jaxon Smith-Njigba",
@@ -323,7 +323,7 @@
    "projPerGame": 121.8,
    "strength": 123.3,
    "projWins": 7.02,
-   "playoff": 0.214,
+   "playoff": 0.2139,
    "final": 0.0936,
    "champ": 0.0423,
    "topSeed": 0.0038,
@@ -386,7 +386,7 @@
    "projPerGame": 124.7,
    "strength": 121.6,
    "projWins": 6.54,
-   "playoff": 0.1429,
+   "playoff": 0.1426,
    "final": 0.058,
    "champ": 0.0257,
    "topSeed": 0.0022,
@@ -409,7 +409,7 @@
     {
      "name": "George Kittle",
      "pos": "TE",
-     "pts": 14.1
+     "pts": 14.2
     },
     {
      "name": "Mike Evans",
@@ -462,7 +462,7 @@
     {
      "name": "Michael Wilson",
      "pos": "WR",
-     "pts": 14.7
+     "pts": 14.8
     },
     {
      "name": "T.J. Hockenson",
@@ -509,10 +509,10 @@
    "wins": 0,
    "losses": 4,
    "pf": 426.46,
-   "projPerGame": 110.2,
+   "projPerGame": 110.1,
    "strength": 109.0,
-   "projWins": 3.94,
-   "playoff": 0.0041,
+   "projWins": 3.95,
+   "playoff": 0.0042,
    "final": 0.0013,
    "champ": 0.0006,
    "topSeed": 0.0,
@@ -650,20 +650,20 @@
   {
    "home": 11,
    "away": 5,
-   "homeWin": 0.6384,
+   "homeWin": 0.6373,
    "homePts": 28.0,
    "awayPts": 5.0,
    "homeProj": 112.6,
-   "awayProj": 100.8
+   "awayProj": 100.9
   },
   {
    "home": 1,
    "away": 13,
-   "homeWin": 0.4538,
+   "homeWin": 0.4529,
    "homePts": 14.2,
    "awayPts": 0.0,
    "homeProj": 121.6,
-   "awayProj": 125.3
+   "awayProj": 125.4
   },
   {
    "home": 9,
@@ -675,5 +675,5 @@
    "awayProj": 130.0
   }
  ],
- "generated": "2026-10-10T09:42+00:00"
+ "generated": "2026-10-10T15:50+00:00"
 }
