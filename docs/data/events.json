@@ -4499,5 +4499,22 @@
     "after": 0.0006
    }
   ]
+ },
+ {
+  "id": "injury-4035687-2026-10-10T19:30:00Z",
+  "kind": "I",
+  "at": "2026-10-10T19:30:00Z",
+  "teams": [
+   13
+  ],
+  "text": "Salisbury Screamers: Michael Pittman Jr. is now listed as injury reserve.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 13,
+    "before": 0.2399,
+    "after": 0.2393
+   }
+  ]
  }
 ]
