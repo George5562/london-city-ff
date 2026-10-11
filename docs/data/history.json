@@ -39065,6 +39065,179 @@
    },
    "at": "2026-10-11T09:00:00Z",
    "explanations": {}
+  },
+  {
+   "date": "2026-10-11",
+   "label": "Week 5 \u00b7 15:30 UTC",
+   "week": 5,
+   "backfilled": false,
+   "teams": {
+    "9": {
+     "champ": 0.3664,
+     "playoff": 0.9821,
+     "projWins": 11.79
+    },
+    "13": {
+     "champ": 0.254,
+     "playoff": 0.86,
+     "projWins": 10.46
+    },
+    "3": {
+     "champ": 0.1691,
+     "playoff": 0.8925,
+     "projWins": 10.41
+    },
+    "1": {
+     "champ": 0.1072,
+     "playoff": 0.5311,
+     "projWins": 8.72
+    },
+    "2": {
+     "champ": 0.0503,
+     "playoff": 0.4182,
+     "projWins": 8.02
+    },
+    "6": {
+     "champ": 0.0273,
+     "playoff": 0.1625,
+     "projWins": 6.7
+    },
+    "4": {
+     "champ": 0.0225,
+     "playoff": 0.1267,
+     "projWins": 6.49
+    },
+    "12": {
+     "champ": 0.0024,
+     "playoff": 0.0208,
+     "projWins": 5.12
+    },
+    "11": {
+     "champ": 0.0006,
+     "playoff": 0.0047,
+     "projWins": 4.08
+    },
+    "5": {
+     "champ": 0.0001,
+     "playoff": 0.0014,
+     "projWins": 3.2
+    }
+   },
+   "at": "2026-10-11T15:30:00Z",
+   "changes": {
+    "6": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0142,
+     "text": "Omarion Hampton\u2019s forecast moved from 11.565 to 12.0101 fantasy points, raising their expected scoring contribution.",
+     "facts": [
+      "injury: Ja'Marr Chase QUESTIONABLE -> ACTIVE",
+      "projection: Omarion Hampton 11.56501175 -> 12.01013408",
+      "injury: Tee Higgins QUESTIONABLE -> ACTIVE",
+      "injury: Terry McLaurin QUESTIONABLE -> ACTIVE",
+      "injury: Rhamondre Stevenson QUESTIONABLE -> ACTIVE",
+      "roster_move: Carnell Tate 6 -> 0",
+      "projection: Dallas Goedert 10.88807222 -> 10.88690812",
+      "actual: Dallas Goedert None -> 5.7"
+     ],
+     "showTooltip": true
+    }
+   },
+   "explanations": {
+    "13": {
+     "champ": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0121,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0122,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "1": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0074,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "2": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0464,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.19,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "6": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Omarion Hampton\u2019s forecast moved from 11.565 to 12.0101 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.0142,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Omarion Hampton\u2019s forecast moved from 11.565 to 12.0101 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.0532,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Omarion Hampton\u2019s forecast moved from 11.565 to 12.0101 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.31,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "4": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.0169,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "5": {
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.12,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    }
+   }
   }
  ]
 }
