@@ -4748,5 +4748,107 @@
     "after": 0.0273
    }
   ]
+ },
+ {
+  "id": "injury-4612826-2026-10-11T20:00:00Z",
+  "kind": "I",
+  "at": "2026-10-11T20:00:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: Ladd McConkey is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0006,
+    "after": 0.0005
+   }
+  ]
+ },
+ {
+  "id": "injury-4035538-2026-10-11T20:00:00Z",
+  "kind": "I",
+  "at": "2026-10-11T20:00:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Love hurts: David Montgomery is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0001,
+    "after": 0.0001
+   }
+  ]
+ },
+ {
+  "id": "injury-4432710-2026-10-11T20:00:00Z",
+  "kind": "I",
+  "at": "2026-10-11T20:00:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: TreVeyon Henderson is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0006,
+    "after": 0.0005
+   }
+  ]
+ },
+ {
+  "id": "injury-4036133-2026-10-11T20:00:00Z",
+  "kind": "I",
+  "at": "2026-10-11T20:00:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Cardigan's Boys: T.J. Hockenson is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0024,
+    "after": 0.0024
+   }
+  ]
+ },
+ {
+  "id": "injury-4870653-2026-10-11T20:00:00Z",
+  "kind": "I",
+  "at": "2026-10-11T20:00:00Z",
+  "teams": [
+   6
+  ],
+  "text": "The Le Chable Dolphins: KC Concepcion is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.0273,
+    "after": 0.0053
+   }
+  ]
+ },
+ {
+  "id": "injury-4431545-2026-10-11T20:00:00Z",
+  "kind": "I",
+  "at": "2026-10-11T20:00:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: Will Shipley is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0006,
+    "after": 0.0005
+   }
+  ]
  }
 ]
