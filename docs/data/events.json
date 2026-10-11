@@ -4850,5 +4850,90 @@
     "after": 0.0005
    }
   ]
+ },
+ {
+  "id": "injury-4429615-2026-10-11T23:30:00Z",
+  "kind": "I",
+  "at": "2026-10-11T23:30:00Z",
+  "teams": [
+   13
+  ],
+  "text": "Salisbury Screamers: Zay Flowers is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 13,
+    "before": 0.2182,
+    "after": 0.2276
+   }
+  ]
+ },
+ {
+  "id": "injury-4685702-2026-10-11T23:30:00Z",
+  "kind": "I",
+  "at": "2026-10-11T23:30:00Z",
+  "teams": [
+   1
+  ],
+  "text": "Knights who say Ni: Quinshon Judkins is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.0806,
+    "after": 0.0631
+   }
+  ]
+ },
+ {
+  "id": "injury-4432710-2026-10-11T23:30:00Z",
+  "kind": "I",
+  "at": "2026-10-11T23:30:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: TreVeyon Henderson is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0005,
+    "after": 0.0003
+   }
+  ]
+ },
+ {
+  "id": "injury-3126486-2026-10-11T23:30:00Z",
+  "kind": "I",
+  "at": "2026-10-11T23:30:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Sabre Raiders: Deebo Samuel Sr. is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.0714,
+    "after": 0.0849
+   }
+  ]
+ },
+ {
+  "id": "injury-4870653-2026-10-11T23:30:00Z",
+  "kind": "I",
+  "at": "2026-10-11T23:30:00Z",
+  "teams": [
+   6
+  ],
+  "text": "The Le Chable Dolphins: KC Concepcion is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.0053,
+    "after": 0.0072
+   }
+  ]
  }
 ]

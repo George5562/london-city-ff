@@ -39611,6 +39611,350 @@
      }
     }
    }
+  },
+  {
+   "date": "2026-10-11",
+   "label": "Week 5 \u00b7 23:30 UTC",
+   "week": 5,
+   "backfilled": false,
+   "teams": {
+    "9": {
+     "champ": 0.3663,
+     "playoff": 0.9676,
+     "projWins": 11.32
+    },
+    "13": {
+     "champ": 0.2276,
+     "playoff": 0.8315,
+     "projWins": 10.46
+    },
+    "3": {
+     "champ": 0.1804,
+     "playoff": 0.899,
+     "projWins": 10.65
+    },
+    "2": {
+     "champ": 0.0849,
+     "playoff": 0.6027,
+     "projWins": 8.8
+    },
+    "4": {
+     "champ": 0.0692,
+     "playoff": 0.2941,
+     "projWins": 7.64
+    },
+    "1": {
+     "champ": 0.0631,
+     "playoff": 0.3481,
+     "projWins": 8.23
+    },
+    "6": {
+     "champ": 0.0072,
+     "playoff": 0.0449,
+     "projWins": 5.79
+    },
+    "12": {
+     "champ": 0.001,
+     "playoff": 0.0083,
+     "projWins": 4.83
+    },
+    "11": {
+     "champ": 0.0003,
+     "playoff": 0.0032,
+     "projWins": 4.1
+    },
+    "5": {
+     "champ": 0.0001,
+     "playoff": 0.0006,
+     "projWins": 3.17
+    }
+   },
+   "at": "2026-10-11T23:30:00Z",
+   "changes": {
+    "9": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.035,
+     "text": "Amon-Ra St. Brown now has 12.9 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "actual: Amon-Ra St. Brown None -> 12.9",
+      "actual: Jayden Daniels 28.66 -> 32.26",
+      "actual: Emanuel Wilson None -> 13.2",
+      "actual: Jadarian Price None -> 0.0",
+      "injury: Skyy Moore OUT -> QUESTIONABLE",
+      "injury: Tom Kennedy ACTIVE -> QUESTIONABLE"
+     ],
+     "showTooltip": true
+    },
+    "13": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.0094,
+     "text": "Joe Burrow now has 24.6 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "injury: Zay Flowers QUESTIONABLE -> ACTIVE",
+      "actual: Joe Burrow 24.8 -> 24.6",
+      "actual: Malik Nabers 22.7 -> 29.1",
+      "actual: Cameron Dicker 0.0 -> 6.0",
+      "actual: Courtland Sutton 0.0 -> 9.8",
+      "injury: Roman Wilson OUT -> QUESTIONABLE",
+      "injury: Tre' Harris ACTIVE -> QUESTIONABLE",
+      "injury: Elijah Sarratt ACTIVE -> OUT"
+     ],
+     "showTooltip": true
+    },
+    "3": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "model",
+     "delta": 0.0387,
+     "text": "Jahmyr Gibbs scored 37.7 fantasy points for his fantasy team, while Jared Goff posted 28.94. Those performances update the matchup outlook; the specific odds movement\u2019s link to either player is unclear.",
+     "facts": [
+      "actual: Jahmyr Gibbs None -> 37.7",
+      "injury: Zay Flowers QUESTIONABLE -> ACTIVE",
+      "injury: Quinshon Judkins ACTIVE -> QUESTIONABLE",
+      "actual: Jared Goff None -> 28.94",
+      "actual: Terry McLaurin 9.6 -> 12.2",
+      "actual: Rachaad White 2.5 -> 3.0",
+      "injury: KC Concepcion OUT -> QUESTIONABLE",
+      "injury: Roman Wilson OUT -> QUESTIONABLE"
+     ],
+     "showTooltip": true
+    },
+    "2": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.0135,
+     "text": "Jaxon Smith-Njigba now has 22.8 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "actual: Jaxon Smith-Njigba None -> 22.8",
+      "actual: Jason Myers None -> 23.0",
+      "injury: Deebo Samuel Sr. ACTIVE -> QUESTIONABLE",
+      "actual: Deebo Samuel Sr. None -> 2.5",
+      "actual: J.K. Dobbins 0.2 -> 15.4",
+      "injury: Kenyon Sadiq OUT -> QUESTIONABLE",
+      "actual: Chad Ryland None -> 2.0"
+     ],
+     "showTooltip": true
+    },
+    "4": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0092,
+     "text": "Jeremiyah Love now has 2.2 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "actual: Jeremiyah Love None -> 2.2",
+      "actual: George Kittle None -> 7.4",
+      "actual: Mike Evans None -> 26.3",
+      "injury: TreVeyon Henderson OUT -> QUESTIONABLE",
+      "injury: Deebo Samuel Sr. ACTIVE -> QUESTIONABLE",
+      "injury: Kenyon Sadiq OUT -> QUESTIONABLE",
+      "actual: Jets D/ST 15.0 -> 18.0",
+      "injury: Roman Wilson OUT -> QUESTIONABLE"
+     ],
+     "showTooltip": true
+    },
+    "1": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0175,
+     "text": "Brock Purdy now has 16.16 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "actual: Brock Purdy None -> 16.16",
+      "actual: Sam LaPorta None -> 19.8",
+      "injury: Quinshon Judkins ACTIVE -> QUESTIONABLE",
+      "actual: Jameson Williams None -> 18.7",
+      "injury: TreVeyon Henderson OUT -> QUESTIONABLE",
+      "injury: Deebo Samuel Sr. ACTIVE -> QUESTIONABLE",
+      "actual: RJ Harvey 0.0 -> 0.7",
+      "actual: Eddy Pineiro None -> 6.0"
+     ],
+     "showTooltip": true
+    }
+   },
+   "explanations": {
+    "9": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Amon-Ra St. Brown now has 12.9 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.035,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Amon-Ra St. Brown now has 12.9 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.0082,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Amon-Ra St. Brown now has 12.9 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.19,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "13": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Joe Burrow now has 24.6 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.0094,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Joe Burrow now has 24.6 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.0183,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Joe Burrow now has 24.6 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.17,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "3": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Jahmyr Gibbs scored 37.7 fantasy points for his fantasy team, while Jared Goff posted 28.94. Those performances update the matchup outlook; the specific odds movement\u2019s link to either player is unclear.",
+      "confidence": "recorded explanation",
+      "delta": 0.0387,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Jahmyr Gibbs scored 37.7 fantasy points for his fantasy team, while Jared Goff posted 28.94. Those performances update the matchup outlook; the specific odds movement\u2019s link to either player is unclear.",
+      "confidence": "recorded explanation",
+      "delta": 0.0388,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Jahmyr Gibbs scored 37.7 fantasy points for his fantasy team, while Jared Goff posted 28.94. Those performances update the matchup outlook; the specific odds movement\u2019s link to either player is unclear.",
+      "confidence": "recorded explanation",
+      "delta": 0.25,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "2": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Jaxon Smith-Njigba now has 22.8 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.0135,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Jaxon Smith-Njigba now has 22.8 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.0673,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Jaxon Smith-Njigba now has 22.8 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.21,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "4": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Jeremiyah Love now has 2.2 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.0092,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Jeremiyah Love now has 2.2 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.0365,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "1": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Brock Purdy now has 16.16 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.0175,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Brock Purdy now has 16.16 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.0758,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Brock Purdy now has 16.16 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.25,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "6": {
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.13,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "12": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.006,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.27,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    }
+   }
   }
  ]
 }
