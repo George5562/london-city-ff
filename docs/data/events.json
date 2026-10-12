@@ -4935,5 +4935,22 @@
     "after": 0.0072
    }
   ]
+ },
+ {
+  "id": "injury-4612826-2026-10-12T15:00:00Z",
+  "kind": "I",
+  "at": "2026-10-12T15:00:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: Ladd McConkey is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0005,
+    "after": 0.0005
+   }
+  ]
  }
 ]
