@@ -4952,5 +4952,90 @@
     "after": 0.0005
    }
   ]
+ },
+ {
+  "id": "injury-4430878-2026-10-12T22:30:00Z",
+  "kind": "I",
+  "at": "2026-10-12T22:30:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Sabre Raiders: Jaxon Smith-Njigba is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.095,
+    "after": 0.0907
+   }
+  ]
+ },
+ {
+  "id": "injury-4035538-2026-10-12T22:30:00Z",
+  "kind": "I",
+  "at": "2026-10-12T22:30:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Love hurts: David Montgomery is now listed as doubtful.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0,
+    "after": 0.0
+   }
+  ]
+ },
+ {
+  "id": "injury-3126486-2026-10-12T22:30:00Z",
+  "kind": "I",
+  "at": "2026-10-12T22:30:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Sabre Raiders: Deebo Samuel Sr. is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.095,
+    "after": 0.0907
+   }
+  ]
+ },
+ {
+  "id": "injury-4432708-2026-10-12T22:30:00Z",
+  "kind": "I",
+  "at": "2026-10-12T22:30:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: Marvin Harrison Jr. is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0005,
+    "after": 0.0005
+   }
+  ]
+ },
+ {
+  "id": "injury-4431545-2026-10-12T22:30:00Z",
+  "kind": "I",
+  "at": "2026-10-12T22:30:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: Will Shipley is now listed as doubtful.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0005,
+    "after": 0.0005
+   }
+  ]
  }
 ]
