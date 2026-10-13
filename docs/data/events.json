@@ -5082,5 +5082,209 @@
     "after": 0.3584
    }
   ]
+ },
+ {
+  "id": "injury-3916387-2026-10-13T18:00:00Z",
+  "kind": "I",
+  "at": "2026-10-13T18:00:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Goats: Lamar Jackson is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.0644,
+    "after": 0.0761
+   }
+  ]
+ },
+ {
+  "id": "injury-3929630-2026-10-13T18:00:00Z",
+  "kind": "I",
+  "at": "2026-10-13T18:00:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Saquon Barkley is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.1085,
+    "after": 0.1181
+   }
+  ]
+ },
+ {
+  "id": "injury-4241478-2026-10-13T18:00:00Z",
+  "kind": "I",
+  "at": "2026-10-13T18:00:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Goats: DeVonta Smith is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.0644,
+    "after": 0.0761
+   }
+  ]
+ },
+ {
+  "id": "injury-4427366-2026-10-13T18:00:00Z",
+  "kind": "I",
+  "at": "2026-10-13T18:00:00Z",
+  "teams": [
+   6
+  ],
+  "text": "The Le Chable Dolphins: Breece Hall is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.0006,
+    "after": 0.0003
+   }
+  ]
+ },
+ {
+  "id": "injury-3915416-2026-10-13T18:00:00Z",
+  "kind": "I",
+  "at": "2026-10-13T18:00:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: DJ Moore is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.001,
+    "after": 0.0008
+   }
+  ]
+ },
+ {
+  "id": "injury-4432710-2026-10-13T18:00:00Z",
+  "kind": "I",
+  "at": "2026-10-13T18:00:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: TreVeyon Henderson is now listed as doubtful.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.001,
+    "after": 0.0008
+   }
+  ]
+ },
+ {
+  "id": "injury-4431611-2026-10-13T18:00:00Z",
+  "kind": "I",
+  "at": "2026-10-13T18:00:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Sabre Raiders: Caleb Williams is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.2767,
+    "after": 0.2752
+   }
+  ]
+ },
+ {
+  "id": "injury-2976212-2026-10-13T18:00:00Z",
+  "kind": "I",
+  "at": "2026-10-13T18:00:00Z",
+  "teams": [
+   6
+  ],
+  "text": "The Le Chable Dolphins: Stefon Diggs is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.0006,
+    "after": 0.0003
+   }
+  ]
+ },
+ {
+  "id": "injury-4608686-2026-10-13T18:00:00Z",
+  "kind": "I",
+  "at": "2026-10-13T18:00:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Love hurts: Kyle Monangai is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0,
+    "after": 0.0
+   }
+  ]
+ },
+ {
+  "id": "injury-4429205-2026-10-13T18:00:00Z",
+  "kind": "I",
+  "at": "2026-10-13T18:00:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Love hurts: Jordan Addison is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0,
+    "after": 0.0
+   }
+  ]
+ },
+ {
+  "id": "injury-4038815-2026-10-13T18:00:00Z",
+  "kind": "I",
+  "at": "2026-10-13T18:00:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Rico Dowdle is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.1085,
+    "after": 0.1181
+   }
+  ]
+ },
+ {
+  "id": "injury-4869645-2026-10-13T18:00:00Z",
+  "kind": "I",
+  "at": "2026-10-13T18:00:00Z",
+  "teams": [
+   6
+  ],
+  "text": "The Le Chable Dolphins: Caleb Douglas is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.0006,
+    "after": 0.0003
+   }
+  ]
  }
 ]
