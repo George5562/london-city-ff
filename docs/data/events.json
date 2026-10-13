@@ -5054,5 +5054,33 @@
     "after": 0.0004
    }
   ]
+ },
+ {
+  "id": "trade-516bed90-e77a-4b02-8bc4-62e6fbd63b48",
+  "kind": "T",
+  "at": "2026-10-13T11:00:00Z",
+  "teams": [
+   9
+  ],
+  "text": "Added Rams D/ST; dropped Bengals D/ST.",
+  "moves": [
+   {
+    "player": "Rams D/ST",
+    "position": "D/ST",
+    "action": "add"
+   },
+   {
+    "player": "Bengals D/ST",
+    "position": "D/ST",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.3737,
+    "after": 0.3584
+   }
+  ]
  }
 ]
