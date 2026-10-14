@@ -41397,6 +41397,186 @@
    },
    "at": "2026-10-14T13:00:00Z",
    "explanations": {}
+  },
+  {
+   "date": "2026-10-14",
+   "label": "Week 6 \u00b7 17:30 UTC",
+   "week": 6,
+   "backfilled": false,
+   "teams": {
+    "9": {
+     "champ": 0.32,
+     "playoff": 0.8818,
+     "projWins": 10.6
+    },
+    "2": {
+     "champ": 0.2868,
+     "playoff": 0.7614,
+     "projWins": 9.76
+    },
+    "4": {
+     "champ": 0.1203,
+     "playoff": 0.3746,
+     "projWins": 8.27
+    },
+    "13": {
+     "champ": 0.1121,
+     "playoff": 0.7045,
+     "projWins": 9.89
+    },
+    "1": {
+     "champ": 0.0904,
+     "playoff": 0.4164,
+     "projWins": 8.94
+    },
+    "3": {
+     "champ": 0.0693,
+     "playoff": 0.8514,
+     "projWins": 10.68
+    },
+    "11": {
+     "champ": 0.0006,
+     "playoff": 0.0046,
+     "projWins": 4.6
+    },
+    "6": {
+     "champ": 0.0003,
+     "playoff": 0.0029,
+     "projWins": 4.58
+    },
+    "12": {
+     "champ": 0.0002,
+     "playoff": 0.0022,
+     "projWins": 4.4
+    },
+    "5": {
+     "champ": 0.0,
+     "playoff": 0.0003,
+     "projWins": 3.29
+    }
+   },
+   "at": "2026-10-14T17:30:00Z",
+   "changes": {
+    "1": {
+     "cause": "roster_move",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.0187,
+     "text": "Puka Nacua\u2019s forecast moved from 22.7829 to 22.7829 fantasy points, lowering their expected scoring contribution.",
+     "facts": [
+      "roster_move: Puka Nacua 1 -> 1",
+      "projection: Puka Nacua 22.7828708 -> 22.78286683",
+      "roster_move: Javonte Williams 1 -> 1",
+      "projection: Javonte Williams 16.92965275 -> 16.92974242",
+      "roster_move: Chase Brown 1 -> 1",
+      "roster_move: Sam LaPorta 1 -> 1",
+      "projection: Quinshon Judkins 13.26348985 -> 13.47391831",
+      "projection: Parker Washington 14.80012888 -> 14.80012807"
+     ],
+     "showTooltip": true
+    },
+    "3": {
+     "cause": "roster_availability",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.005,
+     "text": "Ashton Jeanty\u2019s forecast moved from 18.9402 to 18.9403 fantasy points, raising their expected scoring contribution.",
+     "facts": [
+      "projection: Ashton Jeanty 18.94019855 -> 18.94028497",
+      "projection: Tetairoa McMillan 16.03400078 -> 16.03733608",
+      "projection: Harold Fannin Jr. 10.29168652 -> 10.64918563",
+      "projection: DK Metcalf 11.76226928 -> 11.73046909",
+      "injury: Tony Pollard ACTIVE -> QUESTIONABLE"
+     ],
+     "showTooltip": true
+    }
+   },
+   "explanations": {
+    "9": {
+     "champ": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.0148,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "2": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0252,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "4": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0218,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "13": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0251,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "1": {
+     "champ": {
+      "cause": "roster_move",
+      "text": "Puka Nacua\u2019s forecast moved from 22.7829 to 22.7829 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.0187,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "roster_move",
+      "text": "Puka Nacua\u2019s forecast moved from 22.7829 to 22.7829 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.0885,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "roster_move",
+      "text": "Puka Nacua\u2019s forecast moved from 22.7829 to 22.7829 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.35,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "3": {
+     "champ": {
+      "cause": "roster_availability",
+      "text": "Ashton Jeanty\u2019s forecast moved from 18.9402 to 18.9403 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.005,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "roster_availability",
+      "text": "Ashton Jeanty\u2019s forecast moved from 18.9402 to 18.9403 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.016,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    }
+   }
   }
  ]
 }

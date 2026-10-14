@@ -5286,5 +5286,102 @@
     "after": 0.0003
    }
   ]
+ },
+ {
+  "id": "injury-4427366-2026-10-14T17:30:00Z",
+  "kind": "I",
+  "at": "2026-10-14T17:30:00Z",
+  "teams": [
+   6
+  ],
+  "text": "The Le Chable Dolphins: Breece Hall is now listed as doubtful.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.0003,
+    "after": 0.0003
+   }
+  ]
+ },
+ {
+  "id": "injury-3916148-2026-10-14T17:30:00Z",
+  "kind": "I",
+  "at": "2026-10-14T17:30:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Goats: Tony Pollard is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.0743,
+    "after": 0.0693
+   }
+  ]
+ },
+ {
+  "id": "injury-3116406-2026-10-14T17:30:00Z",
+  "kind": "I",
+  "at": "2026-10-14T17:30:00Z",
+  "teams": [
+   6
+  ],
+  "text": "The Le Chable Dolphins: Tyreek Hill is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.0003,
+    "after": 0.0003
+   }
+  ]
+ },
+ {
+  "id": "trade-6089077b-8950-4e1d-9744-2f8375e3b97f",
+  "kind": "T",
+  "at": "2026-10-14T17:30:00Z",
+  "teams": [
+   1
+  ],
+  "text": "Dropped Kalif Raymond.",
+  "moves": [
+   {
+    "player": "Kalif Raymond",
+    "position": "WR",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.0717,
+    "after": 0.0904
+   }
+  ]
+ },
+ {
+  "id": "trade-edbcdb05-2e9d-47d2-aa7b-3b887fdb07aa",
+  "kind": "T",
+  "at": "2026-10-14T17:30:00Z",
+  "teams": [
+   1
+  ],
+  "text": "Added Pat Freiermuth (TE).",
+  "moves": [
+   {
+    "player": "Pat Freiermuth",
+    "position": "TE",
+    "action": "add"
+   }
+  ],
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.0717,
+    "after": 0.0904
+   }
+  ]
  }
 ]
