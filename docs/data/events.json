@@ -5383,5 +5383,225 @@
     "after": 0.0904
    }
   ]
+ },
+ {
+  "id": "injury-4241389-2026-10-14T21:30:00Z",
+  "kind": "I",
+  "at": "2026-10-14T21:30:00Z",
+  "teams": [
+   9
+  ],
+  "text": "GiantPunt: CeeDee Lamb is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.32,
+    "after": 0.3244
+   }
+  ]
+ },
+ {
+  "id": "injury-4361370-2026-10-14T21:30:00Z",
+  "kind": "I",
+  "at": "2026-10-14T21:30:00Z",
+  "teams": [
+   9
+  ],
+  "text": "GiantPunt: Chris Olave is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.32,
+    "after": 0.3244
+   }
+  ]
+ },
+ {
+  "id": "injury-4870808-2026-10-14T21:30:00Z",
+  "kind": "I",
+  "at": "2026-10-14T21:30:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Jeremiyah Love is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.1203,
+    "after": 0.0987
+   }
+  ]
+ },
+ {
+  "id": "injury-3916148-2026-10-14T21:30:00Z",
+  "kind": "I",
+  "at": "2026-10-14T21:30:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Goats: Tony Pollard is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.0693,
+    "after": 0.0712
+   }
+  ]
+ },
+ {
+  "id": "injury-4432710-2026-10-14T21:30:00Z",
+  "kind": "I",
+  "at": "2026-10-14T21:30:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: TreVeyon Henderson is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0006,
+    "after": 0.0019
+   }
+  ]
+ },
+ {
+  "id": "injury-4688813-2026-10-14T21:30:00Z",
+  "kind": "I",
+  "at": "2026-10-14T21:30:00Z",
+  "teams": [
+   1
+  ],
+  "text": "Knights who say Ni: Josh Downs is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.0904,
+    "after": 0.0931
+   }
+  ]
+ },
+ {
+  "id": "injury-3054850-2026-10-14T21:30:00Z",
+  "kind": "I",
+  "at": "2026-10-14T21:30:00Z",
+  "teams": [
+   1
+  ],
+  "text": "Knights who say Ni: Alvin Kamara is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.0904,
+    "after": 0.0931
+   }
+  ]
+ },
+ {
+  "id": "injury-4428557-2026-10-14T21:30:00Z",
+  "kind": "I",
+  "at": "2026-10-14T21:30:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: Tyjae Spears is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0006,
+    "after": 0.0019
+   }
+  ]
+ },
+ {
+  "id": "trade-66a7f6de-516f-4033-a99d-f4afbbb2b015",
+  "kind": "T",
+  "at": "2026-10-14T21:30:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Added Spencer Shrader (K); dropped Keon Coleman (WR).",
+  "moves": [
+   {
+    "player": "Spencer Shrader",
+    "position": "K",
+    "action": "add"
+   },
+   {
+    "player": "Keon Coleman",
+    "position": "WR",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0006,
+    "after": 0.0019
+   }
+  ]
+ },
+ {
+  "id": "trade-a1683e46-866b-4c74-b68b-e3bc3d5cc7c3",
+  "kind": "T",
+  "at": "2026-10-14T21:30:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Added RB Tyjae Spears; dropped RB Will Shipley.",
+  "moves": [
+   {
+    "player": "Tyjae Spears",
+    "position": "RB",
+    "action": "add"
+   },
+   {
+    "player": "Will Shipley",
+    "position": "RB",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0006,
+    "after": 0.0019
+   }
+  ]
+ },
+ {
+  "id": "trade-52bdb4c5-1f10-4e31-accf-9b25aee35af2",
+  "kind": "T",
+  "at": "2026-10-14T21:30:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Added Jaguars D/ST; dropped Jets D/ST.",
+  "moves": [
+   {
+    "player": "Jaguars D/ST",
+    "position": "D/ST",
+    "action": "add"
+   },
+   {
+    "player": "Jets D/ST",
+    "position": "D/ST",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.1203,
+    "after": 0.0987
+   }
+  ]
  }
 ]
