@@ -41186,6 +41186,97 @@
    },
    "at": "2026-10-13T23:00:00Z",
    "explanations": {}
+  },
+  {
+   "date": "2026-10-14",
+   "label": "Week 6 \u00b7 01:30 UTC",
+   "week": 6,
+   "backfilled": false,
+   "teams": {
+    "9": {
+     "champ": 0.3348,
+     "playoff": 0.8831,
+     "projWins": 10.62
+    },
+    "2": {
+     "champ": 0.2862,
+     "playoff": 0.7362,
+     "projWins": 9.69
+    },
+    "4": {
+     "champ": 0.1187,
+     "playoff": 0.3528,
+     "projWins": 8.21
+    },
+    "13": {
+     "champ": 0.1131,
+     "playoff": 0.6794,
+     "projWins": 9.82
+    },
+    "3": {
+     "champ": 0.0743,
+     "playoff": 0.8354,
+     "projWins": 10.62
+    },
+    "1": {
+     "champ": 0.0717,
+     "playoff": 0.5049,
+     "projWins": 9.29
+    },
+    "11": {
+     "champ": 0.0006,
+     "playoff": 0.0037,
+     "projWins": 4.57
+    },
+    "6": {
+     "champ": 0.0003,
+     "playoff": 0.0027,
+     "projWins": 4.62
+    },
+    "12": {
+     "champ": 0.0002,
+     "playoff": 0.0019,
+     "projWins": 4.34
+    },
+    "5": {
+     "champ": 0.0001,
+     "playoff": 0.0002,
+     "projWins": 3.23
+    }
+   },
+   "at": "2026-10-14T01:30:00Z",
+   "explanations": {
+    "9": {
+     "champ": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.0076,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "2": {
+     "champ": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.011,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "1": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0084,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    }
+   }
   }
  ]
 }
