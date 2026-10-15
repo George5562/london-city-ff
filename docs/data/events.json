@@ -5716,5 +5716,90 @@
     "after": 0.0003
    }
   ]
+ },
+ {
+  "id": "injury-4429615-2026-10-15T21:30:00Z",
+  "kind": "I",
+  "at": "2026-10-15T21:30:00Z",
+  "teams": [
+   13
+  ],
+  "text": "Salisbury Screamers: Zay Flowers is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 13,
+    "before": 0.1119,
+    "after": 0.1114
+   }
+  ]
+ },
+ {
+  "id": "injury-16737-2026-10-15T21:30:00Z",
+  "kind": "I",
+  "at": "2026-10-15T21:30:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Mike Evans is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0992,
+    "after": 0.0967
+   }
+  ]
+ },
+ {
+  "id": "injury-4035538-2026-10-15T21:30:00Z",
+  "kind": "I",
+  "at": "2026-10-15T21:30:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Love hurts: David Montgomery is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0,
+    "after": 0.0
+   }
+  ]
+ },
+ {
+  "id": "injury-4688813-2026-10-15T21:30:00Z",
+  "kind": "I",
+  "at": "2026-10-15T21:30:00Z",
+  "teams": [
+   1
+  ],
+  "text": "Knights who say Ni: Josh Downs is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.0933,
+    "after": 0.0935
+   }
+  ]
+ },
+ {
+  "id": "injury-4038815-2026-10-15T21:30:00Z",
+  "kind": "I",
+  "at": "2026-10-15T21:30:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Rico Dowdle is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0992,
+    "after": 0.0967
+   }
+  ]
  }
 ]
