@@ -5603,5 +5603,101 @@
     "after": 0.0987
    }
   ]
+ },
+ {
+  "id": "injury-4430878-2026-10-15T00:00:00Z",
+  "kind": "I",
+  "at": "2026-10-15T00:00:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Sabre Raiders: Jaxon Smith-Njigba is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.2957,
+    "after": 0.2787
+   }
+  ]
+ },
+ {
+  "id": "injury-4432665-2026-10-15T00:00:00Z",
+  "kind": "I",
+  "at": "2026-10-15T00:00:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Sabre Raiders: Brock Bowers is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.2957,
+    "after": 0.2787
+   }
+  ]
+ },
+ {
+  "id": "injury-4832800-2026-10-15T00:00:00Z",
+  "kind": "I",
+  "at": "2026-10-15T00:00:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Cardigan's Boys: Denzel Boston is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0003,
+    "after": 0.0003
+   }
+  ]
+ },
+ {
+  "id": "injury-4428850-2026-10-15T00:00:00Z",
+  "kind": "I",
+  "at": "2026-10-15T00:00:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: Dontayvion Wicks is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0019,
+    "after": 0.0015
+   }
+  ]
+ },
+ {
+  "id": "trade-a7ca9530-c1e5-458c-9b21-b90efba05d43",
+  "kind": "T",
+  "at": "2026-10-15T00:00:00Z",
+  "teams": [
+   6
+  ],
+  "text": "Added WR Jalen Coker; dropped WR Chris Bell.",
+  "moves": [
+   {
+    "player": "Jalen Coker",
+    "position": "WR",
+    "action": "add"
+   },
+   {
+    "player": "Chris Bell",
+    "position": "WR",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.0003,
+    "after": 0.0007
+   }
+  ]
  }
 ]
