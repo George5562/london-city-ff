@@ -5699,5 +5699,22 @@
     "after": 0.0007
    }
   ]
+ },
+ {
+  "id": "injury-4040715-2026-10-15T18:30:00Z",
+  "kind": "I",
+  "at": "2026-10-15T18:30:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Cardigan's Boys: Jalen Hurts is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0003,
+    "after": 0.0003
+   }
+  ]
  }
 ]
