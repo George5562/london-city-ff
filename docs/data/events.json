@@ -5858,5 +5858,33 @@
     "after": 0.0006
    }
   ]
+ },
+ {
+  "id": "trade-6ea13a4e-840d-4c8b-a956-4b46ce12854a",
+  "kind": "T",
+  "at": "2026-10-16T14:30:00Z",
+  "teams": [
+   13
+  ],
+  "text": "Added Matthew Stafford (QB); dropped Kyle Pitts Sr. (TE).",
+  "moves": [
+   {
+    "player": "Matthew Stafford",
+    "position": "QB",
+    "action": "add"
+   },
+   {
+    "player": "Kyle Pitts Sr.",
+    "position": "TE",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 13,
+    "before": 0.1068,
+    "after": 0.1353
+   }
+  ]
  }
 ]
