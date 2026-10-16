@@ -42897,6 +42897,253 @@
      }
     }
    }
+  },
+  {
+   "date": "2026-10-16",
+   "label": "Week 6 \u00b7 18:30 UTC",
+   "week": 6,
+   "backfilled": false,
+   "teams": {
+    "9": {
+     "champ": 0.3145,
+     "playoff": 0.8973,
+     "projWins": 10.58
+    },
+    "2": {
+     "champ": 0.3049,
+     "playoff": 0.838,
+     "projWins": 9.98
+    },
+    "13": {
+     "champ": 0.1457,
+     "playoff": 0.5507,
+     "projWins": 9.11
+    },
+    "1": {
+     "champ": 0.1025,
+     "playoff": 0.5167,
+     "projWins": 9.11
+    },
+    "4": {
+     "champ": 0.0757,
+     "playoff": 0.2743,
+     "projWins": 7.68
+    },
+    "3": {
+     "champ": 0.0529,
+     "playoff": 0.897,
+     "projWins": 10.74
+    },
+    "11": {
+     "champ": 0.0026,
+     "playoff": 0.0135,
+     "projWins": 5.13
+    },
+    "6": {
+     "champ": 0.0006,
+     "playoff": 0.0078,
+     "projWins": 4.94
+    },
+    "12": {
+     "champ": 0.0004,
+     "playoff": 0.0042,
+     "projWins": 4.54
+    },
+    "5": {
+     "champ": 0.0001,
+     "playoff": 0.0003,
+     "projWins": 3.2
+    }
+   },
+   "at": "2026-10-16T18:30:00Z",
+   "changes": {
+    "13": {
+     "cause": "external_opportunity",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.0104,
+     "text": "Bijan Robinson\u2019s forecast moved from 22.9937 to 22.9937 fantasy points, raising their expected scoring contribution.",
+     "facts": [
+      "projection: Bijan Robinson 22.99369713 -> 22.99369734",
+      "projection: Derrick Henry 20.58853695 -> 18.30422688",
+      "injury: Lamar Jackson QUESTIONABLE -> OUT",
+      "projection: Zay Flowers 16.06935594 -> 14.02581806",
+      "projection: Chuba Hubbard 14.81957497 -> 14.81957501",
+      "projection: Matthew Stafford 19.64784285 -> 19.64783834",
+      "projection: Courtland Sutton 8.65520176 -> 8.65488833",
+      "projection: Blake Corum 8.96932814 -> 8.9693922"
+     ],
+     "showTooltip": true
+    },
+    "4": {
+     "cause": "roster_availability",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0105,
+     "text": "Jeremiyah Love\u2019s forecast moved from 11.4031 to 0 fantasy points, lowering their expected scoring contribution.",
+     "facts": [
+      "injury: Jeremiyah Love QUESTIONABLE -> OUT",
+      "projection: Jeremiyah Love 11.40305224 -> 0.0",
+      "projection: Drake Maye 20.22682247 -> 20.25515455",
+      "injury: Rashee Rice QUESTIONABLE -> OUT",
+      "projection: Patrick Mahomes 18.76944311 -> 18.76944313",
+      "projection: Emeka Egbuka 10.97393451 -> 10.97393446",
+      "projection: Tucker Kraft 12.15355812 -> 12.15355506",
+      "projection: Jaguars D/ST 6.21214847 -> 6.12752682"
+     ],
+     "showTooltip": true
+    },
+    "3": {
+     "cause": "roster_availability",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0135,
+     "text": "Ashton Jeanty\u2019s forecast moved from 19.1747 to 19.1747 fantasy points, lowering their expected scoring contribution.",
+     "facts": [
+      "projection: Ashton Jeanty 19.17474306 -> 19.17474305",
+      "injury: Lamar Jackson QUESTIONABLE -> OUT",
+      "projection: Lamar Jackson 19.30109985 -> 0.0",
+      "projection: Tetairoa McMillan 15.96143155 -> 15.96143152",
+      "injury: Rashee Rice QUESTIONABLE -> OUT",
+      "projection: Steelers D/ST 6.94737469 -> 6.9473747",
+      "projection: Harold Fannin Jr. 10.3902957 -> 10.23316616",
+      "projection: DK Metcalf 11.58004616 -> 11.58004613"
+     ],
+     "showTooltip": true
+    }
+   },
+   "explanations": {
+    "9": {
+     "champ": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0052,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "2": {
+     "champ": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0061,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "13": {
+     "champ": {
+      "cause": "external_opportunity",
+      "text": "Bijan Robinson\u2019s forecast moved from 22.9937 to 22.9937 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.0104,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "external_opportunity",
+      "text": "Bijan Robinson\u2019s forecast moved from 22.9937 to 22.9937 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.0248,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "external_opportunity",
+      "text": "Bijan Robinson\u2019s forecast moved from 22.9937 to 22.9937 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.12,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "1": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0082,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "4": {
+     "champ": {
+      "cause": "roster_availability",
+      "text": "Jeremiyah Love\u2019s forecast moved from 11.4031 to 0 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.0105,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "roster_availability",
+      "text": "Jeremiyah Love\u2019s forecast moved from 11.4031 to 0 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.047,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "roster_availability",
+      "text": "Jeremiyah Love\u2019s forecast moved from 11.4031 to 0 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.19,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "3": {
+     "champ": {
+      "cause": "roster_availability",
+      "text": "Ashton Jeanty\u2019s forecast moved from 19.1747 to 19.1747 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.0135,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "roster_availability",
+      "text": "Ashton Jeanty\u2019s forecast moved from 19.1747 to 19.1747 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.0156,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "11": {
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.13,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "12": {
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.33,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "5": {
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.18,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    }
+   }
   }
  ]
 }

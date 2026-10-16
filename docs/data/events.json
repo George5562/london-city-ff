@@ -5886,5 +5886,113 @@
     "after": 0.1353
    }
   ]
+ },
+ {
+  "id": "injury-3916387-2026-10-16T18:30:00Z",
+  "kind": "I",
+  "at": "2026-10-16T18:30:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Goats: Lamar Jackson is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.0664,
+    "after": 0.0529
+   }
+  ]
+ },
+ {
+  "id": "injury-4870808-2026-10-16T18:30:00Z",
+  "kind": "I",
+  "at": "2026-10-16T18:30:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Jeremiyah Love is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0862,
+    "after": 0.0757
+   }
+  ]
+ },
+ {
+  "id": "injury-4428331-2026-10-16T18:30:00Z",
+  "kind": "I",
+  "at": "2026-10-16T18:30:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Love hurts: Rashee Rice is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0,
+    "after": 0.0001
+   }
+  ]
+ },
+ {
+  "id": "injury-4427366-2026-10-16T18:30:00Z",
+  "kind": "I",
+  "at": "2026-10-16T18:30:00Z",
+  "teams": [
+   6
+  ],
+  "text": "The Le Chable Dolphins: Breece Hall is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.0006,
+    "after": 0.0006
+   }
+  ]
+ },
+ {
+  "id": "injury-4870653-2026-10-16T18:30:00Z",
+  "kind": "I",
+  "at": "2026-10-16T18:30:00Z",
+  "teams": [
+   6
+  ],
+  "text": "The Le Chable Dolphins: KC Concepcion is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.0006,
+    "after": 0.0006
+   }
+  ]
+ },
+ {
+  "id": "trade-c8570e86-4601-46c1-95fb-4cbbabbe27ba",
+  "kind": "T",
+  "at": "2026-10-16T18:30:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Added Tre Tucker, WR.",
+  "moves": [
+   {
+    "player": "Tre Tucker",
+    "position": "WR",
+    "action": "add"
+   }
+  ],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0,
+    "after": 0.0001
+   }
+  ]
  }
 ]
