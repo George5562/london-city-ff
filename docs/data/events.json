@@ -5818,5 +5818,45 @@
     "after": 0.084
    }
   ]
+ },
+ {
+  "id": "injury-4432665-2026-10-16T04:30:00Z",
+  "kind": "I",
+  "at": "2026-10-16T04:30:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Sabre Raiders: Brock Bowers is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.1964,
+    "after": 0.3056
+   }
+  ]
+ },
+ {
+  "id": "trade-1cdf758f-d545-41ff-8180-04151459cb9b",
+  "kind": "T",
+  "at": "2026-10-16T04:30:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Added Carnell Tate (WR).",
+  "moves": [
+   {
+    "player": "Carnell Tate",
+    "position": "WR",
+    "action": "add"
+   }
+  ],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0012,
+    "after": 0.0006
+   }
+  ]
  }
 ]

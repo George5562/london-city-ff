@@ -42401,6 +42401,273 @@
      }
     }
    }
+  },
+  {
+   "date": "2026-10-16",
+   "label": "Week 6 \u00b7 04:30 UTC",
+   "week": 6,
+   "backfilled": false,
+   "teams": {
+    "9": {
+     "champ": 0.3244,
+     "playoff": 0.8821,
+     "projWins": 10.51
+    },
+    "2": {
+     "champ": 0.3056,
+     "playoff": 0.7972,
+     "projWins": 9.84
+    },
+    "13": {
+     "champ": 0.1068,
+     "playoff": 0.6766,
+     "projWins": 9.6
+    },
+    "1": {
+     "champ": 0.1004,
+     "playoff": 0.4606,
+     "projWins": 9.0
+    },
+    "4": {
+     "champ": 0.0843,
+     "playoff": 0.2829,
+     "projWins": 7.79
+    },
+    "3": {
+     "champ": 0.0754,
+     "playoff": 0.8801,
+     "projWins": 10.8
+    },
+    "11": {
+     "champ": 0.0022,
+     "playoff": 0.0094,
+     "projWins": 4.91
+    },
+    "12": {
+     "champ": 0.0006,
+     "playoff": 0.0048,
+     "projWins": 4.8
+    },
+    "6": {
+     "champ": 0.0003,
+     "playoff": 0.006,
+     "projWins": 4.83
+    },
+    "5": {
+     "champ": 0.0,
+     "playoff": 0.0002,
+     "projWins": 2.94
+    }
+   },
+   "at": "2026-10-16T04:30:00Z",
+   "changes": {
+    "9": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "model",
+     "delta": -0.0354,
+     "text": "Emanuel Wilson scored 5.2 fantasy points for the Green Bay Grinders, updating the matchup outlook and playoff race. Elijah Arroyo\u2019s questionable status has no confirmed fantasy implication.",
+     "facts": [
+      "actual: Emanuel Wilson 0.0 -> 5.2",
+      "injury: Elijah Arroyo ACTIVE -> QUESTIONABLE"
+     ],
+     "showTooltip": true
+    },
+    "2": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.1092,
+     "text": "Jaxon Smith-Njigba now has 25.4 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "actual: Jaxon Smith-Njigba 1.5 -> 25.4",
+      "injury: Brock Bowers QUESTIONABLE -> ACTIVE",
+      "actual: Jason Myers 0.0 -> 7.0",
+      "actual: J.K. Dobbins 0.0 -> 13.6",
+      "injury: Elijah Arroyo ACTIVE -> QUESTIONABLE",
+      "injury: Tyler Badie ACTIVE -> QUESTIONABLE"
+     ],
+     "showTooltip": true
+    },
+    "13": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "model",
+     "delta": -0.0174,
+     "text": "Courtland Sutton scored 3.9 fantasy points, updating his fantasy team\u2019s matchup outlook. Tyler Badie\u2019s questionable status is noted, but its impact on either player\u2019s role is unclear.",
+     "facts": [
+      "actual: Courtland Sutton 0.0 -> 3.9",
+      "injury: Tyler Badie ACTIVE -> QUESTIONABLE"
+     ],
+     "showTooltip": true
+    },
+    "1": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0211,
+     "text": "RJ Harvey now has 14.6 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "actual: RJ Harvey 0.0 -> 14.6",
+      "injury: Tyler Badie ACTIVE -> QUESTIONABLE"
+     ],
+     "showTooltip": true
+    }
+   },
+   "explanations": {
+    "9": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Emanuel Wilson scored 5.2 fantasy points for the Green Bay Grinders, updating the matchup outlook and playoff race. Elijah Arroyo\u2019s questionable status has no confirmed fantasy implication.",
+      "confidence": "recorded explanation",
+      "delta": -0.0354,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Emanuel Wilson scored 5.2 fantasy points for the Green Bay Grinders, updating the matchup outlook and playoff race. Elijah Arroyo\u2019s questionable status has no confirmed fantasy implication.",
+      "confidence": "recorded explanation",
+      "delta": -0.009,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "2": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Jaxon Smith-Njigba now has 25.4 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.1092,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Jaxon Smith-Njigba now has 25.4 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.1961,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Jaxon Smith-Njigba now has 25.4 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.85,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "13": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Courtland Sutton scored 3.9 fantasy points, updating his fantasy team\u2019s matchup outlook. Tyler Badie\u2019s questionable status is noted, but its impact on either player\u2019s role is unclear.",
+      "confidence": "recorded explanation",
+      "delta": -0.0174,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Courtland Sutton scored 3.9 fantasy points, updating his fantasy team\u2019s matchup outlook. Tyler Badie\u2019s questionable status is noted, but its impact on either player\u2019s role is unclear.",
+      "confidence": "recorded explanation",
+      "delta": -0.0347,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "1": {
+     "champ": {
+      "cause": "score_update",
+      "text": "RJ Harvey now has 14.6 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.0211,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "RJ Harvey now has 14.6 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.0676,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "RJ Harvey now has 14.6 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.13,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "4": {
+     "champ": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.0236,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.05,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "3": {
+     "champ": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.0086,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.0215,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "12": {
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.13,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "6": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.009,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.45,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    }
+   }
   }
  ]
 }
