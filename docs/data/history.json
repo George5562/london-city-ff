@@ -43144,6 +43144,133 @@
      }
     }
    }
+  },
+  {
+   "date": "2026-10-16",
+   "label": "Week 6 \u00b7 22:00 UTC",
+   "week": 6,
+   "backfilled": false,
+   "teams": {
+    "9": {
+     "champ": 0.3184,
+     "playoff": 0.9005,
+     "projWins": 10.6
+    },
+    "2": {
+     "champ": 0.3088,
+     "playoff": 0.8457,
+     "projWins": 10.0
+    },
+    "13": {
+     "champ": 0.147,
+     "playoff": 0.5602,
+     "projWins": 9.13
+    },
+    "1": {
+     "champ": 0.1039,
+     "playoff": 0.5173,
+     "projWins": 9.1
+    },
+    "4": {
+     "champ": 0.0646,
+     "playoff": 0.249,
+     "projWins": 7.56
+    },
+    "3": {
+     "champ": 0.0536,
+     "playoff": 0.9002,
+     "projWins": 10.75
+    },
+    "11": {
+     "champ": 0.0026,
+     "playoff": 0.014,
+     "projWins": 5.15
+    },
+    "6": {
+     "champ": 0.0006,
+     "playoff": 0.0084,
+     "projWins": 4.95
+    },
+    "12": {
+     "champ": 0.0004,
+     "playoff": 0.0043,
+     "projWins": 4.55
+    },
+    "5": {
+     "champ": 0.0001,
+     "playoff": 0.0003,
+     "projWins": 3.21
+    }
+   },
+   "at": "2026-10-16T22:00:00Z",
+   "changes": {
+    "4": {
+     "cause": "roster_availability",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0111,
+     "text": "Kyren Williams\u2019s forecast moved from 21.0248 to 21.0248 fantasy points, lowering their expected scoring contribution.",
+     "facts": [
+      "projection: Kyren Williams 21.02483664 -> 21.02477729",
+      "injury: Tyler Warren ACTIVE -> QUESTIONABLE",
+      "injury: Saquon Barkley QUESTIONABLE -> OUT",
+      "projection: George Kittle 14.78261659 -> 14.87111449",
+      "injury: DeVonta Smith QUESTIONABLE -> ACTIVE",
+      "projection: Christian Watson 16.37536075 -> 16.33921955",
+      "projection: Patrick Mahomes 18.76944313 -> 18.78129412",
+      "projection: Mike Evans 16.07261263 -> 16.17735146"
+     ],
+     "showTooltip": true
+    }
+   },
+   "explanations": {
+    "2": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0077,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "13": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0095,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "4": {
+     "champ": {
+      "cause": "roster_availability",
+      "text": "Kyren Williams\u2019s forecast moved from 21.0248 to 21.0248 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.0111,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "roster_availability",
+      "text": "Kyren Williams\u2019s forecast moved from 21.0248 to 21.0248 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.0253,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "roster_availability",
+      "text": "Kyren Williams\u2019s forecast moved from 21.0248 to 21.0248 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.12,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    }
+   }
   }
  ]
 }
