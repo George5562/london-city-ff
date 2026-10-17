@@ -6164,5 +6164,51 @@
     "after": 0.0026
    }
   ]
+ },
+ {
+  "id": "trade-4e904c90-604b-4c36-9f4e-42200fc964cf",
+  "kind": "T",
+  "at": "2026-10-17T00:00:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Added Dameon Pierce.",
+  "moves": [
+   {
+    "player": "Dameon Pierce",
+    "position": "RB",
+    "action": "add"
+   }
+  ],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0646,
+    "after": 0.0841
+   }
+  ]
+ },
+ {
+  "id": "trade-93ab4bae-0c32-4707-abbe-b70523402344",
+  "kind": "T",
+  "at": "2026-10-17T00:00:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Added Tyler Allgeier.",
+  "moves": [
+   {
+    "player": "Tyler Allgeier",
+    "position": "RB",
+    "action": "add"
+   }
+  ],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0646,
+    "after": 0.0841
+   }
+  ]
  }
 ]
