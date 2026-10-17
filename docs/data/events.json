@@ -6322,5 +6322,67 @@
     "after": 0.3201
    }
   ]
+ },
+ {
+  "id": "injury-4047650-2026-10-17T16:30:00Z",
+  "kind": "I",
+  "at": "2026-10-17T16:30:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Goats: DK Metcalf is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.0696,
+    "after": 0.0691
+   }
+  ]
+ },
+ {
+  "id": "injury-4361411-2026-10-17T16:30:00Z",
+  "kind": "I",
+  "at": "2026-10-17T16:30:00Z",
+  "teams": [
+   1
+  ],
+  "text": "Knights who say Ni: Pat Freiermuth is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.097,
+    "after": 0.0967
+   }
+  ]
+ },
+ {
+  "id": "trade-45b208e2-10ec-4259-b1e3-98f6d2e051f1",
+  "kind": "T",
+  "at": "2026-10-17T16:30:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Added K Matt Gay; dropped K Tyler Loop.",
+  "moves": [
+   {
+    "player": "Matt Gay",
+    "position": "K",
+    "action": "add"
+   },
+   {
+    "player": "Tyler Loop",
+    "position": "K",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0006,
+    "after": 0.0004
+   }
+  ]
  }
 ]
