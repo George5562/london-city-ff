@@ -6238,5 +6238,61 @@
     "after": 0.0019
    }
   ]
+ },
+ {
+  "id": "trade-4f91e684-18a8-45a9-b837-9653451f2331",
+  "kind": "T",
+  "at": "2026-10-17T09:00:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Added Trevor Lawrence; dropped Jared Goff.",
+  "moves": [
+   {
+    "player": "Trevor Lawrence",
+    "position": "QB",
+    "action": "add"
+   },
+   {
+    "player": "Jared Goff",
+    "position": "QB",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.0527,
+    "after": 0.0718
+   }
+  ]
+ },
+ {
+  "id": "trade-5042821a-e932-46e2-b988-8e9dc74ea0c6",
+  "kind": "T",
+  "at": "2026-10-17T09:00:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Added Dominic Zvada; dropped Will Reichard.",
+  "moves": [
+   {
+    "player": "Dominic Zvada",
+    "position": "K",
+    "action": "add"
+   },
+   {
+    "player": "Will Reichard",
+    "position": "K",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.0527,
+    "after": 0.0718
+   }
+  ]
  }
 ]
