@@ -3,69 +3,6 @@
  "regularSeasonWeeks": 15,
  "teams": [
   {
-   "id": 9,
-   "name": "GiantPunt",
-   "abbrev": "TM9",
-   "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/MickeyAndDonald-Disney/Disney-07.svg",
-   "wins": 4,
-   "losses": 1,
-   "pf": 778.4,
-   "projPerGame": 129.0,
-   "strength": 139.2,
-   "projWins": 10.81,
-   "playoff": 0.918,
-   "final": 0.5512,
-   "champ": 0.3055,
-   "topSeed": 0.4611,
-   "lineup": [
-    {
-     "name": "Jayden Daniels",
-     "pos": "QB",
-     "pts": 24.1
-    },
-    {
-     "name": "Kenneth Walker III",
-     "pos": "RB",
-     "pts": 21.1
-    },
-    {
-     "name": "D'Andre Swift",
-     "pos": "RB",
-     "pts": 14.5
-    },
-    {
-     "name": "Tyler Warren",
-     "pos": "TE",
-     "pts": 14.3
-    },
-    {
-     "name": "Chris Olave",
-     "pos": "WR",
-     "pts": 13.3
-    },
-    {
-     "name": "CeeDee Lamb",
-     "pos": "WR",
-     "pts": 13.1
-    },
-    {
-     "name": "Ka'imi Fairbairn",
-     "pos": "K",
-     "pts": 12.3
-    },
-    {
-     "name": "Rams D/ST",
-     "pos": "D/ST",
-     "pts": 3.8
-    },
-    {
-     "name": "Chris Godwin Jr.",
-     "pos": "FLEX",
-     "pts": 6.8
-    }
-   ]
-  },
-  {
    "id": 2,
    "name": "Sabre Raiders",
    "abbrev": "TM2",
@@ -73,13 +10,13 @@
    "wins": 3,
    "losses": 2,
    "pf": 684.54,
-   "projPerGame": 142.3,
-   "strength": 140.2,
-   "projWins": 10.1,
-   "playoff": 0.8587,
-   "final": 0.526,
-   "champ": 0.3024,
-   "topSeed": 0.2072,
+   "projPerGame": 146.3,
+   "strength": 142.7,
+   "projWins": 10.01,
+   "playoff": 0.8435,
+   "final": 0.5358,
+   "champ": 0.3201,
+   "topSeed": 0.1904,
    "lineup": [
     {
      "name": "Jaxon Smith-Njigba",
@@ -117,9 +54,77 @@
      "pts": 12.1
     },
     {
+     "name": "Giants D/ST",
+     "pos": "D/ST",
+     "pts": 4.2
+    },
+    {
      "name": "Davante Adams",
      "pos": "FLEX",
      "pts": 16.7
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "name": "GiantPunt",
+   "abbrev": "TM9",
+   "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/MickeyAndDonald-Disney/Disney-07.svg",
+   "wins": 4,
+   "losses": 1,
+   "pf": 778.4,
+   "projPerGame": 129.5,
+   "strength": 139.6,
+   "projWins": 10.82,
+   "playoff": 0.919,
+   "final": 0.5498,
+   "champ": 0.2995,
+   "topSeed": 0.468,
+   "lineup": [
+    {
+     "name": "Jayden Daniels",
+     "pos": "QB",
+     "pts": 24.1
+    },
+    {
+     "name": "Kenneth Walker III",
+     "pos": "RB",
+     "pts": 21.1
+    },
+    {
+     "name": "D'Andre Swift",
+     "pos": "RB",
+     "pts": 14.5
+    },
+    {
+     "name": "Tyler Warren",
+     "pos": "TE",
+     "pts": 14.3
+    },
+    {
+     "name": "Chris Olave",
+     "pos": "WR",
+     "pts": 13.3
+    },
+    {
+     "name": "CeeDee Lamb",
+     "pos": "WR",
+     "pts": 13.0
+    },
+    {
+     "name": "Ka'imi Fairbairn",
+     "pos": "K",
+     "pts": 12.3
+    },
+    {
+     "name": "Rams D/ST",
+     "pos": "D/ST",
+     "pts": 3.8
+    },
+    {
+     "name": "Josh Jacobs",
+     "pos": "FLEX",
+     "pts": 7.3
     }
    ]
   },
@@ -131,13 +136,13 @@
    "wins": 4,
    "losses": 1,
    "pf": 642.74,
-   "projPerGame": 134.5,
-   "strength": 132.2,
-   "projWins": 9.03,
-   "playoff": 0.5366,
-   "final": 0.2686,
-   "champ": 0.1304,
-   "topSeed": 0.0651,
+   "projPerGame": 134.4,
+   "strength": 132.1,
+   "projWins": 9.06,
+   "playoff": 0.5409,
+   "final": 0.268,
+   "champ": 0.126,
+   "topSeed": 0.068,
    "lineup": [
     {
      "name": "Derrick Henry",
@@ -167,7 +172,7 @@
     {
      "name": "Juwan Johnson",
      "pos": "TE",
-     "pts": 8.3
+     "pts": 8.2
     },
     {
      "name": "Cameron Dicker",
@@ -194,13 +199,13 @@
    "wins": 4,
    "losses": 1,
    "pf": 597.1,
-   "projPerGame": 131.1,
-   "strength": 126.6,
-   "projWins": 9.17,
-   "playoff": 0.5306,
-   "final": 0.2316,
-   "champ": 0.0992,
-   "topSeed": 0.0696,
+   "projPerGame": 131.0,
+   "strength": 126.5,
+   "projWins": 9.19,
+   "playoff": 0.5359,
+   "final": 0.2306,
+   "champ": 0.097,
+   "topSeed": 0.0718,
    "lineup": [
     {
      "name": "Puka Nacua",
@@ -245,7 +250,7 @@
     {
      "name": "RJ Harvey",
      "pos": "FLEX",
-     "pts": 9.1
+     "pts": 9.0
     }
    ]
   },
@@ -257,13 +262,13 @@
    "wins": 2,
    "losses": 3,
    "pf": 635.64,
-   "projPerGame": 134.6,
-   "strength": 131.7,
-   "projWins": 7.97,
-   "playoff": 0.3558,
-   "final": 0.1767,
-   "champ": 0.0873,
-   "topSeed": 0.0227,
+   "projPerGame": 134.4,
+   "strength": 131.6,
+   "projWins": 7.98,
+   "playoff": 0.3579,
+   "final": 0.1757,
+   "champ": 0.0842,
+   "topSeed": 0.0235,
    "lineup": [
     {
      "name": "Drake Maye",
@@ -320,13 +325,13 @@
    "wins": 4,
    "losses": 1,
    "pf": 642.62,
-   "projPerGame": 108.9,
-   "strength": 116.4,
-   "projWins": 10.11,
-   "playoff": 0.7745,
-   "final": 0.2376,
-   "champ": 0.0718,
-   "topSeed": 0.1741,
+   "projPerGame": 109.0,
+   "strength": 116.5,
+   "projWins": 10.13,
+   "playoff": 0.7766,
+   "final": 0.2311,
+   "champ": 0.0696,
+   "topSeed": 0.1781,
    "lineup": [
     {
      "name": "Trevor Lawrence",
@@ -371,7 +376,7 @@
     {
      "name": "DeVonta Smith",
      "pos": "FLEX",
-     "pts": 9.5
+     "pts": 9.6
     }
    ]
   },
@@ -383,12 +388,12 @@
    "wins": 1,
    "losses": 4,
    "pf": 561.56,
-   "projPerGame": 127.2,
-   "strength": 121.5,
-   "projWins": 4.95,
-   "playoff": 0.0115,
-   "final": 0.0042,
-   "champ": 0.0018,
+   "projPerGame": 127.1,
+   "strength": 121.4,
+   "projWins": 4.98,
+   "playoff": 0.0121,
+   "final": 0.0049,
+   "champ": 0.0019,
    "topSeed": 0.0001,
    "lineup": [
     {
@@ -446,12 +451,12 @@
    "wins": 2,
    "losses": 3,
    "pf": 583.14,
-   "projPerGame": 96.3,
+   "projPerGame": 96.2,
    "strength": 104.1,
-   "projWins": 4.96,
-   "playoff": 0.0093,
-   "final": 0.0026,
-   "champ": 0.001,
+   "projWins": 4.95,
+   "playoff": 0.0087,
+   "final": 0.0024,
+   "champ": 0.0009,
    "topSeed": 0.0001,
    "lineup": [
     {
@@ -467,7 +472,7 @@
     {
      "name": "Jonathan Taylor",
      "pos": "RB",
-     "pts": 14.9
+     "pts": 14.8
     },
     {
      "name": "Jalen Coker",
@@ -509,12 +514,12 @@
    "wins": 1,
    "losses": 4,
    "pf": 488.4,
-   "projPerGame": 120.8,
-   "strength": 111.9,
-   "projWins": 4.59,
-   "playoff": 0.0046,
-   "final": 0.0014,
-   "champ": 0.0005,
+   "projPerGame": 120.4,
+   "strength": 111.7,
+   "projWins": 4.62,
+   "playoff": 0.0049,
+   "final": 0.0015,
+   "champ": 0.0006,
    "topSeed": 0.0,
    "lineup": [
     {
@@ -560,7 +565,7 @@
     {
      "name": "Cam Skattebo",
      "pos": "FLEX",
-     "pts": 9.2
+     "pts": 9.1
     }
    ]
   },
@@ -572,12 +577,12 @@
    "wins": 0,
    "losses": 5,
    "pf": 468.98,
-   "projPerGame": 110.2,
-   "strength": 103.9,
-   "projWins": 3.3,
-   "playoff": 0.0005,
+   "projPerGame": 108.9,
+   "strength": 103.1,
+   "projWins": 3.26,
+   "playoff": 0.0006,
    "final": 0.0001,
-   "champ": 0.0,
+   "champ": 0.0001,
    "topSeed": 0.0,
    "lineup": [
     {
@@ -603,7 +608,7 @@
     {
      "name": "Justin Herbert",
      "pos": "QB",
-     "pts": 11.4
+     "pts": 11.3
     },
     {
      "name": "Brandon Aubrey",
@@ -623,7 +628,7 @@
     {
      "name": "MarShawn Lloyd",
      "pos": "FLEX",
-     "pts": 9.3
+     "pts": 8.1
     }
    ]
   }
@@ -632,16 +637,16 @@
   {
    "home": 2,
    "away": 6,
-   "homeWin": 0.8532,
+   "homeWin": 0.8837,
    "homePts": 46.0,
    "awayPts": 6.4,
-   "homeProj": 130.0,
+   "homeProj": 135.4,
    "awayProj": 96.1
   },
   {
    "home": 5,
    "away": 12,
-   "homeWin": 0.5254,
+   "homeWin": 0.5255,
    "homePts": 0.0,
    "awayPts": 6.0,
    "homeProj": 111.5,
@@ -659,21 +664,21 @@
   {
    "home": 4,
    "away": 11,
-   "homeWin": 0.5937,
+   "homeWin": 0.5806,
    "homePts": 0.0,
    "awayPts": 0.0,
-   "homeProj": 128.9,
+   "homeProj": 127.6,
    "awayProj": 120.5
   },
   {
    "home": 9,
    "away": 1,
-   "homeWin": 0.5183,
+   "homeWin": 0.5187,
    "homePts": 5.2,
    "awayPts": 0.0,
    "homeProj": 129.1,
    "awayProj": 127.8
   }
  ],
- "generated": "2026-10-17T09:11+00:00"
+ "generated": "2026-10-17T13:08+00:00"
 }

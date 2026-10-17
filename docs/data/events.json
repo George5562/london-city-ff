@@ -6294,5 +6294,33 @@
     "after": 0.0718
    }
   ]
+ },
+ {
+  "id": "trade-dc7d3052-5e87-494d-9f8e-174aecfefe3b",
+  "kind": "T",
+  "at": "2026-10-17T13:00:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Added Giants D/ST; dropped Deebo Samuel Sr.",
+  "moves": [
+   {
+    "player": "Giants D/ST",
+    "position": "D/ST",
+    "action": "add"
+   },
+   {
+    "player": "Deebo Samuel Sr.",
+    "position": "WR",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.3024,
+    "after": 0.3201
+   }
+  ]
  }
 ]
