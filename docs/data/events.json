@@ -6210,5 +6210,33 @@
     "after": 0.0841
    }
   ]
+ },
+ {
+  "id": "trade-64a34548-e3d8-49f5-8d11-7aac72b42333",
+  "kind": "T",
+  "at": "2026-10-17T04:30:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Added Kendre Miller; dropped Marvin Harrison Jr.",
+  "moves": [
+   {
+    "player": "Kendre Miller",
+    "position": "RB",
+    "action": "add"
+   },
+   {
+    "player": "Marvin Harrison Jr.",
+    "position": "WR",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0019,
+    "after": 0.0019
+   }
+  ]
  }
 ]
