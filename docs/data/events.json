@@ -6401,5 +6401,39 @@
     "after": 0.069
    }
   ]
+ },
+ {
+  "id": "injury-4047646-2026-10-17T21:30:00Z",
+  "kind": "I",
+  "at": "2026-10-17T21:30:00Z",
+  "teams": [
+   1
+  ],
+  "text": "Knights who say Ni: A.J. Brown is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.0965,
+    "after": 0.0979
+   }
+  ]
+ },
+ {
+  "id": "injury-4040715-2026-10-17T21:30:00Z",
+  "kind": "I",
+  "at": "2026-10-17T21:30:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Cardigan's Boys: Jalen Hurts is now listed as injury reserve.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0004,
+    "after": 0.0004
+   }
+  ]
  }
 ]
