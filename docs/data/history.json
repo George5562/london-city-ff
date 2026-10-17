@@ -43814,6 +43814,66 @@
    },
    "at": "2026-10-17T16:30:00Z",
    "explanations": {}
+  },
+  {
+   "date": "2026-10-17",
+   "label": "Week 6 \u00b7 19:00 UTC",
+   "week": 6,
+   "backfilled": false,
+   "teams": {
+    "2": {
+     "champ": 0.3193,
+     "playoff": 0.8436,
+     "projWins": 10.02
+    },
+    "9": {
+     "champ": 0.2999,
+     "playoff": 0.9192,
+     "projWins": 10.83
+    },
+    "13": {
+     "champ": 0.1269,
+     "playoff": 0.5422,
+     "projWins": 9.08
+    },
+    "1": {
+     "champ": 0.0965,
+     "playoff": 0.5354,
+     "projWins": 9.21
+    },
+    "4": {
+     "champ": 0.0849,
+     "playoff": 0.3585,
+     "projWins": 8.0
+    },
+    "3": {
+     "champ": 0.069,
+     "playoff": 0.7759,
+     "projWins": 10.13
+    },
+    "11": {
+     "champ": 0.0019,
+     "playoff": 0.0118,
+     "projWins": 4.97
+    },
+    "6": {
+     "champ": 0.0009,
+     "playoff": 0.0086,
+     "projWins": 4.97
+    },
+    "12": {
+     "champ": 0.0004,
+     "playoff": 0.0043,
+     "projWins": 4.56
+    },
+    "5": {
+     "champ": 0.0001,
+     "playoff": 0.0005,
+     "projWins": 3.23
+    }
+   },
+   "at": "2026-10-17T19:00:00Z",
+   "explanations": {}
   }
  ]
 }

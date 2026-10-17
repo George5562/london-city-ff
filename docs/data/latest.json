@@ -14,8 +14,8 @@
    "strength": 142.8,
    "projWins": 10.02,
    "playoff": 0.8436,
-   "final": 0.535,
-   "champ": 0.3195,
+   "final": 0.5351,
+   "champ": 0.3193,
    "topSeed": 0.1897,
    "lineup": [
     {
@@ -78,7 +78,7 @@
    "projWins": 10.83,
    "playoff": 0.9192,
    "final": 0.5514,
-   "champ": 0.3,
+   "champ": 0.2999,
    "topSeed": 0.4687,
    "lineup": [
     {
@@ -138,11 +138,11 @@
    "pf": 642.74,
    "projPerGame": 134.6,
    "strength": 132.3,
-   "projWins": 9.07,
-   "playoff": 0.5412,
-   "final": 0.2674,
-   "champ": 0.1263,
-   "topSeed": 0.0679,
+   "projWins": 9.08,
+   "playoff": 0.5422,
+   "final": 0.268,
+   "champ": 0.1269,
+   "topSeed": 0.0682,
    "lineup": [
     {
      "name": "Derrick Henry",
@@ -187,7 +187,7 @@
     {
      "name": "Zay Flowers",
      "pos": "FLEX",
-     "pts": 15.2
+     "pts": 15.3
     }
    ]
   },
@@ -202,9 +202,9 @@
    "projPerGame": 131.2,
    "strength": 126.7,
    "projWins": 9.21,
-   "playoff": 0.5358,
-   "final": 0.2311,
-   "champ": 0.0967,
+   "playoff": 0.5354,
+   "final": 0.2308,
+   "champ": 0.0965,
    "topSeed": 0.0727,
    "lineup": [
     {
@@ -265,7 +265,7 @@
    "projPerGame": 134.7,
    "strength": 131.8,
    "projWins": 8.0,
-   "playoff": 0.3588,
+   "playoff": 0.3585,
    "final": 0.1762,
    "champ": 0.0849,
    "topSeed": 0.0232,
@@ -327,11 +327,11 @@
    "pf": 642.62,
    "projPerGame": 109.2,
    "strength": 116.6,
-   "projWins": 10.14,
-   "playoff": 0.7763,
-   "final": 0.2303,
-   "champ": 0.0691,
-   "topSeed": 0.1777,
+   "projWins": 10.13,
+   "playoff": 0.7759,
+   "final": 0.2301,
+   "champ": 0.069,
+   "topSeed": 0.1775,
    "lineup": [
     {
      "name": "Trevor Lawrence",
@@ -341,7 +341,7 @@
     {
      "name": "Tetairoa McMillan",
      "pos": "WR",
-     "pts": 15.2
+     "pts": 15.1
     },
     {
      "name": "Ashton Jeanty",
@@ -451,8 +451,8 @@
    "wins": 2,
    "losses": 3,
    "pf": 583.14,
-   "projPerGame": 96.4,
-   "strength": 104.2,
+   "projPerGame": 96.3,
+   "strength": 104.1,
    "projWins": 4.97,
    "playoff": 0.0086,
    "final": 0.0024,
@@ -655,11 +655,11 @@
   {
    "home": 13,
    "away": 3,
-   "homeWin": 0.6186,
+   "homeWin": 0.6206,
    "homePts": 0.0,
    "awayPts": 0.0,
-   "homeProj": 131.1,
-   "awayProj": 120.3
+   "homeProj": 131.2,
+   "awayProj": 120.2
   },
   {
    "home": 4,
@@ -680,5 +680,5 @@
    "awayProj": 127.8
   }
  ],
- "generated": "2026-10-17T16:37+00:00"
+ "generated": "2026-10-17T19:14+00:00"
 }
