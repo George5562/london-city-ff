@@ -6435,5 +6435,61 @@
     "after": 0.0004
    }
   ]
+ },
+ {
+  "id": "trade-f49093e9-4aa7-44da-a77f-ef37b6ec0b34",
+  "kind": "T",
+  "at": "2026-10-18T09:00:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Added Rachaad White; dropped Tyjae Spears.",
+  "moves": [
+   {
+    "player": "Rachaad White",
+    "position": "RB",
+    "action": "add"
+   },
+   {
+    "player": "Tyjae Spears",
+    "position": "RB",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0022,
+    "after": 0.0031
+   }
+  ]
+ },
+ {
+  "id": "trade-33fffcc9-535a-4a41-93ad-3ca755752708",
+  "kind": "T",
+  "at": "2026-10-18T09:00:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Added Brenton Strange (TE); dropped Kendre Miller (RB).",
+  "moves": [
+   {
+    "player": "Brenton Strange",
+    "position": "TE",
+    "action": "add"
+   },
+   {
+    "player": "Kendre Miller",
+    "position": "RB",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0022,
+    "after": 0.0031
+   }
+  ]
  }
 ]
