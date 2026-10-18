@@ -6678,5 +6678,113 @@
     "after": 0.0001
    }
   ]
+ },
+ {
+  "id": "injury-4612826-2026-10-18T21:30:00Z",
+  "kind": "I",
+  "at": "2026-10-18T21:30:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: Ladd McConkey is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0024,
+    "after": 0.0008
+   }
+  ]
+ },
+ {
+  "id": "injury-4361432-2026-10-18T21:30:00Z",
+  "kind": "I",
+  "at": "2026-10-18T21:30:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Cardigan's Boys: Romeo Doubs is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0001,
+    "after": 0.0002
+   }
+  ]
+ },
+ {
+  "id": "trade-0055d843-6b0f-4980-b038-fcccc1ebfec7",
+  "kind": "T",
+  "at": "2026-10-18T21:30:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Added Keon Coleman; Dropped Xavier Worthy.",
+  "moves": [
+   {
+    "player": "Keon Coleman",
+    "position": "WR",
+    "action": "add"
+   },
+   {
+    "player": "Xavier Worthy",
+    "position": "WR",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0024,
+    "after": 0.0008
+   }
+  ]
+ },
+ {
+  "id": "trade-b705d2fc-4430-4740-bee2-225f73687b8e",
+  "kind": "T",
+  "at": "2026-10-18T21:30:00Z",
+  "teams": [
+   6
+  ],
+  "text": "Added Trey Smack (K).",
+  "moves": [
+   {
+    "player": "Trey Smack",
+    "position": "K",
+    "action": "add"
+   }
+  ],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.0016,
+    "after": 0.0051
+   }
+  ]
+ },
+ {
+  "id": "trade-263363f4-ffae-4cb1-bd72-d05901f0bde5",
+  "kind": "T",
+  "at": "2026-10-18T21:30:00Z",
+  "teams": [
+   6
+  ],
+  "text": "Dropped Harrison Mevis (K).",
+  "moves": [
+   {
+    "player": "Harrison Mevis",
+    "position": "K",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.0016,
+    "after": 0.0051
+   }
+  ]
  }
 ]
