@@ -6644,5 +6644,39 @@
     "after": 0.088
    }
   ]
+ },
+ {
+  "id": "injury-3915416-2026-10-18T19:00:00Z",
+  "kind": "I",
+  "at": "2026-10-18T19:00:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: DJ Moore is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0027,
+    "after": 0.0024
+   }
+  ]
+ },
+ {
+  "id": "injury-4361432-2026-10-18T19:00:00Z",
+  "kind": "I",
+  "at": "2026-10-18T19:00:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Cardigan's Boys: Romeo Doubs is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0005,
+    "after": 0.0001
+   }
+  ]
  }
 ]
