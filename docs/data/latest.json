@@ -10,13 +10,13 @@
    "wins": 3,
    "losses": 2,
    "pf": 684.54,
-   "projPerGame": 146.4,
+   "projPerGame": 146.3,
    "strength": 142.7,
-   "projWins": 10.02,
-   "playoff": 0.8452,
-   "final": 0.535,
-   "champ": 0.3192,
-   "topSeed": 0.1904,
+   "projWins": 10.01,
+   "playoff": 0.8439,
+   "final": 0.5313,
+   "champ": 0.314,
+   "topSeed": 0.1875,
    "lineup": [
     {
      "name": "Jaxon Smith-Njigba",
@@ -73,13 +73,13 @@
    "wins": 4,
    "losses": 1,
    "pf": 778.4,
-   "projPerGame": 129.6,
+   "projPerGame": 129.5,
    "strength": 139.6,
-   "projWins": 10.84,
-   "playoff": 0.9196,
-   "final": 0.5494,
-   "champ": 0.2982,
-   "topSeed": 0.4694,
+   "projWins": 10.85,
+   "playoff": 0.9247,
+   "final": 0.5452,
+   "champ": 0.3009,
+   "topSeed": 0.4732,
    "lineup": [
     {
      "name": "Jayden Daniels",
@@ -124,7 +124,7 @@
     {
      "name": "Josh Jacobs",
      "pos": "FLEX",
-     "pts": 7.4
+     "pts": 7.3
     }
    ]
   },
@@ -136,13 +136,13 @@
    "wins": 4,
    "losses": 1,
    "pf": 642.74,
-   "projPerGame": 134.5,
-   "strength": 132.2,
-   "projWins": 9.08,
-   "playoff": 0.5452,
-   "final": 0.2688,
-   "champ": 0.127,
-   "topSeed": 0.0685,
+   "projPerGame": 134.4,
+   "strength": 132.1,
+   "projWins": 9.07,
+   "playoff": 0.546,
+   "final": 0.2657,
+   "champ": 0.1313,
+   "topSeed": 0.0674,
    "lineup": [
     {
      "name": "Derrick Henry",
@@ -199,13 +199,13 @@
    "wins": 4,
    "losses": 1,
    "pf": 597.1,
-   "projPerGame": 132.3,
-   "strength": 127.4,
-   "projWins": 9.17,
-   "playoff": 0.5252,
-   "final": 0.2304,
-   "champ": 0.0979,
-   "topSeed": 0.0694,
+   "projPerGame": 132.7,
+   "strength": 127.6,
+   "projWins": 9.16,
+   "playoff": 0.5191,
+   "final": 0.2318,
+   "champ": 0.0967,
+   "topSeed": 0.0714,
    "lineup": [
     {
      "name": "Puka Nacua",
@@ -230,7 +230,7 @@
     {
      "name": "Pat Freiermuth",
      "pos": "TE",
-     "pts": 13.7
+     "pts": 14.2
     },
     {
      "name": "Quinshon Judkins",
@@ -263,12 +263,12 @@
    "losses": 3,
    "pf": 635.64,
    "projPerGame": 134.5,
-   "strength": 131.7,
+   "strength": 131.6,
    "projWins": 8.0,
-   "playoff": 0.3611,
-   "final": 0.1772,
-   "champ": 0.0852,
-   "topSeed": 0.0233,
+   "playoff": 0.3629,
+   "final": 0.1804,
+   "champ": 0.0855,
+   "topSeed": 0.0215,
    "lineup": [
     {
      "name": "Drake Maye",
@@ -278,7 +278,7 @@
     {
      "name": "Christian Watson",
      "pos": "WR",
-     "pts": 19.8
+     "pts": 19.7
     },
     {
      "name": "Mike Evans",
@@ -326,11 +326,11 @@
    "losses": 1,
    "pf": 642.62,
    "projPerGame": 109.1,
-   "strength": 116.5,
+   "strength": 116.6,
    "projWins": 10.14,
-   "playoff": 0.7781,
-   "final": 0.2304,
-   "champ": 0.0692,
+   "playoff": 0.7754,
+   "final": 0.2361,
+   "champ": 0.0681,
    "topSeed": 0.1787,
    "lineup": [
     {
@@ -388,12 +388,12 @@
    "wins": 1,
    "losses": 4,
    "pf": 561.56,
-   "projPerGame": 127.2,
+   "projPerGame": 127.1,
    "strength": 121.4,
-   "projWins": 4.98,
-   "playoff": 0.012,
-   "final": 0.0049,
-   "champ": 0.0021,
+   "projWins": 5.0,
+   "playoff": 0.0129,
+   "final": 0.0054,
+   "champ": 0.0022,
    "topSeed": 0.0001,
    "lineup": [
     {
@@ -451,12 +451,12 @@
    "wins": 2,
    "losses": 3,
    "pf": 583.14,
-   "projPerGame": 96.3,
+   "projPerGame": 96.2,
    "strength": 104.1,
-   "projWins": 4.97,
-   "playoff": 0.0088,
-   "final": 0.0024,
-   "champ": 0.0009,
+   "projWins": 4.98,
+   "playoff": 0.0097,
+   "final": 0.0026,
+   "champ": 0.0006,
    "topSeed": 0.0001,
    "lineup": [
     {
@@ -472,7 +472,7 @@
     {
      "name": "Jonathan Taylor",
      "pos": "RB",
-     "pts": 14.9
+     "pts": 14.8
     },
     {
      "name": "Jalen Coker",
@@ -517,10 +517,10 @@
    "projPerGame": 117.7,
    "strength": 110.0,
    "projWins": 4.56,
-   "playoff": 0.0044,
-   "final": 0.0013,
-   "champ": 0.0004,
-   "topSeed": 0.0,
+   "playoff": 0.0049,
+   "final": 0.0015,
+   "champ": 0.0006,
+   "topSeed": 0.0001,
    "lineup": [
     {
      "name": "Jaylen Warren",
@@ -565,7 +565,7 @@
     {
      "name": "Cam Skattebo",
      "pos": "FLEX",
-     "pts": 9.2
+     "pts": 9.1
     }
    ]
   },
@@ -578,8 +578,8 @@
    "losses": 5,
    "pf": 468.98,
    "projPerGame": 109.0,
-   "strength": 103.2,
-   "projWins": 3.24,
+   "strength": 103.1,
+   "projWins": 3.23,
    "playoff": 0.0004,
    "final": 0.0001,
    "champ": 0.0,
@@ -637,7 +637,7 @@
   {
    "home": 2,
    "away": 6,
-   "homeWin": 0.8837,
+   "homeWin": 0.882,
    "homePts": 46.0,
    "awayPts": 6.4,
    "homeProj": 135.4,
@@ -646,7 +646,7 @@
   {
    "home": 5,
    "away": 12,
-   "homeWin": 0.4814,
+   "homeWin": 0.4798,
    "homePts": 0.0,
    "awayPts": 6.0,
    "homeProj": 111.5,
@@ -655,16 +655,16 @@
   {
    "home": 13,
    "away": 3,
-   "homeWin": 0.6205,
+   "homeWin": 0.6138,
    "homePts": 0.0,
    "awayPts": 0.0,
-   "homeProj": 131.2,
+   "homeProj": 131.1,
    "awayProj": 120.2
   },
   {
    "home": 4,
    "away": 11,
-   "homeWin": 0.5806,
+   "homeWin": 0.5743,
    "homePts": 0.0,
    "awayPts": 0.0,
    "homeProj": 127.6,
@@ -673,12 +673,12 @@
   {
    "home": 9,
    "away": 1,
-   "homeWin": 0.5184,
+   "homeWin": 0.5159,
    "homePts": 5.2,
    "awayPts": 0.0,
    "homeProj": 129.1,
    "awayProj": 127.8
   }
  ],
- "generated": "2026-10-17T23:57+00:00"
+ "generated": "2026-10-18T04:18+00:00"
 }
