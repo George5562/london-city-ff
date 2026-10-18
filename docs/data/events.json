@@ -6491,5 +6491,158 @@
     "after": 0.0031
    }
   ]
+ },
+ {
+  "id": "injury-4361370-2026-10-18T16:30:00Z",
+  "kind": "I",
+  "at": "2026-10-18T16:30:00Z",
+  "teams": [
+   9
+  ],
+  "text": "GiantPunt: Chris Olave is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.3009,
+    "after": 0.2655
+   }
+  ]
+ },
+ {
+  "id": "injury-4431459-2026-10-18T16:30:00Z",
+  "kind": "I",
+  "at": "2026-10-18T16:30:00Z",
+  "teams": [
+   9
+  ],
+  "text": "GiantPunt: Tyler Warren is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.3009,
+    "after": 0.2655
+   }
+  ]
+ },
+ {
+  "id": "injury-4047646-2026-10-18T16:30:00Z",
+  "kind": "I",
+  "at": "2026-10-18T16:30:00Z",
+  "teams": [
+   1
+  ],
+  "text": "Knights who say Ni: A.J. Brown is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.1002,
+    "after": 0.088
+   }
+  ]
+ },
+ {
+  "id": "injury-4685702-2026-10-18T16:30:00Z",
+  "kind": "I",
+  "at": "2026-10-18T16:30:00Z",
+  "teams": [
+   1
+  ],
+  "text": "Knights who say Ni: Quinshon Judkins is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.1002,
+    "after": 0.088
+   }
+  ]
+ },
+ {
+  "id": "injury-4431611-2026-10-18T16:30:00Z",
+  "kind": "I",
+  "at": "2026-10-18T16:30:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Sabre Raiders: Caleb Williams is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.3121,
+    "after": 0.3322
+   }
+  ]
+ },
+ {
+  "id": "injury-4432710-2026-10-18T16:30:00Z",
+  "kind": "I",
+  "at": "2026-10-18T16:30:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: TreVeyon Henderson is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0031,
+    "after": 0.0027
+   }
+  ]
+ },
+ {
+  "id": "injury-3054850-2026-10-18T16:30:00Z",
+  "kind": "I",
+  "at": "2026-10-18T16:30:00Z",
+  "teams": [
+   1
+  ],
+  "text": "Knights who say Ni: Alvin Kamara is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.1002,
+    "after": 0.088
+   }
+  ]
+ },
+ {
+  "id": "injury-4038815-2026-10-18T16:30:00Z",
+  "kind": "I",
+  "at": "2026-10-18T16:30:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Rico Dowdle is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0844,
+    "after": 0.0861
+   }
+  ]
+ },
+ {
+  "id": "injury-4361411-2026-10-18T16:30:00Z",
+  "kind": "I",
+  "at": "2026-10-18T16:30:00Z",
+  "teams": [
+   1
+  ],
+  "text": "Knights who say Ni: Pat Freiermuth is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.1002,
+    "after": 0.088
+   }
+  ]
  }
 ]

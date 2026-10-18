@@ -44247,6 +44247,259 @@
    },
    "at": "2026-10-18T13:00:00Z",
    "explanations": {}
+  },
+  {
+   "date": "2026-10-18",
+   "label": "Week 6 \u00b7 16:30 UTC",
+   "week": 6,
+   "backfilled": false,
+   "teams": {
+    "2": {
+     "champ": 0.3322,
+     "playoff": 0.848,
+     "projWins": 10.02
+    },
+    "9": {
+     "champ": 0.2655,
+     "playoff": 0.9067,
+     "projWins": 10.69
+    },
+    "13": {
+     "champ": 0.1383,
+     "playoff": 0.5332,
+     "projWins": 8.99
+    },
+    "1": {
+     "champ": 0.088,
+     "playoff": 0.5152,
+     "projWins": 9.14
+    },
+    "4": {
+     "champ": 0.0861,
+     "playoff": 0.3483,
+     "projWins": 7.94
+    },
+    "3": {
+     "champ": 0.0859,
+     "playoff": 0.8218,
+     "projWins": 10.36
+    },
+    "11": {
+     "champ": 0.0027,
+     "playoff": 0.0126,
+     "projWins": 5.06
+    },
+    "6": {
+     "champ": 0.0008,
+     "playoff": 0.0097,
+     "projWins": 4.98
+    },
+    "12": {
+     "champ": 0.0005,
+     "playoff": 0.0037,
+     "projWins": 4.36
+    },
+    "5": {
+     "champ": 0.0001,
+     "playoff": 0.0007,
+     "projWins": 3.46
+    }
+   },
+   "at": "2026-10-18T16:30:00Z",
+   "changes": {
+    "2": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.0201,
+     "text": "Bucky Irving\u2019s forecast moved from 15.1735 to 16.063 fantasy points, raising their expected scoring contribution.",
+     "facts": [
+      "projection: Bucky Irving 15.17349176 -> 16.06296592",
+      "injury: Caleb Williams QUESTIONABLE -> ACTIVE",
+      "projection: Jakobi Meyers 9.24553445 -> 9.24553383",
+      "actual: Jakobi Meyers None -> 13.3",
+      "injury: Kenyon Sadiq QUESTIONABLE -> ACTIVE",
+      "injury: Omar Cooper Jr. QUESTIONABLE -> ACTIVE",
+      "injury: Case Keenum ACTIVE -> OUT",
+      "injury: Sean Tucker QUESTIONABLE -> OUT"
+     ],
+     "showTooltip": true
+    },
+    "9": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "model",
+     "delta": -0.0354,
+     "text": "Tyler Warren was ruled out after being questionable, and his projection fell to zero. That removes his expected fantasy production; the score update\u2019s broader link to the odds change is unclear.",
+     "facts": [
+      "injury: Chris Olave QUESTIONABLE -> ACTIVE",
+      "injury: Tyler Warren QUESTIONABLE -> OUT",
+      "projection: Tyler Warren 12.08555414 -> 0.0",
+      "projection: D'Andre Swift 15.00242437 -> 15.00249138",
+      "actual: Ka'imi Fairbairn None -> 7.0",
+      "projection: Rams D/ST 7.19421745 -> 7.27886452",
+      "injury: Caleb Williams QUESTIONABLE -> ACTIVE",
+      "injury: Alvin Kamara QUESTIONABLE -> ACTIVE"
+     ],
+     "showTooltip": true
+    },
+    "1": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0122,
+     "text": "Puka Nacua\u2019s forecast moved from 22.789 to 22.789 fantasy points, raising their expected scoring contribution.",
+     "facts": [
+      "projection: Puka Nacua 22.78898584 -> 22.7889898",
+      "injury: Chris Olave QUESTIONABLE -> ACTIVE",
+      "injury: Tyler Warren QUESTIONABLE -> OUT",
+      "projection: Parker Washington 14.83737931 -> 14.83738016",
+      "actual: Parker Washington None -> 10.4",
+      "injury: A.J. Brown QUESTIONABLE -> ACTIVE",
+      "projection: A.J. Brown 12.70514224 -> 12.70502704",
+      "roster_move: Quinshon Judkins 1 -> 1"
+     ],
+     "showTooltip": true
+    }
+   },
+   "explanations": {
+    "2": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Bucky Irving\u2019s forecast moved from 15.1735 to 16.063 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.0201,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Bucky Irving\u2019s forecast moved from 15.1735 to 16.063 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.0061,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "9": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Tyler Warren was ruled out after being questionable, and his projection fell to zero. That removes his expected fantasy production; the score update\u2019s broader link to the odds change is unclear.",
+      "confidence": "recorded explanation",
+      "delta": -0.0354,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Tyler Warren was ruled out after being questionable, and his projection fell to zero. That removes his expected fantasy production; the score update\u2019s broader link to the odds change is unclear.",
+      "confidence": "recorded explanation",
+      "delta": -0.0166,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Tyler Warren was ruled out after being questionable, and his projection fell to zero. That removes his expected fantasy production; the score update\u2019s broader link to the odds change is unclear.",
+      "confidence": "recorded explanation",
+      "delta": -0.13,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "13": {
+     "champ": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0079,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.0108,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "1": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Puka Nacua\u2019s forecast moved from 22.789 to 22.789 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.0122,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Puka Nacua\u2019s forecast moved from 22.789 to 22.789 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.0186,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "4": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.0082,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "3": {
+     "champ": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0182,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0504,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.24,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "12": {
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.18,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "5": {
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.25,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    }
+   }
   }
  ]
 }
