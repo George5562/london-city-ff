@@ -12,11 +12,11 @@
    "pf": 778.4,
    "projPerGame": 129.9,
    "strength": 139.8,
-   "projWins": 11.32,
-   "playoff": 0.9725,
-   "final": 0.598,
-   "champ": 0.3594,
-   "topSeed": 0.5645,
+   "projWins": 11.34,
+   "playoff": 0.9736,
+   "final": 0.6006,
+   "champ": 0.3635,
+   "topSeed": 0.5692,
    "lineup": [
     {
      "name": "Jayden Daniels",
@@ -73,13 +73,13 @@
    "wins": 3,
    "losses": 2,
    "pf": 684.54,
-   "projPerGame": 137.0,
-   "strength": 137.0,
-   "projWins": 9.75,
-   "playoff": 0.8372,
-   "final": 0.4911,
-   "champ": 0.2746,
-   "topSeed": 0.1033,
+   "projPerGame": 135.8,
+   "strength": 136.2,
+   "projWins": 9.69,
+   "playoff": 0.8273,
+   "final": 0.4797,
+   "champ": 0.2666,
+   "topSeed": 0.093,
    "lineup": [
     {
      "name": "Jaxon Smith-Njigba",
@@ -122,9 +122,9 @@
      "pts": 3.6
     },
     {
-     "name": "Davante Adams",
+     "name": "Luther Burden III",
      "pos": "FLEX",
-     "pts": 13.5
+     "pts": 12.7
     }
    ]
   },
@@ -138,11 +138,11 @@
    "pf": 642.62,
    "projPerGame": 116.5,
    "strength": 121.1,
-   "projWins": 10.9,
-   "playoff": 0.933,
-   "final": 0.3597,
-   "champ": 0.1265,
-   "topSeed": 0.2701,
+   "projWins": 10.95,
+   "playoff": 0.9368,
+   "final": 0.3636,
+   "champ": 0.1267,
+   "topSeed": 0.2772,
    "lineup": [
     {
      "name": "Trevor Lawrence",
@@ -202,10 +202,10 @@
    "projPerGame": 123.3,
    "strength": 121.8,
    "projWins": 9.07,
-   "playoff": 0.5939,
-   "final": 0.2447,
-   "champ": 0.0935,
-   "topSeed": 0.0423,
+   "playoff": 0.5948,
+   "final": 0.2462,
+   "champ": 0.0956,
+   "topSeed": 0.0413,
    "lineup": [
     {
      "name": "Puka Nacua",
@@ -264,11 +264,11 @@
    "pf": 642.74,
    "projPerGame": 127.1,
    "strength": 127.7,
-   "projWins": 8.19,
-   "playoff": 0.3834,
-   "final": 0.1752,
-   "champ": 0.0832,
-   "topSeed": 0.0152,
+   "projWins": 8.2,
+   "playoff": 0.3849,
+   "final": 0.1773,
+   "champ": 0.0835,
+   "topSeed": 0.0149,
    "lineup": [
     {
      "name": "Malik Nabers",
@@ -328,10 +328,10 @@
    "projPerGame": 131.0,
    "strength": 129.5,
    "projWins": 7.11,
-   "playoff": 0.2246,
-   "final": 0.1118,
-   "champ": 0.0544,
-   "topSeed": 0.0044,
+   "playoff": 0.2271,
+   "final": 0.1128,
+   "champ": 0.0558,
+   "topSeed": 0.004,
    "lineup": [
     {
      "name": "Drake Maye",
@@ -390,9 +390,9 @@
    "pf": 561.56,
    "projPerGame": 127.7,
    "strength": 121.8,
-   "projWins": 5.52,
-   "playoff": 0.0266,
-   "final": 0.011,
+   "projWins": 5.53,
+   "playoff": 0.0268,
+   "final": 0.0112,
    "champ": 0.0053,
    "topSeed": 0.0001,
    "lineup": [
@@ -454,9 +454,9 @@
    "projPerGame": 103.3,
    "strength": 108.4,
    "projWins": 5.41,
-   "playoff": 0.0255,
-   "final": 0.0074,
-   "champ": 0.0026,
+   "playoff": 0.0254,
+   "final": 0.0075,
+   "champ": 0.0025,
    "topSeed": 0.0001,
    "lineup": [
     {
@@ -517,7 +517,7 @@
    "projPerGame": 110.7,
    "strength": 104.2,
    "projWins": 3.95,
-   "playoff": 0.0021,
+   "playoff": 0.0022,
    "final": 0.0008,
    "champ": 0.0003,
    "topSeed": 0.0,
@@ -577,10 +577,10 @@
    "wins": 1,
    "losses": 4,
    "pf": 488.4,
-   "projPerGame": 112.0,
-   "strength": 106.5,
-   "projWins": 3.78,
-   "playoff": 0.0012,
+   "projPerGame": 111.6,
+   "strength": 106.2,
+   "projWins": 3.75,
+   "playoff": 0.0011,
    "final": 0.0004,
    "champ": 0.0002,
    "topSeed": 0.0,
@@ -680,5 +680,5 @@
    "awayProj": 107.0
   }
  ],
- "generated": "2026-10-19T17:43+00:00"
+ "generated": "2026-10-19T22:16+00:00"
 }

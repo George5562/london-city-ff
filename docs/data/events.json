@@ -6820,5 +6820,56 @@
     "after": 0.0056
    }
   ]
+ },
+ {
+  "id": "injury-16800-2026-10-19T22:00:00Z",
+  "kind": "I",
+  "at": "2026-10-19T22:00:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Sabre Raiders: Davante Adams is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.2746,
+    "after": 0.2666
+   }
+  ]
+ },
+ {
+  "id": "injury-4385690-2026-10-19T22:00:00Z",
+  "kind": "I",
+  "at": "2026-10-19T22:00:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: Dalton Kincaid is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0053,
+    "after": 0.0053
+   }
+  ]
+ },
+ {
+  "id": "injury-4361432-2026-10-19T22:00:00Z",
+  "kind": "I",
+  "at": "2026-10-19T22:00:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Cardigan's Boys: Romeo Doubs is now listed as injury reserve.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0002,
+    "after": 0.0002
+   }
+  ]
  }
 ]
