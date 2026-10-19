@@ -45206,6 +45206,330 @@
      }
     }
    }
+  },
+  {
+   "date": "2026-10-19",
+   "label": "Week 6 \u00b7 00:00 UTC",
+   "week": 6,
+   "backfilled": false,
+   "teams": {
+    "9": {
+     "champ": 0.3388,
+     "playoff": 0.9668,
+     "projWins": 11.24
+    },
+    "2": {
+     "champ": 0.2665,
+     "playoff": 0.7897,
+     "projWins": 9.48
+    },
+    "3": {
+     "champ": 0.1229,
+     "playoff": 0.9177,
+     "projWins": 10.8
+    },
+    "1": {
+     "champ": 0.0954,
+     "playoff": 0.5598,
+     "projWins": 8.97
+    },
+    "13": {
+     "champ": 0.092,
+     "playoff": 0.395,
+     "projWins": 8.24
+    },
+    "4": {
+     "champ": 0.0765,
+     "playoff": 0.306,
+     "projWins": 7.49
+    },
+    "11": {
+     "champ": 0.0038,
+     "playoff": 0.0214,
+     "projWins": 5.2
+    },
+    "6": {
+     "champ": 0.0037,
+     "playoff": 0.0394,
+     "projWins": 5.69
+    },
+    "5": {
+     "champ": 0.0003,
+     "playoff": 0.0027,
+     "projWins": 4.01
+    },
+    "12": {
+     "champ": 0.0002,
+     "playoff": 0.0015,
+     "projWins": 3.87
+    }
+   },
+   "at": "2026-10-19T00:00:00Z",
+   "changes": {
+    "9": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "model",
+     "delta": -0.0121,
+     "text": "Kenneth Walker III rose to 27.9 fantasy points for the Playoff Pushers, while Chiefs D/ST reached 14.0. The scoring updates support a stronger matchup outlook, though the odds movement\u2019s specific link is unclear.",
+     "facts": [
+      "actual: Kenneth Walker III 21.1 -> 27.9",
+      "actual: Travis Kelce 6.0 -> 9.3",
+      "actual: Rams D/ST 7.0 -> 2.0",
+      "actual: Chiefs D/ST 9.0 -> 14.0",
+      "actual: Chad Ryland 9.0 -> 19.0",
+      "injury: Emari Demercado ACTIVE -> OUT",
+      "injury: Savion Williams QUESTIONABLE -> ACTIVE",
+      "injury: Camden Brown ACTIVE -> OUT"
+     ],
+     "showTooltip": true
+    },
+    "2": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.0381,
+     "text": "Brock Bowers now has 11 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "actual: Brock Bowers 0.0 -> 11.0",
+      "actual: Davante Adams 1.7 -> 6.9",
+      "actual: Michael Wilson 2.0 -> 7.2",
+      "actual: Rams D/ST 7.0 -> 2.0"
+     ],
+     "showTooltip": true
+    },
+    "3": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0079,
+     "text": "Ashton Jeanty now has 15.8 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "actual: Ashton Jeanty 16.3 -> 15.8",
+      "actual: Cameron Dicker 3.0 -> 6.0",
+      "actual: Harrison Butker 5.0 -> 12.0",
+      "injury: Emari Demercado ACTIVE -> OUT",
+      "injury: Camden Brown ACTIVE -> OUT"
+     ],
+     "showTooltip": true
+    },
+    "1": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.0206,
+     "text": "Puka Nacua now has 14 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "actual: Puka Nacua 3.6 -> 14.0",
+      "actual: Chiefs D/ST 9.0 -> 14.0",
+      "actual: Chargers D/ST 5.0 -> 1.0",
+      "actual: Raiders D/ST 8.0 -> 1.0",
+      "actual: Dawson Knox 0.0 -> 1.0",
+      "injury: Emari Demercado ACTIVE -> OUT",
+      "injury: Camden Brown ACTIVE -> OUT"
+     ],
+     "showTooltip": true
+    },
+    "13": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0085,
+     "text": "Matthew Stafford now has 16.88 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "actual: Matthew Stafford 6.88 -> 16.88",
+      "injury: Dalton Kincaid ACTIVE -> QUESTIONABLE",
+      "actual: Cameron Dicker 3.0 -> 6.0",
+      "actual: Blake Corum 12.3 -> 14.0",
+      "actual: Khalil Shakir 7.9 -> 13.4"
+     ],
+     "showTooltip": true
+    },
+    "4": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.032,
+     "text": "Kyren Williams now has 9.7 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "actual: Kyren Williams 4.0 -> 9.7",
+      "actual: Patrick Mahomes 5.4 -> 10.48",
+      "actual: Tyler Allgeier 4.7 -> 5.8",
+      "injury: Savion Williams QUESTIONABLE -> ACTIVE"
+     ],
+     "showTooltip": true
+    }
+   },
+   "explanations": {
+    "9": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Kenneth Walker III rose to 27.9 fantasy points for the Playoff Pushers, while Chiefs D/ST reached 14.0. The scoring updates support a stronger matchup outlook, though the odds movement\u2019s specific link is unclear.",
+      "confidence": "recorded explanation",
+      "delta": -0.0121,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "2": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Brock Bowers now has 11 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.0381,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Brock Bowers now has 11 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.0853,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Brock Bowers now has 11 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.35,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "3": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Ashton Jeanty now has 15.8 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.0079,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Ashton Jeanty now has 15.8 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.0065,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "1": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Puka Nacua now has 14 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.0206,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Puka Nacua now has 14 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.0808,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Puka Nacua now has 14 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.19,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "13": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Matthew Stafford now has 16.88 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.0085,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Matthew Stafford now has 16.88 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.0395,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Matthew Stafford now has 16.88 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.22,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "4": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Kyren Williams now has 9.7 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.032,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Kyren Williams now has 9.7 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.1257,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Kyren Williams now has 9.7 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.64,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "11": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.016,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.76,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "6": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.0118,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.38,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    }
+   }
   }
  ]
 }

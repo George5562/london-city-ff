@@ -6786,5 +6786,22 @@
     "after": 0.0051
    }
   ]
+ },
+ {
+  "id": "injury-4385690-2026-10-19T00:00:00Z",
+  "kind": "I",
+  "at": "2026-10-19T00:00:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: Dalton Kincaid is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0008,
+    "after": 0.0038
+   }
+  ]
  }
 ]
