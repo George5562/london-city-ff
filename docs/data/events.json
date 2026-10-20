@@ -6979,5 +6979,237 @@
     "after": 0.1507
    }
   ]
+ },
+ {
+  "id": "injury-3916387-2026-10-20T16:30:00Z",
+  "kind": "I",
+  "at": "2026-10-20T16:30:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Goats: Lamar Jackson is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.1867,
+    "after": 0.205
+   }
+  ]
+ },
+ {
+  "id": "injury-3929630-2026-10-20T16:30:00Z",
+  "kind": "I",
+  "at": "2026-10-20T16:30:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Saquon Barkley is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0285,
+    "after": 0.0307
+   }
+  ]
+ },
+ {
+  "id": "injury-4431459-2026-10-20T16:30:00Z",
+  "kind": "I",
+  "at": "2026-10-20T16:30:00Z",
+  "teams": [
+   9
+  ],
+  "text": "GiantPunt: Tyler Warren is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.515,
+    "after": 0.5038
+   }
+  ]
+ },
+ {
+  "id": "injury-4870808-2026-10-20T16:30:00Z",
+  "kind": "I",
+  "at": "2026-10-20T16:30:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Jeremiyah Love is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0285,
+    "after": 0.0307
+   }
+  ]
+ },
+ {
+  "id": "injury-4427366-2026-10-20T16:30:00Z",
+  "kind": "I",
+  "at": "2026-10-20T16:30:00Z",
+  "teams": [
+   6
+  ],
+  "text": "The Le Chable Dolphins: Breece Hall is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.0034,
+    "after": 0.0037
+   }
+  ]
+ },
+ {
+  "id": "injury-4428331-2026-10-20T16:30:00Z",
+  "kind": "I",
+  "at": "2026-10-20T16:30:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Love hurts: Rashee Rice is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0011,
+    "after": 0.0008
+   }
+  ]
+ },
+ {
+  "id": "injury-16737-2026-10-20T16:30:00Z",
+  "kind": "I",
+  "at": "2026-10-20T16:30:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Mike Evans is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0285,
+    "after": 0.0307
+   }
+  ]
+ },
+ {
+  "id": "injury-4685702-2026-10-20T16:30:00Z",
+  "kind": "I",
+  "at": "2026-10-20T16:30:00Z",
+  "teams": [
+   1
+  ],
+  "text": "Knights who say Ni: Quinshon Judkins is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.0597,
+    "after": 0.0573
+   }
+  ]
+ },
+ {
+  "id": "injury-3915416-2026-10-20T16:30:00Z",
+  "kind": "I",
+  "at": "2026-10-20T16:30:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: DJ Moore is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0047,
+    "after": 0.0046
+   }
+  ]
+ },
+ {
+  "id": "injury-3121422-2026-10-20T16:30:00Z",
+  "kind": "I",
+  "at": "2026-10-20T16:30:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Goats: Terry McLaurin is now listed as doubtful.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.1867,
+    "after": 0.205
+   }
+  ]
+ },
+ {
+  "id": "injury-4035538-2026-10-20T16:30:00Z",
+  "kind": "I",
+  "at": "2026-10-20T16:30:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Love hurts: David Montgomery is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0011,
+    "after": 0.0008
+   }
+  ]
+ },
+ {
+  "id": "injury-4608686-2026-10-20T16:30:00Z",
+  "kind": "I",
+  "at": "2026-10-20T16:30:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Love hurts: Kyle Monangai is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0011,
+    "after": 0.0008
+   }
+  ]
+ },
+ {
+  "id": "trade-406f3148-d2cb-490c-a497-d6e1f4d7c362",
+  "kind": "T",
+  "at": "2026-10-20T16:30:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Added Xavier Worthy; Dropped Ravens D/ST.",
+  "moves": [
+   {
+    "player": "Xavier Worthy",
+    "position": "WR",
+    "action": "add"
+   },
+   {
+    "player": "Ravens D/ST",
+    "position": "D/ST",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0,
+    "after": 0.0001
+   }
+  ]
  }
 ]
