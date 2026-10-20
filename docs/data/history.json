@@ -46311,6 +46311,373 @@
      }
     }
    }
+  },
+  {
+   "date": "2026-10-20",
+   "label": "Week 7 \u00b7 12:00 UTC",
+   "week": 7,
+   "backfilled": false,
+   "teams": {
+    "9": {
+     "champ": 0.515,
+     "playoff": 0.9862,
+     "projWins": 11.42
+    },
+    "3": {
+     "champ": 0.1867,
+     "playoff": 0.9409,
+     "projWins": 10.8
+    },
+    "2": {
+     "champ": 0.1507,
+     "playoff": 0.6601,
+     "projWins": 8.82
+    },
+    "1": {
+     "champ": 0.0597,
+     "playoff": 0.4347,
+     "projWins": 8.32
+    },
+    "13": {
+     "champ": 0.0502,
+     "playoff": 0.3883,
+     "projWins": 7.95
+    },
+    "4": {
+     "champ": 0.0285,
+     "playoff": 0.216,
+     "projWins": 6.79
+    },
+    "11": {
+     "champ": 0.0047,
+     "playoff": 0.3234,
+     "projWins": 7.38
+    },
+    "6": {
+     "champ": 0.0034,
+     "playoff": 0.0345,
+     "projWins": 5.37
+    },
+    "5": {
+     "champ": 0.0011,
+     "playoff": 0.0152,
+     "projWins": 4.86
+    },
+    "12": {
+     "champ": 0.0,
+     "playoff": 0.0005,
+     "projWins": 3.29
+    }
+   },
+   "at": "2026-10-20T12:00:00Z",
+   "changes": {
+    "9": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.1451,
+     "text": "CeeDee Lamb\u2019s forecast moved from 18.6061 to 18.5302 fantasy points, lowering their expected scoring contribution.",
+     "facts": [
+      "projection: CeeDee Lamb 18.6060798 -> 18.53023967",
+      "actual: CeeDee Lamb 16.0 -> None",
+      "projection: Kenneth Walker III 23.3136891 -> 19.01923234",
+      "actual: Kenneth Walker III 27.9 -> None",
+      "projection: Amon-Ra St. Brown 0.0 -> 19.51830865",
+      "projection: Chris Olave 17.28270961 -> 15.7154578",
+      "actual: Chris Olave 14.3 -> None",
+      "projection: Tyler Warren 0.0 -> 10.63402265"
+     ],
+     "showTooltip": true
+    },
+    "3": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.0637,
+     "text": "Jahmyr Gibbs\u2019s forecast moved from 0 to 26.0084 fantasy points, raising their expected scoring contribution.",
+     "facts": [
+      "projection: Jahmyr Gibbs 0.0 -> 26.00843363",
+      "projection: Ashton Jeanty 19.16947372 -> 16.99161685",
+      "actual: Ashton Jeanty 15.8 -> None",
+      "projection: Lamar Jackson 0.0 -> 19.93037178",
+      "actual: Lamar Jackson 0.0 -> None",
+      "projection: Tetairoa McMillan 15.93390674 -> 15.80286032",
+      "actual: Tetairoa McMillan 14.6 -> None",
+      "projection: DeVonta Smith 13.50071917 -> 16.63028642"
+     ],
+     "showTooltip": true
+    },
+    "2": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.106,
+     "text": "Jaxon Smith-Njigba\u2019s forecast moved from 19.7599 to 20.066 fantasy points, raising their expected scoring contribution.",
+     "facts": [
+      "projection: Jaxon Smith-Njigba 19.7598962 -> 20.06604328",
+      "actual: Jaxon Smith-Njigba 25.4 -> None",
+      "projection: Brock Bowers 19.77095642 -> 18.47655821",
+      "actual: Brock Bowers 11.0 -> None",
+      "roster_move: Davante Adams 2 -> 2",
+      "projection: Davante Adams 16.03841049 -> 0.0",
+      "actual: Davante Adams 6.9 -> None",
+      "projection: Garrett Wilson 14.79782686 -> 15.06425054"
+     ],
+     "showTooltip": true
+    },
+    "1": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "model",
+     "delta": -0.0402,
+     "text": "Puka Nacua\u2019s projection rose to 24.8 fantasy points, while Javonte Williams and Brock Purdy\u2019s dipped; Chase Brown\u2019s projection appeared at 14.6. The score update supported a lower fantasy-team outlook, though the cause of the shift is unclear.",
+     "facts": [
+      "projection: Puka Nacua 22.77526986 -> 24.76452939",
+      "actual: Puka Nacua 14.0 -> None",
+      "projection: Javonte Williams 16.89162369 -> 16.55049576",
+      "actual: Javonte Williams 13.0 -> None",
+      "projection: Chase Brown 0.0 -> 14.61454169",
+      "actual: Brandon Aubrey 1.0 -> None",
+      "projection: Brock Purdy 21.37874978 -> 20.37636081",
+      "actual: Brock Purdy 17.36 -> None"
+     ],
+     "showTooltip": true
+    },
+    "13": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.035,
+     "text": "Bijan Robinson\u2019s forecast moved from 22.9899 to 19.1818 fantasy points, lowering their expected scoring contribution.",
+     "facts": [
+      "projection: Bijan Robinson 22.98994043 -> 19.18184546",
+      "actual: Bijan Robinson 7.3 -> None",
+      "projection: Derrick Henry 18.30315545 -> 20.07363554",
+      "actual: Derrick Henry 5.0 -> None",
+      "projection: Drake London 15.76101197 -> 17.16207071",
+      "actual: Drake London 12.2 -> None",
+      "actual: Javonte Williams 13.0 -> None",
+      "projection: Malik Nabers 17.35891134 -> 17.69663057"
+     ],
+     "showTooltip": true
+    },
+    "4": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0263,
+     "text": "Ja'Marr Chase\u2019s forecast moved from 0 to 22.1236 fantasy points, raising their expected scoring contribution.",
+     "facts": [
+      "projection: Ja'Marr Chase 0.0 -> 22.1236219",
+      "projection: Kyren Williams 21.02176845 -> 19.60715421",
+      "actual: Kyren Williams 9.7 -> None",
+      "projection: George Kittle 14.90771439 -> 14.83710093",
+      "actual: George Kittle 17.9 -> None",
+      "projection: Saquon Barkley 0.0 -> 14.74280466",
+      "actual: Saquon Barkley 0.0 -> None",
+      "projection: Drake Maye 20.25497402 -> 20.55504366"
+     ],
+     "showTooltip": true
+    }
+   },
+   "explanations": {
+    "9": {
+     "champ": {
+      "cause": "score_update",
+      "text": "CeeDee Lamb\u2019s forecast moved from 18.6061 to 18.5302 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.1451,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "CeeDee Lamb\u2019s forecast moved from 18.6061 to 18.5302 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.0087,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "3": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Jahmyr Gibbs\u2019s forecast moved from 0 to 26.0084 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.0637,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Jahmyr Gibbs\u2019s forecast moved from 0 to 26.0084 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.0054,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Jahmyr Gibbs\u2019s forecast moved from 0 to 26.0084 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.13,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "2": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Jaxon Smith-Njigba\u2019s forecast moved from 19.7599 to 20.066 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.106,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Jaxon Smith-Njigba\u2019s forecast moved from 19.7599 to 20.066 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.1616,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Jaxon Smith-Njigba\u2019s forecast moved from 19.7599 to 20.066 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.8,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "1": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Puka Nacua\u2019s projection rose to 24.8 fantasy points, while Javonte Williams and Brock Purdy\u2019s dipped; Chase Brown\u2019s projection appeared at 14.6. The score update supported a lower fantasy-team outlook, though the cause of the shift is unclear.",
+      "confidence": "recorded explanation",
+      "delta": -0.0402,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Puka Nacua\u2019s projection rose to 24.8 fantasy points, while Javonte Williams and Brock Purdy\u2019s dipped; Chase Brown\u2019s projection appeared at 14.6. The score update supported a lower fantasy-team outlook, though the cause of the shift is unclear.",
+      "confidence": "recorded explanation",
+      "delta": -0.1647,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Puka Nacua\u2019s projection rose to 24.8 fantasy points, while Javonte Williams and Brock Purdy\u2019s dipped; Chase Brown\u2019s projection appeared at 14.6. The score update supported a lower fantasy-team outlook, though the cause of the shift is unclear.",
+      "confidence": "recorded explanation",
+      "delta": -0.71,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "13": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Bijan Robinson\u2019s forecast moved from 22.9899 to 19.1818 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.035,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Bijan Robinson\u2019s forecast moved from 22.9899 to 19.1818 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.0054,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Bijan Robinson\u2019s forecast moved from 22.9899 to 19.1818 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.19,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "4": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Ja'Marr Chase\u2019s forecast moved from 0 to 22.1236 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.0263,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Ja'Marr Chase\u2019s forecast moved from 0 to 22.1236 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.25,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "11": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.2896,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 1.65,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "6": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0094,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "5": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0126,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.78,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "12": {
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.37,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    }
+   }
   }
  ]
 }
