@@ -6871,5 +6871,73 @@
     "after": 0.0002
    }
   ]
+ },
+ {
+  "id": "injury-4047646-2026-10-20T01:00:00Z",
+  "kind": "I",
+  "at": "2026-10-20T01:00:00Z",
+  "teams": [
+   1
+  ],
+  "text": "Knights who say Ni: A.J. Brown is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.0956,
+    "after": 0.0878
+   }
+  ]
+ },
+ {
+  "id": "injury-16737-2026-10-20T01:00:00Z",
+  "kind": "I",
+  "at": "2026-10-20T01:00:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Mike Evans is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0558,
+    "after": 0.059
+   }
+  ]
+ },
+ {
+  "id": "injury-3121422-2026-10-20T01:00:00Z",
+  "kind": "I",
+  "at": "2026-10-20T01:00:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Goats: Terry McLaurin is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.1267,
+    "after": 0.1323
+   }
+  ]
+ },
+ {
+  "id": "injury-2976212-2026-10-20T01:00:00Z",
+  "kind": "I",
+  "at": "2026-10-20T01:00:00Z",
+  "teams": [
+   6
+  ],
+  "text": "The Le Chable Dolphins: Stefon Diggs is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.0025,
+    "after": 0.0024
+   }
+  ]
  }
 ]
