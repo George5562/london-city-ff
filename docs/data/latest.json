@@ -14,8 +14,8 @@
    "strength": 146.8,
    "projWins": 11.34,
    "playoff": 0.9846,
-   "final": 0.7326,
-   "champ": 0.5038,
+   "final": 0.7327,
+   "champ": 0.5039,
    "topSeed": 0.6531,
    "lineup": [
     {
@@ -79,7 +79,7 @@
    "playoff": 0.9251,
    "final": 0.51,
    "champ": 0.205,
-   "topSeed": 0.2581,
+   "topSeed": 0.2582,
    "lineup": [
     {
      "name": "Jahmyr Gibbs",
@@ -139,7 +139,7 @@
    "projPerGame": 130.5,
    "strength": 130.6,
    "projWins": 8.79,
-   "playoff": 0.6507,
+   "playoff": 0.6508,
    "final": 0.322,
    "champ": 0.1454,
    "topSeed": 0.0432,
@@ -320,12 +320,12 @@
    "wins": 2,
    "losses": 4,
    "pf": 737.64,
-   "projPerGame": 116.2,
+   "projPerGame": 116.3,
    "strength": 119.1,
    "projWins": 6.83,
-   "playoff": 0.2258,
-   "final": 0.0802,
-   "champ": 0.0307,
+   "playoff": 0.2257,
+   "final": 0.0801,
+   "champ": 0.0306,
    "topSeed": 0.0042,
    "lineup": [
     {
@@ -376,7 +376,7 @@
    "projPerGame": 65.6,
    "strength": 86.7,
    "projWins": 7.45,
-   "playoff": 0.3384,
+   "playoff": 0.3385,
    "final": 0.0372,
    "champ": 0.0046,
    "topSeed": 0.0047,
@@ -625,5 +625,5 @@
    "homeWin": 0.1623
   }
  ],
- "generated": "2026-10-20T16:49+00:00"
+ "generated": "2026-10-20T20:27+00:00"
 }
