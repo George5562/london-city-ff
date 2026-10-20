@@ -7228,5 +7228,22 @@
     "after": 0.205
    }
   ]
+ },
+ {
+  "id": "injury-16800-2026-10-20T23:00:00Z",
+  "kind": "I",
+  "at": "2026-10-20T23:00:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Sabre Raiders: Davante Adams is now listed as injury reserve.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.1454,
+    "after": 0.1454
+   }
+  ]
  }
 ]
