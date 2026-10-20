@@ -6939,5 +6939,22 @@
     "after": 0.0024
    }
   ]
+ },
+ {
+  "id": "injury-16737-2026-10-20T06:30:00Z",
+  "kind": "I",
+  "at": "2026-10-20T06:30:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Mike Evans is now listed as doubtful.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.059,
+    "after": 0.0548
+   }
+  ]
  }
 ]

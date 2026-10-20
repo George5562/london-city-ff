@@ -46093,6 +46093,224 @@
      }
     }
    }
+  },
+  {
+   "date": "2026-10-20",
+   "label": "Week 6 \u00b7 06:30 UTC",
+   "week": 6,
+   "backfilled": false,
+   "teams": {
+    "9": {
+     "champ": 0.3699,
+     "playoff": 0.9775,
+     "projWins": 11.37
+    },
+    "2": {
+     "champ": 0.2567,
+     "playoff": 0.8217,
+     "projWins": 9.62
+    },
+    "3": {
+     "champ": 0.123,
+     "playoff": 0.9355,
+     "projWins": 10.93
+    },
+    "1": {
+     "champ": 0.0999,
+     "playoff": 0.5994,
+     "projWins": 9.03
+    },
+    "13": {
+     "champ": 0.0852,
+     "playoff": 0.3829,
+     "projWins": 8.14
+    },
+    "4": {
+     "champ": 0.0548,
+     "playoff": 0.2208,
+     "projWins": 7.04
+    },
+    "11": {
+     "champ": 0.0076,
+     "playoff": 0.0338,
+     "projWins": 5.73
+    },
+    "6": {
+     "champ": 0.0026,
+     "playoff": 0.0251,
+     "projWins": 5.41
+    },
+    "5": {
+     "champ": 0.0004,
+     "playoff": 0.0026,
+     "projWins": 4.08
+    },
+    "12": {
+     "champ": 0.0,
+     "playoff": 0.0009,
+     "projWins": 3.66
+    }
+   },
+   "at": "2026-10-20T06:30:00Z",
+   "changes": {
+    "9": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.0303,
+     "text": "Jayden Daniels now has 21 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "actual: Jayden Daniels 3.78 -> 21.0"
+     ],
+     "showTooltip": true
+    },
+    "2": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0224,
+     "text": "Kaelon Black now has 4.7 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "actual: Kaelon Black 2.0 -> 4.7",
+      "actual: Kyle Juszczyk 0.0 -> 2.0"
+     ],
+     "showTooltip": true
+    },
+    "3": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0093,
+     "text": "Commanders D/ST now has 3 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "actual: Commanders D/ST 7.0 -> 3.0"
+     ],
+     "showTooltip": true
+    },
+    "1": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.0121,
+     "text": "Brock Purdy now has 17.36 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "actual: Brock Purdy 11.54 -> 17.36",
+      "injury: Mike Evans ACTIVE -> DOUBTFUL",
+      "actual: Eddy Pineiro 1.0 -> 5.0"
+     ],
+     "showTooltip": true
+    }
+   },
+   "explanations": {
+    "9": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Jayden Daniels now has 21 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.0303,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "2": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Kaelon Black now has 4.7 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.0224,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Kaelon Black now has 4.7 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.0153,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Kaelon Black now has 4.7 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.1,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "3": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Commanders D/ST now has 3 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.0093,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Commanders D/ST now has 3 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.0058,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "1": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Brock Purdy now has 17.36 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.0121,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Brock Purdy now has 17.36 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.0366,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "13": {
+     "champ": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.0087,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.0239,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "11": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0078,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.13,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    }
+   }
   }
  ]
 }
