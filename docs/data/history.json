@@ -47204,6 +47204,171 @@
    },
    "at": "2026-10-21T18:00:00Z",
    "explanations": {}
+  },
+  {
+   "date": "2026-10-21",
+   "label": "Week 7 \u00b7 21:30 UTC",
+   "week": 7,
+   "backfilled": false,
+   "teams": {
+    "9": {
+     "champ": 0.502,
+     "playoff": 0.9831,
+     "projWins": 11.38
+    },
+    "3": {
+     "champ": 0.1934,
+     "playoff": 0.9296,
+     "projWins": 10.69
+    },
+    "2": {
+     "champ": 0.1441,
+     "playoff": 0.662,
+     "projWins": 8.85
+    },
+    "1": {
+     "champ": 0.0599,
+     "playoff": 0.4377,
+     "projWins": 8.33
+    },
+    "13": {
+     "champ": 0.0547,
+     "playoff": 0.4163,
+     "projWins": 8.07
+    },
+    "4": {
+     "champ": 0.0367,
+     "playoff": 0.1741,
+     "projWins": 6.58
+    },
+    "11": {
+     "champ": 0.0042,
+     "playoff": 0.3436,
+     "projWins": 7.46
+    },
+    "6": {
+     "champ": 0.0041,
+     "playoff": 0.0382,
+     "projWins": 5.45
+    },
+    "5": {
+     "champ": 0.0008,
+     "playoff": 0.0146,
+     "projWins": 4.82
+    },
+    "12": {
+     "champ": 0.0001,
+     "playoff": 0.0008,
+     "projWins": 3.37
+    }
+   },
+   "at": "2026-10-21T21:30:00Z",
+   "changes": {
+    "3": {
+     "cause": "external_opportunity",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0098,
+     "text": "Ashton Jeanty\u2019s forecast moved from 16.9895 to 16.9951 fantasy points, raising their expected scoring contribution.",
+     "facts": [
+      "injury: Justin Jefferson ACTIVE -> QUESTIONABLE",
+      "projection: Ashton Jeanty 16.98949684 -> 16.99513094",
+      "projection: Lamar Jackson 19.9302036 -> 0.0",
+      "projection: Harold Fannin Jr. 8.29769286 -> 8.20870857",
+      "injury: Denzel Boston ACTIVE -> QUESTIONABLE",
+      "injury: Jordan Addison QUESTIONABLE -> ACTIVE",
+      "injury: Rico Dowdle ACTIVE -> QUESTIONABLE",
+      "injury: KC Concepcion ACTIVE -> QUESTIONABLE"
+     ],
+     "showTooltip": true
+    },
+    "4": {
+     "cause": "roster_move",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.0061,
+     "text": "Ja'Marr Chase\u2019s forecast moved from 22.1263 to 21.7337 fantasy points, lowering their expected scoring contribution.",
+     "facts": [
+      "roster_move: Ja'Marr Chase 4 -> 4",
+      "projection: Ja'Marr Chase 22.12632628 -> 21.73365181",
+      "injury: Justin Jefferson ACTIVE -> QUESTIONABLE",
+      "roster_move: Kyren Williams 4 -> 4",
+      "projection: Kyren Williams 19.62199004 -> 19.61474049",
+      "projection: George Kittle 16.6707421 -> 16.65950925",
+      "projection: Drake Maye 20.55784949 -> 20.58841801",
+      "injury: Bucky Irving ACTIVE -> QUESTIONABLE"
+     ],
+     "showTooltip": true
+    }
+   },
+   "explanations": {
+    "3": {
+     "champ": {
+      "cause": "external_opportunity",
+      "text": "Ashton Jeanty\u2019s forecast moved from 16.9895 to 16.9951 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.0098,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "2": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0089,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "1": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0124,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "13": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0216,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "4": {
+     "champ": {
+      "cause": "roster_move",
+      "text": "Ja'Marr Chase\u2019s forecast moved from 22.1263 to 21.7337 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.0061,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "roster_move",
+      "text": "Ja'Marr Chase\u2019s forecast moved from 22.1263 to 21.7337 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.0517,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "roster_move",
+      "text": "Ja'Marr Chase\u2019s forecast moved from 22.1263 to 21.7337 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.25,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    }
+   }
   }
  ]
 }

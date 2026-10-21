@@ -7268,5 +7268,282 @@
     "after": 0.0577
    }
   ]
+ },
+ {
+  "id": "injury-4262921-2026-10-21T21:30:00Z",
+  "kind": "I",
+  "at": "2026-10-21T21:30:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Love hurts: Justin Jefferson is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0009,
+    "after": 0.0008
+   }
+  ]
+ },
+ {
+  "id": "injury-4596448-2026-10-21T21:30:00Z",
+  "kind": "I",
+  "at": "2026-10-21T21:30:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Sabre Raiders: Bucky Irving is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.1426,
+    "after": 0.1441
+   }
+  ]
+ },
+ {
+  "id": "injury-4248528-2026-10-21T21:30:00Z",
+  "kind": "I",
+  "at": "2026-10-21T21:30:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Christian Watson is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0306,
+    "after": 0.0367
+   }
+  ]
+ },
+ {
+  "id": "injury-4047646-2026-10-21T21:30:00Z",
+  "kind": "I",
+  "at": "2026-10-21T21:30:00Z",
+  "teams": [
+   1
+  ],
+  "text": "Knights who say Ni: A.J. Brown is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.0577,
+    "after": 0.0599
+   }
+  ]
+ },
+ {
+  "id": "injury-4567750-2026-10-21T21:30:00Z",
+  "kind": "I",
+  "at": "2026-10-21T21:30:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Emeka Egbuka is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0306,
+    "after": 0.0367
+   }
+  ]
+ },
+ {
+  "id": "injury-4701936-2026-10-21T21:30:00Z",
+  "kind": "I",
+  "at": "2026-10-21T21:30:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: Matthew Golden is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0037,
+    "after": 0.0042
+   }
+  ]
+ },
+ {
+  "id": "injury-4036378-2026-10-21T21:30:00Z",
+  "kind": "I",
+  "at": "2026-10-21T21:30:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Cardigan's Boys: Jordan Love is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0001,
+    "after": 0.0001
+   }
+  ]
+ },
+ {
+  "id": "injury-4832800-2026-10-21T21:30:00Z",
+  "kind": "I",
+  "at": "2026-10-21T21:30:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Cardigan's Boys: Denzel Boston is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0001,
+    "after": 0.0001
+   }
+  ]
+ },
+ {
+  "id": "injury-4608686-2026-10-21T21:30:00Z",
+  "kind": "I",
+  "at": "2026-10-21T21:30:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Love hurts: Kyle Monangai is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0009,
+    "after": 0.0008
+   }
+  ]
+ },
+ {
+  "id": "injury-4429205-2026-10-21T21:30:00Z",
+  "kind": "I",
+  "at": "2026-10-21T21:30:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Love hurts: Jordan Addison is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0009,
+    "after": 0.0008
+   }
+  ]
+ },
+ {
+  "id": "injury-3054850-2026-10-21T21:30:00Z",
+  "kind": "I",
+  "at": "2026-10-21T21:30:00Z",
+  "teams": [
+   1
+  ],
+  "text": "Knights who say Ni: Alvin Kamara is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.0577,
+    "after": 0.0599
+   }
+  ]
+ },
+ {
+  "id": "injury-4038815-2026-10-21T21:30:00Z",
+  "kind": "I",
+  "at": "2026-10-21T21:30:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Rico Dowdle is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0306,
+    "after": 0.0367
+   }
+  ]
+ },
+ {
+  "id": "injury-4870653-2026-10-21T21:30:00Z",
+  "kind": "I",
+  "at": "2026-10-21T21:30:00Z",
+  "teams": [
+   6
+  ],
+  "text": "The Le Chable Dolphins: KC Concepcion is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.0037,
+    "after": 0.0041
+   }
+  ]
+ },
+ {
+  "id": "trade-3747c5fd-7614-4abe-8a84-9eed22cd608d",
+  "kind": "T",
+  "at": "2026-10-21T21:30:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Added Jets D/ST; dropped Jaguars D/ST.",
+  "moves": [
+   {
+    "player": "Jets D/ST",
+    "position": "D/ST",
+    "action": "add"
+   },
+   {
+    "player": "Jaguars D/ST",
+    "position": "D/ST",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0306,
+    "after": 0.0367
+   }
+  ]
+ },
+ {
+  "id": "trade-ab17f4cd-0d5a-414d-b0b7-ce66ec0cb722",
+  "kind": "T",
+  "at": "2026-10-21T21:30:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Added Will Reichard; Dropped Cam Little.",
+  "moves": [
+   {
+    "player": "Will Reichard",
+    "position": "K",
+    "action": "add"
+   },
+   {
+    "player": "Cam Little",
+    "position": "K",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0306,
+    "after": 0.0367
+   }
+  ]
  }
 ]
