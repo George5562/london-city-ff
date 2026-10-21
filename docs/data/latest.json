@@ -15,8 +15,8 @@
    "projWins": 11.34,
    "playoff": 0.9826,
    "final": 0.7358,
-   "champ": 0.5046,
-   "topSeed": 0.6521,
+   "champ": 0.505,
+   "topSeed": 0.652,
    "lineup": [
     {
      "name": "Kenneth Walker III",
@@ -76,10 +76,10 @@
    "projPerGame": 132.7,
    "strength": 129.6,
    "projWins": 10.65,
-   "playoff": 0.9253,
-   "final": 0.5088,
-   "champ": 0.2036,
-   "topSeed": 0.259,
+   "playoff": 0.9251,
+   "final": 0.5085,
+   "champ": 0.2032,
+   "topSeed": 0.2589,
    "lineup": [
     {
      "name": "Jahmyr Gibbs",
@@ -89,7 +89,7 @@
     {
      "name": "DeVonta Smith",
      "pos": "WR",
-     "pts": 16.8
+     "pts": 16.9
     },
     {
      "name": "Tetairoa McMillan",
@@ -139,10 +139,10 @@
    "projPerGame": 130.5,
    "strength": 130.6,
    "projWins": 8.81,
-   "playoff": 0.6536,
-   "final": 0.3209,
-   "champ": 0.1422,
-   "topSeed": 0.0449,
+   "playoff": 0.6531,
+   "final": 0.3214,
+   "champ": 0.1426,
+   "topSeed": 0.0447,
    "lineup": [
     {
      "name": "Jaxon Smith-Njigba",
@@ -199,13 +199,13 @@
    "wins": 4,
    "losses": 2,
    "pf": 696.06,
-   "projPerGame": 124.5,
-   "strength": 120.8,
-   "projWins": 8.29,
-   "playoff": 0.4224,
-   "final": 0.1575,
-   "champ": 0.058,
-   "topSeed": 0.0189,
+   "projPerGame": 124.2,
+   "strength": 120.7,
+   "projWins": 8.3,
+   "playoff": 0.4253,
+   "final": 0.1572,
+   "champ": 0.0577,
+   "topSeed": 0.0193,
    "lineup": [
     {
      "name": "Puka Nacua",
@@ -262,12 +262,12 @@
    "wins": 4,
    "losses": 2,
    "pf": 732.32,
-   "projPerGame": 117.6,
-   "strength": 119.5,
+   "projPerGame": 117.7,
+   "strength": 119.6,
    "projWins": 7.98,
-   "playoff": 0.3958,
-   "final": 0.141,
-   "champ": 0.0527,
+   "playoff": 0.3947,
+   "final": 0.1409,
+   "champ": 0.0525,
    "topSeed": 0.0158,
    "lineup": [
     {
@@ -323,8 +323,8 @@
    "projPerGame": 116.3,
    "strength": 119.1,
    "projWins": 6.83,
-   "playoff": 0.2263,
-   "final": 0.084,
+   "playoff": 0.2258,
+   "final": 0.0842,
    "champ": 0.0306,
    "topSeed": 0.0037,
    "lineup": [
@@ -374,10 +374,10 @@
    "losses": 4,
    "pf": 677.96,
    "projPerGame": 115.4,
-   "strength": 114.3,
+   "strength": 114.4,
    "projWins": 5.4,
    "playoff": 0.0367,
-   "final": 0.0108,
+   "final": 0.0107,
    "champ": 0.0037,
    "topSeed": 0.0001,
    "lineup": [
@@ -389,7 +389,7 @@
     {
      "name": "Jalen Coker",
      "pos": "WR",
-     "pts": 16.2
+     "pts": 16.3
     },
     {
      "name": "Trey McBride",
@@ -399,7 +399,7 @@
     {
      "name": "Dak Prescott",
      "pos": "QB",
-     "pts": 14.4
+     "pts": 14.5
     },
     {
      "name": "Ollie Gordon II",
@@ -439,7 +439,7 @@
    "projPerGame": 65.6,
    "strength": 86.7,
    "projWins": 7.45,
-   "playoff": 0.3419,
+   "playoff": 0.3415,
    "final": 0.0369,
    "champ": 0.0037,
    "topSeed": 0.0054,
@@ -462,12 +462,12 @@
     {
      "name": "TreVeyon Henderson",
      "pos": "RB",
-     "pts": 5.6
+     "pts": 5.7
     },
     {
      "name": "Texans D/ST",
      "pos": "D/ST",
-     "pts": 3.9
+     "pts": 4.0
     },
     {
      "name": "Jonathon Brooks",
@@ -573,7 +573,7 @@
     {
      "name": "Matt Gay",
      "pos": "K",
-     "pts": 10.0
+     "pts": 10.1
     },
     {
      "name": "Hunter Henry",
@@ -622,8 +622,8 @@
   {
    "home": 11,
    "away": 1,
-   "homeWin": 0.1681
+   "homeWin": 0.1671
   }
  ],
- "generated": "2026-10-21T13:09+00:00"
+ "generated": "2026-10-21T18:13+00:00"
 }

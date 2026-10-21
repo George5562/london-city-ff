@@ -7245,5 +7245,28 @@
     "after": 0.1454
    }
   ]
+ },
+ {
+  "id": "trade-3a7c111e-90cc-49ed-a4cf-5d997359b754",
+  "kind": "T",
+  "at": "2026-10-21T18:00:00Z",
+  "teams": [
+   1
+  ],
+  "text": "Dropped Pat Freiermuth.",
+  "moves": [
+   {
+    "player": "Pat Freiermuth",
+    "position": "TE",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.058,
+    "after": 0.0577
+   }
+  ]
  }
 ]
