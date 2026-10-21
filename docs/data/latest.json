@@ -13,10 +13,10 @@
    "projPerGame": 143.4,
    "strength": 146.8,
    "projWins": 11.34,
-   "playoff": 0.9846,
-   "final": 0.7328,
-   "champ": 0.504,
-   "topSeed": 0.6531,
+   "playoff": 0.9826,
+   "final": 0.7358,
+   "champ": 0.5046,
+   "topSeed": 0.6521,
    "lineup": [
     {
      "name": "Kenneth Walker III",
@@ -75,11 +75,11 @@
    "pf": 753.06,
    "projPerGame": 132.7,
    "strength": 129.6,
-   "projWins": 10.64,
-   "playoff": 0.9251,
-   "final": 0.5099,
-   "champ": 0.2049,
-   "topSeed": 0.2582,
+   "projWins": 10.65,
+   "playoff": 0.9253,
+   "final": 0.5088,
+   "champ": 0.2036,
+   "topSeed": 0.259,
    "lineup": [
     {
      "name": "Jahmyr Gibbs",
@@ -138,11 +138,11 @@
    "pf": 784.58,
    "projPerGame": 130.5,
    "strength": 130.6,
-   "projWins": 8.79,
-   "playoff": 0.6509,
-   "final": 0.3219,
-   "champ": 0.1454,
-   "topSeed": 0.0432,
+   "projWins": 8.81,
+   "playoff": 0.6536,
+   "final": 0.3209,
+   "champ": 0.1422,
+   "topSeed": 0.0449,
    "lineup": [
     {
      "name": "Jaxon Smith-Njigba",
@@ -201,11 +201,11 @@
    "pf": 696.06,
    "projPerGame": 124.5,
    "strength": 120.8,
-   "projWins": 8.31,
-   "playoff": 0.4304,
-   "final": 0.1633,
-   "champ": 0.0573,
-   "topSeed": 0.0215,
+   "projWins": 8.29,
+   "playoff": 0.4224,
+   "final": 0.1575,
+   "champ": 0.058,
+   "topSeed": 0.0189,
    "lineup": [
     {
      "name": "Puka Nacua",
@@ -265,10 +265,10 @@
    "projPerGame": 117.6,
    "strength": 119.5,
    "projWins": 7.98,
-   "playoff": 0.3941,
-   "final": 0.1396,
-   "champ": 0.0487,
-   "topSeed": 0.0149,
+   "playoff": 0.3958,
+   "final": 0.141,
+   "champ": 0.0527,
+   "topSeed": 0.0158,
    "lineup": [
     {
      "name": "Malik Nabers",
@@ -323,10 +323,10 @@
    "projPerGame": 116.3,
    "strength": 119.1,
    "projWins": 6.83,
-   "playoff": 0.2258,
-   "final": 0.0802,
-   "champ": 0.0307,
-   "topSeed": 0.0042,
+   "playoff": 0.2263,
+   "final": 0.084,
+   "champ": 0.0306,
+   "topSeed": 0.0037,
    "lineup": [
     {
      "name": "Drake Maye",
@@ -366,59 +366,6 @@
    ]
   },
   {
-   "id": 11,
-   "name": "Barnow Bills",
-   "abbrev": "TM11",
-   "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/TeamKinny-MartinLaksman/TeamKinny-01.svg",
-   "wins": 2,
-   "losses": 4,
-   "pf": 689.26,
-   "projPerGame": 65.6,
-   "strength": 86.7,
-   "projWins": 7.45,
-   "playoff": 0.3384,
-   "final": 0.0372,
-   "champ": 0.0046,
-   "topSeed": 0.0047,
-   "lineup": [
-    {
-     "name": "Matthew Golden",
-     "pos": "WR",
-     "pts": 17.6
-    },
-    {
-     "name": "George Pickens",
-     "pos": "WR",
-     "pts": 13.1
-    },
-    {
-     "name": "Spencer Shrader",
-     "pos": "K",
-     "pts": 9.8
-    },
-    {
-     "name": "TreVeyon Henderson",
-     "pos": "RB",
-     "pts": 5.6
-    },
-    {
-     "name": "Texans D/ST",
-     "pos": "D/ST",
-     "pts": 3.9
-    },
-    {
-     "name": "Jonathon Brooks",
-     "pos": "RB",
-     "pts": 0.0
-    },
-    {
-     "name": "Dontayvion Wicks",
-     "pos": "FLEX",
-     "pts": 6.9
-    }
-   ]
-  },
-  {
    "id": 6,
    "name": "The Le Chable Dolphins",
    "abbrev": "TM6",
@@ -428,11 +375,11 @@
    "pf": 677.96,
    "projPerGame": 115.4,
    "strength": 114.3,
-   "projWins": 5.39,
-   "playoff": 0.0357,
-   "final": 0.0114,
+   "projWins": 5.4,
+   "playoff": 0.0367,
+   "final": 0.0108,
    "champ": 0.0037,
-   "topSeed": 0.0002,
+   "topSeed": 0.0001,
    "lineup": [
     {
      "name": "Jonathan Taylor",
@@ -482,6 +429,59 @@
    ]
   },
   {
+   "id": 11,
+   "name": "Barnow Bills",
+   "abbrev": "TM11",
+   "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/TeamKinny-MartinLaksman/TeamKinny-01.svg",
+   "wins": 2,
+   "losses": 4,
+   "pf": 689.26,
+   "projPerGame": 65.6,
+   "strength": 86.7,
+   "projWins": 7.45,
+   "playoff": 0.3419,
+   "final": 0.0369,
+   "champ": 0.0037,
+   "topSeed": 0.0054,
+   "lineup": [
+    {
+     "name": "Matthew Golden",
+     "pos": "WR",
+     "pts": 17.6
+    },
+    {
+     "name": "George Pickens",
+     "pos": "WR",
+     "pts": 13.1
+    },
+    {
+     "name": "Spencer Shrader",
+     "pos": "K",
+     "pts": 9.8
+    },
+    {
+     "name": "TreVeyon Henderson",
+     "pos": "RB",
+     "pts": 5.6
+    },
+    {
+     "name": "Texans D/ST",
+     "pos": "D/ST",
+     "pts": 3.9
+    },
+    {
+     "name": "Jonathon Brooks",
+     "pos": "RB",
+     "pts": 0.0
+    },
+    {
+     "name": "Dontayvion Wicks",
+     "pos": "FLEX",
+     "pts": 6.9
+    }
+   ]
+  },
+  {
    "id": 5,
    "name": "Love hurts",
    "abbrev": "TM5",
@@ -491,11 +491,11 @@
    "pf": 597.64,
    "projPerGame": 106.2,
    "strength": 103.4,
-   "projWins": 4.82,
-   "playoff": 0.0144,
-   "final": 0.0036,
-   "champ": 0.0008,
-   "topSeed": 0.0,
+   "projWins": 4.8,
+   "playoff": 0.0143,
+   "final": 0.004,
+   "champ": 0.0009,
+   "topSeed": 0.0001,
    "lineup": [
     {
      "name": "Christian McCaffrey",
@@ -545,8 +545,8 @@
    "projPerGame": 107.0,
    "strength": 101.5,
    "projWins": 3.44,
-   "playoff": 0.0008,
-   "final": 0.0001,
+   "playoff": 0.0009,
+   "final": 0.0004,
    "champ": 0.0001,
    "topSeed": 0.0,
    "lineup": [
@@ -602,28 +602,28 @@
   {
    "home": 5,
    "away": 2,
-   "homeWin": 0.2315
+   "homeWin": 0.2347
   },
   {
    "home": 6,
    "away": 13,
-   "homeWin": 0.4592
+   "homeWin": 0.4558
   },
   {
    "home": 12,
    "away": 4,
-   "homeWin": 0.358
+   "homeWin": 0.3505
   },
   {
    "home": 3,
    "away": 9,
-   "homeWin": 0.3252
+   "homeWin": 0.3275
   },
   {
    "home": 11,
    "away": 1,
-   "homeWin": 0.1623
+   "homeWin": 0.1681
   }
  ],
- "generated": "2026-10-20T23:20+00:00"
+ "generated": "2026-10-21T01:57+00:00"
 }
