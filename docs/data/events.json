@@ -7545,5 +7545,73 @@
     "after": 0.0367
    }
   ]
+ },
+ {
+  "id": "injury-4432665-2026-10-22T00:30:00Z",
+  "kind": "I",
+  "at": "2026-10-22T00:30:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Sabre Raiders: Brock Bowers is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.1441,
+    "after": 0.1472
+   }
+  ]
+ },
+ {
+  "id": "injury-15847-2026-10-22T00:30:00Z",
+  "kind": "I",
+  "at": "2026-10-22T00:30:00Z",
+  "teams": [
+   9
+  ],
+  "text": "GiantPunt: Travis Kelce is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.502,
+    "after": 0.496
+   }
+  ]
+ },
+ {
+  "id": "injury-4372016-2026-10-22T00:30:00Z",
+  "kind": "I",
+  "at": "2026-10-22T00:30:00Z",
+  "teams": [
+   6
+  ],
+  "text": "The Le Chable Dolphins: Jaylen Waddle is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.0041,
+    "after": 0.0045
+   }
+  ]
+ },
+ {
+  "id": "injury-4241474-2026-10-22T00:30:00Z",
+  "kind": "I",
+  "at": "2026-10-22T00:30:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Cardigan's Boys: Brian Robinson Jr. is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0001,
+    "after": 0.0
+   }
+  ]
  }
 ]

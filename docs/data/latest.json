@@ -12,11 +12,11 @@
    "pf": 908.1,
    "projPerGame": 141.6,
    "strength": 145.8,
-   "projWins": 11.38,
-   "playoff": 0.9831,
-   "final": 0.7306,
-   "champ": 0.502,
-   "topSeed": 0.6518,
+   "projWins": 11.37,
+   "playoff": 0.9835,
+   "final": 0.7308,
+   "champ": 0.496,
+   "topSeed": 0.6501,
    "lineup": [
     {
      "name": "Kenneth Walker III",
@@ -75,11 +75,11 @@
    "pf": 753.06,
    "projPerGame": 129.7,
    "strength": 127.9,
-   "projWins": 10.69,
-   "playoff": 0.9296,
-   "final": 0.4977,
-   "champ": 0.1934,
-   "topSeed": 0.26,
+   "projWins": 10.68,
+   "playoff": 0.929,
+   "final": 0.4987,
+   "champ": 0.1981,
+   "topSeed": 0.2609,
    "lineup": [
     {
      "name": "Jahmyr Gibbs",
@@ -138,11 +138,11 @@
    "pf": 784.58,
    "projPerGame": 128.8,
    "strength": 129.6,
-   "projWins": 8.85,
-   "playoff": 0.662,
-   "final": 0.3247,
-   "champ": 0.1441,
-   "topSeed": 0.0457,
+   "projWins": 8.83,
+   "playoff": 0.6618,
+   "final": 0.3226,
+   "champ": 0.1472,
+   "topSeed": 0.0435,
    "lineup": [
     {
      "name": "Jaxon Smith-Njigba",
@@ -201,11 +201,11 @@
    "pf": 696.06,
    "projPerGame": 122.6,
    "strength": 119.8,
-   "projWins": 8.33,
-   "playoff": 0.4377,
-   "final": 0.1633,
-   "champ": 0.0599,
-   "topSeed": 0.0186,
+   "projWins": 8.34,
+   "playoff": 0.4384,
+   "final": 0.163,
+   "champ": 0.0583,
+   "topSeed": 0.0197,
    "lineup": [
     {
      "name": "Puka Nacua",
@@ -265,10 +265,10 @@
    "projPerGame": 116.0,
    "strength": 118.6,
    "projWins": 8.07,
-   "playoff": 0.4163,
-   "final": 0.1499,
-   "champ": 0.0547,
-   "topSeed": 0.0165,
+   "playoff": 0.4176,
+   "final": 0.1502,
+   "champ": 0.053,
+   "topSeed": 0.0177,
    "lineup": [
     {
      "name": "Malik Nabers",
@@ -322,10 +322,10 @@
    "pf": 737.64,
    "projPerGame": 129.6,
    "strength": 126.7,
-   "projWins": 6.58,
-   "playoff": 0.1741,
-   "final": 0.0795,
-   "champ": 0.0367,
+   "projWins": 6.59,
+   "playoff": 0.1774,
+   "final": 0.077,
+   "champ": 0.0368,
    "topSeed": 0.0022,
    "lineup": [
     {
@@ -385,11 +385,11 @@
    "pf": 689.26,
    "projPerGame": 64.7,
    "strength": 86.2,
-   "projWins": 7.46,
-   "playoff": 0.3436,
-   "final": 0.0386,
-   "champ": 0.0042,
-   "topSeed": 0.005,
+   "projWins": 7.45,
+   "playoff": 0.339,
+   "final": 0.0401,
+   "champ": 0.0049,
+   "topSeed": 0.0059,
    "lineup": [
     {
      "name": "Matthew Golden",
@@ -438,10 +438,10 @@
    "pf": 677.96,
    "projPerGame": 113.8,
    "strength": 113.5,
-   "projWins": 5.45,
-   "playoff": 0.0382,
-   "final": 0.0116,
-   "champ": 0.0041,
+   "projWins": 5.46,
+   "playoff": 0.0377,
+   "final": 0.0134,
+   "champ": 0.0045,
    "topSeed": 0.0001,
    "lineup": [
     {
@@ -501,11 +501,11 @@
    "pf": 597.64,
    "projPerGame": 103.9,
    "strength": 102.0,
-   "projWins": 4.82,
-   "playoff": 0.0146,
-   "final": 0.0038,
-   "champ": 0.0008,
-   "topSeed": 0.0001,
+   "projWins": 4.85,
+   "playoff": 0.0152,
+   "final": 0.0041,
+   "champ": 0.0011,
+   "topSeed": 0.0,
    "lineup": [
     {
      "name": "Christian McCaffrey",
@@ -554,10 +554,10 @@
    "pf": 564.54,
    "projPerGame": 105.8,
    "strength": 100.8,
-   "projWins": 3.37,
-   "playoff": 0.0008,
-   "final": 0.0003,
-   "champ": 0.0001,
+   "projWins": 3.36,
+   "playoff": 0.0006,
+   "final": 0.0001,
+   "champ": 0.0,
    "topSeed": 0.0,
    "lineup": [
     {
@@ -612,28 +612,28 @@
   {
    "home": 5,
    "away": 2,
-   "homeWin": 0.2331
+   "homeWin": 0.2296
   },
   {
    "home": 6,
    "away": 13,
-   "homeWin": 0.4567
+   "homeWin": 0.4572
   },
   {
    "home": 12,
    "away": 4,
-   "homeWin": 0.2697
+   "homeWin": 0.2747
   },
   {
    "home": 3,
    "away": 9,
-   "homeWin": 0.3212
+   "homeWin": 0.3216
   },
   {
    "home": 11,
    "away": 1,
-   "homeWin": 0.1702
+   "homeWin": 0.1706
   }
  ],
- "generated": "2026-10-21T21:56+00:00"
+ "generated": "2026-10-22T00:35+00:00"
 }
