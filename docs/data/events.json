@@ -7641,5 +7641,22 @@
     "after": 0.2099
    }
   ]
+ },
+ {
+  "id": "injury-4035538-2026-10-22T19:00:00Z",
+  "kind": "I",
+  "at": "2026-10-22T19:00:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Love hurts: David Montgomery is now listed as doubtful.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.001,
+    "after": 0.0011
+   }
+  ]
  }
 ]
