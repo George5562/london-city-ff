@@ -7658,5 +7658,101 @@
     "after": 0.0011
    }
   ]
+ },
+ {
+  "id": "injury-4426515-2026-10-22T22:30:00Z",
+  "kind": "I",
+  "at": "2026-10-22T22:30:00Z",
+  "teams": [
+   1
+  ],
+  "text": "Knights who say Ni: Puka Nacua is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.0602,
+    "after": 0.0582
+   }
+  ]
+ },
+ {
+  "id": "injury-4262921-2026-10-22T22:30:00Z",
+  "kind": "I",
+  "at": "2026-10-22T22:30:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Love hurts: Justin Jefferson is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0011,
+    "after": 0.001
+   }
+  ]
+ },
+ {
+  "id": "injury-4426354-2026-10-22T22:30:00Z",
+  "kind": "I",
+  "at": "2026-10-22T22:30:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: George Pickens is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.005,
+    "after": 0.0046
+   }
+  ]
+ },
+ {
+  "id": "injury-4036378-2026-10-22T22:30:00Z",
+  "kind": "I",
+  "at": "2026-10-22T22:30:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Cardigan's Boys: Jordan Love is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0,
+    "after": 0.0
+   }
+  ]
+ },
+ {
+  "id": "trade-d3911933-f313-4b15-ab9e-ea46bebd4f3e",
+  "kind": "T",
+  "at": "2026-10-22T22:30:00Z",
+  "teams": [
+   13
+  ],
+  "text": "Added K Chris Boswell; dropped QB Matthew Stafford.",
+  "moves": [
+   {
+    "player": "Chris Boswell",
+    "position": "K",
+    "action": "add"
+   },
+   {
+    "player": "Matthew Stafford",
+    "position": "QB",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 13,
+    "before": 0.0549,
+    "after": 0.0793
+   }
+  ]
  }
 ]
