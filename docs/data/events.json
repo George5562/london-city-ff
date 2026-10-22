@@ -7613,5 +7613,33 @@
     "after": 0.0
    }
   ]
+ },
+ {
+  "id": "trade-5adb57ec-d48a-477a-b857-4f90a204b95c",
+  "kind": "T",
+  "at": "2026-10-22T10:30:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Added Jared Goff; dropped Trevor Lawrence.",
+  "moves": [
+   {
+    "player": "Jared Goff",
+    "position": "QB",
+    "action": "add"
+   },
+   {
+    "player": "Trevor Lawrence",
+    "position": "QB",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.1981,
+    "after": 0.2099
+   }
+  ]
  }
 ]
