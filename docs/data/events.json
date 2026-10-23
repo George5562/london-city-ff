@@ -8077,5 +8077,269 @@
     "after": 0.0025
    }
   ]
+ },
+ {
+  "id": "injury-4426354-2026-10-23T23:00:00Z",
+  "kind": "I",
+  "at": "2026-10-23T23:00:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: George Pickens is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.004,
+    "after": 0.0071
+   }
+  ]
+ },
+ {
+  "id": "injury-16737-2026-10-23T23:00:00Z",
+  "kind": "I",
+  "at": "2026-10-23T23:00:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Mike Evans is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0355,
+    "after": 0.0404
+   }
+  ]
+ },
+ {
+  "id": "injury-4372016-2026-10-23T23:00:00Z",
+  "kind": "I",
+  "at": "2026-10-23T23:00:00Z",
+  "teams": [
+   6
+  ],
+  "text": "The Le Chable Dolphins: Jaylen Waddle is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.0025,
+    "after": 0.0034
+   }
+  ]
+ },
+ {
+  "id": "injury-4035538-2026-10-23T23:00:00Z",
+  "kind": "I",
+  "at": "2026-10-23T23:00:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Love hurts: David Montgomery is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0005,
+    "after": 0.0009
+   }
+  ]
+ },
+ {
+  "id": "trade-0a5079a1-c46f-4eb5-b45a-ec09a0c622f2",
+  "kind": "T",
+  "at": "2026-10-23T23:00:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Added WR Jaylin Noel; dropped WR Wan\u2019Dale Robinson.",
+  "moves": [
+   {
+    "player": "Jaylin Noel",
+    "position": "WR",
+    "action": "add"
+   },
+   {
+    "player": "Wan'Dale Robinson",
+    "position": "WR",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.004,
+    "after": 0.0071
+   }
+  ]
+ },
+ {
+  "id": "trade-c5e6f224-fdde-40aa-b127-bd44a9f31a8c",
+  "kind": "T",
+  "at": "2026-10-23T23:00:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Added Bam Knight; dropped Rachaad White.",
+  "moves": [
+   {
+    "player": "Bam Knight",
+    "position": "RB",
+    "action": "add"
+   },
+   {
+    "player": "Rachaad White",
+    "position": "RB",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.004,
+    "after": 0.0071
+   }
+  ]
+ },
+ {
+  "id": "trade-640d9f2a-faad-47a0-bae3-5a7ce985369e",
+  "kind": "T",
+  "at": "2026-10-23T23:00:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Added WR Wan'Dale Robinson; dropped K Jake Bates.",
+  "moves": [
+   {
+    "player": "Wan'Dale Robinson",
+    "position": "WR",
+    "action": "add"
+   },
+   {
+    "player": "Jake Bates",
+    "position": "K",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.004,
+    "after": 0.0071
+   }
+  ]
+ },
+ {
+  "id": "trade-4d9cc310-abf5-4901-a1d3-0f2b81507bea",
+  "kind": "T",
+  "at": "2026-10-23T23:00:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Added Pat Freiermuth (TE); dropped Ladd McConkey (WR).",
+  "moves": [
+   {
+    "player": "Pat Freiermuth",
+    "position": "TE",
+    "action": "add"
+   },
+   {
+    "player": "Ladd McConkey",
+    "position": "WR",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.004,
+    "after": 0.0071
+   }
+  ]
+ },
+ {
+  "id": "trade-4853640e-886e-4b8f-87e9-b6d130446e7f",
+  "kind": "T",
+  "at": "2026-10-23T23:00:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Added C.J. Stroud; Dropped Matthew Stafford.",
+  "moves": [
+   {
+    "player": "C.J. Stroud",
+    "position": "QB",
+    "action": "add"
+   },
+   {
+    "player": "Matthew Stafford",
+    "position": "QB",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.004,
+    "after": 0.0071
+   }
+  ]
+ },
+ {
+  "id": "trade-9a2fd699-b5f2-4cbf-bae5-2503560c7c29",
+  "kind": "T",
+  "at": "2026-10-23T23:00:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Added Kendre Miller (RB); dropped Dontayvion Wicks (WR).",
+  "moves": [
+   {
+    "player": "Kendre Miller",
+    "position": "RB",
+    "action": "add"
+   },
+   {
+    "player": "Dontayvion Wicks",
+    "position": "WR",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.004,
+    "after": 0.0071
+   }
+  ]
+ },
+ {
+  "id": "trade-3fea2ceb-7311-4c18-abbe-d4a39f98d5e6",
+  "kind": "T",
+  "at": "2026-10-23T23:00:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Added Matthew Stafford; dropped Brenton Strange.",
+  "moves": [
+   {
+    "player": "Matthew Stafford",
+    "position": "QB",
+    "action": "add"
+   },
+   {
+    "player": "Brenton Strange",
+    "position": "TE",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.004,
+    "after": 0.0071
+   }
+  ]
  }
 ]
