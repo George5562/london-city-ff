@@ -7873,5 +7873,209 @@
     "after": 0.0579
    }
   ]
+ },
+ {
+  "id": "injury-4596448-2026-10-23T20:00:00Z",
+  "kind": "I",
+  "at": "2026-10-23T20:00:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Sabre Raiders: Bucky Irving is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.1655,
+    "after": 0.1636
+   }
+  ]
+ },
+ {
+  "id": "injury-4248528-2026-10-23T20:00:00Z",
+  "kind": "I",
+  "at": "2026-10-23T20:00:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Christian Watson is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0357,
+    "after": 0.0355
+   }
+  ]
+ },
+ {
+  "id": "injury-4870808-2026-10-23T20:00:00Z",
+  "kind": "I",
+  "at": "2026-10-23T20:00:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Jeremiyah Love is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0357,
+    "after": 0.0355
+   }
+  ]
+ },
+ {
+  "id": "injury-4428331-2026-10-23T20:00:00Z",
+  "kind": "I",
+  "at": "2026-10-23T20:00:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Love hurts: Rashee Rice is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0005,
+    "after": 0.0005
+   }
+  ]
+ },
+ {
+  "id": "injury-4701936-2026-10-23T20:00:00Z",
+  "kind": "I",
+  "at": "2026-10-23T20:00:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: Matthew Golden is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.004,
+    "after": 0.004
+   }
+  ]
+ },
+ {
+  "id": "injury-4685702-2026-10-23T20:00:00Z",
+  "kind": "I",
+  "at": "2026-10-23T20:00:00Z",
+  "teams": [
+   1
+  ],
+  "text": "Knights who say Ni: Quinshon Judkins is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.0579,
+    "after": 0.0574
+   }
+  ]
+ },
+ {
+  "id": "injury-15847-2026-10-23T20:00:00Z",
+  "kind": "I",
+  "at": "2026-10-23T20:00:00Z",
+  "teams": [
+   9
+  ],
+  "text": "GiantPunt: Travis Kelce is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.467,
+    "after": 0.466
+   }
+  ]
+ },
+ {
+  "id": "injury-4832800-2026-10-23T20:00:00Z",
+  "kind": "I",
+  "at": "2026-10-23T20:00:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Cardigan's Boys: Denzel Boston is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0001,
+    "after": 0.0001
+   }
+  ]
+ },
+ {
+  "id": "injury-4036133-2026-10-23T20:00:00Z",
+  "kind": "I",
+  "at": "2026-10-23T20:00:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Cardigan's Boys: T.J. Hockenson is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0001,
+    "after": 0.0001
+   }
+  ]
+ },
+ {
+  "id": "injury-4870653-2026-10-23T20:00:00Z",
+  "kind": "I",
+  "at": "2026-10-23T20:00:00Z",
+  "teams": [
+   6
+  ],
+  "text": "The Le Chable Dolphins: KC Concepcion is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.0026,
+    "after": 0.0025
+   }
+  ]
+ },
+ {
+  "id": "injury-4241474-2026-10-23T20:00:00Z",
+  "kind": "I",
+  "at": "2026-10-23T20:00:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Cardigan's Boys: Brian Robinson Jr. is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0001,
+    "after": 0.0001
+   }
+  ]
+ },
+ {
+  "id": "injury-4869645-2026-10-23T20:00:00Z",
+  "kind": "I",
+  "at": "2026-10-23T20:00:00Z",
+  "teams": [
+   6
+  ],
+  "text": "The Le Chable Dolphins: Caleb Douglas is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.0026,
+    "after": 0.0025
+   }
+  ]
  }
 ]
