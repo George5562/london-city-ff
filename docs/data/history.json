@@ -48107,6 +48107,264 @@
      }
     }
    }
+  },
+  {
+   "date": "2026-10-23",
+   "label": "Week 7 \u00b7 06:00 UTC",
+   "week": 7,
+   "backfilled": false,
+   "teams": {
+    "9": {
+     "champ": 0.4654,
+     "playoff": 0.9799,
+     "projWins": 11.24
+    },
+    "3": {
+     "champ": 0.1847,
+     "playoff": 0.8688,
+     "projWins": 10.29
+    },
+    "2": {
+     "champ": 0.1643,
+     "playoff": 0.723,
+     "projWins": 9.15
+    },
+    "13": {
+     "champ": 0.0801,
+     "playoff": 0.4807,
+     "projWins": 8.34
+    },
+    "1": {
+     "champ": 0.0576,
+     "playoff": 0.4528,
+     "projWins": 8.47
+    },
+    "4": {
+     "champ": 0.0409,
+     "playoff": 0.1997,
+     "projWins": 6.72
+    },
+    "11": {
+     "champ": 0.0039,
+     "playoff": 0.2619,
+     "projWins": 7.3
+    },
+    "6": {
+     "champ": 0.0024,
+     "playoff": 0.0235,
+     "projWins": 5.14
+    },
+    "5": {
+     "champ": 0.0006,
+     "playoff": 0.0088,
+     "projWins": 4.72
+    },
+    "12": {
+     "champ": 0.0001,
+     "playoff": 0.0009,
+     "projWins": 3.63
+    }
+   },
+   "at": "2026-10-23T06:00:00Z",
+   "changes": {
+    "9": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "model",
+     "delta": 0.0083,
+     "text": "D\u2019Andre Swift scored 19 fantasy points, up from 9.1, updating the matchup outlook and playoff race. Cole Kmet is questionable, but the impact on his teammates\u2019 fantasy value is unclear.",
+     "facts": [
+      "actual: D'Andre Swift 9.1 -> 19.0",
+      "injury: Cole Kmet ACTIVE -> QUESTIONABLE"
+     ],
+     "showTooltip": true
+    },
+    "3": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "model",
+     "delta": -0.0206,
+     "text": "Bears D/ST fell from 7.0 to 3.0 fantasy points after the scoring update, modestly changing the matchup outlook; its effect on the playoff race is unclear.",
+     "facts": [
+      "actual: Bears D/ST 7.0 -> 3.0"
+     ],
+     "showTooltip": true
+    },
+    "2": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "model",
+     "delta": 0.0144,
+     "text": "Luther Burden III\u2019s 23.7 fantasy points, alongside Caleb Williams\u2019 22.12 and Rome Odunze\u2019s 10.9, strengthened the matchup outlook for the playoff race. Cole Kmet is questionable; his impact on the lineup is unclear.",
+     "facts": [
+      "actual: Luther Burden III 11.1 -> 23.7",
+      "actual: Caleb Williams 4.6 -> 22.12",
+      "actual: Rome Odunze 1.6 -> 10.9",
+      "injury: Cole Kmet ACTIVE -> QUESTIONABLE"
+     ],
+     "showTooltip": true
+    },
+    "4": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.0073,
+     "text": "Drake Maye now has 27.44 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "actual: Drake Maye 10.82 -> 27.44",
+      "actual: TreVeyon Henderson 4.0 -> 4.3"
+     ],
+     "showTooltip": true
+    }
+   },
+   "explanations": {
+    "9": {
+     "champ": {
+      "cause": "score_update",
+      "text": "D\u2019Andre Swift scored 19 fantasy points, up from 9.1, updating the matchup outlook and playoff race. Cole Kmet is questionable, but the impact on his teammates\u2019 fantasy value is unclear.",
+      "confidence": "recorded explanation",
+      "delta": 0.0083,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "D\u2019Andre Swift scored 19 fantasy points, up from 9.1, updating the matchup outlook and playoff race. Cole Kmet is questionable, but the impact on his teammates\u2019 fantasy value is unclear.",
+      "confidence": "recorded explanation",
+      "delta": 0.0064,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "D\u2019Andre Swift scored 19 fantasy points, up from 9.1, updating the matchup outlook and playoff race. Cole Kmet is questionable, but the impact on his teammates\u2019 fantasy value is unclear.",
+      "confidence": "recorded explanation",
+      "delta": 0.17,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "3": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Bears D/ST fell from 7.0 to 3.0 fantasy points after the scoring update, modestly changing the matchup outlook; its effect on the playoff race is unclear.",
+      "confidence": "recorded explanation",
+      "delta": -0.0206,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Bears D/ST fell from 7.0 to 3.0 fantasy points after the scoring update, modestly changing the matchup outlook; its effect on the playoff race is unclear.",
+      "confidence": "recorded explanation",
+      "delta": -0.0166,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Bears D/ST fell from 7.0 to 3.0 fantasy points after the scoring update, modestly changing the matchup outlook; its effect on the playoff race is unclear.",
+      "confidence": "recorded explanation",
+      "delta": -0.16,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "2": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Luther Burden III\u2019s 23.7 fantasy points, alongside Caleb Williams\u2019 22.12 and Rome Odunze\u2019s 10.9, strengthened the matchup outlook for the playoff race. Cole Kmet is questionable; his impact on the lineup is unclear.",
+      "confidence": "recorded explanation",
+      "delta": 0.0144,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Luther Burden III\u2019s 23.7 fantasy points, alongside Caleb Williams\u2019 22.12 and Rome Odunze\u2019s 10.9, strengthened the matchup outlook for the playoff race. Cole Kmet is questionable; his impact on the lineup is unclear.",
+      "confidence": "recorded explanation",
+      "delta": 0.0234,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "13": {
+     "champ": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.0062,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "1": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.0146,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "4": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Drake Maye now has 27.44 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.0073,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Drake Maye now has 27.44 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.0265,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "11": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.0141,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "6": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.0101,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.22,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "12": {
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.28,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    }
+   }
   }
  ]
 }
