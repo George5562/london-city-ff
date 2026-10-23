@@ -7754,5 +7754,73 @@
     "after": 0.0793
    }
   ]
+ },
+ {
+  "id": "injury-4432665-2026-10-23T01:00:00Z",
+  "kind": "I",
+  "at": "2026-10-23T01:00:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Sabre Raiders: Brock Bowers is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.1412,
+    "after": 0.1499
+   }
+  ]
+ },
+ {
+  "id": "injury-4241478-2026-10-23T01:00:00Z",
+  "kind": "I",
+  "at": "2026-10-23T01:00:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Goats: DeVonta Smith is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.2027,
+    "after": 0.2053
+   }
+  ]
+ },
+ {
+  "id": "injury-3121023-2026-10-23T01:00:00Z",
+  "kind": "I",
+  "at": "2026-10-23T01:00:00Z",
+  "teams": [
+   6
+  ],
+  "text": "The Le Chable Dolphins: Dallas Goedert is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.0037,
+    "after": 0.0037
+   }
+  ]
+ },
+ {
+  "id": "injury-4428850-2026-10-23T01:00:00Z",
+  "kind": "I",
+  "at": "2026-10-23T01:00:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: Dontayvion Wicks is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0046,
+    "after": 0.0042
+   }
+  ]
  }
 ]
