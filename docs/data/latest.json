@@ -10,13 +10,13 @@
    "wins": 5,
    "losses": 1,
    "pf": 908.1,
-   "projPerGame": 142.3,
-   "strength": 146.2,
-   "projWins": 11.24,
-   "playoff": 0.9799,
-   "final": 0.7063,
-   "champ": 0.4654,
-   "topSeed": 0.6502,
+   "projPerGame": 142.2,
+   "strength": 146.1,
+   "projWins": 11.25,
+   "playoff": 0.9803,
+   "final": 0.7074,
+   "champ": 0.467,
+   "topSeed": 0.6513,
    "lineup": [
     {
      "name": "Kenneth Walker III",
@@ -75,11 +75,11 @@
    "pf": 753.06,
    "projPerGame": 133.9,
    "strength": 130.3,
-   "projWins": 10.29,
-   "playoff": 0.8688,
-   "final": 0.4469,
-   "champ": 0.1847,
-   "topSeed": 0.2155,
+   "projWins": 10.3,
+   "playoff": 0.8718,
+   "final": 0.4491,
+   "champ": 0.1856,
+   "topSeed": 0.2159,
    "lineup": [
     {
      "name": "Jahmyr Gibbs",
@@ -136,12 +136,12 @@
    "wins": 4,
    "losses": 2,
    "pf": 784.58,
-   "projPerGame": 131.8,
+   "projPerGame": 131.9,
    "strength": 131.4,
-   "projWins": 9.15,
-   "playoff": 0.723,
-   "final": 0.3585,
-   "champ": 0.1643,
+   "projWins": 9.16,
+   "playoff": 0.7272,
+   "final": 0.3607,
+   "champ": 0.1655,
    "topSeed": 0.0704,
    "lineup": [
     {
@@ -201,11 +201,11 @@
    "pf": 732.32,
    "projPerGame": 126.6,
    "strength": 124.6,
-   "projWins": 8.34,
-   "playoff": 0.4807,
-   "final": 0.1998,
-   "champ": 0.0801,
-   "topSeed": 0.0294,
+   "projWins": 8.35,
+   "playoff": 0.484,
+   "final": 0.2021,
+   "champ": 0.0811,
+   "topSeed": 0.0291,
    "lineup": [
     {
      "name": "Malik Nabers",
@@ -225,7 +225,7 @@
     {
      "name": "Bijan Robinson",
      "pos": "RB",
-     "pts": 15.1
+     "pts": 15.2
     },
     {
      "name": "Zay Flowers",
@@ -264,11 +264,11 @@
    "pf": 696.06,
    "projPerGame": 121.6,
    "strength": 119.2,
-   "projWins": 8.47,
-   "playoff": 0.4528,
-   "final": 0.1642,
-   "champ": 0.0576,
-   "topSeed": 0.0273,
+   "projWins": 8.46,
+   "playoff": 0.451,
+   "final": 0.1638,
+   "champ": 0.0579,
+   "topSeed": 0.0265,
    "lineup": [
     {
      "name": "Puka Nacua",
@@ -283,7 +283,7 @@
     {
      "name": "Javonte Williams",
      "pos": "RB",
-     "pts": 14.6
+     "pts": 14.7
     },
     {
      "name": "Chase Brown",
@@ -325,13 +325,13 @@
    "wins": 2,
    "losses": 4,
    "pf": 737.64,
-   "projPerGame": 131.8,
-   "strength": 128.0,
-   "projWins": 6.72,
-   "playoff": 0.1997,
-   "final": 0.0873,
-   "champ": 0.0409,
-   "topSeed": 0.0034,
+   "projPerGame": 129.6,
+   "strength": 126.7,
+   "projWins": 6.64,
+   "playoff": 0.1867,
+   "final": 0.0796,
+   "champ": 0.0357,
+   "topSeed": 0.0032,
    "lineup": [
     {
      "name": "Drake Maye",
@@ -349,14 +349,14 @@
      "pts": 15.4
     },
     {
-     "name": "Emeka Egbuka",
-     "pos": "WR",
-     "pts": 14.8
-    },
-    {
      "name": "Kyren Williams",
      "pos": "RB",
      "pts": 14.6
+    },
+    {
+     "name": "Mike Evans",
+     "pos": "WR",
+     "pts": 12.9
     },
     {
      "name": "Will Reichard",
@@ -374,7 +374,7 @@
      "pts": 5.1
     },
     {
-     "name": "Mike Evans",
+     "name": "Christian Watson",
      "pos": "FLEX",
      "pts": 12.9
     }
@@ -388,13 +388,13 @@
    "wins": 2,
    "losses": 4,
    "pf": 689.26,
-   "projPerGame": 64.3,
+   "projPerGame": 64.4,
    "strength": 86.0,
-   "projWins": 7.3,
-   "playoff": 0.2619,
-   "final": 0.0276,
-   "champ": 0.0039,
-   "topSeed": 0.0035,
+   "projWins": 7.31,
+   "playoff": 0.2647,
+   "final": 0.0278,
+   "champ": 0.004,
+   "topSeed": 0.0034,
    "lineup": [
     {
      "name": "Matthew Golden",
@@ -443,10 +443,10 @@
    "pf": 677.96,
    "projPerGame": 111.8,
    "strength": 112.3,
-   "projWins": 5.14,
-   "playoff": 0.0235,
-   "final": 0.007,
-   "champ": 0.0024,
+   "projWins": 5.15,
+   "playoff": 0.0238,
+   "final": 0.0073,
+   "champ": 0.0026,
    "topSeed": 0.0001,
    "lineup": [
     {
@@ -462,7 +462,7 @@
     {
      "name": "Trey McBride",
      "pos": "TE",
-     "pts": 14.5
+     "pts": 14.6
     },
     {
      "name": "Dak Prescott",
@@ -506,10 +506,10 @@
    "pf": 597.64,
    "projPerGame": 102.6,
    "strength": 101.3,
-   "projWins": 4.72,
-   "playoff": 0.0088,
-   "final": 0.0019,
-   "champ": 0.0006,
+   "projWins": 4.75,
+   "playoff": 0.0095,
+   "final": 0.002,
+   "champ": 0.0005,
    "topSeed": 0.0,
    "lineup": [
     {
@@ -635,7 +635,7 @@
   {
    "home": 12,
    "away": 4,
-   "homeWin": 0.2912,
+   "homeWin": 0.2923,
    "homePts": 36.6,
    "awayPts": 27.4,
    "homeProj": 123.8,
@@ -660,5 +660,5 @@
    "awayProj": 125.0
   }
  ],
- "generated": "2026-10-23T11:59+00:00"
+ "generated": "2026-10-23T16:57+00:00"
 }
