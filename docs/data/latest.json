@@ -12,11 +12,11 @@
    "pf": 908.1,
    "projPerGame": 141.2,
    "strength": 145.5,
-   "projWins": 11.62,
-   "playoff": 0.9897,
-   "final": 0.6984,
-   "champ": 0.4624,
-   "topSeed": 0.7159,
+   "projWins": 11.63,
+   "playoff": 0.9898,
+   "final": 0.6918,
+   "champ": 0.4632,
+   "topSeed": 0.7167,
    "lineup": [
     {
      "name": "Kenneth Walker III",
@@ -66,69 +66,6 @@
    ]
   },
   {
-   "id": 3,
-   "name": "Goats",
-   "abbrev": "GOAT",
-   "logo": "https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/24f1a320-ace5-11f1-bf19-93d59dd8c7ce",
-   "wins": 5,
-   "losses": 1,
-   "pf": 753.06,
-   "projPerGame": 131.8,
-   "strength": 129.1,
-   "projWins": 10.32,
-   "playoff": 0.8869,
-   "final": 0.4303,
-   "champ": 0.1767,
-   "topSeed": 0.1706,
-   "lineup": [
-    {
-     "name": "Jahmyr Gibbs",
-     "pos": "RB",
-     "pts": 23.7
-    },
-    {
-     "name": "Jared Goff",
-     "pos": "QB",
-     "pts": 16.9
-    },
-    {
-     "name": "Tetairoa McMillan",
-     "pos": "WR",
-     "pts": 15.8
-    },
-    {
-     "name": "DeVonta Smith",
-     "pos": "WR",
-     "pts": 15.3
-    },
-    {
-     "name": "Ashton Jeanty",
-     "pos": "RB",
-     "pts": 15.3
-    },
-    {
-     "name": "Harrison Butker",
-     "pos": "K",
-     "pts": 11.3
-    },
-    {
-     "name": "Steelers D/ST",
-     "pos": "D/ST",
-     "pts": 8.2
-    },
-    {
-     "name": "Harold Fannin Jr.",
-     "pos": "TE",
-     "pts": 5.9
-    },
-    {
-     "name": "DK Metcalf",
-     "pos": "FLEX",
-     "pts": 15.0
-    }
-   ]
-  },
-  {
    "id": 2,
    "name": "Sabre Raiders",
    "abbrev": "TM2",
@@ -138,11 +75,11 @@
    "pf": 784.58,
    "projPerGame": 130.9,
    "strength": 130.8,
-   "projWins": 9.38,
-   "playoff": 0.8036,
-   "final": 0.392,
-   "champ": 0.1744,
-   "topSeed": 0.0691,
+   "projWins": 9.39,
+   "playoff": 0.8037,
+   "final": 0.3992,
+   "champ": 0.1783,
+   "topSeed": 0.0662,
    "lineup": [
     {
      "name": "Jaxon Smith-Njigba",
@@ -192,6 +129,69 @@
    ]
   },
   {
+   "id": 3,
+   "name": "Goats",
+   "abbrev": "GOAT",
+   "logo": "https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/24f1a320-ace5-11f1-bf19-93d59dd8c7ce",
+   "wins": 5,
+   "losses": 1,
+   "pf": 753.06,
+   "projPerGame": 131.8,
+   "strength": 129.1,
+   "projWins": 10.32,
+   "playoff": 0.8891,
+   "final": 0.4343,
+   "champ": 0.1783,
+   "topSeed": 0.1746,
+   "lineup": [
+    {
+     "name": "Jahmyr Gibbs",
+     "pos": "RB",
+     "pts": 23.7
+    },
+    {
+     "name": "Jared Goff",
+     "pos": "QB",
+     "pts": 16.9
+    },
+    {
+     "name": "Tetairoa McMillan",
+     "pos": "WR",
+     "pts": 15.8
+    },
+    {
+     "name": "DeVonta Smith",
+     "pos": "WR",
+     "pts": 15.3
+    },
+    {
+     "name": "Ashton Jeanty",
+     "pos": "RB",
+     "pts": 15.3
+    },
+    {
+     "name": "Harrison Butker",
+     "pos": "K",
+     "pts": 11.3
+    },
+    {
+     "name": "Steelers D/ST",
+     "pos": "D/ST",
+     "pts": 8.2
+    },
+    {
+     "name": "Harold Fannin Jr.",
+     "pos": "TE",
+     "pts": 5.9
+    },
+    {
+     "name": "DK Metcalf",
+     "pos": "FLEX",
+     "pts": 15.0
+    }
+   ]
+  },
+  {
    "id": 13,
    "name": "Salisbury Screamers",
    "abbrev": "SS",
@@ -202,10 +202,10 @@
    "projPerGame": 125.8,
    "strength": 124.2,
    "projWins": 8.6,
-   "playoff": 0.5853,
-   "final": 0.2302,
-   "champ": 0.0912,
-   "topSeed": 0.0296,
+   "playoff": 0.5906,
+   "final": 0.2329,
+   "champ": 0.0921,
+   "topSeed": 0.0274,
    "lineup": [
     {
      "name": "Malik Nabers",
@@ -264,11 +264,11 @@
    "pf": 696.06,
    "projPerGame": 119.3,
    "strength": 117.9,
-   "projWins": 7.91,
-   "playoff": 0.3412,
-   "final": 0.1193,
-   "champ": 0.0432,
-   "topSeed": 0.0112,
+   "projWins": 7.92,
+   "playoff": 0.3456,
+   "final": 0.1162,
+   "champ": 0.0411,
+   "topSeed": 0.0114,
    "lineup": [
     {
      "name": "Brock Purdy",
@@ -327,11 +327,11 @@
    "pf": 737.64,
    "projPerGame": 126.0,
    "strength": 124.7,
-   "projWins": 6.74,
-   "playoff": 0.2228,
-   "final": 0.0895,
-   "champ": 0.0404,
-   "topSeed": 0.0026,
+   "projWins": 6.73,
+   "playoff": 0.217,
+   "final": 0.0872,
+   "champ": 0.0361,
+   "topSeed": 0.0027,
    "lineup": [
     {
      "name": "Drake Maye",
@@ -390,11 +390,11 @@
    "pf": 689.26,
    "projPerGame": 96.5,
    "strength": 104.4,
-   "projWins": 6.26,
-   "playoff": 0.1168,
-   "final": 0.0267,
-   "champ": 0.0071,
-   "topSeed": 0.0008,
+   "projWins": 6.28,
+   "playoff": 0.1135,
+   "final": 0.0249,
+   "champ": 0.0062,
+   "topSeed": 0.001,
    "lineup": [
     {
      "name": "C.J. Stroud",
@@ -453,10 +453,10 @@
    "pf": 677.96,
    "projPerGame": 111.0,
    "strength": 111.9,
-   "projWins": 5.34,
-   "playoff": 0.0341,
-   "final": 0.0097,
-   "champ": 0.0034,
+   "projWins": 5.32,
+   "playoff": 0.034,
+   "final": 0.0102,
+   "champ": 0.0037,
    "topSeed": 0.0001,
    "lineup": [
     {
@@ -516,9 +516,9 @@
    "pf": 597.64,
    "projPerGame": 100.1,
    "strength": 99.9,
-   "projWins": 4.99,
-   "playoff": 0.0176,
-   "final": 0.0034,
+   "projWins": 4.98,
+   "playoff": 0.0149,
+   "final": 0.0029,
    "champ": 0.0009,
    "topSeed": 0.0,
    "lineup": [
@@ -569,10 +569,10 @@
    "pf": 564.54,
    "projPerGame": 110.1,
    "strength": 103.3,
-   "projWins": 3.85,
-   "playoff": 0.0021,
-   "final": 0.0005,
-   "champ": 0.0002,
+   "projWins": 3.83,
+   "playoff": 0.0019,
+   "final": 0.0004,
+   "champ": 0.0001,
    "topSeed": 0.0,
    "lineup": [
     {
@@ -627,7 +627,7 @@
   {
    "home": 5,
    "away": 2,
-   "homeWin": 0.0574,
+   "homeWin": 0.0605,
    "homePts": 0.0,
    "awayPts": 0.0,
    "homeProj": 74.7,
@@ -636,7 +636,7 @@
   {
    "home": 6,
    "away": 13,
-   "homeWin": 0.2,
+   "homeWin": 0.1983,
    "homePts": -1.0,
    "awayPts": 0.0,
    "homeProj": 104.6,
@@ -645,7 +645,7 @@
   {
    "home": 12,
    "away": 4,
-   "homeWin": 0.2983,
+   "homeWin": 0.2979,
    "homePts": 36.6,
    "awayPts": 27.4,
    "homeProj": 123.8,
@@ -654,7 +654,7 @@
   {
    "home": 3,
    "away": 9,
-   "homeWin": 0.3322,
+   "homeWin": 0.3293,
    "homePts": 0.0,
    "awayPts": 19.0,
    "homeProj": 117.5,
@@ -663,12 +663,12 @@
   {
    "home": 11,
    "away": 1,
-   "homeWin": 0.5161,
+   "homeWin": 0.5229,
    "homePts": 0.0,
    "awayPts": 7.8,
    "homeProj": 102.3,
    "awayProj": 100.3
   }
  ],
- "generated": "2026-10-23T23:25+00:00"
+ "generated": "2026-10-24T01:54+00:00"
 }
