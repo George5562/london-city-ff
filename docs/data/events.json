@@ -8341,5 +8341,33 @@
     "after": 0.0071
    }
   ]
+ },
+ {
+  "id": "trade-41f42872-2d26-420d-928e-1ffe60c99442",
+  "kind": "T",
+  "at": "2026-10-24T12:00:00Z",
+  "teams": [
+   9
+  ],
+  "text": "Added Browns D/ST; dropped Rams D/ST.",
+  "moves": [
+   {
+    "player": "Browns D/ST",
+    "position": "D/ST",
+    "action": "add"
+   },
+   {
+    "player": "Rams D/ST",
+    "position": "D/ST",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.4632,
+    "after": 0.4831
+   }
+  ]
  }
 ]
