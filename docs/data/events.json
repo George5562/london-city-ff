@@ -8369,5 +8369,61 @@
     "after": 0.4831
    }
   ]
+ },
+ {
+  "id": "trade-4413d83b-727a-463e-ad6e-56007d51cfd5",
+  "kind": "T",
+  "at": "2026-10-24T16:00:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Added Matthew Stafford (QB); dropped Jared Goff (QB).",
+  "moves": [
+   {
+    "player": "Matthew Stafford",
+    "position": "QB",
+    "action": "add"
+   },
+   {
+    "player": "Jared Goff",
+    "position": "QB",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.1724,
+    "after": 0.1734
+   }
+  ]
+ },
+ {
+  "id": "trade-562e27ff-929e-4015-9ac5-a1defe8f9acd",
+  "kind": "T",
+  "at": "2026-10-24T16:00:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Added Ladd McConkey; dropped Jake Ferguson.",
+  "moves": [
+   {
+    "player": "Ladd McConkey",
+    "position": "WR",
+    "action": "add"
+   },
+   {
+    "player": "Jake Ferguson",
+    "position": "TE",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.1724,
+    "after": 0.1734
+   }
+  ]
  }
 ]
