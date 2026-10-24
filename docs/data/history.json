@@ -49539,6 +49539,184 @@
      }
     }
    }
+  },
+  {
+   "date": "2026-10-24",
+   "label": "Week 7 \u00b7 23:30 UTC",
+   "week": 7,
+   "backfilled": false,
+   "teams": {
+    "9": {
+     "champ": 0.4843,
+     "playoff": 0.9895,
+     "projWins": 11.59
+    },
+    "3": {
+     "champ": 0.1779,
+     "playoff": 0.9023,
+     "projWins": 10.46
+    },
+    "2": {
+     "champ": 0.1596,
+     "playoff": 0.75,
+     "projWins": 9.1
+    },
+    "13": {
+     "champ": 0.0877,
+     "playoff": 0.5817,
+     "projWins": 8.57
+    },
+    "1": {
+     "champ": 0.0433,
+     "playoff": 0.3806,
+     "projWins": 8.08
+    },
+    "4": {
+     "champ": 0.0355,
+     "playoff": 0.2125,
+     "projWins": 6.7
+    },
+    "11": {
+     "champ": 0.0063,
+     "playoff": 0.1258,
+     "projWins": 6.37
+    },
+    "6": {
+     "champ": 0.0038,
+     "playoff": 0.0358,
+     "projWins": 5.35
+    },
+    "5": {
+     "champ": 0.0014,
+     "playoff": 0.0198,
+     "projWins": 4.91
+    },
+    "12": {
+     "champ": 0.0003,
+     "playoff": 0.002,
+     "projWins": 3.86
+    }
+   },
+   "at": "2026-10-24T23:30:00Z",
+   "changes": {
+    "13": {
+     "cause": "projection_rerating",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0059,
+     "text": "Bijan Robinson\u2019s forecast moved from 21.1449 to 21.145 fantasy points, raising their expected scoring contribution.",
+     "facts": [
+      "projection: Bijan Robinson 21.14493747 -> 21.14503547",
+      "projection: Derrick Henry 18.03483592 -> 18.03487362",
+      "projection: Woody Marks 13.67515491 -> 14.00422488",
+      "projection: Juwan Johnson 8.65544638 -> 8.6534135",
+      "projection: Eagles D/ST 4.41002151 -> 4.35440843"
+     ],
+     "showTooltip": true
+    }
+   },
+   "explanations": {
+    "9": {
+     "champ": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.0142,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.22,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "3": {
+     "champ": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0376,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0499,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.39,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "2": {
+     "champ": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.0105,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.0093,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "13": {
+     "champ": {
+      "cause": "projection_rerating",
+      "text": "Bijan Robinson\u2019s forecast moved from 21.1449 to 21.145 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.0059,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "projection_rerating",
+      "text": "Bijan Robinson\u2019s forecast moved from 21.1449 to 21.145 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.0116,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "1": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.0151,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "4": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.0106,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    }
+   }
   }
  ]
 }

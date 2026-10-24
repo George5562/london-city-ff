@@ -8590,5 +8590,33 @@
     "after": 0.0014
    }
   ]
+ },
+ {
+  "id": "trade-a420e80a-967b-47a6-994b-96037b8be716",
+  "kind": "T",
+  "at": "2026-10-24T23:30:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Added TE Kyle Pitts Sr.; dropped K Harrison Butker.",
+  "moves": [
+   {
+    "player": "Kyle Pitts Sr.",
+    "position": "TE",
+    "action": "add"
+   },
+   {
+    "player": "Harrison Butker",
+    "position": "K",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.1403,
+    "after": 0.1779
+   }
+  ]
  }
 ]
