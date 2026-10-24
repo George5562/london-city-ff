@@ -49266,6 +49266,279 @@
    },
    "at": "2026-10-24T18:30:00Z",
    "explanations": {}
+  },
+  {
+   "date": "2026-10-24",
+   "label": "Week 7 \u00b7 21:30 UTC",
+   "week": 7,
+   "backfilled": false,
+   "teams": {
+    "9": {
+     "champ": 0.4985,
+     "playoff": 0.9925,
+     "projWins": 11.81
+    },
+    "2": {
+     "champ": 0.1701,
+     "playoff": 0.7593,
+     "projWins": 9.14
+    },
+    "3": {
+     "champ": 0.1403,
+     "playoff": 0.8524,
+     "projWins": 10.07
+    },
+    "13": {
+     "champ": 0.0936,
+     "playoff": 0.5933,
+     "projWins": 8.61
+    },
+    "1": {
+     "champ": 0.0466,
+     "playoff": 0.3957,
+     "projWins": 8.11
+    },
+    "4": {
+     "champ": 0.0387,
+     "playoff": 0.2231,
+     "projWins": 6.74
+    },
+    "11": {
+     "champ": 0.0066,
+     "playoff": 0.1216,
+     "projWins": 6.31
+    },
+    "6": {
+     "champ": 0.0039,
+     "playoff": 0.0387,
+     "projWins": 5.37
+    },
+    "5": {
+     "champ": 0.0014,
+     "playoff": 0.0213,
+     "projWins": 4.95
+    },
+    "12": {
+     "champ": 0.0003,
+     "playoff": 0.0022,
+     "projWins": 3.89
+    }
+   },
+   "at": "2026-10-24T21:30:00Z",
+   "changes": {
+    "9": {
+     "cause": "roster_availability",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.0158,
+     "text": "Kenneth Walker III\u2019s forecast moved from 19.1037 to 19.1037 fantasy points, lowering their expected scoring contribution.",
+     "facts": [
+      "projection: Kenneth Walker III 19.10368768 -> 19.1036697",
+      "projection: Tee Higgins 14.40031965 -> 14.18988221",
+      "projection: Travis Kelce 10.08335684 -> 10.08332908",
+      "projection: Tyler Shough 15.292529 -> 15.29243413",
+      "injury: Jordan Mason INJURY_RESERVE -> ACTIVE",
+      "projection: Jordan Mason 10.30628505 -> 10.30622458",
+      "projection: Chris Godwin Jr. 11.07520552 -> 11.0927424",
+      "injury: Tank Dell INJURY_RESERVE -> ACTIVE"
+     ],
+     "showTooltip": true
+    },
+    "3": {
+     "cause": "roster_availability",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0331,
+     "text": "Lamar Jackson\u2019s forecast moved from 19.945 to 0 fantasy points, lowering their expected scoring contribution.",
+     "facts": [
+      "injury: Lamar Jackson QUESTIONABLE -> OUT",
+      "projection: Lamar Jackson 19.94502144 -> 0.0",
+      "injury: DeVonta Smith QUESTIONABLE -> OUT",
+      "projection: Aaron Jones Sr. 12.27064234 -> 12.27055099",
+      "projection: Matthew Stafford 18.59216823 -> 18.59215851",
+      "projection: DK Metcalf 14.83080883 -> 14.83080884",
+      "projection: Tony Pollard 13.3685218 -> 13.36853529",
+      "injury: Dallas Goedert QUESTIONABLE -> ACTIVE"
+     ],
+     "showTooltip": true
+    },
+    "13": {
+     "cause": "external_opportunity",
+     "classifiedBy": "deterministic",
+     "writtenBy": "model",
+     "delta": 0.0055,
+     "text": "Bijan Robinson\u2019s projection barely rose, while Lamar Jackson and DeVonta Smith were ruled out; Derrick Henry and Zay Flowers dipped. The fantasy implications are mixed, with no clear link to Bijan\u2019s move.",
+     "facts": [
+      "projection: Bijan Robinson 21.14460662 -> 21.14493747",
+      "projection: Derrick Henry 20.05679576 -> 18.03483592",
+      "projection: Drake London 17.15924966 -> 17.15996378",
+      "projection: Zay Flowers 16.32197356 -> 15.23016505",
+      "injury: Lamar Jackson QUESTIONABLE -> OUT",
+      "projection: Joe Burrow 19.41126228 -> 19.31098456",
+      "injury: DeVonta Smith QUESTIONABLE -> OUT",
+      "injury: Dallas Goedert QUESTIONABLE -> ACTIVE"
+     ],
+     "showTooltip": true
+    },
+    "1": {
+     "cause": "external_opportunity",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.0074,
+     "text": "Javonte Williams\u2019s forecast moved from 16.628 to 16.6281 fantasy points, raising their expected scoring contribution.",
+     "facts": [
+      "projection: Javonte Williams 16.62804999 -> 16.62807633",
+      "projection: Chase Brown 14.62215073 -> 14.74190947",
+      "projection: Quinshon Judkins 13.24487023 -> 13.24478355",
+      "projection: Josh Downs 8.36663423 -> 8.36663414",
+      "injury: Jonah Coleman INJURY_RESERVE -> QUESTIONABLE",
+      "injury: Christian Kirk INJURY_RESERVE -> ACTIVE",
+      "injury: KaVontae Turpin QUESTIONABLE -> OUT",
+      "injury: Tyler Badie OUT -> INJURY_RESERVE"
+     ],
+     "showTooltip": true
+    }
+   },
+   "explanations": {
+    "9": {
+     "champ": {
+      "cause": "roster_availability",
+      "text": "Kenneth Walker III\u2019s forecast moved from 19.1037 to 19.1037 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.0158,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "roster_availability",
+      "text": "Kenneth Walker III\u2019s forecast moved from 19.1037 to 19.1037 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.22,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "2": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.0437,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.24,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "3": {
+     "champ": {
+      "cause": "roster_availability",
+      "text": "Lamar Jackson\u2019s forecast moved from 19.945 to 0 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.0331,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "roster_availability",
+      "text": "Lamar Jackson\u2019s forecast moved from 19.945 to 0 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.0473,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "roster_availability",
+      "text": "Lamar Jackson\u2019s forecast moved from 19.945 to 0 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.36,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "13": {
+     "champ": {
+      "cause": "external_opportunity",
+      "text": "Bijan Robinson\u2019s projection barely rose, while Lamar Jackson and DeVonta Smith were ruled out; Derrick Henry and Zay Flowers dipped. The fantasy implications are mixed, with no clear link to Bijan\u2019s move.",
+      "confidence": "recorded explanation",
+      "delta": 0.0055,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "1": {
+     "champ": {
+      "cause": "external_opportunity",
+      "text": "Javonte Williams\u2019s forecast moved from 16.628 to 16.6281 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.0074,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "external_opportunity",
+      "text": "Javonte Williams\u2019s forecast moved from 16.628 to 16.6281 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.0527,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "external_opportunity",
+      "text": "Javonte Williams\u2019s forecast moved from 16.628 to 16.6281 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.2,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "4": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0112,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "11": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0086,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "6": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0052,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "5": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0068,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    }
+   }
   }
  ]
 }

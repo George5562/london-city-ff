@@ -8425,5 +8425,170 @@
     "after": 0.1734
    }
   ]
+ },
+ {
+  "id": "injury-3916387-2026-10-24T21:30:00Z",
+  "kind": "I",
+  "at": "2026-10-24T21:30:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Goats: Lamar Jackson is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.1734,
+    "after": 0.1403
+   }
+  ]
+ },
+ {
+  "id": "injury-4241478-2026-10-24T21:30:00Z",
+  "kind": "I",
+  "at": "2026-10-24T21:30:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Goats: DeVonta Smith is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.1734,
+    "after": 0.1403
+   }
+  ]
+ },
+ {
+  "id": "injury-3121023-2026-10-24T21:30:00Z",
+  "kind": "I",
+  "at": "2026-10-24T21:30:00Z",
+  "teams": [
+   6
+  ],
+  "text": "The Le Chable Dolphins: Dallas Goedert is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.0034,
+    "after": 0.0039
+   }
+  ]
+ },
+ {
+  "id": "injury-4360569-2026-10-24T21:30:00Z",
+  "kind": "I",
+  "at": "2026-10-24T21:30:00Z",
+  "teams": [
+   9
+  ],
+  "text": "GiantPunt: Jordan Mason is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.4827,
+    "after": 0.4985
+   }
+  ]
+ },
+ {
+  "id": "trade-6be69457-8242-4e76-8639-19606af82637",
+  "kind": "T",
+  "at": "2026-10-24T21:30:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Dropped Jayden Reed.",
+  "moves": [
+   {
+    "player": "Jayden Reed",
+    "position": "WR",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0008,
+    "after": 0.0014
+   }
+  ]
+ },
+ {
+  "id": "trade-1afdf08e-fafd-4b9d-8992-1d33b58da7b6",
+  "kind": "T",
+  "at": "2026-10-24T21:30:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Added Aaron Rodgers; dropped Kirk Cousins.",
+  "moves": [
+   {
+    "player": "Aaron Rodgers",
+    "position": "QB",
+    "action": "add"
+   },
+   {
+    "player": "Kirk Cousins",
+    "position": "QB",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0008,
+    "after": 0.0014
+   }
+  ]
+ },
+ {
+  "id": "trade-27937f6e-5bbe-4848-88d8-5bd14ba9591c",
+  "kind": "T",
+  "at": "2026-10-24T21:30:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Added Kirk Cousins.",
+  "moves": [
+   {
+    "player": "Kirk Cousins",
+    "position": "QB",
+    "action": "add"
+   }
+  ],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0008,
+    "after": 0.0014
+   }
+  ]
+ },
+ {
+  "id": "trade-be918087-baef-49e7-a6c6-a296a7fbc146",
+  "kind": "T",
+  "at": "2026-10-24T21:30:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Dropped Justin Herbert.",
+  "moves": [
+   {
+    "player": "Justin Herbert",
+    "position": "QB",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0008,
+    "after": 0.0014
+   }
+  ]
  }
 ]

@@ -10,13 +10,13 @@
    "wins": 5,
    "losses": 1,
    "pf": 908.1,
-   "projPerGame": 143.8,
-   "strength": 147.0,
-   "projWins": 11.59,
-   "playoff": 0.9898,
-   "final": 0.7049,
-   "champ": 0.4827,
-   "topSeed": 0.6987,
+   "projPerGame": 144.0,
+   "strength": 147.1,
+   "projWins": 11.81,
+   "playoff": 0.9925,
+   "final": 0.7185,
+   "champ": 0.4985,
+   "topSeed": 0.7765,
    "lineup": [
     {
      "name": "Kenneth Walker III",
@@ -66,69 +66,6 @@
    ]
   },
   {
-   "id": 3,
-   "name": "Goats",
-   "abbrev": "GOAT",
-   "logo": "https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/24f1a320-ace5-11f1-bf19-93d59dd8c7ce",
-   "wins": 5,
-   "losses": 1,
-   "pf": 753.06,
-   "projPerGame": 131.1,
-   "strength": 128.7,
-   "projWins": 10.43,
-   "playoff": 0.8997,
-   "final": 0.4364,
-   "champ": 0.1734,
-   "topSeed": 0.1965,
-   "lineup": [
-    {
-     "name": "Jahmyr Gibbs",
-     "pos": "RB",
-     "pts": 23.7
-    },
-    {
-     "name": "Matthew Stafford",
-     "pos": "QB",
-     "pts": 16.0
-    },
-    {
-     "name": "Tetairoa McMillan",
-     "pos": "WR",
-     "pts": 15.7
-    },
-    {
-     "name": "DeVonta Smith",
-     "pos": "WR",
-     "pts": 15.3
-    },
-    {
-     "name": "Ashton Jeanty",
-     "pos": "RB",
-     "pts": 15.3
-    },
-    {
-     "name": "Harrison Butker",
-     "pos": "K",
-     "pts": 11.3
-    },
-    {
-     "name": "Steelers D/ST",
-     "pos": "D/ST",
-     "pts": 8.2
-    },
-    {
-     "name": "Harold Fannin Jr.",
-     "pos": "TE",
-     "pts": 5.9
-    },
-    {
-     "name": "DK Metcalf",
-     "pos": "FLEX",
-     "pts": 15.0
-    }
-   ]
-  },
-  {
    "id": 2,
    "name": "Sabre Raiders",
    "abbrev": "TM2",
@@ -138,11 +75,11 @@
    "pf": 784.58,
    "projPerGame": 130.8,
    "strength": 130.8,
-   "projWins": 9.38,
-   "playoff": 0.803,
-   "final": 0.394,
-   "champ": 0.1716,
-   "topSeed": 0.0634,
+   "projWins": 9.14,
+   "playoff": 0.7593,
+   "final": 0.3871,
+   "champ": 0.1701,
+   "topSeed": 0.0522,
    "lineup": [
     {
      "name": "Jaxon Smith-Njigba",
@@ -192,6 +129,69 @@
    ]
   },
   {
+   "id": 3,
+   "name": "Goats",
+   "abbrev": "GOAT",
+   "logo": "https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/24f1a320-ace5-11f1-bf19-93d59dd8c7ce",
+   "wins": 5,
+   "losses": 1,
+   "pf": 753.06,
+   "projPerGame": 125.8,
+   "strength": 125.7,
+   "projWins": 10.07,
+   "playoff": 0.8524,
+   "final": 0.383,
+   "champ": 0.1403,
+   "topSeed": 0.1285,
+   "lineup": [
+    {
+     "name": "Jahmyr Gibbs",
+     "pos": "RB",
+     "pts": 23.7
+    },
+    {
+     "name": "Matthew Stafford",
+     "pos": "QB",
+     "pts": 16.0
+    },
+    {
+     "name": "Tetairoa McMillan",
+     "pos": "WR",
+     "pts": 15.7
+    },
+    {
+     "name": "Ashton Jeanty",
+     "pos": "RB",
+     "pts": 15.3
+    },
+    {
+     "name": "DK Metcalf",
+     "pos": "WR",
+     "pts": 15.0
+    },
+    {
+     "name": "Harrison Butker",
+     "pos": "K",
+     "pts": 11.3
+    },
+    {
+     "name": "Steelers D/ST",
+     "pos": "D/ST",
+     "pts": 8.1
+    },
+    {
+     "name": "Harold Fannin Jr.",
+     "pos": "TE",
+     "pts": 5.9
+    },
+    {
+     "name": "Tony Pollard",
+     "pos": "FLEX",
+     "pts": 10.6
+    }
+   ]
+  },
+  {
    "id": 13,
    "name": "Salisbury Screamers",
    "abbrev": "SS",
@@ -199,13 +199,13 @@
    "wins": 4,
    "losses": 2,
    "pf": 732.32,
-   "projPerGame": 125.7,
-   "strength": 124.2,
-   "projWins": 8.59,
-   "playoff": 0.5898,
-   "final": 0.2297,
-   "champ": 0.0881,
-   "topSeed": 0.0265,
+   "projPerGame": 125.6,
+   "strength": 124.1,
+   "projWins": 8.61,
+   "playoff": 0.5933,
+   "final": 0.2422,
+   "champ": 0.0936,
+   "topSeed": 0.0259,
    "lineup": [
     {
      "name": "Malik Nabers",
@@ -250,7 +250,7 @@
     {
      "name": "Drake London",
      "pos": "FLEX",
-     "pts": 14.7
+     "pts": 14.6
     }
    ]
   },
@@ -264,11 +264,11 @@
    "pf": 696.06,
    "projPerGame": 119.3,
    "strength": 117.9,
-   "projWins": 7.91,
-   "playoff": 0.343,
-   "final": 0.1134,
-   "champ": 0.0392,
-   "topSeed": 0.0111,
+   "projWins": 8.11,
+   "playoff": 0.3957,
+   "final": 0.1336,
+   "champ": 0.0466,
+   "topSeed": 0.0132,
    "lineup": [
     {
      "name": "Brock Purdy",
@@ -283,7 +283,7 @@
     {
      "name": "Javonte Williams",
      "pos": "RB",
-     "pts": 14.6
+     "pts": 14.5
     },
     {
      "name": "Chase Brown",
@@ -298,7 +298,7 @@
     {
      "name": "A.J. Brown",
      "pos": "WR",
-     "pts": 11.4
+     "pts": 11.3
     },
     {
      "name": "Chiefs D/ST",
@@ -325,13 +325,13 @@
    "wins": 2,
    "losses": 4,
    "pf": 737.64,
-   "projPerGame": 126.0,
-   "strength": 124.7,
-   "projWins": 6.71,
-   "playoff": 0.2119,
-   "final": 0.0847,
-   "champ": 0.0348,
-   "topSeed": 0.0024,
+   "projPerGame": 125.9,
+   "strength": 124.6,
+   "projWins": 6.74,
+   "playoff": 0.2231,
+   "final": 0.0901,
+   "champ": 0.0387,
+   "topSeed": 0.0026,
    "lineup": [
     {
      "name": "Drake Maye",
@@ -341,7 +341,7 @@
     {
      "name": "Ja'Marr Chase",
      "pos": "WR",
-     "pts": 20.1
+     "pts": 20.0
     },
     {
      "name": "George Kittle",
@@ -390,11 +390,11 @@
    "pf": 689.26,
    "projPerGame": 96.5,
    "strength": 104.4,
-   "projWins": 6.27,
-   "playoff": 0.113,
-   "final": 0.0241,
-   "champ": 0.0058,
-   "topSeed": 0.0013,
+   "projWins": 6.31,
+   "playoff": 0.1216,
+   "final": 0.0278,
+   "champ": 0.0066,
+   "topSeed": 0.0011,
    "lineup": [
     {
      "name": "C.J. Stroud",
@@ -453,10 +453,10 @@
    "pf": 677.96,
    "projPerGame": 111.0,
    "strength": 111.9,
-   "projWins": 5.31,
-   "playoff": 0.0335,
-   "final": 0.0098,
-   "champ": 0.0034,
+   "projWins": 5.37,
+   "playoff": 0.0387,
+   "final": 0.0107,
+   "champ": 0.0039,
    "topSeed": 0.0001,
    "lineup": [
     {
@@ -514,12 +514,12 @@
    "wins": 1,
    "losses": 5,
    "pf": 597.64,
-   "projPerGame": 100.1,
-   "strength": 99.9,
-   "projWins": 4.97,
-   "playoff": 0.0145,
-   "final": 0.0026,
-   "champ": 0.0008,
+   "projPerGame": 114.9,
+   "strength": 108.3,
+   "projWins": 4.95,
+   "playoff": 0.0213,
+   "final": 0.006,
+   "champ": 0.0014,
    "topSeed": 0.0,
    "lineup": [
     {
@@ -536,6 +536,11 @@
      "name": "Isaiah Likely",
      "pos": "TE",
      "pts": 16.7
+    },
+    {
+     "name": "Aaron Rodgers",
+     "pos": "QB",
+     "pts": 15.2
     },
     {
      "name": "Tre Tucker",
@@ -568,10 +573,10 @@
    "losses": 5,
    "pf": 564.54,
    "projPerGame": 110.1,
-   "strength": 103.3,
-   "projWins": 3.84,
-   "playoff": 0.0019,
-   "final": 0.0004,
+   "strength": 103.2,
+   "projWins": 3.89,
+   "playoff": 0.0022,
+   "final": 0.0007,
    "champ": 0.0003,
    "topSeed": 0.0,
    "lineup": [
@@ -627,48 +632,48 @@
   {
    "home": 5,
    "away": 2,
-   "homeWin": 0.0607,
+   "homeWin": 0.329,
    "homePts": 0.0,
    "awayPts": 0.0,
-   "homeProj": 74.7,
+   "homeProj": 113.1,
    "awayProj": 129.8
   },
   {
    "home": 6,
    "away": 13,
-   "homeWin": 0.1983,
+   "homeWin": 0.224,
    "homePts": -1.0,
    "awayPts": 0.0,
    "homeProj": 104.6,
-   "awayProj": 136.4
+   "awayProj": 133.0
   },
   {
    "home": 12,
    "away": 4,
-   "homeWin": 0.3109,
+   "homeWin": 0.314,
    "homePts": 36.6,
    "awayPts": 27.4,
    "homeProj": 125.1,
-   "awayProj": 142.2
+   "awayProj": 141.9
   },
   {
    "home": 3,
    "away": 9,
-   "homeWin": 0.4729,
+   "homeWin": 0.2605,
    "homePts": 0.0,
    "awayPts": 19.0,
-   "homeProj": 132.3,
+   "homeProj": 112.4,
    "awayProj": 134.6
   },
   {
    "home": 11,
    "away": 1,
-   "homeWin": 0.5239,
+   "homeWin": 0.5229,
    "homePts": 0.0,
    "awayPts": 7.8,
    "homeProj": 102.4,
-   "awayProj": 100.3
+   "awayProj": 100.4
   }
  ],
- "generated": "2026-10-24T18:57+00:00"
+ "generated": "2026-10-24T21:31+00:00"
 }
