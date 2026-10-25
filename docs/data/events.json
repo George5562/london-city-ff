@@ -8618,5 +8618,22 @@
     "after": 0.1779
    }
   ]
+ },
+ {
+  "id": "injury-4038815-2026-10-25T13:30:00Z",
+  "kind": "I",
+  "at": "2026-10-25T13:30:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Rico Dowdle is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0361,
+    "after": 0.0421
+   }
+  ]
  }
 ]

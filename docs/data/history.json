@@ -49858,6 +49858,303 @@
    },
    "at": "2026-10-25T09:00:00Z",
    "explanations": {}
+  },
+  {
+   "date": "2026-10-25",
+   "label": "Week 7 \u00b7 13:30 UTC",
+   "week": 7,
+   "backfilled": false,
+   "teams": {
+    "9": {
+     "champ": 0.4703,
+     "playoff": 0.9882,
+     "projWins": 11.5
+    },
+    "3": {
+     "champ": 0.1797,
+     "playoff": 0.9083,
+     "projWins": 10.6
+    },
+    "2": {
+     "champ": 0.1558,
+     "playoff": 0.7195,
+     "projWins": 9.06
+    },
+    "13": {
+     "champ": 0.078,
+     "playoff": 0.5016,
+     "projWins": 8.35
+    },
+    "1": {
+     "champ": 0.0634,
+     "playoff": 0.5099,
+     "projWins": 8.56
+    },
+    "4": {
+     "champ": 0.0421,
+     "playoff": 0.2329,
+     "projWins": 6.84
+    },
+    "11": {
+     "champ": 0.0056,
+     "playoff": 0.0819,
+     "projWins": 6.07
+    },
+    "6": {
+     "champ": 0.0042,
+     "playoff": 0.0424,
+     "projWins": 5.5
+    },
+    "5": {
+     "champ": 0.001,
+     "playoff": 0.014,
+     "projWins": 4.78
+    },
+    "12": {
+     "champ": 0.0001,
+     "playoff": 0.0014,
+     "projWins": 3.75
+    }
+   },
+   "at": "2026-10-25T13:30:00Z",
+   "changes": {
+    "13": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0086,
+     "text": "Bijan Robinson\u2019s forecast moved from 21.145 to 21.1055 fantasy points, lowering their expected scoring contribution.",
+     "facts": [
+      "projection: Bijan Robinson 21.14503547 -> 21.1054821",
+      "projection: Drake London 17.15996378 -> 17.05985754",
+      "projection: Malik Nabers 17.68218689 -> 17.69095856",
+      "projection: Blake Corum 10.60488605 -> 10.01543004",
+      "actual: Juwan Johnson None -> 0.0",
+      "actual: Chris Boswell None -> 3.0",
+      "injury: Rico Dowdle QUESTIONABLE -> ACTIVE",
+      "actual: Michael Pittman Jr. None -> 0.0"
+     ],
+     "showTooltip": true
+    },
+    "1": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.0203,
+     "text": "Puka Nacua\u2019s forecast moved from 0 to 22.5535 fantasy points, raising their expected scoring contribution.",
+     "facts": [
+      "projection: Puka Nacua 0.0 -> 22.55348655",
+      "projection: Javonte Williams 16.82648659 -> 16.82645216",
+      "projection: Brock Purdy 20.42875296 -> 20.428975",
+      "projection: Quinshon Judkins 13.24478355 -> 13.24487023",
+      "projection: Josh Downs 8.36663414 -> 8.36663423",
+      "actual: Devaughn Vele None -> 2.4",
+      "projection: Alvin Kamara 8.15439646 -> 8.15440381",
+      "actual: Alvin Kamara None -> 0.6"
+     ],
+     "showTooltip": true
+    },
+    "4": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.006,
+     "text": "Kyren Williams\u2019s forecast moved from 20.4264 to 19.6776 fantasy points, lowering their expected scoring contribution.",
+     "facts": [
+      "projection: Kyren Williams 20.42644162 -> 19.67761743",
+      "projection: George Kittle 16.66110782 -> 16.66146579",
+      "projection: Saquon Barkley 15.18557926 -> 15.18119725",
+      "injury: Rico Dowdle QUESTIONABLE -> ACTIVE",
+      "projection: Rico Dowdle 7.74720274 -> 7.74773781",
+      "actual: Rico Dowdle None -> 0.5",
+      "projection: Tyler Allgeier 11.14133582 -> 11.14030021",
+      "projection: Dameon Pierce 6.88608356 -> 6.88211432"
+     ],
+     "showTooltip": true
+    }
+   },
+   "explanations": {
+    "9": {
+     "champ": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.0167,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "3": {
+     "champ": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.006,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.13,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "2": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.0244,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "13": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Bijan Robinson\u2019s forecast moved from 21.145 to 21.1055 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.0086,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Bijan Robinson\u2019s forecast moved from 21.145 to 21.1055 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.0784,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Bijan Robinson\u2019s forecast moved from 21.145 to 21.1055 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.22,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "1": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Puka Nacua\u2019s forecast moved from 0 to 22.5535 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.0203,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Puka Nacua\u2019s forecast moved from 0 to 22.5535 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.1272,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Puka Nacua\u2019s forecast moved from 0 to 22.5535 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.49,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "4": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Kyren Williams\u2019s forecast moved from 20.4264 to 19.6776 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.006,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Kyren Williams\u2019s forecast moved from 20.4264 to 19.6776 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.015,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Kyren Williams\u2019s forecast moved from 20.4264 to 19.6776 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.13,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "11": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.0407,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.28,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "6": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0051,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.17,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "5": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.0063,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.15,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "12": {
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.13,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    }
+   }
   }
  ]
 }
