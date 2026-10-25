@@ -8635,5 +8635,22 @@
     "after": 0.0421
    }
   ]
+ },
+ {
+  "id": "injury-4427366-2026-10-25T17:30:00Z",
+  "kind": "I",
+  "at": "2026-10-25T17:30:00Z",
+  "teams": [
+   6
+  ],
+  "text": "The Le Chable Dolphins: Breece Hall is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.0042,
+    "after": 0.0068
+   }
+  ]
  }
 ]
