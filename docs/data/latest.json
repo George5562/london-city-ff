@@ -10,58 +10,58 @@
    "wins": 5,
    "losses": 1,
    "pf": 908.1,
-   "projPerGame": 143.9,
-   "strength": 147.1,
-   "projWins": 12.04,
-   "playoff": 0.9968,
-   "final": 0.7559,
-   "champ": 0.5222,
-   "topSeed": 0.8103,
+   "projPerGame": 144.7,
+   "strength": 147.6,
+   "projWins": 11.66,
+   "playoff": 0.9884,
+   "final": 0.7005,
+   "champ": 0.4788,
+   "topSeed": 0.6919,
    "lineup": [
     {
      "name": "Kenneth Walker III",
      "pos": "RB",
-     "pts": 24.1
+     "pts": 23.2
     },
     {
      "name": "Tyler Shough",
      "pos": "QB",
-     "pts": 19.2
+     "pts": 18.5
     },
     {
      "name": "D'Andre Swift",
      "pos": "RB",
-     "pts": 18.8
+     "pts": 18.0
+    },
+    {
+     "name": "Tee Higgins",
+     "pos": "WR",
+     "pts": 17.9
     },
     {
      "name": "Amon-Ra St. Brown",
      "pos": "WR",
-     "pts": 18.1
-    },
-    {
-     "name": "CeeDee Lamb",
-     "pos": "WR",
-     "pts": 17.2
-    },
-    {
-     "name": "Travis Kelce",
-     "pos": "TE",
-     "pts": 10.2
+     "pts": 17.4
     },
     {
      "name": "Ka'imi Fairbairn",
      "pos": "K",
-     "pts": 9.6
+     "pts": 10.5
+    },
+    {
+     "name": "Travis Kelce",
+     "pos": "TE",
+     "pts": 9.8
     },
     {
      "name": "Browns D/ST",
      "pos": "D/ST",
-     "pts": 6.9
+     "pts": 7.1
     },
     {
-     "name": "Chris Olave",
+     "name": "CeeDee Lamb",
      "pos": "FLEX",
-     "pts": 14.4
+     "pts": 16.5
     }
    ]
   },
@@ -73,58 +73,58 @@
    "wins": 4,
    "losses": 2,
    "pf": 784.58,
-   "projPerGame": 132.2,
-   "strength": 131.6,
-   "projWins": 9.66,
-   "playoff": 0.8875,
-   "final": 0.4658,
-   "champ": 0.2081,
-   "topSeed": 0.0645,
+   "projPerGame": 131.3,
+   "strength": 131.1,
+   "projWins": 9.52,
+   "playoff": 0.7921,
+   "final": 0.3795,
+   "champ": 0.1656,
+   "topSeed": 0.0664,
    "lineup": [
     {
      "name": "Jaxon Smith-Njigba",
      "pos": "WR",
-     "pts": 21.3
+     "pts": 20.5
     },
     {
      "name": "Caleb Williams",
      "pos": "QB",
-     "pts": 19.3
+     "pts": 18.5
     },
     {
      "name": "Luther Burden III",
      "pos": "WR",
-     "pts": 17.2
-    },
-    {
-     "name": "Brock Bowers",
-     "pos": "TE",
-     "pts": 14.7
+     "pts": 16.5
     },
     {
      "name": "Bucky Irving",
      "pos": "RB",
-     "pts": 12.6
+     "pts": 15.0
     },
     {
-     "name": "J.K. Dobbins",
+     "name": "Brock Bowers",
+     "pos": "TE",
+     "pts": 14.1
+    },
+    {
+     "name": "Braelon Allen",
      "pos": "RB",
-     "pts": 12.2
+     "pts": 11.8
     },
     {
      "name": "Jason Myers",
      "pos": "K",
-     "pts": 8.5
+     "pts": 8.2
     },
     {
      "name": "Vikings D/ST",
      "pos": "D/ST",
-     "pts": 6.7
+     "pts": 7.4
     },
     {
      "name": "Germie Bernard",
      "pos": "FLEX",
-     "pts": 14.3
+     "pts": 13.7
     }
    ]
   },
@@ -136,121 +136,58 @@
    "wins": 5,
    "losses": 1,
    "pf": 753.06,
-   "projPerGame": 127.8,
-   "strength": 126.8,
-   "projWins": 10.2,
-   "playoff": 0.915,
-   "final": 0.4268,
-   "champ": 0.1567,
-   "topSeed": 0.1092,
+   "projPerGame": 130.8,
+   "strength": 128.5,
+   "projWins": 10.52,
+   "playoff": 0.897,
+   "final": 0.4169,
+   "champ": 0.1611,
+   "topSeed": 0.1853,
    "lineup": [
     {
      "name": "Jahmyr Gibbs",
      "pos": "RB",
-     "pts": 24.0
+     "pts": 23.0
+    },
+    {
+     "name": "Tony Pollard",
+     "pos": "RB",
+     "pts": 15.9
     },
     {
      "name": "Matthew Stafford",
      "pos": "QB",
-     "pts": 16.2
-    },
-    {
-     "name": "Ashton Jeanty",
-     "pos": "RB",
-     "pts": 15.4
-    },
-    {
-     "name": "DK Metcalf",
-     "pos": "WR",
-     "pts": 14.1
+     "pts": 15.6
     },
     {
      "name": "Tetairoa McMillan",
      "pos": "WR",
-     "pts": 12.8
+     "pts": 14.2
     },
     {
      "name": "Kyle Pitts Sr.",
      "pos": "TE",
-     "pts": 11.0
+     "pts": 13.8
+    },
+    {
+     "name": "DK Metcalf",
+     "pos": "WR",
+     "pts": 13.5
     },
     {
      "name": "Steelers D/ST",
      "pos": "D/ST",
-     "pts": 9.0
+     "pts": 8.6
     },
     {
      "name": "Dominic Zvada",
      "pos": "K",
-     "pts": 8.0
+     "pts": 7.7
     },
     {
-     "name": "Tony Pollard",
+     "name": "Ashton Jeanty",
      "pos": "FLEX",
-     "pts": 13.8
-    }
-   ]
-  },
-  {
-   "id": 1,
-   "name": "Knights who say Ni",
-   "abbrev": "TM1",
-   "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Blockparty-RobbHars/blockplayers-01.svg",
-   "wins": 4,
-   "losses": 2,
-   "pf": 696.06,
-   "projPerGame": 115.5,
-   "strength": 115.7,
-   "projWins": 8.43,
-   "playoff": 0.5518,
-   "final": 0.1674,
-   "champ": 0.0508,
-   "topSeed": 0.0132,
-   "lineup": [
-    {
-     "name": "Puka Nacua",
-     "pos": "WR",
-     "pts": 19.4
-    },
-    {
-     "name": "Brock Purdy",
-     "pos": "QB",
-     "pts": 15.6
-    },
-    {
-     "name": "Javonte Williams",
-     "pos": "RB",
-     "pts": 14.7
-    },
-    {
-     "name": "Sam LaPorta",
-     "pos": "TE",
-     "pts": 11.8
-    },
-    {
-     "name": "RJ Harvey",
-     "pos": "RB",
-     "pts": 11.6
-    },
-    {
-     "name": "A.J. Brown",
-     "pos": "WR",
-     "pts": 11.5
-    },
-    {
-     "name": "Chiefs D/ST",
-     "pos": "D/ST",
-     "pts": 8.6
-    },
-    {
-     "name": "Eddy Pineiro",
-     "pos": "K",
-     "pts": 5.7
-    },
-    {
-     "name": "Alvin Kamara",
-     "pos": "FLEX",
-     "pts": 11.2
+     "pts": 14.8
     }
    ]
   },
@@ -262,58 +199,121 @@
    "wins": 4,
    "losses": 2,
    "pf": 732.32,
-   "projPerGame": 112.7,
-   "strength": 116.7,
-   "projWins": 7.35,
-   "playoff": 0.2778,
-   "final": 0.0863,
-   "champ": 0.0299,
-   "topSeed": 0.0018,
+   "projPerGame": 132.4,
+   "strength": 128.0,
+   "projWins": 9.12,
+   "playoff": 0.6928,
+   "final": 0.3013,
+   "champ": 0.1226,
+   "topSeed": 0.0396,
    "lineup": [
+    {
+     "name": "Joe Burrow",
+     "pos": "QB",
+     "pts": 22.4
+    },
     {
      "name": "Malik Nabers",
      "pos": "WR",
-     "pts": 18.3
+     "pts": 19.2
     },
     {
      "name": "Zay Flowers",
      "pos": "WR",
-     "pts": 15.4
-    },
-    {
-     "name": "Joe Burrow",
-     "pos": "QB",
-     "pts": 14.4
-    },
-    {
-     "name": "Chuba Hubbard",
-     "pos": "RB",
-     "pts": 13.9
+     "pts": 18.4
     },
     {
      "name": "Bijan Robinson",
      "pos": "RB",
-     "pts": 12.9
+     "pts": 15.9
+    },
+    {
+     "name": "Chuba Hubbard",
+     "pos": "RB",
+     "pts": 15.2
     },
     {
      "name": "Chris Boswell",
      "pos": "K",
-     "pts": 12.7
+     "pts": 12.2
     },
     {
      "name": "Juwan Johnson",
      "pos": "TE",
-     "pts": 4.9
+     "pts": 4.7
     },
     {
      "name": "Eagles D/ST",
      "pos": "D/ST",
-     "pts": 3.5
+     "pts": 3.4
     },
     {
      "name": "Drake London",
      "pos": "FLEX",
-     "pts": 11.9
+     "pts": 16.3
+    }
+   ]
+  },
+  {
+   "id": 1,
+   "name": "Knights who say Ni",
+   "abbrev": "TM1",
+   "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/Blockparty-RobbHars/blockplayers-01.svg",
+   "wins": 4,
+   "losses": 2,
+   "pf": 696.06,
+   "projPerGame": 117.4,
+   "strength": 116.8,
+   "projWins": 8.47,
+   "playoff": 0.4164,
+   "final": 0.1278,
+   "champ": 0.042,
+   "topSeed": 0.0149,
+   "lineup": [
+    {
+     "name": "Puka Nacua",
+     "pos": "WR",
+     "pts": 18.6
+    },
+    {
+     "name": "Brock Purdy",
+     "pos": "QB",
+     "pts": 17.2
+    },
+    {
+     "name": "Javonte Williams",
+     "pos": "RB",
+     "pts": 14.2
+    },
+    {
+     "name": "Chase Brown",
+     "pos": "RB",
+     "pts": 13.2
+    },
+    {
+     "name": "Sam LaPorta",
+     "pos": "TE",
+     "pts": 11.3
+    },
+    {
+     "name": "A.J. Brown",
+     "pos": "WR",
+     "pts": 11.0
+    },
+    {
+     "name": "Chiefs D/ST",
+     "pos": "D/ST",
+     "pts": 8.3
+    },
+    {
+     "name": "Eddy Pineiro",
+     "pos": "K",
+     "pts": 5.7
+    },
+    {
+     "name": "Quinshon Judkins",
+     "pos": "FLEX",
+     "pts": 12.5
     }
    ]
   },
@@ -325,58 +325,58 @@
    "wins": 2,
    "losses": 4,
    "pf": 737.64,
-   "projPerGame": 117.8,
-   "strength": 120.0,
-   "projWins": 5.99,
-   "playoff": 0.1343,
-   "final": 0.045,
-   "champ": 0.0182,
-   "topSeed": 0.0004,
+   "projPerGame": 123.8,
+   "strength": 123.4,
+   "projWins": 6.61,
+   "playoff": 0.1592,
+   "final": 0.0615,
+   "champ": 0.0261,
+   "topSeed": 0.0017,
    "lineup": [
     {
      "name": "Drake Maye",
      "pos": "QB",
-     "pts": 23.9
+     "pts": 22.9
     },
     {
      "name": "Ja'Marr Chase",
      "pos": "WR",
-     "pts": 15.8
-    },
-    {
-     "name": "Kyren Williams",
-     "pos": "RB",
-     "pts": 14.7
+     "pts": 20.0
     },
     {
      "name": "George Kittle",
      "pos": "TE",
-     "pts": 13.6
+     "pts": 15.3
+    },
+    {
+     "name": "Kyren Williams",
+     "pos": "RB",
+     "pts": 14.1
     },
     {
      "name": "Christian Watson",
      "pos": "WR",
-     "pts": 13.0
-    },
-    {
-     "name": "Rico Dowdle",
-     "pos": "RB",
-     "pts": 9.4
+     "pts": 12.5
     },
     {
      "name": "Will Reichard",
      "pos": "K",
-     "pts": 7.7
+     "pts": 11.2
+    },
+    {
+     "name": "Rico Dowdle",
+     "pos": "RB",
+     "pts": 9.0
     },
     {
      "name": "Jets D/ST",
      "pos": "D/ST",
-     "pts": 5.1
+     "pts": 3.9
     },
     {
      "name": "Keenan Allen",
      "pos": "FLEX",
-     "pts": 9.2
+     "pts": 9.8
     }
    ]
   },
@@ -388,28 +388,33 @@
    "wins": 2,
    "losses": 4,
    "pf": 677.96,
-   "projPerGame": 106.9,
-   "strength": 109.5,
-   "projWins": 6.01,
-   "playoff": 0.0829,
-   "final": 0.0219,
-   "champ": 0.0068,
-   "topSeed": 0.0003,
+   "projPerGame": 115.0,
+   "strength": 114.1,
+   "projWins": 5.17,
+   "playoff": 0.0185,
+   "final": 0.0053,
+   "champ": 0.0019,
+   "topSeed": 0.0001,
    "lineup": [
     {
      "name": "Jonathan Taylor",
      "pos": "RB",
-     "pts": 17.1
+     "pts": 18.7
     },
     {
      "name": "Trey McBride",
      "pos": "TE",
-     "pts": 14.6
+     "pts": 14.0
     },
     {
      "name": "Dak Prescott",
      "pos": "QB",
-     "pts": 14.3
+     "pts": 13.7
+    },
+    {
+     "name": "Ollie Gordon II",
+     "pos": "RB",
+     "pts": 13.7
     },
     {
      "name": "Jalen Coker",
@@ -417,29 +422,24 @@
      "pts": 12.8
     },
     {
-     "name": "Ollie Gordon II",
-     "pos": "RB",
-     "pts": 11.5
+     "name": "KC Concepcion",
+     "pos": "WR",
+     "pts": 12.3
     },
     {
      "name": "Trey Smack",
      "pos": "K",
-     "pts": 9.6
-    },
-    {
-     "name": "Malik Washington",
-     "pos": "WR",
-     "pts": 9.1
+     "pts": 9.2
     },
     {
      "name": "Patriots D/ST",
      "pos": "D/ST",
-     "pts": 4.2
+     "pts": 4.1
     },
     {
-     "name": "Jaylen Waddle",
+     "name": "Caleb Douglas",
      "pos": "FLEX",
-     "pts": 8.8
+     "pts": 11.6
     }
    ]
   },
@@ -451,58 +451,58 @@
    "wins": 2,
    "losses": 4,
    "pf": 689.26,
-   "projPerGame": 90.9,
-   "strength": 101.2,
-   "projWins": 6.22,
-   "playoff": 0.1341,
-   "final": 0.0263,
-   "champ": 0.0059,
-   "topSeed": 0.0003,
+   "projPerGame": 89.9,
+   "strength": 100.6,
+   "projWins": 5.62,
+   "playoff": 0.0312,
+   "final": 0.0066,
+   "champ": 0.0017,
+   "topSeed": 0.0,
    "lineup": [
-    {
-     "name": "Matthew Golden",
-     "pos": "WR",
-     "pts": 17.4
-    },
     {
      "name": "C.J. Stroud",
      "pos": "QB",
-     "pts": 15.3
+     "pts": 17.4
+    },
+    {
+     "name": "Matthew Golden",
+     "pos": "WR",
+     "pts": 16.7
     },
     {
      "name": "George Pickens",
      "pos": "WR",
-     "pts": 12.9
+     "pts": 12.4
     },
     {
      "name": "Spencer Shrader",
      "pos": "K",
-     "pts": 8.0
+     "pts": 8.1
     },
     {
      "name": "Pat Freiermuth",
      "pos": "TE",
-     "pts": 6.5
+     "pts": 6.3
     },
     {
      "name": "TreVeyon Henderson",
      "pos": "RB",
-     "pts": 5.6
-    },
-    {
-     "name": "Texans D/ST",
-     "pos": "D/ST",
-     "pts": 4.8
+     "pts": 5.4
     },
     {
      "name": "Bam Knight",
      "pos": "RB",
-     "pts": 4.3
+     "pts": 4.1
+    },
+    {
+     "name": "Texans D/ST",
+     "pos": "D/ST",
+     "pts": 3.8
     },
     {
      "name": "Jaylin Noel",
      "pos": "FLEX",
-     "pts": 9.3
+     "pts": 9.1
     }
    ]
   },
@@ -514,53 +514,53 @@
    "wins": 1,
    "losses": 5,
    "pf": 597.64,
-   "projPerGame": 108.6,
-   "strength": 104.8,
-   "projWins": 4.58,
-   "playoff": 0.0111,
-   "final": 0.0027,
-   "champ": 0.0008,
+   "projPerGame": 108.0,
+   "strength": 104.4,
+   "projWins": 4.39,
+   "playoff": 0.003,
+   "final": 0.0004,
+   "champ": 0.0001,
    "topSeed": 0.0,
    "lineup": [
     {
      "name": "Christian McCaffrey",
      "pos": "RB",
-     "pts": 22.6
+     "pts": 23.1
     },
     {
      "name": "Colston Loveland",
      "pos": "TE",
-     "pts": 16.4
+     "pts": 15.7
     },
     {
      "name": "Aaron Rodgers",
      "pos": "QB",
-     "pts": 15.8
-    },
-    {
-     "name": "Tre Tucker",
-     "pos": "WR",
-     "pts": 15.0
+     "pts": 15.1
     },
     {
      "name": "Justin Jefferson",
      "pos": "WR",
-     "pts": 13.8
+     "pts": 14.9
+    },
+    {
+     "name": "Tre Tucker",
+     "pos": "WR",
+     "pts": 14.4
     },
     {
      "name": "Brandon Aubrey",
      "pos": "K",
-     "pts": 5.6
+     "pts": 5.3
     },
     {
      "name": "David Montgomery",
      "pos": "RB",
-     "pts": 3.2
+     "pts": 3.1
     },
     {
      "name": "Nico Collins",
      "pos": "FLEX",
-     "pts": 11.0
+     "pts": 11.3
     }
    ]
   },
@@ -572,58 +572,58 @@
    "wins": 1,
    "losses": 5,
    "pf": 564.54,
-   "projPerGame": 110.6,
-   "strength": 103.5,
-   "projWins": 4.54,
-   "playoff": 0.0088,
-   "final": 0.0017,
-   "champ": 0.0007,
+   "projPerGame": 108.3,
+   "strength": 102.2,
+   "projWins": 3.93,
+   "playoff": 0.0014,
+   "final": 0.0003,
+   "champ": 0.0001,
    "topSeed": 0.0,
    "lineup": [
     {
      "name": "Jordan Love",
      "pos": "QB",
-     "pts": 18.0
+     "pts": 17.3
     },
     {
      "name": "Jaylen Warren",
      "pos": "RB",
-     "pts": 15.0
-    },
-    {
-     "name": "Rhamondre Stevenson",
-     "pos": "RB",
-     "pts": 12.7
+     "pts": 14.4
     },
     {
      "name": "Carnell Tate",
      "pos": "WR",
-     "pts": 11.7
+     "pts": 12.4
+    },
+    {
+     "name": "Rhamondre Stevenson",
+     "pos": "RB",
+     "pts": 12.2
+    },
+    {
+     "name": "T.J. Hockenson",
+     "pos": "TE",
+     "pts": 11.3
     },
     {
      "name": "Xavier Worthy",
      "pos": "WR",
-     "pts": 11.7
-    },
-    {
-     "name": "Hunter Henry",
-     "pos": "TE",
-     "pts": 11.6
+     "pts": 11.2
     },
     {
      "name": "Matt Gay",
      "pos": "K",
-     "pts": 9.9
+     "pts": 9.5
     },
     {
      "name": "Seahawks D/ST",
      "pos": "D/ST",
-     "pts": 6.6
+     "pts": 6.3
     },
     {
      "name": "Michael Wilson",
      "pos": "FLEX",
-     "pts": 10.6
+     "pts": 10.2
     }
    ]
   }
@@ -632,48 +632,48 @@
   {
    "home": 5,
    "away": 2,
-   "homeWin": 0.0227,
-   "homePts": 37.1,
-   "awayPts": 26.5,
-   "homeProj": 48.5,
-   "awayProj": 87.9
+   "homeWin": 0.0092,
+   "homePts": 53.6,
+   "awayPts": 50.7,
+   "homeProj": 65.0,
+   "awayProj": 112.1
   },
   {
    "home": 6,
    "away": 13,
-   "homeWin": 0.9504,
-   "homePts": 22.8,
-   "awayPts": 39.5,
-   "homeProj": 75.8,
-   "awayProj": 43.9
+   "homeWin": 0.0404,
+   "homePts": 43.7,
+   "awayPts": 124.8,
+   "homeProj": 96.6,
+   "awayProj": 129.2
   },
   {
    "home": 12,
    "away": 4,
-   "homeWin": 0.8289,
-   "homePts": 53.3,
-   "awayPts": 40.4,
-   "homeProj": 112.1,
-   "awayProj": 87.9
+   "homeWin": 0.3791,
+   "homePts": 57.4,
+   "awayPts": 76.4,
+   "homeProj": 116.2,
+   "awayProj": 123.9
   },
   {
    "home": 3,
    "away": 9,
-   "homeWin": 0.2057,
-   "homePts": 37.6,
-   "awayPts": 53.4,
-   "homeProj": 99.2,
-   "awayProj": 120.6
+   "homeWin": 0.5517,
+   "homePts": 69.2,
+   "awayPts": 60.4,
+   "homeProj": 130.8,
+   "awayProj": 127.6
   },
   {
    "home": 11,
    "away": 1,
-   "homeWin": 0.1546,
-   "homePts": 18.8,
-   "awayPts": 23.9,
-   "homeProj": 57.0,
-   "awayProj": 82.8
+   "homeWin": 0.0316,
+   "homePts": 29.1,
+   "awayPts": 55.1,
+   "homeProj": 67.3,
+   "awayProj": 114.0
   }
  ],
- "generated": "2026-10-25T17:36+00:00"
+ "generated": "2026-10-25T19:55+00:00"
 }

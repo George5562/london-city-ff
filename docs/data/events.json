@@ -8652,5 +8652,39 @@
     "after": 0.0068
    }
   ]
+ },
+ {
+  "id": "injury-4426515-2026-10-25T19:30:00Z",
+  "kind": "I",
+  "at": "2026-10-25T19:30:00Z",
+  "teams": [
+   1
+  ],
+  "text": "Knights who say Ni: Puka Nacua is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.0508,
+    "after": 0.042
+   }
+  ]
+ },
+ {
+  "id": "injury-3042519-2026-10-25T19:30:00Z",
+  "kind": "I",
+  "at": "2026-10-25T19:30:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Goats: Aaron Jones Sr. is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.1567,
+    "after": 0.1611
+   }
+  ]
  }
 ]

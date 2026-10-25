@@ -50546,6 +50546,371 @@
      }
     }
    }
+  },
+  {
+   "date": "2026-10-25",
+   "label": "Week 7 \u00b7 19:30 UTC",
+   "week": 7,
+   "backfilled": false,
+   "teams": {
+    "9": {
+     "champ": 0.4788,
+     "playoff": 0.9884,
+     "projWins": 11.66
+    },
+    "2": {
+     "champ": 0.1656,
+     "playoff": 0.7921,
+     "projWins": 9.52
+    },
+    "3": {
+     "champ": 0.1611,
+     "playoff": 0.897,
+     "projWins": 10.52
+    },
+    "13": {
+     "champ": 0.1226,
+     "playoff": 0.6928,
+     "projWins": 9.12
+    },
+    "1": {
+     "champ": 0.042,
+     "playoff": 0.4164,
+     "projWins": 8.47
+    },
+    "4": {
+     "champ": 0.0261,
+     "playoff": 0.1592,
+     "projWins": 6.61
+    },
+    "6": {
+     "champ": 0.0019,
+     "playoff": 0.0185,
+     "projWins": 5.17
+    },
+    "11": {
+     "champ": 0.0017,
+     "playoff": 0.0312,
+     "projWins": 5.62
+    },
+    "5": {
+     "champ": 0.0001,
+     "playoff": 0.003,
+     "projWins": 4.39
+    },
+    "12": {
+     "champ": 0.0001,
+     "playoff": 0.0014,
+     "projWins": 3.93
+    }
+   },
+   "at": "2026-10-25T19:30:00Z",
+   "changes": {
+    "9": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0434,
+     "text": "Tee Higgins now has 26.8 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "actual: Tee Higgins 0.0 -> 26.8",
+      "actual: Ka'imi Fairbairn 5.0 -> 10.0",
+      "injury: Aaron Jones Sr. ACTIVE -> QUESTIONABLE",
+      "actual: Jordan Mason 2.2 -> 6.8",
+      "actual: Browns D/ST 4.0 -> 6.0",
+      "actual: Chris Godwin Jr. 0.0 -> 6.7",
+      "actual: 49ers D/ST 9.0 -> 2.0",
+      "injury: Tyrone Tracy Jr. ACTIVE -> QUESTIONABLE"
+     ],
+     "showTooltip": true
+    },
+    "2": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0425,
+     "text": "Garrett Wilson\u2019s forecast moved from 15.1312 to 15.1416 fantasy points, raising their expected scoring contribution.",
+     "facts": [
+      "injury: Puka Nacua QUESTIONABLE -> ACTIVE",
+      "projection: Garrett Wilson 15.1312115 -> 15.14161729",
+      "actual: Garrett Wilson 0.0 -> 4.6",
+      "actual: Bucky Irving 12.4 -> 24.0",
+      "actual: Vikings D/ST 8.0 -> 11.0",
+      "injury: Aaron Jones Sr. ACTIVE -> QUESTIONABLE",
+      "actual: Bryce Young 0.4 -> 5.42",
+      "projection: J.K. Dobbins 13.44712419 -> 13.44654268"
+     ],
+     "showTooltip": true
+    },
+    "13": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.0927,
+     "text": "Bijan Robinson now has 16.6 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "injury: Puka Nacua QUESTIONABLE -> ACTIVE",
+      "actual: Bijan Robinson 2.5 -> 16.6",
+      "actual: Derrick Henry 2.3 -> 5.9",
+      "actual: Drake London 0.0 -> 19.6",
+      "actual: Malik Nabers 7.0 -> 13.4",
+      "actual: Zay Flowers 13.6 -> 27.7",
+      "actual: Joe Burrow 1.38 -> 28.88",
+      "actual: Chuba Hubbard 2.5 -> 10.0"
+     ],
+     "showTooltip": true
+    },
+    "1": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0088,
+     "text": "Puka Nacua\u2019s forecast moved from 22.5535 to 22.5516 fantasy points, lowering their expected scoring contribution.",
+     "facts": [
+      "injury: Puka Nacua QUESTIONABLE -> ACTIVE",
+      "projection: Puka Nacua 22.55348655 -> 22.55157252",
+      "projection: Brock Purdy 20.42897351 -> 20.42755491",
+      "actual: Brock Purdy 3.0 -> 12.1",
+      "actual: Chase Brown 1.8 -> 9.8",
+      "actual: Quinshon Judkins 10.3 -> 23.4",
+      "actual: Spencer Shrader 1.0 -> 3.0",
+      "projection: RJ Harvey 11.42955382 -> 11.42791135"
+     ],
+     "showTooltip": true
+    },
+    "4": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.0079,
+     "text": "Ja'Marr Chase now has 17.2 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "actual: Ja'Marr Chase 1.9 -> 17.2",
+      "injury: Puka Nacua QUESTIONABLE -> ACTIVE",
+      "projection: Kyren Williams 19.67761743 -> 19.6767893",
+      "projection: George Kittle 16.66146579 -> 16.66123671",
+      "actual: George Kittle 4.8 -> 13.7",
+      "injury: Aaron Jones Sr. ACTIVE -> QUESTIONABLE",
+      "actual: Will Reichard 0.0 -> 12.0",
+      "projection: Jets D/ST 7.29309214 -> 7.16268981"
+     ],
+     "showTooltip": true
+    }
+   },
+   "explanations": {
+    "9": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Tee Higgins now has 26.8 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.0434,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Tee Higgins now has 26.8 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.0084,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Tee Higgins now has 26.8 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.38,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "2": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Garrett Wilson\u2019s forecast moved from 15.1312 to 15.1416 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.0425,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Garrett Wilson\u2019s forecast moved from 15.1312 to 15.1416 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.0954,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Garrett Wilson\u2019s forecast moved from 15.1312 to 15.1416 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.14,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "3": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.018,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.32,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "13": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Bijan Robinson now has 16.6 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.0927,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Bijan Robinson now has 16.6 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.415,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Bijan Robinson now has 16.6 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 1.77,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "1": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Puka Nacua\u2019s forecast moved from 22.5535 to 22.5516 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.0088,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Puka Nacua\u2019s forecast moved from 22.5535 to 22.5516 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.1354,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "4": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Ja'Marr Chase now has 17.2 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.0079,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Ja'Marr Chase now has 17.2 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.0249,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Ja'Marr Chase now has 17.2 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.62,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "6": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.0644,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.84,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "11": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.1029,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.6,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "5": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.0081,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.19,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "12": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.0074,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.61,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    }
+   }
   }
  ]
 }
