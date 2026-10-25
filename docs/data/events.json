@@ -8686,5 +8686,39 @@
     "after": 0.1611
    }
   ]
+ },
+ {
+  "id": "injury-4696981-2026-10-25T22:00:00Z",
+  "kind": "I",
+  "at": "2026-10-25T22:00:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Cardigan's Boys: Cam Skattebo is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0001,
+    "after": 0.0001
+   }
+  ]
+ },
+ {
+  "id": "injury-4586312-2026-10-25T22:00:00Z",
+  "kind": "I",
+  "at": "2026-10-25T22:00:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: Jaylin Noel is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0017,
+    "after": 0.0014
+   }
+  ]
  }
 ]

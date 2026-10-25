@@ -50911,6 +50911,291 @@
      }
     }
    }
+  },
+  {
+   "date": "2026-10-25",
+   "label": "Week 7 \u00b7 22:00 UTC",
+   "week": 7,
+   "backfilled": false,
+   "teams": {
+    "9": {
+     "champ": 0.5028,
+     "playoff": 0.996,
+     "projWins": 12.17
+    },
+    "2": {
+     "champ": 0.1482,
+     "playoff": 0.7699,
+     "projWins": 9.38
+    },
+    "3": {
+     "champ": 0.1444,
+     "playoff": 0.8632,
+     "projWins": 10.08
+    },
+    "13": {
+     "champ": 0.1319,
+     "playoff": 0.7407,
+     "projWins": 9.21
+    },
+    "1": {
+     "champ": 0.0464,
+     "playoff": 0.4398,
+     "projWins": 8.51
+    },
+    "4": {
+     "champ": 0.0225,
+     "playoff": 0.1433,
+     "projWins": 6.45
+    },
+    "6": {
+     "champ": 0.0024,
+     "playoff": 0.0168,
+     "projWins": 5.15
+    },
+    "11": {
+     "champ": 0.0014,
+     "playoff": 0.0239,
+     "projWins": 5.42
+    },
+    "5": {
+     "champ": 0.0001,
+     "playoff": 0.0037,
+     "projWins": 4.38
+    },
+    "12": {
+     "champ": 0.0001,
+     "playoff": 0.0028,
+     "projWins": 4.23
+    }
+   },
+   "at": "2026-10-25T22:00:00Z",
+   "changes": {
+    "9": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.024,
+     "text": "Amon-Ra St. Brown now has 21.8 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "actual: Amon-Ra St. Brown None -> 21.8",
+      "actual: Ka'imi Fairbairn 10.0 -> 11.0",
+      "injury: Cam Skattebo ACTIVE -> QUESTIONABLE",
+      "actual: Josh Jacobs None -> 14.4",
+      "actual: Browns D/ST 6.0 -> 5.0",
+      "injury: Jaylin Noel ACTIVE -> QUESTIONABLE",
+      "actual: Bengals D/ST 9.0 -> 8.0"
+     ],
+     "showTooltip": true
+    },
+    "2": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0174,
+     "text": "Brock Bowers now has 5.7 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "actual: Brock Bowers None -> 5.7",
+      "actual: Davante Adams None -> 0.0",
+      "injury: Cam Skattebo ACTIVE -> QUESTIONABLE",
+      "actual: J.K. Dobbins None -> 2.2",
+      "actual: 49ers D/ST 2.0 -> 1.0",
+      "actual: Titans D/ST 2.0 -> 0.0",
+      "actual: Giants D/ST 5.0 -> 3.0",
+      "actual: Isaac TeSlaa None -> 2.0"
+     ],
+     "showTooltip": true
+    },
+    "3": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0167,
+     "text": "Jahmyr Gibbs now has 8.3 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "actual: Jahmyr Gibbs None -> 8.3",
+      "actual: Ashton Jeanty None -> 11.1",
+      "actual: Matthew Stafford None -> 17.88",
+      "injury: Cam Skattebo ACTIVE -> QUESTIONABLE",
+      "actual: Texans D/ST 3.0 -> 0.0",
+      "actual: Tony Pollard 30.4 -> 36.5",
+      "actual: Harold Fannin Jr. 8.5 -> 13.1",
+      "actual: Giants D/ST 5.0 -> 3.0"
+     ],
+     "showTooltip": true
+    },
+    "13": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.0093,
+     "text": "Bijan Robinson now has 17.2 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "actual: Bijan Robinson 16.6 -> 17.2",
+      "actual: Malik Nabers 13.4 -> 18.1",
+      "injury: Cam Skattebo ACTIVE -> QUESTIONABLE",
+      "actual: Woody Marks 5.0 -> 9.1",
+      "actual: Blake Corum None -> 6.2",
+      "actual: Courtland Sutton None -> 4.6",
+      "injury: Jaylin Noel ACTIVE -> QUESTIONABLE"
+     ],
+     "showTooltip": true
+    }
+   },
+   "explanations": {
+    "9": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Amon-Ra St. Brown now has 21.8 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.024,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Amon-Ra St. Brown now has 21.8 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.0076,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Amon-Ra St. Brown now has 21.8 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.51,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "2": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Brock Bowers now has 5.7 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.0174,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Brock Bowers now has 5.7 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.0222,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Brock Bowers now has 5.7 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.14,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "3": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Jahmyr Gibbs now has 8.3 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.0167,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Jahmyr Gibbs now has 8.3 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.0338,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Jahmyr Gibbs now has 8.3 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.44,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "13": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Bijan Robinson now has 17.2 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.0093,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Bijan Robinson now has 17.2 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.0479,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "1": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0234,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "4": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.0159,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.16,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "11": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.0073,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.2,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "12": {
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.3,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    }
+   }
   }
  ]
 }
