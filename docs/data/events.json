@@ -8737,5 +8737,90 @@
     "after": 0.0017
    }
   ]
+ },
+ {
+  "id": "injury-4374302-2026-10-26T23:00:00Z",
+  "kind": "I",
+  "at": "2026-10-26T23:00:00Z",
+  "teams": [
+   9
+  ],
+  "text": "GiantPunt: Amon-Ra St. Brown is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.4535,
+    "after": 0.4535
+   }
+  ]
+ },
+ {
+  "id": "injury-3117251-2026-10-26T23:00:00Z",
+  "kind": "I",
+  "at": "2026-10-26T23:00:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Love hurts: Christian McCaffrey is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0001,
+    "after": 0.0001
+   }
+  ]
+ },
+ {
+  "id": "injury-3929630-2026-10-26T23:00:00Z",
+  "kind": "I",
+  "at": "2026-10-26T23:00:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Saquon Barkley is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0245,
+    "after": 0.0245
+   }
+  ]
+ },
+ {
+  "id": "injury-4701936-2026-10-26T23:00:00Z",
+  "kind": "I",
+  "at": "2026-10-26T23:00:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: Matthew Golden is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0008,
+    "after": 0.0008
+   }
+  ]
+ },
+ {
+  "id": "injury-4695883-2026-10-26T23:00:00Z",
+  "kind": "I",
+  "at": "2026-10-26T23:00:00Z",
+  "teams": [
+   6
+  ],
+  "text": "The Le Chable Dolphins: Jalen Coker is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.0016,
+    "after": 0.0016
+   }
+  ]
  }
 ]
