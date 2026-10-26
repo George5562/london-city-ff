@@ -51196,6 +51196,310 @@
      }
     }
    }
+  },
+  {
+   "date": "2026-10-26",
+   "label": "Week 7 \u00b7 00:30 UTC",
+   "week": 7,
+   "backfilled": false,
+   "teams": {
+    "9": {
+     "champ": 0.4511,
+     "playoff": 0.9821,
+     "projWins": 11.11
+    },
+    "3": {
+     "champ": 0.2017,
+     "playoff": 0.9495,
+     "projWins": 11.11
+    },
+    "13": {
+     "champ": 0.1342,
+     "playoff": 0.6966,
+     "projWins": 9.17
+    },
+    "2": {
+     "champ": 0.1211,
+     "playoff": 0.6653,
+     "projWins": 9.11
+    },
+    "1": {
+     "champ": 0.0519,
+     "playoff": 0.4379,
+     "projWins": 8.59
+    },
+    "4": {
+     "champ": 0.0363,
+     "playoff": 0.2223,
+     "projWins": 7.09
+    },
+    "6": {
+     "champ": 0.0017,
+     "playoff": 0.0178,
+     "projWins": 5.26
+    },
+    "11": {
+     "champ": 0.0015,
+     "playoff": 0.023,
+     "projWins": 5.42
+    },
+    "5": {
+     "champ": 0.0004,
+     "playoff": 0.005,
+     "projWins": 4.54
+    },
+    "12": {
+     "champ": 0.0001,
+     "playoff": 0.0006,
+     "projWins": 3.59
+    }
+   },
+   "at": "2026-10-26T00:30:00Z",
+   "changes": {
+    "9": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0517,
+     "text": "Amon-Ra St. Brown now has 24.2 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "actual: Amon-Ra St. Brown 21.8 -> 24.2",
+      "actual: Kenneth Walker III None -> 1.9",
+      "actual: Travis Kelce None -> 0.0",
+      "actual: Josh Jacobs 14.4 -> 20.1",
+      "actual: Emanuel Wilson None -> 0.9",
+      "actual: Jadarian Price None -> 0.0",
+      "actual: Jake Bates 6.0 -> 9.0",
+      "injury: Drew Lock QUESTIONABLE -> OUT"
+     ],
+     "showTooltip": true
+    },
+    "3": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.0573,
+     "text": "Jahmyr Gibbs now has 17.3 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "actual: Jahmyr Gibbs 8.3 -> 17.3",
+      "actual: Ashton Jeanty 11.1 -> 21.6",
+      "actual: Matthew Stafford 17.88 -> 17.5",
+      "actual: Broncos D/ST 7.0 -> 3.0",
+      "actual: Cardinals D/ST 3.0 -> -1.0"
+     ],
+     "showTooltip": true
+    },
+    "2": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0271,
+     "text": "Jaxon Smith-Njigba now has 2.4 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "actual: Jaxon Smith-Njigba None -> 2.4",
+      "actual: Brock Bowers 5.7 -> 13.3",
+      "injury: Jaylen Waddle ACTIVE -> QUESTIONABLE",
+      "actual: Jason Myers None -> 0.0",
+      "actual: J.K. Dobbins 2.2 -> 8.3",
+      "actual: Packers D/ST 6.0 -> 2.0",
+      "injury: Drew Lock QUESTIONABLE -> OUT",
+      "injury: Robert Henry Jr. ACTIVE -> OUT"
+     ],
+     "showTooltip": true
+    },
+    "1": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.0055,
+     "text": "Puka Nacua now has 21.8 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "actual: Puka Nacua 20.0 -> 21.8",
+      "actual: Sam LaPorta 0.0 -> 2.8",
+      "injury: Jaylen Waddle ACTIVE -> QUESTIONABLE",
+      "actual: RJ Harvey 13.9 -> 14.0",
+      "actual: Rams D/ST 7.0 -> 1.0",
+      "actual: Chiefs D/ST None -> 10.0",
+      "actual: Trey Smack 1.0 -> 4.0",
+      "actual: Raiders D/ST 4.0 -> 1.0"
+     ],
+     "showTooltip": true
+    },
+    "4": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.0138,
+     "text": "Kyren Williams now has 18.1 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "actual: Kyren Williams 14.2 -> 18.1",
+      "actual: Christian Watson 7.3 -> 10.7",
+      "actual: Patrick Mahomes None -> 0.96",
+      "actual: Tucker Kraft 13.3 -> 14.8",
+      "actual: Tyler Allgeier 4.6 -> 7.9",
+      "actual: Lions D/ST 4.0 -> 6.0",
+      "actual: Trey Smack 1.0 -> 4.0",
+      "actual: Raiders D/ST 4.0 -> 1.0"
+     ],
+     "showTooltip": true
+    }
+   },
+   "explanations": {
+    "9": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Amon-Ra St. Brown now has 24.2 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.0517,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Amon-Ra St. Brown now has 24.2 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.0139,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Amon-Ra St. Brown now has 24.2 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -1.06,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "3": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Jahmyr Gibbs now has 17.3 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.0573,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Jahmyr Gibbs now has 17.3 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.0863,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Jahmyr Gibbs now has 17.3 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 1.03,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "13": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.0441,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "2": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Jaxon Smith-Njigba now has 2.4 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.0271,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Jaxon Smith-Njigba now has 2.4 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.1046,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Jaxon Smith-Njigba now has 2.4 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.27,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "1": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Puka Nacua now has 21.8 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.0055,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "4": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Kyren Williams now has 18.1 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.0138,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Kyren Williams now has 18.1 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.079,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Kyren Williams now has 18.1 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.64,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "6": {
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.11,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "5": {
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.16,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "12": {
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.64,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    }
+   }
   }
  ]
 }
