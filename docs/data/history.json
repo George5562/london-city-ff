@@ -51829,6 +51829,169 @@
    },
    "at": "2026-10-26T12:30:00Z",
    "explanations": {}
+  },
+  {
+   "date": "2026-10-26",
+   "label": "Week 7 \u00b7 19:00 UTC",
+   "week": 7,
+   "backfilled": false,
+   "teams": {
+    "9": {
+     "champ": 0.4535,
+     "playoff": 0.9871,
+     "projWins": 11.4
+    },
+    "2": {
+     "champ": 0.1853,
+     "playoff": 0.8202,
+     "projWins": 9.64
+    },
+    "3": {
+     "champ": 0.18,
+     "playoff": 0.9329,
+     "projWins": 10.91
+    },
+    "13": {
+     "champ": 0.123,
+     "playoff": 0.695,
+     "projWins": 9.16
+    },
+    "1": {
+     "champ": 0.0312,
+     "playoff": 0.3431,
+     "projWins": 8.32
+    },
+    "4": {
+     "champ": 0.0245,
+     "playoff": 0.1769,
+     "projWins": 6.91
+    },
+    "6": {
+     "champ": 0.0016,
+     "playoff": 0.0168,
+     "projWins": 5.28
+    },
+    "11": {
+     "champ": 0.0008,
+     "playoff": 0.025,
+     "projWins": 5.51
+    },
+    "5": {
+     "champ": 0.0001,
+     "playoff": 0.0026,
+     "projWins": 4.28
+    },
+    "12": {
+     "champ": 0.0,
+     "playoff": 0.0004,
+     "projWins": 3.57
+    }
+   },
+   "at": "2026-10-26T19:00:00Z",
+   "explanations": {
+    "9": {
+     "champ": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.0088,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "2": {
+     "champ": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0092,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0051,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "13": {
+     "champ": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.008,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0207,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "1": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.0155,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "4": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.0203,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.12,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "11": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0058,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.15,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "5": {
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.11,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    }
+   }
   }
  ]
 }
