@@ -52538,6 +52538,253 @@
      }
     }
    }
+  },
+  {
+   "date": "2026-10-27",
+   "label": "Week 8 \u00b7 14:30 UTC",
+   "week": 8,
+   "backfilled": false,
+   "teams": {
+    "9": {
+     "champ": 0.4453,
+     "playoff": 0.9744,
+     "projWins": 11.07
+    },
+    "3": {
+     "champ": 0.1831,
+     "playoff": 0.9216,
+     "projWins": 11.03
+    },
+    "2": {
+     "champ": 0.1546,
+     "playoff": 0.7005,
+     "projWins": 9.34
+    },
+    "13": {
+     "champ": 0.1044,
+     "playoff": 0.7366,
+     "projWins": 9.57
+    },
+    "1": {
+     "champ": 0.0703,
+     "playoff": 0.4366,
+     "projWins": 8.79
+    },
+    "4": {
+     "champ": 0.0386,
+     "playoff": 0.2077,
+     "projWins": 7.26
+    },
+    "6": {
+     "champ": 0.0026,
+     "playoff": 0.0151,
+     "projWins": 5.36
+    },
+    "11": {
+     "champ": 0.0009,
+     "playoff": 0.0066,
+     "projWins": 5.01
+    },
+    "5": {
+     "champ": 0.0001,
+     "playoff": 0.0004,
+     "projWins": 3.85
+    },
+    "12": {
+     "champ": 0.0,
+     "playoff": 0.0004,
+     "projWins": 3.71
+    }
+   },
+   "at": "2026-10-27T14:30:00Z",
+   "changes": {
+    "9": {
+     "cause": "roster_availability",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0204,
+     "text": "Amon-Ra St. Brown\u2019s forecast moved from 17.8103 to 17.8038 fantasy points, lowering their expected scoring contribution.",
+     "facts": [
+      "projection: Amon-Ra St. Brown 17.81032231 -> 17.80376892",
+      "projection: CeeDee Lamb 19.43399734 -> 19.96681201",
+      "projection: Kenneth Walker III 19.86065785 -> 19.85407769",
+      "projection: D'Andre Swift 13.003985 -> 12.99227727",
+      "projection: Tee Higgins 15.31198562 -> 15.31341519",
+      "injury: Tyler Warren OUT -> QUESTIONABLE",
+      "projection: Tyler Warren 11.45431727 -> 11.45129233",
+      "injury: Emeka Egbuka OUT -> QUESTIONABLE"
+     ],
+     "showTooltip": true
+    },
+    "3": {
+     "cause": "roster_availability",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0066,
+     "text": "Jahmyr Gibbs\u2019s forecast moved from 24.5973 to 24.5876 fantasy points, lowering their expected scoring contribution.",
+     "facts": [
+      "projection: Jahmyr Gibbs 24.59733988 -> 24.58756636",
+      "projection: Ashton Jeanty 16.80111078 -> 16.79678865",
+      "projection: Tetairoa McMillan 15.63203555 -> 15.63495932",
+      "injury: Lamar Jackson OUT -> QUESTIONABLE",
+      "projection: Lamar Jackson 22.15184458 -> 22.15023332",
+      "injury: DeVonta Smith OUT -> QUESTIONABLE",
+      "projection: DeVonta Smith 15.4652826 -> 15.01910791",
+      "injury: Rashee Rice OUT -> QUESTIONABLE"
+     ],
+     "showTooltip": true
+    },
+    "13": {
+     "cause": "external_opportunity",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0085,
+     "text": "Bijan Robinson\u2019s forecast moved from 19.2595 to 19.2392 fantasy points, lowering their expected scoring contribution.",
+     "facts": [
+      "projection: Bijan Robinson 19.25952024 -> 19.23920731",
+      "projection: Derrick Henry 18.80728262 -> 18.79849623",
+      "projection: Drake London 18.05820723 -> 18.06004165",
+      "projection: Zay Flowers 20.13992645 -> 20.14118588",
+      "injury: Lamar Jackson OUT -> QUESTIONABLE",
+      "projection: Joe Burrow 22.13538421 -> 22.13741485",
+      "injury: DeVonta Smith OUT -> QUESTIONABLE",
+      "projection: Chuba Hubbard 15.34409644 -> 15.32126896"
+     ],
+     "showTooltip": true
+    },
+    "1": {
+     "cause": "roster_move",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.0308,
+     "text": "Puka Nacua\u2019s forecast moved from 22.4144 to 22.4187 fantasy points, raising their expected scoring contribution.",
+     "facts": [
+      "projection: Puka Nacua 22.41437046 -> 22.4186779",
+      "projection: Javonte Williams 19.34919459 -> 19.85230847",
+      "roster_move: Brock Purdy 1 -> 1",
+      "projection: Chase Brown 16.66216953 -> 16.65730272",
+      "projection: Sam LaPorta 10.74103787 -> 10.73713056",
+      "roster_move: A.J. Brown 1 -> 1",
+      "projection: A.J. Brown 15.94177015 -> 15.94833144",
+      "injury: Jeremiyah Love OUT -> QUESTIONABLE"
+     ],
+     "showTooltip": true
+    }
+   },
+   "explanations": {
+    "9": {
+     "champ": {
+      "cause": "roster_availability",
+      "text": "Amon-Ra St. Brown\u2019s forecast moved from 17.8103 to 17.8038 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.0204,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "3": {
+     "champ": {
+      "cause": "roster_availability",
+      "text": "Jahmyr Gibbs\u2019s forecast moved from 24.5973 to 24.5876 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.0066,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "roster_availability",
+      "text": "Jahmyr Gibbs\u2019s forecast moved from 24.5973 to 24.5876 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.0063,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "2": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0209,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "13": {
+     "champ": {
+      "cause": "external_opportunity",
+      "text": "Bijan Robinson\u2019s forecast moved from 19.2595 to 19.2392 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.0085,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "external_opportunity",
+      "text": "Bijan Robinson\u2019s forecast moved from 19.2595 to 19.2392 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.0327,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "1": {
+     "champ": {
+      "cause": "roster_move",
+      "text": "Puka Nacua\u2019s forecast moved from 22.4144 to 22.4187 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.0308,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "roster_move",
+      "text": "Puka Nacua\u2019s forecast moved from 22.4144 to 22.4187 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.0923,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "roster_move",
+      "text": "Puka Nacua\u2019s forecast moved from 22.4144 to 22.4187 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.33,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "4": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0214,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "11": {
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.37,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "12": {
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.18,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    }
+   }
   }
  ]
 }

@@ -8951,5 +8951,481 @@
     "after": 0.1897
    }
   ]
+ },
+ {
+  "id": "injury-3916387-2026-10-27T14:30:00Z",
+  "kind": "I",
+  "at": "2026-10-27T14:30:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Goats: Lamar Jackson is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.1897,
+    "after": 0.1831
+   }
+  ]
+ },
+ {
+  "id": "injury-4241478-2026-10-27T14:30:00Z",
+  "kind": "I",
+  "at": "2026-10-27T14:30:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Goats: DeVonta Smith is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.1897,
+    "after": 0.1831
+   }
+  ]
+ },
+ {
+  "id": "injury-4427366-2026-10-27T14:30:00Z",
+  "kind": "I",
+  "at": "2026-10-27T14:30:00Z",
+  "teams": [
+   6
+  ],
+  "text": "The Le Chable Dolphins: Breece Hall is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.0019,
+    "after": 0.0026
+   }
+  ]
+ },
+ {
+  "id": "injury-4431459-2026-10-27T14:30:00Z",
+  "kind": "I",
+  "at": "2026-10-27T14:30:00Z",
+  "teams": [
+   9
+  ],
+  "text": "GiantPunt: Tyler Warren is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.4657,
+    "after": 0.4453
+   }
+  ]
+ },
+ {
+  "id": "injury-4870808-2026-10-27T14:30:00Z",
+  "kind": "I",
+  "at": "2026-10-27T14:30:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Jeremiyah Love is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0352,
+    "after": 0.0386
+   }
+  ]
+ },
+ {
+  "id": "injury-4567750-2026-10-27T14:30:00Z",
+  "kind": "I",
+  "at": "2026-10-27T14:30:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Emeka Egbuka is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0352,
+    "after": 0.0386
+   }
+  ]
+ },
+ {
+  "id": "injury-4428331-2026-10-27T14:30:00Z",
+  "kind": "I",
+  "at": "2026-10-27T14:30:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Love hurts: Rashee Rice is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0,
+    "after": 0.0001
+   }
+  ]
+ },
+ {
+  "id": "injury-16737-2026-10-27T14:30:00Z",
+  "kind": "I",
+  "at": "2026-10-27T14:30:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Mike Evans is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0352,
+    "after": 0.0386
+   }
+  ]
+ },
+ {
+  "id": "injury-4035538-2026-10-27T14:30:00Z",
+  "kind": "I",
+  "at": "2026-10-27T14:30:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Love hurts: David Montgomery is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0,
+    "after": 0.0001
+   }
+  ]
+ },
+ {
+  "id": "injury-4608686-2026-10-27T14:30:00Z",
+  "kind": "I",
+  "at": "2026-10-27T14:30:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Love hurts: Kyle Monangai is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0,
+    "after": 0.0001
+   }
+  ]
+ },
+ {
+  "id": "injury-4426385-2026-10-27T14:30:00Z",
+  "kind": "I",
+  "at": "2026-10-27T14:30:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Zach Charbonnet is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0352,
+    "after": 0.0386
+   }
+  ]
+ },
+ {
+  "id": "injury-4360238-2026-10-27T14:30:00Z",
+  "kind": "I",
+  "at": "2026-10-27T14:30:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Dameon Pierce is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0352,
+    "after": 0.0386
+   }
+  ]
+ },
+ {
+  "id": "injury-4241474-2026-10-27T14:30:00Z",
+  "kind": "I",
+  "at": "2026-10-27T14:30:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Cardigan's Boys: Brian Robinson Jr. is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0,
+    "after": 0.0
+   }
+  ]
+ },
+ {
+  "id": "trade-54b72bcc-7ec9-4dc6-b8fc-db8ac700494c",
+  "kind": "T",
+  "at": "2026-10-27T14:30:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Added Rams D/ST; dropped Texans D/ST.",
+  "moves": [
+   {
+    "player": "Rams D/ST",
+    "position": "D/ST",
+    "action": "add"
+   },
+   {
+    "player": "Texans D/ST",
+    "position": "D/ST",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0003,
+    "after": 0.0009
+   }
+  ]
+ },
+ {
+  "id": "trade-853ce210-46e2-4e5c-be2a-200cf6dc4a2c",
+  "kind": "T",
+  "at": "2026-10-27T14:30:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Added Commanders D/ST.",
+  "moves": [
+   {
+    "player": "Commanders D/ST",
+    "position": "D/ST",
+    "action": "add"
+   }
+  ],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0352,
+    "after": 0.0386
+   }
+  ]
+ },
+ {
+  "id": "trade-042f484e-8778-47cd-8c14-7fce1eec61c4",
+  "kind": "T",
+  "at": "2026-10-27T14:30:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Added Omar Cooper Jr.; dropped C.J. Stroud.",
+  "moves": [
+   {
+    "player": "Omar Cooper Jr.",
+    "position": "WR",
+    "action": "add"
+   },
+   {
+    "player": "C.J. Stroud",
+    "position": "QB",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0003,
+    "after": 0.0009
+   }
+  ]
+ },
+ {
+  "id": "trade-da44ea0d-b897-4cf5-bcda-40f2bfc72a29",
+  "kind": "T",
+  "at": "2026-10-27T14:30:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Added Rachaad White (RB); dropped Jaylin Noel (WR).",
+  "moves": [
+   {
+    "player": "Rachaad White",
+    "position": "RB",
+    "action": "add"
+   },
+   {
+    "player": "Jaylin Noel",
+    "position": "WR",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0003,
+    "after": 0.0009
+   }
+  ]
+ },
+ {
+  "id": "trade-59bce9a2-708c-47c2-a83b-49ac1c408a12",
+  "kind": "T",
+  "at": "2026-10-27T14:30:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Dropped Jets D/ST.",
+  "moves": [
+   {
+    "player": "Jets D/ST",
+    "position": "D/ST",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0352,
+    "after": 0.0386
+   }
+  ]
+ },
+ {
+  "id": "trade-d8a294b1-1204-4b7a-b3b4-edce5d1da0a5",
+  "kind": "T",
+  "at": "2026-10-27T14:30:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Added Brenton Strange (TE); dropped Pat Freiermuth (TE).",
+  "moves": [
+   {
+    "player": "Brenton Strange",
+    "position": "TE",
+    "action": "add"
+   },
+   {
+    "player": "Pat Freiermuth",
+    "position": "TE",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0003,
+    "after": 0.0009
+   }
+  ]
+ },
+ {
+  "id": "trade-9c99fecc-f573-471e-bc3f-de180bde16a8",
+  "kind": "T",
+  "at": "2026-10-27T14:30:00Z",
+  "teams": [
+   1
+  ],
+  "text": "Dropped Josh Downs.",
+  "moves": [
+   {
+    "player": "Josh Downs",
+    "position": "WR",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.0395,
+    "after": 0.0703
+   }
+  ]
+ },
+ {
+  "id": "trade-4e1baec8-ba07-4746-b831-9480acd2f966",
+  "kind": "T",
+  "at": "2026-10-27T14:30:00Z",
+  "teams": [
+   1
+  ],
+  "text": "Added Chad Ryland; dropped Eddy Pineiro.",
+  "moves": [
+   {
+    "player": "Chad Ryland",
+    "position": "K",
+    "action": "add"
+   },
+   {
+    "player": "Eddy Pineiro",
+    "position": "K",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.0395,
+    "after": 0.0703
+   }
+  ]
+ },
+ {
+  "id": "trade-335da6d3-a71f-43ef-92d3-45167b6b9e71",
+  "kind": "T",
+  "at": "2026-10-27T14:30:00Z",
+  "teams": [
+   1
+  ],
+  "text": "Added Trevor Lawrence.",
+  "moves": [
+   {
+    "player": "Trevor Lawrence",
+    "position": "QB",
+    "action": "add"
+   }
+  ],
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.0395,
+    "after": 0.0703
+   }
+  ]
+ },
+ {
+  "id": "trade-7f60effe-b72f-4ecc-a692-5993e2cad599",
+  "kind": "T",
+  "at": "2026-10-27T14:30:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Added Zach Charbonnet.",
+  "moves": [
+   {
+    "player": "Zach Charbonnet",
+    "position": "RB",
+    "action": "add"
+   }
+  ],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0352,
+    "after": 0.0386
+   }
+  ]
  }
 ]
