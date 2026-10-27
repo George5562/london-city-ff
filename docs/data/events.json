@@ -9461,5 +9461,33 @@
     "after": 0.4453
    }
   ]
+ },
+ {
+  "id": "trade-34536b93-16ae-4b86-a11a-8ad4a4167014",
+  "kind": "T",
+  "at": "2026-10-27T23:30:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Added Jonah Coleman; dropped J.K. Dobbins.",
+  "moves": [
+   {
+    "player": "Jonah Coleman",
+    "position": "RB",
+    "action": "add"
+   },
+   {
+    "player": "J.K. Dobbins",
+    "position": "RB",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.1546,
+    "after": 0.1547
+   }
+  ]
  }
 ]
