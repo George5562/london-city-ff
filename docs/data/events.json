@@ -9427,5 +9427,39 @@
     "after": 0.0386
    }
   ]
+ },
+ {
+  "id": "injury-4695883-2026-10-27T20:00:00Z",
+  "kind": "I",
+  "at": "2026-10-27T20:00:00Z",
+  "teams": [
+   6
+  ],
+  "text": "The Le Chable Dolphins: Jalen Coker is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.0026,
+    "after": 0.0026
+   }
+  ]
+ },
+ {
+  "id": "injury-4047365-2026-10-27T20:00:00Z",
+  "kind": "I",
+  "at": "2026-10-27T20:00:00Z",
+  "teams": [
+   9
+  ],
+  "text": "GiantPunt: Josh Jacobs is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.4453,
+    "after": 0.4453
+   }
+  ]
  }
 ]
