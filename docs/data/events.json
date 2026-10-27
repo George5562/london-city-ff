@@ -8822,5 +8822,134 @@
     "after": 0.0016
    }
   ]
+ },
+ {
+  "id": "injury-3929630-2026-10-27T08:00:00Z",
+  "kind": "I",
+  "at": "2026-10-27T08:00:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Saquon Barkley is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0302,
+    "after": 0.0352
+   }
+  ]
+ },
+ {
+  "id": "trade-afa4e47d-82c4-4800-9b66-4f80e11dee8e",
+  "kind": "T",
+  "at": "2026-10-27T08:00:00Z",
+  "teams": [
+   9
+  ],
+  "text": "Added Tyler Bass; dropped Ka'imi Fairbairn.",
+  "moves": [
+   {
+    "player": "Tyler Bass",
+    "position": "K",
+    "action": "add"
+   },
+   {
+    "player": "Ka'imi Fairbairn",
+    "position": "K",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.4567,
+    "after": 0.4657
+   }
+  ]
+ },
+ {
+  "id": "trade-f7ee8cb0-cd0a-4cbd-a3a7-8a046e808b76",
+  "kind": "T",
+  "at": "2026-10-27T08:00:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Claimed Jared Goff off waivers; dropped Chargers D/ST.",
+  "moves": [
+   {
+    "player": "Jared Goff",
+    "position": "QB",
+    "action": "claim"
+   },
+   {
+    "player": "Chargers D/ST",
+    "position": "D/ST",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0001,
+    "after": 0.0
+   }
+  ]
+ },
+ {
+  "id": "trade-a86528c9-a081-4878-ab43-8a3744af47a8",
+  "kind": "T",
+  "at": "2026-10-27T08:00:00Z",
+  "teams": [
+   9
+  ],
+  "text": "Added Jaguars D/ST; dropped Browns D/ST.",
+  "moves": [
+   {
+    "player": "Jaguars D/ST",
+    "position": "D/ST",
+    "action": "add"
+   },
+   {
+    "player": "Browns D/ST",
+    "position": "D/ST",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.4567,
+    "after": 0.4657
+   }
+  ]
+ },
+ {
+  "id": "trade-e4a72cb8-140b-46e0-8118-9bb94c277186",
+  "kind": "T",
+  "at": "2026-10-27T08:00:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Claimed Harrison Butker (K) off waivers; dropped Dominic Zvada (K).",
+  "moves": [
+   {
+    "player": "Harrison Butker",
+    "position": "K",
+    "action": "claim"
+   },
+   {
+    "player": "Dominic Zvada",
+    "position": "K",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.1762,
+    "after": 0.1897
+   }
+  ]
  }
 ]
