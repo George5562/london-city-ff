@@ -9489,5 +9489,33 @@
     "after": 0.1547
    }
   ]
+ },
+ {
+  "id": "trade-63c2c0b1-4ca7-400a-b60c-93128ad7891a",
+  "kind": "T",
+  "at": "2026-10-28T11:30:00Z",
+  "teams": [
+   13
+  ],
+  "text": "Claimed Browns D/ST off waivers; dropped Eagles D/ST.",
+  "moves": [
+   {
+    "player": "Browns D/ST",
+    "position": "D/ST",
+    "action": "claim"
+   },
+   {
+    "player": "Eagles D/ST",
+    "position": "D/ST",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 13,
+    "before": 0.1033,
+    "after": 0.1247
+   }
+  ]
  }
 ]
