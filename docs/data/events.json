@@ -9517,5 +9517,56 @@
     "after": 0.1247
    }
   ]
+ },
+ {
+  "id": "injury-4871023-2026-10-28T17:00:00Z",
+  "kind": "I",
+  "at": "2026-10-28T17:00:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Cardigan's Boys: Carnell Tate is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0,
+    "after": 0.0
+   }
+  ]
+ },
+ {
+  "id": "injury-4685247-2026-10-28T17:00:00Z",
+  "kind": "I",
+  "at": "2026-10-28T17:00:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Sabre Raiders: Braelon Allen is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.1502,
+    "after": 0.1505
+   }
+  ]
+ },
+ {
+  "id": "injury-3121422-2026-10-28T17:00:00Z",
+  "kind": "I",
+  "at": "2026-10-28T17:00:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Goats: Terry McLaurin is now listed as injury reserve.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.1846,
+    "after": 0.1842
+   }
+  ]
  }
 ]
