@@ -13,10 +13,10 @@
    "projPerGame": 139.4,
    "strength": 143.4,
    "projWins": 11.07,
-   "playoff": 0.9745,
-   "final": 0.6747,
-   "champ": 0.445,
-   "topSeed": 0.52,
+   "playoff": 0.9739,
+   "final": 0.6649,
+   "champ": 0.4385,
+   "topSeed": 0.5152,
    "lineup": [
     {
      "name": "Amon-Ra St. Brown",
@@ -75,11 +75,11 @@
    "pf": 884.76,
    "projPerGame": 127.9,
    "strength": 127.2,
-   "projWins": 11.02,
-   "playoff": 0.921,
-   "final": 0.4486,
-   "champ": 0.183,
-   "topSeed": 0.3004,
+   "projWins": 11.03,
+   "playoff": 0.9227,
+   "final": 0.4472,
+   "champ": 0.1875,
+   "topSeed": 0.3002,
    "lineup": [
     {
      "name": "Jahmyr Gibbs",
@@ -138,11 +138,11 @@
    "pf": 896.2,
    "projPerGame": 130.2,
    "strength": 129.2,
-   "projWins": 9.35,
-   "playoff": 0.7016,
-   "final": 0.3333,
-   "champ": 0.1547,
-   "topSeed": 0.0612,
+   "projWins": 9.36,
+   "playoff": 0.7063,
+   "final": 0.3342,
+   "champ": 0.1553,
+   "topSeed": 0.0628,
    "lineup": [
     {
      "name": "Jaxon Smith-Njigba",
@@ -201,11 +201,11 @@
    "pf": 856.4,
    "projPerGame": 119.8,
    "strength": 121.0,
-   "projWins": 9.57,
-   "playoff": 0.7363,
-   "final": 0.2794,
-   "champ": 0.1046,
-   "topSeed": 0.0872,
+   "projWins": 9.56,
+   "playoff": 0.7349,
+   "final": 0.2826,
+   "champ": 0.1033,
+   "topSeed": 0.0887,
    "lineup": [
     {
      "name": "Joe Burrow",
@@ -260,10 +260,10 @@
    "projPerGame": 128.8,
    "strength": 121.8,
    "projWins": 8.79,
-   "playoff": 0.4367,
-   "final": 0.17,
-   "champ": 0.0703,
-   "topSeed": 0.0273,
+   "playoff": 0.4371,
+   "final": 0.1757,
+   "champ": 0.0747,
+   "topSeed": 0.0295,
    "lineup": [
     {
      "name": "Puka Nacua",
@@ -322,11 +322,11 @@
    "pf": 851.88,
    "projPerGame": 124.6,
    "strength": 123.3,
-   "projWins": 7.26,
-   "playoff": 0.2074,
-   "final": 0.0862,
-   "champ": 0.0387,
-   "topSeed": 0.0039,
+   "projWins": 7.25,
+   "playoff": 0.2034,
+   "final": 0.0882,
+   "champ": 0.0378,
+   "topSeed": 0.0036,
    "lineup": [
     {
      "name": "Drake Maye",
@@ -385,11 +385,11 @@
    "pf": 784.84,
    "projPerGame": 121.4,
    "strength": 117.0,
-   "projWins": 5.36,
-   "playoff": 0.015,
-   "final": 0.0056,
-   "champ": 0.0026,
-   "topSeed": 0.0001,
+   "projWins": 5.34,
+   "playoff": 0.0132,
+   "final": 0.0052,
+   "champ": 0.0019,
+   "topSeed": 0.0,
    "lineup": [
     {
      "name": "Trey McBride",
@@ -448,11 +448,11 @@
    "pf": 755.18,
    "projPerGame": 108.3,
    "strength": 108.1,
-   "projWins": 5.01,
-   "playoff": 0.0066,
-   "final": 0.0018,
-   "champ": 0.0009,
-   "topSeed": 0.0001,
+   "projWins": 5.0,
+   "playoff": 0.0073,
+   "final": 0.0019,
+   "champ": 0.0008,
+   "topSeed": 0.0,
    "lineup": [
     {
      "name": "Josh Allen",
@@ -511,8 +511,8 @@
    "pf": 670.72,
    "projPerGame": 102.4,
    "strength": 99.3,
-   "projWins": 3.85,
-   "playoff": 0.0004,
+   "projWins": 3.87,
+   "playoff": 0.0007,
    "final": 0.0002,
    "champ": 0.0001,
    "topSeed": 0.0,
@@ -569,9 +569,9 @@
    "pf": 672.2,
    "projPerGame": 107.0,
    "strength": 101.9,
-   "projWins": 3.71,
+   "projWins": 3.72,
    "playoff": 0.0004,
-   "final": 0.0,
+   "final": 0.0001,
    "champ": 0.0,
    "topSeed": 0.0,
    "lineup": [
@@ -627,28 +627,28 @@
   {
    "home": 2,
    "away": 13,
-   "homeWin": 0.588
+   "homeWin": 0.591
   },
   {
    "home": 4,
    "away": 5,
-   "homeWin": 0.736
+   "homeWin": 0.7338
   },
   {
    "home": 9,
    "away": 6,
-   "homeWin": 0.7432
+   "homeWin": 0.7395
   },
   {
    "home": 1,
    "away": 12,
-   "homeWin": 0.6776
+   "homeWin": 0.6835
   },
   {
    "home": 11,
    "away": 3,
-   "homeWin": 0.3211
+   "homeWin": 0.3199
   }
  ],
- "generated": "2026-10-27T23:42+00:00"
+ "generated": "2026-10-28T05:25+00:00"
 }
