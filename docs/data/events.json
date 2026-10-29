@@ -9812,5 +9812,73 @@
     "after": 0.1847
    }
   ]
+ },
+ {
+  "id": "injury-4429795-2026-10-29T20:30:00Z",
+  "kind": "I",
+  "at": "2026-10-29T20:30:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Goats: Jahmyr Gibbs is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.1847,
+    "after": 0.1847
+   }
+  ]
+ },
+ {
+  "id": "injury-4374302-2026-10-29T20:30:00Z",
+  "kind": "I",
+  "at": "2026-10-29T20:30:00Z",
+  "teams": [
+   9
+  ],
+  "text": "GiantPunt: Amon-Ra St. Brown is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.4331,
+    "after": 0.4331
+   }
+  ]
+ },
+ {
+  "id": "injury-4685247-2026-10-29T20:30:00Z",
+  "kind": "I",
+  "at": "2026-10-29T20:30:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Sabre Raiders: Braelon Allen is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.1464,
+    "after": 0.1464
+   }
+  ]
+ },
+ {
+  "id": "injury-4432710-2026-10-29T20:30:00Z",
+  "kind": "I",
+  "at": "2026-10-29T20:30:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: TreVeyon Henderson is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0006,
+    "after": 0.0006
+   }
+  ]
  }
 ]
