@@ -9789,5 +9789,28 @@
     "after": 0.0376
    }
   ]
+ },
+ {
+  "id": "trade-2710e925-44a6-48f4-9b72-6ebe262797b3",
+  "kind": "T",
+  "at": "2026-10-29T15:00:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Added K Ka'imi Fairbairn.",
+  "moves": [
+   {
+    "player": "Ka'imi Fairbairn",
+    "position": "K",
+    "action": "add"
+   }
+  ],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.1803,
+    "after": 0.1847
+   }
+  ]
  }
 ]

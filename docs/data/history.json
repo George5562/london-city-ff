@@ -53383,6 +53383,95 @@
    },
    "at": "2026-10-29T08:00:00Z",
    "explanations": {}
+  },
+  {
+   "date": "2026-10-29",
+   "label": "Week 8 \u00b7 15:00 UTC",
+   "week": 8,
+   "backfilled": false,
+   "teams": {
+    "9": {
+     "champ": 0.4331,
+     "playoff": 0.972,
+     "projWins": 11.04
+    },
+    "3": {
+     "champ": 0.1847,
+     "playoff": 0.9274,
+     "projWins": 11.11
+    },
+    "2": {
+     "champ": 0.1464,
+     "playoff": 0.6787,
+     "projWins": 9.29
+    },
+    "13": {
+     "champ": 0.1272,
+     "playoff": 0.7761,
+     "projWins": 9.74
+    },
+    "1": {
+     "champ": 0.0683,
+     "playoff": 0.4252,
+     "projWins": 8.78
+    },
+    "4": {
+     "champ": 0.0374,
+     "playoff": 0.2013,
+     "projWins": 7.25
+    },
+    "6": {
+     "champ": 0.0022,
+     "playoff": 0.0126,
+     "projWins": 5.31
+    },
+    "11": {
+     "champ": 0.0006,
+     "playoff": 0.0056,
+     "projWins": 4.94
+    },
+    "12": {
+     "champ": 0.0001,
+     "playoff": 0.0006,
+     "projWins": 3.74
+    },
+    "5": {
+     "champ": 0.0,
+     "playoff": 0.0006,
+     "projWins": 3.81
+    }
+   },
+   "at": "2026-10-29T15:00:00Z",
+   "explanations": {
+    "3": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0132,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.13,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "1": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.0068,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    }
+   }
   }
  ]
 }
