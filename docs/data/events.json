@@ -9999,5 +9999,33 @@
     "after": 0.0445
    }
   ]
+ },
+ {
+  "id": "trade-9be5072c-ed6b-44e4-a6a4-052b438c9c9a",
+  "kind": "T",
+  "at": "2026-10-30T13:00:00Z",
+  "teams": [
+   13
+  ],
+  "text": "Added Mason Taylor; dropped Cameron Dicker.",
+  "moves": [
+   {
+    "player": "Mason Taylor",
+    "position": "TE",
+    "action": "add"
+   },
+   {
+    "player": "Cameron Dicker",
+    "position": "K",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 13,
+    "before": 0.1346,
+    "after": 0.1903
+   }
+  ]
  }
 ]
