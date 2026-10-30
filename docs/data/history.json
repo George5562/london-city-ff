@@ -53966,6 +53966,125 @@
      }
     }
    }
+  },
+  {
+   "date": "2026-10-30",
+   "label": "Week 8 \u00b7 18:30 UTC",
+   "week": 8,
+   "backfilled": false,
+   "teams": {
+    "9": {
+     "champ": 0.4177,
+     "playoff": 0.9817,
+     "projWins": 11.25
+    },
+    "13": {
+     "champ": 0.191,
+     "playoff": 0.8377,
+     "projWins": 10.04
+    },
+    "3": {
+     "champ": 0.1635,
+     "playoff": 0.9123,
+     "projWins": 10.89
+    },
+    "2": {
+     "champ": 0.1213,
+     "playoff": 0.6069,
+     "projWins": 9.02
+    },
+    "1": {
+     "champ": 0.06,
+     "playoff": 0.3971,
+     "projWins": 8.66
+    },
+    "4": {
+     "champ": 0.0447,
+     "playoff": 0.2452,
+     "projWins": 7.54
+    },
+    "6": {
+     "champ": 0.001,
+     "playoff": 0.0089,
+     "projWins": 5.12
+    },
+    "11": {
+     "champ": 0.0009,
+     "playoff": 0.0098,
+     "projWins": 5.2
+    },
+    "5": {
+     "champ": 0.0,
+     "playoff": 0.0,
+     "projWins": 3.48
+    },
+    "12": {
+     "champ": 0.0,
+     "playoff": 0.0005,
+     "projWins": 3.81
+    }
+   },
+   "at": "2026-10-30T18:30:00Z",
+   "explanations": {
+    "13": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0065,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "2": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0162,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "1": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.0345,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.15,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "4": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0062,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "12": {
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.14,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    }
+   }
   }
  ]
 }

@@ -10027,5 +10027,107 @@
     "after": 0.1903
    }
   ]
+ },
+ {
+  "id": "injury-3916387-2026-10-30T18:30:00Z",
+  "kind": "I",
+  "at": "2026-10-30T18:30:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Goats: Lamar Jackson is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.1631,
+    "after": 0.1635
+   }
+  ]
+ },
+ {
+  "id": "injury-4431459-2026-10-30T18:30:00Z",
+  "kind": "I",
+  "at": "2026-10-30T18:30:00Z",
+  "teams": [
+   9
+  ],
+  "text": "GiantPunt: Tyler Warren is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.419,
+    "after": 0.4177
+   }
+  ]
+ },
+ {
+  "id": "injury-4567750-2026-10-30T18:30:00Z",
+  "kind": "I",
+  "at": "2026-10-30T18:30:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Emeka Egbuka is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.044,
+    "after": 0.0447
+   }
+  ]
+ },
+ {
+  "id": "injury-4428331-2026-10-30T18:30:00Z",
+  "kind": "I",
+  "at": "2026-10-30T18:30:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Love hurts: Rashee Rice is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0,
+    "after": 0.0
+   }
+  ]
+ },
+ {
+  "id": "injury-3042519-2026-10-30T18:30:00Z",
+  "kind": "I",
+  "at": "2026-10-30T18:30:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Goats: Aaron Jones Sr. is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.1631,
+    "after": 0.1635
+   }
+  ]
+ },
+ {
+  "id": "injury-4241474-2026-10-30T18:30:00Z",
+  "kind": "I",
+  "at": "2026-10-30T18:30:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Cardigan's Boys: Brian Robinson Jr. is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0,
+    "after": 0.0
+   }
+  ]
  }
 ]
