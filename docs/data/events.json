@@ -10129,5 +10129,192 @@
     "after": 0.0
    }
   ]
+ },
+ {
+  "id": "injury-3929630-2026-10-30T22:30:00Z",
+  "kind": "I",
+  "at": "2026-10-30T22:30:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Saquon Barkley is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0447,
+    "after": 0.0449
+   }
+  ]
+ },
+ {
+  "id": "injury-4241478-2026-10-30T22:30:00Z",
+  "kind": "I",
+  "at": "2026-10-30T22:30:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Goats: DeVonta Smith is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.1635,
+    "after": 0.1627
+   }
+  ]
+ },
+ {
+  "id": "injury-4723086-2026-10-30T22:30:00Z",
+  "kind": "I",
+  "at": "2026-10-30T22:30:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Love hurts: Colston Loveland is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0,
+    "after": 0.0
+   }
+  ]
+ },
+ {
+  "id": "injury-4870808-2026-10-30T22:30:00Z",
+  "kind": "I",
+  "at": "2026-10-30T22:30:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Jeremiyah Love is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0447,
+    "after": 0.0449
+   }
+  ]
+ },
+ {
+  "id": "injury-15847-2026-10-30T22:30:00Z",
+  "kind": "I",
+  "at": "2026-10-30T22:30:00Z",
+  "teams": [
+   9
+  ],
+  "text": "GiantPunt: Travis Kelce is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.4177,
+    "after": 0.4173
+   }
+  ]
+ },
+ {
+  "id": "injury-4360761-2026-10-30T22:30:00Z",
+  "kind": "I",
+  "at": "2026-10-30T22:30:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Cardigan's Boys: Michael Wilson is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0,
+    "after": 0.0
+   }
+  ]
+ },
+ {
+  "id": "injury-4871023-2026-10-30T22:30:00Z",
+  "kind": "I",
+  "at": "2026-10-30T22:30:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Cardigan's Boys: Carnell Tate is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0,
+    "after": 0.0
+   }
+  ]
+ },
+ {
+  "id": "injury-4612826-2026-10-30T22:30:00Z",
+  "kind": "I",
+  "at": "2026-10-30T22:30:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Goats: Ladd McConkey is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.1635,
+    "after": 0.1627
+   }
+  ]
+ },
+ {
+  "id": "injury-4568490-2026-10-30T22:30:00Z",
+  "kind": "I",
+  "at": "2026-10-30T22:30:00Z",
+  "teams": [
+   1
+  ],
+  "text": "Knights who say Ni: RJ Harvey is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.06,
+    "after": 0.06
+   }
+  ]
+ },
+ {
+  "id": "injury-4373626-2026-10-30T22:30:00Z",
+  "kind": "I",
+  "at": "2026-10-30T22:30:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Tyler Allgeier is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0447,
+    "after": 0.0449
+   }
+  ]
+ },
+ {
+  "id": "injury-4569603-2026-10-30T22:30:00Z",
+  "kind": "I",
+  "at": "2026-10-30T22:30:00Z",
+  "teams": [
+   6
+  ],
+  "text": "The Le Chable Dolphins: Malik Washington is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.001,
+    "after": 0.001
+   }
+  ]
  }
 ]
