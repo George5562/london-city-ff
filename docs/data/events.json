@@ -9982,5 +9982,22 @@
     "after": 0.0686
    }
   ]
+ },
+ {
+  "id": "injury-4248528-2026-10-30T06:00:00Z",
+  "kind": "I",
+  "at": "2026-10-30T06:00:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Christian Watson is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0374,
+    "after": 0.0445
+   }
+  ]
  }
 ]
