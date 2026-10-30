@@ -9880,5 +9880,107 @@
     "after": 0.0006
    }
   ]
+ },
+ {
+  "id": "injury-4362628-2026-10-30T00:00:00Z",
+  "kind": "I",
+  "at": "2026-10-30T00:00:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Ja'Marr Chase is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0374,
+    "after": 0.0374
+   }
+  ]
+ },
+ {
+  "id": "injury-4432665-2026-10-30T00:00:00Z",
+  "kind": "I",
+  "at": "2026-10-30T00:00:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Sabre Raiders: Brock Bowers is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.1464,
+    "after": 0.151
+   }
+  ]
+ },
+ {
+  "id": "injury-4701936-2026-10-30T00:00:00Z",
+  "kind": "I",
+  "at": "2026-10-30T00:00:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: Matthew Golden is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0006,
+    "after": 0.0006
+   }
+  ]
+ },
+ {
+  "id": "injury-15847-2026-10-30T00:00:00Z",
+  "kind": "I",
+  "at": "2026-10-30T00:00:00Z",
+  "teams": [
+   9
+  ],
+  "text": "GiantPunt: Travis Kelce is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.4331,
+    "after": 0.4298
+   }
+  ]
+ },
+ {
+  "id": "injury-2976212-2026-10-30T00:00:00Z",
+  "kind": "I",
+  "at": "2026-10-30T00:00:00Z",
+  "teams": [
+   6
+  ],
+  "text": "The Le Chable Dolphins: Stefon Diggs is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.0022,
+    "after": 0.0015
+   }
+  ]
+ },
+ {
+  "id": "injury-4568490-2026-10-30T00:00:00Z",
+  "kind": "I",
+  "at": "2026-10-30T00:00:00Z",
+  "teams": [
+   1
+  ],
+  "text": "Knights who say Ni: RJ Harvey is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.0683,
+    "after": 0.0686
+   }
+  ]
  }
 ]
