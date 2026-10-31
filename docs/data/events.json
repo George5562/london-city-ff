@@ -10367,5 +10367,73 @@
     "after": 0.0024
    }
   ]
+ },
+ {
+  "id": "injury-4723086-2026-10-31T19:30:00Z",
+  "kind": "I",
+  "at": "2026-10-31T19:30:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Love hurts: Colston Loveland is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0,
+    "after": 0.0
+   }
+  ]
+ },
+ {
+  "id": "injury-4047646-2026-10-31T19:30:00Z",
+  "kind": "I",
+  "at": "2026-10-31T19:30:00Z",
+  "teams": [
+   1
+  ],
+  "text": "Knights who say Ni: A.J. Brown is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.0566,
+    "after": 0.0553
+   }
+  ]
+ },
+ {
+  "id": "injury-4608686-2026-10-31T19:30:00Z",
+  "kind": "I",
+  "at": "2026-10-31T19:30:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Love hurts: Kyle Monangai is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0,
+    "after": 0.0
+   }
+  ]
+ },
+ {
+  "id": "injury-4432710-2026-10-31T19:30:00Z",
+  "kind": "I",
+  "at": "2026-10-31T19:30:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: TreVeyon Henderson is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0009,
+    "after": 0.0009
+   }
+  ]
  }
 ]
