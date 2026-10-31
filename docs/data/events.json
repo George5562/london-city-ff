@@ -10316,5 +10316,56 @@
     "after": 0.001
    }
   ]
+ },
+ {
+  "id": "trade-13c90d1b-9c57-42a5-838f-c68fa4b0d430",
+  "kind": "T",
+  "at": "2026-10-31T15:00:00Z",
+  "teams": [
+   6
+  ],
+  "text": "Dropped Malik Washington (WR).",
+  "moves": [
+   {
+    "player": "Malik Washington",
+    "position": "WR",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.0017,
+    "after": 0.0024
+   }
+  ]
+ },
+ {
+  "id": "trade-62434d09-abb2-4659-9b47-3f65530800c4",
+  "kind": "T",
+  "at": "2026-10-31T15:00:00Z",
+  "teams": [
+   6
+  ],
+  "text": "Added Bengals D/ST; dropped Patriots D/ST.",
+  "moves": [
+   {
+    "player": "Bengals D/ST",
+    "position": "D/ST",
+    "action": "add"
+   },
+   {
+    "player": "Patriots D/ST",
+    "position": "D/ST",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.0017,
+    "after": 0.0024
+   }
+  ]
  }
 ]
