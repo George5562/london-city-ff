@@ -10435,5 +10435,85 @@
     "after": 0.0009
    }
   ]
+ },
+ {
+  "id": "injury-4568490-2026-10-31T22:30:00Z",
+  "kind": "I",
+  "at": "2026-10-31T22:30:00Z",
+  "teams": [
+   1
+  ],
+  "text": "Knights who say Ni: RJ Harvey is now listed as injury reserve.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.0553,
+    "after": 0.0591
+   }
+  ]
+ },
+ {
+  "id": "injury-4426385-2026-10-31T22:30:00Z",
+  "kind": "I",
+  "at": "2026-10-31T22:30:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Zach Charbonnet is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0461,
+    "after": 0.0447
+   }
+  ]
+ },
+ {
+  "id": "trade-fd95e67a-78fd-4813-8b60-d052f41c432d",
+  "kind": "T",
+  "at": "2026-10-31T22:30:00Z",
+  "teams": [
+   1
+  ],
+  "text": "Added J.K. Dobbins.",
+  "moves": [
+   {
+    "player": "J.K. Dobbins",
+    "position": "RB",
+    "action": "add"
+   }
+  ],
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.0553,
+    "after": 0.0591
+   }
+  ]
+ },
+ {
+  "id": "trade-8e903f11-b06e-4842-bd5d-399b0f496dc5",
+  "kind": "T",
+  "at": "2026-10-31T22:30:00Z",
+  "teams": [
+   9
+  ],
+  "text": "Dropped Emanuel Wilson.",
+  "moves": [
+   {
+    "player": "Emanuel Wilson",
+    "position": "RB",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.42,
+    "after": 0.419
+   }
+  ]
  }
 ]
