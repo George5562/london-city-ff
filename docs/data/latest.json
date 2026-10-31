@@ -15,7 +15,7 @@
    "projWins": 11.24,
    "playoff": 0.9805,
    "final": 0.6519,
-   "champ": 0.4209,
+   "champ": 0.4208,
    "topSeed": 0.5707,
    "lineup": [
     {
@@ -78,8 +78,8 @@
    "projWins": 10.03,
    "playoff": 0.8345,
    "final": 0.4128,
-   "champ": 0.1903,
-   "topSeed": 0.1309,
+   "champ": 0.1904,
+   "topSeed": 0.131,
    "lineup": [
     {
      "name": "Joe Burrow",
@@ -139,9 +139,9 @@
    "projPerGame": 126.6,
    "strength": 126.5,
    "projWins": 10.85,
-   "playoff": 0.9087,
-   "final": 0.4092,
-   "champ": 0.163,
+   "playoff": 0.9086,
+   "final": 0.4091,
+   "champ": 0.1629,
    "topSeed": 0.2397,
    "lineup": [
     {
@@ -202,7 +202,7 @@
    "projPerGame": 128.0,
    "strength": 128.0,
    "projWins": 9.02,
-   "playoff": 0.6074,
+   "playoff": 0.6075,
    "final": 0.2697,
    "champ": 0.1209,
    "topSeed": 0.0335,
@@ -266,9 +266,9 @@
    "strength": 120.5,
    "projWins": 8.67,
    "playoff": 0.3978,
-   "final": 0.1466,
-   "champ": 0.0565,
-   "topSeed": 0.0206,
+   "final": 0.1467,
+   "champ": 0.0566,
+   "topSeed": 0.0205,
    "lineup": [
     {
      "name": "Puka Nacua",
@@ -329,7 +329,7 @@
    "strength": 125.1,
    "projWins": 7.54,
    "playoff": 0.2508,
-   "final": 0.1032,
+   "final": 0.1031,
    "champ": 0.0459,
    "topSeed": 0.0046,
    "lineup": [
@@ -452,7 +452,7 @@
    "losses": 5,
    "pf": 755.18,
    "projPerGame": 109.5,
-   "strength": 108.8,
+   "strength": 108.7,
    "projWins": 5.2,
    "playoff": 0.0099,
    "final": 0.0029,
@@ -572,9 +572,9 @@
    "wins": 1,
    "losses": 6,
    "pf": 672.2,
-   "projPerGame": 104.5,
+   "projPerGame": 104.6,
    "strength": 100.6,
-   "projWins": 3.85,
+   "projWins": 3.84,
    "playoff": 0.0006,
    "final": 0.0001,
    "champ": 0.0,
@@ -675,5 +675,5 @@
    "awayProj": 129.9
   }
  ],
- "generated": "2026-10-31T02:14+00:00"
+ "generated": "2026-10-31T08:47+00:00"
 }
