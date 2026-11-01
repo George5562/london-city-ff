@@ -13,10 +13,10 @@
    "projPerGame": 140.0,
    "strength": 143.7,
    "projWins": 11.21,
-   "playoff": 0.9788,
-   "final": 0.6491,
-   "champ": 0.419,
-   "topSeed": 0.5681,
+   "playoff": 0.9792,
+   "final": 0.648,
+   "champ": 0.4147,
+   "topSeed": 0.5657,
    "lineup": [
     {
      "name": "Amon-Ra St. Brown",
@@ -75,11 +75,11 @@
    "pf": 856.4,
    "projPerGame": 139.3,
    "strength": 131.4,
-   "projWins": 10.03,
-   "playoff": 0.8323,
-   "final": 0.4134,
-   "champ": 0.1914,
-   "topSeed": 0.1328,
+   "projWins": 10.04,
+   "playoff": 0.8387,
+   "final": 0.4194,
+   "champ": 0.1963,
+   "topSeed": 0.1311,
    "lineup": [
     {
      "name": "Joe Burrow",
@@ -138,11 +138,11 @@
    "pf": 884.76,
    "projPerGame": 126.7,
    "strength": 126.5,
-   "projWins": 10.82,
-   "playoff": 0.904,
-   "final": 0.4056,
-   "champ": 0.162,
-   "topSeed": 0.2365,
+   "projWins": 10.81,
+   "playoff": 0.9022,
+   "final": 0.4006,
+   "champ": 0.1613,
+   "topSeed": 0.2382,
    "lineup": [
     {
      "name": "Jahmyr Gibbs",
@@ -201,11 +201,11 @@
    "pf": 896.2,
    "projPerGame": 128.2,
    "strength": 128.1,
-   "projWins": 9.02,
-   "playoff": 0.6008,
-   "final": 0.2696,
-   "champ": 0.1208,
-   "topSeed": 0.0345,
+   "projWins": 9.01,
+   "playoff": 0.5989,
+   "final": 0.2732,
+   "champ": 0.12,
+   "topSeed": 0.036,
    "lineup": [
     {
      "name": "Jaxon Smith-Njigba",
@@ -264,11 +264,11 @@
    "pf": 796.18,
    "projPerGame": 126.5,
    "strength": 120.5,
-   "projWins": 8.74,
-   "playoff": 0.4178,
-   "final": 0.1545,
-   "champ": 0.0591,
-   "topSeed": 0.0235,
+   "projWins": 8.76,
+   "playoff": 0.4209,
+   "final": 0.1535,
+   "champ": 0.0606,
+   "topSeed": 0.0246,
    "lineup": [
     {
      "name": "Puka Nacua",
@@ -328,10 +328,10 @@
    "projPerGame": 128.1,
    "strength": 125.1,
    "projWins": 7.52,
-   "playoff": 0.2435,
-   "final": 0.1003,
-   "champ": 0.0447,
-   "topSeed": 0.0046,
+   "playoff": 0.2392,
+   "final": 0.0995,
+   "champ": 0.0452,
+   "topSeed": 0.0042,
    "lineup": [
     {
      "name": "Drake Maye",
@@ -390,11 +390,11 @@
    "pf": 784.84,
    "projPerGame": 121.5,
    "strength": 117.1,
-   "projWins": 5.26,
-   "playoff": 0.0129,
-   "final": 0.0045,
-   "champ": 0.0021,
-   "topSeed": 0.0001,
+   "projWins": 5.25,
+   "playoff": 0.0106,
+   "final": 0.0031,
+   "champ": 0.0012,
+   "topSeed": 0.0,
    "lineup": [
     {
      "name": "Trey McBride",
@@ -453,11 +453,11 @@
    "pf": 755.18,
    "projPerGame": 109.5,
    "strength": 108.7,
-   "projWins": 5.18,
-   "playoff": 0.0095,
-   "final": 0.0029,
-   "champ": 0.0008,
-   "topSeed": 0.0,
+   "projWins": 5.17,
+   "playoff": 0.0097,
+   "final": 0.0026,
+   "champ": 0.0007,
+   "topSeed": 0.0001,
    "lineup": [
     {
      "name": "Josh Allen",
@@ -516,10 +516,10 @@
    "pf": 670.72,
    "projPerGame": 99.1,
    "strength": 97.6,
-   "projWins": 3.49,
-   "playoff": 0.0,
-   "final": 0.0,
-   "champ": 0.0,
+   "projWins": 3.51,
+   "playoff": 0.0001,
+   "final": 0.0001,
+   "champ": 0.0001,
    "topSeed": 0.0,
    "lineup": [
     {
@@ -574,10 +574,10 @@
    "pf": 672.2,
    "projPerGame": 104.7,
    "strength": 100.7,
-   "projWins": 3.74,
+   "projWins": 3.72,
    "playoff": 0.0004,
    "final": 0.0001,
-   "champ": 0.0,
+   "champ": 0.0001,
    "topSeed": 0.0,
    "lineup": [
     {
@@ -632,7 +632,7 @@
   {
    "home": 2,
    "away": 13,
-   "homeWin": 0.313,
+   "homeWin": 0.3137,
    "homePts": 10.4,
    "awayPts": 0.0,
    "homeProj": 117.4,
@@ -650,7 +650,7 @@
   {
    "home": 9,
    "away": 6,
-   "homeWin": 0.8408,
+   "homeWin": 0.8423,
    "homePts": 23.2,
    "awayPts": 12.6,
    "homeProj": 148.6,
@@ -659,7 +659,7 @@
   {
    "home": 1,
    "away": 12,
-   "homeWin": 0.7183,
+   "homeWin": 0.725,
    "homePts": 0.0,
    "awayPts": 21.5,
    "homeProj": 133.4,
@@ -668,12 +668,12 @@
   {
    "home": 11,
    "away": 3,
-   "homeWin": 0.5096,
+   "homeWin": 0.5139,
    "homePts": 20.9,
    "awayPts": 11.8,
    "homeProj": 131.0,
    "awayProj": 129.9
   }
  ],
- "generated": "2026-10-31T22:47+00:00"
+ "generated": "2026-11-01T02:06+00:00"
 }
