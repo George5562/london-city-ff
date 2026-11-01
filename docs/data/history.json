@@ -54746,6 +54746,321 @@
      }
     }
    }
+  },
+  {
+   "date": "2026-11-01",
+   "label": "Week 8 \u00b7 20:30 UTC",
+   "week": 8,
+   "backfilled": false,
+   "teams": {
+    "9": {
+     "champ": 0.4629,
+     "playoff": 0.9941,
+     "projWins": 11.64
+    },
+    "2": {
+     "champ": 0.2034,
+     "playoff": 0.8924,
+     "projWins": 9.96
+    },
+    "3": {
+     "champ": 0.1741,
+     "playoff": 0.9496,
+     "projWins": 11.13
+    },
+    "13": {
+     "champ": 0.0836,
+     "playoff": 0.5885,
+     "projWins": 8.87
+    },
+    "4": {
+     "champ": 0.0449,
+     "playoff": 0.2787,
+     "projWins": 7.49
+    },
+    "1": {
+     "champ": 0.0303,
+     "playoff": 0.2814,
+     "projWins": 8.09
+    },
+    "6": {
+     "champ": 0.0003,
+     "playoff": 0.0048,
+     "projWins": 4.93
+    },
+    "11": {
+     "champ": 0.0003,
+     "playoff": 0.0089,
+     "projWins": 5.06
+    },
+    "12": {
+     "champ": 0.0001,
+     "playoff": 0.0014,
+     "projWins": 4.21
+    },
+    "5": {
+     "champ": 0.0,
+     "playoff": 0.0001,
+     "projWins": 3.62
+    }
+   },
+   "at": "2026-11-01T20:30:00Z",
+   "changes": {
+    "9": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.046,
+     "text": "Amon-Ra St. Brown\u2019s forecast moved from 17.8038 to 17.8038 fantasy points, raising their expected scoring contribution.",
+     "facts": [
+      "projection: Amon-Ra St. Brown 17.80376613 -> 17.80376648",
+      "actual: Amon-Ra St. Brown None -> 12.6",
+      "projection: CeeDee Lamb 20.05623353 -> 20.06595511",
+      "actual: CeeDee Lamb None -> 12.8",
+      "projection: Kenneth Walker III 19.85430195 -> 19.85430198",
+      "injury: George Pickens QUESTIONABLE -> ACTIVE",
+      "projection: Tee Higgins 15.48749418 -> 15.4928968",
+      "actual: Tee Higgins None -> 23.0"
+     ],
+     "showTooltip": true
+    },
+    "2": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "model",
+     "delta": 0.0794,
+     "text": "Brock Bowers scored 28.2 fantasy points, while Bucky Irving scored 21.0 and Garrett Wilson scored 11.8. Jaxon Smith-Njigba\u2019s projection rose slightly; the score update\u2019s impact on the fantasy team is supported, but the link to Breece Hall\u2019s status is unclear.",
+     "facts": [
+      "projection: Jaxon Smith-Njigba 21.4654265 -> 22.06141325",
+      "projection: Brock Bowers 16.15490217 -> 16.16435245",
+      "actual: Brock Bowers None -> 28.2",
+      "projection: Garrett Wilson 14.13590477 -> 14.13473229",
+      "actual: Garrett Wilson None -> 11.8",
+      "projection: Bucky Irving 17.21570447 -> 17.0420119",
+      "actual: Bucky Irving None -> 21.0",
+      "injury: Breece Hall QUESTIONABLE -> OUT"
+     ],
+     "showTooltip": true
+    },
+    "13": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.1077,
+     "text": "Bijan Robinson\u2019s forecast moved from 20.283 to 20.0571 fantasy points, lowering their expected scoring contribution.",
+     "facts": [
+      "projection: Bijan Robinson 20.28300755 -> 20.05713278",
+      "actual: Bijan Robinson None -> 7.6",
+      "projection: Derrick Henry 18.79887486 -> 18.79927713",
+      "actual: Derrick Henry None -> 13.3",
+      "projection: Drake London 18.11224848 -> 17.93086984",
+      "actual: Drake London None -> 1.8",
+      "projection: Zay Flowers 20.14098513 -> 20.14370802",
+      "actual: Zay Flowers None -> 0.0"
+     ],
+     "showTooltip": true
+    },
+    "1": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0297,
+     "text": "Puka Nacua\u2019s forecast moved from 22.8008 to 22.7991 fantasy points, lowering their expected scoring contribution.",
+     "facts": [
+      "projection: Puka Nacua 22.80083671 -> 22.79909146",
+      "projection: Javonte Williams 20.11138395 -> 20.11241381",
+      "actual: Javonte Williams None -> 6.2",
+      "projection: Chase Brown 16.94469988 -> 16.9403627",
+      "actual: Chase Brown None -> 13.7",
+      "injury: George Pickens QUESTIONABLE -> ACTIVE",
+      "projection: Sam LaPorta 10.73712909 -> 10.73712927",
+      "actual: Sam LaPorta None -> 6.3"
+     ],
+     "showTooltip": true
+    }
+   },
+   "explanations": {
+    "9": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Amon-Ra St. Brown\u2019s forecast moved from 17.8038 to 17.8038 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.046,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Amon-Ra St. Brown\u2019s forecast moved from 17.8038 to 17.8038 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.0112,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Amon-Ra St. Brown\u2019s forecast moved from 17.8038 to 17.8038 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.35,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "2": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Brock Bowers scored 28.2 fantasy points, while Bucky Irving scored 21.0 and Garrett Wilson scored 11.8. Jaxon Smith-Njigba\u2019s projection rose slightly; the score update\u2019s impact on the fantasy team is supported, but the link to Breece Hall\u2019s status is unclear.",
+      "confidence": "recorded explanation",
+      "delta": 0.0794,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Brock Bowers scored 28.2 fantasy points, while Bucky Irving scored 21.0 and Garrett Wilson scored 11.8. Jaxon Smith-Njigba\u2019s projection rose slightly; the score update\u2019s impact on the fantasy team is supported, but the link to Breece Hall\u2019s status is unclear.",
+      "confidence": "recorded explanation",
+      "delta": 0.2731,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Brock Bowers scored 28.2 fantasy points, while Bucky Irving scored 21.0 and Garrett Wilson scored 11.8. Jaxon Smith-Njigba\u2019s projection rose slightly; the score update\u2019s impact on the fantasy team is supported, but the link to Breece Hall\u2019s status is unclear.",
+      "confidence": "recorded explanation",
+      "delta": 0.87,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "3": {
+     "champ": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0131,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0482,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.31,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "13": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Bijan Robinson\u2019s forecast moved from 20.283 to 20.0571 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.1077,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Bijan Robinson\u2019s forecast moved from 20.283 to 20.0571 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.2367,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Bijan Robinson\u2019s forecast moved from 20.283 to 20.0571 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -1.11,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "4": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0416,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "1": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Puka Nacua\u2019s forecast moved from 22.8008 to 22.7991 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.0297,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Puka Nacua\u2019s forecast moved from 22.8008 to 22.7991 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.1357,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Puka Nacua\u2019s forecast moved from 22.8008 to 22.7991 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.66,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "6": {
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.23,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "11": {
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.11,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "12": {
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.49,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "5": {
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.11,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    }
+   }
   }
  ]
 }

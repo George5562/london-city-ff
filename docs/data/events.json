@@ -10515,5 +10515,175 @@
     "after": 0.419
    }
   ]
+ },
+ {
+  "id": "injury-3916387-2026-11-01T20:30:00Z",
+  "kind": "I",
+  "at": "2026-11-01T20:30:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Goats: Lamar Jackson is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.161,
+    "after": 0.1741
+   }
+  ]
+ },
+ {
+  "id": "injury-4426354-2026-11-01T20:30:00Z",
+  "kind": "I",
+  "at": "2026-11-01T20:30:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: George Pickens is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0006,
+    "after": 0.0003
+   }
+  ]
+ },
+ {
+  "id": "injury-4427366-2026-11-01T20:30:00Z",
+  "kind": "I",
+  "at": "2026-11-01T20:30:00Z",
+  "teams": [
+   6
+  ],
+  "text": "The Le Chable Dolphins: Breece Hall is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.0006,
+    "after": 0.0003
+   }
+  ]
+ },
+ {
+  "id": "injury-4870808-2026-11-01T20:30:00Z",
+  "kind": "I",
+  "at": "2026-11-01T20:30:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Jeremiyah Love is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0454,
+    "after": 0.0449
+   }
+  ]
+ },
+ {
+  "id": "injury-3915416-2026-11-01T20:30:00Z",
+  "kind": "I",
+  "at": "2026-11-01T20:30:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: DJ Moore is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0006,
+    "after": 0.0003
+   }
+  ]
+ },
+ {
+  "id": "injury-4372016-2026-11-01T20:30:00Z",
+  "kind": "I",
+  "at": "2026-11-01T20:30:00Z",
+  "teams": [
+   6
+  ],
+  "text": "The Le Chable Dolphins: Jaylen Waddle is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.0006,
+    "after": 0.0003
+   }
+  ]
+ },
+ {
+  "id": "injury-4385690-2026-11-01T20:30:00Z",
+  "kind": "I",
+  "at": "2026-11-01T20:30:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: Dalton Kincaid is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0006,
+    "after": 0.0003
+   }
+  ]
+ },
+ {
+  "id": "injury-3916433-2026-11-01T20:30:00Z",
+  "kind": "I",
+  "at": "2026-11-01T20:30:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Sabre Raiders: Jakobi Meyers is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.124,
+    "after": 0.2034
+   }
+  ]
+ },
+ {
+  "id": "injury-4371733-2026-11-01T20:30:00Z",
+  "kind": "I",
+  "at": "2026-11-01T20:30:00Z",
+  "teams": [
+   6
+  ],
+  "text": "The Le Chable Dolphins: Kenny Gainwell is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.0006,
+    "after": 0.0003
+   }
+  ]
+ },
+ {
+  "id": "injury-4427728-2026-11-01T20:30:00Z",
+  "kind": "I",
+  "at": "2026-11-01T20:30:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: Bam Knight is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0006,
+    "after": 0.0003
+   }
+  ]
  }
 ]
