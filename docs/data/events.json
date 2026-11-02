@@ -10753,5 +10753,45 @@
     "after": 0.0022
    }
   ]
+ },
+ {
+  "id": "injury-3046439-2026-11-02T06:30:00Z",
+  "kind": "I",
+  "at": "2026-11-02T06:30:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Cardigan's Boys: Hunter Henry is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0001,
+    "after": 0.0001
+   }
+  ]
+ },
+ {
+  "id": "trade-bc499bbc-7ec3-4968-9f9a-8f1c092ea0ea",
+  "kind": "T",
+  "at": "2026-11-02T06:30:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Dropped Kendre Miller.",
+  "moves": [
+   {
+    "player": "Kendre Miller",
+    "position": "RB",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0022,
+    "after": 0.0024
+   }
+  ]
  }
 ]
