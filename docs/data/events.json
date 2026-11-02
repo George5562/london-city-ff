@@ -10793,5 +10793,39 @@
     "after": 0.0024
    }
   ]
+ },
+ {
+  "id": "injury-12483-2026-11-02T23:30:00Z",
+  "kind": "I",
+  "at": "2026-11-02T23:30:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Goats: Matthew Stafford is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.1512,
+    "after": 0.147
+   }
+  ]
+ },
+ {
+  "id": "injury-4685512-2026-11-02T23:30:00Z",
+  "kind": "I",
+  "at": "2026-11-02T23:30:00Z",
+  "teams": [
+   9
+  ],
+  "text": "GiantPunt: Jadarian Price is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.4794,
+    "after": 0.4869
+   }
+  ]
  }
 ]
