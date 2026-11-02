@@ -55061,6 +55061,287 @@
      }
     }
    }
+  },
+  {
+   "date": "2026-11-02",
+   "label": "Week 8 \u00b7 00:30 UTC",
+   "week": 8,
+   "backfilled": false,
+   "teams": {
+    "9": {
+     "champ": 0.4702,
+     "playoff": 0.9958,
+     "projWins": 11.61
+    },
+    "2": {
+     "champ": 0.1835,
+     "playoff": 0.8778,
+     "projWins": 9.82
+    },
+    "3": {
+     "champ": 0.1637,
+     "playoff": 0.9225,
+     "projWins": 10.6
+    },
+    "13": {
+     "champ": 0.1012,
+     "playoff": 0.6331,
+     "projWins": 8.88
+    },
+    "4": {
+     "champ": 0.049,
+     "playoff": 0.2976,
+     "projWins": 7.48
+    },
+    "1": {
+     "champ": 0.0297,
+     "playoff": 0.244,
+     "projWins": 7.86
+    },
+    "11": {
+     "champ": 0.0022,
+     "playoff": 0.0232,
+     "projWins": 5.81
+    },
+    "6": {
+     "champ": 0.0004,
+     "playoff": 0.0042,
+     "projWins": 4.79
+    },
+    "5": {
+     "champ": 0.0001,
+     "playoff": 0.0001,
+     "projWins": 3.57
+    },
+    "12": {
+     "champ": 0.0001,
+     "playoff": 0.0016,
+     "projWins": 4.58
+    }
+   },
+   "at": "2026-11-02T00:30:00Z",
+   "changes": {
+    "9": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.0073,
+     "text": "Kenneth Walker III now has 12.4 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "actual: Kenneth Walker III None -> 12.4",
+      "actual: Tee Higgins 23.0 -> 37.5",
+      "actual: Travis Kelce None -> 11.7",
+      "injury: DJ Moore ACTIVE -> QUESTIONABLE",
+      "actual: Jaguars D/ST 20.5 -> 21.0",
+      "actual: Patriots D/ST None -> 9.0",
+      "actual: Jordan Mason 1.9 -> 2.0",
+      "actual: Tyler Bass 15.0 -> 16.0"
+     ],
+     "showTooltip": true
+    },
+    "2": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0199,
+     "text": "Garrett Wilson now has 14.3 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "actual: Garrett Wilson 11.8 -> 14.3",
+      "actual: Davante Adams None -> 0.0",
+      "actual: Vikings D/ST 11.0 -> 5.0",
+      "actual: Jordan Mason 1.9 -> 2.0",
+      "actual: Bengals D/ST 7.0 -> 2.0",
+      "injury: Kyler Murray ACTIVE -> QUESTIONABLE",
+      "actual: Chiefs D/ST None -> 2.0",
+      "actual: Jonah Coleman None -> 20.4"
+     ],
+     "showTooltip": true
+    },
+    "3": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0104,
+     "text": "Jahmyr Gibbs now has 24.8 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "actual: Jahmyr Gibbs 18.5 -> 24.8",
+      "actual: Matthew Stafford None -> 8.28",
+      "actual: Tony Pollard 26.5 -> 28.7",
+      "actual: Ladd McConkey None -> 12.6",
+      "actual: Harold Fannin Jr. 17.7 -> 23.4",
+      "injury: Kyler Murray ACTIVE -> QUESTIONABLE",
+      "actual: Harrison Butker None -> 6.0",
+      "actual: Evan McPherson 3.0 -> 5.0"
+     ],
+     "showTooltip": true
+    },
+    "13": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.0176,
+     "text": "Derrick Henry now has 14 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "actual: Derrick Henry 13.3 -> 14.0",
+      "actual: Joe Burrow 13.62 -> 39.48",
+      "injury: DJ Moore ACTIVE -> QUESTIONABLE",
+      "actual: Blake Corum None -> 13.3",
+      "actual: Courtland Sutton None -> 9.3",
+      "injury: Tyler Huntley OUT -> QUESTIONABLE",
+      "injury: Zachariah Branch OUT -> QUESTIONABLE",
+      "injury: Joshua Palmer OUT -> QUESTIONABLE"
+     ],
+     "showTooltip": true
+    }
+   },
+   "explanations": {
+    "9": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Kenneth Walker III now has 12.4 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.0073,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "2": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Garrett Wilson now has 14.3 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.0199,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Garrett Wilson now has 14.3 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.0146,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Garrett Wilson now has 14.3 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.14,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "3": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Jahmyr Gibbs now has 24.8 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.0104,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Jahmyr Gibbs now has 24.8 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.0271,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Jahmyr Gibbs now has 24.8 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.53,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "13": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Derrick Henry now has 14 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.0176,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Derrick Henry now has 14 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.0446,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "4": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0189,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "1": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.0374,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.23,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "11": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0143,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.75,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "6": {
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.14,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "12": {
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.37,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    }
+   }
   }
  ]
 }

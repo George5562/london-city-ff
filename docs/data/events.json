@@ -10685,5 +10685,73 @@
     "after": 0.0003
    }
   ]
+ },
+ {
+  "id": "injury-3915416-2026-11-02T00:30:00Z",
+  "kind": "I",
+  "at": "2026-11-02T00:30:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: DJ Moore is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0003,
+    "after": 0.0022
+   }
+  ]
+ },
+ {
+  "id": "injury-4360761-2026-11-02T00:30:00Z",
+  "kind": "I",
+  "at": "2026-11-02T00:30:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Cardigan's Boys: Michael Wilson is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0001,
+    "after": 0.0001
+   }
+  ]
+ },
+ {
+  "id": "injury-3046439-2026-11-02T00:30:00Z",
+  "kind": "I",
+  "at": "2026-11-02T00:30:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Cardigan's Boys: Hunter Henry is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0001,
+    "after": 0.0001
+   }
+  ]
+ },
+ {
+  "id": "injury-4427728-2026-11-02T00:30:00Z",
+  "kind": "I",
+  "at": "2026-11-02T00:30:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: Bam Knight is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0003,
+    "after": 0.0022
+   }
+  ]
  }
 ]
