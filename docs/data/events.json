@@ -10827,5 +10827,39 @@
     "after": 0.4869
    }
   ]
+ },
+ {
+  "id": "injury-4882093-2026-11-03T06:30:00Z",
+  "kind": "I",
+  "at": "2026-11-03T06:30:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Love hurts: Bhayshul Tuten is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0001,
+    "after": 0.0
+   }
+  ]
+ },
+ {
+  "id": "injury-3916433-2026-11-03T06:30:00Z",
+  "kind": "I",
+  "at": "2026-11-03T06:30:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Sabre Raiders: Jakobi Meyers is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.1898,
+    "after": 0.2053
+   }
+  ]
  }
 ]
