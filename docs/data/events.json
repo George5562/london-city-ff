@@ -11003,5 +11003,22 @@
     "after": 0.0083
    }
   ]
+ },
+ {
+  "id": "injury-4870808-2026-11-03T20:30:00Z",
+  "kind": "I",
+  "at": "2026-11-03T20:30:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Jeremiyah Love is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0678,
+    "after": 0.0689
+   }
+  ]
  }
 ]
