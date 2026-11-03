@@ -10861,5 +10861,147 @@
     "after": 0.2053
    }
   ]
+ },
+ {
+  "id": "injury-4241478-2026-11-03T14:30:00Z",
+  "kind": "I",
+  "at": "2026-11-03T14:30:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Goats: DeVonta Smith is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.1354,
+    "after": 0.0798
+   }
+  ]
+ },
+ {
+  "id": "injury-4427366-2026-11-03T14:30:00Z",
+  "kind": "I",
+  "at": "2026-11-03T14:30:00Z",
+  "teams": [
+   6
+  ],
+  "text": "The Le Chable Dolphins: Breece Hall is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.0001,
+    "after": 0.0
+   }
+  ]
+ },
+ {
+  "id": "injury-4047646-2026-11-03T14:30:00Z",
+  "kind": "I",
+  "at": "2026-11-03T14:30:00Z",
+  "teams": [
+   1
+  ],
+  "text": "Knights who say Ni: A.J. Brown is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.0231,
+    "after": 0.0231
+   }
+  ]
+ },
+ {
+  "id": "injury-4567750-2026-11-03T14:30:00Z",
+  "kind": "I",
+  "at": "2026-11-03T14:30:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Emeka Egbuka is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0582,
+    "after": 0.0678
+   }
+  ]
+ },
+ {
+  "id": "injury-4608686-2026-11-03T14:30:00Z",
+  "kind": "I",
+  "at": "2026-11-03T14:30:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Love hurts: Kyle Monangai is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0,
+    "after": 0.0
+   }
+  ]
+ },
+ {
+  "id": "injury-4432710-2026-11-03T14:30:00Z",
+  "kind": "I",
+  "at": "2026-11-03T14:30:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: TreVeyon Henderson is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.002,
+    "after": 0.0083
+   }
+  ]
+ },
+ {
+  "id": "injury-4241474-2026-11-03T14:30:00Z",
+  "kind": "I",
+  "at": "2026-11-03T14:30:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Cardigan's Boys: Brian Robinson Jr. is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0,
+    "after": 0.0001
+   }
+  ]
+ },
+ {
+  "id": "trade-0f07f264-d670-4ad6-b350-e733af85eed2",
+  "kind": "T",
+  "at": "2026-11-03T14:30:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Claimed WR Makai Lemon off waivers.",
+  "moves": [
+   {
+    "player": "Makai Lemon",
+    "position": "WR",
+    "action": "claim"
+   }
+  ],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.002,
+    "after": 0.0083
+   }
+  ]
  }
 ]
