@@ -11020,5 +11020,22 @@
     "after": 0.0689
    }
   ]
+ },
+ {
+  "id": "injury-4870808-2026-11-04T00:30:00Z",
+  "kind": "I",
+  "at": "2026-11-04T00:30:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Jeremiyah Love is now listed as injury reserve.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0689,
+    "after": 0.0721
+   }
+  ]
  }
 ]
