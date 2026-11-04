@@ -11037,5 +11037,107 @@
     "after": 0.0721
    }
   ]
+ },
+ {
+  "id": "injury-4374302-2026-11-04T21:30:00Z",
+  "kind": "I",
+  "at": "2026-11-04T21:30:00Z",
+  "teams": [
+   9
+  ],
+  "text": "GiantPunt: Amon-Ra St. Brown is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.5747,
+    "after": 0.5753
+   }
+  ]
+ },
+ {
+  "id": "injury-4569618-2026-11-04T21:30:00Z",
+  "kind": "I",
+  "at": "2026-11-04T21:30:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Sabre Raiders: Garrett Wilson is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.1972,
+    "after": 0.1976
+   }
+  ]
+ },
+ {
+  "id": "injury-4428331-2026-11-04T21:30:00Z",
+  "kind": "I",
+  "at": "2026-11-04T21:30:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Love hurts: Rashee Rice is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0,
+    "after": 0.0
+   }
+  ]
+ },
+ {
+  "id": "injury-15847-2026-11-04T21:30:00Z",
+  "kind": "I",
+  "at": "2026-11-04T21:30:00Z",
+  "teams": [
+   9
+  ],
+  "text": "GiantPunt: Travis Kelce is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.5747,
+    "after": 0.5753
+   }
+  ]
+ },
+ {
+  "id": "injury-4035538-2026-11-04T21:30:00Z",
+  "kind": "I",
+  "at": "2026-11-04T21:30:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Love hurts: David Montgomery is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0,
+    "after": 0.0
+   }
+  ]
+ },
+ {
+  "id": "injury-3916433-2026-11-04T21:30:00Z",
+  "kind": "I",
+  "at": "2026-11-04T21:30:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Sabre Raiders: Jakobi Meyers is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.1972,
+    "after": 0.1976
+   }
+  ]
  }
 ]
