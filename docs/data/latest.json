@@ -10,13 +10,13 @@
    "wins": 6,
    "losses": 2,
    "pf": 1191.5,
-   "projPerGame": 153.5,
+   "projPerGame": 153.4,
    "strength": 151.2,
    "projWins": 11.8,
    "playoff": 0.9976,
-   "final": 0.7701,
-   "champ": 0.5746,
-   "topSeed": 0.7558,
+   "final": 0.77,
+   "champ": 0.5747,
+   "topSeed": 0.7556,
    "lineup": [
     {
      "name": "Tee Higgins",
@@ -77,9 +77,9 @@
    "strength": 131.2,
    "projWins": 9.75,
    "playoff": 0.8704,
-   "final": 0.4819,
-   "champ": 0.1973,
-   "topSeed": 0.0488,
+   "final": 0.4814,
+   "champ": 0.1972,
+   "topSeed": 0.0489,
    "lineup": [
     {
      "name": "Jaxon Smith-Njigba",
@@ -139,10 +139,10 @@
    "projPerGame": 106.0,
    "strength": 114.7,
    "projWins": 11.0,
-   "playoff": 0.9629,
-   "final": 0.3274,
+   "playoff": 0.9627,
+   "final": 0.3276,
    "champ": 0.0756,
-   "topSeed": 0.1812,
+   "topSeed": 0.181,
    "lineup": [
     {
      "name": "Jahmyr Gibbs",
@@ -197,9 +197,9 @@
    "projPerGame": 136.1,
    "strength": 129.6,
    "projWins": 7.59,
-   "playoff": 0.3469,
+   "playoff": 0.3465,
    "final": 0.1596,
-   "champ": 0.0721,
+   "champ": 0.0719,
    "topSeed": 0.0026,
    "lineup": [
     {
@@ -257,12 +257,12 @@
    "wins": 5,
    "losses": 3,
    "pf": 945.58,
-   "projPerGame": 112.7,
-   "strength": 115.4,
-   "projWins": 8.6,
-   "playoff": 0.5446,
-   "final": 0.1719,
-   "champ": 0.0517,
+   "projPerGame": 112.8,
+   "strength": 115.5,
+   "projWins": 8.61,
+   "playoff": 0.546,
+   "final": 0.1726,
+   "champ": 0.0519,
    "topSeed": 0.0095,
    "lineup": [
     {
@@ -303,7 +303,7 @@
     {
      "name": "Derrick Henry",
      "pos": "FLEX",
-     "pts": 12.7
+     "pts": 12.9
     }
    ]
   },
@@ -318,10 +318,10 @@
    "projPerGame": 118.4,
    "strength": 115.0,
    "projWins": 7.72,
-   "playoff": 0.2137,
-   "final": 0.0679,
-   "champ": 0.0208,
-   "topSeed": 0.0023,
+   "playoff": 0.2133,
+   "final": 0.0678,
+   "champ": 0.0207,
+   "topSeed": 0.0024,
    "lineup": [
     {
      "name": "Puka Nacua",
@@ -381,8 +381,8 @@
    "projPerGame": 124.5,
    "strength": 117.1,
    "projWins": 6.41,
-   "playoff": 0.0604,
-   "final": 0.0204,
+   "playoff": 0.06,
+   "final": 0.0203,
    "champ": 0.0076,
    "topSeed": 0.0,
    "lineup": [
@@ -399,7 +399,7 @@
     {
      "name": "Matthew Golden",
      "pos": "WR",
-     "pts": 16.9
+     "pts": 16.8
     },
     {
      "name": "DJ Moore",
@@ -446,7 +446,7 @@
    "projWins": 4.37,
    "playoff": 0.0019,
    "final": 0.0006,
-   "champ": 0.0004,
+   "champ": 0.0003,
    "topSeed": 0.0,
    "lineup": [
     {
@@ -504,7 +504,7 @@
    "wins": 2,
    "losses": 6,
    "pf": 784.82,
-   "projPerGame": 102.3,
+   "projPerGame": 102.2,
    "strength": 100.2,
    "projWins": 4.58,
    "playoff": 0.0015,
@@ -567,7 +567,7 @@
    "wins": 1,
    "losses": 7,
    "pf": 716.1,
-   "projPerGame": 118.3,
+   "projPerGame": 118.2,
    "strength": 103.9,
    "projWins": 3.16,
    "playoff": 0.0,
@@ -578,7 +578,7 @@
     {
      "name": "Bhayshul Tuten",
      "pos": "RB",
-     "pts": 20.4
+     "pts": 20.3
     },
     {
      "name": "Christian McCaffrey",
@@ -622,12 +622,12 @@
   {
    "home": 4,
    "away": 2,
-   "homeWin": 0.4631
+   "homeWin": 0.4628
   },
   {
    "home": 13,
    "away": 9,
-   "homeWin": 0.183
+   "homeWin": 0.1837
   },
   {
    "home": 5,
@@ -642,8 +642,8 @@
   {
    "home": 12,
    "away": 3,
-   "homeWin": 0.3679
+   "homeWin": 0.3681
   }
  ],
- "generated": "2026-11-04T00:52+00:00"
+ "generated": "2026-11-04T07:26+00:00"
 }
