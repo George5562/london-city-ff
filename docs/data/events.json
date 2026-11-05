@@ -11360,5 +11360,61 @@
     "after": 0.0604
    }
   ]
+ },
+ {
+  "id": "trade-565250cf-15dc-4bd8-a78d-255df31fe3d3",
+  "kind": "T",
+  "at": "2026-11-05T17:30:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Added DeMario Douglas (WR); dropped Aaron Jones Sr. (RB).",
+  "moves": [
+   {
+    "player": "DeMario Douglas",
+    "position": "WR",
+    "action": "add"
+   },
+   {
+    "player": "Aaron Jones Sr.",
+    "position": "RB",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.0784,
+    "after": 0.1023
+   }
+  ]
+ },
+ {
+  "id": "trade-a8762d43-0474-426f-a96e-bd241d0b0fe2",
+  "kind": "T",
+  "at": "2026-11-05T17:30:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Added Bears D/ST; dropped Harrison Butker.",
+  "moves": [
+   {
+    "player": "Bears D/ST",
+    "position": "D/ST",
+    "action": "add"
+   },
+   {
+    "player": "Harrison Butker",
+    "position": "K",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.0784,
+    "after": 0.1023
+   }
+  ]
  }
 ]
