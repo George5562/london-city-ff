@@ -14,9 +14,9 @@
    "strength": 151.4,
    "projWins": 11.85,
    "playoff": 0.9973,
-   "final": 0.7593,
+   "final": 0.7592,
    "champ": 0.5631,
-   "topSeed": 0.7675,
+   "topSeed": 0.7671,
    "lineup": [
     {
      "name": "Tee Higgins",
@@ -73,11 +73,11 @@
    "wins": 6,
    "losses": 2,
    "pf": 1042.76,
-   "projPerGame": 131.7,
+   "projPerGame": 131.6,
    "strength": 131.0,
    "projWins": 9.68,
-   "playoff": 0.8673,
-   "final": 0.454,
+   "playoff": 0.8671,
+   "final": 0.4536,
    "champ": 0.1822,
    "topSeed": 0.0438,
    "lineup": [
@@ -139,10 +139,10 @@
    "projPerGame": 116.1,
    "strength": 119.7,
    "projWins": 11.06,
-   "playoff": 0.9663,
-   "final": 0.3761,
+   "playoff": 0.9661,
+   "final": 0.376,
    "champ": 0.1048,
-   "topSeed": 0.1774,
+   "topSeed": 0.1779,
    "lineup": [
     {
      "name": "Jahmyr Gibbs",
@@ -202,7 +202,7 @@
    "projPerGame": 132.1,
    "strength": 127.6,
    "projWins": 7.65,
-   "playoff": 0.3656,
+   "playoff": 0.3652,
    "final": 0.1495,
    "champ": 0.06,
    "topSeed": 0.0027,
@@ -263,11 +263,11 @@
    "losses": 3,
    "pf": 945.58,
    "projPerGame": 120.3,
-   "strength": 119.2,
+   "strength": 119.3,
    "projWins": 8.33,
-   "playoff": 0.4427,
-   "final": 0.1467,
-   "champ": 0.0522,
+   "playoff": 0.4432,
+   "final": 0.1472,
+   "champ": 0.0521,
    "topSeed": 0.0054,
    "lineup": [
     {
@@ -313,7 +313,7 @@
     {
      "name": "Derrick Henry",
      "pos": "FLEX",
-     "pts": 11.8
+     "pts": 11.9
     }
    ]
   },
@@ -328,9 +328,9 @@
    "projPerGame": 119.5,
    "strength": 115.5,
    "projWins": 8.07,
-   "playoff": 0.2934,
-   "final": 0.0931,
-   "champ": 0.03,
+   "playoff": 0.2937,
+   "final": 0.0932,
+   "champ": 0.0301,
    "topSeed": 0.0032,
    "lineup": [
     {
@@ -389,10 +389,10 @@
    "losses": 5,
    "pf": 877.64,
    "projPerGame": 124.4,
-   "strength": 117.1,
+   "strength": 117.0,
    "projWins": 6.41,
-   "playoff": 0.0641,
-   "final": 0.0205,
+   "playoff": 0.064,
+   "final": 0.0206,
    "champ": 0.0076,
    "topSeed": 0.0,
    "lineup": [
@@ -514,7 +514,7 @@
    "wins": 1,
    "losses": 7,
    "pf": 716.1,
-   "projPerGame": 116.0,
+   "projPerGame": 115.9,
    "strength": 102.7,
    "projWins": 2.98,
    "playoff": 0.0,
@@ -641,20 +641,20 @@
   {
    "home": 13,
    "away": 9,
-   "homeWin": 0.1983,
-   "homePts": 5.4,
+   "homeWin": 0.2001,
+   "homePts": 5.6,
    "awayPts": 12.0,
-   "homeProj": 120.9,
+   "homeProj": 121.1,
    "awayProj": 151.7
   },
   {
    "home": 5,
    "away": 1,
-   "homeWin": 0.1572,
+   "homeWin": 0.1555,
    "homePts": 0.0,
-   "awayPts": 27.4,
+   "awayPts": 27.7,
    "homeProj": 92.2,
-   "awayProj": 127.3
+   "awayProj": 127.6
   },
   {
    "home": 6,
@@ -668,12 +668,12 @@
   {
    "home": 12,
    "away": 3,
-   "homeWin": 0.1532,
+   "homeWin": 0.1533,
    "homePts": 0.0,
    "awayPts": 0.0,
    "homeProj": 84.0,
    "awayProj": 121.2
   }
  ],
- "generated": "2026-11-06T03:37+00:00"
+ "generated": "2026-11-06T11:59+00:00"
 }
