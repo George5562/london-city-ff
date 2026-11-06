@@ -11791,5 +11791,338 @@
     "after": 0.0
    }
   ]
+ },
+ {
+  "id": "injury-3117251-2026-11-06T23:30:00Z",
+  "kind": "I",
+  "at": "2026-11-06T23:30:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Love hurts: Christian McCaffrey is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0,
+    "after": 0.0
+   }
+  ]
+ },
+ {
+  "id": "injury-4595348-2026-11-06T23:30:00Z",
+  "kind": "I",
+  "at": "2026-11-06T23:30:00Z",
+  "teams": [
+   13
+  ],
+  "text": "Salisbury Screamers: Malik Nabers is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 13,
+    "before": 0.0522,
+    "after": 0.0528
+   }
+  ]
+ },
+ {
+  "id": "injury-3929630-2026-11-06T23:30:00Z",
+  "kind": "I",
+  "at": "2026-11-06T23:30:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Saquon Barkley is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0652,
+    "after": 0.0635
+   }
+  ]
+ },
+ {
+  "id": "injury-4248528-2026-11-06T23:30:00Z",
+  "kind": "I",
+  "at": "2026-11-06T23:30:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Christian Watson is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0652,
+    "after": 0.0635
+   }
+  ]
+ },
+ {
+  "id": "injury-4241478-2026-11-06T23:30:00Z",
+  "kind": "I",
+  "at": "2026-11-06T23:30:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Goats: DeVonta Smith is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.1052,
+    "after": 0.1027
+   }
+  ]
+ },
+ {
+  "id": "injury-16737-2026-11-06T23:30:00Z",
+  "kind": "I",
+  "at": "2026-11-06T23:30:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Mike Evans is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0652,
+    "after": 0.0635
+   }
+  ]
+ },
+ {
+  "id": "injury-4696981-2026-11-06T23:30:00Z",
+  "kind": "I",
+  "at": "2026-11-06T23:30:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Cardigan's Boys: Cam Skattebo is now listed as doubtful.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0,
+    "after": 0.0001
+   }
+  ]
+ },
+ {
+  "id": "injury-4360761-2026-11-06T23:30:00Z",
+  "kind": "I",
+  "at": "2026-11-06T23:30:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Cardigan's Boys: Michael Wilson is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0,
+    "after": 0.0001
+   }
+  ]
+ },
+ {
+  "id": "injury-5083076-2026-11-06T23:30:00Z",
+  "kind": "I",
+  "at": "2026-11-06T23:30:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Goats: Harold Fannin Jr. is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.1052,
+    "after": 0.1027
+   }
+  ]
+ },
+ {
+  "id": "injury-4832800-2026-11-06T23:30:00Z",
+  "kind": "I",
+  "at": "2026-11-06T23:30:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Cardigan's Boys: Denzel Boston is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0,
+    "after": 0.0001
+   }
+  ]
+ },
+ {
+  "id": "injury-4385690-2026-11-06T23:30:00Z",
+  "kind": "I",
+  "at": "2026-11-06T23:30:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: Dalton Kincaid is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0076,
+    "after": 0.0083
+   }
+  ]
+ },
+ {
+  "id": "injury-3126486-2026-11-06T23:30:00Z",
+  "kind": "I",
+  "at": "2026-11-06T23:30:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: Deebo Samuel Sr. is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0076,
+    "after": 0.0083
+   }
+  ]
+ },
+ {
+  "id": "injury-3054850-2026-11-06T23:30:00Z",
+  "kind": "I",
+  "at": "2026-11-06T23:30:00Z",
+  "teams": [
+   1
+  ],
+  "text": "Knights who say Ni: Alvin Kamara is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.0301,
+    "after": 0.028
+   }
+  ]
+ },
+ {
+  "id": "trade-7d79e9c9-0be2-4c9c-8e5e-df0002d45f89",
+  "kind": "T",
+  "at": "2026-11-06T23:30:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Added Kaelon Black (RB); dropped David Montgomery (RB).",
+  "moves": [
+   {
+    "player": "Kaelon Black",
+    "position": "RB",
+    "action": "add"
+   },
+   {
+    "player": "David Montgomery",
+    "position": "RB",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0,
+    "after": 0.0
+   }
+  ]
+ },
+ {
+  "id": "trade-9d654dd3-d0bb-46e2-ac3f-22b380701265",
+  "kind": "T",
+  "at": "2026-11-06T23:30:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Added WR Omar Cooper Jr.; dropped WR Rome Odunze.",
+  "moves": [
+   {
+    "player": "Omar Cooper Jr.",
+    "position": "WR",
+    "action": "add"
+   },
+   {
+    "player": "Rome Odunze",
+    "position": "WR",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.177,
+    "after": 0.181
+   }
+  ]
+ },
+ {
+  "id": "trade-50d01cb1-95f3-442d-a665-63bca9fc4757",
+  "kind": "T",
+  "at": "2026-11-06T23:30:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Added Adonai Mitchell (WR); dropped Romeo Doubs (WR).",
+  "moves": [
+   {
+    "player": "Adonai Mitchell",
+    "position": "WR",
+    "action": "add"
+   },
+   {
+    "player": "Romeo Doubs",
+    "position": "WR",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0,
+    "after": 0.0001
+   }
+  ]
+ },
+ {
+  "id": "trade-b22d8baa-371b-4e48-ac15-0f35a2395fd4",
+  "kind": "T",
+  "at": "2026-11-06T23:30:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Added Devin Singletary; dropped Brian Robinson Jr.",
+  "moves": [
+   {
+    "player": "Devin Singletary",
+    "position": "RB",
+    "action": "add"
+   },
+   {
+    "player": "Brian Robinson Jr.",
+    "position": "RB",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0,
+    "after": 0.0001
+   }
+  ]
  }
 ]
