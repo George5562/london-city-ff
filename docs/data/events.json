@@ -11643,5 +11643,68 @@
     "after": 0.5709
    }
   ]
+ },
+ {
+  "id": "injury-4882093-2026-11-06T03:30:00Z",
+  "kind": "I",
+  "at": "2026-11-06T03:30:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Love hurts: Bhayshul Tuten is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0,
+    "after": 0.0
+   }
+  ]
+ },
+ {
+  "id": "trade-ae543caa-50ed-4ec7-9d13-7eabc208c81d",
+  "kind": "T",
+  "at": "2026-11-06T03:30:00Z",
+  "teams": [
+   13
+  ],
+  "text": "Dropped Chris Boswell.",
+  "moves": [
+   {
+    "player": "Chris Boswell",
+    "position": "K",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 13,
+    "before": 0.0517,
+    "after": 0.0522
+   }
+  ]
+ },
+ {
+  "id": "trade-a33687d7-0494-4942-af2c-e5a6dbc95e96",
+  "kind": "T",
+  "at": "2026-11-06T03:30:00Z",
+  "teams": [
+   13
+  ],
+  "text": "Added Cairo Santos.",
+  "moves": [
+   {
+    "player": "Cairo Santos",
+    "position": "K",
+    "action": "add"
+   }
+  ],
+  "changes": [
+   {
+    "team": 13,
+    "before": 0.0517,
+    "after": 0.0522
+   }
+  ]
  }
 ]
