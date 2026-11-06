@@ -11706,5 +11706,90 @@
     "after": 0.0522
    }
   ]
+ },
+ {
+  "id": "injury-4569618-2026-11-06T19:00:00Z",
+  "kind": "I",
+  "at": "2026-11-06T19:00:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Sabre Raiders: Garrett Wilson is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.1822,
+    "after": 0.177
+   }
+  ]
+ },
+ {
+  "id": "injury-4047646-2026-11-06T19:00:00Z",
+  "kind": "I",
+  "at": "2026-11-06T19:00:00Z",
+  "teams": [
+   1
+  ],
+  "text": "Knights who say Ni: A.J. Brown is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.0301,
+    "after": 0.0301
+   }
+  ]
+ },
+ {
+  "id": "injury-4567750-2026-11-06T19:00:00Z",
+  "kind": "I",
+  "at": "2026-11-06T19:00:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Emeka Egbuka is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.06,
+    "after": 0.0652
+   }
+  ]
+ },
+ {
+  "id": "injury-4432710-2026-11-06T19:00:00Z",
+  "kind": "I",
+  "at": "2026-11-06T19:00:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: TreVeyon Henderson is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0076,
+    "after": 0.0076
+   }
+  ]
+ },
+ {
+  "id": "injury-4241474-2026-11-06T19:00:00Z",
+  "kind": "I",
+  "at": "2026-11-06T19:00:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Cardigan's Boys: Brian Robinson Jr. is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0,
+    "after": 0.0
+   }
+  ]
  }
 ]

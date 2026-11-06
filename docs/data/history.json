@@ -57062,6 +57062,166 @@
    },
    "at": "2026-11-06T11:30:00Z",
    "explanations": {}
+  },
+  {
+   "date": "2026-11-06",
+   "label": "Week 9 \u00b7 19:00 UTC",
+   "week": 9,
+   "backfilled": false,
+   "teams": {
+    "9": {
+     "champ": 0.5625,
+     "playoff": 0.9973,
+     "projWins": 11.85
+    },
+    "2": {
+     "champ": 0.177,
+     "playoff": 0.842,
+     "projWins": 9.54
+    },
+    "3": {
+     "champ": 0.1052,
+     "playoff": 0.9598,
+     "projWins": 10.98
+    },
+    "4": {
+     "champ": 0.0652,
+     "playoff": 0.3987,
+     "projWins": 7.79
+    },
+    "13": {
+     "champ": 0.0522,
+     "playoff": 0.445,
+     "projWins": 8.35
+    },
+    "1": {
+     "champ": 0.0301,
+     "playoff": 0.2909,
+     "projWins": 8.07
+    },
+    "11": {
+     "champ": 0.0076,
+     "playoff": 0.0629,
+     "projWins": 6.41
+    },
+    "6": {
+     "champ": 0.0001,
+     "playoff": 0.0025,
+     "projWins": 4.56
+    },
+    "5": {
+     "champ": 0.0,
+     "playoff": 0.0,
+     "projWins": 2.98
+    },
+    "12": {
+     "champ": 0.0,
+     "playoff": 0.0007,
+     "projWins": 4.46
+    }
+   },
+   "at": "2026-11-06T19:00:00Z",
+   "changes": {
+    "2": {
+     "cause": "roster_availability",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0052,
+     "text": "Garrett Wilson\u2019s forecast moved from 12.7171 to 0 fantasy points, lowering their expected scoring contribution.",
+     "facts": [
+      "injury: Garrett Wilson QUESTIONABLE -> OUT",
+      "projection: Garrett Wilson 12.71711293 -> 0.0",
+      "injury: Emeka Egbuka ACTIVE -> QUESTIONABLE",
+      "projection: Braelon Allen 8.98933901 -> 8.99269649",
+      "projection: Jonah Coleman 14.41836892 -> 14.41844063",
+      "projection: Bryce Young 15.71783673 -> 15.71784429",
+      "projection: Jakobi Meyers 10.67987131 -> 10.67778973"
+     ],
+     "showTooltip": true
+    },
+    "4": {
+     "cause": "roster_availability",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.0052,
+     "text": "Kyren Williams\u2019s forecast moved from 16.9562 to 16.9562 fantasy points, lowering their expected scoring contribution.",
+     "facts": [
+      "projection: Kyren Williams 16.95623688 -> 16.956205",
+      "projection: Saquon Barkley 12.45707505 -> 12.4571501",
+      "injury: A.J. Brown QUESTIONABLE -> OUT",
+      "injury: Emeka Egbuka ACTIVE -> QUESTIONABLE",
+      "projection: Emeka Egbuka 11.45114088 -> 11.45114161",
+      "projection: Patrick Mahomes 18.17029064 -> 18.17029844",
+      "projection: Tucker Kraft 10.75080426 -> 10.75081076",
+      "projection: Zach Charbonnet 10.76199038 -> 10.76204303"
+     ],
+     "showTooltip": true
+    }
+   },
+   "explanations": {
+    "2": {
+     "champ": {
+      "cause": "roster_availability",
+      "text": "Garrett Wilson\u2019s forecast moved from 12.7171 to 0 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.0052,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "roster_availability",
+      "text": "Garrett Wilson\u2019s forecast moved from 12.7171 to 0 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.0251,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "roster_availability",
+      "text": "Garrett Wilson\u2019s forecast moved from 12.7171 to 0 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.14,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "3": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.0063,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "4": {
+     "champ": {
+      "cause": "roster_availability",
+      "text": "Kyren Williams\u2019s forecast moved from 16.9562 to 16.9562 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.0052,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "roster_availability",
+      "text": "Kyren Williams\u2019s forecast moved from 16.9562 to 16.9562 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.0335,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "roster_availability",
+      "text": "Kyren Williams\u2019s forecast moved from 16.9562 to 16.9562 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.14,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    }
+   }
   }
  ]
 }
