@@ -12141,5 +12141,39 @@
     "after": 0.0675
    }
   ]
+ },
+ {
+  "id": "injury-3915416-2026-11-07T21:30:00Z",
+  "kind": "I",
+  "at": "2026-11-07T21:30:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: DJ Moore is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.007,
+    "after": 0.007
+   }
+  ]
+ },
+ {
+  "id": "injury-4635008-2026-11-07T21:30:00Z",
+  "kind": "I",
+  "at": "2026-11-07T21:30:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: Keon Coleman is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.007,
+    "after": 0.007
+   }
+  ]
  }
 ]

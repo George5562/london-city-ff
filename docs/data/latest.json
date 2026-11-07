@@ -13,10 +13,10 @@
    "projPerGame": 153.9,
    "strength": 151.4,
    "projWins": 11.84,
-   "playoff": 0.997,
-   "final": 0.7604,
-   "champ": 0.5638,
-   "topSeed": 0.795,
+   "playoff": 0.9971,
+   "final": 0.7607,
+   "champ": 0.564,
+   "topSeed": 0.7953,
    "lineup": [
     {
      "name": "Tee Higgins",
@@ -76,10 +76,10 @@
    "projPerGame": 131.0,
    "strength": 130.7,
    "projWins": 9.61,
-   "playoff": 0.8661,
-   "final": 0.4456,
-   "champ": 0.1793,
-   "topSeed": 0.0413,
+   "playoff": 0.8662,
+   "final": 0.4457,
+   "champ": 0.1792,
+   "topSeed": 0.0412,
    "lineup": [
     {
      "name": "Jaxon Smith-Njigba",
@@ -140,9 +140,9 @@
    "strength": 119.7,
    "projWins": 10.84,
    "playoff": 0.9545,
-   "final": 0.3744,
+   "final": 0.3743,
    "champ": 0.1031,
-   "topSeed": 0.1517,
+   "topSeed": 0.1514,
    "lineup": [
     {
      "name": "Jahmyr Gibbs",
@@ -200,7 +200,7 @@
    "losses": 4,
    "pf": 985.24,
    "projPerGame": 132.1,
-   "strength": 127.7,
+   "strength": 127.6,
    "projWins": 7.67,
    "playoff": 0.3848,
    "final": 0.1599,
@@ -265,9 +265,9 @@
    "projPerGame": 120.5,
    "strength": 119.3,
    "projWins": 8.33,
-   "playoff": 0.4547,
-   "final": 0.1524,
-   "champ": 0.0526,
+   "playoff": 0.4543,
+   "final": 0.152,
+   "champ": 0.0525,
    "topSeed": 0.0065,
    "lineup": [
     {
@@ -328,7 +328,7 @@
    "projPerGame": 119.5,
    "strength": 115.5,
    "projWins": 7.9,
-   "playoff": 0.271,
+   "playoff": 0.2711,
    "final": 0.0852,
    "champ": 0.0268,
    "topSeed": 0.0026,
@@ -391,8 +391,8 @@
    "projPerGame": 124.0,
    "strength": 116.9,
    "projWins": 6.47,
-   "playoff": 0.067,
-   "final": 0.0213,
+   "playoff": 0.0672,
+   "final": 0.0214,
    "champ": 0.007,
    "topSeed": 0.0001,
    "lineup": [
@@ -641,10 +641,10 @@
   {
    "home": 13,
    "away": 9,
-   "homeWin": 0.2112,
+   "homeWin": 0.2103,
    "homePts": 5.6,
    "awayPts": 12.0,
-   "homeProj": 122.7,
+   "homeProj": 122.6,
    "awayProj": 151.7
   },
   {
@@ -659,11 +659,11 @@
   {
    "home": 6,
    "away": 11,
-   "homeWin": 0.5231,
+   "homeWin": 0.5222,
    "homePts": 0.0,
    "awayPts": 4.2,
    "homeProj": 117.3,
-   "awayProj": 114.9
+   "awayProj": 115.0
   },
   {
    "home": 12,
@@ -675,5 +675,5 @@
    "awayProj": 121.4
   }
  ],
- "generated": "2026-11-07T17:59+00:00"
+ "generated": "2026-11-07T21:43+00:00"
 }
