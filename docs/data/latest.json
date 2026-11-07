@@ -13,10 +13,10 @@
    "projPerGame": 153.8,
    "strength": 151.3,
    "projWins": 11.84,
-   "playoff": 0.9975,
-   "final": 0.7602,
-   "champ": 0.5634,
-   "topSeed": 0.7979,
+   "playoff": 0.9969,
+   "final": 0.7598,
+   "champ": 0.5636,
+   "topSeed": 0.7951,
    "lineup": [
     {
      "name": "Tee Higgins",
@@ -75,10 +75,10 @@
    "pf": 1042.76,
    "projPerGame": 130.9,
    "strength": 130.6,
-   "projWins": 9.61,
-   "playoff": 0.8632,
-   "final": 0.4519,
-   "champ": 0.181,
+   "projWins": 9.6,
+   "playoff": 0.8651,
+   "final": 0.4451,
+   "champ": 0.179,
    "topSeed": 0.0411,
    "lineup": [
     {
@@ -138,11 +138,11 @@
    "pf": 986.36,
    "projPerGame": 116.0,
    "strength": 119.6,
-   "projWins": 10.83,
-   "playoff": 0.9536,
-   "final": 0.3682,
-   "champ": 0.1027,
-   "topSeed": 0.1489,
+   "projWins": 10.84,
+   "playoff": 0.9542,
+   "final": 0.374,
+   "champ": 0.1031,
+   "topSeed": 0.1515,
    "lineup": [
     {
      "name": "Jahmyr Gibbs",
@@ -201,11 +201,11 @@
    "pf": 985.24,
    "projPerGame": 132.1,
    "strength": 127.6,
-   "projWins": 7.69,
-   "playoff": 0.3917,
-   "final": 0.1597,
-   "champ": 0.0635,
-   "topSeed": 0.0034,
+   "projWins": 7.68,
+   "playoff": 0.3861,
+   "final": 0.1606,
+   "champ": 0.0675,
+   "topSeed": 0.0031,
    "lineup": [
     {
      "name": "Ja'Marr Chase",
@@ -265,10 +265,10 @@
    "projPerGame": 120.4,
    "strength": 119.3,
    "projWins": 8.33,
-   "playoff": 0.4547,
-   "final": 0.151,
-   "champ": 0.0528,
-   "topSeed": 0.0062,
+   "playoff": 0.4548,
+   "final": 0.1528,
+   "champ": 0.0525,
+   "topSeed": 0.0066,
    "lineup": [
     {
      "name": "Joe Burrow",
@@ -327,11 +327,11 @@
    "pf": 892.38,
    "projPerGame": 119.5,
    "strength": 115.5,
-   "projWins": 7.87,
-   "playoff": 0.2645,
-   "final": 0.0859,
-   "champ": 0.028,
-   "topSeed": 0.0024,
+   "projWins": 7.9,
+   "playoff": 0.2707,
+   "final": 0.0853,
+   "champ": 0.0267,
+   "topSeed": 0.0026,
    "lineup": [
     {
      "name": "Puka Nacua",
@@ -391,10 +391,10 @@
    "projPerGame": 124.0,
    "strength": 116.8,
    "projWins": 6.47,
-   "playoff": 0.0708,
-   "final": 0.0223,
-   "champ": 0.0083,
-   "topSeed": 0.0,
+   "playoff": 0.0672,
+   "final": 0.0214,
+   "champ": 0.007,
+   "topSeed": 0.0001,
    "lineup": [
     {
      "name": "Josh Allen",
@@ -454,8 +454,8 @@
    "projPerGame": 103.9,
    "strength": 106.1,
    "projWins": 4.53,
-   "playoff": 0.0024,
-   "final": 0.0005,
+   "playoff": 0.0032,
+   "final": 0.0006,
    "champ": 0.0002,
    "topSeed": 0.0,
    "lineup": [
@@ -518,8 +518,8 @@
    "strength": 103.2,
    "projWins": 4.67,
    "playoff": 0.0015,
-   "final": 0.0002,
-   "champ": 0.0001,
+   "final": 0.0003,
+   "champ": 0.0002,
    "topSeed": 0.0,
    "lineup": [
     {
@@ -579,8 +579,8 @@
    "pf": 716.1,
    "projPerGame": 116.0,
    "strength": 102.8,
-   "projWins": 3.17,
-   "playoff": 0.0,
+   "projWins": 3.15,
+   "playoff": 0.0001,
    "final": 0.0,
    "champ": 0.0,
    "topSeed": 0.0,
@@ -632,7 +632,7 @@
   {
    "home": 4,
    "away": 2,
-   "homeWin": 0.5886,
+   "homeWin": 0.5854,
    "homePts": 0.0,
    "awayPts": 0.0,
    "homeProj": 136.9,
@@ -641,7 +641,7 @@
   {
    "home": 13,
    "away": 9,
-   "homeWin": 0.2149,
+   "homeWin": 0.2124,
    "homePts": 5.6,
    "awayPts": 12.0,
    "homeProj": 122.8,
@@ -650,7 +650,7 @@
   {
    "home": 5,
    "away": 1,
-   "homeWin": 0.3679,
+   "homeWin": 0.3578,
    "homePts": 0.0,
    "awayPts": 27.7,
    "homeProj": 114.6,
@@ -659,7 +659,7 @@
   {
    "home": 6,
    "away": 11,
-   "homeWin": 0.5193,
+   "homeWin": 0.5222,
    "homePts": 0.0,
    "awayPts": 4.2,
    "homeProj": 117.3,
@@ -668,12 +668,12 @@
   {
    "home": 12,
    "away": 3,
-   "homeWin": 0.3876,
+   "homeWin": 0.3839,
    "homePts": 0.0,
    "awayPts": 0.0,
    "homeProj": 110.3,
    "awayProj": 121.3
   }
  ],
- "generated": "2026-11-06T23:47+00:00"
+ "generated": "2026-11-07T05:47+00:00"
 }

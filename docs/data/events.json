@@ -12124,5 +12124,22 @@
     "after": 0.0001
    }
   ]
+ },
+ {
+  "id": "injury-4360238-2026-11-07T05:30:00Z",
+  "kind": "I",
+  "at": "2026-11-07T05:30:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Dameon Pierce is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0635,
+    "after": 0.0675
+   }
+  ]
  }
 ]
