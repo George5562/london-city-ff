@@ -58004,6 +58004,337 @@
      }
     }
    }
+  },
+  {
+   "date": "2026-11-08",
+   "label": "Week 9 \u00b7 19:30 UTC",
+   "week": 9,
+   "backfilled": false,
+   "teams": {
+    "9": {
+     "champ": 0.5704,
+     "playoff": 0.9935,
+     "projWins": 11.38
+    },
+    "2": {
+     "champ": 0.1746,
+     "playoff": 0.8326,
+     "projWins": 9.61
+    },
+    "13": {
+     "champ": 0.0873,
+     "playoff": 0.6395,
+     "projWins": 9.13
+    },
+    "3": {
+     "champ": 0.0718,
+     "playoff": 0.8801,
+     "projWins": 10.31
+    },
+    "4": {
+     "champ": 0.0693,
+     "playoff": 0.3765,
+     "projWins": 7.89
+    },
+    "1": {
+     "champ": 0.0186,
+     "playoff": 0.2053,
+     "projWins": 7.88
+    },
+    "11": {
+     "champ": 0.008,
+     "playoff": 0.0707,
+     "projWins": 6.89
+    },
+    "5": {
+     "champ": 0.0,
+     "playoff": 0.0001,
+     "projWins": 3.09
+    },
+    "6": {
+     "champ": 0.0,
+     "playoff": 0.0002,
+     "projWins": 3.91
+    },
+    "12": {
+     "champ": 0.0,
+     "playoff": 0.0015,
+     "projWins": 4.92
+    }
+   },
+   "at": "2026-11-08T19:30:00Z",
+   "changes": {
+    "9": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.0258,
+     "text": "Amon-Ra St. Brown now has 9.7 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "injury: Amon-Ra St. Brown QUESTIONABLE -> ACTIVE",
+      "actual: Amon-Ra St. Brown None -> 9.7",
+      "projection: CeeDee Lamb 20.58521092 -> 21.20729283",
+      "actual: CeeDee Lamb None -> 4.9",
+      "actual: Kenneth Walker III None -> 20.9",
+      "actual: Chris Olave None -> 9.5",
+      "injury: George Pickens QUESTIONABLE -> OUT",
+      "actual: Tee Higgins 0.0 -> 20.2"
+     ],
+     "showTooltip": true
+    },
+    "13": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.0467,
+     "text": "Bijan Robinson\u2019s forecast moved from 19.7253 to 19.7253 fantasy points, lowering their expected scoring contribution.",
+     "facts": [
+      "projection: Bijan Robinson 19.72533693 -> 19.72533222",
+      "actual: Bijan Robinson 6.9 -> 26.7",
+      "actual: Drake London 2.5 -> 11.8",
+      "actual: Malik Nabers None -> 4.5",
+      "actual: Joe Burrow 6.36 -> 29.54",
+      "projection: Zay Flowers 13.28165148 -> 13.28165197",
+      "projection: Chuba Hubbard 17.8923827 -> 17.89454058",
+      "actual: Chuba Hubbard None -> 5.6"
+     ],
+     "showTooltip": true
+    },
+    "3": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0391,
+     "text": "Jahmyr Gibbs now has 3.8 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "actual: Jahmyr Gibbs None -> 3.8",
+      "injury: Amon-Ra St. Brown QUESTIONABLE -> ACTIVE",
+      "projection: Tetairoa McMillan 13.55204994 -> 13.55629943",
+      "actual: Tetairoa McMillan None -> 5.2",
+      "actual: DeVonta Smith None -> 0.0",
+      "projection: Matthew Stafford 16.9075569 -> 16.9075667",
+      "actual: Matthew Stafford None -> 4.46",
+      "projection: Harold Fannin Jr. 11.52235372 -> 11.52330749"
+     ],
+     "showTooltip": true
+    },
+    "1": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0065,
+     "text": "Puka Nacua\u2019s forecast moved from 24.2348 to 24.2348 fantasy points, lowering their expected scoring contribution.",
+     "facts": [
+      "projection: Puka Nacua 24.23476031 -> 24.23475981",
+      "actual: Puka Nacua None -> 15.6",
+      "injury: Amon-Ra St. Brown QUESTIONABLE -> ACTIVE",
+      "projection: Javonte Williams 17.3874017 -> 17.38246729",
+      "actual: Javonte Williams None -> 7.4",
+      "actual: Chase Brown 0.0 -> 10.5",
+      "injury: George Pickens QUESTIONABLE -> OUT",
+      "actual: Sam LaPorta None -> 2.1"
+     ],
+     "showTooltip": true
+    }
+   },
+   "explanations": {
+    "9": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Amon-Ra St. Brown now has 9.7 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.0258,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Amon-Ra St. Brown now has 9.7 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.0051,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Amon-Ra St. Brown now has 9.7 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.55,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "2": {
+     "champ": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.0267,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.0696,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.14,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "13": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Bijan Robinson\u2019s forecast moved from 19.7253 to 19.7253 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.0467,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Bijan Robinson\u2019s forecast moved from 19.7253 to 19.7253 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.2484,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Bijan Robinson\u2019s forecast moved from 19.7253 to 19.7253 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 1.06,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "3": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Jahmyr Gibbs now has 3.8 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.0391,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Jahmyr Gibbs now has 3.8 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.0874,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Jahmyr Gibbs now has 3.8 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.57,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "4": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.0109,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.34,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "1": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Puka Nacua\u2019s forecast moved from 24.2348 to 24.2348 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.0065,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Puka Nacua\u2019s forecast moved from 24.2348 to 24.2348 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.0498,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Puka Nacua\u2019s forecast moved from 24.2348 to 24.2348 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.21,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "11": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.0199,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.39,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "5": {
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.26,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "6": {
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.69,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "12": {
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.22,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    }
+   }
   }
  ]
 }

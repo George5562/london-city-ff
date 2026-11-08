@@ -12175,5 +12175,73 @@
     "after": 0.007
    }
   ]
+ },
+ {
+  "id": "injury-4374302-2026-11-08T19:30:00Z",
+  "kind": "I",
+  "at": "2026-11-08T19:30:00Z",
+  "teams": [
+   9
+  ],
+  "text": "GiantPunt: Amon-Ra St. Brown is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.5446,
+    "after": 0.5704
+   }
+  ]
+ },
+ {
+  "id": "injury-4426354-2026-11-08T19:30:00Z",
+  "kind": "I",
+  "at": "2026-11-08T19:30:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: George Pickens is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0098,
+    "after": 0.008
+   }
+  ]
+ },
+ {
+  "id": "injury-4696981-2026-11-08T19:30:00Z",
+  "kind": "I",
+  "at": "2026-11-08T19:30:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Cardigan's Boys: Cam Skattebo is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0001,
+    "after": 0.0
+   }
+  ]
+ },
+ {
+  "id": "injury-4372016-2026-11-08T19:30:00Z",
+  "kind": "I",
+  "at": "2026-11-08T19:30:00Z",
+  "teams": [
+   6
+  ],
+  "text": "The Le Chable Dolphins: Jaylen Waddle is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.0003,
+    "after": 0.0
+   }
+  ]
  }
 ]
