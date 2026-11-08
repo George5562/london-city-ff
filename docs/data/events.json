@@ -12243,5 +12243,152 @@
     "after": 0.0
    }
   ]
+ },
+ {
+  "id": "injury-4426515-2026-11-08T23:00:00Z",
+  "kind": "I",
+  "at": "2026-11-08T23:00:00Z",
+  "teams": [
+   1
+  ],
+  "text": "Knights who say Ni: Puka Nacua is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.0186,
+    "after": 0.0327
+   }
+  ]
+ },
+ {
+  "id": "injury-4047365-2026-11-08T23:00:00Z",
+  "kind": "I",
+  "at": "2026-11-08T23:00:00Z",
+  "teams": [
+   9
+  ],
+  "text": "GiantPunt: Josh Jacobs is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.5704,
+    "after": 0.6239
+   }
+  ]
+ },
+ {
+  "id": "injury-3139477-2026-11-08T23:00:00Z",
+  "kind": "I",
+  "at": "2026-11-08T23:00:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Patrick Mahomes is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0693,
+    "after": 0.0284
+   }
+  ]
+ },
+ {
+  "id": "injury-4612826-2026-11-08T23:00:00Z",
+  "kind": "I",
+  "at": "2026-11-08T23:00:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Goats: Ladd McConkey is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.0718,
+    "after": 0.0736
+   }
+  ]
+ },
+ {
+  "id": "injury-4683062-2026-11-08T23:00:00Z",
+  "kind": "I",
+  "at": "2026-11-08T23:00:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Cardigan's Boys: Xavier Worthy is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0,
+    "after": 0.0001
+   }
+  ]
+ },
+ {
+  "id": "injury-3046439-2026-11-08T23:00:00Z",
+  "kind": "I",
+  "at": "2026-11-08T23:00:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Cardigan's Boys: Hunter Henry is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0,
+    "after": 0.0001
+   }
+  ]
+ },
+ {
+  "id": "injury-4429023-2026-11-08T23:00:00Z",
+  "kind": "I",
+  "at": "2026-11-08T23:00:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Love hurts: MarShawn Lloyd is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0,
+    "after": 0.0
+   }
+  ]
+ },
+ {
+  "id": "trade-2792ee94-3152-48ab-a3f2-f191add4a4da",
+  "kind": "T",
+  "at": "2026-11-08T23:00:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Added Bills D/ST; dropped Aaron Rodgers.",
+  "moves": [
+   {
+    "player": "Bills D/ST",
+    "position": "D/ST",
+    "action": "add"
+   },
+   {
+    "player": "Aaron Rodgers",
+    "position": "QB",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0,
+    "after": 0.0
+   }
+  ]
  }
 ]
