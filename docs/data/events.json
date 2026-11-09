@@ -12458,5 +12458,22 @@
     "after": 0.215
    }
   ]
+ },
+ {
+  "id": "injury-4047365-2026-11-09T21:00:00Z",
+  "kind": "I",
+  "at": "2026-11-09T21:00:00Z",
+  "teams": [
+   9
+  ],
+  "text": "GiantPunt: Josh Jacobs is now listed as doubtful.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.5658,
+    "after": 0.5692
+   }
+  ]
  }
 ]
