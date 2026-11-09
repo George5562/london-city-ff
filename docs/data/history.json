@@ -58931,6 +58931,200 @@
      }
     }
    }
+  },
+  {
+   "date": "2026-11-09",
+   "label": "Week 9 \u00b7 10:00 UTC",
+   "week": 9,
+   "backfilled": false,
+   "teams": {
+    "9": {
+     "champ": 0.5658,
+     "playoff": 0.9991,
+     "projWins": 11.97
+    },
+    "2": {
+     "champ": 0.215,
+     "playoff": 0.9611,
+     "projWins": 10.27
+    },
+    "3": {
+     "champ": 0.0859,
+     "playoff": 0.9159,
+     "projWins": 10.2
+    },
+    "13": {
+     "champ": 0.0499,
+     "playoff": 0.4591,
+     "projWins": 8.25
+    },
+    "4": {
+     "champ": 0.0452,
+     "playoff": 0.2667,
+     "projWins": 7.21
+    },
+    "1": {
+     "champ": 0.0287,
+     "playoff": 0.3076,
+     "projWins": 8.08
+    },
+    "11": {
+     "champ": 0.0093,
+     "playoff": 0.0868,
+     "projWins": 6.78
+    },
+    "12": {
+     "champ": 0.0002,
+     "playoff": 0.0034,
+     "projWins": 5.13
+    },
+    "5": {
+     "champ": 0.0,
+     "playoff": 0.0,
+     "projWins": 3.15
+    },
+    "6": {
+     "champ": 0.0,
+     "playoff": 0.0003,
+     "projWins": 3.96
+    }
+   },
+   "at": "2026-11-09T10:00:00Z",
+   "changes": {
+    "9": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.013,
+     "text": "D'Andre Swift now has 3.1 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "actual: D'Andre Swift 2.4 -> 3.1",
+      "injury: Luther Burden III ACTIVE -> QUESTIONABLE",
+      "actual: Chris Godwin Jr. 3.1 -> 4.8",
+      "actual: Cairo Santos 5.0 -> 9.0"
+     ],
+     "showTooltip": true
+    },
+    "2": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "model",
+     "delta": 0.0638,
+     "text": "Bucky Irving surged from 3.6 to 28.5 fantasy points, while Luther Burden III is questionable after reaching 20.7. The scoring update boosts the matchup outlook; the injury\u2019s effect on Caleb Williams and lineup value is unclear.",
+     "facts": [
+      "actual: Bucky Irving 3.6 -> 28.5",
+      "injury: Luther Burden III ACTIVE -> QUESTIONABLE",
+      "actual: Luther Burden III 17.1 -> 20.7",
+      "actual: Caleb Williams 12.82 -> 12.76"
+     ],
+     "showTooltip": true
+    },
+    "4": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "model",
+     "delta": -0.0467,
+     "text": "Emeka Egbuka scored, raising his fantasy total from 1.5 to 6.9 points. That production updates his fantasy team\u2019s matchup outlook and playoff picture.",
+     "facts": [
+      "actual: Emeka Egbuka 1.5 -> 6.9"
+     ],
+     "showTooltip": true
+    }
+   },
+   "explanations": {
+    "9": {
+     "champ": {
+      "cause": "score_update",
+      "text": "D'Andre Swift now has 3.1 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.013,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "2": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Bucky Irving surged from 3.6 to 28.5 fantasy points, while Luther Burden III is questionable after reaching 20.7. The scoring update boosts the matchup outlook; the injury\u2019s effect on Caleb Williams and lineup value is unclear.",
+      "confidence": "recorded explanation",
+      "delta": 0.0638,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Bucky Irving surged from 3.6 to 28.5 fantasy points, while Luther Burden III is questionable after reaching 20.7. The scoring update boosts the matchup outlook; the injury\u2019s effect on Caleb Williams and lineup value is unclear.",
+      "confidence": "recorded explanation",
+      "delta": 0.1549,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Bucky Irving surged from 3.6 to 28.5 fantasy points, while Luther Burden III is questionable after reaching 20.7. The scoring update boosts the matchup outlook; the injury\u2019s effect on Caleb Williams and lineup value is unclear.",
+      "confidence": "recorded explanation",
+      "delta": 1.03,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "3": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0149,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "13": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0513,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "4": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Emeka Egbuka scored, raising his fantasy total from 1.5 to 6.9 points. That production updates his fantasy team\u2019s matchup outlook and playoff picture.",
+      "confidence": "recorded explanation",
+      "delta": -0.0467,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Emeka Egbuka scored, raising his fantasy total from 1.5 to 6.9 points. That production updates his fantasy team\u2019s matchup outlook and playoff picture.",
+      "confidence": "recorded explanation",
+      "delta": -0.2201,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Emeka Egbuka scored, raising his fantasy total from 1.5 to 6.9 points. That production updates his fantasy team\u2019s matchup outlook and playoff picture.",
+      "confidence": "recorded explanation",
+      "delta": -0.86,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "12": {
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.15,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    }
+   }
   }
  ]
 }

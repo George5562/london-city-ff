@@ -12441,5 +12441,22 @@
     "after": 0.0
    }
   ]
+ },
+ {
+  "id": "injury-4685278-2026-11-09T10:00:00Z",
+  "kind": "I",
+  "at": "2026-11-09T10:00:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Sabre Raiders: Luther Burden III is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.1512,
+    "after": 0.215
+   }
+  ]
  }
 ]
