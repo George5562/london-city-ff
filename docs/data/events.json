@@ -12390,5 +12390,56 @@
     "after": 0.0
    }
   ]
+ },
+ {
+  "id": "injury-4567750-2026-11-09T02:30:00Z",
+  "kind": "I",
+  "at": "2026-11-09T02:30:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Emeka Egbuka is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0284,
+    "after": 0.0919
+   }
+  ]
+ },
+ {
+  "id": "injury-4569173-2026-11-09T02:30:00Z",
+  "kind": "I",
+  "at": "2026-11-09T02:30:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Cardigan's Boys: Rhamondre Stevenson is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0001,
+    "after": 0.0001
+   }
+  ]
+ },
+ {
+  "id": "injury-4608686-2026-11-09T02:30:00Z",
+  "kind": "I",
+  "at": "2026-11-09T02:30:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Love hurts: Kyle Monangai is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0,
+    "after": 0.0
+   }
+  ]
  }
 ]

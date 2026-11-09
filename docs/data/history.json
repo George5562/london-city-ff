@@ -58622,6 +58622,315 @@
      }
     }
    }
+  },
+  {
+   "date": "2026-11-09",
+   "label": "Week 9 \u00b7 02:30 UTC",
+   "week": 9,
+   "backfilled": false,
+   "teams": {
+    "9": {
+     "champ": 0.5788,
+     "playoff": 0.9988,
+     "projWins": 11.96
+    },
+    "2": {
+     "champ": 0.1512,
+     "playoff": 0.8062,
+     "projWins": 9.24
+    },
+    "4": {
+     "champ": 0.0919,
+     "playoff": 0.4868,
+     "projWins": 8.07
+    },
+    "3": {
+     "champ": 0.0895,
+     "playoff": 0.901,
+     "projWins": 10.16
+    },
+    "13": {
+     "champ": 0.0491,
+     "playoff": 0.4078,
+     "projWins": 8.22
+    },
+    "1": {
+     "champ": 0.0308,
+     "playoff": 0.3073,
+     "projWins": 8.13
+    },
+    "11": {
+     "champ": 0.0087,
+     "playoff": 0.0882,
+     "projWins": 6.81
+    },
+    "12": {
+     "champ": 0.0001,
+     "playoff": 0.0035,
+     "projWins": 5.28
+    },
+    "5": {
+     "champ": 0.0,
+     "playoff": 0.0,
+     "projWins": 3.16
+    },
+    "6": {
+     "champ": 0.0,
+     "playoff": 0.0004,
+     "projWins": 3.97
+    }
+   },
+   "at": "2026-11-09T02:30:00Z",
+   "changes": {
+    "9": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0451,
+     "text": "D'Andre Swift now has 2.4 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "actual: D'Andre Swift None -> 2.4",
+      "actual: Seahawks D/ST 9.0 -> 10.0",
+      "injury: Emeka Egbuka QUESTIONABLE -> ACTIVE",
+      "injury: Kyle Monangai QUESTIONABLE -> OUT",
+      "actual: Chris Godwin Jr. None -> 3.1",
+      "injury: Case Keenum ACTIVE -> OUT",
+      "injury: Bo Melton ACTIVE -> QUESTIONABLE"
+     ],
+     "showTooltip": true
+    },
+    "2": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0235,
+     "text": "Brock Bowers now has 22.3 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "actual: Brock Bowers 15.8 -> 22.3",
+      "actual: Bucky Irving None -> 3.6",
+      "injury: Emeka Egbuka QUESTIONABLE -> ACTIVE",
+      "actual: Luther Burden III None -> 17.1",
+      "actual: Caleb Williams None -> 12.82",
+      "actual: Jason Myers 2.0 -> 6.0",
+      "injury: Kyle Monangai QUESTIONABLE -> OUT",
+      "injury: Drew Lock ACTIVE -> QUESTIONABLE"
+     ],
+     "showTooltip": true
+    },
+    "4": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.0635,
+     "text": "Drake Maye now has 18.26 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "actual: Drake Maye 9.34 -> 18.26",
+      "actual: George Kittle 6.1 -> 9.8",
+      "actual: Christian Watson 9.2 -> 30.1",
+      "injury: Emeka Egbuka QUESTIONABLE -> ACTIVE",
+      "actual: Emeka Egbuka None -> 1.5",
+      "injury: Rhamondre Stevenson ACTIVE -> QUESTIONABLE",
+      "actual: Tucker Kraft 0.8 -> 1.9",
+      "actual: Texans D/ST 11.0 -> 12.0"
+     ],
+     "showTooltip": true
+    },
+    "3": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.0159,
+     "text": "Ashton Jeanty now has 7 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "actual: Ashton Jeanty 5.0 -> 7.0",
+      "actual: Colston Loveland None -> 3.0",
+      "injury: Rhamondre Stevenson ACTIVE -> QUESTIONABLE",
+      "actual: Ka'imi Fairbairn 8.0 -> 17.0",
+      "injury: Kyle Monangai QUESTIONABLE -> OUT",
+      "actual: Bears D/ST None -> 7.0",
+      "actual: DeMario Douglas 10.7 -> 15.2",
+      "actual: Chase McLaughlin None -> 3.0"
+     ],
+     "showTooltip": true
+    },
+    "13": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0077,
+     "text": "Woody Marks now has 8.4 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "actual: Woody Marks 4.0 -> 8.4",
+      "injury: Kyle Monangai QUESTIONABLE -> OUT",
+      "actual: Cameron Dicker 12.0 -> 13.0",
+      "actual: Cairo Santos None -> 5.0",
+      "injury: Case Keenum ACTIVE -> OUT"
+     ],
+     "showTooltip": true
+    }
+   },
+   "explanations": {
+    "9": {
+     "champ": {
+      "cause": "score_update",
+      "text": "D'Andre Swift now has 2.4 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.0451,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "D'Andre Swift now has 2.4 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.11,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "2": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Brock Bowers now has 22.3 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.0235,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Brock Bowers now has 22.3 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.1279,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Brock Bowers now has 22.3 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.85,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "4": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Drake Maye now has 18.26 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.0635,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Drake Maye now has 18.26 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.2764,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Drake Maye now has 18.26 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 1.0,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "3": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Ashton Jeanty now has 7 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.0159,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Ashton Jeanty now has 7 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.0143,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Ashton Jeanty now has 7 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.19,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "13": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Woody Marks now has 8.4 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.0077,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Woody Marks now has 8.4 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.0804,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Woody Marks now has 8.4 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.13,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "1": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.0535,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.19,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "12": {
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.33,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "5": {
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.19,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    }
+   }
   }
  ]
 }
