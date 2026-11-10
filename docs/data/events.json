@@ -12475,5 +12475,56 @@
     "after": 0.5692
    }
   ]
+ },
+ {
+  "id": "injury-4426515-2026-11-10T03:00:00Z",
+  "kind": "I",
+  "at": "2026-11-10T03:00:00Z",
+  "teams": [
+   1
+  ],
+  "text": "Knights who say Ni: Puka Nacua is now listed as doubtful.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.0251,
+    "after": 0.0141
+   }
+  ]
+ },
+ {
+  "id": "injury-4047365-2026-11-10T03:00:00Z",
+  "kind": "I",
+  "at": "2026-11-10T03:00:00Z",
+  "teams": [
+   9
+  ],
+  "text": "GiantPunt: Josh Jacobs is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.5692,
+    "after": 0.5562
+   }
+  ]
+ },
+ {
+  "id": "injury-4360761-2026-11-10T03:00:00Z",
+  "kind": "I",
+  "at": "2026-11-10T03:00:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Cardigan's Boys: Michael Wilson is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0002,
+    "after": 0.0001
+   }
+  ]
  }
 ]
