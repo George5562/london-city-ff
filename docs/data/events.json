@@ -12526,5 +12526,175 @@
     "after": 0.0001
    }
   ]
+ },
+ {
+  "id": "injury-4426354-2026-11-10T19:30:00Z",
+  "kind": "I",
+  "at": "2026-11-10T19:30:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: George Pickens is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0053,
+    "after": 0.0043
+   }
+  ]
+ },
+ {
+  "id": "injury-4569618-2026-11-10T19:30:00Z",
+  "kind": "I",
+  "at": "2026-11-10T19:30:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Sabre Raiders: Garrett Wilson is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.123,
+    "after": 0.1217
+   }
+  ]
+ },
+ {
+  "id": "injury-4047646-2026-11-10T19:30:00Z",
+  "kind": "I",
+  "at": "2026-11-10T19:30:00Z",
+  "teams": [
+   1
+  ],
+  "text": "Knights who say Ni: A.J. Brown is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.0208,
+    "after": 0.0204
+   }
+  ]
+ },
+ {
+  "id": "injury-16737-2026-11-10T19:30:00Z",
+  "kind": "I",
+  "at": "2026-11-10T19:30:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Mike Evans is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0649,
+    "after": 0.0644
+   }
+  ]
+ },
+ {
+  "id": "injury-4569173-2026-11-10T19:30:00Z",
+  "kind": "I",
+  "at": "2026-11-10T19:30:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Cardigan's Boys: Rhamondre Stevenson is now listed as doubtful.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0001,
+    "after": 0.0001
+   }
+  ]
+ },
+ {
+  "id": "injury-4696981-2026-11-10T19:30:00Z",
+  "kind": "I",
+  "at": "2026-11-10T19:30:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Cardigan's Boys: Cam Skattebo is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0001,
+    "after": 0.0001
+   }
+  ]
+ },
+ {
+  "id": "injury-4871023-2026-11-10T19:30:00Z",
+  "kind": "I",
+  "at": "2026-11-10T19:30:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Cardigan's Boys: Carnell Tate is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0001,
+    "after": 0.0001
+   }
+  ]
+ },
+ {
+  "id": "injury-3126486-2026-11-10T19:30:00Z",
+  "kind": "I",
+  "at": "2026-11-10T19:30:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: Deebo Samuel Sr. is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0053,
+    "after": 0.0043
+   }
+  ]
+ },
+ {
+  "id": "injury-4432710-2026-11-10T19:30:00Z",
+  "kind": "I",
+  "at": "2026-11-10T19:30:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: TreVeyon Henderson is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0053,
+    "after": 0.0043
+   }
+  ]
+ },
+ {
+  "id": "injury-4429023-2026-11-10T19:30:00Z",
+  "kind": "I",
+  "at": "2026-11-10T19:30:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Love hurts: MarShawn Lloyd is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0,
+    "after": 0.0
+   }
+  ]
  }
 ]
