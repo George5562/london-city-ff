@@ -12758,5 +12758,181 @@
     "after": 0.6663
    }
   ]
+ },
+ {
+  "id": "injury-4374302-2026-11-11T21:30:00Z",
+  "kind": "I",
+  "at": "2026-11-11T21:30:00Z",
+  "teams": [
+   9
+  ],
+  "text": "GiantPunt: Amon-Ra St. Brown is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.6663,
+    "after": 0.6683
+   }
+  ]
+ },
+ {
+  "id": "injury-4426515-2026-11-11T21:30:00Z",
+  "kind": "I",
+  "at": "2026-11-11T21:30:00Z",
+  "teams": [
+   1
+  ],
+  "text": "Knights who say Ni: Puka Nacua is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.0191,
+    "after": 0.0162
+   }
+  ]
+ },
+ {
+  "id": "injury-4426354-2026-11-11T21:30:00Z",
+  "kind": "I",
+  "at": "2026-11-11T21:30:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: George Pickens is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0027,
+    "after": 0.0029
+   }
+  ]
+ },
+ {
+  "id": "injury-4882093-2026-11-11T21:30:00Z",
+  "kind": "I",
+  "at": "2026-11-11T21:30:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Love hurts: Bhayshul Tuten is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0,
+    "after": 0.0
+   }
+  ]
+ },
+ {
+  "id": "injury-3046779-2026-11-11T21:30:00Z",
+  "kind": "I",
+  "at": "2026-11-11T21:30:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Love hurts: Jared Goff is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0,
+    "after": 0.0
+   }
+  ]
+ },
+ {
+  "id": "injury-4036133-2026-11-11T21:30:00Z",
+  "kind": "I",
+  "at": "2026-11-11T21:30:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Cardigan's Boys: T.J. Hockenson is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0,
+    "after": 0.0
+   }
+  ]
+ },
+ {
+  "id": "injury-4832800-2026-11-11T21:30:00Z",
+  "kind": "I",
+  "at": "2026-11-11T21:30:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Cardigan's Boys: Denzel Boston is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0,
+    "after": 0.0
+   }
+  ]
+ },
+ {
+  "id": "injury-3916433-2026-11-11T21:30:00Z",
+  "kind": "I",
+  "at": "2026-11-11T21:30:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Sabre Raiders: Jakobi Meyers is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.1057,
+    "after": 0.1057
+   }
+  ]
+ },
+ {
+  "id": "injury-4723820-2026-11-11T21:30:00Z",
+  "kind": "I",
+  "at": "2026-11-11T21:30:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Sabre Raiders: Omar Cooper Jr. is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.1057,
+    "after": 0.1057
+   }
+  ]
+ },
+ {
+  "id": "trade-b364ee01-1257-4b3d-8957-b823e17659e3",
+  "kind": "T",
+  "at": "2026-11-11T21:30:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Added RB Jadarian Price.",
+  "moves": [
+   {
+    "player": "Jadarian Price",
+    "position": "RB",
+    "action": "add"
+   }
+  ],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0,
+    "after": 0.0
+   }
+  ]
  }
 ]
