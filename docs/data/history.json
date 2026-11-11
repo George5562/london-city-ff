@@ -59797,6 +59797,183 @@
      }
     }
    }
+  },
+  {
+   "date": "2026-11-11",
+   "label": "Week 10 \u00b7 00:30 UTC",
+   "week": 10,
+   "backfilled": false,
+   "teams": {
+    "9": {
+     "champ": 0.6663,
+     "playoff": 0.9997,
+     "projWins": 12.02
+    },
+    "2": {
+     "champ": 0.1057,
+     "playoff": 0.997,
+     "projWins": 11.25
+    },
+    "3": {
+     "champ": 0.0758,
+     "playoff": 0.7384,
+     "projWins": 9.22
+    },
+    "13": {
+     "champ": 0.0695,
+     "playoff": 0.6521,
+     "projWins": 8.78
+    },
+    "4": {
+     "champ": 0.0609,
+     "playoff": 0.3362,
+     "projWins": 7.45
+    },
+    "1": {
+     "champ": 0.0191,
+     "playoff": 0.2386,
+     "projWins": 7.92
+    },
+    "11": {
+     "champ": 0.0027,
+     "playoff": 0.0369,
+     "projWins": 6.36
+    },
+    "5": {
+     "champ": 0.0,
+     "playoff": 0.0,
+     "projWins": 3.11
+    },
+    "6": {
+     "champ": 0.0,
+     "playoff": 0.0004,
+     "projWins": 4.01
+    },
+    "12": {
+     "champ": 0.0,
+     "playoff": 0.0008,
+     "projWins": 4.86
+    }
+   },
+   "at": "2026-11-11T00:30:00Z",
+   "changes": {
+    "9": {
+     "cause": "roster_move",
+     "classifiedBy": "deterministic",
+     "writtenBy": "model",
+     "delta": 0.0376,
+     "text": "Cam Skattebo",
+     "facts": [
+      "projection: CeeDee Lamb 20.86471344 -> 20.86472174",
+      "projection: Kenneth Walker III 26.05626249 -> 26.11082916",
+      "projection: Amon-Ra St. Brown 20.35142443 -> 20.3514229",
+      "projection: Chris Olave 15.80032478 -> 15.80033154",
+      "projection: Tyler Warren 10.78999143 -> 10.55536535",
+      "projection: Jayden Daniels 18.66224928 -> 18.6622831",
+      "injury: Cam Skattebo QUESTIONABLE -> OUT",
+      "projection: Travis Kelce 11.69792801 -> 11.17021218"
+     ],
+     "showTooltip": true
+    },
+    "2": {
+     "cause": "external_opportunity",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.016,
+     "text": "Brock Bowers\u2019s forecast moved from 16.7556 to 15.3877 fantasy points, lowering their expected scoring contribution.",
+     "facts": [
+      "projection: Brock Bowers 16.75562629 -> 15.38766962",
+      "projection: Jaxon Smith-Njigba 22.4964568 -> 22.29616349",
+      "projection: Garrett Wilson 12.70956556 -> 12.70898975",
+      "injury: Cam Skattebo QUESTIONABLE -> OUT",
+      "projection: Jason Myers 9.03688302 -> 9.03810921",
+      "projection: Vikings D/ST 5.13327783 -> 5.19494119",
+      "projection: Braelon Allen 7.86375835 -> 7.86358703",
+      "projection: Bryce Young 18.7995927 -> 18.79959518"
+     ],
+     "showTooltip": true
+    },
+    "3": {
+     "cause": "external_opportunity",
+     "classifiedBy": "deterministic",
+     "writtenBy": "model",
+     "delta": -0.0114,
+     "text": "Ashton",
+     "facts": [
+      "projection: Jahmyr Gibbs 23.85926549 -> 23.85917786",
+      "projection: Ashton Jeanty 14.59790736 -> 13.57314021",
+      "projection: Tetairoa McMillan 16.05945623 -> 16.05945016",
+      "projection: Matthew Stafford 16.97542453 -> 16.97543114",
+      "projection: Harold Fannin Jr. 10.07897233 -> 10.07897265",
+      "projection: Tony Pollard 13.43948087 -> 13.43948046",
+      "projection: DK Metcalf 11.17154549 -> 11.17154644",
+      "projection: Ladd McConkey 10.43033122 -> 10.43032323"
+     ],
+     "showTooltip": true
+    }
+   },
+   "explanations": {
+    "9": {
+     "champ": {
+      "cause": "roster_move",
+      "text": "Cam Skattebo",
+      "confidence": "recorded explanation",
+      "delta": 0.0376,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "2": {
+     "champ": {
+      "cause": "external_opportunity",
+      "text": "Brock Bowers\u2019s forecast moved from 16.7556 to 15.3877 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.016,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "3": {
+     "champ": {
+      "cause": "external_opportunity",
+      "text": "Ashton",
+      "confidence": "recorded explanation",
+      "delta": -0.0114,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "13": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0055,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "4": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.0072,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "1": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0057,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    }
+   }
   }
  ]
 }

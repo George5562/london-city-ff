@@ -12696,5 +12696,67 @@
     "after": 0.0
    }
   ]
+ },
+ {
+  "id": "injury-4696981-2026-11-11T00:30:00Z",
+  "kind": "I",
+  "at": "2026-11-11T00:30:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Cardigan's Boys: Cam Skattebo is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0001,
+    "after": 0.0
+   }
+  ]
+ },
+ {
+  "id": "injury-4360761-2026-11-11T00:30:00Z",
+  "kind": "I",
+  "at": "2026-11-11T00:30:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Cardigan's Boys: Michael Wilson is now listed as injury reserve.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0001,
+    "after": 0.0
+   }
+  ]
+ },
+ {
+  "id": "trade-9eb6be4b-59ce-45a5-8654-6328a1e5323f",
+  "kind": "T",
+  "at": "2026-11-11T00:30:00Z",
+  "teams": [
+   9
+  ],
+  "text": "Added QB C.J. Stroud; dropped QB Tyler Shough.",
+  "moves": [
+   {
+    "player": "C.J. Stroud",
+    "position": "QB",
+    "action": "add"
+   },
+   {
+    "player": "Tyler Shough",
+    "position": "QB",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.6287,
+    "after": 0.6663
+   }
+  ]
  }
 ]
