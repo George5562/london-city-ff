@@ -13143,5 +13143,119 @@
     "after": 0.1199
    }
   ]
+ },
+ {
+  "id": "injury-4696981-2026-11-12T18:30:00Z",
+  "kind": "I",
+  "at": "2026-11-12T18:30:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Cardigan's Boys: Cam Skattebo is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0,
+    "after": 0.0
+   }
+  ]
+ },
+ {
+  "id": "trade-2468588f-3869-4143-98b8-fe80ee40da88",
+  "kind": "T",
+  "at": "2026-11-12T18:30:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Added Tyler Shough.",
+  "moves": [
+   {
+    "player": "Tyler Shough",
+    "position": "QB",
+    "action": "add"
+   }
+  ],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.0704,
+    "after": 0.086
+   }
+  ]
+ },
+ {
+  "id": "trade-cf452541-ee6a-43ec-8b0d-4d140565d275",
+  "kind": "T",
+  "at": "2026-11-12T18:30:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Added RB Aaron Jones Sr.",
+  "moves": [
+   {
+    "player": "Aaron Jones Sr.",
+    "position": "RB",
+    "action": "add"
+   }
+  ],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.0704,
+    "after": 0.086
+   }
+  ]
+ },
+ {
+  "id": "trade-4a3904c1-3e2b-4d60-9546-f0a84e78cfe4",
+  "kind": "T",
+  "at": "2026-11-12T18:30:00Z",
+  "teams": [
+   9
+  ],
+  "text": "Added Braelon Allen (RB).",
+  "moves": [
+   {
+    "player": "Braelon Allen",
+    "position": "RB",
+    "action": "add"
+   }
+  ],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.6704,
+    "after": 0.6619
+   }
+  ]
+ },
+ {
+  "id": "trade-f166a507-be1f-45ab-acdd-1f94a3e7a316",
+  "kind": "T",
+  "at": "2026-11-12T18:30:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Added Rome Odunze; dropped Bears D/ST.",
+  "moves": [
+   {
+    "player": "Rome Odunze",
+    "position": "WR",
+    "action": "add"
+   },
+   {
+    "player": "Bears D/ST",
+    "position": "D/ST",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.0704,
+    "after": 0.086
+   }
+  ]
  }
 ]
