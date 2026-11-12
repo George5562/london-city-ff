@@ -12934,5 +12934,214 @@
     "after": 0.0
    }
   ]
+ },
+ {
+  "id": "injury-4426354-2026-11-12T02:30:00Z",
+  "kind": "I",
+  "at": "2026-11-12T02:30:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: George Pickens is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0029,
+    "after": 0.0034
+   }
+  ]
+ },
+ {
+  "id": "injury-5083076-2026-11-12T02:30:00Z",
+  "kind": "I",
+  "at": "2026-11-12T02:30:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Goats: Harold Fannin Jr. is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.0759,
+    "after": 0.0704
+   }
+  ]
+ },
+ {
+  "id": "injury-4429059-2026-11-12T02:30:00Z",
+  "kind": "I",
+  "at": "2026-11-12T02:30:00Z",
+  "teams": [
+   13
+  ],
+  "text": "Salisbury Screamers: Woody Marks is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 13,
+    "before": 0.0698,
+    "after": 0.0617
+   }
+  ]
+ },
+ {
+  "id": "injury-4385690-2026-11-12T02:30:00Z",
+  "kind": "I",
+  "at": "2026-11-12T02:30:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: Dalton Kincaid is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0029,
+    "after": 0.0034
+   }
+  ]
+ },
+ {
+  "id": "injury-3054850-2026-11-12T02:30:00Z",
+  "kind": "I",
+  "at": "2026-11-12T02:30:00Z",
+  "teams": [
+   1
+  ],
+  "text": "Knights who say Ni: Alvin Kamara is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.0162,
+    "after": 0.0173
+   }
+  ]
+ },
+ {
+  "id": "injury-3046439-2026-11-12T02:30:00Z",
+  "kind": "I",
+  "at": "2026-11-12T02:30:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Cardigan's Boys: Hunter Henry is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0,
+    "after": 0.0
+   }
+  ]
+ },
+ {
+  "id": "injury-4432710-2026-11-12T02:30:00Z",
+  "kind": "I",
+  "at": "2026-11-12T02:30:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: TreVeyon Henderson is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0029,
+    "after": 0.0034
+   }
+  ]
+ },
+ {
+  "id": "injury-4429023-2026-11-12T02:30:00Z",
+  "kind": "I",
+  "at": "2026-11-12T02:30:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Love hurts: MarShawn Lloyd is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0,
+    "after": 0.0
+   }
+  ]
+ },
+ {
+  "id": "injury-4869461-2026-11-12T02:30:00Z",
+  "kind": "I",
+  "at": "2026-11-12T02:30:00Z",
+  "teams": [
+   6
+  ],
+  "text": "The Le Chable Dolphins: Trey Smack is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.0,
+    "after": 0.0
+   }
+  ]
+ },
+ {
+  "id": "trade-24cd73d5-0620-46bb-a419-1e1376602e06",
+  "kind": "T",
+  "at": "2026-11-12T02:30:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Added Corey Kiner (RB); dropped Jakobi Meyers (WR).",
+  "moves": [
+   {
+    "player": "Corey Kiner",
+    "position": "RB",
+    "action": "add"
+   },
+   {
+    "player": "Jakobi Meyers",
+    "position": "WR",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.1057,
+    "after": 0.1199
+   }
+  ]
+ },
+ {
+  "id": "trade-59e58819-7e3f-424b-9825-e1e86b5fbfa9",
+  "kind": "T",
+  "at": "2026-11-12T02:30:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Added Audric Estime (RB); dropped Braelon Allen (RB).",
+  "moves": [
+   {
+    "player": "Audric Estime",
+    "position": "RB",
+    "action": "add"
+   },
+   {
+    "player": "Braelon Allen",
+    "position": "RB",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.1057,
+    "after": 0.1199
+   }
+  ]
  }
 ]
