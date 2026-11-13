@@ -60451,6 +60451,173 @@
      }
     }
    }
+  },
+  {
+   "date": "2026-11-13",
+   "label": "Week 10 \u00b7 00:00 UTC",
+   "week": 10,
+   "backfilled": false,
+   "teams": {
+    "9": {
+     "champ": 0.6574,
+     "playoff": 0.9996,
+     "projWins": 12.0
+    },
+    "2": {
+     "champ": 0.1122,
+     "playoff": 0.9959,
+     "projWins": 11.14
+    },
+    "3": {
+     "champ": 0.0882,
+     "playoff": 0.7683,
+     "projWins": 9.33
+    },
+    "13": {
+     "champ": 0.0646,
+     "playoff": 0.639,
+     "projWins": 8.75
+    },
+    "4": {
+     "champ": 0.059,
+     "playoff": 0.3362,
+     "projWins": 7.46
+    },
+    "1": {
+     "champ": 0.0162,
+     "playoff": 0.2274,
+     "projWins": 7.87
+    },
+    "11": {
+     "champ": 0.0023,
+     "playoff": 0.0319,
+     "projWins": 6.27
+    },
+    "12": {
+     "champ": 0.0001,
+     "playoff": 0.0015,
+     "projWins": 5.14
+    },
+    "5": {
+     "champ": 0.0,
+     "playoff": 0.0,
+     "projWins": 3.07
+    },
+    "6": {
+     "champ": 0.0,
+     "playoff": 0.0003,
+     "projWins": 3.97
+    }
+   },
+   "at": "2026-11-13T00:00:00Z",
+   "changes": {
+    "2": {
+     "cause": "external_opportunity",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0058,
+     "text": "Brock Bowers\u2019s forecast moved from 15.3877 to 15.3877 fantasy points, lowering their expected scoring contribution.",
+     "facts": [
+      "projection: Brock Bowers 15.38766962 -> 15.38766886",
+      "injury: Rhamondre Stevenson DOUBTFUL -> QUESTIONABLE",
+      "projection: Vikings D/ST 5.19494119 -> 5.13490419",
+      "projection: Bryce Young 18.79959518 -> 18.79958941",
+      "injury: Alvin Kamara QUESTIONABLE -> ACTIVE",
+      "projection: Omar Cooper Jr. 9.45252407 -> 9.45245683",
+      "projection: Audric Estime 10.32767767 -> 10.32955414",
+      "projection: Corey Kiner 10.31318989 -> 6.54713602"
+     ],
+     "showTooltip": true
+    },
+    "13": {
+     "cause": "external_opportunity",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.0056,
+     "text": "Bijan Robinson\u2019s forecast moved from 18.6249 to 18.6242 fantasy points, lowering their expected scoring contribution.",
+     "facts": [
+      "projection: Bijan Robinson 18.62489775 -> 18.6241736",
+      "projection: Derrick Henry 18.18860503 -> 18.18854728",
+      "projection: Drake London 14.82955303 -> 14.83048748",
+      "projection: Malik Nabers 16.41444396 -> 16.07015437",
+      "projection: Zay Flowers 14.58533771 -> 14.58511287",
+      "projection: Chuba Hubbard 20.00678934 -> 20.006691",
+      "projection: Blake Corum 11.58731535 -> 11.58317066",
+      "projection: Woody Marks 13.91791201 -> 13.91797171"
+     ],
+     "showTooltip": true
+    }
+   },
+   "explanations": {
+    "2": {
+     "champ": {
+      "cause": "external_opportunity",
+      "text": "Brock Bowers\u2019s forecast moved from 15.3877 to 15.3877 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.0058,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "13": {
+     "champ": {
+      "cause": "external_opportunity",
+      "text": "Bijan Robinson\u2019s forecast moved from 18.6249 to 18.6242 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.0056,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "external_opportunity",
+      "text": "Bijan Robinson\u2019s forecast moved from 18.6249 to 18.6242 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.008,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "4": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0069,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "1": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0072,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "11": {
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.13,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "12": {
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.26,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    }
+   }
   }
  ]
 }

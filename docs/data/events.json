@@ -13257,5 +13257,226 @@
     "after": 0.086
    }
   ]
+ },
+ {
+  "id": "injury-3139477-2026-11-13T00:00:00Z",
+  "kind": "I",
+  "at": "2026-11-13T00:00:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Patrick Mahomes is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0553,
+    "after": 0.059
+   }
+  ]
+ },
+ {
+  "id": "injury-4569173-2026-11-13T00:00:00Z",
+  "kind": "I",
+  "at": "2026-11-13T00:00:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Cardigan's Boys: Rhamondre Stevenson is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0,
+    "after": 0.0001
+   }
+  ]
+ },
+ {
+  "id": "injury-3916148-2026-11-13T00:00:00Z",
+  "kind": "I",
+  "at": "2026-11-13T00:00:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Goats: Tony Pollard is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.086,
+    "after": 0.0882
+   }
+  ]
+ },
+ {
+  "id": "injury-3046779-2026-11-13T00:00:00Z",
+  "kind": "I",
+  "at": "2026-11-13T00:00:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Love hurts: Jared Goff is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0,
+    "after": 0.0
+   }
+  ]
+ },
+ {
+  "id": "injury-3054850-2026-11-13T00:00:00Z",
+  "kind": "I",
+  "at": "2026-11-13T00:00:00Z",
+  "teams": [
+   1
+  ],
+  "text": "Knights who say Ni: Alvin Kamara is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.0166,
+    "after": 0.0162
+   }
+  ]
+ },
+ {
+  "id": "injury-4429023-2026-11-13T00:00:00Z",
+  "kind": "I",
+  "at": "2026-11-13T00:00:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Love hurts: MarShawn Lloyd is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0,
+    "after": 0.0
+   }
+  ]
+ },
+ {
+  "id": "injury-4869461-2026-11-13T00:00:00Z",
+  "kind": "I",
+  "at": "2026-11-13T00:00:00Z",
+  "teams": [
+   6
+  ],
+  "text": "The Le Chable Dolphins: Trey Smack is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.0,
+    "after": 0.0
+   }
+  ]
+ },
+ {
+  "id": "trade-27ada13c-4b73-45b4-96a6-335d62ee7135",
+  "kind": "T",
+  "at": "2026-11-13T00:00:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Dropped Michael Wilson.",
+  "moves": [
+   {
+    "player": "Michael Wilson",
+    "position": "WR",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0,
+    "after": 0.0001
+   }
+  ]
+ },
+ {
+  "id": "trade-90f153b4-3d69-4a0f-890d-f2ebbd631b99",
+  "kind": "T",
+  "at": "2026-11-13T00:00:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Added Dominic Zvada; Dropped Matt Gay.",
+  "moves": [
+   {
+    "player": "Dominic Zvada",
+    "position": "K",
+    "action": "add"
+   },
+   {
+    "player": "Matt Gay",
+    "position": "K",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0,
+    "after": 0.0001
+   }
+  ]
+ },
+ {
+  "id": "trade-68bc9914-ba7e-4315-bf61-ed9d5ebdea8a",
+  "kind": "T",
+  "at": "2026-11-13T00:00:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Added Mack Hollins; Dropped Xavier Worthy.",
+  "moves": [
+   {
+    "player": "Mack Hollins",
+    "position": "WR",
+    "action": "add"
+   },
+   {
+    "player": "Xavier Worthy",
+    "position": "WR",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0,
+    "after": 0.0001
+   }
+  ]
+ },
+ {
+  "id": "trade-342c2a0f-30f9-480e-9fc9-88f1932601a0",
+  "kind": "T",
+  "at": "2026-11-13T00:00:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Dropped Carnell Tate.",
+  "moves": [
+   {
+    "player": "Carnell Tate",
+    "position": "WR",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0,
+    "after": 0.0001
+   }
+  ]
  }
 ]
