@@ -448,7 +448,7 @@
    "pf": 951.44,
    "projPerGame": 108.8,
    "strength": 107.2,
-   "projWins": 4.3,
+   "projWins": 4.29,
    "playoff": 0.0006,
    "final": 0.0001,
    "champ": 0.0001,
@@ -511,8 +511,8 @@
    "pf": 893.8,
    "projPerGame": 114.0,
    "strength": 106.2,
-   "projWins": 4.88,
-   "playoff": 0.0011,
+   "projWins": 4.89,
+   "playoff": 0.0012,
    "final": 0.0002,
    "champ": 0.0001,
    "topSeed": 0.0,
@@ -668,12 +668,12 @@
   {
    "home": 12,
    "away": 6,
-   "homeWin": 0.2384,
+   "homeWin": 0.2574,
    "homePts": 2.0,
    "awayPts": 20.3,
    "homeProj": 96.2,
-   "awayProj": 121.7
+   "awayProj": 119.3
   }
  ],
- "generated": "2026-11-13T07:09+00:00"
+ "generated": "2026-11-13T15:39+00:00"
 }
