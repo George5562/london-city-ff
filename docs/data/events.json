@@ -13495,5 +13495,203 @@
     "after": 0.0149
    }
   ]
+ },
+ {
+  "id": "injury-4567048-2026-11-13T21:30:00Z",
+  "kind": "I",
+  "at": "2026-11-13T21:30:00Z",
+  "teams": [
+   9
+  ],
+  "text": "GiantPunt: Kenneth Walker III is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.6524,
+    "after": 0.6528
+   }
+  ]
+ },
+ {
+  "id": "injury-4882093-2026-11-13T21:30:00Z",
+  "kind": "I",
+  "at": "2026-11-13T21:30:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Love hurts: Bhayshul Tuten is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0,
+    "after": 0.0
+   }
+  ]
+ },
+ {
+  "id": "injury-3916148-2026-11-13T21:30:00Z",
+  "kind": "I",
+  "at": "2026-11-13T21:30:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Goats: Tony Pollard is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.0819,
+    "after": 0.0818
+   }
+  ]
+ },
+ {
+  "id": "injury-5083076-2026-11-13T21:30:00Z",
+  "kind": "I",
+  "at": "2026-11-13T21:30:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Goats: Harold Fannin Jr. is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.0819,
+    "after": 0.0818
+   }
+  ]
+ },
+ {
+  "id": "injury-4036133-2026-11-13T21:30:00Z",
+  "kind": "I",
+  "at": "2026-11-13T21:30:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Cardigan's Boys: T.J. Hockenson is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0001,
+    "after": 0.0001
+   }
+  ]
+ },
+ {
+  "id": "injury-4429059-2026-11-13T21:30:00Z",
+  "kind": "I",
+  "at": "2026-11-13T21:30:00Z",
+  "teams": [
+   13
+  ],
+  "text": "Salisbury Screamers: Woody Marks is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 13,
+    "before": 0.0595,
+    "after": 0.0594
+   }
+  ]
+ },
+ {
+  "id": "injury-4385690-2026-11-13T21:30:00Z",
+  "kind": "I",
+  "at": "2026-11-13T21:30:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: Dalton Kincaid is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0034,
+    "after": 0.0036
+   }
+  ]
+ },
+ {
+  "id": "injury-4429205-2026-11-13T21:30:00Z",
+  "kind": "I",
+  "at": "2026-11-13T21:30:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Love hurts: Jordan Addison is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0,
+    "after": 0.0
+   }
+  ]
+ },
+ {
+  "id": "injury-3046439-2026-11-13T21:30:00Z",
+  "kind": "I",
+  "at": "2026-11-13T21:30:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Cardigan's Boys: Hunter Henry is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0001,
+    "after": 0.0001
+   }
+  ]
+ },
+ {
+  "id": "injury-4597500-2026-11-13T21:30:00Z",
+  "kind": "I",
+  "at": "2026-11-13T21:30:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Cardigan's Boys: Adonai Mitchell is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0001,
+    "after": 0.0001
+   }
+  ]
+ },
+ {
+  "id": "trade-d32caf7d-c073-409b-861c-d85b379f12c2",
+  "kind": "T",
+  "at": "2026-11-13T21:30:00Z",
+  "teams": [
+   9
+  ],
+  "text": "Added RB Emmett Johnson; dropped RB Braelon Allen.",
+  "moves": [
+   {
+    "player": "Emmett Johnson",
+    "position": "RB",
+    "action": "add"
+   },
+   {
+    "player": "Braelon Allen",
+    "position": "RB",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.6524,
+    "after": 0.6528
+   }
+  ]
  }
 ]
