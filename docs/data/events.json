@@ -13478,5 +13478,22 @@
     "after": 0.0001
    }
   ]
+ },
+ {
+  "id": "injury-4426515-2026-11-13T07:00:00Z",
+  "kind": "I",
+  "at": "2026-11-13T07:00:00Z",
+  "teams": [
+   1
+  ],
+  "text": "Knights who say Ni: Puka Nacua is now listed as injury reserve.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.0162,
+    "after": 0.0149
+   }
+  ]
  }
 ]
