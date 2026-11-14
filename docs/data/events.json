@@ -13744,5 +13744,45 @@
     "after": 0.004
    }
   ]
+ },
+ {
+  "id": "injury-4567048-2026-11-14T20:30:00Z",
+  "kind": "I",
+  "at": "2026-11-14T20:30:00Z",
+  "teams": [
+   9
+  ],
+  "text": "GiantPunt: Kenneth Walker III is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.6518,
+    "after": 0.5897
+   }
+  ]
+ },
+ {
+  "id": "trade-aaae3e61-100b-438e-9546-12d700c18b78",
+  "kind": "T",
+  "at": "2026-11-14T20:30:00Z",
+  "teams": [
+   9
+  ],
+  "text": "Added WR Jakobi Meyers.",
+  "moves": [
+   {
+    "player": "Jakobi Meyers",
+    "position": "WR",
+    "action": "add"
+   }
+  ],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.6518,
+    "after": 0.5897
+   }
+  ]
  }
 ]

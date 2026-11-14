@@ -61211,6 +61211,223 @@
    },
    "at": "2026-11-14T16:00:00Z",
    "explanations": {}
+  },
+  {
+   "date": "2026-11-14",
+   "label": "Week 10 \u00b7 20:30 UTC",
+   "week": 10,
+   "backfilled": false,
+   "teams": {
+    "9": {
+     "champ": 0.5897,
+     "playoff": 0.9988,
+     "projWins": 11.71
+    },
+    "2": {
+     "champ": 0.1321,
+     "playoff": 0.9963,
+     "projWins": 11.18
+    },
+    "3": {
+     "champ": 0.0967,
+     "playoff": 0.7158,
+     "projWins": 9.03
+    },
+    "4": {
+     "champ": 0.0798,
+     "playoff": 0.4084,
+     "projWins": 7.58
+    },
+    "13": {
+     "champ": 0.0754,
+     "playoff": 0.5952,
+     "projWins": 8.56
+    },
+    "1": {
+     "champ": 0.0214,
+     "playoff": 0.2351,
+     "projWins": 7.82
+    },
+    "11": {
+     "champ": 0.0049,
+     "playoff": 0.0487,
+     "projWins": 6.47
+    },
+    "6": {
+     "champ": 0.0001,
+     "playoff": 0.0008,
+     "projWins": 4.37
+    },
+    "12": {
+     "champ": 0.0001,
+     "playoff": 0.0009,
+     "projWins": 4.75
+    },
+    "5": {
+     "champ": 0.0,
+     "playoff": 0.0,
+     "projWins": 3.53
+    }
+   },
+   "at": "2026-11-14T20:30:00Z",
+   "changes": {
+    "9": {
+     "cause": "roster_move",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0621,
+     "text": "CeeDee Lamb\u2019s forecast moved from 20.8647 to 20.8352 fantasy points, lowering their expected scoring contribution.",
+     "facts": [
+      "projection: CeeDee Lamb 20.86472174 -> 20.83522812",
+      "roster_move: Kenneth Walker III 9 -> 9",
+      "injury: Kenneth Walker III QUESTIONABLE -> OUT",
+      "projection: Kenneth Walker III 26.13080437 -> 0.0",
+      "projection: Tyler Warren 10.59380647 -> 10.59380648",
+      "projection: Travis Kelce 11.16026815 -> 11.58938951",
+      "projection: C.J. Stroud 18.12712616 -> 18.26980927",
+      "injury: David Montgomery QUESTIONABLE -> OUT"
+     ],
+     "showTooltip": true
+    },
+    "2": {
+     "cause": "external_opportunity",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.0188,
+     "text": "Brock Bowers\u2019s forecast moved from 15.3877 to 15.4066 fantasy points, raising their expected scoring contribution.",
+     "facts": [
+      "projection: Brock Bowers 15.38766962 -> 15.40655333",
+      "projection: Vikings D/ST 5.13490419 -> 4.95904113",
+      "projection: Germie Bernard 10.89147086 -> 10.89146679",
+      "projection: Omar Cooper Jr. 9.45245683 -> 9.45252407",
+      "projection: Audric Estime 4.14596638 -> 4.9601702",
+      "projection: Corey Kiner 10.19594233 -> 10.1959422",
+      "injury: Pat Freiermuth ACTIVE -> QUESTIONABLE",
+      "injury: Xavier Legette INJURY_RESERVE -> QUESTIONABLE"
+     ],
+     "showTooltip": true
+    },
+    "4": {
+     "cause": "external_opportunity",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.0133,
+     "text": "Kyren Williams\u2019s forecast moved from 18.6319 to 18.6285 fantasy points, lowering their expected scoring contribution.",
+     "facts": [
+      "injury: Kenneth Walker III QUESTIONABLE -> OUT",
+      "projection: Kyren Williams 18.63186238 -> 18.62847506",
+      "projection: George Kittle 15.34611816 -> 15.34467269",
+      "projection: Christian Watson 15.67220781 -> 15.68655683",
+      "projection: Patrick Mahomes 17.52086539 -> 18.55255168",
+      "projection: Tucker Kraft 9.38669081 -> 9.39502098",
+      "projection: Zach Charbonnet 14.52538785 -> 14.52533759",
+      "injury: David Montgomery QUESTIONABLE -> OUT"
+     ],
+     "showTooltip": true
+    },
+    "13": {
+     "cause": "external_opportunity",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.0119,
+     "text": "Derrick Henry\u2019s forecast moved from 18.1885 to 18.1886 fantasy points, raising their expected scoring contribution.",
+     "facts": [
+      "projection: Derrick Henry 18.18854728 -> 18.18858931",
+      "projection: Chuba Hubbard 20.00721612 -> 20.00731445",
+      "projection: Blake Corum 11.58326227 -> 11.58392563",
+      "projection: Woody Marks 8.96058288 -> 14.19376833",
+      "injury: David Montgomery QUESTIONABLE -> OUT",
+      "projection: Khalil Shakir 10.17285138 -> 10.17287418",
+      "injury: Pat Freiermuth ACTIVE -> QUESTIONABLE",
+      "injury: Xavier Legette INJURY_RESERVE -> QUESTIONABLE"
+     ],
+     "showTooltip": true
+    }
+   },
+   "explanations": {
+    "9": {
+     "champ": {
+      "cause": "roster_move",
+      "text": "CeeDee Lamb\u2019s forecast moved from 20.8647 to 20.8352 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.0621,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "roster_move",
+      "text": "CeeDee Lamb\u2019s forecast moved from 20.8647 to 20.8352 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.29,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "2": {
+     "champ": {
+      "cause": "external_opportunity",
+      "text": "Brock Bowers\u2019s forecast moved from 15.3877 to 15.4066 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.0188,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "3": {
+     "champ": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0129,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.0076,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "4": {
+     "champ": {
+      "cause": "external_opportunity",
+      "text": "Kyren Williams\u2019s forecast moved from 18.6319 to 18.6285 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.0133,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "external_opportunity",
+      "text": "Kyren Williams\u2019s forecast moved from 18.6319 to 18.6285 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.0102,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "13": {
+     "champ": {
+      "cause": "external_opportunity",
+      "text": "Derrick Henry\u2019s forecast moved from 18.1885 to 18.1886 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.0119,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "external_opportunity",
+      "text": "Derrick Henry\u2019s forecast moved from 18.1885 to 18.1886 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.0075,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    }
+   }
   }
  ]
 }
