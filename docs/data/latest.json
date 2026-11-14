@@ -13,10 +13,10 @@
    "projPerGame": 158.4,
    "strength": 153.7,
    "projWins": 12.0,
-   "playoff": 0.9997,
-   "final": 0.8095,
-   "champ": 0.6501,
-   "topSeed": 0.8329,
+   "playoff": 0.9996,
+   "final": 0.8105,
+   "champ": 0.6518,
+   "topSeed": 0.8327,
    "lineup": [
     {
      "name": "Kenneth Walker III",
@@ -76,9 +76,9 @@
    "projPerGame": 103.4,
    "strength": 119.2,
    "projWins": 11.1,
-   "playoff": 0.996,
-   "final": 0.4671,
-   "champ": 0.1129,
+   "playoff": 0.9961,
+   "final": 0.4697,
+   "champ": 0.1133,
    "topSeed": 0.1608,
    "lineup": [
     {
@@ -139,9 +139,9 @@
    "projPerGame": 117.2,
    "strength": 119.3,
    "projWins": 9.03,
-   "playoff": 0.7248,
-   "final": 0.2817,
-   "champ": 0.084,
+   "playoff": 0.7234,
+   "final": 0.2807,
+   "champ": 0.0838,
    "topSeed": 0.0054,
    "lineup": [
     {
@@ -201,10 +201,10 @@
    "pf": 1119.8,
    "projPerGame": 128.6,
    "strength": 126.4,
-   "projWins": 7.63,
-   "playoff": 0.4304,
-   "final": 0.1708,
-   "champ": 0.0709,
+   "projWins": 7.52,
+   "playoff": 0.3982,
+   "final": 0.1587,
+   "champ": 0.0665,
    "topSeed": 0.0001,
    "lineup": [
     {
@@ -265,9 +265,9 @@
    "projPerGame": 115.3,
    "strength": 116.7,
    "projWins": 8.56,
-   "playoff": 0.602,
-   "final": 0.207,
-   "champ": 0.0634,
+   "playoff": 0.6027,
+   "final": 0.2072,
+   "champ": 0.0635,
    "topSeed": 0.0004,
    "lineup": [
     {
@@ -322,11 +322,11 @@
    "pf": 1015.66,
    "projPerGame": 108.2,
    "strength": 110.7,
-   "projWins": 7.67,
-   "playoff": 0.1981,
-   "final": 0.0503,
-   "champ": 0.0146,
-   "topSeed": 0.0003,
+   "projWins": 7.78,
+   "playoff": 0.2319,
+   "final": 0.06,
+   "champ": 0.0173,
+   "topSeed": 0.0006,
    "lineup": [
     {
      "name": "Brock Purdy",
@@ -386,9 +386,9 @@
    "projPerGame": 113.5,
    "strength": 111.0,
    "projWins": 6.43,
-   "playoff": 0.0476,
-   "final": 0.0135,
-   "champ": 0.004,
+   "playoff": 0.0467,
+   "final": 0.013,
+   "champ": 0.0037,
    "topSeed": 0.0,
    "lineup": [
     {
@@ -449,7 +449,7 @@
    "projPerGame": 108.9,
    "strength": 107.2,
    "projWins": 4.38,
-   "playoff": 0.0006,
+   "playoff": 0.0007,
    "final": 0.0001,
    "champ": 0.0001,
    "topSeed": 0.0,
@@ -512,7 +512,7 @@
    "projPerGame": 110.2,
    "strength": 104.4,
    "projWins": 4.72,
-   "playoff": 0.0009,
+   "playoff": 0.0008,
    "final": 0.0001,
    "champ": 0.0001,
    "topSeed": 0.0,
@@ -641,10 +641,10 @@
   {
    "home": 1,
    "away": 4,
-   "homeWin": 0.1705,
+   "homeWin": 0.2808,
    "homePts": 0.0,
    "awayPts": 0.0,
-   "homeProj": 100.1,
+   "homeProj": 113.0,
    "awayProj": 135.3
   },
   {
@@ -675,5 +675,5 @@
    "awayProj": 119.1
   }
  ],
- "generated": "2026-11-14T02:14+00:00"
+ "generated": "2026-11-14T09:20+00:00"
 }
