@@ -13874,5 +13874,73 @@
     "after": 0.0823
    }
   ]
+ },
+ {
+  "id": "injury-4374302-2026-11-15T15:30:00Z",
+  "kind": "I",
+  "at": "2026-11-15T15:30:00Z",
+  "teams": [
+   9
+  ],
+  "text": "GiantPunt: Amon-Ra St. Brown is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.576,
+    "after": 0.5863
+   }
+  ]
+ },
+ {
+  "id": "injury-4431452-2026-11-15T15:30:00Z",
+  "kind": "I",
+  "at": "2026-11-15T15:30:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Drake Maye is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0819,
+    "after": 0.0854
+   }
+  ]
+ },
+ {
+  "id": "injury-4047646-2026-11-15T15:30:00Z",
+  "kind": "I",
+  "at": "2026-11-15T15:30:00Z",
+  "teams": [
+   1
+  ],
+  "text": "Knights who say Ni: A.J. Brown is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.0225,
+    "after": 0.0154
+   }
+  ]
+ },
+ {
+  "id": "injury-4569173-2026-11-15T15:30:00Z",
+  "kind": "I",
+  "at": "2026-11-15T15:30:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Cardigan's Boys: Rhamondre Stevenson is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0001,
+    "after": 0.0
+   }
+  ]
  }
 ]
