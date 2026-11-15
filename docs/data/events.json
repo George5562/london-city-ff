@@ -13942,5 +13942,158 @@
     "after": 0.0
    }
   ]
+ },
+ {
+  "id": "injury-4569618-2026-11-15T20:30:00Z",
+  "kind": "I",
+  "at": "2026-11-15T20:30:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Sabre Raiders: Garrett Wilson is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.1303,
+    "after": 0.1182
+   }
+  ]
+ },
+ {
+  "id": "injury-4047646-2026-11-15T20:30:00Z",
+  "kind": "I",
+  "at": "2026-11-15T20:30:00Z",
+  "teams": [
+   1
+  ],
+  "text": "Knights who say Ni: A.J. Brown is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.0154,
+    "after": 0.0355
+   }
+  ]
+ },
+ {
+  "id": "injury-4239996-2026-11-15T20:30:00Z",
+  "kind": "I",
+  "at": "2026-11-15T20:30:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Cardigan's Boys: Travis Etienne Jr. is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0,
+    "after": 0.0
+   }
+  ]
+ },
+ {
+  "id": "injury-4832800-2026-11-15T20:30:00Z",
+  "kind": "I",
+  "at": "2026-11-15T20:30:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Cardigan's Boys: Denzel Boston is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0,
+    "after": 0.0
+   }
+  ]
+ },
+ {
+  "id": "injury-4612826-2026-11-15T20:30:00Z",
+  "kind": "I",
+  "at": "2026-11-15T20:30:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Goats: Ladd McConkey is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.0911,
+    "after": 0.099
+   }
+  ]
+ },
+ {
+  "id": "injury-4429059-2026-11-15T20:30:00Z",
+  "kind": "I",
+  "at": "2026-11-15T20:30:00Z",
+  "teams": [
+   13
+  ],
+  "text": "Salisbury Screamers: Woody Marks is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 13,
+    "before": 0.0859,
+    "after": 0.0906
+   }
+  ]
+ },
+ {
+  "id": "injury-4429205-2026-11-15T20:30:00Z",
+  "kind": "I",
+  "at": "2026-11-15T20:30:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Love hurts: Jordan Addison is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0,
+    "after": 0.0
+   }
+  ]
+ },
+ {
+  "id": "injury-4723820-2026-11-15T20:30:00Z",
+  "kind": "I",
+  "at": "2026-11-15T20:30:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Sabre Raiders: Omar Cooper Jr. is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.1303,
+    "after": 0.1182
+   }
+  ]
+ },
+ {
+  "id": "injury-4597500-2026-11-15T20:30:00Z",
+  "kind": "I",
+  "at": "2026-11-15T20:30:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Cardigan's Boys: Adonai Mitchell is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0,
+    "after": 0.0
+   }
+  ]
  }
 ]

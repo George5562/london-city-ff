@@ -61808,6 +61808,287 @@
      }
     }
    }
+  },
+  {
+   "date": "2026-11-15",
+   "label": "Week 10 \u00b7 20:30 UTC",
+   "week": 10,
+   "backfilled": false,
+   "teams": {
+    "9": {
+     "champ": 0.5936,
+     "playoff": 0.9996,
+     "projWins": 11.86
+    },
+    "2": {
+     "champ": 0.1182,
+     "playoff": 0.9939,
+     "projWins": 10.88
+    },
+    "3": {
+     "champ": 0.099,
+     "playoff": 0.6852,
+     "projWins": 8.81
+    },
+    "13": {
+     "champ": 0.0906,
+     "playoff": 0.5947,
+     "projWins": 8.56
+    },
+    "4": {
+     "champ": 0.0587,
+     "playoff": 0.3179,
+     "projWins": 7.28
+    },
+    "1": {
+     "champ": 0.0355,
+     "playoff": 0.3713,
+     "projWins": 8.27
+    },
+    "11": {
+     "champ": 0.0044,
+     "playoff": 0.0366,
+     "projWins": 6.28
+    },
+    "6": {
+     "champ": 0.0001,
+     "playoff": 0.0006,
+     "projWins": 4.41
+    },
+    "5": {
+     "champ": 0.0,
+     "playoff": 0.0,
+     "projWins": 4.11
+    },
+    "12": {
+     "champ": 0.0,
+     "playoff": 0.0003,
+     "projWins": 4.54
+    }
+   },
+   "at": "2026-11-15T20:30:00Z",
+   "changes": {
+    "9": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.0073,
+     "text": "Jahmyr Gibbs now has 44.2 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "actual: Jahmyr Gibbs 9.0 -> 44.2",
+      "projection: Amon-Ra St. Brown 20.35027305 -> 20.35075801",
+      "actual: Amon-Ra St. Brown 14.3 -> 25.8",
+      "projection: CeeDee Lamb 20.83530462 -> 20.83530459",
+      "actual: Kenneth Walker III None -> 0.0",
+      "projection: Chris Olave 15.77567051 -> 15.77570423",
+      "actual: Chris Olave None -> 2.1",
+      "actual: Tyler Warren None -> 0.3"
+     ],
+     "showTooltip": true
+    },
+    "2": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0121,
+     "text": "Jaxon Smith-Njigba\u2019s forecast moved from 22.2961 to 22.2919 fantasy points, lowering their expected scoring contribution.",
+     "facts": [
+      "projection: Jaxon Smith-Njigba 22.29613466 -> 22.2919081",
+      "projection: Brock Bowers 15.40655256 -> 15.40655333",
+      "injury: Garrett Wilson QUESTIONABLE -> ACTIVE",
+      "actual: Garrett Wilson None -> 12.5",
+      "actual: Texans D/ST None -> 2.0",
+      "injury: A.J. Brown ACTIVE -> QUESTIONABLE",
+      "actual: Vikings D/ST None -> 19.0",
+      "injury: Travis Etienne Jr. QUESTIONABLE -> ACTIVE"
+     ],
+     "showTooltip": true
+    },
+    "3": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.0079,
+     "text": "Jahmyr Gibbs\u2019s forecast moved from 23.8586 to 23.8585 fantasy points, lowering their expected scoring contribution.",
+     "facts": [
+      "projection: Jahmyr Gibbs 23.85862971 -> 23.85850731",
+      "actual: Jahmyr Gibbs 9.0 -> 44.2",
+      "projection: Ashton Jeanty 13.58528729 -> 13.58533007",
+      "actual: Tetairoa McMillan None -> 6.5",
+      "injury: A.J. Brown ACTIVE -> QUESTIONABLE",
+      "actual: Tony Pollard None -> 10.7",
+      "actual: Harold Fannin Jr. None -> 7.9",
+      "projection: Matthew Stafford 16.97542428 -> 16.97543114"
+     ],
+     "showTooltip": true
+    },
+    "4": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0267,
+     "text": "Kyren Williams\u2019s forecast moved from 18.6285 to 18.6285 fantasy points, raising their expected scoring contribution.",
+     "facts": [
+      "projection: Kyren Williams 18.62847506 -> 18.62854601",
+      "projection: Drake Maye 21.95790786 -> 21.96715174",
+      "projection: Christian Watson 15.67064285 -> 15.67072019",
+      "actual: Christian Watson None -> 6.7",
+      "actual: Texans D/ST None -> 2.0",
+      "injury: A.J. Brown ACTIVE -> QUESTIONABLE",
+      "projection: Patrick Mahomes 18.55255168 -> 18.54688911",
+      "actual: Patrick Mahomes None -> 29.38"
+     ],
+     "showTooltip": true
+    },
+    "1": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.0201,
+     "text": "Javonte Williams\u2019s forecast moved from 14.8262 to 14.8261 fantasy points, lowering their expected scoring contribution.",
+     "facts": [
+      "projection: Javonte Williams 14.82618008 -> 14.82608614",
+      "projection: Sam LaPorta 11.43847949 -> 11.43872531",
+      "actual: Sam LaPorta 0.0 -> 2.6",
+      "projection: Parker Washington 14.40798515 -> 14.4079843",
+      "actual: Parker Washington None -> 26.8",
+      "actual: Trevor Lawrence None -> 17.0",
+      "projection: Jameson Williams 12.08784156 -> 12.08809043",
+      "actual: Jameson Williams 0.0 -> 9.0"
+     ],
+     "showTooltip": true
+    }
+   },
+   "explanations": {
+    "9": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Jahmyr Gibbs now has 44.2 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.0073,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "2": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Jaxon Smith-Njigba\u2019s forecast moved from 22.2961 to 22.2919 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.0121,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Jaxon Smith-Njigba\u2019s forecast moved from 22.2961 to 22.2919 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.29,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "3": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Jahmyr Gibbs\u2019s forecast moved from 23.8586 to 23.8585 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.0079,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Jahmyr Gibbs\u2019s forecast moved from 23.8586 to 23.8585 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.0055,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "4": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Kyren Williams\u2019s forecast moved from 18.6285 to 18.6285 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.0267,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Kyren Williams\u2019s forecast moved from 18.6285 to 18.6285 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.1625,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Kyren Williams\u2019s forecast moved from 18.6285 to 18.6285 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.5,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "1": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Javonte Williams\u2019s forecast moved from 14.8262 to 14.8261 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.0201,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Javonte Williams\u2019s forecast moved from 14.8262 to 14.8261 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.1866,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Javonte Williams\u2019s forecast moved from 14.8262 to 14.8261 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.62,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "11": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.014,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "5": {
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.31,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "12": {
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.17,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    }
+   }
   }
  ]
 }
