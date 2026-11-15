@@ -13784,5 +13784,95 @@
     "after": 0.5897
    }
   ]
+ },
+ {
+  "id": "injury-4239996-2026-11-15T00:30:00Z",
+  "kind": "I",
+  "at": "2026-11-15T00:30:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Cardigan's Boys: Travis Etienne Jr. is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0001,
+    "after": 0.0001
+   }
+  ]
+ },
+ {
+  "id": "injury-4432710-2026-11-15T00:30:00Z",
+  "kind": "I",
+  "at": "2026-11-15T00:30:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: TreVeyon Henderson is now listed as injury reserve.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0049,
+    "after": 0.0053
+   }
+  ]
+ },
+ {
+  "id": "trade-b46c93a3-d5cb-403c-aa2b-d88f993a0ad5",
+  "kind": "T",
+  "at": "2026-11-15T00:30:00Z",
+  "teams": [
+   13
+  ],
+  "text": "Added K Cam Little; dropped K Cairo Santos.",
+  "moves": [
+   {
+    "player": "Cam Little",
+    "position": "K",
+    "action": "add"
+   },
+   {
+    "player": "Cairo Santos",
+    "position": "K",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 13,
+    "before": 0.0754,
+    "after": 0.0823
+   }
+  ]
+ },
+ {
+  "id": "trade-55cefcef-22e2-4270-b805-00de42540de2",
+  "kind": "T",
+  "at": "2026-11-15T00:30:00Z",
+  "teams": [
+   13
+  ],
+  "text": "Added Ravens D/ST; dropped Browns D/ST.",
+  "moves": [
+   {
+    "player": "Ravens D/ST",
+    "position": "D/ST",
+    "action": "add"
+   },
+   {
+    "player": "Browns D/ST",
+    "position": "D/ST",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 13,
+    "before": 0.0754,
+    "after": 0.0823
+   }
+  ]
  }
 ]
