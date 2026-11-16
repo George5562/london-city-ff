@@ -14180,5 +14180,22 @@
     "after": 0.1133
    }
   ]
+ },
+ {
+  "id": "injury-4431452-2026-11-16T17:00:00Z",
+  "kind": "I",
+  "at": "2026-11-16T17:00:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Drake Maye is now listed as doubtful.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0348,
+    "after": 0.0349
+   }
+  ]
  }
 ]
