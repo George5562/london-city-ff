@@ -14095,5 +14095,73 @@
     "after": 0.0
    }
   ]
+ },
+ {
+  "id": "injury-4432665-2026-11-16T00:00:00Z",
+  "kind": "I",
+  "at": "2026-11-16T00:00:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Sabre Raiders: Brock Bowers is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.1182,
+    "after": 0.105
+   }
+  ]
+ },
+ {
+  "id": "injury-4426502-2026-11-16T00:00:00Z",
+  "kind": "I",
+  "at": "2026-11-16T00:00:00Z",
+  "teams": [
+   13
+  ],
+  "text": "Salisbury Screamers: Drake London is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 13,
+    "before": 0.0906,
+    "after": 0.1096
+   }
+  ]
+ },
+ {
+  "id": "injury-4429059-2026-11-16T00:00:00Z",
+  "kind": "I",
+  "at": "2026-11-16T00:00:00Z",
+  "teams": [
+   13
+  ],
+  "text": "Salisbury Screamers: Woody Marks is now listed as doubtful.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 13,
+    "before": 0.0906,
+    "after": 0.1096
+   }
+  ]
+ },
+ {
+  "id": "injury-4723820-2026-11-16T00:00:00Z",
+  "kind": "I",
+  "at": "2026-11-16T00:00:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Sabre Raiders: Omar Cooper Jr. is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.1182,
+    "after": 0.105
+   }
+  ]
  }
 ]

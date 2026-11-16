@@ -62089,6 +62089,372 @@
      }
     }
    }
+  },
+  {
+   "date": "2026-11-16",
+   "label": "Week 10 \u00b7 00:00 UTC",
+   "week": 10,
+   "backfilled": false,
+   "teams": {
+    "9": {
+     "champ": 0.5532,
+     "playoff": 0.9996,
+     "projWins": 11.81
+    },
+    "3": {
+     "champ": 0.13,
+     "playoff": 0.7177,
+     "projWins": 8.85
+    },
+    "13": {
+     "champ": 0.1096,
+     "playoff": 0.5619,
+     "projWins": 8.33
+    },
+    "2": {
+     "champ": 0.105,
+     "playoff": 0.9888,
+     "projWins": 10.75
+    },
+    "1": {
+     "champ": 0.0512,
+     "playoff": 0.462,
+     "projWins": 8.57
+    },
+    "4": {
+     "champ": 0.0381,
+     "playoff": 0.1845,
+     "projWins": 6.84
+    },
+    "11": {
+     "champ": 0.0129,
+     "playoff": 0.0849,
+     "projWins": 6.78
+    },
+    "6": {
+     "champ": 0.0001,
+     "playoff": 0.0006,
+     "projWins": 4.52
+    },
+    "5": {
+     "champ": 0.0,
+     "playoff": 0.0,
+     "projWins": 4.18
+    },
+    "12": {
+     "champ": 0.0,
+     "playoff": 0.0,
+     "projWins": 4.38
+    }
+   },
+   "at": "2026-11-16T00:00:00Z",
+   "changes": {
+    "9": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0404,
+     "text": "CeeDee Lamb now has 13.1 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "actual: CeeDee Lamb None -> 13.1",
+      "actual: Chris Olave 2.1 -> 6.0",
+      "actual: Tyler Warren 0.3 -> 2.4",
+      "actual: Breece Hall 9.0 -> 14.8",
+      "actual: Jaguars D/ST 6.0 -> 3.0",
+      "actual: Tyler Bass 6.0 -> 7.0",
+      "injury: Woody Marks OUT -> DOUBTFUL",
+      "actual: C.J. Stroud 15.52 -> 20.44"
+     ],
+     "showTooltip": true
+    },
+    "3": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "model",
+     "delta": 0.031,
+     "text": "Ashton Jeanty scored 10.4 fantasy points for his team, while Tony Pollard and Harold Fannin Jr. also posted gains; those performances update the matchup outlook, though the link to Bowers and London\u2019s statuses is unclear.",
+     "facts": [
+      "injury: Brock Bowers ACTIVE -> OUT",
+      "injury: Drake London ACTIVE -> QUESTIONABLE",
+      "actual: Ashton Jeanty None -> 10.4",
+      "actual: Tony Pollard 10.7 -> 23.9",
+      "actual: Harold Fannin Jr. 7.9 -> 16.1",
+      "actual: Jaguars D/ST 6.0 -> 3.0",
+      "actual: Matthew Stafford None -> 19.76",
+      "actual: Ka'imi Fairbairn 6.0 -> 7.0"
+     ],
+     "showTooltip": true
+    },
+    "13": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.019,
+     "text": "Bijan Robinson now has 17.7 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "actual: Bijan Robinson 9.2 -> 17.7",
+      "injury: Drake London ACTIVE -> QUESTIONABLE",
+      "actual: Drake London 13.5 -> 16.9",
+      "actual: Chuba Hubbard 19.2 -> 34.2",
+      "actual: Blake Corum None -> 20.9",
+      "injury: Woody Marks OUT -> DOUBTFUL",
+      "actual: Cam Little 13.0 -> 19.0",
+      "actual: Khalil Shakir 6.4 -> 7.5"
+     ],
+     "showTooltip": true
+    },
+    "2": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0132,
+     "text": "Jaxon Smith-Njigba now has 31.1 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "actual: Jaxon Smith-Njigba None -> 31.1",
+      "injury: Brock Bowers ACTIVE -> OUT",
+      "actual: Brock Bowers None -> 3.8",
+      "actual: Garrett Wilson 12.5 -> 15.6",
+      "actual: Texans D/ST 2.0 -> 5.0",
+      "actual: Davante Adams None -> 0.0",
+      "actual: Jason Myers None -> 2.0",
+      "actual: Vikings D/ST 19.0 -> 21.0"
+     ],
+     "showTooltip": true
+    },
+    "1": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.0157,
+     "text": "Javonte Williams now has 6.3 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "actual: Javonte Williams None -> 6.3",
+      "actual: Brock Purdy None -> 23.02",
+      "actual: Puka Nacua None -> 0.0",
+      "actual: Parker Washington 26.8 -> 28.2",
+      "actual: Trevor Lawrence 17.0 -> 26.78",
+      "actual: Quinshon Judkins 7.1 -> 16.1",
+      "actual: Alvin Kamara 6.3 -> 16.4",
+      "actual: Chiefs D/ST 10.0 -> 9.0"
+     ],
+     "showTooltip": true
+    },
+    "4": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0206,
+     "text": "Kyren Williams now has 5.2 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "actual: Kyren Williams None -> 5.2",
+      "actual: George Kittle None -> 13.4",
+      "actual: Texans D/ST 2.0 -> 5.0",
+      "actual: Patrick Mahomes 29.38 -> 35.42",
+      "actual: Mike Evans None -> 0.0",
+      "actual: Will Reichard 8.0 -> 12.0",
+      "actual: Zach Charbonnet None -> 9.4",
+      "actual: Jeremiyah Love None -> 0.0"
+     ],
+     "showTooltip": true
+    },
+    "11": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.0085,
+     "text": "Josh Allen now has 22.34 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "actual: Josh Allen 24.34 -> 22.34",
+      "actual: James Cook III 8.1 -> 21.7",
+      "actual: George Pickens None -> 39.5",
+      "actual: Rams D/ST None -> 16.0",
+      "actual: Deebo Samuel Sr. None -> 25.9",
+      "actual: Ryan Fitzgerald 5.0 -> 11.0",
+      "actual: Brandon McManus None -> 11.0"
+     ],
+     "showTooltip": true
+    }
+   },
+   "explanations": {
+    "9": {
+     "champ": {
+      "cause": "score_update",
+      "text": "CeeDee Lamb now has 13.1 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.0404,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "3": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Ashton Jeanty scored 10.4 fantasy points for his team, while Tony Pollard and Harold Fannin Jr. also posted gains; those performances update the matchup outlook, though the link to Bowers and London\u2019s statuses is unclear.",
+      "confidence": "recorded explanation",
+      "delta": 0.031,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Ashton Jeanty scored 10.4 fantasy points for his team, while Tony Pollard and Harold Fannin Jr. also posted gains; those performances update the matchup outlook, though the link to Bowers and London\u2019s statuses is unclear.",
+      "confidence": "recorded explanation",
+      "delta": 0.0325,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "13": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Bijan Robinson now has 17.7 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.019,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Bijan Robinson now has 17.7 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.0328,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Bijan Robinson now has 17.7 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.23,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "2": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Jaxon Smith-Njigba now has 31.1 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.0132,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Jaxon Smith-Njigba now has 31.1 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.0051,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Jaxon Smith-Njigba now has 31.1 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.13,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "1": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Javonte Williams now has 6.3 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.0157,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Javonte Williams now has 6.3 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.0907,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Javonte Williams now has 6.3 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.3,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "4": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Kyren Williams now has 5.2 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.0206,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Kyren Williams now has 5.2 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.1334,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Kyren Williams now has 5.2 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.44,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "11": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Josh Allen now has 22.34 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.0085,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Josh Allen now has 22.34 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.0483,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Josh Allen now has 22.34 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.5,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "6": {
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.11,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "12": {
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.16,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    }
+   }
   }
  ]
 }
