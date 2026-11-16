@@ -14163,5 +14163,22 @@
     "after": 0.105
    }
   ]
+ },
+ {
+  "id": "injury-4432665-2026-11-16T07:00:00Z",
+  "kind": "I",
+  "at": "2026-11-16T07:00:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Sabre Raiders: Brock Bowers is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.105,
+    "after": 0.1133
+   }
+  ]
  }
 ]

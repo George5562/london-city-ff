@@ -62455,6 +62455,241 @@
      }
     }
    }
+  },
+  {
+   "date": "2026-11-16",
+   "label": "Week 10 \u00b7 07:00 UTC",
+   "week": 10,
+   "backfilled": false,
+   "teams": {
+    "9": {
+     "champ": 0.5417,
+     "playoff": 0.9996,
+     "projWins": 11.75
+    },
+    "13": {
+     "champ": 0.1298,
+     "playoff": 0.6454,
+     "projWins": 8.66
+    },
+    "2": {
+     "champ": 0.1133,
+     "playoff": 0.9869,
+     "projWins": 10.73
+    },
+    "3": {
+     "champ": 0.107,
+     "playoff": 0.6382,
+     "projWins": 8.72
+    },
+    "1": {
+     "champ": 0.0654,
+     "playoff": 0.5209,
+     "projWins": 8.81
+    },
+    "4": {
+     "champ": 0.0348,
+     "playoff": 0.1605,
+     "projWins": 6.84
+    },
+    "11": {
+     "champ": 0.0077,
+     "playoff": 0.0478,
+     "projWins": 6.43
+    },
+    "6": {
+     "champ": 0.0001,
+     "playoff": 0.0008,
+     "projWins": 4.49
+    },
+    "5": {
+     "champ": 0.0,
+     "playoff": 0.0,
+     "projWins": 4.23
+    },
+    "12": {
+     "champ": 0.0,
+     "playoff": 0.0,
+     "projWins": 4.33
+    }
+   },
+   "at": "2026-11-16T07:00:00Z",
+   "changes": {
+    "9": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0115,
+     "text": "CeeDee Lamb now has 20.2 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "actual: CeeDee Lamb 13.1 -> 20.2",
+      "actual: Tee Higgins None -> 11.6"
+     ],
+     "showTooltip": true
+    },
+    "1": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.0142,
+     "text": "Javonte Williams now has 7.7 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "actual: Javonte Williams 6.3 -> 7.7",
+      "actual: Brock Purdy 23.02 -> 31.66",
+      "actual: Chase Brown None -> 28.3",
+      "actual: Germie Bernard None -> 1.0",
+      "actual: Ben Skowronek None -> 1.0"
+     ],
+     "showTooltip": true
+    },
+    "11": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "model",
+     "delta": -0.0052,
+     "text": "George Pickens scored, raising his fantasy total to 43.5 points. The update supports a stronger matchup outlook and playoff position for his fantasy team.",
+     "facts": [
+      "actual: George Pickens 39.5 -> 43.5"
+     ],
+     "showTooltip": true
+    }
+   },
+   "explanations": {
+    "9": {
+     "champ": {
+      "cause": "score_update",
+      "text": "CeeDee Lamb now has 20.2 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.0115,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "13": {
+     "champ": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0202,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0835,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.33,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "2": {
+     "champ": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0083,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "3": {
+     "champ": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.023,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.0795,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.13,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "1": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Javonte Williams now has 7.7 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.0142,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Javonte Williams now has 7.7 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.0589,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Javonte Williams now has 7.7 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.24,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "4": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.024,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "11": {
+     "champ": {
+      "cause": "score_update",
+      "text": "George Pickens scored, raising his fantasy total to 43.5 points. The update supports a stronger matchup outlook and playoff position for his fantasy team.",
+      "confidence": "recorded explanation",
+      "delta": -0.0052,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "George Pickens scored, raising his fantasy total to 43.5 points. The update supports a stronger matchup outlook and playoff position for his fantasy team.",
+      "confidence": "recorded explanation",
+      "delta": -0.0371,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "George Pickens scored, raising his fantasy total to 43.5 points. The update supports a stronger matchup outlook and playoff position for his fantasy team.",
+      "confidence": "recorded explanation",
+      "delta": -0.35,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    }
+   }
   }
  ]
 }
