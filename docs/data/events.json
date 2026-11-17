@@ -14214,5 +14214,124 @@
     "after": 0.131
    }
   ]
+ },
+ {
+  "id": "injury-4567048-2026-11-17T18:00:00Z",
+  "kind": "I",
+  "at": "2026-11-17T18:00:00Z",
+  "teams": [
+   9
+  ],
+  "text": "GiantPunt: Kenneth Walker III is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.4312,
+    "after": 0.4452
+   }
+  ]
+ },
+ {
+  "id": "injury-4241478-2026-11-17T18:00:00Z",
+  "kind": "I",
+  "at": "2026-11-17T18:00:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Goats: DeVonta Smith is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.1263,
+    "after": 0.1234
+   }
+  ]
+ },
+ {
+  "id": "injury-4685278-2026-11-17T18:00:00Z",
+  "kind": "I",
+  "at": "2026-11-17T18:00:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Sabre Raiders: Luther Burden III is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.1494,
+    "after": 0.1449
+   }
+  ]
+ },
+ {
+  "id": "injury-16737-2026-11-17T18:00:00Z",
+  "kind": "I",
+  "at": "2026-11-17T18:00:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Mike Evans is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0202,
+    "after": 0.0198
+   }
+  ]
+ },
+ {
+  "id": "injury-4612826-2026-11-17T18:00:00Z",
+  "kind": "I",
+  "at": "2026-11-17T18:00:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Goats: Ladd McConkey is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.1263,
+    "after": 0.1234
+   }
+  ]
+ },
+ {
+  "id": "injury-4036133-2026-11-17T18:00:00Z",
+  "kind": "I",
+  "at": "2026-11-17T18:00:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Cardigan's Boys: T.J. Hockenson is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0,
+    "after": 0.0
+   }
+  ]
+ },
+ {
+  "id": "injury-4608686-2026-11-17T18:00:00Z",
+  "kind": "I",
+  "at": "2026-11-17T18:00:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Love hurts: Kyle Monangai is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0,
+    "after": 0.0
+   }
+  ]
  }
 ]

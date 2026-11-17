@@ -63247,6 +63247,97 @@
      }
     }
    }
+  },
+  {
+   "date": "2026-11-17",
+   "label": "Week 11 \u00b7 18:00 UTC",
+   "week": 11,
+   "backfilled": false,
+   "teams": {
+    "9": {
+     "champ": 0.4452,
+     "playoff": 0.998,
+     "projWins": 11.46
+    },
+    "13": {
+     "champ": 0.1707,
+     "playoff": 0.7227,
+     "projWins": 9.01
+    },
+    "2": {
+     "champ": 0.1449,
+     "playoff": 0.8782,
+     "projWins": 9.76
+    },
+    "3": {
+     "champ": 0.1234,
+     "playoff": 0.6824,
+     "projWins": 8.97
+    },
+    "1": {
+     "champ": 0.0869,
+     "playoff": 0.5819,
+     "projWins": 9.12
+    },
+    "4": {
+     "champ": 0.0198,
+     "playoff": 0.0926,
+     "projWins": 6.55
+    },
+    "11": {
+     "champ": 0.009,
+     "playoff": 0.0436,
+     "projWins": 6.56
+    },
+    "6": {
+     "champ": 0.0001,
+     "playoff": 0.0005,
+     "projWins": 4.66
+    },
+    "5": {
+     "champ": 0.0,
+     "playoff": 0.0,
+     "projWins": 4.74
+    },
+    "12": {
+     "champ": 0.0,
+     "playoff": 0.0,
+     "projWins": 4.16
+    }
+   },
+   "at": "2026-11-17T18:00:00Z",
+   "changes": {
+    "9": {
+     "cause": "roster_availability",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.014,
+     "text": "Amon-Ra St. Brown\u2019s forecast moved from 17.68 to 17.7043 fantasy points, raising their expected scoring contribution.",
+     "facts": [
+      "projection: Amon-Ra St. Brown 17.68002076 -> 17.7043413",
+      "projection: CeeDee Lamb 22.4470094 -> 22.4635909",
+      "injury: Kenneth Walker III OUT -> QUESTIONABLE",
+      "projection: Kenneth Walker III 26.99156282 -> 25.7120044",
+      "projection: Chris Olave 14.12670342 -> 14.13348978",
+      "projection: Tee Higgins 16.76189209 -> 16.76991318",
+      "projection: D'Andre Swift 16.83660063 -> 16.85323836",
+      "projection: Tyler Warren 8.84565094 -> 8.84650792"
+     ],
+     "showTooltip": true
+    }
+   },
+   "explanations": {
+    "9": {
+     "champ": {
+      "cause": "roster_availability",
+      "text": "Amon-Ra St. Brown\u2019s forecast moved from 17.68 to 17.7043 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.014,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    }
+   }
   }
  ]
 }
