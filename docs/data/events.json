@@ -14197,5 +14197,22 @@
     "after": 0.0349
    }
   ]
+ },
+ {
+  "id": "injury-4426502-2026-11-17T01:00:00Z",
+  "kind": "I",
+  "at": "2026-11-17T01:00:00Z",
+  "teams": [
+   13
+  ],
+  "text": "Salisbury Screamers: Drake London is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 13,
+    "before": 0.1307,
+    "after": 0.131
+   }
+  ]
  }
 ]
