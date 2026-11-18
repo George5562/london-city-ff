@@ -10,13 +10,13 @@
    "wins": 8,
    "losses": 2,
    "pf": 1478.32,
-   "projPerGame": 124.9,
-   "strength": 137.7,
-   "projWins": 11.46,
+   "projPerGame": 124.8,
+   "strength": 137.6,
+   "projWins": 11.45,
    "playoff": 0.9986,
    "final": 0.6724,
-   "champ": 0.4456,
-   "topSeed": 0.8656,
+   "champ": 0.4452,
+   "topSeed": 0.8651,
    "lineup": [
     {
      "name": "Amon-Ra St. Brown",
@@ -73,12 +73,12 @@
    "wins": 6,
    "losses": 4,
    "pf": 1218.56,
-   "projPerGame": 128.5,
+   "projPerGame": 128.4,
    "strength": 124.8,
    "projWins": 9.03,
-   "playoff": 0.7287,
-   "final": 0.3572,
-   "champ": 0.1678,
+   "playoff": 0.7285,
+   "final": 0.3566,
+   "champ": 0.1674,
    "topSeed": 0.0186,
    "lineup": [
     {
@@ -104,7 +104,7 @@
     {
      "name": "Cam Little",
      "pos": "K",
-     "pts": 13.1
+     "pts": 13.0
     },
     {
      "name": "Malik Nabers",
@@ -114,7 +114,7 @@
     {
      "name": "Mason Taylor",
      "pos": "TE",
-     "pts": 5.2
+     "pts": 5.3
     },
     {
      "name": "Ravens D/ST",
@@ -136,13 +136,13 @@
    "wins": 7,
    "losses": 3,
    "pf": 1270.9,
-   "projPerGame": 108.3,
+   "projPerGame": 108.4,
    "strength": 118.8,
    "projWins": 9.76,
-   "playoff": 0.877,
-   "final": 0.3827,
-   "champ": 0.1484,
-   "topSeed": 0.0638,
+   "playoff": 0.878,
+   "final": 0.384,
+   "champ": 0.1489,
+   "topSeed": 0.0644,
    "lineup": [
     {
      "name": "Jaxon Smith-Njigba",
@@ -152,7 +152,7 @@
     {
      "name": "Bucky Irving",
      "pos": "RB",
-     "pts": 13.0
+     "pts": 13.2
     },
     {
      "name": "Garrett Wilson",
@@ -202,10 +202,10 @@
    "projPerGame": 117.6,
    "strength": 119.9,
    "projWins": 8.98,
-   "playoff": 0.6777,
-   "final": 0.3026,
-   "champ": 0.1238,
-   "topSeed": 0.0149,
+   "playoff": 0.6772,
+   "final": 0.3021,
+   "champ": 0.124,
+   "topSeed": 0.0147,
    "lineup": [
     {
      "name": "Jahmyr Gibbs",
@@ -215,7 +215,7 @@
     {
      "name": "Tony Pollard",
      "pos": "RB",
-     "pts": 17.3
+     "pts": 17.4
     },
     {
      "name": "Matthew Stafford",
@@ -265,10 +265,10 @@
    "projPerGame": 117.4,
    "strength": 115.5,
    "projWins": 9.13,
-   "playoff": 0.5831,
+   "playoff": 0.5829,
    "final": 0.2286,
-   "champ": 0.0859,
-   "topSeed": 0.037,
+   "champ": 0.0858,
+   "topSeed": 0.0372,
    "lineup": [
     {
      "name": "Brock Purdy",
@@ -325,12 +325,12 @@
    "wins": 4,
    "losses": 6,
    "pf": 1214.02,
-   "projPerGame": 118.5,
+   "projPerGame": 118.4,
    "strength": 120.1,
    "projWins": 6.56,
-   "playoff": 0.0923,
+   "playoff": 0.0924,
    "final": 0.0396,
-   "champ": 0.0193,
+   "champ": 0.0194,
    "topSeed": 0.0001,
    "lineup": [
     {
@@ -388,12 +388,12 @@
    "wins": 4,
    "losses": 6,
    "pf": 1136.24,
-   "projPerGame": 126.2,
+   "projPerGame": 126.1,
    "strength": 119.2,
    "projWins": 6.52,
-   "playoff": 0.0417,
-   "final": 0.0164,
-   "champ": 0.0089,
+   "playoff": 0.0415,
+   "final": 0.0163,
+   "champ": 0.0088,
    "topSeed": 0.0001,
    "lineup": [
     {
@@ -419,7 +419,7 @@
     {
      "name": "Rams D/ST",
      "pos": "D/ST",
-     "pts": 9.7
+     "pts": 9.6
     },
     {
      "name": "Brenton Strange",
@@ -451,8 +451,8 @@
    "wins": 3,
    "losses": 7,
    "pf": 1076.56,
-   "projPerGame": 108.1,
-   "strength": 107.8,
+   "projPerGame": 108.2,
+   "strength": 107.9,
    "projWins": 4.66,
    "playoff": 0.0008,
    "final": 0.0004,
@@ -477,7 +477,7 @@
     {
      "name": "Jonathan Taylor",
      "pos": "RB",
-     "pts": 12.3
+     "pts": 12.4
     },
     {
      "name": "Trey McBride",
@@ -516,7 +516,7 @@
    "pf": 1016.32,
    "projPerGame": 144.5,
    "strength": 120.7,
-   "projWins": 4.75,
+   "projWins": 4.74,
    "playoff": 0.0001,
    "final": 0.0001,
    "champ": 0.0001,
@@ -637,12 +637,12 @@
   {
    "home": 1,
    "away": 2,
-   "homeWin": 0.4477
+   "homeWin": 0.4469
   },
   {
    "home": 9,
    "away": 11,
-   "homeWin": 0.6609
+   "homeWin": 0.6606
   },
   {
    "home": 4,
@@ -657,8 +657,8 @@
   {
    "home": 5,
    "away": 6,
-   "homeWin": 0.6422
+   "homeWin": 0.6416
   }
  ],
- "generated": "2026-11-18T09:01+00:00"
+ "generated": "2026-11-18T17:56+00:00"
 }
