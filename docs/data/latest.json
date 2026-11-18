@@ -11,12 +11,12 @@
    "losses": 2,
    "pf": 1478.32,
    "projPerGame": 124.9,
-   "strength": 137.6,
+   "strength": 137.7,
    "projWins": 11.46,
-   "playoff": 0.998,
-   "final": 0.6783,
-   "champ": 0.4452,
-   "topSeed": 0.8681,
+   "playoff": 0.9986,
+   "final": 0.6724,
+   "champ": 0.4456,
+   "topSeed": 0.8656,
    "lineup": [
     {
      "name": "Amon-Ra St. Brown",
@@ -73,13 +73,13 @@
    "wins": 6,
    "losses": 4,
    "pf": 1218.56,
-   "projPerGame": 128.4,
+   "projPerGame": 128.5,
    "strength": 124.8,
-   "projWins": 9.01,
-   "playoff": 0.7227,
-   "final": 0.3606,
-   "champ": 0.1707,
-   "topSeed": 0.0171,
+   "projWins": 9.03,
+   "playoff": 0.7287,
+   "final": 0.3572,
+   "champ": 0.1678,
+   "topSeed": 0.0186,
    "lineup": [
     {
      "name": "Joe Burrow",
@@ -99,12 +99,12 @@
     {
      "name": "Drake London",
      "pos": "WR",
-     "pts": 13.1
+     "pts": 13.2
     },
     {
      "name": "Cam Little",
      "pos": "K",
-     "pts": 13.0
+     "pts": 13.1
     },
     {
      "name": "Malik Nabers",
@@ -137,12 +137,12 @@
    "losses": 3,
    "pf": 1270.9,
    "projPerGame": 108.3,
-   "strength": 118.7,
+   "strength": 118.8,
    "projWins": 9.76,
-   "playoff": 0.8782,
-   "final": 0.3733,
-   "champ": 0.1449,
-   "topSeed": 0.0622,
+   "playoff": 0.877,
+   "final": 0.3827,
+   "champ": 0.1484,
+   "topSeed": 0.0638,
    "lineup": [
     {
      "name": "Jaxon Smith-Njigba",
@@ -199,13 +199,13 @@
    "wins": 6,
    "losses": 4,
    "pf": 1217.46,
-   "projPerGame": 117.5,
+   "projPerGame": 117.6,
    "strength": 119.9,
-   "projWins": 8.97,
-   "playoff": 0.6824,
-   "final": 0.303,
-   "champ": 0.1234,
-   "topSeed": 0.0169,
+   "projWins": 8.98,
+   "playoff": 0.6777,
+   "final": 0.3026,
+   "champ": 0.1238,
+   "topSeed": 0.0149,
    "lineup": [
     {
      "name": "Jahmyr Gibbs",
@@ -264,11 +264,11 @@
    "pf": 1139.94,
    "projPerGame": 117.4,
    "strength": 115.5,
-   "projWins": 9.12,
-   "playoff": 0.5819,
-   "final": 0.225,
-   "champ": 0.0869,
-   "topSeed": 0.0356,
+   "projWins": 9.13,
+   "playoff": 0.5831,
+   "final": 0.2286,
+   "champ": 0.0859,
+   "topSeed": 0.037,
    "lineup": [
     {
      "name": "Brock Purdy",
@@ -325,13 +325,13 @@
    "wins": 4,
    "losses": 6,
    "pf": 1214.02,
-   "projPerGame": 118.4,
+   "projPerGame": 118.5,
    "strength": 120.1,
-   "projWins": 6.55,
-   "playoff": 0.0926,
-   "final": 0.0397,
-   "champ": 0.0198,
-   "topSeed": 0.0,
+   "projWins": 6.56,
+   "playoff": 0.0923,
+   "final": 0.0396,
+   "champ": 0.0193,
+   "topSeed": 0.0001,
    "lineup": [
     {
      "name": "Ja'Marr Chase",
@@ -388,13 +388,13 @@
    "wins": 4,
    "losses": 6,
    "pf": 1136.24,
-   "projPerGame": 127.8,
-   "strength": 119.9,
-   "projWins": 6.56,
-   "playoff": 0.0436,
-   "final": 0.0198,
-   "champ": 0.009,
-   "topSeed": 0.0,
+   "projPerGame": 126.2,
+   "strength": 119.2,
+   "projWins": 6.52,
+   "playoff": 0.0417,
+   "final": 0.0164,
+   "champ": 0.0089,
+   "topSeed": 0.0001,
    "lineup": [
     {
      "name": "George Pickens",
@@ -419,12 +419,7 @@
     {
      "name": "Rams D/ST",
      "pos": "D/ST",
-     "pts": 9.6
-    },
-    {
-     "name": "Rachaad White",
-     "pos": "RB",
-     "pts": 8.2
+     "pts": 9.7
     },
     {
      "name": "Brenton Strange",
@@ -435,6 +430,11 @@
      "name": "Spencer Shrader",
      "pos": "K",
      "pts": 7.4
+    },
+    {
+     "name": "Rachaad White",
+     "pos": "RB",
+     "pts": 6.5
     },
     {
      "name": "DJ Moore",
@@ -451,12 +451,12 @@
    "wins": 3,
    "losses": 7,
    "pf": 1076.56,
-   "projPerGame": 108.0,
+   "projPerGame": 108.1,
    "strength": 107.8,
    "projWins": 4.66,
-   "playoff": 0.0005,
-   "final": 0.0002,
-   "champ": 0.0001,
+   "playoff": 0.0008,
+   "final": 0.0004,
+   "champ": 0.0003,
    "topSeed": 0.0,
    "lineup": [
     {
@@ -514,12 +514,12 @@
    "wins": 2,
    "losses": 8,
    "pf": 1016.32,
-   "projPerGame": 144.4,
+   "projPerGame": 144.5,
    "strength": 120.7,
-   "projWins": 4.74,
-   "playoff": 0.0,
-   "final": 0.0,
-   "champ": 0.0,
+   "projWins": 4.75,
+   "playoff": 0.0001,
+   "final": 0.0001,
+   "champ": 0.0001,
    "topSeed": 0.0,
    "lineup": [
     {
@@ -535,7 +535,7 @@
     {
      "name": "Isaiah Likely",
      "pos": "TE",
-     "pts": 17.3
+     "pts": 17.4
     },
     {
      "name": "Bhayshul Tuten",
@@ -578,8 +578,8 @@
    "losses": 7,
    "pf": 960.4,
    "projPerGame": 93.4,
-   "strength": 94.8,
-   "projWins": 4.16,
+   "strength": 94.9,
+   "projWins": 4.17,
    "playoff": 0.0,
    "final": 0.0,
    "champ": 0.0,
@@ -637,28 +637,28 @@
   {
    "home": 1,
    "away": 2,
-   "homeWin": 0.4416
+   "homeWin": 0.4477
   },
   {
    "home": 9,
    "away": 11,
-   "homeWin": 0.6571
+   "homeWin": 0.6609
   },
   {
    "home": 4,
    "away": 3,
-   "homeWin": 0.514
+   "homeWin": 0.5096
   },
   {
    "home": 13,
    "away": 12,
-   "homeWin": 0.7703
+   "homeWin": 0.7768
   },
   {
    "home": 5,
    "away": 6,
-   "homeWin": 0.6452
+   "homeWin": 0.6422
   }
  ],
- "generated": "2026-11-17T18:27+00:00"
+ "generated": "2026-11-18T01:13+00:00"
 }
