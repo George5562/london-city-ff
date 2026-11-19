@@ -14463,5 +14463,232 @@
     "after": 0.1246
    }
   ]
+ },
+ {
+  "id": "trade-06cd9d28-83dd-4247-875f-5e086df64aa4",
+  "kind": "T",
+  "at": "2026-11-19T17:00:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Added TE Dalton Schultz; dropped WR Keon Coleman.",
+  "moves": [
+   {
+    "player": "Dalton Schultz",
+    "position": "TE",
+    "action": "add"
+   },
+   {
+    "player": "Keon Coleman",
+    "position": "WR",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0079,
+    "after": 0.0076
+   }
+  ]
+ },
+ {
+  "id": "trade-e672676e-9ac2-43f4-89f7-2c224e2dc1cc",
+  "kind": "T",
+  "at": "2026-11-19T17:00:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Dropped Mark Andrews.",
+  "moves": [
+   {
+    "player": "Mark Andrews",
+    "position": "TE",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0,
+    "after": 0.0
+   }
+  ]
+ },
+ {
+  "id": "trade-007766f6-787f-4c3e-be37-93867700a6ce",
+  "kind": "T",
+  "at": "2026-11-19T17:00:00Z",
+  "teams": [
+   13
+  ],
+  "text": "Added Bears D/ST; dropped Ravens D/ST.",
+  "moves": [
+   {
+    "player": "Bears D/ST",
+    "position": "D/ST",
+    "action": "add"
+   },
+   {
+    "player": "Ravens D/ST",
+    "position": "D/ST",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 13,
+    "before": 0.1677,
+    "after": 0.1709
+   }
+  ]
+ },
+ {
+  "id": "trade-62986ebe-a660-4f08-87ed-44a7df1868b9",
+  "kind": "T",
+  "at": "2026-11-19T17:00:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Added K Cameron Dicker; dropped K Dominic Zvada.",
+  "moves": [
+   {
+    "player": "Cameron Dicker",
+    "position": "K",
+    "action": "add"
+   },
+   {
+    "player": "Dominic Zvada",
+    "position": "K",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0,
+    "after": 0.0
+   }
+  ]
+ },
+ {
+  "id": "trade-b9d23c1f-ede2-4bad-8958-a5ec3783dc98",
+  "kind": "T",
+  "at": "2026-11-19T17:00:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Added Aaron Rodgers.",
+  "moves": [
+   {
+    "player": "Aaron Rodgers",
+    "position": "QB",
+    "action": "add"
+   }
+  ],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0,
+    "after": 0.0
+   }
+  ]
+ },
+ {
+  "id": "trade-b9d4370d-288f-4e0c-9c11-ac04c7cb4864",
+  "kind": "T",
+  "at": "2026-11-19T17:00:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Added Tank Dell (WR).",
+  "moves": [
+   {
+    "player": "Tank Dell",
+    "position": "WR",
+    "action": "add"
+   }
+  ],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0,
+    "after": 0.0
+   }
+  ]
+ },
+ {
+  "id": "trade-f2ba0529-6692-4a4a-ba36-7dd349dfed17",
+  "kind": "T",
+  "at": "2026-11-19T17:00:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Added Lions D/ST; dropped Seahawks D/ST.",
+  "moves": [
+   {
+    "player": "Lions D/ST",
+    "position": "D/ST",
+    "action": "add"
+   },
+   {
+    "player": "Seahawks D/ST",
+    "position": "D/ST",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0,
+    "after": 0.0
+   }
+  ]
+ },
+ {
+  "id": "trade-3652a294-5dff-4543-a6f6-f6dc04ae26d0",
+  "kind": "T",
+  "at": "2026-11-19T17:00:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Added David Montgomery.",
+  "moves": [
+   {
+    "player": "David Montgomery",
+    "position": "RB",
+    "action": "add"
+   }
+  ],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0079,
+    "after": 0.0076
+   }
+  ]
+ },
+ {
+  "id": "trade-01fa5ed7-065c-4978-bae3-7cd46e97cc3c",
+  "kind": "T",
+  "at": "2026-11-19T17:00:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Dropped Devin Singletary.",
+  "moves": [
+   {
+    "player": "Devin Singletary",
+    "position": "RB",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0,
+    "after": 0.0
+   }
+  ]
  }
 ]
