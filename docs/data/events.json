@@ -14333,5 +14333,135 @@
     "after": 0.0
    }
   ]
+ },
+ {
+  "id": "injury-4882093-2026-11-19T00:00:00Z",
+  "kind": "I",
+  "at": "2026-11-19T00:00:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Love hurts: Bhayshul Tuten is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0001,
+    "after": 0.0
+   }
+  ]
+ },
+ {
+  "id": "injury-4385690-2026-11-19T00:00:00Z",
+  "kind": "I",
+  "at": "2026-11-19T00:00:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: Dalton Kincaid is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0088,
+    "after": 0.0079
+   }
+  ]
+ },
+ {
+  "id": "injury-3916433-2026-11-19T00:00:00Z",
+  "kind": "I",
+  "at": "2026-11-19T00:00:00Z",
+  "teams": [
+   9
+  ],
+  "text": "GiantPunt: Jakobi Meyers is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.4452,
+    "after": 0.4507
+   }
+  ]
+ },
+ {
+  "id": "injury-4429059-2026-11-19T00:00:00Z",
+  "kind": "I",
+  "at": "2026-11-19T00:00:00Z",
+  "teams": [
+   13
+  ],
+  "text": "Salisbury Screamers: Woody Marks is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 13,
+    "before": 0.1674,
+    "after": 0.1677
+   }
+  ]
+ },
+ {
+  "id": "injury-4608686-2026-11-19T00:00:00Z",
+  "kind": "I",
+  "at": "2026-11-19T00:00:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Love hurts: Kyle Monangai is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0001,
+    "after": 0.0
+   }
+  ]
+ },
+ {
+  "id": "injury-4869645-2026-11-19T00:00:00Z",
+  "kind": "I",
+  "at": "2026-11-19T00:00:00Z",
+  "teams": [
+   6
+  ],
+  "text": "The Le Chable Dolphins: Caleb Douglas is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.0003,
+    "after": 0.0
+   }
+  ]
+ },
+ {
+  "id": "trade-5ad5d6c4-1edc-4a27-8669-8688da298283",
+  "kind": "T",
+  "at": "2026-11-19T00:00:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Added Bo Nix; dropped Tyler Shough.",
+  "moves": [
+   {
+    "player": "Bo Nix",
+    "position": "QB",
+    "action": "add"
+   },
+   {
+    "player": "Tyler Shough",
+    "position": "QB",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.124,
+    "after": 0.1246
+   }
+  ]
  }
 ]
