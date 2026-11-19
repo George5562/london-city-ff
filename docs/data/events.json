@@ -14690,5 +14690,45 @@
     "after": 0.0
    }
   ]
+ },
+ {
+  "id": "injury-4241478-2026-11-19T23:30:00Z",
+  "kind": "I",
+  "at": "2026-11-19T23:30:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Goats: DeVonta Smith is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.1258,
+    "after": 0.1256
+   }
+  ]
+ },
+ {
+  "id": "trade-6b43d8a4-954e-4f80-a67f-a13907bdca9a",
+  "kind": "T",
+  "at": "2026-11-19T23:30:00Z",
+  "teams": [
+   1
+  ],
+  "text": "Added WR Carnell Tate.",
+  "moves": [
+   {
+    "player": "Carnell Tate",
+    "position": "WR",
+    "action": "add"
+   }
+  ],
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.0851,
+    "after": 0.0854
+   }
+  ]
  }
 ]

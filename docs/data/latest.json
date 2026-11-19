@@ -12,11 +12,11 @@
    "pf": 1478.32,
    "projPerGame": 125.7,
    "strength": 138.0,
-   "projWins": 11.43,
+   "projWins": 11.44,
    "playoff": 0.9985,
-   "final": 0.6777,
-   "champ": 0.4459,
-   "topSeed": 0.8632,
+   "final": 0.6774,
+   "champ": 0.446,
+   "topSeed": 0.8637,
    "lineup": [
     {
      "name": "Amon-Ra St. Brown",
@@ -73,12 +73,12 @@
    "wins": 6,
    "losses": 4,
    "pf": 1218.56,
-   "projPerGame": 129.6,
+   "projPerGame": 129.5,
    "strength": 125.3,
    "projWins": 9.06,
-   "playoff": 0.7351,
-   "final": 0.368,
-   "champ": 0.1709,
+   "playoff": 0.7362,
+   "final": 0.3684,
+   "champ": 0.1711,
    "topSeed": 0.0176,
    "lineup": [
     {
@@ -89,7 +89,7 @@
     {
      "name": "Chuba Hubbard",
      "pos": "RB",
-     "pts": 23.2
+     "pts": 23.1
     },
     {
      "name": "Bijan Robinson",
@@ -99,7 +99,7 @@
     {
      "name": "Drake London",
      "pos": "WR",
-     "pts": 13.4
+     "pts": 13.3
     },
     {
      "name": "Cam Little",
@@ -139,10 +139,10 @@
    "projPerGame": 110.1,
    "strength": 119.5,
    "projWins": 9.77,
-   "playoff": 0.8741,
-   "final": 0.3803,
-   "champ": 0.1471,
-   "topSeed": 0.0663,
+   "playoff": 0.8751,
+   "final": 0.3801,
+   "champ": 0.1467,
+   "topSeed": 0.0662,
    "lineup": [
     {
      "name": "Jaxon Smith-Njigba",
@@ -202,9 +202,9 @@
    "projPerGame": 119.4,
    "strength": 120.7,
    "projWins": 8.98,
-   "playoff": 0.6834,
-   "final": 0.2997,
-   "champ": 0.1258,
+   "playoff": 0.6844,
+   "final": 0.2996,
+   "champ": 0.1256,
    "topSeed": 0.0167,
    "lineup": [
     {
@@ -262,13 +262,13 @@
    "wins": 7,
    "losses": 3,
    "pf": 1139.94,
-   "projPerGame": 119.2,
-   "strength": 116.3,
-   "projWins": 9.12,
-   "playoff": 0.5837,
-   "final": 0.222,
-   "champ": 0.0851,
-   "topSeed": 0.0362,
+   "projPerGame": 119.5,
+   "strength": 116.4,
+   "projWins": 9.11,
+   "playoff": 0.5803,
+   "final": 0.2223,
+   "champ": 0.0854,
+   "topSeed": 0.0358,
    "lineup": [
     {
      "name": "Brock Purdy",
@@ -283,7 +283,7 @@
     {
      "name": "Chase Brown",
      "pos": "RB",
-     "pts": 19.3
+     "pts": 19.2
     },
     {
      "name": "Quinshon Judkins",
@@ -328,7 +328,7 @@
    "projPerGame": 120.3,
    "strength": 120.9,
    "projWins": 6.54,
-   "playoff": 0.0877,
+   "playoff": 0.088,
    "final": 0.0367,
    "champ": 0.0175,
    "topSeed": 0.0001,
@@ -336,7 +336,7 @@
     {
      "name": "Ja'Marr Chase",
      "pos": "WR",
-     "pts": 26.5
+     "pts": 26.4
     },
     {
      "name": "Patrick Mahomes",
@@ -393,7 +393,7 @@
    "projWins": 6.47,
    "playoff": 0.0369,
    "final": 0.0154,
-   "champ": 0.0076,
+   "champ": 0.0077,
    "topSeed": 0.0,
    "lineup": [
     {
@@ -451,7 +451,7 @@
    "wins": 2,
    "losses": 8,
    "pf": 1016.32,
-   "projPerGame": 146.7,
+   "projPerGame": 146.6,
    "strength": 121.6,
    "projWins": 4.74,
    "playoff": 0.0001,
@@ -637,7 +637,7 @@
   {
    "home": 1,
    "away": 2,
-   "homeWin": 0.446
+   "homeWin": 0.4437
   },
   {
    "home": 9,
@@ -660,5 +660,5 @@
    "homeWin": 0.6318
   }
  ],
- "generated": "2026-11-19T17:17+00:00"
+ "generated": "2026-11-19T23:45+00:00"
 }
