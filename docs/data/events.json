@@ -14747,5 +14747,289 @@
     "after": 0.1227
    }
   ]
+ },
+ {
+  "id": "injury-4567048-2026-11-20T22:30:00Z",
+  "kind": "I",
+  "at": "2026-11-20T22:30:00Z",
+  "teams": [
+   9
+  ],
+  "text": "GiantPunt: Kenneth Walker III is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.4544,
+    "after": 0.4375
+   }
+  ]
+ },
+ {
+  "id": "injury-4882093-2026-11-20T22:30:00Z",
+  "kind": "I",
+  "at": "2026-11-20T22:30:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Love hurts: Bhayshul Tuten is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0001,
+    "after": 0.0
+   }
+  ]
+ },
+ {
+  "id": "injury-4431452-2026-11-20T22:30:00Z",
+  "kind": "I",
+  "at": "2026-11-20T22:30:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Drake Maye is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0069,
+    "after": 0.007
+   }
+  ]
+ },
+ {
+  "id": "injury-4047646-2026-11-20T22:30:00Z",
+  "kind": "I",
+  "at": "2026-11-20T22:30:00Z",
+  "teams": [
+   1
+  ],
+  "text": "Knights who say Ni: A.J. Brown is now listed as doubtful.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.1065,
+    "after": 0.0799
+   }
+  ]
+ },
+ {
+  "id": "injury-4372016-2026-11-20T22:30:00Z",
+  "kind": "I",
+  "at": "2026-11-20T22:30:00Z",
+  "teams": [
+   6
+  ],
+  "text": "The Le Chable Dolphins: Jaylen Waddle is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.0,
+    "after": 0.0
+   }
+  ]
+ },
+ {
+  "id": "injury-4036133-2026-11-20T22:30:00Z",
+  "kind": "I",
+  "at": "2026-11-20T22:30:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Cardigan's Boys: T.J. Hockenson is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0,
+    "after": 0.0
+   }
+  ]
+ },
+ {
+  "id": "injury-4385690-2026-11-20T22:30:00Z",
+  "kind": "I",
+  "at": "2026-11-20T22:30:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: Dalton Kincaid is now listed as doubtful.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0063,
+    "after": 0.0041
+   }
+  ]
+ },
+ {
+  "id": "injury-3916433-2026-11-20T22:30:00Z",
+  "kind": "I",
+  "at": "2026-11-20T22:30:00Z",
+  "teams": [
+   9
+  ],
+  "text": "GiantPunt: Jakobi Meyers is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.4544,
+    "after": 0.4375
+   }
+  ]
+ },
+ {
+  "id": "injury-4880281-2026-11-20T22:30:00Z",
+  "kind": "I",
+  "at": "2026-11-20T22:30:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Sabre Raiders: Jordyn Tyson is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.1227,
+    "after": 0.1876
+   }
+  ]
+ },
+ {
+  "id": "injury-4697815-2026-11-20T22:30:00Z",
+  "kind": "I",
+  "at": "2026-11-20T22:30:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: Rachaad White is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0063,
+    "after": 0.0041
+   }
+  ]
+ },
+ {
+  "id": "injury-4869645-2026-11-20T22:30:00Z",
+  "kind": "I",
+  "at": "2026-11-20T22:30:00Z",
+  "teams": [
+   6
+  ],
+  "text": "The Le Chable Dolphins: Caleb Douglas is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.0,
+    "after": 0.0
+   }
+  ]
+ },
+ {
+  "id": "trade-85e33b59-4117-439e-b175-1c8d3ba6e44a",
+  "kind": "T",
+  "at": "2026-11-20T22:30:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Dropped Audric Estime.",
+  "moves": [
+   {
+    "player": "Audric Estime",
+    "position": "RB",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.1227,
+    "after": 0.1876
+   }
+  ]
+ },
+ {
+  "id": "trade-aacfd7a3-09e5-4bcf-a6ec-d070c43fd571",
+  "kind": "T",
+  "at": "2026-11-20T22:30:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Added Chig Okonkwo (TE).",
+  "moves": [
+   {
+    "player": "Chig Okonkwo",
+    "position": "TE",
+    "action": "add"
+   }
+  ],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.1227,
+    "after": 0.1876
+   }
+  ]
+ },
+ {
+  "id": "trade-80b61dab-f8a9-4b37-8ef4-2d9964be7644",
+  "kind": "T",
+  "at": "2026-11-20T22:30:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Added WR Jordyn Tyson; dropped WR Germie Bernard.",
+  "moves": [
+   {
+    "player": "Jordyn Tyson",
+    "position": "WR",
+    "action": "add"
+   },
+   {
+    "player": "Germie Bernard",
+    "position": "WR",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.1227,
+    "after": 0.1876
+   }
+  ]
+ },
+ {
+  "id": "trade-fb9c9f34-64fd-44af-8789-0966fbc21d33",
+  "kind": "T",
+  "at": "2026-11-20T22:30:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Added Chris Boswell, K.",
+  "moves": [
+   {
+    "player": "Chris Boswell",
+    "position": "K",
+    "action": "add"
+   }
+  ],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.1227,
+    "after": 0.1876
+   }
+  ]
  }
 ]

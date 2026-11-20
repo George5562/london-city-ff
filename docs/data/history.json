@@ -64090,6 +64090,275 @@
    },
    "at": "2026-11-20T16:00:00Z",
    "explanations": {}
+  },
+  {
+   "date": "2026-11-20",
+   "label": "Week 11 \u00b7 22:30 UTC",
+   "week": 11,
+   "backfilled": false,
+   "teams": {
+    "9": {
+     "champ": 0.4375,
+     "playoff": 0.999,
+     "projWins": 11.64
+    },
+    "2": {
+     "champ": 0.1876,
+     "playoff": 0.9247,
+     "projWins": 10.0
+    },
+    "13": {
+     "champ": 0.1502,
+     "playoff": 0.7077,
+     "projWins": 8.94
+    },
+    "3": {
+     "champ": 0.1338,
+     "playoff": 0.7608,
+     "projWins": 9.26
+    },
+    "1": {
+     "champ": 0.0799,
+     "playoff": 0.5563,
+     "projWins": 9.08
+    },
+    "4": {
+     "champ": 0.007,
+     "playoff": 0.0316,
+     "projWins": 6.18
+    },
+    "11": {
+     "champ": 0.0041,
+     "playoff": 0.0196,
+     "projWins": 6.3
+    },
+    "5": {
+     "champ": 0.0,
+     "playoff": 0.0,
+     "projWins": 4.95
+    },
+    "6": {
+     "champ": 0.0,
+     "playoff": 0.0003,
+     "projWins": 4.42
+    },
+    "12": {
+     "champ": 0.0,
+     "playoff": 0.0001,
+     "projWins": 4.22
+    }
+   },
+   "at": "2026-11-20T22:30:00Z",
+   "changes": {
+    "9": {
+     "cause": "roster_availability",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0169,
+     "text": "CeeDee Lamb\u2019s forecast moved from 22.4636 to 22.4636 fantasy points, raising their expected scoring contribution.",
+     "facts": [
+      "projection: CeeDee Lamb 22.4635909 -> 22.46359161",
+      "injury: Kenneth Walker III QUESTIONABLE -> OUT",
+      "projection: Chris Olave 14.13348978 -> 14.15131",
+      "projection: D'Andre Swift 16.85323836 -> 16.85196623",
+      "injury: Bhayshul Tuten QUESTIONABLE -> ACTIVE",
+      "projection: Tyler Warren 8.64336712 -> 8.64197828",
+      "projection: Jaguars D/ST 6.96318076 -> 7.0476501",
+      "projection: Emmett Johnson 20.18731142 -> 20.18734198"
+     ],
+     "showTooltip": true
+    },
+    "2": {
+     "cause": "roster_move",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.0649,
+     "text": "Bucky Irving\u2019s forecast moved from 17.167 to 17.4649 fantasy points, raising their expected scoring contribution.",
+     "facts": [
+      "roster_move: Jaxon Smith-Njigba 2 -> 2",
+      "roster_move: Bucky Irving 2 -> 2",
+      "projection: Bucky Irving 17.16702696 -> 17.46487255",
+      "roster_move: Garrett Wilson 2 -> 2",
+      "projection: Garrett Wilson 14.10567554 -> 14.09437415",
+      "roster_move: Luther Burden III 2 -> 2",
+      "projection: Luther Burden III 15.08978559 -> 15.08638419",
+      "projection: Caleb Williams 18.98388064 -> 18.95302463"
+     ],
+     "showTooltip": true
+    },
+    "13": {
+     "cause": "external_opportunity",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0088,
+     "text": "Derrick Henry\u2019s forecast moved from 14.5396 to 14.543 fantasy points, raising their expected scoring contribution.",
+     "facts": [
+      "projection: Derrick Henry 14.53964681 -> 14.54298026",
+      "projection: Zay Flowers 14.11118166 -> 14.12215561",
+      "projection: Chuba Hubbard 19.99044723 -> 19.99248232",
+      "injury: Bhayshul Tuten QUESTIONABLE -> ACTIVE",
+      "injury: Jaylen Waddle QUESTIONABLE -> ACTIVE",
+      "injury: Dalton Kincaid QUESTIONABLE -> DOUBTFUL",
+      "injury: Jakobi Meyers QUESTIONABLE -> ACTIVE",
+      "injury: Jordyn Tyson QUESTIONABLE -> ACTIVE"
+     ],
+     "showTooltip": true
+    },
+    "3": {
+     "cause": "external_opportunity",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0104,
+     "text": "Ashton Jeanty\u2019s forecast moved from 13.7583 to 13.7583 fantasy points, lowering their expected scoring contribution.",
+     "facts": [
+      "projection: Ashton Jeanty 13.75834202 -> 13.75831019",
+      "projection: Tetairoa McMillan 13.85636943 -> 13.86118996",
+      "projection: DeVonta Smith 13.00533613 -> 13.26665453",
+      "projection: DK Metcalf 11.12332629 -> 11.12628613",
+      "projection: Rome Odunze 11.46929326 -> 11.46693229",
+      "injury: Drake Maye DOUBTFUL -> OUT",
+      "injury: A.J. Brown QUESTIONABLE -> DOUBTFUL",
+      "injury: Jaylen Waddle QUESTIONABLE -> ACTIVE"
+     ],
+     "showTooltip": true
+    },
+    "1": {
+     "cause": "roster_move",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0266,
+     "text": "Javonte Williams\u2019s forecast moved from 19.5386 to 19.5386 fantasy points, raising their expected scoring contribution.",
+     "facts": [
+      "injury: Kenneth Walker III QUESTIONABLE -> OUT",
+      "projection: Javonte Williams 19.53859524 -> 19.53861748",
+      "roster_move: Chase Brown 1 -> 1",
+      "roster_move: Parker Washington 1 -> 1",
+      "injury: Bhayshul Tuten QUESTIONABLE -> ACTIVE",
+      "injury: Drake Maye DOUBTFUL -> OUT",
+      "injury: A.J. Brown QUESTIONABLE -> DOUBTFUL",
+      "projection: Chiefs D/ST 8.18494514 -> 7.02686912"
+     ],
+     "showTooltip": true
+    }
+   },
+   "explanations": {
+    "9": {
+     "champ": {
+      "cause": "roster_availability",
+      "text": "CeeDee Lamb\u2019s forecast moved from 22.4636 to 22.4636 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.0169,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "2": {
+     "champ": {
+      "cause": "roster_move",
+      "text": "Bucky Irving\u2019s forecast moved from 17.167 to 17.4649 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.0649,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "roster_move",
+      "text": "Bucky Irving\u2019s forecast moved from 17.167 to 17.4649 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.1972,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "roster_move",
+      "text": "Bucky Irving\u2019s forecast moved from 17.167 to 17.4649 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.78,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "13": {
+     "champ": {
+      "cause": "external_opportunity",
+      "text": "Derrick Henry\u2019s forecast moved from 14.5396 to 14.543 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.0088,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "external_opportunity",
+      "text": "Derrick Henry\u2019s forecast moved from 14.5396 to 14.543 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.0143,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "3": {
+     "champ": {
+      "cause": "external_opportunity",
+      "text": "Ashton Jeanty\u2019s forecast moved from 13.7583 to 13.7583 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.0104,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "external_opportunity",
+      "text": "Ashton Jeanty\u2019s forecast moved from 13.7583 to 13.7583 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.0221,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "external_opportunity",
+      "text": "Ashton Jeanty\u2019s forecast moved from 13.7583 to 13.7583 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.16,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "1": {
+     "champ": {
+      "cause": "roster_move",
+      "text": "Javonte Williams\u2019s forecast moved from 19.5386 to 19.5386 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.0266,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "roster_move",
+      "text": "Javonte Williams\u2019s forecast moved from 19.5386 to 19.5386 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.1805,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "roster_move",
+      "text": "Javonte Williams\u2019s forecast moved from 19.5386 to 19.5386 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.56,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "11": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.0126,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    }
+   }
   }
  ]
 }
