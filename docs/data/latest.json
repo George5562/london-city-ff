@@ -14,8 +14,8 @@
    "strength": 138.6,
    "projWins": 11.58,
    "playoff": 0.9982,
-   "final": 0.687,
-   "champ": 0.4542,
+   "final": 0.6871,
+   "champ": 0.4544,
    "topSeed": 0.8947,
    "lineup": [
     {
@@ -76,8 +76,8 @@
    "projPerGame": 128.5,
    "strength": 124.8,
    "projWins": 8.94,
-   "playoff": 0.6935,
-   "final": 0.3413,
+   "playoff": 0.6934,
+   "final": 0.3414,
    "champ": 0.159,
    "topSeed": 0.0138,
    "lineup": [
@@ -139,9 +139,9 @@
    "projPerGame": 118.6,
    "strength": 120.4,
    "projWins": 9.42,
-   "playoff": 0.7831,
-   "final": 0.356,
-   "champ": 0.1444,
+   "playoff": 0.7829,
+   "final": 0.3557,
+   "champ": 0.1442,
    "topSeed": 0.0255,
    "lineup": [
     {
@@ -199,12 +199,12 @@
    "wins": 7,
    "losses": 3,
    "pf": 1270.9,
-   "projPerGame": 109.2,
+   "projPerGame": 109.1,
    "strength": 119.1,
    "projWins": 9.22,
-   "playoff": 0.727,
-   "final": 0.3043,
-   "champ": 0.123,
+   "playoff": 0.7275,
+   "final": 0.3041,
+   "champ": 0.1227,
    "topSeed": 0.0118,
    "lineup": [
     {
@@ -266,8 +266,8 @@
    "strength": 116.0,
    "projWins": 9.64,
    "playoff": 0.7368,
-   "final": 0.2841,
-   "champ": 0.1062,
+   "final": 0.2844,
+   "champ": 0.1065,
    "topSeed": 0.0541,
    "lineup": [
     {
@@ -391,7 +391,7 @@
    "projPerGame": 129.3,
    "strength": 120.6,
    "projWins": 6.38,
-   "playoff": 0.0323,
+   "playoff": 0.0322,
    "final": 0.0138,
    "champ": 0.0063,
    "topSeed": 0.0,
@@ -680,5 +680,5 @@
    "awayProj": 95.8
   }
  ],
- "generated": "2026-11-20T06:59+00:00"
+ "generated": "2026-11-20T16:01+00:00"
 }

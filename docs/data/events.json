@@ -14730,5 +14730,22 @@
     "after": 0.0854
    }
   ]
+ },
+ {
+  "id": "injury-4723820-2026-11-20T16:00:00Z",
+  "kind": "I",
+  "at": "2026-11-20T16:00:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Sabre Raiders: Omar Cooper Jr. is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.123,
+    "after": 0.1227
+   }
+  ]
  }
 ]
