@@ -13,10 +13,10 @@
    "projPerGame": 126.4,
    "strength": 138.3,
    "projWins": 11.65,
-   "playoff": 0.9992,
-   "final": 0.6882,
-   "champ": 0.4492,
-   "topSeed": 0.8826,
+   "playoff": 0.9996,
+   "final": 0.6865,
+   "champ": 0.447,
+   "topSeed": 0.8872,
    "lineup": [
     {
      "name": "C.J. Stroud",
@@ -76,10 +76,10 @@
    "projPerGame": 116.9,
    "strength": 122.6,
    "projWins": 10.02,
-   "playoff": 0.9224,
+   "playoff": 0.9255,
    "final": 0.4385,
-   "champ": 0.1801,
-   "topSeed": 0.0688,
+   "champ": 0.1794,
+   "topSeed": 0.0697,
    "lineup": [
     {
      "name": "Jaxon Smith-Njigba",
@@ -136,13 +136,13 @@
    "wins": 6,
    "losses": 4,
    "pf": 1218.56,
-   "projPerGame": 128.2,
+   "projPerGame": 128.3,
    "strength": 124.7,
    "projWins": 8.96,
-   "playoff": 0.7163,
-   "final": 0.3337,
-   "champ": 0.1537,
-   "topSeed": 0.0086,
+   "playoff": 0.7204,
+   "final": 0.3397,
+   "champ": 0.1552,
+   "topSeed": 0.0088,
    "lineup": [
     {
      "name": "Joe Burrow",
@@ -201,11 +201,11 @@
    "pf": 1217.46,
    "projPerGame": 118.7,
    "strength": 120.4,
-   "projWins": 9.24,
-   "playoff": 0.7523,
-   "final": 0.3101,
-   "champ": 0.1276,
-   "topSeed": 0.0143,
+   "projWins": 8.75,
+   "playoff": 0.6251,
+   "final": 0.2587,
+   "champ": 0.1089,
+   "topSeed": 0.0077,
    "lineup": [
     {
      "name": "Jahmyr Gibbs",
@@ -265,10 +265,10 @@
    "projPerGame": 118.2,
    "strength": 115.9,
    "projWins": 9.07,
-   "playoff": 0.5565,
-   "final": 0.2066,
-   "champ": 0.0779,
-   "topSeed": 0.0257,
+   "playoff": 0.5908,
+   "final": 0.2185,
+   "champ": 0.0817,
+   "topSeed": 0.0266,
    "lineup": [
     {
      "name": "Brock Purdy",
@@ -325,12 +325,12 @@
    "wins": 4,
    "losses": 6,
    "pf": 1214.02,
-   "projPerGame": 122.5,
-   "strength": 121.9,
-   "projWins": 6.17,
-   "playoff": 0.0327,
-   "final": 0.0138,
-   "champ": 0.0069,
+   "projPerGame": 122.4,
+   "strength": 121.8,
+   "projWins": 6.66,
+   "playoff": 0.1148,
+   "final": 0.0481,
+   "champ": 0.0225,
    "topSeed": 0.0,
    "lineup": [
     {
@@ -391,9 +391,9 @@
    "projPerGame": 129.2,
    "strength": 120.6,
    "projWins": 6.29,
-   "playoff": 0.0202,
-   "final": 0.0089,
-   "champ": 0.0046,
+   "playoff": 0.0234,
+   "final": 0.01,
+   "champ": 0.0053,
    "topSeed": 0.0,
    "lineup": [
     {
@@ -455,7 +455,7 @@
    "strength": 121.6,
    "projWins": 4.95,
    "playoff": 0.0001,
-   "final": 0.0001,
+   "final": 0.0,
    "champ": 0.0,
    "topSeed": 0.0,
    "lineup": [
@@ -517,7 +517,7 @@
    "projPerGame": 108.4,
    "strength": 108.0,
    "projWins": 4.43,
-   "playoff": 0.0002,
+   "playoff": 0.0003,
    "final": 0.0001,
    "champ": 0.0,
    "topSeed": 0.0,
@@ -550,7 +550,7 @@
     {
      "name": "KC Concepcion",
      "pos": "WR",
-     "pts": 9.3
+     "pts": 9.4
     },
     {
      "name": "Trey Smack",
@@ -579,7 +579,7 @@
    "pf": 960.4,
    "projPerGame": 96.4,
    "strength": 96.2,
-   "projWins": 4.22,
+   "projWins": 4.21,
    "playoff": 0.0,
    "final": 0.0,
    "champ": 0.0,
@@ -655,10 +655,10 @@
   {
    "home": 4,
    "away": 3,
-   "homeWin": 0.0919,
+   "homeWin": 0.5809,
    "homePts": 15.0,
    "awayPts": 6.0,
-   "homeProj": 72.7,
+   "homeProj": 121.3,
    "awayProj": 114.7
   },
   {
@@ -680,5 +680,5 @@
    "awayProj": 96.2
   }
  ],
- "generated": "2026-11-21T11:40+00:00"
+ "generated": "2026-11-21T19:05+00:00"
 }
