@@ -14,8 +14,8 @@
    "strength": 138.3,
    "projWins": 11.65,
    "playoff": 0.9996,
-   "final": 0.6865,
-   "champ": 0.447,
+   "final": 0.6868,
+   "champ": 0.4474,
    "topSeed": 0.8872,
    "lineup": [
     {
@@ -76,10 +76,10 @@
    "projPerGame": 116.9,
    "strength": 122.6,
    "projWins": 10.02,
-   "playoff": 0.9255,
-   "final": 0.4385,
-   "champ": 0.1794,
-   "topSeed": 0.0697,
+   "playoff": 0.9251,
+   "final": 0.4379,
+   "champ": 0.179,
+   "topSeed": 0.0694,
    "lineup": [
     {
      "name": "Jaxon Smith-Njigba",
@@ -139,9 +139,9 @@
    "projPerGame": 128.3,
    "strength": 124.7,
    "projWins": 8.96,
-   "playoff": 0.7204,
-   "final": 0.3397,
-   "champ": 0.1552,
+   "playoff": 0.7187,
+   "final": 0.3384,
+   "champ": 0.1545,
    "topSeed": 0.0088,
    "lineup": [
     {
@@ -199,13 +199,13 @@
    "wins": 6,
    "losses": 4,
    "pf": 1217.46,
-   "projPerGame": 118.7,
-   "strength": 120.4,
-   "projWins": 8.75,
-   "playoff": 0.6251,
-   "final": 0.2587,
-   "champ": 0.1089,
-   "topSeed": 0.0077,
+   "projPerGame": 118.5,
+   "strength": 120.3,
+   "projWins": 8.78,
+   "playoff": 0.6332,
+   "final": 0.2629,
+   "champ": 0.1101,
+   "topSeed": 0.0081,
    "lineup": [
     {
      "name": "Jahmyr Gibbs",
@@ -265,10 +265,10 @@
    "projPerGame": 118.2,
    "strength": 115.9,
    "projWins": 9.07,
-   "playoff": 0.5908,
-   "final": 0.2185,
+   "playoff": 0.5884,
+   "final": 0.2172,
    "champ": 0.0817,
-   "topSeed": 0.0266,
+   "topSeed": 0.0265,
    "lineup": [
     {
      "name": "Brock Purdy",
@@ -278,7 +278,7 @@
     {
      "name": "Parker Washington",
      "pos": "WR",
-     "pts": 19.1
+     "pts": 19.2
     },
     {
      "name": "Chase Brown",
@@ -327,10 +327,10 @@
    "pf": 1214.02,
    "projPerGame": 122.4,
    "strength": 121.8,
-   "projWins": 6.66,
-   "playoff": 0.1148,
-   "final": 0.0481,
-   "champ": 0.0225,
+   "projWins": 6.64,
+   "playoff": 0.1115,
+   "final": 0.0469,
+   "champ": 0.0221,
    "topSeed": 0.0,
    "lineup": [
     {
@@ -391,9 +391,9 @@
    "projPerGame": 129.2,
    "strength": 120.6,
    "projWins": 6.29,
-   "playoff": 0.0234,
-   "final": 0.01,
-   "champ": 0.0053,
+   "playoff": 0.0232,
+   "final": 0.0098,
+   "champ": 0.0052,
    "topSeed": 0.0,
    "lineup": [
     {
@@ -516,7 +516,7 @@
    "pf": 1076.56,
    "projPerGame": 108.4,
    "strength": 108.0,
-   "projWins": 4.43,
+   "projWins": 4.42,
    "playoff": 0.0003,
    "final": 0.0001,
    "champ": 0.0,
@@ -655,11 +655,11 @@
   {
    "home": 4,
    "away": 3,
-   "homeWin": 0.5809,
+   "homeWin": 0.5609,
    "homePts": 15.0,
    "awayPts": 6.0,
    "homeProj": 121.3,
-   "awayProj": 114.7
+   "awayProj": 116.5
   },
   {
    "home": 13,
@@ -680,5 +680,5 @@
    "awayProj": 96.2
   }
  ],
- "generated": "2026-11-21T19:05+00:00"
+ "generated": "2026-11-21T23:45+00:00"
 }

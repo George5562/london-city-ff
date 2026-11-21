@@ -15031,5 +15031,45 @@
     "after": 0.1876
    }
   ]
+ },
+ {
+  "id": "injury-4430737-2026-11-21T23:30:00Z",
+  "kind": "I",
+  "at": "2026-11-21T23:30:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Kyren Williams is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0225,
+    "after": 0.0221
+   }
+  ]
+ },
+ {
+  "id": "trade-f9ac00fb-6390-4feb-9b14-9fc1e6ecd71d",
+  "kind": "T",
+  "at": "2026-11-21T23:30:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Dropped DeMario Douglas.",
+  "moves": [
+   {
+    "player": "DeMario Douglas",
+    "position": "WR",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.1089,
+    "after": 0.1101
+   }
+  ]
  }
 ]
