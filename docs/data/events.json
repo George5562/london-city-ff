@@ -15071,5 +15071,90 @@
     "after": 0.1101
    }
   ]
+ },
+ {
+  "id": "injury-4432665-2026-11-22T20:30:00Z",
+  "kind": "I",
+  "at": "2026-11-22T20:30:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Sabre Raiders: Brock Bowers is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.1797,
+    "after": 0.1267
+   }
+  ]
+ },
+ {
+  "id": "injury-4871023-2026-11-22T20:30:00Z",
+  "kind": "I",
+  "at": "2026-11-22T20:30:00Z",
+  "teams": [
+   1
+  ],
+  "text": "Knights who say Ni: Carnell Tate is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.083,
+    "after": 0.0898
+   }
+  ]
+ },
+ {
+  "id": "injury-4612826-2026-11-22T20:30:00Z",
+  "kind": "I",
+  "at": "2026-11-22T20:30:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Goats: Ladd McConkey is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.1121,
+    "after": 0.0853
+   }
+  ]
+ },
+ {
+  "id": "injury-4385690-2026-11-22T20:30:00Z",
+  "kind": "I",
+  "at": "2026-11-22T20:30:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: Dalton Kincaid is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.006,
+    "after": 0.0011
+   }
+  ]
+ },
+ {
+  "id": "injury-3929645-2026-11-22T20:30:00Z",
+  "kind": "I",
+  "at": "2026-11-22T20:30:00Z",
+  "teams": [
+   13
+  ],
+  "text": "Salisbury Screamers: Juwan Johnson is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 13,
+    "before": 0.1587,
+    "after": 0.1722
+   }
+  ]
  }
 ]

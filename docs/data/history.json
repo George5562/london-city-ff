@@ -64864,6 +64864,311 @@
      }
     }
    }
+  },
+  {
+   "date": "2026-11-22",
+   "label": "Week 11 \u00b7 20:30 UTC",
+   "week": 11,
+   "backfilled": false,
+   "teams": {
+    "9": {
+     "champ": 0.5087,
+     "playoff": 0.9999,
+     "projWins": 11.98
+    },
+    "13": {
+     "champ": 0.1722,
+     "playoff": 0.7967,
+     "projWins": 9.3
+    },
+    "2": {
+     "champ": 0.1267,
+     "playoff": 0.8337,
+     "projWins": 9.45
+    },
+    "1": {
+     "champ": 0.0898,
+     "playoff": 0.7235,
+     "projWins": 9.55
+    },
+    "3": {
+     "champ": 0.0853,
+     "playoff": 0.5523,
+     "projWins": 8.69
+    },
+    "4": {
+     "champ": 0.0162,
+     "playoff": 0.0858,
+     "projWins": 6.69
+    },
+    "11": {
+     "champ": 0.0011,
+     "playoff": 0.0082,
+     "projWins": 6.18
+    },
+    "5": {
+     "champ": 0.0,
+     "playoff": 0.0,
+     "projWins": 4.94
+    },
+    "6": {
+     "champ": 0.0,
+     "playoff": 0.0,
+     "projWins": 4.33
+    },
+    "12": {
+     "champ": 0.0,
+     "playoff": 0.0,
+     "projWins": 3.88
+    }
+   },
+   "at": "2026-11-22T20:30:00Z",
+   "changes": {
+    "13": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.0135,
+     "text": "Derrick Henry\u2019s forecast moved from 14.543 to 14.5429 fantasy points, lowering their expected scoring contribution.",
+     "facts": [
+      "projection: Derrick Henry 14.54298026 -> 14.54286586",
+      "actual: Derrick Henry None -> 19.1",
+      "projection: Joe Burrow 22.85930232 -> 22.85944679",
+      "projection: Malik Nabers 16.18892938 -> 16.18819488",
+      "projection: Zay Flowers 14.12215648 -> 14.12169092",
+      "actual: Zay Flowers None -> 16.4",
+      "projection: Chuba Hubbard 19.9925388 -> 20.70381143",
+      "actual: Chuba Hubbard None -> 25.4"
+     ],
+     "showTooltip": true
+    },
+    "2": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.053,
+     "text": "Brock Bowers\u2019s forecast moved from 15.3428 to 0 fantasy points, lowering their expected scoring contribution.",
+     "facts": [
+      "injury: Brock Bowers QUESTIONABLE -> OUT",
+      "projection: Brock Bowers 15.34282749 -> 0.0",
+      "projection: Bucky Irving 17.46487255 -> 17.46368592",
+      "actual: Bucky Irving None -> 17.3",
+      "projection: Garrett Wilson 14.09374569 -> 14.10273673",
+      "projection: Luther Burden III 15.08625233 -> 15.08415671",
+      "actual: Luther Burden III None -> 3.3",
+      "projection: Caleb Williams 18.95114882 -> 18.95712972"
+     ],
+     "showTooltip": true
+    },
+    "1": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.0068,
+     "text": "Javonte Williams\u2019s forecast moved from 19.5386 to 19.4944 fantasy points, lowering their expected scoring contribution.",
+     "facts": [
+      "projection: Javonte Williams 19.53859261 -> 19.49436331",
+      "actual: Javonte Williams None -> 24.1",
+      "projection: Brock Purdy 17.5780862 -> 17.57808886",
+      "projection: Chase Brown 15.6037988 -> 15.58431073",
+      "projection: Parker Washington 15.29145858 -> 15.29536796",
+      "actual: Sam LaPorta None -> 9.2",
+      "projection: Trevor Lawrence 19.49295703 -> 19.49179124",
+      "projection: Jameson Williams 11.16383576 -> 11.16383498"
+     ],
+     "showTooltip": true
+    },
+    "3": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0268,
+     "text": "Jahmyr Gibbs\u2019s forecast moved from 21.9439 to 21.9439 fantasy points, lowering their expected scoring contribution.",
+     "facts": [
+      "projection: Jahmyr Gibbs 21.94388195 -> 21.94388118",
+      "actual: Jahmyr Gibbs None -> 27.8",
+      "injury: Brock Bowers QUESTIONABLE -> OUT",
+      "projection: Ashton Jeanty 13.75834202 -> 14.10675244",
+      "projection: Tetairoa McMillan 13.86118996 -> 13.8644404",
+      "actual: Tetairoa McMillan None -> 16.8",
+      "projection: Steelers D/ST 8.30458596 -> 8.31755466",
+      "actual: Steelers D/ST None -> 7.0"
+     ],
+     "showTooltip": true
+    }
+   },
+   "explanations": {
+    "9": {
+     "champ": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0715,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.4,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "13": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Derrick Henry\u2019s forecast moved from 14.543 to 14.5429 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.0135,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Derrick Henry\u2019s forecast moved from 14.543 to 14.5429 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.0789,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Derrick Henry\u2019s forecast moved from 14.543 to 14.5429 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.33,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "2": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Brock Bowers\u2019s forecast moved from 15.3428 to 0 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.053,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Brock Bowers\u2019s forecast moved from 15.3428 to 0 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.0899,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Brock Bowers\u2019s forecast moved from 15.3428 to 0 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.56,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "1": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Javonte Williams\u2019s forecast moved from 19.5386 to 19.4944 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.0068,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Javonte Williams\u2019s forecast moved from 19.5386 to 19.4944 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.1361,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Javonte Williams\u2019s forecast moved from 19.5386 to 19.4944 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.48,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "3": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Jahmyr Gibbs\u2019s forecast moved from 21.9439 to 21.9439 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.0268,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Jahmyr Gibbs\u2019s forecast moved from 21.9439 to 21.9439 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.0785,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "4": {
+     "champ": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.007,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.0263,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "11": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.0203,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.17,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "6": {
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.1,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "12": {
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.35,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    }
+   }
   }
  ]
 }
