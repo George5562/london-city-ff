@@ -65169,6 +65169,295 @@
      }
     }
    }
+  },
+  {
+   "date": "2026-11-23",
+   "label": "Week 11 \u00b7 01:30 UTC",
+   "week": 11,
+   "backfilled": false,
+   "teams": {
+    "9": {
+     "champ": 0.4878,
+     "playoff": 0.9999,
+     "projWins": 12.04
+    },
+    "13": {
+     "champ": 0.1673,
+     "playoff": 0.7866,
+     "projWins": 9.39
+    },
+    "2": {
+     "champ": 0.1578,
+     "playoff": 0.8668,
+     "projWins": 9.61
+    },
+    "3": {
+     "champ": 0.1108,
+     "playoff": 0.6935,
+     "projWins": 9.28
+    },
+    "1": {
+     "champ": 0.0742,
+     "playoff": 0.6405,
+     "projWins": 9.56
+    },
+    "4": {
+     "champ": 0.0015,
+     "playoff": 0.0089,
+     "projWins": 5.99
+    },
+    "11": {
+     "champ": 0.0006,
+     "playoff": 0.0033,
+     "projWins": 6.16
+    },
+    "6": {
+     "champ": 0.0001,
+     "playoff": 0.0006,
+     "projWins": 5.26
+    },
+    "5": {
+     "champ": 0.0,
+     "playoff": 0.0,
+     "projWins": 3.83
+    },
+    "12": {
+     "champ": 0.0,
+     "playoff": 0.0,
+     "projWins": 3.87
+    }
+   },
+   "at": "2026-11-23T01:30:00Z",
+   "changes": {
+    "9": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "model",
+     "delta": -0.0209,
+     "text": "Chris Olave rose to 19.2 fantasy points, while Jaguars D/ST and Jakobi Meyers posted new scores. These updates affect team totals; their direct link to the matchup outlook is unclear.",
+     "facts": [
+      "actual: Chris Olave 17.8 -> 19.2",
+      "actual: Jaguars D/ST None -> 5.0",
+      "actual: Jakobi Meyers None -> 12.5",
+      "actual: Ravens D/ST 12.0 -> 9.0",
+      "actual: Jordan Mason None -> 0.0",
+      "actual: Jaxson Dart None -> 0.0",
+      "actual: Ryan Fitzgerald 6.0 -> 9.0",
+      "injury: Roschon Johnson OUT -> QUESTIONABLE"
+     ],
+     "showTooltip": true
+    },
+    "2": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.0311,
+     "text": "Brock Bowers now has 0 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "actual: Brock Bowers None -> 0.0",
+      "actual: Bucky Irving 17.3 -> 19.0",
+      "actual: Garrett Wilson None -> 6.9",
+      "actual: Caleb Williams 14.54 -> 14.34",
+      "actual: Jonah Coleman None -> 34.9",
+      "actual: Vikings D/ST None -> 8.0",
+      "injury: Jalen Coker ACTIVE -> QUESTIONABLE",
+      "actual: Bryce Young 14.68 -> 15.96"
+     ],
+     "showTooltip": true
+    },
+    "3": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.0255,
+     "text": "Ashton Jeanty now has 27.9 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "actual: Ashton Jeanty None -> 27.9",
+      "actual: Tetairoa McMillan 16.8 -> 19.1",
+      "injury: Saquon Barkley ACTIVE -> QUESTIONABLE",
+      "actual: DeVonta Smith 7.4 -> 9.1",
+      "actual: Aaron Jones Sr. None -> 0.0",
+      "actual: Bo Nix None -> 11.5",
+      "actual: Ladd McConkey None -> 20.7",
+      "injury: Jalen Coker ACTIVE -> QUESTIONABLE"
+     ],
+     "showTooltip": true
+    },
+    "1": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0156,
+     "text": "Christian McCaffrey now has 1 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "actual: Christian McCaffrey None -> 1.0",
+      "actual: Brock Purdy None -> 6.2",
+      "actual: Parker Washington None -> 18.3",
+      "actual: Trevor Lawrence None -> 12.74",
+      "injury: Mike Evans QUESTIONABLE -> ACTIVE",
+      "actual: J.K. Dobbins None -> 0.0",
+      "actual: RJ Harvey None -> 0.0",
+      "actual: Eddy Pineiro None -> 1.0"
+     ],
+     "showTooltip": true
+    },
+    "4": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "model",
+     "delta": -0.0147,
+     "text": "George Kittle scored 8.7 fantasy points, while Saquon Barkley is now questionable and Demarcus Robinson is out. These updates shape lineup decisions and the playoff outlook, though their link to the matchup movement is unclear.",
+     "facts": [
+      "actual: George Kittle None -> 8.7",
+      "injury: Saquon Barkley ACTIVE -> QUESTIONABLE",
+      "injury: Mike Evans QUESTIONABLE -> ACTIVE",
+      "actual: Mike Evans None -> 2.4",
+      "actual: Will Reichard None -> 0.0",
+      "actual: Keenan Allen None -> 0.0",
+      "actual: Panthers D/ST 1.0 -> 4.0",
+      "injury: Demarcus Robinson ACTIVE -> OUT"
+     ],
+     "showTooltip": true
+    }
+   },
+   "explanations": {
+    "9": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Chris Olave rose to 19.2 fantasy points, while Jaguars D/ST and Jakobi Meyers posted new scores. These updates affect team totals; their direct link to the matchup outlook is unclear.",
+      "confidence": "recorded explanation",
+      "delta": -0.0209,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "13": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.0101,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "2": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Brock Bowers now has 0 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.0311,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Brock Bowers now has 0 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.0331,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Brock Bowers now has 0 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.16,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "3": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Ashton Jeanty now has 27.9 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.0255,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Ashton Jeanty now has 27.9 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.1412,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Ashton Jeanty now has 27.9 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.59,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "1": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Christian McCaffrey now has 1 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.0156,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Christian McCaffrey now has 1 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.083,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "4": {
+     "champ": {
+      "cause": "score_update",
+      "text": "George Kittle scored 8.7 fantasy points, while Saquon Barkley is now questionable and Demarcus Robinson is out. These updates shape lineup decisions and the playoff outlook, though their link to the matchup movement is unclear.",
+      "confidence": "recorded explanation",
+      "delta": -0.0147,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "George Kittle scored 8.7 fantasy points, while Saquon Barkley is now questionable and Demarcus Robinson is out. These updates shape lineup decisions and the playoff outlook, though their link to the matchup movement is unclear.",
+      "confidence": "recorded explanation",
+      "delta": -0.0769,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "George Kittle scored 8.7 fantasy points, while Saquon Barkley is now questionable and Demarcus Robinson is out. These updates shape lineup decisions and the playoff outlook, though their link to the matchup movement is unclear.",
+      "confidence": "recorded explanation",
+      "delta": -0.7,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "6": {
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.93,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "5": {
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -1.11,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    }
+   }
   }
  ]
 }

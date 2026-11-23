@@ -15156,5 +15156,56 @@
     "after": 0.1722
    }
   ]
+ },
+ {
+  "id": "injury-3929630-2026-11-23T01:30:00Z",
+  "kind": "I",
+  "at": "2026-11-23T01:30:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Saquon Barkley is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0162,
+    "after": 0.0015
+   }
+  ]
+ },
+ {
+  "id": "injury-16737-2026-11-23T01:30:00Z",
+  "kind": "I",
+  "at": "2026-11-23T01:30:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Mike Evans is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0162,
+    "after": 0.0015
+   }
+  ]
+ },
+ {
+  "id": "injury-4695883-2026-11-23T01:30:00Z",
+  "kind": "I",
+  "at": "2026-11-23T01:30:00Z",
+  "teams": [
+   6
+  ],
+  "text": "The Le Chable Dolphins: Jalen Coker is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.0,
+    "after": 0.0001
+   }
+  ]
  }
 ]
