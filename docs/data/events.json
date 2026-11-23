@@ -15207,5 +15207,84 @@
     "after": 0.0001
    }
   ]
+ },
+ {
+  "id": "injury-4430737-2026-11-23T21:30:00Z",
+  "kind": "I",
+  "at": "2026-11-23T21:30:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Kyren Williams is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0098,
+    "after": 0.0102
+   }
+  ]
+ },
+ {
+  "id": "injury-4882093-2026-11-23T21:30:00Z",
+  "kind": "I",
+  "at": "2026-11-23T21:30:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Love hurts: Bhayshul Tuten is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0,
+    "after": 0.0
+   }
+  ]
+ },
+ {
+  "id": "injury-4695883-2026-11-23T21:30:00Z",
+  "kind": "I",
+  "at": "2026-11-23T21:30:00Z",
+  "teams": [
+   6
+  ],
+  "text": "The Le Chable Dolphins: Jalen Coker is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.0,
+    "after": 0.0001
+   }
+  ]
+ },
+ {
+  "id": "trade-da82c1a9-4594-4407-9e95-f3a296afec37",
+  "kind": "T",
+  "at": "2026-11-23T21:30:00Z",
+  "teams": [
+   6
+  ],
+  "text": "Added Evan McPherson; dropped KC Concepcion.",
+  "moves": [
+   {
+    "player": "Evan McPherson",
+    "position": "K",
+    "action": "add"
+   },
+   {
+    "player": "KC Concepcion",
+    "position": "WR",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.0,
+    "after": 0.0001
+   }
+  ]
  }
 ]
