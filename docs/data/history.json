@@ -65458,6 +65458,229 @@
      }
     }
    }
+  },
+  {
+   "date": "2026-11-23",
+   "label": "Week 11 \u00b7 09:30 UTC",
+   "week": 11,
+   "backfilled": false,
+   "teams": {
+    "9": {
+     "champ": 0.4823,
+     "playoff": 0.9999,
+     "projWins": 11.97
+    },
+    "13": {
+     "champ": 0.1677,
+     "playoff": 0.783,
+     "projWins": 9.34
+    },
+    "2": {
+     "champ": 0.1532,
+     "playoff": 0.8528,
+     "projWins": 9.54
+    },
+    "3": {
+     "champ": 0.0997,
+     "playoff": 0.6028,
+     "projWins": 8.92
+    },
+    "1": {
+     "champ": 0.0867,
+     "playoff": 0.7042,
+     "projWins": 9.63
+    },
+    "4": {
+     "champ": 0.0098,
+     "playoff": 0.053,
+     "projWins": 6.47
+    },
+    "11": {
+     "champ": 0.0006,
+     "playoff": 0.004,
+     "projWins": 6.1
+    },
+    "5": {
+     "champ": 0.0,
+     "playoff": 0.0,
+     "projWins": 4.38
+    },
+    "6": {
+     "champ": 0.0,
+     "playoff": 0.0004,
+     "projWins": 4.75
+    },
+    "12": {
+     "champ": 0.0,
+     "playoff": 0.0,
+     "projWins": 3.89
+    }
+   },
+   "at": "2026-11-23T09:30:00Z",
+   "changes": {
+    "9": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0055,
+     "text": "Jordan Mason now has 4.7 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "actual: Jordan Mason 0.0 -> 4.7"
+     ],
+     "showTooltip": true
+    },
+    "3": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0111,
+     "text": "Will Reichard now has 3 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "actual: Will Reichard 0.0 -> 3.0",
+      "actual: Aaron Jones Sr. 0.0 -> 11.3"
+     ],
+     "showTooltip": true
+    },
+    "1": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.0125,
+     "text": "Christian McCaffrey now has 14.2 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "actual: Christian McCaffrey 1.0 -> 14.2",
+      "actual: Brock Purdy 6.2 -> 22.2",
+      "actual: Eddy Pineiro 1.0 -> 5.0"
+     ],
+     "showTooltip": true
+    },
+    "4": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.0083,
+     "text": "George Kittle now has 18.4 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "actual: George Kittle 8.7 -> 18.4",
+      "actual: Mike Evans 2.4 -> 22.9",
+      "actual: Will Reichard 0.0 -> 3.0",
+      "actual: Keenan Allen 0.0 -> 6.8"
+     ],
+     "showTooltip": true
+    }
+   },
+   "explanations": {
+    "9": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Jordan Mason now has 4.7 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.0055,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "2": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.014,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "3": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Will Reichard now has 3 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.0111,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Will Reichard now has 3 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.0907,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Will Reichard now has 3 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.36,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "1": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Christian McCaffrey now has 14.2 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.0125,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Christian McCaffrey now has 14.2 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.0637,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "4": {
+     "champ": {
+      "cause": "score_update",
+      "text": "George Kittle now has 18.4 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.0083,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "George Kittle now has 18.4 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.0441,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "George Kittle now has 18.4 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.48,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "5": {
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.55,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "6": {
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.51,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    }
+   }
   }
  ]
 }
