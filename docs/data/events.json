@@ -15337,5 +15337,124 @@
     "after": 0.0005
    }
   ]
+ },
+ {
+  "id": "injury-4567048-2026-11-24T17:00:00Z",
+  "kind": "I",
+  "at": "2026-11-24T17:00:00Z",
+  "teams": [
+   9
+  ],
+  "text": "GiantPunt: Kenneth Walker III is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.4704,
+    "after": 0.535
+   }
+  ]
+ },
+ {
+  "id": "injury-4432665-2026-11-24T17:00:00Z",
+  "kind": "I",
+  "at": "2026-11-24T17:00:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Sabre Raiders: Brock Bowers is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.15,
+    "after": 0.1276
+   }
+  ]
+ },
+ {
+  "id": "injury-4047365-2026-11-24T17:00:00Z",
+  "kind": "I",
+  "at": "2026-11-24T17:00:00Z",
+  "teams": [
+   9
+  ],
+  "text": "GiantPunt: Josh Jacobs is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.4704,
+    "after": 0.535
+   }
+  ]
+ },
+ {
+  "id": "injury-4385690-2026-11-24T17:00:00Z",
+  "kind": "I",
+  "at": "2026-11-24T17:00:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: Dalton Kincaid is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0005,
+    "after": 0.0003
+   }
+  ]
+ },
+ {
+  "id": "injury-4429059-2026-11-24T17:00:00Z",
+  "kind": "I",
+  "at": "2026-11-24T17:00:00Z",
+  "teams": [
+   13
+  ],
+  "text": "Salisbury Screamers: Woody Marks is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 13,
+    "before": 0.1735,
+    "after": 0.1385
+   }
+  ]
+ },
+ {
+  "id": "injury-4429205-2026-11-24T17:00:00Z",
+  "kind": "I",
+  "at": "2026-11-24T17:00:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Love hurts: Jordan Addison is now listed as doubtful.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0,
+    "after": 0.0
+   }
+  ]
+ },
+ {
+  "id": "injury-4723820-2026-11-24T17:00:00Z",
+  "kind": "I",
+  "at": "2026-11-24T17:00:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Sabre Raiders: Omar Cooper Jr. is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.15,
+    "after": 0.1276
+   }
+  ]
  }
 ]
