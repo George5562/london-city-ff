@@ -15286,5 +15286,56 @@
     "after": 0.0001
    }
   ]
+ },
+ {
+  "id": "injury-4430027-2026-11-24T05:30:00Z",
+  "kind": "I",
+  "at": "2026-11-24T05:30:00Z",
+  "teams": [
+   1
+  ],
+  "text": "Knights who say Ni: Sam LaPorta is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.0878,
+    "after": 0.0804
+   }
+  ]
+ },
+ {
+  "id": "injury-3121023-2026-11-24T05:30:00Z",
+  "kind": "I",
+  "at": "2026-11-24T05:30:00Z",
+  "teams": [
+   6
+  ],
+  "text": "The Le Chable Dolphins: Dallas Goedert is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.0001,
+    "after": 0.0
+   }
+  ]
+ },
+ {
+  "id": "injury-4697815-2026-11-24T05:30:00Z",
+  "kind": "I",
+  "at": "2026-11-24T05:30:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: Rachaad White is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0006,
+    "after": 0.0005
+   }
+  ]
  }
 ]
