@@ -15541,5 +15541,157 @@
     "after": 0.0672
    }
   ]
+ },
+ {
+  "id": "injury-4567048-2026-11-25T20:00:00Z",
+  "kind": "I",
+  "at": "2026-11-25T20:00:00Z",
+  "teams": [
+   9
+  ],
+  "text": "GiantPunt: Kenneth Walker III is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 9,
+    "before": 0.5326,
+    "after": 0.5349
+   }
+  ]
+ },
+ {
+  "id": "injury-3043078-2026-11-25T20:00:00Z",
+  "kind": "I",
+  "at": "2026-11-25T20:00:00Z",
+  "teams": [
+   13
+  ],
+  "text": "Salisbury Screamers: Derrick Henry is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 13,
+    "before": 0.1446,
+    "after": 0.1441
+   }
+  ]
+ },
+ {
+  "id": "injury-4361741-2026-11-25T20:00:00Z",
+  "kind": "I",
+  "at": "2026-11-25T20:00:00Z",
+  "teams": [
+   1
+  ],
+  "text": "Knights who say Ni: Brock Purdy is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.0672,
+    "after": 0.0669
+   }
+  ]
+ },
+ {
+  "id": "injury-16737-2026-11-25T20:00:00Z",
+  "kind": "I",
+  "at": "2026-11-25T20:00:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Mike Evans is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0014,
+    "after": 0.0014
+   }
+  ]
+ },
+ {
+  "id": "trade-d2cf281a-f4c3-4473-9be9-c9773d2256df",
+  "kind": "T",
+  "at": "2026-11-25T20:00:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Added Commanders D/ST; dropped Lions D/ST.",
+  "moves": [
+   {
+    "player": "Commanders D/ST",
+    "position": "D/ST",
+    "action": "add"
+   },
+   {
+    "player": "Lions D/ST",
+    "position": "D/ST",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0,
+    "after": 0.0
+   }
+  ]
+ },
+ {
+  "id": "trade-d8626879-05d1-4405-92f9-83073327d301",
+  "kind": "T",
+  "at": "2026-11-25T20:00:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Added WR KC Concepcion; dropped WR Tank Dell.",
+  "moves": [
+   {
+    "player": "KC Concepcion",
+    "position": "WR",
+    "action": "add"
+   },
+   {
+    "player": "Tank Dell",
+    "position": "WR",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0,
+    "after": 0.0
+   }
+  ]
+ },
+ {
+  "id": "trade-3c12dc3f-01c9-42d4-b0f3-fb327c53a703",
+  "kind": "T",
+  "at": "2026-11-25T20:00:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Added WR Antonio Williams; dropped WR Mack Hollins.",
+  "moves": [
+   {
+    "player": "Antonio Williams",
+    "position": "WR",
+    "action": "add"
+   },
+   {
+    "player": "Mack Hollins",
+    "position": "WR",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0,
+    "after": 0.0
+   }
+  ]
  }
 ]

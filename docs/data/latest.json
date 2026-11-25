@@ -10,13 +10,13 @@
    "wins": 9,
    "losses": 2,
    "pf": 1636.18,
-   "projPerGame": 144.9,
-   "strength": 147.1,
-   "projWins": 12.15,
+   "projPerGame": 145.4,
+   "strength": 147.3,
+   "projWins": 12.16,
    "playoff": 1.0,
-   "final": 0.746,
-   "champ": 0.5326,
-   "topSeed": 0.9688,
+   "final": 0.7478,
+   "champ": 0.5349,
+   "topSeed": 0.9694,
    "lineup": [
     {
      "name": "CeeDee Lamb",
@@ -26,12 +26,12 @@
     {
      "name": "C.J. Stroud",
      "pos": "QB",
-     "pts": 19.4
+     "pts": 19.5
     },
     {
      "name": "Travis Kelce",
      "pos": "TE",
-     "pts": 17.5
+     "pts": 17.6
     },
     {
      "name": "Chris Olave",
@@ -41,7 +41,7 @@
     {
      "name": "Emmett Johnson",
      "pos": "RB",
-     "pts": 14.8
+     "pts": 15.6
     },
     {
      "name": "Tyler Bass",
@@ -73,13 +73,13 @@
    "wins": 7,
    "losses": 4,
    "pf": 1350.96,
-   "projPerGame": 130.9,
-   "strength": 126.2,
+   "projPerGame": 131.0,
+   "strength": 126.3,
    "projWins": 9.37,
-   "playoff": 0.7732,
-   "final": 0.3583,
-   "champ": 0.1446,
-   "topSeed": 0.0031,
+   "playoff": 0.7744,
+   "final": 0.359,
+   "champ": 0.1441,
+   "topSeed": 0.0032,
    "lineup": [
     {
      "name": "Chuba Hubbard",
@@ -136,18 +136,18 @@
    "wins": 7,
    "losses": 4,
    "pf": 1365.96,
-   "projPerGame": 120.9,
+   "projPerGame": 121.0,
    "strength": 122.8,
-   "projWins": 9.55,
-   "playoff": 0.8434,
-   "final": 0.3516,
-   "champ": 0.1277,
+   "projWins": 9.54,
+   "playoff": 0.8409,
+   "final": 0.3508,
+   "champ": 0.1271,
    "topSeed": 0.005,
    "lineup": [
     {
      "name": "Jonah Coleman",
      "pos": "RB",
-     "pts": 23.7
+     "pts": 23.8
     },
     {
      "name": "Bucky Irving",
@@ -200,12 +200,12 @@
    "losses": 4,
    "pf": 1336.86,
    "projPerGame": 130.1,
-   "strength": 125.1,
+   "strength": 125.2,
    "projWins": 9.43,
-   "playoff": 0.7482,
-   "final": 0.3298,
-   "champ": 0.1262,
-   "topSeed": 0.004,
+   "playoff": 0.749,
+   "final": 0.3291,
+   "champ": 0.1252,
+   "topSeed": 0.0037,
    "lineup": [
     {
      "name": "Jahmyr Gibbs",
@@ -215,7 +215,7 @@
     {
      "name": "Ashton Jeanty",
      "pos": "RB",
-     "pts": 19.3
+     "pts": 19.4
     },
     {
      "name": "Tetairoa McMillan",
@@ -230,12 +230,12 @@
     {
      "name": "Bo Nix",
      "pos": "QB",
-     "pts": 14.2
+     "pts": 14.3
     },
     {
      "name": "Ka'imi Fairbairn",
      "pos": "K",
-     "pts": 7.5
+     "pts": 7.6
     },
     {
      "name": "Harold Fannin Jr.",
@@ -250,7 +250,7 @@
     {
      "name": "Tony Pollard",
      "pos": "FLEX",
-     "pts": 13.7
+     "pts": 13.8
     }
    ]
   },
@@ -265,15 +265,15 @@
    "projPerGame": 119.3,
    "strength": 116.3,
    "projWins": 9.54,
-   "playoff": 0.6246,
-   "final": 0.2107,
-   "champ": 0.0672,
-   "topSeed": 0.0191,
+   "playoff": 0.6248,
+   "final": 0.2098,
+   "champ": 0.0669,
+   "topSeed": 0.0187,
    "lineup": [
     {
      "name": "Brock Purdy",
      "pos": "QB",
-     "pts": 20.4
+     "pts": 20.5
     },
     {
      "name": "Javonte Williams",
@@ -325,10 +325,10 @@
    "wins": 4,
    "losses": 7,
    "pf": 1313.48,
-   "projPerGame": 124.4,
-   "strength": 121.5,
+   "projPerGame": 124.5,
+   "strength": 121.6,
    "projWins": 6.11,
-   "playoff": 0.0077,
+   "playoff": 0.0078,
    "final": 0.0027,
    "champ": 0.0014,
    "topSeed": 0.0,
@@ -390,8 +390,8 @@
    "pf": 1253.2,
    "projPerGame": 114.1,
    "strength": 114.0,
-   "projWins": 6.11,
-   "playoff": 0.0029,
+   "projWins": 6.09,
+   "playoff": 0.0028,
    "final": 0.0007,
    "champ": 0.0003,
    "topSeed": 0.0,
@@ -409,7 +409,7 @@
     {
      "name": "James Cook III",
      "pos": "RB",
-     "pts": 16.7
+     "pts": 16.8
     },
     {
      "name": "Josh Allen",
@@ -424,7 +424,7 @@
     {
      "name": "Broncos D/ST",
      "pos": "D/ST",
-     "pts": 8.5
+     "pts": 8.4
     },
     {
      "name": "Brenton Strange",
@@ -439,7 +439,7 @@
     {
      "name": "Matthew Golden",
      "pos": "FLEX",
-     "pts": 12.4
+     "pts": 12.5
     }
    ]
   },
@@ -451,7 +451,7 @@
    "wins": 4,
    "losses": 7,
    "pf": 1185.16,
-   "projPerGame": 107.8,
+   "projPerGame": 107.9,
    "strength": 107.8,
    "projWins": 5.17,
    "playoff": 0.0002,
@@ -497,7 +497,7 @@
     {
      "name": "Bengals D/ST",
      "pos": "D/ST",
-     "pts": 3.0
+     "pts": 3.1
     },
     {
      "name": "Ollie Gordon II",
@@ -514,9 +514,9 @@
    "wins": 2,
    "losses": 9,
    "pf": 1123.48,
-   "projPerGame": 118.0,
-   "strength": 108.8,
-   "projWins": 3.64,
+   "projPerGame": 118.2,
+   "strength": 108.9,
+   "projWins": 3.62,
    "playoff": 0.0,
    "final": 0.0,
    "champ": 0.0,
@@ -565,7 +565,7 @@
     {
      "name": "Rashee Rice",
      "pos": "FLEX",
-     "pts": 10.9
+     "pts": 11.0
     }
    ]
   },
@@ -577,18 +577,23 @@
    "wins": 3,
    "losses": 8,
    "pf": 1030.88,
-   "projPerGame": 89.3,
-   "strength": 91.9,
-   "projWins": 3.92,
+   "projPerGame": 92.5,
+   "strength": 93.2,
+   "projWins": 3.97,
    "playoff": 0.0,
    "final": 0.0,
    "champ": 0.0,
    "topSeed": 0.0,
    "lineup": [
     {
-     "name": "Aaron Rodgers",
+     "name": "Antonio Williams",
+     "pos": "WR",
+     "pts": 15.2
+    },
+    {
+     "name": "Jordan Love",
      "pos": "QB",
-     "pts": 15.0
+     "pts": 12.1
     },
     {
      "name": "Cam Skattebo",
@@ -616,14 +621,9 @@
      "pts": 8.2
     },
     {
-     "name": "Tank Dell",
-     "pos": "WR",
-     "pts": 7.0
-    },
-    {
-     "name": "Lions D/ST",
+     "name": "Commanders D/ST",
      "pos": "D/ST",
-     "pts": 5.5
+     "pts": 3.9
     },
     {
      "name": "Travis Etienne Jr.",
@@ -637,7 +637,7 @@
   {
    "home": 2,
    "away": 11,
-   "homeWin": 0.5728
+   "homeWin": 0.5733
   },
   {
    "home": 3,
@@ -647,7 +647,7 @@
   {
    "home": 12,
    "away": 9,
-   "homeWin": 0.0827
+   "homeWin": 0.0882
   },
   {
    "home": 6,
@@ -657,8 +657,8 @@
   {
    "home": 5,
    "away": 13,
-   "homeWin": 0.3385
+   "homeWin": 0.3388
   }
  ],
- "generated": "2026-11-25T10:23+00:00"
+ "generated": "2026-11-25T20:07+00:00"
 }
