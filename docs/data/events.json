@@ -15456,5 +15456,90 @@
     "after": 0.1276
    }
   ]
+ },
+ {
+  "id": "injury-3929630-2026-11-25T01:30:00Z",
+  "kind": "I",
+  "at": "2026-11-25T01:30:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Saquon Barkley is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0011,
+    "after": 0.0014
+   }
+  ]
+ },
+ {
+  "id": "injury-4430027-2026-11-25T01:30:00Z",
+  "kind": "I",
+  "at": "2026-11-25T01:30:00Z",
+  "teams": [
+   1
+  ],
+  "text": "Knights who say Ni: Sam LaPorta is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.0672,
+    "after": 0.0672
+   }
+  ]
+ },
+ {
+  "id": "injury-3121023-2026-11-25T01:30:00Z",
+  "kind": "I",
+  "at": "2026-11-25T01:30:00Z",
+  "teams": [
+   6
+  ],
+  "text": "The Le Chable Dolphins: Dallas Goedert is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.0,
+    "after": 0.0001
+   }
+  ]
+ },
+ {
+  "id": "injury-4832800-2026-11-25T01:30:00Z",
+  "kind": "I",
+  "at": "2026-11-25T01:30:00Z",
+  "teams": [
+   12
+  ],
+  "text": "Cardigan's Boys: Denzel Boston is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 12,
+    "before": 0.0,
+    "after": 0.0
+   }
+  ]
+ },
+ {
+  "id": "injury-4241985-2026-11-25T01:30:00Z",
+  "kind": "I",
+  "at": "2026-11-25T01:30:00Z",
+  "teams": [
+   1
+  ],
+  "text": "Knights who say Ni: J.K. Dobbins is now listed as out.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.0672,
+    "after": 0.0672
+   }
+  ]
  }
 ]

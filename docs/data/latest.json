@@ -10,13 +10,13 @@
    "wins": 9,
    "losses": 2,
    "pf": 1636.18,
-   "projPerGame": 145.1,
-   "strength": 147.2,
-   "projWins": 12.16,
+   "projPerGame": 144.9,
+   "strength": 147.1,
+   "projWins": 12.15,
    "playoff": 1.0,
-   "final": 0.7484,
-   "champ": 0.535,
-   "topSeed": 0.9711,
+   "final": 0.746,
+   "champ": 0.5326,
+   "topSeed": 0.9688,
    "lineup": [
     {
      "name": "CeeDee Lamb",
@@ -26,12 +26,12 @@
     {
      "name": "C.J. Stroud",
      "pos": "QB",
-     "pts": 19.5
+     "pts": 19.4
     },
     {
      "name": "Travis Kelce",
      "pos": "TE",
-     "pts": 17.6
+     "pts": 17.5
     },
     {
      "name": "Chris Olave",
@@ -46,7 +46,7 @@
     {
      "name": "Tyler Bass",
      "pos": "K",
-     "pts": 13.6
+     "pts": 13.5
     },
     {
      "name": "D'Andre Swift",
@@ -61,7 +61,7 @@
     {
      "name": "Amon-Ra St. Brown",
      "pos": "FLEX",
-     "pts": 15.9
+     "pts": 16.0
     }
    ]
   },
@@ -73,23 +73,23 @@
    "wins": 7,
    "losses": 4,
    "pf": 1350.96,
-   "projPerGame": 131.1,
-   "strength": 126.3,
-   "projWins": 9.36,
-   "playoff": 0.7703,
-   "final": 0.3503,
-   "champ": 0.1385,
-   "topSeed": 0.0039,
+   "projPerGame": 130.9,
+   "strength": 126.2,
+   "projWins": 9.37,
+   "playoff": 0.7732,
+   "final": 0.3583,
+   "champ": 0.1446,
+   "topSeed": 0.0031,
    "lineup": [
     {
      "name": "Chuba Hubbard",
      "pos": "RB",
-     "pts": 21.1
+     "pts": 21.2
     },
     {
      "name": "Joe Burrow",
      "pos": "QB",
-     "pts": 21.0
+     "pts": 20.7
     },
     {
      "name": "Malik Nabers",
@@ -124,7 +124,70 @@
     {
      "name": "Bijan Robinson",
      "pos": "FLEX",
-     "pts": 14.1
+     "pts": 14.0
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "name": "Sabre Raiders",
+   "abbrev": "TM2",
+   "logo": "https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/85dd1190-a69d-11f1-b3fa-cd9add676ca8",
+   "wins": 7,
+   "losses": 4,
+   "pf": 1365.96,
+   "projPerGame": 120.9,
+   "strength": 122.8,
+   "projWins": 9.55,
+   "playoff": 0.8434,
+   "final": 0.3516,
+   "champ": 0.1277,
+   "topSeed": 0.005,
+   "lineup": [
+    {
+     "name": "Jonah Coleman",
+     "pos": "RB",
+     "pts": 23.7
+    },
+    {
+     "name": "Bucky Irving",
+     "pos": "RB",
+     "pts": 18.9
+    },
+    {
+     "name": "Bryce Young",
+     "pos": "QB",
+     "pts": 15.1
+    },
+    {
+     "name": "Jaxon Smith-Njigba",
+     "pos": "WR",
+     "pts": 15.1
+    },
+    {
+     "name": "Chris Boswell",
+     "pos": "K",
+     "pts": 11.1
+    },
+    {
+     "name": "Chig Okonkwo",
+     "pos": "TE",
+     "pts": 9.5
+    },
+    {
+     "name": "Garrett Wilson",
+     "pos": "WR",
+     "pts": 9.4
+    },
+    {
+     "name": "Giants D/ST",
+     "pos": "D/ST",
+     "pts": 5.7
+    },
+    {
+     "name": "Luther Burden III",
+     "pos": "FLEX",
+     "pts": 8.2
     }
    ]
   },
@@ -136,13 +199,13 @@
    "wins": 7,
    "losses": 4,
    "pf": 1336.86,
-   "projPerGame": 130.0,
+   "projPerGame": 130.1,
    "strength": 125.1,
    "projWins": 9.43,
-   "playoff": 0.7525,
-   "final": 0.3369,
-   "champ": 0.1303,
-   "topSeed": 0.0037,
+   "playoff": 0.7482,
+   "final": 0.3298,
+   "champ": 0.1262,
+   "topSeed": 0.004,
    "lineup": [
     {
      "name": "Jahmyr Gibbs",
@@ -172,7 +235,7 @@
     {
      "name": "Ka'imi Fairbairn",
      "pos": "K",
-     "pts": 7.6
+     "pts": 7.5
     },
     {
      "name": "Harold Fannin Jr.",
@@ -182,75 +245,12 @@
     {
      "name": "Steelers D/ST",
      "pos": "D/ST",
-     "pts": 6.7
+     "pts": 6.8
     },
     {
      "name": "Tony Pollard",
      "pos": "FLEX",
-     "pts": 13.8
-    }
-   ]
-  },
-  {
-   "id": 2,
-   "name": "Sabre Raiders",
-   "abbrev": "TM2",
-   "logo": "https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/85dd1190-a69d-11f1-b3fa-cd9add676ca8",
-   "wins": 7,
-   "losses": 4,
-   "pf": 1365.96,
-   "projPerGame": 121.2,
-   "strength": 122.9,
-   "projWins": 9.56,
-   "playoff": 0.84,
-   "final": 0.3542,
-   "champ": 0.1276,
-   "topSeed": 0.0053,
-   "lineup": [
-    {
-     "name": "Jonah Coleman",
-     "pos": "RB",
-     "pts": 23.7
-    },
-    {
-     "name": "Bucky Irving",
-     "pos": "RB",
-     "pts": 18.9
-    },
-    {
-     "name": "Bryce Young",
-     "pos": "QB",
-     "pts": 15.1
-    },
-    {
-     "name": "Jaxon Smith-Njigba",
-     "pos": "WR",
-     "pts": 15.0
-    },
-    {
-     "name": "Chris Boswell",
-     "pos": "K",
-     "pts": 11.1
-    },
-    {
-     "name": "Chig Okonkwo",
-     "pos": "TE",
-     "pts": 9.8
-    },
-    {
-     "name": "Garrett Wilson",
-     "pos": "WR",
-     "pts": 9.4
-    },
-    {
-     "name": "Giants D/ST",
-     "pos": "D/ST",
-     "pts": 5.7
-    },
-    {
-     "name": "Luther Burden III",
-     "pos": "FLEX",
-     "pts": 8.2
+     "pts": 13.7
     }
    ]
   },
@@ -262,13 +262,13 @@
    "wins": 8,
    "losses": 3,
    "pf": 1254.98,
-   "projPerGame": 119.5,
-   "strength": 116.4,
+   "projPerGame": 119.3,
+   "strength": 116.3,
    "projWins": 9.54,
-   "playoff": 0.6266,
-   "final": 0.2074,
+   "playoff": 0.6246,
+   "final": 0.2107,
    "champ": 0.0672,
-   "topSeed": 0.0159,
+   "topSeed": 0.0191,
    "lineup": [
     {
      "name": "Brock Purdy",
@@ -288,12 +288,12 @@
     {
      "name": "Jameson Williams",
      "pos": "WR",
-     "pts": 14.9
+     "pts": 15.0
     },
     {
      "name": "Chase Brown",
      "pos": "RB",
-     "pts": 12.3
+     "pts": 12.0
     },
     {
      "name": "Sam LaPorta",
@@ -325,12 +325,12 @@
    "wins": 4,
    "losses": 7,
    "pf": 1313.48,
-   "projPerGame": 125.0,
-   "strength": 121.7,
-   "projWins": 6.12,
-   "playoff": 0.0069,
-   "final": 0.0021,
-   "champ": 0.0011,
+   "projPerGame": 124.4,
+   "strength": 121.5,
+   "projWins": 6.11,
+   "playoff": 0.0077,
+   "final": 0.0027,
+   "champ": 0.0014,
    "topSeed": 0.0,
    "lineup": [
     {
@@ -346,7 +346,7 @@
     {
      "name": "Ja'Marr Chase",
      "pos": "WR",
-     "pts": 16.9
+     "pts": 16.5
     },
     {
      "name": "George Kittle",
@@ -388,11 +388,11 @@
    "wins": 4,
    "losses": 7,
    "pf": 1253.2,
-   "projPerGame": 114.3,
-   "strength": 114.1,
-   "projWins": 6.1,
-   "playoff": 0.0035,
-   "final": 0.0008,
+   "projPerGame": 114.1,
+   "strength": 114.0,
+   "projWins": 6.11,
+   "playoff": 0.0029,
+   "final": 0.0007,
    "champ": 0.0003,
    "topSeed": 0.0,
    "lineup": [
@@ -409,7 +409,7 @@
     {
      "name": "James Cook III",
      "pos": "RB",
-     "pts": 16.8
+     "pts": 16.7
     },
     {
      "name": "Josh Allen",
@@ -444,6 +444,69 @@
    ]
   },
   {
+   "id": 6,
+   "name": "The Le Chable Dolphins",
+   "abbrev": "TM6",
+   "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/14.svg",
+   "wins": 4,
+   "losses": 7,
+   "pf": 1185.16,
+   "projPerGame": 107.8,
+   "strength": 107.8,
+   "projWins": 5.17,
+   "playoff": 0.0002,
+   "final": 0.0001,
+   "champ": 0.0001,
+   "topSeed": 0.0,
+   "lineup": [
+    {
+     "name": "Dak Prescott",
+     "pos": "QB",
+     "pts": 23.6
+    },
+    {
+     "name": "Breece Hall",
+     "pos": "RB",
+     "pts": 14.5
+    },
+    {
+     "name": "Trey McBride",
+     "pos": "TE",
+     "pts": 13.2
+    },
+    {
+     "name": "Omarion Hampton",
+     "pos": "RB",
+     "pts": 10.7
+    },
+    {
+     "name": "Stefon Diggs",
+     "pos": "WR",
+     "pts": 10.2
+    },
+    {
+     "name": "Jaylen Waddle",
+     "pos": "WR",
+     "pts": 9.7
+    },
+    {
+     "name": "Evan McPherson",
+     "pos": "K",
+     "pts": 8.8
+    },
+    {
+     "name": "Bengals D/ST",
+     "pos": "D/ST",
+     "pts": 3.0
+    },
+    {
+     "name": "Ollie Gordon II",
+     "pos": "FLEX",
+     "pts": 10.1
+    }
+   ]
+  },
+  {
    "id": 5,
    "name": "Love hurts",
    "abbrev": "TM5",
@@ -453,7 +516,7 @@
    "pf": 1123.48,
    "projPerGame": 118.0,
    "strength": 108.8,
-   "projWins": 3.63,
+   "projWins": 3.64,
    "playoff": 0.0,
    "final": 0.0,
    "champ": 0.0,
@@ -497,75 +560,12 @@
     {
      "name": "Bills D/ST",
      "pos": "D/ST",
-     "pts": 7.5
+     "pts": 7.6
     },
     {
      "name": "Rashee Rice",
      "pos": "FLEX",
-     "pts": 11.0
-    }
-   ]
-  },
-  {
-   "id": 6,
-   "name": "The Le Chable Dolphins",
-   "abbrev": "TM6",
-   "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/14.svg",
-   "wins": 4,
-   "losses": 7,
-   "pf": 1185.16,
-   "projPerGame": 108.9,
-   "strength": 108.2,
-   "projWins": 5.18,
-   "playoff": 0.0002,
-   "final": 0.0,
-   "champ": 0.0,
-   "topSeed": 0.0,
-   "lineup": [
-    {
-     "name": "Dak Prescott",
-     "pos": "QB",
-     "pts": 23.6
-    },
-    {
-     "name": "Breece Hall",
-     "pos": "RB",
-     "pts": 14.5
-    },
-    {
-     "name": "Trey McBride",
-     "pos": "TE",
-     "pts": 13.2
-    },
-    {
-     "name": "Stefon Diggs",
-     "pos": "WR",
-     "pts": 10.8
-    },
-    {
-     "name": "Omarion Hampton",
-     "pos": "RB",
-     "pts": 10.7
-    },
-    {
-     "name": "Jaylen Waddle",
-     "pos": "WR",
-     "pts": 9.7
-    },
-    {
-     "name": "Evan McPherson",
-     "pos": "K",
-     "pts": 9.0
-    },
-    {
-     "name": "Bengals D/ST",
-     "pos": "D/ST",
-     "pts": 3.4
-    },
-    {
-     "name": "Ollie Gordon II",
-     "pos": "FLEX",
-     "pts": 10.1
+     "pts": 10.9
     }
    ]
   },
@@ -578,8 +578,8 @@
    "losses": 8,
    "pf": 1030.88,
    "projPerGame": 89.3,
-   "strength": 91.8,
-   "projWins": 3.93,
+   "strength": 91.9,
+   "projWins": 3.92,
    "playoff": 0.0,
    "final": 0.0,
    "champ": 0.0,
@@ -588,7 +588,7 @@
     {
      "name": "Aaron Rodgers",
      "pos": "QB",
-     "pts": 14.9
+     "pts": 15.0
     },
     {
      "name": "Cam Skattebo",
@@ -628,7 +628,7 @@
     {
      "name": "Travis Etienne Jr.",
      "pos": "FLEX",
-     "pts": 9.7
+     "pts": 9.8
     }
    ]
   }
@@ -637,28 +637,28 @@
   {
    "home": 2,
    "away": 11,
-   "homeWin": 0.5787
+   "homeWin": 0.5728
   },
   {
    "home": 3,
    "away": 1,
-   "homeWin": 0.5951
+   "homeWin": 0.5927
   },
   {
    "home": 12,
    "away": 9,
-   "homeWin": 0.0812
+   "homeWin": 0.0827
   },
   {
    "home": 6,
    "away": 4,
-   "homeWin": 0.3562
+   "homeWin": 0.352
   },
   {
    "home": 5,
    "away": 13,
-   "homeWin": 0.3317
+   "homeWin": 0.3385
   }
  ],
- "generated": "2026-11-24T17:29+00:00"
+ "generated": "2026-11-25T01:33+00:00"
 }

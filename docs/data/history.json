@@ -66196,6 +66196,97 @@
      }
     }
    }
+  },
+  {
+   "date": "2026-11-25",
+   "label": "Week 12 \u00b7 01:30 UTC",
+   "week": 12,
+   "backfilled": false,
+   "teams": {
+    "9": {
+     "champ": 0.5326,
+     "playoff": 1.0,
+     "projWins": 12.15
+    },
+    "13": {
+     "champ": 0.1446,
+     "playoff": 0.7732,
+     "projWins": 9.37
+    },
+    "2": {
+     "champ": 0.1277,
+     "playoff": 0.8434,
+     "projWins": 9.55
+    },
+    "3": {
+     "champ": 0.1262,
+     "playoff": 0.7482,
+     "projWins": 9.43
+    },
+    "1": {
+     "champ": 0.0672,
+     "playoff": 0.6246,
+     "projWins": 9.54
+    },
+    "4": {
+     "champ": 0.0014,
+     "playoff": 0.0077,
+     "projWins": 6.11
+    },
+    "11": {
+     "champ": 0.0003,
+     "playoff": 0.0029,
+     "projWins": 6.11
+    },
+    "6": {
+     "champ": 0.0001,
+     "playoff": 0.0002,
+     "projWins": 5.17
+    },
+    "5": {
+     "champ": 0.0,
+     "playoff": 0.0,
+     "projWins": 3.64
+    },
+    "12": {
+     "champ": 0.0,
+     "playoff": 0.0,
+     "projWins": 3.92
+    }
+   },
+   "at": "2026-11-25T01:30:00Z",
+   "changes": {
+    "13": {
+     "cause": "external_opportunity",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.0061,
+     "text": "Bijan Robinson\u2019s forecast moved from 17.7264 to 17.7393 fantasy points, raising their expected scoring contribution.",
+     "facts": [
+      "projection: Bijan Robinson 17.72635943 -> 17.73927667",
+      "projection: Derrick Henry 14.46607307 -> 14.48147266",
+      "projection: Joe Burrow 24.84293607 -> 24.2980471",
+      "projection: Malik Nabers 16.47793258 -> 16.48354836",
+      "projection: Drake London 13.96594983 -> 13.97283557",
+      "projection: Zay Flowers 14.60997076 -> 14.61748968",
+      "projection: Chuba Hubbard 17.00698485 -> 17.02019277",
+      "projection: Cam Little 12.54592046 -> 12.5544244"
+     ],
+     "showTooltip": true
+    }
+   },
+   "explanations": {
+    "13": {
+     "champ": {
+      "cause": "external_opportunity",
+      "text": "Bijan Robinson\u2019s forecast moved from 17.7264 to 17.7393 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.0061,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    }
+   }
   }
  ]
 }
