@@ -15947,5 +15947,135 @@
     "after": 0.0963
    }
   ]
+ },
+ {
+  "id": "injury-4429615-2026-11-26T21:30:00Z",
+  "kind": "I",
+  "at": "2026-11-26T21:30:00Z",
+  "teams": [
+   13
+  ],
+  "text": "Salisbury Screamers: Zay Flowers is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 13,
+    "before": 0.1399,
+    "after": 0.1031
+   }
+  ]
+ },
+ {
+  "id": "injury-4432620-2026-11-26T21:30:00Z",
+  "kind": "I",
+  "at": "2026-11-26T21:30:00Z",
+  "teams": [
+   1
+  ],
+  "text": "Knights who say Ni: Parker Washington is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.0963,
+    "after": 0.0767
+   }
+  ]
+ },
+ {
+  "id": "injury-4723086-2026-11-26T21:30:00Z",
+  "kind": "I",
+  "at": "2026-11-26T21:30:00Z",
+  "teams": [
+   5
+  ],
+  "text": "Love hurts: Colston Loveland is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 5,
+    "before": 0.0,
+    "after": 0.0
+   }
+  ]
+ },
+ {
+  "id": "injury-2976212-2026-11-26T21:30:00Z",
+  "kind": "I",
+  "at": "2026-11-26T21:30:00Z",
+  "teams": [
+   6
+  ],
+  "text": "The Le Chable Dolphins: Stefon Diggs is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.0,
+    "after": 0.0
+   }
+  ]
+ },
+ {
+  "id": "injury-4035687-2026-11-26T21:30:00Z",
+  "kind": "I",
+  "at": "2026-11-26T21:30:00Z",
+  "teams": [
+   13
+  ],
+  "text": "Salisbury Screamers: Michael Pittman Jr. is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 13,
+    "before": 0.1399,
+    "after": 0.1031
+   }
+  ]
+ },
+ {
+  "id": "injury-3117256-2026-11-26T21:30:00Z",
+  "kind": "I",
+  "at": "2026-11-26T21:30:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: Dalton Schultz is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0001,
+    "after": 0.0
+   }
+  ]
+ },
+ {
+  "id": "trade-4c4a75c0-66df-4476-878d-991376673553",
+  "kind": "T",
+  "at": "2026-11-26T21:30:00Z",
+  "teams": [
+   6
+  ],
+  "text": "Added Dylan Sampson (RB); dropped Jalen Coker (WR).",
+  "moves": [
+   {
+    "player": "Dylan Sampson",
+    "position": "RB",
+    "action": "add"
+   },
+   {
+    "player": "Jalen Coker",
+    "position": "WR",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.0,
+    "after": 0.0
+   }
+  ]
  }
 ]
