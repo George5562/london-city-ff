@@ -66606,6 +66606,228 @@
      }
     }
    }
+  },
+  {
+   "date": "2026-11-26",
+   "label": "Week 12 \u00b7 12:00 UTC",
+   "week": 12,
+   "backfilled": false,
+   "teams": {
+    "9": {
+     "champ": 0.5198,
+     "playoff": 1.0,
+     "projWins": 11.97
+    },
+    "13": {
+     "champ": 0.1399,
+     "playoff": 0.6766,
+     "projWins": 9.05
+    },
+    "2": {
+     "champ": 0.1301,
+     "playoff": 0.8823,
+     "projWins": 9.74
+    },
+    "3": {
+     "champ": 0.1121,
+     "playoff": 0.6376,
+     "projWins": 9.15
+    },
+    "1": {
+     "champ": 0.0963,
+     "playoff": 0.7899,
+     "projWins": 9.93
+    },
+    "4": {
+     "champ": 0.0018,
+     "playoff": 0.0122,
+     "projWins": 6.23
+    },
+    "11": {
+     "champ": 0.0001,
+     "playoff": 0.0014,
+     "projWins": 5.83
+    },
+    "5": {
+     "champ": 0.0,
+     "playoff": 0.0,
+     "projWins": 3.88
+    },
+    "6": {
+     "champ": 0.0,
+     "playoff": 0.0001,
+     "projWins": 5.09
+    },
+    "12": {
+     "champ": 0.0,
+     "playoff": 0.0,
+     "projWins": 4.12
+    }
+   },
+   "at": "2026-11-26T12:00:00Z",
+   "changes": {
+    "9": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0146,
+     "text": "CeeDee Lamb\u2019s forecast moved from 20.3489 to 20.3449 fantasy points, lowering their expected scoring contribution.",
+     "facts": [
+      "projection: CeeDee Lamb 20.34888383 -> 20.34485644",
+      "projection: Amon-Ra St. Brown 17.76802003 -> 17.77446765",
+      "projection: C.J. Stroud 21.40128964 -> 21.40128648",
+      "projection: Jakobi Meyers 12.39483844 -> 12.39483763",
+      "actual: Brandon McManus 9.0 -> 17.0"
+     ],
+     "showTooltip": true
+    },
+    "13": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.0092,
+     "text": "Bijan Robinson\u2019s forecast moved from 17.7393 to 17.7393 fantasy points, lowering their expected scoring contribution.",
+     "facts": [
+      "projection: Bijan Robinson 17.73929098 -> 17.73927667",
+      "projection: Derrick Henry 14.48257993 -> 14.48907221",
+      "projection: Zay Flowers 14.61624665 -> 14.63719405",
+      "projection: Chuba Hubbard 17.02019277 -> 17.02017206",
+      "projection: Blake Corum 13.8214555 -> 13.82033861",
+      "actual: Blake Corum 4.0 -> 28.5",
+      "projection: Khalil Shakir 8.93708894 -> 8.9370897",
+      "projection: Courtland Sutton 7.43695938 -> 7.43701863"
+     ],
+     "showTooltip": true
+    },
+    "3": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0131,
+     "text": "Jahmyr Gibbs\u2019s forecast moved from 25.6042 to 25.6078 fantasy points, raising their expected scoring contribution.",
+     "facts": [
+      "projection: Jahmyr Gibbs 25.60416722 -> 25.60779575",
+      "projection: Ashton Jeanty 15.34774806 -> 15.34769144",
+      "projection: DeVonta Smith 14.39213085 -> 14.39032355",
+      "projection: DK Metcalf 9.89870783 -> 9.90032915",
+      "projection: Matthew Stafford 15.29998287 -> 15.26463197",
+      "actual: Matthew Stafford 3.92 -> 3.6",
+      "projection: Aaron Jones Sr. 10.2894719 -> 10.28944783",
+      "injury: Tyler Higbee ACTIVE -> QUESTIONABLE"
+     ],
+     "showTooltip": true
+    }
+   },
+   "explanations": {
+    "9": {
+     "champ": {
+      "cause": "score_update",
+      "text": "CeeDee Lamb\u2019s forecast moved from 20.3489 to 20.3449 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.0146,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "13": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Bijan Robinson\u2019s forecast moved from 17.7393 to 17.7393 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.0092,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Bijan Robinson\u2019s forecast moved from 17.7393 to 17.7393 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.0212,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "2": {
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0217,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.12,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "3": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Jahmyr Gibbs\u2019s forecast moved from 25.6042 to 25.6078 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.0131,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Jahmyr Gibbs\u2019s forecast moved from 25.6042 to 25.6078 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.063,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Jahmyr Gibbs\u2019s forecast moved from 25.6042 to 25.6078 fantasy points, raising their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": -0.12,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "1": {
+     "champ": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0202,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "playoff": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.0647,
+      "auditVersion": 4,
+      "showTooltip": false
+     },
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.22,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "11": {
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.12,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    }
+   }
   }
  ]
 }

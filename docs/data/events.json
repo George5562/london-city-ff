@@ -15863,5 +15863,89 @@
     "after": 0.0761
    }
   ]
+ },
+ {
+  "id": "trade-6fe7613d-62ec-45f5-bcca-dc57f64c2aab",
+  "kind": "T",
+  "at": "2026-11-26T12:00:00Z",
+  "teams": [
+   1
+  ],
+  "text": "Added Jacory Croskey-Merritt (RB); dropped Alvin Kamara (RB).",
+  "moves": [
+   {
+    "player": "Jacory Croskey-Merritt",
+    "position": "RB",
+    "action": "add"
+   },
+   {
+    "player": "Alvin Kamara",
+    "position": "RB",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.0761,
+    "after": 0.0963
+   }
+  ]
+ },
+ {
+  "id": "trade-2a5a679a-71ae-4f62-b4d9-6e94ab07ab56",
+  "kind": "T",
+  "at": "2026-11-26T12:00:00Z",
+  "teams": [
+   1
+  ],
+  "text": "Added K Andre Szmyt; dropped K Chad Ryland.",
+  "moves": [
+   {
+    "player": "Andre Szmyt",
+    "position": "K",
+    "action": "add"
+   },
+   {
+    "player": "Chad Ryland",
+    "position": "K",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.0761,
+    "after": 0.0963
+   }
+  ]
+ },
+ {
+  "id": "trade-5cf54ee6-8f37-43fe-8cb1-221514b49055",
+  "kind": "T",
+  "at": "2026-11-26T12:00:00Z",
+  "teams": [
+   1
+  ],
+  "text": "Added 49ers D/ST; dropped Chiefs D/ST.",
+  "moves": [
+   {
+    "player": "49ers D/ST",
+    "position": "D/ST",
+    "action": "add"
+   },
+   {
+    "player": "Chiefs D/ST",
+    "position": "D/ST",
+    "action": "drop"
+   }
+  ],
+  "changes": [
+   {
+    "team": 1,
+    "before": 0.0761,
+    "after": 0.0963
+   }
+  ]
  }
 ]
