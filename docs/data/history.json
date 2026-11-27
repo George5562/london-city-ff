@@ -67035,6 +67035,263 @@
      }
     }
    }
+  },
+  {
+   "date": "2026-11-27",
+   "label": "Week 12 \u00b7 04:00 UTC",
+   "week": 12,
+   "backfilled": false,
+   "teams": {
+    "9": {
+     "champ": 0.552,
+     "playoff": 1.0,
+     "projWins": 12.23
+    },
+    "3": {
+     "champ": 0.1812,
+     "playoff": 0.8595,
+     "projWins": 9.73
+    },
+    "2": {
+     "champ": 0.1118,
+     "playoff": 0.9075,
+     "projWins": 9.87
+    },
+    "13": {
+     "champ": 0.0838,
+     "playoff": 0.6132,
+     "projWins": 9.08
+    },
+    "1": {
+     "champ": 0.0709,
+     "playoff": 0.617,
+     "projWins": 9.58
+    },
+    "4": {
+     "champ": 0.0004,
+     "playoff": 0.0026,
+     "projWins": 5.81
+    },
+    "5": {
+     "champ": 0.0,
+     "playoff": 0.0,
+     "projWins": 3.74
+    },
+    "6": {
+     "champ": 0.0,
+     "playoff": 0.0001,
+     "projWins": 5.37
+    },
+    "11": {
+     "champ": 0.0,
+     "playoff": 0.0001,
+     "projWins": 5.63
+    },
+    "12": {
+     "champ": 0.0,
+     "playoff": 0.0,
+     "projWins": 3.97
+    }
+   },
+   "at": "2026-11-27T04:00:00Z",
+   "changes": {
+    "9": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "model",
+     "delta": 0.0214,
+     "text": "CeeDee Lamb scored 20.4 fantasy points, while Emmett Johnson added 19.1; those performances update the matchup outlook, though the link to any individual fantasy-team result is unknown.",
+     "facts": [
+      "actual: CeeDee Lamb 0.0 -> 20.4",
+      "actual: Kenneth Walker III None -> 0.0",
+      "actual: Brandon Aubrey 0.0 -> 9.0",
+      "actual: Travis Kelce None -> 11.1",
+      "actual: Emmett Johnson None -> 19.1",
+      "injury: Caleb Williams ACTIVE -> QUESTIONABLE",
+      "actual: Tyler Bass None -> 6.0",
+      "injury: Dalton Kincaid QUESTIONABLE -> ACTIVE"
+     ],
+     "showTooltip": true
+    },
+    "3": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.0242,
+     "text": "DeVonta Smith now has 43 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "injury: Saquon Barkley ACTIVE -> QUESTIONABLE",
+      "injury: DeVonta Smith ACTIVE -> QUESTIONABLE",
+      "actual: DeVonta Smith 0.0 -> 43.0",
+      "injury: Harold Fannin Jr. QUESTIONABLE -> ACTIVE",
+      "injury: Caleb Williams ACTIVE -> QUESTIONABLE",
+      "injury: Dallas Goedert ACTIVE -> QUESTIONABLE",
+      "actual: Harrison Butker None -> 3.0",
+      "actual: Cowboys D/ST 10.0 -> 3.0"
+     ],
+     "showTooltip": true
+    },
+    "13": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0193,
+     "text": "Khalil Shakir now has 6.3 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "injury: Caleb Williams ACTIVE -> QUESTIONABLE",
+      "injury: Dalton Kincaid QUESTIONABLE -> ACTIVE",
+      "actual: Khalil Shakir None -> 6.3",
+      "actual: Bears D/ST -5.0 -> -4.0",
+      "injury: Skyler Bell ACTIVE -> OUT",
+      "injury: Tyler Badie INJURY_RESERVE -> QUESTIONABLE"
+     ],
+     "showTooltip": true
+    },
+    "1": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": -0.0058,
+     "text": "Javonte Williams now has 33.3 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+     "facts": [
+      "actual: Javonte Williams 2.2 -> 33.3",
+      "injury: Harold Fannin Jr. QUESTIONABLE -> ACTIVE",
+      "injury: Tyler Badie INJURY_RESERVE -> QUESTIONABLE",
+      "injury: Blake Whiteheart QUESTIONABLE -> ACTIVE"
+     ],
+     "showTooltip": true
+    }
+   },
+   "explanations": {
+    "9": {
+     "champ": {
+      "cause": "score_update",
+      "text": "CeeDee Lamb scored 20.4 fantasy points, while Emmett Johnson added 19.1; those performances update the matchup outlook, though the link to any individual fantasy-team result is unknown.",
+      "confidence": "recorded explanation",
+      "delta": 0.0214,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "CeeDee Lamb scored 20.4 fantasy points, while Emmett Johnson added 19.1; those performances update the matchup outlook, though the link to any individual fantasy-team result is unknown.",
+      "confidence": "recorded explanation",
+      "delta": 0.12,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "3": {
+     "champ": {
+      "cause": "score_update",
+      "text": "DeVonta Smith now has 43 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.0242,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "DeVonta Smith now has 43 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.1044,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "DeVonta Smith now has 43 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": 0.24,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "2": {
+     "champ": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.02,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "13": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Khalil Shakir now has 6.3 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.0193,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Khalil Shakir now has 6.3 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.0146,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "1": {
+     "champ": {
+      "cause": "score_update",
+      "text": "Javonte Williams now has 33.3 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.0058,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "playoff": {
+      "cause": "score_update",
+      "text": "Javonte Williams now has 33.3 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.0832,
+      "auditVersion": 4,
+      "showTooltip": true
+     },
+     "projWins": {
+      "cause": "score_update",
+      "text": "Javonte Williams now has 33.3 fantasy points; scoring on the field updates the matchup outlook and playoff race.",
+      "confidence": "recorded explanation",
+      "delta": -0.22,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    },
+    "4": {
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.41,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "6": {
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": 0.41,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    },
+    "12": {
+     "projWins": {
+      "cause": "unresolved",
+      "text": "No confirmed roster move, injury update or result explains this change.",
+      "confidence": "cause unverified",
+      "delta": -0.14,
+      "auditVersion": 4,
+      "showTooltip": false
+     }
+    }
+   }
   }
  ]
 }

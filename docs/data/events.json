@@ -16077,5 +16077,107 @@
     "after": 0.0
    }
   ]
+ },
+ {
+  "id": "injury-3929630-2026-11-27T04:00:00Z",
+  "kind": "I",
+  "at": "2026-11-27T04:00:00Z",
+  "teams": [
+   4
+  ],
+  "text": "Wiltshire Warriors: Saquon Barkley is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 4,
+    "before": 0.0008,
+    "after": 0.0004
+   }
+  ]
+ },
+ {
+  "id": "injury-4241478-2026-11-27T04:00:00Z",
+  "kind": "I",
+  "at": "2026-11-27T04:00:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Goats: DeVonta Smith is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.157,
+    "after": 0.1812
+   }
+  ]
+ },
+ {
+  "id": "injury-5083076-2026-11-27T04:00:00Z",
+  "kind": "I",
+  "at": "2026-11-27T04:00:00Z",
+  "teams": [
+   3
+  ],
+  "text": "Goats: Harold Fannin Jr. is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 3,
+    "before": 0.157,
+    "after": 0.1812
+   }
+  ]
+ },
+ {
+  "id": "injury-4431611-2026-11-27T04:00:00Z",
+  "kind": "I",
+  "at": "2026-11-27T04:00:00Z",
+  "teams": [
+   2
+  ],
+  "text": "Sabre Raiders: Caleb Williams is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 2,
+    "before": 0.1318,
+    "after": 0.1118
+   }
+  ]
+ },
+ {
+  "id": "injury-4385690-2026-11-27T04:00:00Z",
+  "kind": "I",
+  "at": "2026-11-27T04:00:00Z",
+  "teams": [
+   11
+  ],
+  "text": "Barnow Bills: Dalton Kincaid is now listed as active.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 11,
+    "before": 0.0,
+    "after": 0.0
+   }
+  ]
+ },
+ {
+  "id": "injury-3121023-2026-11-27T04:00:00Z",
+  "kind": "I",
+  "at": "2026-11-27T04:00:00Z",
+  "teams": [
+   6
+  ],
+  "text": "The Le Chable Dolphins: Dallas Goedert is now listed as questionable.",
+  "moves": [],
+  "changes": [
+   {
+    "team": 6,
+    "before": 0.0,
+    "after": 0.0
+   }
+  ]
  }
 ]
