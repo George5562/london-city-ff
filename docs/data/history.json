@@ -67292,6 +67292,97 @@
      }
     }
    }
+  },
+  {
+   "date": "2026-11-27",
+   "label": "Week 12 \u00b7 13:30 UTC",
+   "week": 12,
+   "backfilled": false,
+   "teams": {
+    "9": {
+     "champ": 0.5605,
+     "playoff": 1.0,
+     "projWins": 12.27
+    },
+    "3": {
+     "champ": 0.1782,
+     "playoff": 0.8597,
+     "projWins": 9.73
+    },
+    "2": {
+     "champ": 0.1096,
+     "playoff": 0.9073,
+     "projWins": 9.86
+    },
+    "13": {
+     "champ": 0.0819,
+     "playoff": 0.6141,
+     "projWins": 9.08
+    },
+    "1": {
+     "champ": 0.0695,
+     "playoff": 0.6162,
+     "projWins": 9.58
+    },
+    "4": {
+     "champ": 0.0003,
+     "playoff": 0.0026,
+     "projWins": 5.8
+    },
+    "5": {
+     "champ": 0.0,
+     "playoff": 0.0,
+     "projWins": 3.73
+    },
+    "6": {
+     "champ": 0.0,
+     "playoff": 0.0001,
+     "projWins": 5.37
+    },
+    "11": {
+     "champ": 0.0,
+     "playoff": 0.0001,
+     "projWins": 5.64
+    },
+    "12": {
+     "champ": 0.0,
+     "playoff": 0.0,
+     "projWins": 3.94
+    }
+   },
+   "at": "2026-11-27T13:30:00Z",
+   "changes": {
+    "9": {
+     "cause": "score_update",
+     "classifiedBy": "deterministic",
+     "writtenBy": "template",
+     "delta": 0.0085,
+     "text": "CeeDee Lamb\u2019s forecast moved from 20.3422 to 20.3353 fantasy points, lowering their expected scoring contribution.",
+     "facts": [
+      "projection: CeeDee Lamb 20.34216089 -> 20.33532907",
+      "projection: D'Andre Swift 14.02155166 -> 14.03436916",
+      "projection: Travis Kelce 11.46324105 -> 11.46277316",
+      "projection: Emmett Johnson 17.64167789 -> 17.64138591",
+      "actual: Emmett Johnson 19.1 -> 19.6",
+      "projection: Tyler Warren 7.47417925 -> 7.47417857",
+      "projection: C.J. Stroud 21.40128648 -> 21.40128964",
+      "actual: Tyler Bass 6.0 -> 11.0"
+     ],
+     "showTooltip": true
+    }
+   },
+   "explanations": {
+    "9": {
+     "champ": {
+      "cause": "score_update",
+      "text": "CeeDee Lamb\u2019s forecast moved from 20.3422 to 20.3353 fantasy points, lowering their expected scoring contribution.",
+      "confidence": "recorded explanation",
+      "delta": 0.0085,
+      "auditVersion": 4,
+      "showTooltip": true
+     }
+    }
+   }
   }
  ]
 }
